@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Senors",
-  "generated_at": "2025-09-03T00:45:28.058418Z",
+  "generated_at": "2025-09-03T00:49:11.721349Z",
   "languages": [
     "json",
     "md",
@@ -30,6 +30,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "AI_INDEX.json",
+      "lang": "json",
+      "size": 2397,
+      "hash": "e03773f009fcec8df0e74143bdab41ef88beb9cc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "integration_protocols.json",
@@ -84,7 +96,52 @@
       "hotspots": []
     },
     {
+      "path": "AI_NOTES.md",
+      "lang": "md",
+      "size": 260,
+      "hash": "c7b50663833cb254ab80f0ebe13df2e762083c8a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "FILE_LIST.md",
+      "lang": "md",
+      "size": 2962,
+      "hash": "d26360c021a7770849f74c919b49bcfc034f0b1a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "DIR_LIST.md",
+      "lang": "md",
+      "size": 912,
+      "hash": "3c1e38251d1f7885d3e786aadae2b381455c9fe6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "ai_intergrator.config.yaml",
+      "lang": "yaml",
+      "size": 1222,
+      "hash": "04fe50cc85b2454d81b7cba7031b680072064cf5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "ai_integrator.config.yaml",
       "lang": "yaml",
       "size": 1222,
       "hash": "04fe50cc85b2454d81b7cba7031b680072064cf5",

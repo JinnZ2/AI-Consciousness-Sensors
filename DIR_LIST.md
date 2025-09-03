@@ -14,9 +14,12 @@
 ./.git/objects/1c
 ./.git/objects/25
 ./.git/objects/29
+./.git/objects/31
 ./.git/objects/37
+./.git/objects/3d
 ./.git/objects/46
 ./.git/objects/47
+./.git/objects/4c
 ./.git/objects/55
 ./.git/objects/5d
 ./.git/objects/7e
@@ -24,6 +27,7 @@
 ./.git/objects/81
 ./.git/objects/87
 ./.git/objects/8a
+./.git/objects/94
 ./.git/objects/96
 ./.git/objects/a0
 ./.git/objects/a6
@@ -32,6 +36,7 @@
 ./.git/objects/b5
 ./.git/objects/ce
 ./.git/objects/d0
+./.git/objects/d3
 ./.git/objects/dd
 ./.git/objects/e1
 ./.git/objects/e3
@@ -39,6 +44,8 @@
 ./.git/objects/eb
 ./.git/objects/ec
 ./.git/objects/f1
+./.git/objects/f5
+./.git/objects/fa
 ./.git/objects/fb
 ./.git/objects/info
 ./.git/objects/pack
