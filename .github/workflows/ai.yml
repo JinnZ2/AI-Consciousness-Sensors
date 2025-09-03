@@ -1,0 +1,47 @@
+name: AI Integrator
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run AI Integrator
+        run: |
+          python scripts/ai_integrator.py --repo-root . --config ai_integrator.config.yaml
+
+      - name: List all files and dirs
+        run: |
+          echo "# Repo File List" > FILE_LIST.md
+          find . -type f | sort >> FILE_LIST.md
+          echo "# Repo Directory List" > DIR_LIST.md
+          find . -type d | sort >> DIR_LIST.md
+
+      - name: Commit outputs
+        run: |
+          git config user.name "ai-integrator-bot"
+          git config user.email "actions@github.com"
+          git add AI_INDEX.json AI_NOTES.md FILE_LIST.md DIR_LIST.md || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "update AI outputs"
+            git push
+          fi
