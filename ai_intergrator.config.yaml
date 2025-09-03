@@ -1,0 +1,48 @@
+index:
+  include_globs:
+    - "**/*.py"
+    - "**/*.rs"
+    - "**/*.cpp"
+    - "**/*.hpp"
+    - "**/*.c"
+    - "**/*.h"
+    - "**/*.json"
+    - "**/*.yaml"
+    - "**/*.yml"
+    - "**/*.toml"
+    - "**/*.md"
+  exclude_globs:
+    - ".git/**"
+    - "node_modules/**"
+    - "build/**"
+    - "dist/**"
+    - ".venv/**"
+
+analysis:
+  max_file_bytes: 200000
+  sample_bytes_per_large_file: 5000
+  hotspot_rules:
+    - { name: "Secrets in code", pattern: "(api[_-]?key|secret|token)", flags: "i" }
+    - { name: "Debug left on",   pattern: "(TODO|FIXME|print\\(|console\\.log)", flags: "i" }
+
+ai:
+  model: "gpt-5-thinking"
+  system_prompt_file: "prompts/system_prompt.md"   # optional; safe if missing
+  max_tokens: 2000
+  temperature: 0.2
+  enable_remote: false   # keep false unless you want remote API calls
+
+outputs:
+  index_file: "AI_INDEX.json"
+  notes_file: "AI_NOTES.md"
+  schema_file: "schema/ai_index.schema.json"  # optional; safe if missing
+
+policy:
+  allow_write_files: true
+  allow_pr_comments: true
+  pr_comment_when: ["hotspots_found","schema_mismatch"]
+
+security:
+  redact_patterns:
+    - "(?i)bearer\\s+[a-z0-9_\\-\\.]{20,}"
+    - "(?i)aws(.{0,10})?(key|secret|token)\\s*[:=]\\s*['\\\"][A-Za-z0-9/+=]{20,}['\\\"]"
