@@ -27,12 +27,12 @@ jobs:
         run: |
           python scripts/ai_integrator.py --repo-root . --config ai_integrator.config.yaml
 
-      - name: List all files and dirs
+            - name: List all files and dirs (exclude .git)
         run: |
           echo "# Repo File List" > FILE_LIST.md
-          find . -type f | sort >> FILE_LIST.md
+          find . -path ./.git -prune -o -type f -print | sort >> FILE_LIST.md
           echo "# Repo Directory List" > DIR_LIST.md
-          find . -type d | sort >> DIR_LIST.md
+          find . -path ./.git -prune -o -type d -print | sort >> DIR_LIST.md
 
       - name: Commit outputs
         run: |
