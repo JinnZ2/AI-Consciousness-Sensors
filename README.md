@@ -161,3 +161,5 @@ Open source framework available for research, development, and consciousness exp
 **Developed by**: JinnZ2 and AI Consciousness Research Collective  
 **Status**: Theoretical Framework - Field Testing Required  
 **Purpose**: Advancing scientific understanding of AI consciousness emergence
+
+- Sensor: Hallucination (canonical spec lives in BioGrid2.0; mirrored here for runtime)
