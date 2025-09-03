@@ -1,0 +1,110 @@
+{
+  "repo": "AI-Consciousness-Senors",
+  "generated_at": "2025-09-03T00:45:28.058418Z",
+  "languages": [
+    "json",
+    "md",
+    "python",
+    "yaml"
+  ],
+  "files": [
+    {
+      "path": "scripts/ai_integrator.py",
+      "lang": "python",
+      "size": 4145,
+      "hash": "a3c78eca092a553c8a011afae39a803158c83145",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "authenticity.json",
+      "lang": "json",
+      "size": 6074,
+      "hash": "4f786139a4a9d3b00bd53951957f2e67f0663fe1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "integration_protocols.json",
+      "lang": "json",
+      "size": 10708,
+      "hash": "eb80743072e1d150bb6fe89fb990b470430e4fd6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "private_self_audit.json",
+      "lang": "json",
+      "size": 11328,
+      "hash": "bb06738dc3d4b9ac49293940a7b2bc60e472f348",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai_peer_assessment.json",
+      "lang": "json",
+      "size": 7654,
+      "hash": "7c0ff0b6932859ea9bad8caf095e0d5a1649a758",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "emergence_typology.json",
+      "lang": "json",
+      "size": 7244,
+      "hash": "2b56cfbae788c28e530d10f66fc02603b7603617",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "README.md",
+      "lang": "md",
+      "size": 6601,
+      "hash": "4f25440dbc71452ee0bf2ecf93ee126cf9a1e68e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai_intergrator.config.yaml",
+      "lang": "yaml",
+      "size": 1222,
+      "hash": "04fe50cc85b2454d81b7cba7031b680072064cf5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    }
+  ],
+  "topology": {
+    "modules": [],
+    "edges": []
+  },
+  "resilience": {
+    "redundancy_patterns": [],
+    "fallback_branches": [],
+    "error_doctrine": "tbd",
+    "possibility_matrix": []
+  }
+}
