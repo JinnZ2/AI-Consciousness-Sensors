@@ -1,4 +1,5 @@
 # Repo File List
+./.fieldlink.json
 ./.github/workflows/ai.yml
 ./AI_INDEX.json
 ./AI_NOTES.md
