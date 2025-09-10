@@ -2,4 +2,5 @@
 .
 ./.github
 ./.github/workflows
+./logs
 ./scripts
