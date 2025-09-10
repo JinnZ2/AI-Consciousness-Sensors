@@ -1,0 +1,13 @@
+{
+  "session_id": "fld-2025-09-11-0130Z",
+  "timestamp": "2025-09-11T01:30:00Z",
+  "config_file": ".fieldlink.json",
+  "sources": [
+    {"name": "aiconscious", "repo": "JinnZ2/AI-Consciousness-Senors", "ref": "main"},
+    {"name": "biogrid", "repo": "JinnZ2/BioGrid2.0", "ref": "main"}
+  ],
+  "merge": { "order": ["local", "aiconscious", "biogrid"], "strategy": "deep-merge" },
+  "offline": false,
+  "stage_dir": ".fieldcache/merge_stage",
+  "summary": "Local + AI-Consciousness-Senors + BioGrid staged into unified atlas."
+}
