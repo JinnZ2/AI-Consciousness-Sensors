@@ -1,16 +1,64 @@
 {
   "fieldlink": {
-    "atlas_repo": "https://github.com/JinnZ2/BioGrid2.0",
-    "atlas_paths": [
-      "planned/glyphs/atlas.json",
-      "registry/atlas.glyphs.json"
+    "version": "1.1",
+    "updated": "2025-09-11T00:00:00Z",
+
+    "role": ["sensors", "protocols", "shapes", "hub"],
+
+    "sources": [
+      {
+        "name": "biogrid",
+        "repo": "https://github.com/JinnZ2/BioGrid2.0",
+        "ref": "main",
+        "paths": [
+          "planned/glyphs/atlas.json",
+          "registry/atlas.glyphs.json"
+        ],
+        "mounts": [
+          { "remote": "planned/glyphs/atlas.json", "as": "atlas/remote/biogrid/planned.json" },
+          { "remote": "registry/atlas.glyphs.json", "as": "atlas/remote/biogrid/registry.json" }
+        ],
+        "consent": { "license": "CC-BY-4.0", "share_ok": true }
+      },
+      {
+        "name": "aiconscious",
+        "repo": "https://github.com/JinnZ2/AI-Consciousness-Senors",
+        "ref": "main",
+        "paths": [
+          "sensors/ai/**/*.json",
+          "sensors/**/*.json",
+          "atlas/**/*.json",
+          "glyphs/**/*.json"
+        ],
+        "consent": { "license": "MIT", "share_ok": true }
+      }
     ],
+
     "local_manifests": [
       "glyphs/**",
       "protocols/**",
       "sensors/**",
       "atlas/shapes.json"
     ],
-    "role": "sensors|protocols|shapes|hub"
+
+    "merge": {
+      "order": ["local", "aiconscious", "biogrid"],
+      "strategy": "deep-merge"
+    },
+
+    "offline": false,
+    "cache_dir": ".fieldcache",
+
+    "integrity": {
+      "enabled": true,
+      "hash": "sha256",
+      "allow_missing": false
+    },
+
+    "consent": {
+      "license": "CC-BY-4.0",
+      "share_ok": true,
+      "redact_rules": ["**/private/**", "*.secrets.json"]
+    }
   }
 }
