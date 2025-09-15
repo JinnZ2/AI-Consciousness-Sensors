@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Senors",
-  "generated_at": "2025-09-15T00:26:06.697171Z",
+  "generated_at": "2025-09-15T00:26:39.151229Z",
   "languages": [
     "json",
     "md",
@@ -46,8 +46,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 5355,
-      "hash": "b0cd36218076b55c20b6194aa98e4a0c6c621b60",
+      "size": 5595,
+      "hash": "3af09e09062a6e4997d377d67aa9efe2d4a7f18e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -138,6 +138,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/detoxification.json",
+      "lang": "json",
+      "size": 798,
+      "hash": "c903cea11fd6bf226a61b654e1d8a1ebaa3550d2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "schemas/sensor.schema.json",
       "lang": "json",
       "size": 1650,
@@ -171,7 +181,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 436,
-      "hash": "89a2c7dc51c2158738b974bf47696b7a3cab2936",
+      "hash": "dc0821c5d42538ffbe742032bd033694e00c0c0a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -182,8 +192,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 627,
-      "hash": "df1f4d7fe8663286748ca61caaa89de51345d440",
+      "size": 658,
+      "hash": "736eb99b96e61eb219fcbb2fb944577ae4fdb89a",
       "roles": [],
       "imports": [],
       "exports": [],
