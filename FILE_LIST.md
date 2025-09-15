@@ -15,4 +15,5 @@
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./private_self_audit.json
+./programmed_response_assessment.py
 ./scripts/ai_integrator.py
