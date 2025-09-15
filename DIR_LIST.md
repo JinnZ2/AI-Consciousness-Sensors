@@ -6,3 +6,4 @@
 ./schemas
 ./scripts
 ./sensors
+./src

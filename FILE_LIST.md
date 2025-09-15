@@ -29,3 +29,4 @@
 ./sensors/emotional_calibration.json
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
+./src/score.py
