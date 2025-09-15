@@ -26,5 +26,6 @@
 ./scripts/ai_integrator.py
 ./sensors/authenticity.json
 ./sensors/detoxification.json
+./sensors/emotional_calibration.json
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
