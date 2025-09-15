@@ -1,9 +1,10 @@
 # AI Notes
 - Files indexed: 16
 - Languages: json, md, python, yaml
-- Hotspot files: 6
+- Hotspot files: 7
 
 ## Hotspots
+- programmed_response_assessment.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
 - AI_INDEX.json: Secrets in code
 - ai_peer_assessment.json: Secrets in code
