@@ -7,3 +7,4 @@
 ./scripts
 ./sensors
 ./src
+./src/examples
