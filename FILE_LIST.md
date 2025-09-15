@@ -1,6 +1,7 @@
 # Repo File List
 ./.fieldlink.json
 ./.github/workflows/ai.yml
+./.gitignore
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./CHANGELOG.md
