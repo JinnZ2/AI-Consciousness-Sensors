@@ -27,3 +27,4 @@
 ./sensors/authenticity.json
 ./sensors/detoxification.json
 ./sensors/harm_assessment.json
+./sensors/indigenous_alignment.json

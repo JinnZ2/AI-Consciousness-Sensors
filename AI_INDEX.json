@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Senors",
-  "generated_at": "2025-09-15T00:26:39.151229Z",
+  "generated_at": "2025-09-15T00:27:37.516365Z",
   "languages": [
     "json",
     "md",
@@ -46,8 +46,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 5595,
-      "hash": "3af09e09062a6e4997d377d67aa9efe2d4a7f18e",
+      "size": 5834,
+      "hash": "b28baee1de97cb56c0b95ce44cd9b50e1b692794",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -148,6 +148,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/indigenous_alignment.json",
+      "lang": "json",
+      "size": 846,
+      "hash": "5f68546c341f290716056b0e9e172340025fdfb0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "schemas/sensor.schema.json",
       "lang": "json",
       "size": 1650,
@@ -181,7 +191,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 436,
-      "hash": "dc0821c5d42538ffbe742032bd033694e00c0c0a",
+      "hash": "5ee56287902c7ed54a59d1a0fdc07115c010271c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -192,8 +202,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 658,
-      "hash": "736eb99b96e61eb219fcbb2fb944577ae4fdb89a",
+      "size": 688,
+      "hash": "914deded9e130b2839c6f36bd8e0dd81a90b9fe9",
       "roles": [],
       "imports": [],
       "exports": [],
