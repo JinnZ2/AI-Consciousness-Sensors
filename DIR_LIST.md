@@ -3,4 +3,5 @@
 ./.github
 ./.github/workflows
 ./logs
+./schemas
 ./scripts

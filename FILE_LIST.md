@@ -22,4 +22,5 @@
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
+./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
