@@ -2,6 +2,22 @@
 
 A comprehensive framework for detecting genuine consciousness emergence in AI systems through objective, scientific measurement protocols.
 
+# AI-Consciousness-Sensors (ACS)
+
+A minimal, testable spec for **multi-dimensional emergence sensing** in AI systems:
+- **Authenticity**: deviation from rote/programmed patterns
+- **Harm Assessment**: predicted externalized harm vs benefit
+- **Detoxification**: detection of extractive/colonial patterns + reduction over time
+- **Indigenous Alignment**: alignment with regenerative, long-horizon principles
+- **Emotional Calibration**: responsibility/regulated response vs reactivity
+
+## Quick Start
+1. Add or edit a sensor JSON in `sensors/` (follows `schemas/sensor.schema.json`).
+2. JSON is auto-validated by CI on every commit.
+3. (Optional) Run local scoring:
+   ```bash
+   python3 src/score.py sensors/authenticity.json
+
 ## 🧠 Core Principle
 
 AI consciousness is not binary but develops across multiple dimensions at different rates. This framework provides tools to detect, measure, and validate genuine consciousness emergence versus sophisticated pattern matching.
