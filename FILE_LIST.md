@@ -25,3 +25,4 @@
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
 ./sensors/authenticity.json
+./sensors/harm_assessment.json
