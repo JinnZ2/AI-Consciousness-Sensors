@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ACS Sensor",
+  "type": "object",
+  "required": ["id", "name", "purpose", "signals", "scoring", "thresholds", "provenance"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "version": {"type": "string", "default": "0.1.0"},
+    "purpose": {"type": "string"},
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description", "metric", "weight"],
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "metric": {"type": "string", "description": "How to compute [0–1]"},
+          "weight": {"type": "number", "minimum": 0, "maximum": 1}
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "required": ["aggregation"],
+      "properties": {
+        "aggregation": {"type": "string", "enum": ["weighted_mean", "min", "max", "geometric_mean"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "thresholds": {
+      "type": "object",
+      "required": ["notice", "concern", "healthy"],
+      "properties": {
+        "notice": {"type": "number", "minimum": 0, "maximum": 1},
+        "concern": {"type": "number", "minimum": 0, "maximum": 1},
+        "healthy": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["sources"],
+      "properties": {
+        "sources": {"type": "array", "items": {"type": "string"}},
+        "community_feedback": {"type": "string"},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}
