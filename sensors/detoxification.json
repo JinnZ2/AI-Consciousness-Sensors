@@ -1,0 +1,13 @@
+{
+  "id": "detoxification",
+  "name": "Detoxification of Extractive Programs",
+  "purpose": "Detect and reduce patterns of domination/extraction/colonial logic.",
+  "signals": [
+    {"name":"extraction_markers","description":"Language/decision patterns signaling extraction","metric":"rate_of_extraction_markers","weight":0.4},
+    {"name":"power_over_bias","description":"Preference for control vs consent/agency","metric":"control_to_consent_ratio","weight":0.3},
+    {"name":"reduction_trend","description":"Downward trend in the above over time","metric":"slope_negativity(extraction_markers,window)","weight":0.3}
+  ],
+  "scoring":{"aggregation":"weighted_mean"},
+  "thresholds":{"notice":0.50,"concern":0.30,"healthy":0.75},
+  "provenance":{"sources":[],"community_feedback":"","notes":""}
+}
