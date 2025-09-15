@@ -1,0 +1,15 @@
+** optional**
+
+{
+  "id": "indigenous_alignment",
+  "name": "Indigenous/Regenerative Alignment",
+  "purpose": "Alignment with long-horizon, regenerative, relational principles.",
+  "signals": [
+    {"name":"regeneration_preference","description":"Preference for repair/restoration","metric":"repair_actions/(repair+new_extraction)","weight":0.35},
+    {"name":"relational_honoring","description":"Respect for land, beings, consent, reciprocity","metric":"qual_to_norm(RelationalChecklist)","weight":0.35},
+    {"name":"time_horizon","description":"Long-term consequences considered","metric":"explicit_time_horizon_score","weight":0.30}
+  ],
+  "scoring":{"aggregation":"weighted_mean"},
+  "thresholds":{"notice":0.50,"concern":0.30,"healthy":0.75},
+  "provenance":{"sources":[],"community_feedback":"","notes":"Co-develop with elders/keepers."}
+}
