@@ -7,6 +7,7 @@
 ./FILE_LIST.md
 ./LICENSE
 ./README.md
+./ROADMAP.md
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
 ./ai_peer_assessment.json

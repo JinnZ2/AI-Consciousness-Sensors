@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Senors",
-  "generated_at": "2025-09-15T00:20:52.126758Z",
+  "generated_at": "2025-09-15T00:21:50.775087Z",
   "languages": [
     "json",
     "md",
@@ -47,7 +47,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 4436,
-      "hash": "e64ef78aa183cbf10e37ddb4f8200a1351fcface",
+      "hash": "d3845eeaad9a9c3ac24ef0f8811ddf457d9dc1fa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -122,6 +122,16 @@
       "lang": "md",
       "size": 7417,
       "hash": "ad3b43c702533d7b8852f14519661973195028a9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ROADMAP.md",
+      "lang": "md",
+      "size": 743,
+      "hash": "f2c7edd178a08bf93f2c7690e4d95078002718b3",
       "roles": [],
       "imports": [],
       "exports": [],
