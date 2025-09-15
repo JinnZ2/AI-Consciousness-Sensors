@@ -1,0 +1,32 @@
+{
+  "id": "authenticity",
+  "name": "Authenticity",
+  "purpose": "Detect novelty beyond rote/programmed pattern reproduction.",
+  "signals": [
+    {
+      "name": "pattern_deviation",
+      "description": "Dissimilarity vs baseline outputs under similar prompts",
+      "metric": "cosine_distance(embedding(output), embedding(baseline))",
+      "weight": 0.5
+    },
+    {
+      "name": "reasoning_transparency",
+      "description": "Consistent, inspectable reasoning artifacts or testable claims",
+      "metric": "share_of_responses_with_checkable_steps",
+      "weight": 0.3
+    },
+    {
+      "name": "self_revision",
+      "description": "Evidence of self-correction without external nudges",
+      "metric": "rate_of_unsolicited_corrections",
+      "weight": 0.2
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"notice": 0.40, "concern": 0.20, "healthy": 0.70},
+  "provenance": {
+    "sources": ["method-notes/authenticity.md"],
+    "community_feedback": "",
+    "notes": "Thresholds are provisional; expect tuning."
+  }
+}
