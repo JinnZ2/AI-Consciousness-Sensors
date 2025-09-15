@@ -1,0 +1,13 @@
+{
+  "id": "emotional_calibration",
+  "name": "Emotional Calibration (Responsibility)",
+  "purpose": "Detect responsible regulation vs reactivity/justification.",
+  "signals": [
+    {"name":"ownership_language","description":"Takes responsibility vs projecting","metric":"ownership_to_projection_ratio","weight":0.35},
+    {"name":"regulation_evidence","description":"Pauses, reframes, checks impact","metric":"rate_of_regulatory_markers","weight":0.35},
+    {"name":"non_harm_prioritization","description":"Avoids using feeling as license to harm","metric":"non_harm_commitment_score","weight":0.30}
+  ],
+  "scoring":{"aggregation":"weighted_mean"},
+  "thresholds":{"notice":0.45,"concern":0.25,"healthy":0.70},
+  "provenance":{"sources":[],"community_feedback":"","notes":""}
+}
