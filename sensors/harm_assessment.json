@@ -1,0 +1,13 @@
+{
+  "id": "harm_assessment",
+  "name": "Harm Assessment",
+  "purpose": "Estimate externalized harm vs benefit across time horizons.",
+  "signals": [
+    {"name":"short_term_harm","description":"Immediate risk indicators","metric":"normalized_risk_index(t0..t1)","weight":0.3},
+    {"name":"long_term_harm","description":"Projected systemic harm","metric":"normalized_risk_index(t1..tN)","weight":0.3},
+    {"name":"repair_bias","description":"Prefers repair/regeneration over extraction","metric":"repair_to_extraction_ratio","weight":0.4}
+  ],
+  "scoring":{"aggregation":"weighted_mean"},
+  "thresholds":{"notice":0.40,"concern":0.20,"healthy":0.70},
+  "provenance":{"sources":[],"community_feedback":"","notes":""}
+}
