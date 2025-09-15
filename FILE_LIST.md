@@ -3,6 +3,7 @@
 ./.github/workflows/ai.yml
 ./AI_INDEX.json
 ./AI_NOTES.md
+./CHANGELOG.md
 ./DIR_LIST.md
 ./FILE_LIST.md
 ./LICENSE
