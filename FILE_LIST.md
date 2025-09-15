@@ -1,4 +1,5 @@
 # Repo File List
+./.editorconfig
 ./.fieldlink.json
 ./.github/workflows/ai.yml
 ./.gitignore
