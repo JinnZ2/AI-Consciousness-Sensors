@@ -24,3 +24,4 @@
 ./programmed_response_assessment.py
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
+./sensors/authenticity.json

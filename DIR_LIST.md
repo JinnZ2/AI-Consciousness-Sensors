@@ -5,3 +5,4 @@
 ./logs
 ./schemas
 ./scripts
+./sensors
