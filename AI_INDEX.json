@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:20:26.131662Z",
+  "generated_at": "2025-09-17T00:20:50.465994Z",
   "languages": [
     "json",
     "md",
@@ -66,6 +66,16 @@
       "hotspots": []
     },
     {
+      "path": "epistemological_validation/consciousness_validators/traditional_ecological.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "epistemological_validation/consciousness_validators/indigenous_empirical.py",
       "lang": "python",
       "size": 8,
@@ -88,8 +98,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 7155,
-      "hash": "ce9900986e6837bcdee12b16d478d7971f6dcba4",
+      "size": 7443,
+      "hash": "7d71eb7ea4b89d1b0b00066cf1a2a6910b885b9b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -243,7 +253,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "e4a87e5059acbc0530b34a5c18222761abf83af9",
+      "hash": "0f372df7d500ae88d0e912069fc0fb6fd8606815",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -254,8 +264,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 963,
-      "hash": "4ee76b41aa6bd88deff57efecd4f5d03b8f3c6dc",
+      "size": 1042,
+      "hash": "c88605809df08d02ca3a73a8bd635c4c1daabe90",
       "roles": [],
       "imports": [],
       "exports": [],

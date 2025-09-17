@@ -19,6 +19,7 @@
 ./emergence_typology.json
 ./epistemological_validation/consciousness_validators/contemplative_science.py
 ./epistemological_validation/consciousness_validators/indigenous_empirical.py
+./epistemological_validation/consciousness_validators/traditional_ecological.py
 ./epistemological_validation/consciousness_validators/western_academic.py
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
