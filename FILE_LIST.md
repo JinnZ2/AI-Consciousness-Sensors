@@ -17,6 +17,7 @@
 ./ai_peer_assessment.json
 ./authenticity.json
 ./emergence_typology.json
+./epistemological_validation/Deployment.md
 ./epistemological_validation/MCP.md
 ./epistemological_validation/Plan.md
 ./epistemological_validation/README.md
