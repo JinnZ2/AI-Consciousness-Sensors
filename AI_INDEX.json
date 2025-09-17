@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:22:55.916051Z",
+  "generated_at": "2025-09-17T00:23:46.472107Z",
   "languages": [
     "json",
     "md",
@@ -116,6 +116,16 @@
       "hotspots": []
     },
     {
+      "path": "epistemological_validation/probability_matrices/consciousness_likelihood.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "authenticity.json",
       "lang": "json",
       "size": 6074,
@@ -128,8 +138,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 8565,
-      "hash": "0e26e6c2a4575a2e66971b228746326634ef42f3",
+      "size": 8835,
+      "hash": "83c2d1e9a2471858e3809e15fb61bb44c15eb9f8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -283,7 +293,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "0f9ba2d44fc5b94c3209f73ff77fdcbe2f266846",
+      "hash": "db53a52fea1237c90d897d062193e16f043bb03f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -294,8 +304,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1327,
-      "hash": "7ab66ba4ae47d2511627d984d14e9e137d1061e5",
+      "size": 1392,
+      "hash": "a594c050a1a6960b453db8564a3a160ff08fc967",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -314,8 +324,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 239,
-      "hash": "2059705a9fecf9d610152e7451c8f375fe2a9808",
+      "size": 289,
+      "hash": "01288cc16999f2835f5093f659ee7f1cfe9dc2e6",
       "roles": [],
       "imports": [],
       "exports": [],
