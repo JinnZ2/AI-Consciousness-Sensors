@@ -21,6 +21,7 @@
 ./epistemological_validation/MCP.md
 ./epistemological_validation/Plan.md
 ./epistemological_validation/README.md
+./epistemological_validation/Test_suite.md
 ./epistemological_validation/bias_detection/cultural_supremacy.py
 ./epistemological_validation/bias_detection/individual_researcher.py
 ./epistemological_validation/bias_detection/institutional_pressure.py
