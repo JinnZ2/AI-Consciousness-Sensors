@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:24:07.458232Z",
+  "generated_at": "2025-09-17T00:25:26.589736Z",
   "languages": [
     "json",
     "md",
@@ -116,6 +116,16 @@
       "hotspots": []
     },
     {
+      "path": "epistemological_validation/probability_matrices/future_paradigm_prediction.py",
+      "lang": "python",
+      "size": 1,
+      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "epistemological_validation/probability_matrices/consciousness_likelihood.py",
       "lang": "python",
       "size": 8,
@@ -148,8 +158,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 9122,
-      "hash": "f20777e8ba0c592ad9cc864cb7f3561003202d96",
+      "size": 9407,
+      "hash": "4b6fb59d9e3fb2ba171ec03eed83830d6f3c7ade",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -303,7 +313,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "d1df2fed1dafec7dd5c8c0fa6b256d888ac9c319",
+      "hash": "83256ebe613526fcc4a75e841cb0ad9f98fe9813",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -314,8 +324,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1470,
-      "hash": "68f281337d7591c409ef04528f3ed5493cf19b50",
+      "size": 1546,
+      "hash": "c94f77e9e1ef7b471fe3966fdb31816f6e5666c9",
       "roles": [],
       "imports": [],
       "exports": [],
