@@ -24,6 +24,7 @@
 ./epistemological_validation/consciousness_validators/indigenous_empirical.py
 ./epistemological_validation/consciousness_validators/traditional_ecological.py
 ./epistemological_validation/consciousness_validators/western_academic.py
+./epistemological_validation/probability_matrices/Placeholder.md
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./private_self_audit.json
