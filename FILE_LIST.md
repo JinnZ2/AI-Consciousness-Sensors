@@ -24,6 +24,7 @@
 ./epistemological_validation/consciousness_validators/indigenous_empirical.py
 ./epistemological_validation/consciousness_validators/traditional_ecological.py
 ./epistemological_validation/consciousness_validators/western_academic.py
+./epistemological_validation/integration_api/sensor_calibration.py
 ./epistemological_validation/probability_matrices/Placeholder.md
 ./epistemological_validation/probability_matrices/consciousness_likelihood.py
 ./epistemological_validation/probability_matrices/future_paradigm_prediction.py
