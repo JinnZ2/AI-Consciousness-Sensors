@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:21:55.132932Z",
+  "generated_at": "2025-09-17T00:22:22.627018Z",
   "languages": [
     "json",
     "md",
@@ -96,6 +96,16 @@
       "hotspots": []
     },
     {
+      "path": "epistemological_validation/bias_detection/cultural_supremacy.py",
+      "lang": "python",
+      "size": 1,
+      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "epistemological_validation/bias_detection/institutional_pressure.py",
       "lang": "python",
       "size": 1,
@@ -118,8 +128,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 8011,
-      "hash": "edae07285daa180a421e75692dd98566e2c93836",
+      "size": 8290,
+      "hash": "7a49e6952b7e2e970187717cd3a785b25f4f4101",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -273,7 +283,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "1f42634a392770257366246009c85008475e74d9",
+      "hash": "f95fc5a579b15808cf2a7d2d5d40f93a9b4d9c23",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -284,8 +294,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1191,
-      "hash": "65662c1a6f545443138333f4099495e7905b7bec",
+      "size": 1261,
+      "hash": "10976c59ef249100e10de43621427812975857ed",
       "roles": [],
       "imports": [],
       "exports": [],
