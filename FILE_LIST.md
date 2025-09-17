@@ -17,6 +17,7 @@
 ./ai_peer_assessment.json
 ./authenticity.json
 ./emergence_typology.json
+./epistemological_validation/consciousness_validators/contemplative_science.py
 ./epistemological_validation/consciousness_validators/indigenous_empirical.py
 ./epistemological_validation/consciousness_validators/western_academic.py
 ./integration_protocols.json
