@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:26:33.372934Z",
+  "generated_at": "2025-09-17T00:27:41.831535Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 10250,
-      "hash": "69b1f9d84f7ea3d581e417a766fb8699d838db0f",
+      "size": 10531,
+      "hash": "d01a522da62ab5a292ce455fc8e56f5162b275a9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -343,7 +343,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "1e2d6a40d34dde6d29c25d15c469e1e0af1cceec",
+      "hash": "872860db70328a3c0efb15df9a0a778f1b329e90",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -354,8 +354,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1762,
-      "hash": "dd3ad8caf4184038bde1662506b39276ae36d803",
+      "size": 1833,
+      "hash": "f8a75ebb055edfc8bb474b40ca96d1e600c2d471",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -376,6 +376,16 @@
       "lang": "md",
       "size": 334,
       "hash": "791057458ece6d2265257c70c29388b9eec5aab7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "epistemological_validation/Plan.md",
+      "lang": "md",
+      "size": 4711,
+      "hash": "0ef0e1c5ec249e92d45380b3eea38da446f2c331",
       "roles": [],
       "imports": [],
       "exports": [],
