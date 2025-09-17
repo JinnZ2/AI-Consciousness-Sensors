@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:20:50.465994Z",
+  "generated_at": "2025-09-17T00:21:31.488923Z",
   "languages": [
     "json",
     "md",
@@ -86,6 +86,16 @@
       "hotspots": []
     },
     {
+      "path": "epistemological_validation/bias_detection/individual_researcher.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "authenticity.json",
       "lang": "json",
       "size": 6074,
@@ -98,8 +108,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 7443,
-      "hash": "7d71eb7ea4b89d1b0b00066cf1a2a6910b885b9b",
+      "size": 7733,
+      "hash": "11df3807e4f37a9606abaae4df29e48de07e7c17",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -253,7 +263,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "0f372df7d500ae88d0e912069fc0fb6fd8606815",
+      "hash": "3b0e538c83c4934ad8ea9433fccbc5fd72d517f1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -264,8 +274,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1042,
-      "hash": "c88605809df08d02ca3a73a8bd635c4c1daabe90",
+      "size": 1122,
+      "hash": "22ad94910ef16f8be0a9294402ff2e6c030ebfed",
       "roles": [],
       "imports": [],
       "exports": [],
