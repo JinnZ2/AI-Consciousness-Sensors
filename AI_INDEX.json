@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:35:30.763616Z",
+  "generated_at": "2025-09-17T00:36:40.264501Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 11060,
-      "hash": "5446647c34f2390595e36b6574b7828dd4ac1663",
+      "size": 11338,
+      "hash": "c236d2b679248cfc95172cc236808bf8548a5330",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -342,8 +342,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 525,
-      "hash": "27804eeb582b0931b212007dfd51a1739775edd2",
+      "size": 580,
+      "hash": "fc7d305ee32b48012dade98c47ffcfc0169d0825",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -354,8 +354,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1914,
-      "hash": "93c519e855352fd31c6a98c4fb57ce033a6b3d94",
+      "size": 1953,
+      "hash": "4854494ac3746662c46d712302d88fe45b8fe891",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -398,6 +398,18 @@
       "lang": "md",
       "size": 17031,
       "hash": "554518768ffb3a4d92cb74db09cfe61f0cb4c948",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "epistemological_validation/MCP.md",
+      "lang": "md",
+      "size": 41865,
+      "hash": "4f4815ed75d7403f70812c2c80976675e4077ab7",
       "roles": [],
       "imports": [],
       "exports": [],
