@@ -2,6 +2,8 @@
 .
 ./.github
 ./.github/workflows
+./epistemological_validation
+./epistemological_validation/consciousness_validators
 ./logs
 ./schemas
 ./scripts

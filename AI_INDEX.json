@@ -1,6 +1,6 @@
 {
-  "repo": "AI-Consciousness-Senors",
-  "generated_at": "2025-09-15T00:29:26.535894Z",
+  "repo": "AI-Consciousness-Sensors",
+  "generated_at": "2025-09-17T00:19:30.241592Z",
   "languages": [
     "json",
     "md",
@@ -46,6 +46,16 @@
       ]
     },
     {
+      "path": "epistemological_validation/consciousness_validators/western_academic.py",
+      "lang": "python",
+      "size": 2,
+      "hash": "71853c6197a6a7f222db0f1978c7cb232b87c5ee",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "authenticity.json",
       "lang": "json",
       "size": 6074,
@@ -59,7 +69,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 6583,
-      "hash": "4587f08513efa62f15a9bff7c52ccfcfff9542d2",
+      "hash": "8a49352c6f738344ee7f92f1ded26349bc86c28d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -224,8 +234,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 776,
-      "hash": "6461e35746647f6c36102d75c1a08511d1596784",
+      "size": 811,
+      "hash": "1770e908f11a8707bab4b7e82381a1555cca31a8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -244,8 +254,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 97,
-      "hash": "53cc93bbf31cc3589ace46f6ce61cd404e2f43d2",
+      "size": 112,
+      "hash": "1eaf81769be2cce2c42c038c85b1c35057991812",
       "roles": [],
       "imports": [],
       "exports": [],
