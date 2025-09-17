@@ -18,6 +18,7 @@
 ./authenticity.json
 ./emergence_typology.json
 ./epistemological_validation/Plan.md
+./epistemological_validation/README.md
 ./epistemological_validation/bias_detection/cultural_supremacy.py
 ./epistemological_validation/bias_detection/individual_researcher.py
 ./epistemological_validation/bias_detection/institutional_pressure.py

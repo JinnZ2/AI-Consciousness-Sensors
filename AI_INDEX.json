@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:34:39.836322Z",
+  "generated_at": "2025-09-17T00:35:30.763616Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 10776,
-      "hash": "290ae045815bc6e58a6b34b6b8939174bbeb5ac2",
+      "size": 11060,
+      "hash": "5446647c34f2390595e36b6574b7828dd4ac1663",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -342,8 +342,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 466,
-      "hash": "5014fa27e1b0f575aefbc017d109995f4d0f7b00",
+      "size": 525,
+      "hash": "27804eeb582b0931b212007dfd51a1739775edd2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -354,8 +354,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1870,
-      "hash": "8438205a6260f09dffea57f79ef5c6c3a9f4087b",
+      "size": 1914,
+      "hash": "93c519e855352fd31c6a98c4fb57ce033a6b3d94",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -380,6 +380,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "epistemological_validation/README.md",
+      "lang": "md",
+      "size": 9248,
+      "hash": "16059c7690d94902ea101fb6595792bd45efc7db",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "epistemological_validation/core_engine.md",
