@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-17T00:21:31.488923Z",
+  "generated_at": "2025-09-17T00:21:55.132932Z",
   "languages": [
     "json",
     "md",
@@ -96,6 +96,16 @@
       "hotspots": []
     },
     {
+      "path": "epistemological_validation/bias_detection/institutional_pressure.py",
+      "lang": "python",
+      "size": 1,
+      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "authenticity.json",
       "lang": "json",
       "size": 6074,
@@ -108,8 +118,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 7733,
-      "hash": "11df3807e4f37a9606abaae4df29e48de07e7c17",
+      "size": 8011,
+      "hash": "edae07285daa180a421e75692dd98566e2c93836",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -263,7 +273,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 466,
-      "hash": "3b0e538c83c4934ad8ea9433fccbc5fd72d517f1",
+      "hash": "1f42634a392770257366246009c85008475e74d9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -274,8 +284,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 1122,
-      "hash": "22ad94910ef16f8be0a9294402ff2e6c030ebfed",
+      "size": 1191,
+      "hash": "65662c1a6f545443138333f4099495e7905b7bec",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -294,8 +304,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 195,
-      "hash": "f8e852303354090f090661ea265417b82e7d0461",
+      "size": 239,
+      "hash": "2059705a9fecf9d610152e7451c8f375fe2a9808",
       "roles": [],
       "imports": [],
       "exports": [],
