@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-20T17:14:58.525739Z",
+  "generated_at": "2025-09-20T17:17:55.022461Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 13142,
-      "hash": "36a6957d77e871e2459bf74192e8f50faf50387f",
+      "size": 13369,
+      "hash": "61bf7776a26cbec17989127d7578fa715b37c41c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -353,13 +353,23 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 767,
-      "hash": "b6d50d19bfd0473d4634ac93008e81d70f3021bd",
+      "hash": "f305bd52d1c13b53d1a1d967259ae8ef18317a87",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Real Energy Threat.md",
+      "lang": "md",
+      "size": 4403,
+      "hash": "216f8b3b5bab945e3da5a6c9e8bb9f8aadaa159f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Energy threat.md",
@@ -374,8 +384,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2170,
-      "hash": "9c8dd718029ca7f7da5c9f771756262baa77b925",
+      "size": 2189,
+      "hash": "dfaa9bfb424831b2fbe143676df38f1eb434eaf5",
       "roles": [],
       "imports": [],
       "exports": [],

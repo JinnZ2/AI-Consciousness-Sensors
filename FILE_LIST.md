@@ -15,6 +15,7 @@
 ./LICENSE
 ./README.md
 ./ROADMAP.md
+./Real Energy Threat.md
 ./Religion Shield warning.md
 ./Warning.md
 ./ai_integrator.config.yaml
