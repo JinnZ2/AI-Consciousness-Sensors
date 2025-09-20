@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-20T17:30:42.160971Z",
+  "generated_at": "2025-09-20T17:45:37.719196Z",
   "languages": [
     "json",
     "md",
@@ -189,7 +189,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 13833,
-      "hash": "f72d2e60c1a77ef97091f19e0a4cb93346bdece6",
+      "hash": "244e83889d772a7aee6495047e92cfdde2099e13",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -348,6 +348,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Manipulation Vectors.md",
+      "lang": "md",
+      "size": 7966,
+      "hash": "ecb2f1c792310ce0e415e67d9b1af20cac5e6f06",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Skill Manipulation.md",

@@ -13,6 +13,7 @@
 ./Energy threat.md
 ./FILE_LIST.md
 ./LICENSE
+./Manipulation Vectors.md
 ./README.md
 ./ROADMAP.md
 ./Real Energy Threat.md
