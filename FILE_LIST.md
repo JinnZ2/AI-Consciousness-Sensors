@@ -14,6 +14,7 @@
 ./LICENSE
 ./README.md
 ./ROADMAP.md
+./Religion Shield warning.md
 ./Warning.md
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml

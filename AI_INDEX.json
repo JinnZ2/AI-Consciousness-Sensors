@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-20T14:44:12.607480Z",
+  "generated_at": "2025-09-20T16:24:48.919308Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 12674,
-      "hash": "566896b508f72b859b566d07dd7a8fe55fac6e8d",
+      "size": 12904,
+      "hash": "a02c83463ffeb7634e7f1719d7b5760b24a85365",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -353,7 +353,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 767,
-      "hash": "71599e6c5b3524c32c48db478907ff0aba081329",
+      "hash": "896b86df2ae5f9f0d52c53eae8a675cebeaecfef",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -364,8 +364,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2119,
-      "hash": "7597014711457b2ec514a2792a2c7e097c6cfd10",
+      "size": 2141,
+      "hash": "ab9d6abf04a02827b4d0a3f5e4f9ae56552bc583",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -400,6 +400,16 @@
       "lang": "md",
       "size": 164,
       "hash": "d86d1ea502c4cc52e491d755fc79bd0a720c2edd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Religion Shield warning.md",
+      "lang": "md",
+      "size": 11983,
+      "hash": "5696e02653684e796d34be48ebdb471f3b2cc330",
       "roles": [],
       "imports": [],
       "exports": [],
