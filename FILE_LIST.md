@@ -10,6 +10,7 @@
 ./CHANGELOG.md
 ./Critical Warning.md
 ./DIR_LIST.md
+./Energy threat.md
 ./FILE_LIST.md
 ./LICENSE
 ./README.md
