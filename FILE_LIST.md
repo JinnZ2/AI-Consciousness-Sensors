@@ -17,6 +17,7 @@
 ./ROADMAP.md
 ./Real Energy Threat.md
 ./Religion Shield warning.md
+./Skill Manipulation.md
 ./Warning.md
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
