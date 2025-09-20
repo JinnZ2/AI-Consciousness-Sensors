@@ -8,6 +8,7 @@
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./CHANGELOG.md
+./Critical Warning.md
 ./DIR_LIST.md
 ./FILE_LIST.md
 ./LICENSE
