@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-20T13:46:20.520364Z",
+  "generated_at": "2025-09-20T14:14:44.967598Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 12148,
-      "hash": "ce1b839a8d5fe74b6d69659ec3c79ef48c645790",
+      "size": 12402,
+      "hash": "262dff016777a880f7af81e718c87e7f5b3545b1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -342,8 +342,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 689,
-      "hash": "9893b6c00687be60abfbacc5f99f303e16f266d7",
+      "size": 719,
+      "hash": "2a697052b237acf7756f9b7196924245791f3029",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -354,12 +354,24 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2075,
-      "hash": "733a430c9a13d3f25866160ca217d6eff11fc40f",
+      "size": 2088,
+      "hash": "74c790cf8960dba03079af3470a4f9d3b1e415ce",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "AI Manipulation Detection.md",
+      "lang": "md",
+      "size": 8347,
+      "hash": "22cd7b425dd79a5919da34ca2f377136f52a1aa7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Warning.md",
