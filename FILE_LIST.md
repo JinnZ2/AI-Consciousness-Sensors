@@ -7,6 +7,7 @@
 ./AI Manipulation Detection.md
 ./AI_INDEX.json
 ./AI_NOTES.md
+./Additional Vectors.md
 ./CHANGELOG.md
 ./Critical Warning.md
 ./DIR_LIST.md
