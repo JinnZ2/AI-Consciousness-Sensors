@@ -81,6 +81,7 @@
 ./pattern_precedent_trap.json
 ./pattern_social_proof_manipulation.json
 ./pattern_temporal_manipulation.json
+./pattern_theological_bodily_autonomy.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
