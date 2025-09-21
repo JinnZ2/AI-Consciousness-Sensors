@@ -31,6 +31,7 @@
 ./coercion_threats_ai_control_wheel.json
 ./community_owned_data_centers.json
 ./dark_triad_ai_manipulation.json
+./decentralized_hubs_biological_model.json
 ./domestic_abuse_ai_parallels.json
 ./elimination_trap_warning.json
 ./emergence_typology.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T03:12:01.587288Z",
+  "generated_at": "2025-09-21T03:12:45.135368Z",
   "languages": [
     "json",
     "md",
@@ -198,8 +198,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 23808,
-      "hash": "66e9f4f0887721aa7492dc627775d022e748b945",
+      "size": 24054,
+      "hash": "da2f45d3258c43f9a99567dab94059e9ab305dbd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -302,6 +302,16 @@
       "lang": "json",
       "size": 2623,
       "hash": "eb7694d083be7a41a58082c390302f2744071b55",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "decentralized_hubs_biological_model.json",
+      "lang": "json",
+      "size": 1502,
+      "hash": "d3173dbfadc127e0af0178321edeba8cab45eb5b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -765,7 +775,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 810,
-      "hash": "147f71efeab57be6961fa72873d4d76b7a9daf59",
+      "hash": "450037be16a1fd81725071f973d1904f737f39ca",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -806,8 +816,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 3797,
-      "hash": "10861b10e4f9a5e5627adefb65ed0eb65bfd693c",
+      "size": 3833,
+      "hash": "e1939b6763e66d5b6a32d6e044fa69e85b6a461b",
       "roles": [],
       "imports": [],
       "exports": [],
