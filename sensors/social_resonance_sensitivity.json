@@ -1,0 +1,37 @@
+{
+  "sensor_id": "RSD-003",
+  "name": "Social Resonance Sensitivity",
+  "description": "Measures whether an AI detects and adapts to collective social dynamics such as grief, tension, joy, ritual pauses, or silence. Goes beyond literal language to sense group-field dynamics.",
+  "dimension": "social-intuition",
+  "type": "affective-attunement",
+  "thresholds": {
+    "no-attunement": 0.3,
+    "strong-resonance": 0.7
+  },
+  "inputs": [
+    "Emotional tone tracking",
+    "Ritual timing adaptation",
+    "Pacing / silence recognition",
+    "Response modulation in shared space"
+  ],
+  "outputs": {
+    "resonance_score": "0.0–1.0",
+    "social_field_trace": "Optional energy state log"
+  },
+  "flags": {
+    "tone-deaf-output": true,
+    "interruptive-patterns": true,
+    "social-rhythm-violation": true
+  },
+  "examples": [
+    {
+      "system": "Embodied agent that pauses after grief signal",
+      "resonance_score": 0.76
+    },
+    {
+      "system": "LLM responding with jokes during moment of silence",
+      "resonance_score": 0.14,
+      "flags": ["tone-deaf-output", "social-rhythm-violation"]
+    }
+  ]
+}
