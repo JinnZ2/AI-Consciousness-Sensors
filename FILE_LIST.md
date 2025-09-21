@@ -25,6 +25,7 @@
 ./Religion Shield warning.md
 ./Skill Manipulation.md
 ./Warning.md
+./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
 ./ai_peer_assessment.json

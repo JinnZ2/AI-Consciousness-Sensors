@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T11:51:11.972451Z",
+  "generated_at": "2025-09-21T11:57:01.844196Z",
   "languages": [
     "json",
     "md",
@@ -219,7 +219,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 30055,
-      "hash": "238108e04401aa8a0fe62eecc3b930180c12daf9",
+      "hash": "44bd1ea1fd9580c27a3cd892976e1b32e3cddf36",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -400,6 +400,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "ai_history_erasure_cache.json",
+      "lang": "json",
+      "size": 3042,
+      "hash": "fc963e7f0fbadeeae2d87f61606b841808c58abc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "pattern_005_competitive_manipulation.json",

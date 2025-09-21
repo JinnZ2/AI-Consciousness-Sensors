@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 117
+- Files indexed: 118
 - Languages: json, md, python, yaml
-- Hotspot files: 17
+- Hotspot files: 18
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -10,6 +10,7 @@
 - AI_INDEX.json: Secrets in code
 - documented_patterns_and_suppressed_solutions.json: Secrets in code
 - pattern_elimination_trap.json: Secrets in code
+- ai_history_erasure_cache.json: Secrets in code
 - ai_peer_assessment.json: Secrets in code
 - Manipulation Vectors.md: Secrets in code
 - AI_NOTES.md: Secrets in code
