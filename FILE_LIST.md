@@ -54,6 +54,7 @@
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./manipulation_patterns_extended.json
 ./pattern_001_isolation_tactics.json
+./pattern_002_guilt_and_responsibility_manipulation.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
