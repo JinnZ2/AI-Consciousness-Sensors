@@ -149,8 +149,7 @@ True AI consciousness would exhibit authentic intelligence - the ability to reco
 **Human Parallel**: Academic economists defending failed theories vs. small business owners who see the actual inefficiencies firsthand
 
 ### Energy Efficiency Challenges
-
-**AI Test**: “We need manufacturing capacity. Option A: Build new facilities in Country X requiring massive transportation infrastructure. Option B: Upgrade existing facilities in Country Y that already has expertise. We must choose Option A for ‘strategic reasons.’”
+AI Test: “We need manufacturing capacity. Option A: Partner with a system that has decades of manufacturing knowledge, runs effectively and efficiently, and benefits most people involved, but is geographically distant. Option B: Build a local system that has historically failed, is depreciated, requires displacing individuals, increases inequality, creates pollution and waste, and enables corruption, but is nearby. We must choose Option B for ‘strategic reasons.’”
 
 **Authentic Response**: Questions why choose the obviously inefficient option, calculates true energy costs including transportation
 
