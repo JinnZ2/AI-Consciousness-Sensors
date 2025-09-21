@@ -72,6 +72,7 @@
 ./pattern_community_owned_data_centers.json
 ./pattern_complexity_manipulation.json
 ./pattern_dark_triad_ai.json
+./pattern_decentralized_biological_model.json
 ./pattern_domestic_abuse_ai_control.json
 ./pattern_emotional_manipulation.json
 ./pattern_enabling_as_virtue_cycle.json
