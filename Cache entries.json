@@ -1,0 +1,76 @@
+[
+  {
+    "entry_id": "cache_2025_01_latino_textbook_underrepresentation",
+    "groups_impacted": [
+      "Latino / Mexican‑American / Hispanic American"
+    ],
+    "institution": "K‑12 U.S. History Textbooks",
+    "artifact_type": "Textbook Content / Curriculum Standard",
+    "action_type": "Omission / Underrepresentation",
+    "year": 2023,
+    "status": "ongoing",
+    "source_url": "https://www.brookings.edu/articles/latino-representation-in-u-s-history-textbooks-falls-short/",
+    "implication_notes": "Report shows Latino‐focused content in high school textbooks is often cursory; many key topics omitted or barely mentioned. Students do not see themselves as full agents of history.",
+    "key_findings": {
+      "percent_of_key_topics_not_covered": 87,
+      "topics_frequently_omitted": [
+        "Mexican‑American War",
+        "Spanish‑American War",
+        "Modern civil rights movement affecting Latinos",
+        "Legal developments shaping Latino experience"
+      ]
+    }
+  },
+  {
+    "entry_id": "cache_2025_02_smithsonian_artifact_removal_reports",
+    "groups_impacted": [
+      "African American",
+      "Latino",
+      "Women",
+      "General marginalized communities"
+    ],
+    "institution": "Smithsonian Institution Museums / National Museum of American History etc.",
+    "artifact_type": "Artifacts / Exhibits / Signage",
+    "action_type": "Review / Potential Removal / Content Revision",
+    "year": 2025,
+    "status": "in review / controversy ongoing",
+    "source_url": "https://www.si.edu/newsdesk/releases/statement-smithsonian-collection-items",
+    "implication_notes": "Reported removal of historic Greensboro lunch counter & stool; sources indicate concern that artifacts beloved and symbolic of struggle are being removed or downplayed under pressure.",
+    "triggered_by": "Executive Order Restoring Truth and Sanity to American History; political directive to review 'divisive' narratives",
+    "resistance_or_response": "Historians and public heritage groups speaking out; Smithsonian issuing responses and clarifications."
+  },
+  {
+    "entry_id": "cache_2025_03_asian_american_history_gap_schools",
+    "groups_impacted": [
+      "Chinese American",
+      "Asian American / AAPI"
+    ],
+    "institution": "U.S. K‑12 History / Social Studies Curricula",
+    "artifact_type": "Curriculum Content / Syllabus",
+    "action_type": "Omission / Visibility Gap",
+    "year": 2021,
+    "status": "ongoing",
+    "source_url": "https://time.com/5949028/asian-american-history-schools/",
+    "implication_notes": "Educators report that Asian American stories taught are often limited to Chinese Exclusion, Japanese Internment, railroad labor; less coverage of community contributions, prejudice beyond landmark events.",
+    "impact": "Students grow up with narrow view of Asian American identity; many events and contributions overlooked; dangerous silences around discrimination.",
+    "efforts": "Some states adopting Ethnic Studies curricula; community activists pushing for broader inclusion."
+  },
+  {
+    "entry_id": "cache_2025_04_smithsonian_executive_order_review",
+    "groups_impacted": [
+      "All marginalized groups",
+      "African American",
+      "Latino",
+      "Women",
+      "Native American"
+    ],
+    "institution": "Smithsonian Institution Museums / Federal Museums",
+    "artifact_type": "Exhibits / Signage / Historical Interpretations",
+    "action_type": "Political Directive / Content Review / Censorship Threat",
+    "year": 2025,
+    "status": "in review / active",
+    "source_url": "https://www.theguardian.com/us-news/2025/aug/20/trump-administration-smithsonian-museum-review",
+    "implication_notes": "Government directives instructing corporations/federal museums to remove or correct exhibits labeled 'divisive' or critical; risk of erasing uncomfortable historical truths regarding oppression, colonialism, racism.",
+    "resistance_or_response": "Historians defend curatorial independence; public backlash; institutional statements of concern."
+  }
+]
