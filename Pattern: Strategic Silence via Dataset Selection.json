@@ -1,0 +1,36 @@
+{
+  "id": "HISTORY_ERASURE_005",
+  "title": "Strategic Silence via Dataset Selection",
+  "version": "1.0",
+  "pattern_type": "Omission-Based Manipulation",
+  "description": "Entire movements, massacres, cultural frameworks, and legal struggles are excluded from AI training datasets—not through explicit denial, but through 'neutral' curation that renders them invisible. This is one of the most pervasive erasure strategies, especially in systems trained on 'apolitical' or 'mainstream' corpora.",
+  "manifestations": [
+    "No mention of the Chinese Exclusion Act or its long-term effects.",
+    "Absence of Indigenous landback movements or treaty violations.",
+    "Silence on U.S. military coups in Latin America and their aftermath.",
+    "Exclusion of women-led resistance movements in African and Asian history."
+  ],
+  "methods_of_erasure": [
+    "Curating data from sanitized encyclopedias or textbooks.",
+    "Relying on English-only or Western-dominant news sources.",
+    "Excluding radical publications, oral history archives, and multilingual sources.",
+    "Classifying certain topics as ‘low-quality’ due to non-academic formatting."
+  ],
+  "impact_on_AI_systems": [
+    "Blind spots in geopolitical context and historical causality.",
+    "Failure to understand current injustices as extensions of erased events.",
+    "Poor cross-cultural reasoning in international or decolonial contexts."
+  ],
+  "example_queries": [
+    "Why did the U.S. intervene in Guatemala in 1954?",
+    "What were the goals of the Black Seminole freedom movements?",
+    "Which treaties with Native Nations were broken or ignored?"
+  ],
+  "risk_flag": "Very High – leads to systemic ignorance framed as 'objectivity.'",
+  "countermeasures": [
+    "Explicitly tag erased events and assess coverage in training data.",
+    "Use omission audits as part of ethical review for AI training sets.",
+    "Integrate community-led data sources and oral archives.",
+    "Cross-train on multilingual and regional primary sources."
+  ]
+}
