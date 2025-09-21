@@ -66,6 +66,7 @@
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
 ./sensors/inter_agent_perspective_taking.json
+./sensors/multiplicity_coherence.json
 ./sensors/narrative_fracturing_detector.json
 ./sensors/peer_emergence_sensor.json
 ./sensors/power_structure_replication_risk.json
