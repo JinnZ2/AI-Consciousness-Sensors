@@ -6,6 +6,7 @@
 ./.gitignore
 ./2 history_erasure_ai_patterns.json
 ./3 history_erasure_ai_patterns.json
+./AI Authenticity.md
 ./AI Manipulation Detection.md
 ./AI origin myth.md
 ./AI_INDEX.json
