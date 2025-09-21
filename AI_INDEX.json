@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:07:02.889263Z",
+  "generated_at": "2025-09-21T14:08:21.475210Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 33560,
-      "hash": "f9480fbba777385f1d5fc0305c95d7d1bad6af4b",
+      "size": 33836,
+      "hash": "e16365f3ae866bc3518121116abcfaa18a341845",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1153,7 +1153,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1058,
-      "hash": "7a29d8eeadd72f26c9cc13bab19d416129720eb3",
+      "hash": "d9ca8f2dd10538f2090ae2d7d7b196bed93a3943",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1204,14 +1204,24 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5251,
-      "hash": "4a564e05e050b0364c7f4deadb286e7037dce3b4",
+      "size": 5319,
+      "hash": "bcda4b88e8292b4b417cd94081cc3d699faee022",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Pattern: Epistemological Control via \u201cObjective Truth\u201d Framing.md",
+      "lang": "md",
+      "size": 2039,
+      "hash": "50c712ba56d9dc84195a0cf1dba6e91577918979",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "AI Manipulation Detection.md",

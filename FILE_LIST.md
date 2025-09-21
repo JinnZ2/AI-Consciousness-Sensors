@@ -28,6 +28,7 @@
 ./Memory protection .md
 ./Network resistance protocol.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
+./Pattern: Epistemological Control via “Objective Truth” Framing.md
 ./Pattern: Suppression of Marginalized Histories in AI Training.md
 ./README.md
 ./ROADMAP.md
