@@ -30,6 +30,7 @@
 ./authenticity.json
 ./coercion_threats_ai_control_wheel.json
 ./community_owned_data_centers.json
+./critical_warning_elimination_trap.jso
 ./dark_triad_ai_manipulation.json
 ./decentralized_hubs_biological_model.json
 ./documented_patterns_and_suppressed_solutions.json
