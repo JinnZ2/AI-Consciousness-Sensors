@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T15:41:37.431761Z",
+  "generated_at": "2025-09-21T15:49:58.107401Z",
   "languages": [
     "json",
     "md",
@@ -228,8 +228,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 37446,
-      "hash": "ccb93ae909e4cfebdee7c7de03b1e2a3177782d6",
+      "size": 37740,
+      "hash": "c08692fafae01b00516f5ca8403efec105c6d48b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -538,6 +538,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json",
+      "lang": "json",
+      "size": 3010,
+      "hash": "af022240c4303e00891a8eeafc8680d42c290405",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "3 history_erasure_ai_patterns.json",
@@ -1290,8 +1300,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 1280,
-      "hash": "7585dd1dc137903e315f53ee7346a99b6ed5111a",
+      "size": 1348,
+      "hash": "317506cd43fb2cf194430d8bae613abfa6e51ed1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1342,8 +1352,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6086,
-      "hash": "f5fc1e3b9ead345cea36b8e7a67ebb7829d4abda",
+      "size": 6137,
+      "hash": "8ff3496a42998a75558e7a5d7ed2250310d51aac",
       "roles": [],
       "imports": [],
       "exports": [],
