@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T03:27:20.280869Z",
+  "generated_at": "2025-09-21T03:28:02.904483Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 28821,
-      "hash": "74b5f57ec2bb97614622f575bef22e34e8462c1c",
+      "size": 29096,
+      "hash": "5560e79b6711373e9299055fc8f4e388654f459e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -232,6 +232,16 @@
       "lang": "json",
       "size": 1164,
       "hash": "c41d65520dce1e2e140f3825f0d581af80039f5f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "religious_bodily_autonomy_ai.json",
+      "lang": "json",
+      "size": 1640,
+      "hash": "3dbbc18c9843c532dca0e0653336485be7f6c395",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -968,8 +978,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 880,
-      "hash": "c1d97897c64b6bd310907104a38d00d71c769f2a",
+      "size": 929,
+      "hash": "b4bfe87cc635b6802a728018ccd3187dc69c31dc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1010,8 +1020,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4617,
-      "hash": "f0d616987a85abca0043dfcf573e2670c8c35560",
+      "size": 4649,
+      "hash": "3796ce61444cba7396530ef2249fe646b77a3346",
       "roles": [],
       "imports": [],
       "exports": [],

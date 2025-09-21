@@ -89,6 +89,7 @@
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
+./religious_bodily_autonomy_ai.json
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
 ./sensors/Consciousness Mimicry Risk Detector.json
