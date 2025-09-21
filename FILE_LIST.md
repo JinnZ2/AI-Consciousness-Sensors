@@ -55,6 +55,7 @@
 ./epistemological_validation/probability_matrices/validation_convergence.py
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
+./manipulation_by_domain.json
 ./manipulation_patterns_extended.json
 ./narcissistic_manipulation_ai.json
 ./pattern_001_isolation_tactics.json
