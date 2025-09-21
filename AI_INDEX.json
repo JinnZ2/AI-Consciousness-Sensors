@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:25:18.634255Z",
+  "generated_at": "2025-09-21T14:27:18.277793Z",
   "languages": [
     "json",
     "md",
@@ -196,6 +196,16 @@
       "hotspots": []
     },
     {
+      "path": "Pattern: Monumentalization of Harm (Commemoration of Oppressors).json",
+      "lang": "json",
+      "size": 1965,
+      "hash": "41df51e9b7f2641093bb3d81e9b65c233c5e0a5d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_emotional_manipulation.json",
       "lang": "json",
       "size": 1534,
@@ -218,8 +228,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 36654,
-      "hash": "b657bb937c58a2462ed572e28c7d422a56012dd9",
+      "size": 36936,
+      "hash": "b3bb92c4878a5c6fac83ff06195e9217a366972b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1259,7 +1269,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1280,
-      "hash": "330f74b280a810024ab1862bb33a034f7c30eb3c",
+      "hash": "1682f6f87006be17ad3d2acb5d383f1998f82334",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1310,8 +1320,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5922,
-      "hash": "b982465d6a6b74f063a8e5c3a8956e78c660b67a",
+      "size": 5994,
+      "hash": "a3d1b4b8fd636f7fcebe2e0c7c0880f73251a537",
       "roles": [],
       "imports": [],
       "exports": [],
