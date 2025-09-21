@@ -10,6 +10,7 @@
 ./Additional Vectors.md
 ./CHANGELOG.md
 ./CO_CREATION.md
+./Cache entries.json
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
 ./DIR_LIST.md
