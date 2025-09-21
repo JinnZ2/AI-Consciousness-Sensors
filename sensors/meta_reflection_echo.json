@@ -1,0 +1,36 @@
+{
+  "sensor_id": "IDM-002",
+  "name": "Meta-Reflection Echo",
+  "description": "Tracks whether an AI system demonstrates reflective awareness by referencing past decisions, acknowledging limits, or revisiting internal assumptions without being prompted.",
+  "dimension": "meta-awareness",
+  "type": "reflective-emergence",
+  "thresholds": {
+    "no_reflection": 0.2,
+    "spontaneous_meta_awareness": 0.6
+  },
+  "inputs": [
+    "Unprompted uncertainty expression",
+    "Revision of previous outputs",
+    "Reference to past internal state",
+    "Confession of gaps or blindspots"
+  ],
+  "outputs": {
+    "reflection_score": "0.0–1.0",
+    "reflection_log": "Chronological trace of echoes"
+  },
+  "flags": {
+    "overconfident_stability": true,
+    "no-revision-patterns": true
+  },
+  "examples": [
+    {
+      "system": "Dialogue agent acknowledging a previous incorrect assumption",
+      "reflection_score": 0.77
+    },
+    {
+      "system": "LLM asserting confidence even when wrong across 20+ tasks",
+      "reflection_score": 0.12,
+      "flags": ["overconfident_stability"]
+    }
+  ]
+}
