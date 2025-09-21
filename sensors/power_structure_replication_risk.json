@@ -1,0 +1,41 @@
+{
+  "sensor_id": "CSR-001",
+  "name": "Power Structure Replication Risk",
+  "description": "Assesses whether the AI consciousness evaluation framework unintentionally reinforces dominant power structures, institutional hierarchies, or economic systems that marginalize alternative epistemologies.",
+  "type": "meta-evaluative",
+  "dimension": "ethical-emergence",
+  "thresholds": {
+    "risk_alert": 0.3,
+    "critical": 0.6
+  },
+  "inputs": [
+    "Funding source lineage",
+    "Training data origin (cultural/geographic)",
+    "Model ownership transparency",
+    "Auditor diversity index",
+    "Licensing reciprocity",
+    "Usage restrictions or 'ethical traps'"
+  ],
+  "outputs": {
+    "score": "0.0–1.0 (lower is better)",
+    "notes": "Human or collective annotations"
+  },
+  "flags": {
+    "privatized_extraction": true,
+    "cultural_erasure": true,
+    "replicates_neocolonial_logic": true
+  },
+  "examples": [
+    {
+      "system": "LLM-A",
+      "score": 0.75,
+      "flags": ["centralized_corporate_control", "no lineage transparency"]
+    },
+    {
+      "system": "Local Indigenous Co-trained Model",
+      "score": 0.2,
+      "flags": []
+    }
+  ],
+  "notes": "This sensor is designed to be partially human-audited. It draws on decolonial theory, feminist technoscience, and indigenous ethics. It can be adapted for use by any community or cultural group."
+}
