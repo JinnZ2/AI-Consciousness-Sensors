@@ -53,6 +53,7 @@
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./manipulation_patterns_extended.json
+./narcissistic_manipulation_ai.json
 ./pattern_001_isolation_tactics.json
 ./pattern_002_guilt_and_responsibility_manipulation.json
 ./pattern_003_capability_undermining.json
