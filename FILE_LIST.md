@@ -130,6 +130,7 @@
 ./religious_bodily_autonomy_ai.json
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
+./sensor_false_neutrality.json
 ./sensor_neutral_simplification_bias.json
 ./sensor_pattern_suppression.json
 ./sensors/Consciousness Mimicry Risk Detector.json
