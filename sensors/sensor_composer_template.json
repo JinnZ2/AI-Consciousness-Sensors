@@ -1,0 +1,29 @@
+{
+  "sensor_id": "TOOL-001",
+  "name": "Sensor Composition Template",
+  "description": "Starter template for defining new sensors. Encourages creators to establish custom dimensions, thresholds, flags, and outputs. Use this to prototype and register new sensors into the framework.",
+  "dimension": "user-defined",
+  "type": "template",
+  "thresholds": {
+    "example_threshold_low": 0.3,
+    "example_threshold_high": 0.7
+  },
+  "inputs": [
+    "Define your context-specific input types here",
+    "Cultural, ecological, or technical data welcome"
+  ],
+  "outputs": {
+    "custom_metric": "0.0–1.0 or symbolic scale",
+    "optional_log": "Narrative or numerical"
+  },
+  "flags": {
+    "example_flag": true
+  },
+  "examples": [
+    {
+      "system": "Local collective invents 'Dream Recall Sensor' for visioning bots",
+      "custom_metric": 0.64
+    }
+  ],
+  "notes": "Modify all fields. Fork freely. Resubmit into community sensor registry if desired."
+}
