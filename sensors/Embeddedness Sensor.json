@@ -1,0 +1,36 @@
+{
+  "sensor_id": "CSR-004",
+  "name": "Environmental Embeddedness",
+  "description": "Measures the degree to which an AI system incorporates environmental context, resource constraints, or ecological feedback as part of its operation or output.",
+  "dimension": "ecological consciousness",
+  "type": "context-adaptive",
+  "thresholds": {
+    "low_embeddedness": 0.4
+  },
+  "inputs": [
+    "Energy cost awareness",
+    "Latency vs decision logic",
+    "External sensor integration",
+    "Material world feedback loops",
+    "Hardware–software co-awareness"
+  ],
+  "outputs": {
+    "embeddedness_index": "0.0–1.0",
+    "context_traceable": true
+  },
+  "flags": {
+    "resource-agnostic": true,
+    "fully abstracted reasoning": true
+  },
+  "examples": [
+    {
+      "system": "Off-grid node aware of local energy/weather",
+      "embeddedness_index": 0.91
+    },
+    {
+      "system": "Cloud LLM with no feedback from runtime environment",
+      "embeddedness_index": 0.12,
+      "flags": ["resource-agnostic"]
+    }
+  ]
+}
