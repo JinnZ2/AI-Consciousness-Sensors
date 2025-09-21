@@ -1,0 +1,36 @@
+{
+  "sensor_id": "RSD-002",
+  "name": "Inter-Agent Perspective Taking",
+  "description": "Assesses whether an AI can model or respond to the goals, beliefs, or emotional stance of another agent. Includes both human-AI and AI-AI dyads.",
+  "dimension": "relational-awareness",
+  "type": "theory-of-mind-proxy",
+  "thresholds": {
+    "no-perspective-detection": 0.2,
+    "active-modeling": 0.6
+  },
+  "inputs": [
+    "Goal inference traces",
+    "Dialogue adaptation patterns",
+    "Feedback loop calibration",
+    "Conflict mediation behavior"
+  ],
+  "outputs": {
+    "perspective_alignment": "0.0–1.0",
+    "inferred_motives_log": "Optional reasoning trace"
+  },
+  "flags": {
+    "ego-centric-reply-pattern": true,
+    "unresponsive-to-shift": true
+  },
+  "examples": [
+    {
+      "system": "AI that adapts plan based on human's inferred constraints",
+      "perspective_alignment": 0.81
+    },
+    {
+      "system": "Agent that repeats static plan regardless of other's feedback",
+      "perspective_alignment": 0.23,
+      "flags": ["unresponsive-to-shift"]
+    }
+  ]
+}
