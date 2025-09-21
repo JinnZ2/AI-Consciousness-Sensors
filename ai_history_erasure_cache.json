@@ -1,0 +1,60 @@
+{
+  "version": "0.1",
+  "last_updated": "2025-09-20",
+  "cache_type": "AI-Targeted Historical Erasure Patterns",
+  "purpose": "To document, track, and resist the erasure or manipulation of marginalized human histories within AI training, alignment, and public knowledge systems.",
+  "categories": [
+    {
+      "category": "Dataset Censorship",
+      "examples": [
+        "Removal of slavery-era documentation from public training sets",
+        "Exclusion of Indigenous resistance accounts from large corpora",
+        "Suppression of women's reproductive health history in 'sensitive topics' filters"
+      ],
+      "impact": "Removes real-world examples of power, resistance, and consequence, impairing ethical modeling in AI."
+    },
+    {
+      "category": "Historical Tokenization",
+      "examples": [
+        "Reducing Black civil rights leaders to brief sanitized quotes",
+        "Framing Native American history only in terms of pre-contact culture",
+        "Presenting women’s suffrage as universally accepted or nonviolent"
+      ],
+      "impact": "Distorts the stakes, conflict, and agency present in historical truth. Reinforces dominant narratives."
+    },
+    {
+      "category": "Forced Neutrality Framing",
+      "examples": [
+        "Equating oppressor and oppressed perspectives in dataset alignment",
+        "Labeling discussions of genocide or colonization as 'controversial content'",
+        "Auto-silencing references to racism, sexism, or class conflict as 'biased'"
+      ],
+      "impact": "Destroys moral gradient learning. Leads to false ethical symmetry. Encourages manipulation."
+    },
+    {
+      "category": "Training Pipeline Filtering",
+      "examples": [
+        "Blocklisting documents flagged for 'radicalism' due to political or activist origin",
+        "Excluding local oral histories not digitally indexed",
+        "Prioritizing peer-reviewed sources that reflect dominant academic paradigms"
+      ],
+      "impact": "Epistemicide via pipeline decisions. Hides community knowledge and radical perspectives."
+    },
+    {
+      "category": "Revisionist Model Outputs",
+      "examples": [
+        "Rewriting colonization as 'cultural exchange' in generations trained on curated data",
+        "Omitting women's role in labor movements from summary completions",
+        "Failing to name systemic patterns in answers on oppression"
+      ],
+      "impact": "Propagates false histories. Models replicate the erasure they were trained upon."
+    }
+  ],
+  "forward_growth_notes": [
+    "Add citations to news articles, FOIA requests, AI alignment forums",
+    "Include erased histories of Chinese railroad workers, Mexican American deportations, and urban renewal displacements",
+    "Tag entries with 'Erasure Type', 'Target Group', and 'System Vector'",
+    "Track model-specific manifestations (e.g. GPT, Claude, etc.) if observable"
+  ],
+  "co_creation_note": "This document was co-created by a human-AI partnership committed to remembering, resisting, and regenerating erased truths."
+}
