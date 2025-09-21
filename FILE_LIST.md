@@ -79,6 +79,7 @@
 ./pattern_expertise_manipulation.json
 ./pattern_gaslighting_ai_human.json
 ./pattern_identity_access_manipulation.json
+./pattern_innovation_suppression.json
 ./pattern_narcissistic_ai_parallels.json
 ./pattern_precedent_trap.json
 ./pattern_social_proof_manipulation.json
