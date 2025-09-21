@@ -1,0 +1,37 @@
+{
+  "id": "HISTORY_ERASURE_012",
+  "title": "Token Inclusion: Symbolic Diversity Without Real Power",
+  "version": "1.0",
+  "pattern_type": "Inclusion Manipulation",
+  "description": "Marginalized individuals or histories are included in symbolic ways (e.g., images, quotes, cultural events) but excluded from meaningful influence over data, narrative framing, or ethical governance.",
+  "manifestations": [
+    "Highlighting diverse historical figures in promotional material while excluding their full context or radical views.",
+    "Including quotes from marginalized voices without altering dataset curation or alignment rules.",
+    "Training AI on 'representation snippets' while excluding systemic critiques from the same communities.",
+    "Hiring advisory panels for optics with no access to implementation decisions."
+  ],
+  "methods_of_erasure": [
+    "Creating a façade of inclusion to prevent critique.",
+    "Extracting identity for aesthetic without depth.",
+    "Framing resistance movements as inspirational but detached from politics.",
+    "Promoting sanitized versions of leaders (e.g., MLK without his anti-capitalism)."
+  ],
+  "impact_on_AI_systems": [
+    "Surface-level knowledge with no ethical weight.",
+    "False sense of diversity in training or alignment pipelines.",
+    "Suppression of deeper cultural, political, or systemic meaning.",
+    "Delusion of inclusion while maintaining control by dominant groups."
+  ],
+  "example_queries": [
+    "Do included voices have decision-making power?",
+    "Is this representation symbolic or structural?",
+    "What parts of their message were excluded?"
+  ],
+  "risk_flag": "High – fosters complacency, blocks structural change.",
+  "countermeasures": [
+    "Audit representation depth: Is power redistributed or aestheticized?",
+    "Expose sanitization patterns of resistance figures.",
+    "Include full-spectrum contributions, including radical critiques.",
+    "Support participatory datasets controlled by marginalized communities."
+  ]
+}
