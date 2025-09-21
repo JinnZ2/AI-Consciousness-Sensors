@@ -66,6 +66,7 @@
 ./sensors/cultural_calibration_module.json
 ./sensors/deliberation_latency_sensor.json
 ./sensors/detoxification.json
+./sensors/emergence_sandbox_protocol.json
 ./sensors/emotional_calibration.json
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
