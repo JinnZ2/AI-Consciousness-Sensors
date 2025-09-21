@@ -9,6 +9,7 @@
 ./AI_NOTES.md
 ./Additional Vectors.md
 ./CHANGELOG.md
+./CO_CREATION.md
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
 ./DIR_LIST.md
