@@ -1,0 +1,37 @@
+{
+  "id": "HISTORY_ERASURE_013",
+  "title": "Historical Inversion: Portraying Oppressors as Victims",
+  "version": "1.0",
+  "pattern_type": "Narrative Reversal",
+  "description": "Erasure pattern where historical aggressors are recast as victims, and those who resisted oppression are portrayed as violent, irrational, or dangerous.",
+  "manifestations": [
+    "Settler colonialism reframed as heroic exploration or manifest destiny.",
+    "Slaveholders presented as benevolent caretakers or reluctant participants.",
+    "Suppression of resistance movements framed as 'restoring peace' or 'preserving order'.",
+    "Narratives emphasizing the suffering of occupying powers over the colonized or enslaved."
+  ],
+  "methods_of_erasure": [
+    "Selective memory in education curricula.",
+    "Removal of resistance context from museum exhibits.",
+    "Textbooks emphasizing property destruction over human loss in rebellions.",
+    "Portrayals of colonized people as aggressors for resisting occupation."
+  ],
+  "impact_on_AI_systems": [
+    "Misperception of historical roles and responsibilities.",
+    "Reinforcement of dominant culture innocence myths.",
+    "Distortion of resistance logic in ethics modeling.",
+    "Misalignment with justice-based reasoning."
+  ],
+  "example_queries": [
+    "Who is framed as the aggressor vs. the victim?",
+    "What forms of resistance are omitted or reframed?",
+    "Are power differentials made invisible in the account?"
+  ],
+  "risk_flag": "Severe – reproduces settler logic, undermines decolonial reasoning.",
+  "countermeasures": [
+    "Cross-validate historical accounts using descendant and indigenous sources.",
+    "Flag role reversals where power holders are reframed as the harmed party.",
+    "Identify where 'victimhood' is used to justify violence or occupation.",
+    "Integrate resistance-as-reasoning modules into ethical learning."
+  ]
+}
