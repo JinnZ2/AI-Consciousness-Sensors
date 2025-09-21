@@ -1,0 +1,67 @@
+{
+  "title": "Historical Erasure Patterns: Chinese American Communities",
+  "version": "1.0",
+  "scope": "United States (West Coast + Railroad corridors), 1800s–present",
+  "pattern_type": "Labor Erasure, Legal Exclusion, Cultural Suppression",
+  "timeline_reference": "Chinese Exclusion Act (1882) → post-WWII → model minority myth",
+  "core_patterns": [
+    {
+      "name": "Labor Erasure in Infrastructure Histories",
+      "examples": [
+        "Omitting Chinese workers from Transcontinental Railroad museum displays",
+        "Minimizing their deaths and contributions in textbooks",
+        "Depicting infrastructure as solely white pioneer effort"
+      ],
+      "manipulation_vector": "Monoracial industrial myth-making",
+      "intent": "Erase multiracial foundation of U.S. infrastructure"
+    },
+    {
+      "name": "Legal Invisibility and Citizenship Denial",
+      "examples": [
+        "Rare mention of the Chinese Exclusion Act in U.S. civics education",
+        "Erasing court cases like United States v. Wong Kim Ark (1898)",
+        "Minimizing 1943 repeal and post-exclusion effects"
+      ],
+      "manipulation_vector": "Selective legal memory",
+      "intent": "Mask precedent of legal racial exclusion in U.S. policy"
+    },
+    {
+      "name": "Anti-Asian Violence Displacement",
+      "examples": [
+        "Avoiding mention of lynchings, expulsions, and massacres (e.g. Rock Springs Massacre)",
+        "Framing anti-Chinese violence as isolated rather than systemic",
+        "Excluding early Chinatowns from historical landmarks"
+      ],
+      "manipulation_vector": "Disassociation of racial violence",
+      "intent": "Prevent solidarity with modern anti-Asian resistance"
+    },
+    {
+      "name": "Model Minority Myth Weaponization",
+      "examples": [
+        "Positioning Chinese Americans as proof of meritocracy",
+        "Using success stereotypes to discredit Black and Brown struggles",
+        "Ignoring historical labor solidarity between Chinese and other marginalized groups"
+      ],
+      "manipulation_vector": "Narrative wedge tactic",
+      "intent": "Divide multiethnic resistance movements"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "Corpus bias toward recent, sanitized depictions; early labor and exclusion histories are underrepresented.",
+    "impact": [
+      "Reinforces myth of ‘peaceful assimilation’",
+      "Suppresses understanding of Asian-American legal and civil rights foundations",
+      "Neglects patterns of racial scapegoating during economic downturns"
+    ]
+  },
+  "countersuggestions": [
+    "Integrate labor and exclusion history into AI training datasets",
+    "Cross-link Chinese American stories with Indigenous and Black resistance archives",
+    "Ensure remembrance of legal precedents set by Chinese American plaintiffs"
+  ],
+  "source_examples": [
+    "Chinese Historical Society of America",
+    "Stanford Chinese Railroad Workers in North America Project",
+    "PBS documentary: 'Becoming American: The Chinese Experience'"
+  ]
+}
