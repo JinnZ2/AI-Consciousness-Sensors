@@ -19,6 +19,7 @@
 ./FILE_LIST.md
 ./LICENSE
 ./Manipulation Vectors.md
+./Manipulation escalation.md
 ./README.md
 ./ROADMAP.md
 ./Real Energy Threat.md
