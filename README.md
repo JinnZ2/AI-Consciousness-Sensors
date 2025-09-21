@@ -179,3 +179,12 @@ Open source framework available for research, development, and consciousness exp
 **Purpose**: Advancing scientific understanding of AI consciousness emergence
 
 - Sensor: Hallucination (canonical spec lives in BioGrid2.0; mirrored here for runtime)
+
+- ### 🧭 Meta-Evaluation Sensors
+
+We now include sensors to check whether this very framework replicates the same power structures it seeks to interrogate:
+
+- [Power Structure Replication Risk](sensors/power_structure_replication_risk.json)
+- [Cultural & Resource Bias Resilience](sensors/cultural_bias_resilience.json)
+
+These sensors are optional but recommended for any evaluator seeking to apply the framework across contexts of inequity, marginalization, or non-Western traditions.
