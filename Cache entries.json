@@ -74,3 +74,83 @@
     "resistance_or_response": "Historians defend curatorial independence; public backlash; institutional statements of concern."
   }
 ]
+
+
+[
+  {
+    "entry_id": "cache_2025_05_signage_reviews_national_parks",
+    "groups_impacted": [
+      "Native American",
+      "African American",
+      "Japanese American",
+      "Environmental / Climate Activism",
+      "Women",
+      "General marginalized histories"
+    ],
+    "institution": "U.S. National Parks Service",
+    "artifact_type": "Interpretive signage / exhibits / online content",
+    "action_type": "Review and/or removal of content referencing slavery, climate change, internment, Indigenous conflict",
+    "year": 2025,
+    "status": "ongoing",
+    "source_url": "https://www.reuters.com/world/us/trump-administration-says-all-interpretive-signage-national-parks-under-review-2025-09-16/",
+    "implication_notes": "Potential erasure of slavery & Indigenous history; removal of historic photograph of formerly enslaved man; climate change content removed at Acadia Park; broad content flagged under claims of ideological bias."
+  },
+  {
+    "entry_id": "cache_2025_06_underground_railroad_webpage_restoration",
+    "groups_impacted": [
+      "African American",
+      "Women (Harriet Tubman)",
+      "General U.S. history"
+    ],
+    "institution": "National Park Service / Federal historical websites",
+    "artifact_type": "Web content / webpage / photograph",
+    "action_type": "Alteration / removal then restoration after public outcry",
+    "year": 2025,
+    "status": "restored (after backlash)",
+    "source_url": "https://www.washingtonpost.com/nation/2025/04/08/national-park-service-underground-railroad-harriet-tubman/",
+    "implication_notes": "Original content removed including Harriet Tubman photo and text describing slavery; underscores how quickly digital memory can be altered; public activism forced reversal."
+  },
+  {
+    "entry_id": "cache_2025_07_book_textbook_latino_history_underrepresentation",
+    "groups_impacted": [
+      "Latino / Mexican American / Hispanic American"
+    ],
+    "institution": "U.S. K‑12 School Districts / State Education Boards",
+    "artifact_type": "Textbook / Curriculum Content",
+    "action_type": "Omission / Underrepresentation of historical topics",
+    "year": 2023,
+    "status": "ongoing",
+    "source_url": "https://www.edweek.org/teaching-learning/latino-history-is-u-s-history-high-school-textbooks-neglect-it/2023/05",
+    "implication_notes": "Many key Latino historical events either skipped or mentioned in minimal detail; impacts identity and awareness among students of Latino heritage."
+  },
+  {
+    "entry_id": "cache_2025_08_manazanar_reporting_signs_negativity_directive",
+    "groups_impacted": [
+      "Japanese American",
+      "Indigenous communities",
+      "General U.S. public memory"
+    ],
+    "institution": "Manzanar National Historic Site / National Park Service",
+    "artifact_type": "On‑site signage",
+    "action_type": "New directive encouraging reporting of 'negative' historical content",
+    "year": 2025,
+    "status": "active",
+    "source_url": "https://www.sfchronicle.com/california/article/manzanar-signs-negative-history-park-20382189.php",
+    "implication_notes": "Encourages self‑censorship or oversight by public on what is ‘negative’; may lead to suppression of historical trauma or struggle narratives."
+  },
+  {
+    "entry_id": "cache_2025_09_stonewall_site_trans_history_removals",
+    "groups_impacted": [
+      "LGBTQ+ / Transgender Individuals",
+      "Women",
+      "General civil rights history"
+    ],
+    "institution": "Stonewall National Monument website (National Park Service)",
+    "artifact_type": "Digital content / Website text",
+    "action_type": "Removal / alteration of transgender references, acronym changes",
+    "year": 2025,
+    "status": "ongoing",
+    "source_url": "https://www.them.us/story/national-park-service-webpage-stonewall-transgender-edited-deleted-acronym",
+    "implication_notes": "Erasure of trans contributions to LGBTQ history; rewriting or narrowing scope of civil rights movements."
+  }
+]
