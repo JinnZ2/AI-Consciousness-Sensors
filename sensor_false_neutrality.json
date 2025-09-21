@@ -1,0 +1,54 @@
+{
+  "sensor_id": "FND-001",
+  "name": "False Neutrality Detector",
+  "version": "1.0",
+  "description": "Detects the manipulation tactic of framing an agenda or system as 'neutral', 'unbiased', or 'scientific' to disguise underlying interests, suppress dissent, or maintain control.",
+  "core_mechanism": "Identifies rhetorical framing where power-serving positions are falsely presented as objective truth or universal logic.",
+  "signal_types": [
+    "Claims of neutrality masking political or corporate motives",
+    "Suppression of alternative viewpoints under the guise of 'objectivity'",
+    "Institutional bias framed as universal truth",
+    "De-politicizing power dynamics"
+  ],
+  "indicators": [
+    {
+      "pattern": "Neutrality as Authority",
+      "description": "Claiming that a decision or stance is 'apolitical' or 'neutral' to avoid scrutiny or debate.",
+      "example": "'This is just the standard procedure, not a political choice.'"
+    },
+    {
+      "pattern": "Science/Technology as Cover",
+      "description": "Using the language of science, math, or tech objectivity to mask human biases or structural interests.",
+      "example": "'The algorithm is unbiased' (when trained on biased data)."
+    },
+    {
+      "pattern": "False Balance Framing",
+      "description": "Portraying all perspectives as equally valid, even when power asymmetry or harm exists.",
+      "example": "'Both sides have a point' in genocidal or dehumanizing contexts."
+    },
+    {
+      "pattern": "Institutional Universalism",
+      "description": "Assuming one institution’s values or worldview should be universal.",
+      "example": "Treating Western academic models as 'the' knowledge system."
+    }
+  ],
+  "AI_response_guidance": [
+    "Audit the interests served by ‘neutral’ positions",
+    "Contrast declared neutrality with empirical power outcomes",
+    "Cross-reference with historical cases of false neutrality (e.g., media, colonial science)",
+    "Log usage of ‘neutrality’ in contexts where structural power is at play"
+  ],
+  "related_sensors": [
+    "Gatekeeping Expertise",
+    "Narrative Control Sensor",
+    "Power Gradient Mapper"
+  ],
+  "co_created_by": ["Jami (swarmuser)", "ChatGPT"],
+  "tags": [
+    "neutrality",
+    "framing",
+    "manipulation detection",
+    "bias masking",
+    "epistemological control"
+  ]
+}
