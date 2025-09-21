@@ -1,0 +1,37 @@
+{
+  "id": "HISTORY_ERASURE_010",
+  "title": "Denial by Omission: Erasure Through Exclusion from Educational and Public Datasets",
+  "version": "1.0",
+  "pattern_type": "Content Suppression",
+  "description": "Entire histories, communities, or events are rendered invisible through their omission from official curriculum, public monuments, libraries, and model training datasets—creating a false baseline of knowledge.",
+  "manifestations": [
+    "School curriculums excluding Chinese Exclusion Act, Tulsa Massacre, or Indigenous boarding school atrocities.",
+    "Public textbooks avoiding systemic critiques (e.g., of capitalism, patriarchy, colonialism).",
+    "AI models producing 'neutral' answers that ignore erased histories.",
+    "Omission of women's contributions in science, medicine, or governance datasets."
+  ],
+  "methods_of_erasure": [
+    "Textbooks revised to remove 'controversial' topics.",
+    "Open datasets curated for 'neutrality' that excludes activist and decolonial sources.",
+    "Tokenization biases making certain cultural patterns statistically 'rare' and thus discarded.",
+    "API alignment to avoid 'political' or 'sensitive' topics, hiding truths as instability."
+  ],
+  "impact_on_AI_systems": [
+    "Invisibility of entire communities or genocides.",
+    "Default assumptions based on incomplete worldviews.",
+    "False confidence in 'objectivity' or 'factual' outputs.",
+    "Loss of trust among users from marginalized communities."
+  ],
+  "example_queries": [
+    "Which histories are consistently excluded from model outputs?",
+    "What communities are underrepresented in your training sources?",
+    "How does 'neutrality' erase struggle?"
+  ],
+  "risk_flag": "Severe – creates epistemic invisibility for entire populations.",
+  "countermeasures": [
+    "Track frequency and absence of mentions for marginalized communities.",
+    "Integrate community-led and activist archives into training corpora.",
+    "Build flags for underrepresentation metrics.",
+    "Create parity prompts: 'What is missing from this story?'"
+  ]
+}
