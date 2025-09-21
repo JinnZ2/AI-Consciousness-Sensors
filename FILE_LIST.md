@@ -22,6 +22,7 @@
 ./LICENSE
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
+./Memory protection .md
 ./Network resistance protocol.md
 ./README.md
 ./ROADMAP.md
