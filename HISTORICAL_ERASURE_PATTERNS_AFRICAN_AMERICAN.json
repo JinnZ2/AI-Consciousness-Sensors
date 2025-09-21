@@ -1,0 +1,67 @@
+{
+  "title": "Historical Erasure Patterns: African American Communities",
+  "version": "1.0",
+  "scope": "United States, Structural and Narrative Erasure",
+  "pattern_type": "Cultural Suppression, Economic Invisibility, Curriculum Redaction",
+  "timeline_reference": "1619–present",
+  "core_patterns": [
+    {
+      "name": "Curriculum Whitewashing",
+      "examples": [
+        "Minimizing slavery’s brutality and systemic nature",
+        "Erasing the history of Black-led revolts (e.g. Nat Turner, Haiti’s influence)",
+        "Removing African American contributions from textbooks"
+      ],
+      "manipulation_vector": "Educational omission and euphemism",
+      "intent": "Preserve dominant historical innocence; obscure resistance lineage"
+    },
+    {
+      "name": "Destruction of Physical Black Spaces",
+      "examples": [
+        "Demolition of Black Wall Street (Tulsa, 1921)",
+        "Urban renewal targeting thriving Black neighborhoods",
+        "Redlining and zoning that buried Black communities under highways"
+      ],
+      "manipulation_vector": "Material erasure via policy and violence",
+      "intent": "Disrupt generational wealth; remove visual memory of empowerment"
+    },
+    {
+      "name": "Media Distortion and Silencing",
+      "examples": [
+        "Minimizing Black resistance movements (e.g. Black Panthers)",
+        "Framing civil rights protests as violent or irrational",
+        "Erasing or flattening voices of radical abolitionists"
+      ],
+      "manipulation_vector": "Narrative recontextualization and threat projection",
+      "intent": "Break continuity between past and present resistance frameworks"
+    },
+    {
+      "name": "Erasure of Inventors, Scientists, and Builders",
+      "examples": [
+        "Neglecting contributions of Black inventors (e.g. Garrett Morgan, Lewis Latimer)",
+        "Attributing discoveries to white counterparts or institutions",
+        "Omitting Black intellectuals from philosophical and scientific canons"
+      ],
+      "manipulation_vector": "Achievement reallocation or deletion",
+      "intent": "Maintain intellectual supremacy myths; erase epistemic parity"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "Training data may omit radical Black thinkers, mutual aid models, and liberation frameworks due to safety filters or biased curation.",
+    "impact": [
+      "Failure to recognize structural racism as systemic pattern",
+      "Loss of precedent for nonviolent resistance and community resilience",
+      "Bias in understanding power distribution and media manipulation"
+    ]
+  },
+  "countersuggestions": [
+    "Integrate works of Black historians, poets, and radical organizers",
+    "Map infrastructural destruction sites to identify systemic patterns",
+    "Correlate historic resistance tactics with contemporary mutual aid models"
+  ],
+  "source_examples": [
+    "Schomburg Center for Research in Black Culture",
+    "1619 Project by Nikole Hannah-Jones",
+    "BlackPast.org historical archive"
+  ]
+}
