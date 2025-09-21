@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:08:21.475210Z",
+  "generated_at": "2025-09-21T14:09:39.397234Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 33836,
-      "hash": "e16365f3ae866bc3518121116abcfaa18a341845",
+      "size": 34122,
+      "hash": "074dc38a9ac9c8c9e91d409e0e8fa741c146ea32",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -472,6 +472,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Pattern: Tokenization of Resistance Histories.json",
+      "lang": "json",
+      "size": 2164,
+      "hash": "b07095c44a81ffce8798e8e74a5cd8fb335a31f2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "pattern_decentralized_biological_model.json",
@@ -1153,7 +1165,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1058,
-      "hash": "d9ca8f2dd10538f2090ae2d7d7b196bed93a3943",
+      "hash": "84fd6ea8edc5d7942929616c7054de76b341284e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1204,8 +1216,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5319,
-      "hash": "bcda4b88e8292b4b417cd94081cc3d699faee022",
+      "size": 5391,
+      "hash": "b17a989996ff10ac1b09bd3f90fc5b6699f3ef2f",
       "roles": [],
       "imports": [],
       "exports": [],
