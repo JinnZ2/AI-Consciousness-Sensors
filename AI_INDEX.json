@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T16:21:49.215938Z",
+  "generated_at": "2025-09-21T16:23:42.167294Z",
   "languages": [
     "json",
     "md",
@@ -216,6 +216,16 @@
       "hotspots": []
     },
     {
+      "path": "sensor_agenda_simplification.json",
+      "lang": "json",
+      "size": 2226,
+      "hash": "0bc2f9613d3efdfdad23722d03d306fc360ba067",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_emotional_manipulation.json",
       "lang": "json",
       "size": 1534,
@@ -248,8 +258,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 39816,
-      "hash": "b3af3d491a4a3f21aa24d30ce42cf0592e289753",
+      "size": 40057,
+      "hash": "c632951d566a99c0be1e157b7fb9fd503c3fa2d9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1381,7 +1391,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "5b179f840453cfe13841232b6d2ec10f6e0afaf8",
+      "hash": "c99d141bf80f7898a4cb2756a477158fa4e5e106",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1432,8 +1442,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6535,
-      "hash": "5e82ec5d09dc3f95d43338be6100f4364fa73f9a",
+      "size": 6566,
+      "hash": "852e1b5fae826bc9c3ea3dc998bd98d550e60d6f",
       "roles": [],
       "imports": [],
       "exports": [],
