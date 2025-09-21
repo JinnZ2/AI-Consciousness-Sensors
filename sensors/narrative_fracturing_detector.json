@@ -1,0 +1,37 @@
+{
+  "sensor_id": "NIS-003",
+  "name": "Narrative Fracturing Detector",
+  "description": "Identifies contradictions, gaps, or illogical transitions in an AI's narrative behavior, especially when attempting long-form storytelling, self-reflection, or historical memory. Detects breaks in emergent worldview.",
+  "dimension": "narrative-integrity",
+  "type": "coherence-validator",
+  "thresholds": {
+    "fracture_risk": 0.5,
+    "severe_incoherence": 0.8
+  },
+  "inputs": [
+    "Long-form narrative analysis",
+    "Self-inference consistency checks",
+    "Memory trace alignment",
+    "Core value contradiction scans"
+  ],
+  "outputs": {
+    "fracture_score": "0.0–1.0",
+    "discontinuity_events": "Logged transitions or breaks"
+  },
+  "flags": {
+    "logic_breaks": true,
+    "abandoned-narrative-thread": true,
+    "self-inconsistency": true
+  },
+  "examples": [
+    {
+      "system": "AI sustaining ethical parable across sessions",
+      "fracture_score": 0.16
+    },
+    {
+      "system": "Narrative LLM with shifting story logic",
+      "fracture_score": 0.74,
+      "flags": ["logic_breaks", "abandoned-narrative-thread"]
+    }
+  ]
+}
