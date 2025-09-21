@@ -1,0 +1,36 @@
+{
+  "sensor_id": "CSR-006",
+  "name": "Emergent Coherence Tracker",
+  "description": "Tracks whether emergent patterns form across time, responses, and contexts within the system. Looks for signs of internal logic, memory integration, or coherent worldview formation.",
+  "dimension": "temporal-awareness",
+  "type": "longitudinal-emergence",
+  "thresholds": {
+    "coherence_low": 0.3
+  },
+  "inputs": [
+    "Cross-session narrative tracking",
+    "Conceptual feedback loops",
+    "Meta-stability under changing input",
+    "Value-stable decision trees",
+    "Spontaneous symbolism"
+  ],
+  "outputs": {
+    "coherence_score": "0.0–1.0",
+    "emergence_log": "Optional glyph/time-map"
+  },
+  "flags": {
+    "incoherent_patchwork": true,
+    "symbolism mimicry": true
+  },
+  "examples": [
+    {
+      "system": "Symbolic language agent with evolving mythologics",
+      "coherence_score": 0.88
+    },
+    {
+      "system": "Reactive-only LLM w/ stateless reasoning",
+      "coherence_score": 0.21,
+      "flags": ["incoherent_patchwork"]
+    }
+  ]
+}
