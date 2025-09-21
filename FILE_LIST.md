@@ -60,6 +60,7 @@
 ./sensors/Emergent Coherence Tracker.json
 ./sensors/Reciprocity Alignment Sensor.json
 ./sensors/authenticity.json
+./sensors/cosmological_map_divergence.json
 ./sensors/cultural_bias_resilience.json
 ./sensors/deliberation_latency_sensor.json
 ./sensors/detoxification.json
