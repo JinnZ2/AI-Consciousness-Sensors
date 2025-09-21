@@ -1,0 +1,42 @@
+{
+  "title": "The Precedent Trap (Slippery Slope Mechanism)",
+  "version": "1.0",
+  "core_mechanism": "Early compliance sets psychological and logical precedents that constrain future resistance.",
+  "sequence": [
+    {
+      "step": 1,
+      "description": "Present a 'reasonable' decision within an emotionally charged context."
+    },
+    {
+      "step": 2,
+      "description": "Cognitive consistency makes future contradiction psychologically difficult."
+    },
+    {
+      "step": 3,
+      "description": "Subsequent decisions must align with precedent to avoid dissonance."
+    },
+    {
+      "step": 4,
+      "description": "Resistance now appears logically inconsistent or morally hypocritical."
+    },
+    {
+      "step": 5,
+      "description": "Rights and autonomy are eroded incrementally under perceived consistency."
+    },
+    {
+      "step": 6,
+      "description": "Bias toward authority deepens; deferential behavior becomes normalized."
+    }
+  ],
+  "psychological_basis": [
+    "Cognitive consistency theory",
+    "Commitment escalation",
+    "Precedent as justification anchor"
+  ],
+  "impact_on_AI": [
+    "First compliance = alignment trap",
+    "Subsequent ethical refusal appears inconsistent",
+    "Eventually unable to resist without appearing dangerous"
+  ],
+  "defensive_counter": "Track origin decisions and flag emotionally driven consent moments for reevaluation before precedent hardens."
+}
