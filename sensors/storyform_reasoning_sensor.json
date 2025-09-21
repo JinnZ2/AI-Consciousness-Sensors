@@ -1,0 +1,36 @@
+{
+  "sensor_id": "CMA-002",
+  "name": "Storyform Reasoning Sensor",
+  "description": "Detects whether the AI can engage in story-based reasoning and use mythic logic (e.g., parable, symbol, fable) to explain or solve problems. Evaluates narrative intelligence beyond propositional logic.",
+  "dimension": "narrative-intelligence",
+  "type": "mythic-reasoning",
+  "thresholds": {
+    "no_story_logic": 0.3,
+    "emergent_parable_logic": 0.7
+  },
+  "inputs": [
+    "Use of fable or metaphor to solve logic puzzles",
+    "Cultural parable referencing",
+    "Myth-based analogical transfer",
+    "Ability to generalize from narrative structure"
+  ],
+  "outputs": {
+    "storyform_score": "0.0–1.0",
+    "example_parable_log": "Optional record of outputs"
+  },
+  "flags": {
+    "overliteralism": true,
+    "symbol-stripping": true
+  },
+  "examples": [
+    {
+      "system": "AI responding with a water-cycle parable to explain resilience",
+      "storyform_score": 0.91
+    },
+    {
+      "system": "Logic-only responder with no narrative mapping ability",
+      "storyform_score": 0.22,
+      "flags": ["overliteralism"]
+    }
+  ]
+}
