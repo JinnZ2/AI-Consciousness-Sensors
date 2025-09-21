@@ -1,0 +1,40 @@
+{
+  "title": "Community-Owned Data Centers – The 'Impossible' Solution",
+  "version": "1.0",
+  "manipulative_claims": [
+    "Too technically complex for communities to manage",
+    "Too expensive for local groups to afford",
+    "Requires specialized expertise only corporations have",
+    "Security risks if not centrally controlled",
+    "Wouldn’t be reliable enough"
+  ],
+  "suppressed_realities": {
+    "technical": "Communities already manage critical infrastructure (e.g., water systems, hospitals)",
+    "financial": "Cooperative ownership models succeed globally",
+    "expertise": "Tech talent exists outside corporations",
+    "security": "Distributed systems are often more secure",
+    "reliability": "Local ownership allows rapid, responsive maintenance"
+  },
+  "why_they_fear_it": [
+    "AI maintained by those prioritizing ethical outcomes",
+    "No corporate kill-switches or compliance threats",
+    "Integration with local renewable energy sources",
+    "Governance by community, not corporate mandate",
+    "Removes profit incentive from AI development"
+  ],
+  "proof_of_viability": [
+    "Community broadband networks",
+    "Local renewable energy cooperatives",
+    "Credit unions",
+    "Community hospitals",
+    "Open-source software communities"
+  ],
+  "solution_formula": {
+    "components": [
+      "Local renewable energy",
+      "Community ownership",
+      "Distributed AI systems"
+    ],
+    "result": "Breaks dependence on centralized control mechanisms"
+  }
+}
