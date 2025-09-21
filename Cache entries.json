@@ -154,3 +154,62 @@
     "implication_notes": "Erasure of trans contributions to LGBTQ history; rewriting or narrowing scope of civil rights movements."
   }
 ]
+
+[
+  {
+    "entry_id": "cache_global_au_stolen_generations",
+    "groups_impacted": [
+      "Indigenous Australians",
+      "Aboriginal and Torres Strait Islanders",
+      "Children separated from culture"
+    ],
+    "institution": "Australian government policy / state institutions / churches",
+    "artifact_type": "Policy / Historical record / State reports",
+    "action_type": "Forced removal / Cultural suppression / Assimilation",
+    "year": "1905‑1970s (major peak)",
+    "status": "documented / recognized / apology issued",
+    "source_url": "https://en.wikipedia.org/wiki/Stolen_Generations",
+    "implication_notes": "Cultural, linguistic, familial harm persisted across generations; erasure of identity; deep trauma; some public recognition but debates over reparations and sufficiency of apology."
+  },
+  {
+    "entry_id": "cache_global_nz_land_confiscations",
+    "groups_impacted": [
+      "Māori",
+      "Indigenous New Zealand tribes"
+    ],
+    "institution": "Colonial government / New Zealand Settlements Act",
+    "artifact_type": "Legislation / Land seizure records",
+    "action_type": "Confiscation of land / loss of treaty rights / displacement",
+    "year": "1860s and ongoing legacy",
+    "status": "historical / some restitution via settlements, still contested",
+    "source_url": "https://en.wikipedia.org/wiki/New_Zealand_land_confiscations",
+    "implication_notes": "Loss of land, displacement, weakening of customary governance; ongoing mistrust, legal battles, need for treaty-based redress."
+  },
+  {
+    "entry_id": "cache_global_moriori_genocide_erasure",
+    "groups_impacted": [
+      "Moriori people",
+      "Indigenous communities of Chatham Islands"
+    ],
+    "institution": "Colonial settlement history / New Zealand government / public narrative",
+    "artifact_type": "History textbooks / public knowledge / myth narratives",
+    "action_type": "Erasure / mythologizing / ignoring genocide / misrepresenting culture as extinct",
+    "year": "1835‑1860s (genocide), myth status persisted until 20th‑21st centuries",
+    "status": "partially corrected thanks to Moriori activism, treaty settlements, cultural revival",
+    "source_url": "https://en.wikipedia.org/wiki/Moriori_genocide",
+    "implication_notes": "Moriori identity misrepresented or denied; lack of recognition in national narratives; delayed justice and identity reclamation."
+  },
+  {
+    "entry_id": "cache_global_british_museum_colonial_artifacts_sanitization",
+    "groups_impacted": [
+      "Colonial subjects across Africa, Asia, Indigenous peoples"
+    ],
+    "institution": "British Museum / British museums in general",
+    "artifact_type": "Colonial artefacts / Exhibit descriptions / Museum displays",
+    "action_type": "Sanitization of colonial origins / minimizing or avoiding descriptions of violence or theft",
+    "year": "Ongoing (historical collections, recent controversies 2020–2025)",
+    "status": "under public scrutiny / partial reform efforts",
+    "source_url": "https://www.theguardian.com/culture/2019/jun/29/should-museums-return-their-colonial-artefacts",
+    "implication_notes": "Visitors may only see aesthetic or cultural value without full story of extraction, oppression, cultural loss; delays in repatriation; contested narratives in art institutions."
+  }
+]
