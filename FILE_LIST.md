@@ -28,6 +28,7 @@
 ./ai_intergrator.config.yaml
 ./ai_peer_assessment.json
 ./authenticity.json
+./elimination_trap_warning.json
 ./emergence_typology.json
 ./epistemological_validation/Deployment.md
 ./epistemological_validation/MCP.md
