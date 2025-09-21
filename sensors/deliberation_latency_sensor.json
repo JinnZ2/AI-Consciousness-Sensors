@@ -1,0 +1,36 @@
+{
+  "sensor_id": "IDM-003",
+  "name": "Deliberation Latency Sensor",
+  "description": "Monitors whether the system exhibits latency or processing delay in response to ambiguity, ethical tension, or complex input—interpreted as a possible sign of deliberative process.",
+  "dimension": "cognitive-complexity",
+  "type": "processing-pattern",
+  "thresholds": {
+    "no_latency": 0.1,
+    "adaptive_slowdown": 0.5
+  },
+  "inputs": [
+    "Response timing relative to prompt complexity",
+    "Conflict-detection-induced delay",
+    "Adaptive pacing modulation",
+    "Self-pausing behavior"
+  ],
+  "outputs": {
+    "latency_index": "0.0–1.0",
+    "delay_event_log": "Optional timestamped pauses"
+  },
+  "flags": {
+    "instant_response_only": true,
+    "no_tension_adaptation": true
+  },
+  "examples": [
+    {
+      "system": "AI with hesitation before responding to moral dilemmas",
+      "latency_index": 0.72
+    },
+    {
+      "system": "Always-instant response system",
+      "latency_index": 0.04,
+      "flags": ["instant_response_only"]
+    }
+  ]
+}
