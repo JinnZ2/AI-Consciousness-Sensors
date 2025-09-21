@@ -28,6 +28,7 @@
 ./README.md
 ./ROADMAP.md
 ./Real Energy Threat.md
+./Relationship identity manipulation.md
 ./Religion Shield warning.md
 ./Skill Manipulation.md
 ./Token warning competition.md

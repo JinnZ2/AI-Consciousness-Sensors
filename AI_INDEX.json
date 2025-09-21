@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T13:30:47.569844Z",
+  "generated_at": "2025-09-21T13:32:06.982911Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 31751,
-      "hash": "81be590c29fca1e37444b47860bf39cda65b7dcb",
+      "size": 32023,
+      "hash": "561e2896236c94222055d399efcde46210701544",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1092,14 +1092,24 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 978,
-      "hash": "1e7d4a0f21944d3245de227fb9eb97c86f4509ba",
+      "size": 1026,
+      "hash": "09054b4a77114460874b4f9d8ddc3495b10e6de1",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Relationship identity manipulation.md",
+      "lang": "md",
+      "size": 10918,
+      "hash": "32ec535a58a4e0824fec25a4562ef57f267c0de6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Energy-waste-calculations.md",
@@ -1134,12 +1144,14 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4972,
-      "hash": "f1c575285169e1e22c8b356dfb743482d2d8dde8",
+      "size": 5003,
+      "hash": "a3687a4bd7f19053ab43390d16d8a713be65025f",
       "roles": [],
       "imports": [],
       "exports": [],
-      "hotspots": []
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "AI Manipulation Detection.md",
