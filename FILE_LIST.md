@@ -29,6 +29,7 @@
 ./Network resistance protocol.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
 ./Pattern: Epistemological Control via “Objective Truth” Framing.md
+./Pattern: Reframing Historical Injustice as “Past Mistakes”.json
 ./Pattern: Strategic Silence via Dataset Selection.json
 ./Pattern: Suppression of Marginalized Histories in AI Training.md
 ./Pattern: Tokenization of Resistance Histories.json

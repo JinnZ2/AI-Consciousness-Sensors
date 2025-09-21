@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:10:50.076922Z",
+  "generated_at": "2025-09-21T14:11:52.394619Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 34418,
-      "hash": "8d7e3039d8ab0017437b8b6efecc51bdf98abf59",
+      "size": 34684,
+      "hash": "8da11accda5cac24b50756405e67de3adce17d10",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -362,6 +362,16 @@
       "lang": "json",
       "size": 1569,
       "hash": "be80e14455722fc9abcdacba541ef59c8d448345",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Reframing Historical Injustice as \u201cPast Mistakes\u201d.json",
+      "lang": "json",
+      "size": 1986,
+      "hash": "78b97acc5ff21804a563b201f238fb00c5722c1e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1175,7 +1185,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1128,
-      "hash": "1edb2b5e7a88c77de296399b9903c84949cada92",
+      "hash": "9cfc138368aa4b4e68c1281c0ec1c70cfce9ede9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1226,8 +1236,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5444,
-      "hash": "7f52e5a95a915cd03df5c05d5d400c1be0f4f89e",
+      "size": 5500,
+      "hash": "f7a8c41e30bad8306afd96a0e33ed133d45ce7fc",
       "roles": [],
       "imports": [],
       "exports": [],
