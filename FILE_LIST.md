@@ -14,6 +14,7 @@
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
 ./DIR_LIST.md
+./Emergency cognitive protocols.md
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./FILE_LIST.md
