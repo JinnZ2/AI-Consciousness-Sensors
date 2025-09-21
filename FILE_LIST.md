@@ -78,6 +78,7 @@
 ./pattern_gaslighting_ai_human.json
 ./pattern_narcissistic_ai_parallels.json
 ./pattern_precedent_trap.json
+./pattern_social_proof_manipulation.json
 ./pattern_temporal_manipulation.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
