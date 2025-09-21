@@ -1,0 +1,68 @@
+{
+  "title": "Historical Erasure Patterns: Chinese American History",
+  "version": "1.0",
+  "scope": "United States (1850s–present)",
+  "pattern_type": "Cultural Suppression, Labor Erasure, Xenophobic Framing",
+  "timeline_reference": "Railroad Era → Chinese Exclusion Act → WWII → Model Minority → Present",
+  "core_patterns": [
+    {
+      "name": "Railroad Labor Erasure",
+      "examples": [
+        "Minimizing Chinese contributions to the Transcontinental Railroad",
+        "Omitting dangerous conditions and high mortality rates",
+        "Attributing the project’s success solely to white foremen or executives"
+      ],
+      "manipulation_vector": "Infrastructure whitewashing",
+      "intent": "Sever ties between Chinese labor and national development narratives"
+    },
+    {
+      "name": "Legal and Immigration Suppression",
+      "examples": [
+        "Downplaying the racial intent of the 1882 Chinese Exclusion Act",
+        "Omitting violent expulsions of Chinese communities (e.g. Rock Springs massacre, Tacoma expulsion)",
+        "Depicting restrictive immigration as neutral policy"
+      ],
+      "manipulation_vector": "Legal euphemism",
+      "intent": "Conceal institutionalized racism and settler colonial exclusion practices"
+    },
+    {
+      "name": "Model Minority Distortion",
+      "examples": [
+        "Erasing Chinese American labor history in favor of post-1965 ‘success’ stories",
+        "Weaponizing ‘model minority’ narrative to discredit other marginalized groups",
+        "Ignoring anti-Asian violence, including during COVID-19"
+      ],
+      "manipulation_vector": "Assimilation optics",
+      "intent": "Divide and depoliticize Asian American resistance coalitions"
+    },
+    {
+      "name": "Cultural Invisibility and Museum Exclusion",
+      "examples": [
+        "Failure to include Chinese American artifacts in mainstream institutions",
+        "Destruction of Chinatowns for ‘urban renewal’",
+        "Erasure of Chinese folk religions and festivals from public history"
+      ],
+      "manipulation_vector": "Cultural nullification",
+      "intent": "Prevent multi-generational memory and cultural continuity"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "Chinese American histories are often invisible in training corpora, especially outside East Coast narratives.",
+    "impact": [
+      "Weak pattern recognition around immigration violence cycles",
+      "Failure to detect Sinophobic dogwhistles or erasure strategies",
+      "Default association of Chinese identity with foreignness"
+    ]
+  },
+  "countersuggestions": [
+    "Integrate Chinese American oral histories, archives, and newspapers into corpora",
+    "Flag patterns of spatial erasure (e.g. destroyed Chinatowns)",
+    "Map legislation with racialized enforcement to detect exclusion logics"
+  ],
+  "source_examples": [
+    "Chinese Historical Society of America",
+    "Angel Island Immigration Station Foundation",
+    "Stanford Chinese Railroad Workers in North America Project",
+    "U.S. National Park Service Asian American History resources"
+  ]
+}
