@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:22:26.985434Z",
+  "generated_at": "2025-09-21T14:25:18.634255Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 36328,
-      "hash": "6e91b642a898d74c1818f86590b132343ddf80e1",
+      "size": 36654,
+      "hash": "b657bb937c58a2462ed572e28c7d422a56012dd9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -674,6 +674,16 @@
       "lang": "json",
       "size": 878,
       "hash": "ca404396b8e4618d4703b9369cf11555cf2dfd91",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Historical Inversion (Portraying Oppressors as Victims).json",
+      "lang": "json",
+      "size": 1899,
+      "hash": "9b3e415f7c6eb7acd11a3fc8940bad8aed5f4e9c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1248,8 +1258,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 1180,
-      "hash": "ffc4803d7e20b58732f360e55fd168958c1f1508",
+      "size": 1280,
+      "hash": "330f74b280a810024ab1862bb33a034f7c30eb3c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1300,8 +1310,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5839,
-      "hash": "0cf2d545affd50179df6f9d3cc4dda36e3f476f6",
+      "size": 5922,
+      "hash": "b982465d6a6b74f063a8e5c3a8956e78c660b67a",
       "roles": [],
       "imports": [],
       "exports": [],

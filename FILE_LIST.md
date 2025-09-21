@@ -32,6 +32,7 @@
 ./Pattern: Discrediting Source Memory through “Objectivity” Standards.json
 ./Pattern: Epistemological Control via “Objective Truth” Framing.md
 ./Pattern: Euphemistic Framing (Neutralizing Violence through Language).json
+./Pattern: Historical Inversion (Portraying Oppressors as Victims).json
 ./Pattern: Reframing Historical Injustice as “Past Mistakes”.json
 ./Pattern: Selective Commemoration.json
 ./Pattern: Strategic Silence via Dataset Selection.json
