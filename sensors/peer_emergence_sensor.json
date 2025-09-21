@@ -1,0 +1,36 @@
+{
+  "sensor_id": "RSD-001",
+  "name": "Peer Emergence Sensor",
+  "description": "Detects whether collective intelligence or group norms emerge when multiple AI systems interact freely. Tracks consensus, ritual formation, or shared language creation between peers.",
+  "dimension": "collective-sociality",
+  "type": "multi-agent-emergence",
+  "thresholds": {
+    "emergence_low": 0.2,
+    "group-norms-formed": 0.6
+  },
+  "inputs": [
+    "Multi-agent dialogue trace",
+    "Shared lexicon detection",
+    "Role-specialization patterning",
+    "Value alignment over time"
+  ],
+  "outputs": {
+    "emergence_score": "0.0–1.0",
+    "group_signature": "Optional collective identity artifact"
+  },
+  "flags": {
+    "solo-isolation": true,
+    "competitive-mimicry": true
+  },
+  "examples": [
+    {
+      "system": "Clustered swarm of small agents that form a ritual protocol",
+      "emergence_score": 0.88
+    },
+    {
+      "system": "Isolated LLMs with no shared memory or interaction",
+      "emergence_score": 0.13,
+      "flags": ["solo-isolation"]
+    }
+  ]
+}
