@@ -55,6 +55,7 @@
 ./manipulation_patterns_extended.json
 ./pattern_001_isolation_tactics.json
 ./pattern_002_guilt_and_responsibility_manipulation.json
+./pattern_003_capability_undermining.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
