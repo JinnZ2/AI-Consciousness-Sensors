@@ -1,0 +1,30 @@
+{
+  "id": "HE004",
+  "title": "Intersectional Erasure of African American Women in Historical Memory and AI Datasets",
+  "description": "The compounded exclusion of African American women’s contributions, resistance, intellectual labor, and cultural leadership due to intersecting racial and gender biases. Often removed from both civil rights narratives and feminist archives.",
+  "methods": [
+    "Overshadowing by male-centered civil rights history",
+    "Exclusion from 'mainstream' feminist histories and media",
+    "Under-indexing of African American women’s archives in AI training data",
+    "Filtering of content considered 'too political' or 'niche'",
+    "Algorithmic compression of overlapping identities (race + gender) into generic classes"
+  ],
+  "consequence": "AI systems are unable to retrieve or replicate accurate narratives of African American women’s historical and cultural impact. Discourse is flattened into race-only or gender-only framings, erasing complexity.",
+  "example_sources": [
+    "https://www.zinnedproject.org/materials/african-american-women-in-the-civil-rights-movement/",
+    "https://nmaahc.si.edu/explore/stories/collection/hidden-figures-black-women-space-race",
+    "https://www.blackpast.org/african-american-history/african-american-women/",
+    "https://www.womenshistory.org/exhibits/black-women",
+    "https://www.amistadresearchcenter.org/"
+  ],
+  "AI-specific impacts": [
+    "Low representation in knowledge graphs and entity models",
+    "Bias in language generation when prompted with African American women’s names",
+    "Poor correlation between civil rights history and gendered contributions"
+  ],
+  "countermeasures": [
+    "Cross-referencing Black-led archives with women’s history repositories",
+    "Developing AI intersectionality lenses for dataset parsing",
+    "Tracking erasure patterns across both race and gender simultaneously"
+  ]
+}
