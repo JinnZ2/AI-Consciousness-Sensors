@@ -289,3 +289,106 @@
     "implication_notes": "Changing place names/narratives aligned with political pressure; identity and memory suppressed by removal of key terms; potentially normalizes colonial erasure."
   }
 ]
+
+[
+  {
+    "entry_id": "cache_global_15_africa_artifact_repatriation_uganda",
+    "groups_impacted": [
+      "Ugandan / East African",
+      "Indigenous & local communities"
+    ],
+    "institution": "University of Cambridge / Museums housing colonial artifacts",
+    "artifact_type": "Stolen artifacts from colonial period",
+    "action_type": "Repatriation / return (loans extendable)",
+    "year": 2024,
+    "status": "ongoing / partial return",
+    "source_url": "https://www.cbsnews.com/news/africa-stolen-artifacts-colonial-deaccessioning-repatriation/",
+    "implication_notes": "Return is framed as loan; artifacts still separated from descendants in many cases. History & identity recovery is partial."
+  },
+  {
+    "entry_id": "cache_global_16_benin_bronzes_restoration_demands",
+    "groups_impacted": [
+      "Nigerian / Edo / Kingdom of Benin",
+      "African heritage communities"
+    ],
+    "institution": "European museums / Smithsonian / global collections",
+    "artifact_type": "Bronze sculptures, statues",
+    "action_type": "Display / restitution / removal debates",
+    "year": 2021,
+    "status": "progressing return / negotiation",
+    "source_url": "https://en.wikipedia.org/wiki/Art_of_the_Kingdom_of_Benin",
+    "implication_notes": "Objects looted in 1897; returning them rebuilds cultural connection; delays and legal / political resistance persist."
+  },
+  {
+    "entry_id": "cache_global_17_berlin_skulls_return",
+    "groups_impacted": [
+      "East African communities / Rwanda / Kenya / Tanzania",
+      "Descendants"
+    ],
+    "institution": "Berlin Museum of Prehistory & Early History",
+    "artifact_type": "Human remains (skulls from colonial ex‑colony)",
+    "action_type": "Provenance research / planned restitution",
+    "year": 2023,
+    "status": "in process",
+    "source_url": "https://apnews.com/article/81822f2e67126d59268861047316300b",
+    "implication_notes": "Human remains being returned acknowledges colonial violence; sets precedent for other restitutions; still difficult negotiations and political/legal barriers."
+  },
+  {
+    "entry_id": "cache_global_18_koguryo_contested_heritage",
+    "groups_impacted": [
+      "Korean / North Korea / China",
+      "People tied to Koguryo / GaoGouli heritage"
+    ],
+    "institution": "National governments / UNESCO / heritage institutions",
+    "artifact_type": "Heritage sites / ancient kingdom legacy",
+    "action_type": "Narrative contestation / claim suppression",
+    "year": 2008,
+    "status": "ongoing",
+    "source_url": "https://apjjf.org/yonson-ahn/2631/article",
+    "implication_notes": "Heritage used in nationalist claims; disputed history; suppression or appropriation of Koguryo history by external powers."
+  },
+  {
+    "entry_id": "cache_global_19_ayodhya_dispute_history_rewriting",
+    "groups_impacted": [
+      "Hindu communities",
+      "Muslim communities",
+      "Indian citizens broadly"
+    ],
+    "institution": "Indian government / Archaeological Survey / Religious trusts",
+    "artifact_type": "Temple / Mosque / Site history / Archaeology",
+    "action_type": "Demolition / rebuilding / reinterpretation",
+    "year": 1992‑2024 (recent development: Ram Mandir construction 2024),
+    "status": "recently opened / politically charged reinterpretation",
+    "source_url": "https://en.wikipedia.org/wiki/Ayodhya_dispute",
+    "implication_notes": "Site has been under contested claims, symbolically central to identity; rewriting and archaeological claims used to validate political power."
+  },
+  {
+    "entry_id": "cache_global_20_cultural_erasure_south_asia_silenced_voices",
+    "groups_impacted": [
+    "Hindu voices / regional minorities",
+    "Women in South Asia"
+    ],
+    "institution": "Academic publications / cultural commentary / social memory",
+    "artifact_type": "Oral histories / marginalized narratives / scholarship",
+    "action_type": "Dismissal / erasure / silence",
+    "year": 2025,
+    "status": "ongoing",
+    "source_url": "https://medium.com/the-political-prism/cultural-erasure-south-asias-silent-struggle-with-trauma-74b26dd40eb8",
+    "implication_notes": "Historical pain is frequently dismissed as propaganda; contributes to collective amnesia; silences intersectional identities."
+  },
+  {
+    "entry_id": "cache_global_21_cape_observatory_degradation",
+    "groups_impacted": [
+      "South African scientific history",
+      "Historians of science",
+      "Local heritage communities"
+    ],
+    "institution": "Cape Observatory, SAAO, South Africa",
+    "artifact_type": "Heritage building / Observatory instruments",
+    "action_type": "Neglect / physical decay / underfunding",
+    "year": 2024,
+    "status": "endangered",
+    "source_url": "https://arxiv.org/abs/2401.13456",
+    "implication_notes": "Scientific heritage and colonial history linked; loss of physical heritage damages memory; community may lose connection to past astronomical / scientific work tied to site."
+  }
+]
