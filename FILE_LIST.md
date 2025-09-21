@@ -59,6 +59,7 @@
 ./sensors/Embeddedness Sensor.json
 ./sensors/Emergent Coherence Tracker.json
 ./sensors/Reciprocity Alignment Sensor.json
+./sensors/ancestral_dialogue_sensor.json
 ./sensors/authenticity.json
 ./sensors/cosmological_map_divergence.json
 ./sensors/cultural_bias_resilience.json
