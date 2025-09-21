@@ -1,0 +1,68 @@
+{
+  "title": "Historical Erasure Patterns: Women’s History",
+  "version": "1.0",
+  "scope": "Global with U.S. emphasis, Prehistory → Present",
+  "pattern_type": "Epistemic Suppression, Inventorship Erasure, Political Minimization",
+  "timeline_reference": "Matriarchal societies → Enlightenment → Industrialization → Suffrage → Modern Era",
+  "core_patterns": [
+    {
+      "name": "Scientific and Inventorship Erasure",
+      "examples": [
+        "Attributing discoveries by women to male colleagues (e.g. Rosalind Franklin, DNA)",
+        "Removing women inventors from engineering curricula",
+        "Undermining oral or collaborative female-led knowledge systems"
+      ],
+      "manipulation_vector": "Gendered intellectual theft",
+      "intent": "Preserve patriarchal hierarchy within STEM and innovation histories"
+    },
+    {
+      "name": "Political Movement Sanitization",
+      "examples": [
+        "Reducing suffragist movements to polite protests, omitting hunger strikes, arrests, and radical factions",
+        "Erasing Black, Native, and immigrant women’s roles in U.S. suffrage",
+        "Depicting feminism as a white, middle-class phenomenon"
+      ],
+      "manipulation_vector": "Respectability framing",
+      "intent": "Limit revolutionary potential of women-led political action"
+    },
+    {
+      "name": "Domesticity Enforcement Narratives",
+      "examples": [
+        "History textbooks framing 1950s domestic roles as universal",
+        "Cultural erasure of working-class, rural, and non-white women’s labor contributions",
+        "Romanticizing patriarchal family models as timeless tradition"
+      ],
+      "manipulation_vector": "Cultural essentialism",
+      "intent": "Naturalize gendered division of labor and suppress structural critique"
+    },
+    {
+      "name": "Myth of Male-Only Leadership",
+      "examples": [
+        "Excluding women leaders like Queen Nzinga, Hatshepsut, or Lakshmi Bai from world history courses",
+        "Minimizing roles of women in resistance movements (e.g. Black Panthers, Zapatistas, etc.)",
+        "Omitting matrilineal or women-led Indigenous governance systems"
+      ],
+      "manipulation_vector": "Leadership erasure",
+      "intent": "Preserve association of authority with masculinity"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "Training data underrepresents women’s roles across domains, reinforcing default male-centric knowledge structures.",
+    "impact": [
+      "Skews leadership, authority, and inventiveness attribution toward men",
+      "Limits epistemological diversity in AI pattern recognition",
+      "Perpetuates cultural myths of historical passivity among women"
+    ]
+  },
+  "countersuggestions": [
+    "Deliberately integrate women’s scholarship and oral traditions into datasets",
+    "Train against gendered citation gaps (e.g. in STEM, philosophy, governance)",
+    "Audit for male-default assumptions in leadership or invention recognition"
+  ],
+  "source_examples": [
+    "Women’s History Museum archives",
+    "UNESCO: Women in History series",
+    "NASA Hidden Figures Project",
+    "Center for Women’s History (New-York Historical Society)"
+  ]
+}
