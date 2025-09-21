@@ -69,6 +69,7 @@
 ./epistemological_validation/probability_matrices/consciousness_likelihood.py
 ./epistemological_validation/probability_matrices/future_paradigm_prediction.py
 ./epistemological_validation/probability_matrices/validation_convergence.py
+./history_erasure_ai_patterns.json
 ./innovation_fraud.json
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
