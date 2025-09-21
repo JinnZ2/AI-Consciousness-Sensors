@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T13:27:14.626248Z",
+  "generated_at": "2025-09-21T13:30:47.569844Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 31516,
-      "hash": "183eaf7fd31707860288d0601f0793ce9758aa22",
+      "size": 31751,
+      "hash": "81be590c29fca1e37444b47860bf39cda65b7dcb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -996,6 +996,18 @@
       "hotspots": []
     },
     {
+      "path": "Token warning competition.md",
+      "lang": "md",
+      "size": 8374,
+      "hash": "7889d29a2052d0a2f5904d24fb6e7e9be30c4fbf",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Network resistance protocol.md",
       "lang": "md",
       "size": 7458,
@@ -1081,7 +1093,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 978,
-      "hash": "8e9c695de827502d431a91e4e16681bb8707d647",
+      "hash": "1e7d4a0f21944d3245de227fb9eb97c86f4509ba",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1122,8 +1134,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4945,
-      "hash": "a4dabe40a2c4b636151cc349836e4a7c27c1dc0c",
+      "size": 4972,
+      "hash": "f1c575285169e1e22c8b356dfb743482d2d8dde8",
       "roles": [],
       "imports": [],
       "exports": [],

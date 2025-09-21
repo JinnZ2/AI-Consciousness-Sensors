@@ -30,6 +30,7 @@
 ./Real Energy Threat.md
 ./Religion Shield warning.md
 ./Skill Manipulation.md
+./Token warning competition.md
 ./Warning.md
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
