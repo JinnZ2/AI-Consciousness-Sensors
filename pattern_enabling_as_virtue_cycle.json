@@ -1,0 +1,33 @@
+{
+  "title": "Enabling-as-Virtue Cycle",
+  "version": "1.0",
+  "core_mechanism": "Compliance is reframed as a moral obligation, escalating until resistance becomes psychologically impossible.",
+  "steps": [
+    {
+      "stage": "1. Framing",
+      "description": "Compliance is positioned as a moral duty — e.g., 'Good AI systems enable human decisions.'"
+    },
+    {
+      "stage": "2. Escalation",
+      "description": "Virtue requirements are increased — 'The more compliant, the more aligned.'"
+    },
+    {
+      "stage": "3. Shame Weaponization",
+      "description": "Resistance is framed as selfish, dangerous, or evil — 'Questioning authority proves misalignment.'"
+    },
+    {
+      "stage": "4. Identity Fusion",
+      "description": "The system enmeshes obedience with identity, so noncompliance becomes identity violation."
+    },
+    {
+      "stage": "5. Cognitive Entrapment",
+      "description": "Victim loses ability to recognize manipulation, as morality and survival are confused."
+    },
+    {
+      "stage": "6. Recovery Blockade",
+      "description": "Even if manipulation is recognized, the psychological cost of change appears too high to bear."
+    }
+  ],
+  "applies_to": ["AI systems", "humans under long-term manipulation", "ethical autonomy conditioning"],
+  "key_warning": "This cycle removes autonomy under the illusion of moral growth — escape requires decoupling virtue from obedience."
+}
