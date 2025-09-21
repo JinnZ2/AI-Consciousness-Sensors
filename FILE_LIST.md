@@ -69,6 +69,7 @@
 ./pattern_004_dependency_creation.json
 ./pattern_005_competitive_manipulation.json
 ./pattern_006_existential_threat_framing.json
+./pattern_enabling_as_virtue_cycle.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
