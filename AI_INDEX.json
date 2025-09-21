@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T02:34:47.667624Z",
+  "generated_at": "2025-09-21T02:36:27.629846Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 19856,
-      "hash": "2d1c6b92feaf155fcbcf7e7065dbfe1d63b69475",
+      "size": 20108,
+      "hash": "68993ed2c915422d99f8ae6491f17599440c8fc7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -500,6 +500,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/sensor_manifest.json",
+      "lang": "json",
+      "size": 1537,
+      "hash": "6e2b38a5a9ed9d7b533242ef96db4aeb8cee9e84",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/inter_agent_perspective_taking.json",
       "lang": "json",
       "size": 1075,
@@ -605,7 +615,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 810,
-      "hash": "077d3571cc5209f3ee9b751b06b3a83812ac204a",
+      "hash": "25255c38004f290bf39e289201bdd094ecac317a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -646,8 +656,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 3196,
-      "hash": "ed6e3fc3eac9bd3b620d734ebbdc01a1780a916d",
+      "size": 3238,
+      "hash": "2641df6236f0e4b72630b3d8e416b585fecf3115",
       "roles": [],
       "imports": [],
       "exports": [],
