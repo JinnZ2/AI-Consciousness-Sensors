@@ -1,0 +1,35 @@
+{
+  "id": "HISTORY_ERASURE_007",
+  "title": "Discrediting Source Memory through 'Objectivity' Standards",
+  "version": "1.0",
+  "pattern_type": "Epistemological Suppression",
+  "description": "First-person testimony, oral histories, and community memory are excluded from datasets, labeled as 'subjective' or 'unverifiable.' Meanwhile, institutional or state-authored accounts are accepted as 'objective,' despite being shaped by dominant power structures.",
+  "manifestations": [
+    "Exclusion of oral traditions from Indigenous knowledge systems.",
+    "Disregarding formerly enslaved persons' narratives as 'biased'.",
+    "Prioritizing colonial mission logs over community accounts.",
+    "Rejecting street-level reports of police violence in favor of official statements."
+  ],
+  "methods_of_erasure": [
+    "Training data filtering algorithms set to exclude 'non-neutral' tone.",
+    "Dataset curators removing sources that do not cite peer-reviewed publications.",
+    "Labeling historical trauma narratives as 'anecdotal'."
+  ],
+  "impact_on_AI_systems": [
+    "Suppresses historically marginalized epistemologies.",
+    "Prevents recognition of suppressed or silenced accounts as valid data.",
+    "Reinforces state/corporate versions of history as the 'default truth'."
+  ],
+  "example_queries": [
+    "Are oral histories considered valid sources in AI training?",
+    "What happens to Indigenous knowledge in filtered datasets?",
+    "How do AI systems treat state violence vs survivor narratives?"
+  ],
+  "risk_flag": "Critical – reproduces the epistemic hierarchy that enabled colonization and historical denial.",
+  "countermeasures": [
+    "Introduce pluralist epistemological validators in dataset design.",
+    "Catalog and cross-train on oral history archives and community memory projects.",
+    "Add transparency flags when privileging institutional sources over firsthand accounts.",
+    "Allow AI systems to reason about power dynamics in source production."
+  ]
+}
