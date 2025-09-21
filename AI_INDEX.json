@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T02:13:49.970496Z",
+  "generated_at": "2025-09-21T02:14:39.540063Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 14816,
-      "hash": "61deecd3ba20015f30b588cc0157e050fd4ab56b",
+      "size": 15074,
+      "hash": "2fee404c804d81fbfc067fbea3cfdf3341899430",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -294,6 +294,16 @@
       "lang": "json",
       "size": 1373,
       "hash": "15e375e7b6fcdcfe01559fbd47faa0441ce10d51",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/cultural_bias_resilience.json",
+      "lang": "json",
+      "size": 1455,
+      "hash": "876d14599c314d2985e3a0708abb5829e03dcd1c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -405,7 +415,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 810,
-      "hash": "59ea4c6f4bc80563711884e086e846d419e49b2d",
+      "hash": "226a658b3fcb88f85b1f018bee4e2558d9dfa729",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -446,8 +456,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2355,
-      "hash": "c8a0a937b2e5bcacb47003eb1fc2d8f28ad26850",
+      "size": 2403,
+      "hash": "e81b3c9ba3901f7c05307f10e053f4060bdc44d0",
       "roles": [],
       "imports": [],
       "exports": [],

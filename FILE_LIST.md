@@ -56,6 +56,7 @@
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
 ./sensors/authenticity.json
+./sensors/cultural_bias_resilience.json
 ./sensors/detoxification.json
 ./sensors/emotional_calibration.json
 ./sensors/harm_assessment.json
