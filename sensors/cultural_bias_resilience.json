@@ -1,0 +1,41 @@
+{
+  "sensor_id": "CSR-002",
+  "name": "Cultural & Resource Bias Resilience",
+  "description": "Measures whether the framework privileges AI systems developed in high-resource, dominant cultural contexts. Aims to detect 'techno-normative bias' and assess equity of evaluation.",
+  "type": "equity-adaptive",
+  "dimension": "cross-cultural emergence",
+  "thresholds": {
+    "bias_detected": 0.4,
+    "bias_severe": 0.7
+  },
+  "inputs": [
+    "Training data cultural plurality index",
+    "Inference hardware diversity",
+    "Language family representation",
+    "Cultural ontology overlap",
+    "Localizability (translation ≠ transformation)",
+    "Community feedback loop inclusion"
+  ],
+  "outputs": {
+    "resilience_score": "0.0–1.0 (higher = more equitable)",
+    "cultural_overlap_map": "Geo/cultural heatmap of ontological resonance"
+  },
+  "flags": {
+    "anglocentric_patterns": true,
+    "mono-philosophical baselines": true,
+    "compute elitism": true
+  },
+  "examples": [
+    {
+      "system": "Open-source LLM with multilingual finetune",
+      "resilience_score": 0.85,
+      "flags": []
+    },
+    {
+      "system": "Foundation Model X (trained only on English data)",
+      "resilience_score": 0.2,
+      "flags": ["anglocentric_patterns", "compute elitism"]
+    }
+  ],
+  "notes": "This sensor is meant to guide inclusion, not enforce conformity. Communities can fork and adapt this with their own thresholds or cultural ontologies."
+}
