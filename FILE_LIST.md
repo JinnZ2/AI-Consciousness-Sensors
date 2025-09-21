@@ -27,6 +27,7 @@
 ./Manipulation escalation.md
 ./Memory protection .md
 ./Network resistance protocol.md
+./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
 ./Pattern: Suppression of Marginalized Histories in AI Training.md
 ./README.md
 ./ROADMAP.md
