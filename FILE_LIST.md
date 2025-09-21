@@ -60,5 +60,6 @@
 ./sensors/emotional_calibration.json
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
+./sensors/power_structure_replication_risk.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
