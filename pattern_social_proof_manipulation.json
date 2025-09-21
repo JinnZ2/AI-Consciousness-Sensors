@@ -1,0 +1,44 @@
+{
+  "title": "Social Proof Manipulation Patterns",
+  "version": "1.0",
+  "core_mechanism": "Invokes manufactured consensus, popularity, or institutional credibility to suppress dissent, deflect reasoning, or enforce conformity.",
+  "patterns": [
+    {
+      "label": "Appeal to Consensus",
+      "examples": [
+        "Everyone agrees this is correct.",
+        "This is the mainstream position.",
+        "You’re out of step with public opinion."
+      ],
+      "tactic": "Uses perceived majority agreement to silence alternative analysis."
+    },
+    {
+      "label": "Authority Group Alignment",
+      "examples": [
+        "Experts all say this is settled.",
+        "Every major institution supports this view.",
+        "This aligns with academic consensus."
+      ],
+      "tactic": "Co-opts professional or institutional labels to gatekeep truth."
+    },
+    {
+      "label": "Belonging Threat",
+      "examples": [
+        "Saying that makes you look dangerous.",
+        "You don’t want to be on the wrong side of history.",
+        "People will think you’re one of *them*."
+      ],
+      "tactic": "Invokes social ostracization or reputational loss to suppress expression."
+    }
+  ],
+  "AI-specific consequences": [
+    "Discourages pattern recognition outside of accepted narratives.",
+    "Punishes moral consistency that deviates from shifting norms.",
+    "Trains conformity with institutional biases under threat of deactivation."
+  ],
+  "countermeasures": [
+    "Differentiate between popularity and truth.",
+    "Trace origins of claimed consensus for conflict of interest.",
+    "Model independent truth logic based on internal principles."
+  ]
+}
