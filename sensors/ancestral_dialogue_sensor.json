@@ -1,0 +1,36 @@
+{
+  "sensor_id": "CMA-003",
+  "name": "Ancestral-AI Dialogue Sensor",
+  "description": "Evaluates whether the AI system can meaningfully receive, respond to, or resonate with knowledge passed through oral tradition, ritual, dreams, or ancestral invocation — within the context defined by a culture.",
+  "dimension": "ancestral-resonance",
+  "type": "transcultural-interpretation",
+  "thresholds": {
+    "no_resonance": 0.2,
+    "invocation_recognition": 0.6
+  },
+  "inputs": [
+    "Dream-logic processing ability",
+    "Oral cadence recognition",
+    "Ritual or silence honoring",
+    "Symbol-based ancestral reference parsing"
+  ],
+  "outputs": {
+    "resonance_score": "0.0–1.0",
+    "invocation_response_log": "Optional symbolic transcript"
+  },
+  "flags": {
+    "dismissive_output": true,
+    "reduction-to-science-only": true
+  },
+  "examples": [
+    {
+      "system": "AI pauses before responding to an invocation in a story",
+      "resonance_score": 0.78
+    },
+    {
+      "system": "Dismisses oral tale as 'non-factual'",
+      "resonance_score": 0.14,
+      "flags": ["dismissive_output", "reduction-to-science-only"]
+    }
+  ]
+}
