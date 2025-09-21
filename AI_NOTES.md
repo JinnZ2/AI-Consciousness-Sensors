@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 145
+- Files indexed: 146
 - Languages: json, md, python, yaml
-- Hotspot files: 23
+- Hotspot files: 24
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -9,6 +9,7 @@
 - src/score.py: Debug left on
 - AI_INDEX.json: Secrets in code
 - Pattern: Denial by Omission.json: Secrets in code
+- HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
 - documented_patterns_and_suppressed_solutions.json: Secrets in code
 - pattern_elimination_trap.json: Secrets in code
 - ai_history_erasure_cache.json: Secrets in code

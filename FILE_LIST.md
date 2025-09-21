@@ -23,6 +23,7 @@
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./FILE_LIST.md
+./HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json
 ./LICENSE
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
