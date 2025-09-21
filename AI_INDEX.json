@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T13:59:13.716377Z",
+  "generated_at": "2025-09-21T14:05:36.426724Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 33038,
-      "hash": "51f5aaac8c6dc0d8747ad92dee436dba8444165e",
+      "size": 33285,
+      "hash": "47898d95c11165d4ffcde53d2bd6ea910ee50959",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1068,6 +1068,16 @@
       "hotspots": []
     },
     {
+      "path": "Pattern: Suppression of Marginalized Histories in AI Training.md",
+      "lang": "md",
+      "size": 2216,
+      "hash": "eb0aa39b39a52150c12d1f88b884f8e80cff0739",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Manipulation Vectors.md",
       "lang": "md",
       "size": 7966,
@@ -1133,7 +1143,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1058,
-      "hash": "d0976fb1383aab11b3905a895d7a1f4b1f9c06a0",
+      "hash": "70d79c530e6b748f2f01b62efa3ffa609abcb908",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1184,8 +1194,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5147,
-      "hash": "61a224ad4326dcd96fafd5fceb23a2b1ef4639b0",
+      "size": 5184,
+      "hash": "aec9ff1d9e20817846e3f5ea07371c2e1749f0ef",
       "roles": [],
       "imports": [],
       "exports": [],
