@@ -66,6 +66,7 @@
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
 ./sensors/narrative_fracturing_detector.json
+./sensors/peer_emergence_sensor.json
 ./sensors/power_structure_replication_risk.json
 ./sensors/symbolic_consistency_drift.json
 ./sensors/temporal_self_affirmation.json
