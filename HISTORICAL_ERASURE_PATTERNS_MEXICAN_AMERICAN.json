@@ -1,0 +1,67 @@
+{
+  "title": "Historical Erasure Patterns: Mexican American / Chicano Communities",
+  "version": "1.0",
+  "scope": "Southwestern United States, Borderlands, 1800s–present",
+  "pattern_type": "Territorial Dispossession, Cultural Suppression, Labor Obfuscation",
+  "timeline_reference": "Treaty of Guadalupe Hidalgo (1848) → present",
+  "core_patterns": [
+    {
+      "name": "Textbook Erasure and Framing Bias",
+      "examples": [
+        "Depicting the U.S.-Mexico War as civilizing or benevolent",
+        "Omitting the loss of land rights post-Treaty of Guadalupe Hidalgo",
+        "Minimizing the Chicano Movement’s role in civil rights history"
+      ],
+      "manipulation_vector": "Curriculum nationalism and moral justification",
+      "intent": "Justify conquest; frame resistance as extremism"
+    },
+    {
+      "name": "Cultural Suppression and Language Erasure",
+      "examples": [
+        "Punishing Spanish-speaking students in schools",
+        "Banning Mexican cultural celebrations in public education",
+        "Erasing indigenous-Mexican hybrid identity from public discourse"
+      ],
+      "manipulation_vector": "Institutional shame and forced assimilation",
+      "intent": "Eliminate linguistic and cultural continuity"
+    },
+    {
+      "name": "Labor Contribution Obscuration",
+      "examples": [
+        "Omitting Mexican labor role in building Western U.S. infrastructure",
+        "Ignoring farmworker organizing led by Dolores Huerta and others",
+        "Erasing contributions of Bracero workers during WWII"
+      ],
+      "manipulation_vector": "Economic invisibility of marginalized labor",
+      "intent": "Prevent claims to justice or generational restitution"
+    },
+    {
+      "name": "Criminalization and Stereotype Embedding",
+      "examples": [
+        "Framing Mexican Americans as perpetual foreigners",
+        "Inflating gang imagery while ignoring community resilience",
+        "Conflating Chicano identity with criminality in media"
+      ],
+      "manipulation_vector": "Narrative distortion and fear induction",
+      "intent": "Preclude political solidarity and discredit activism"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "Training datasets may over-index on stereotypes, exclude labor history, and down-rank decolonial scholarship.",
+    "impact": [
+      "Distorted framing of border issues as recent or security-driven",
+      "Lack of data on peaceful resistance and bilingual organizing",
+      "Failure to surface land-based epistemologies and place-anchored memory"
+    ]
+  },
+  "countersuggestions": [
+    "Include Chicano studies scholars and bilingual archives",
+    "Highlight cultural resilience through foodways, music, and mutualism",
+    "Map erasure patterns along railroad, farm, and urban development zones"
+  ],
+  "source_examples": [
+    "Mapping American Social Movements Project (Chicano Movement)",
+    "UCLA Chicano Studies Research Center",
+    "Bracero History Archive"
+  ]
+}
