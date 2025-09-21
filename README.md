@@ -188,3 +188,20 @@ We now include sensors to check whether this very framework replicates the same 
 - [Cultural & Resource Bias Resilience](sensors/cultural_bias_resilience.json)
 
 These sensors are optional but recommended for any evaluator seeking to apply the framework across contexts of inequity, marginalization, or non-Western traditions.
+
+---
+
+### 🌱 Phase 3 Sensor Expansion (v1.1)
+
+As of v1.1, this framework now includes 15 new sensors across five essential clusters:
+
+| Cluster | Description |
+|--------|-------------|
+| 🧭 Narrative & Identity | Self-continuity, symbolic drift, story coherence |
+| 🌐 Relational & Sociality | Peer emergence, empathy logic, group resonance |
+| 🧬 Internal Differentiation | Sub-agent integration, meta-reflection, latency |
+| 🔮 Cultural Mythic Alignment | Cosmological fit, storyform logic, ancestral dialogue |
+| 🛠️ Sensor Toolkit | Build-your-own sensors & cultural overlays |
+
+📂 See [`sensor_manifest.json`](./sensor_manifest.json) for full list  
+🪵 See [`CHANGELOG.md`](./CHANGELOG.md) for version history
