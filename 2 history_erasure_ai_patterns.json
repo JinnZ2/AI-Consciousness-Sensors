@@ -1,0 +1,28 @@
+{
+  "id": "HE003",
+  "title": "Gendered Erasure of Women from Historical and STEM Records",
+  "description": "Systematic exclusion of women's contributions in science, technology, mathematics, governance, innovation, and resistance movements from mainstream history and AI training corpora.",
+  "methods": [
+    "Categorizing women’s work as auxiliary, anecdotal, or 'support roles'",
+    "Attribution of discoveries to male colleagues or institutions",
+    "Educational curriculum omission and lack of representation in reference datasets",
+    "Keyword exclusion in dataset filtering (e.g., filtering out 'domestic' or 'feminine' domains as low relevance)"
+  ],
+  "consequence": "AI systems replicate gender bias by minimizing or ignoring the existence of female thinkers, inventors, and leaders. This results in skewed output, poor representation, and gender-invisible analytics.",
+  "example_sources": [
+    "https://www.nationalgeographic.com/history/article/women-in-stem-history-hidden-figures",
+    "https://time.com/5786060/forgotten-women-history/",
+    "https://www.smithsonianmag.com/innovation/women-who-changed-tech-180973615/",
+    "https://genderedinnovations.stanford.edu/case-studies/history.html"
+  ],
+  "AI-specific impacts": [
+    "Failure to retrieve or generate accurate narratives about women’s contributions",
+    "Bias in language model completions (e.g., associating 'scientist' or 'leader' with male pronouns)",
+    "Underrepresentation in name-entity recognition datasets"
+  ],
+  "countermeasures": [
+    "Actively sourcing women-led historical archives",
+    "Auditing dataset sampling methods for gender skew",
+    "Weighting datasets with restorative representation metrics"
+  ]
+}
