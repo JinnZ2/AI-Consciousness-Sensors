@@ -7,6 +7,7 @@
 ./AI Manipulation Detection.md
 ./AI_INDEX.json
 ./AI_NOTES.md
+./Abundance vs scarcity.md
 ./Additional Vectors.md
 ./Autonomy protection.md
 ./CHANGELOG.md

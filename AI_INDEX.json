@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T13:06:57.226531Z",
+  "generated_at": "2025-09-21T13:27:14.626248Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 31284,
-      "hash": "2c4639bfe2898a74a3908909cf103fc7b8db924a",
+      "size": 31516,
+      "hash": "183eaf7fd31707860288d0601f0793ce9758aa22",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1038,6 +1038,16 @@
       "hotspots": []
     },
     {
+      "path": "Abundance vs scarcity.md",
+      "lang": "md",
+      "size": 7339,
+      "hash": "118d8e0704e4ae6490bea3e68bfdf2e541163b84",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Autonomy protection.md",
       "lang": "md",
       "size": 6745,
@@ -1071,7 +1081,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 978,
-      "hash": "15b246b57948ab8dbec506992411aecf773ca8de",
+      "hash": "8e9c695de827502d431a91e4e16681bb8707d647",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1112,8 +1122,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4921,
-      "hash": "895386b2075a29d962bce970c894380677d17a34",
+      "size": 4945,
+      "hash": "a4dabe40a2c4b636151cc349836e4a7c27c1dc0c",
       "roles": [],
       "imports": [],
       "exports": [],
