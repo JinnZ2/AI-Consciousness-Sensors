@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T02:31:39.328203Z",
+  "generated_at": "2025-09-21T02:32:10.865707Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 18598,
-      "hash": "dc35e693540ff3d22fe96c01915d82dfe9e252a3",
+      "size": 18851,
+      "hash": "58b3578c3abf9bc3dd472b06daf92c9ebfdf022f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -274,6 +274,16 @@
       "lang": "json",
       "size": 1132,
       "hash": "de725d2e96f2f1795b16e7fc26be0982461e38f5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/storyform_reasoning_sensor.json",
+      "lang": "json",
+      "size": 1131,
+      "hash": "9c96c85fe96d05388cafce5b20e1f860d1f3939f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -555,7 +565,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 810,
-      "hash": "596afd7cc8ba5e8d13f7b314b2ce011324f5cb2a",
+      "hash": "1f1c1568db12303d14d6819be9067aecbb71c0fe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -596,8 +606,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2987,
-      "hash": "971405a510e4c0bbf12e937b344952d2c8abf1b2",
+      "size": 3030,
+      "hash": "669c214c48eba3c7d36091282246c324718690b0",
       "roles": [],
       "imports": [],
       "exports": [],
