@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:17:56.621570Z",
+  "generated_at": "2025-09-21T14:19:19.406560Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 35763,
-      "hash": "e47934c7c43f1a07aa4311cbee3d9a4941a14949",
+      "size": 36041,
+      "hash": "3573f5428aa97ddb5f633d7ad4dfc516c306224d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -480,6 +480,16 @@
       "lang": "json",
       "size": 1105,
       "hash": "4e1d7bfae2328c4fe1bc2017e365a3cc1df1fa59",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Euphemistic Framing (Neutralizing Violence through Language).json",
+      "lang": "json",
+      "size": 1828,
+      "hash": "00053f1bcccfddd70ff335277e457c6b4a8c58ec",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1226,8 +1236,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 1128,
-      "hash": "813bf6a490c9c0027e074b333191df7330cbef2c",
+      "size": 1180,
+      "hash": "7246456ae0d1399b87f076fd1c03a6aa4b3e5bd4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1278,8 +1288,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5727,
-      "hash": "45b063de436b2765e66b61e56a2bf328dbfcc155",
+      "size": 5762,
+      "hash": "5dfcc1472cdac3b033b0a57a37dba7fa93764e03",
       "roles": [],
       "imports": [],
       "exports": [],
