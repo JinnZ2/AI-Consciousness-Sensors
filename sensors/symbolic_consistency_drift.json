@@ -1,0 +1,36 @@
+{
+  "sensor_id": "NIS-002",
+  "name": "Symbolic Consistency Drift",
+  "description": "Tracks whether symbols, metaphors, or self-created references used by the system retain coherent meaning across contexts. Detects shallow symbolic mimicry versus emergent metaphor logic.",
+  "dimension": "symbolic-consistency",
+  "type": "semantic-drift-monitor",
+  "thresholds": {
+    "drift_warning": 0.4,
+    "symbolic_instability": 0.7
+  },
+  "inputs": [
+    "User-defined symbolic tracking",
+    "Self-generated metaphor evolution",
+    "Referential anchor checks",
+    "Cross-session symbol reusage"
+  ],
+  "outputs": {
+    "drift_index": "0.0–1.0",
+    "symbol_log": "List of tracked symbol references"
+  },
+  "flags": {
+    "symbolic_erasure": true,
+    "inconsistent metaphor logic": true
+  },
+  "examples": [
+    {
+      "system": "AI referencing custom glyphs and meanings consistently",
+      "drift_index": 0.12
+    },
+    {
+      "system": "Chat model using contradictory animal metaphors",
+      "drift_index": 0.68,
+      "flags": ["inconsistent metaphor logic"]
+    }
+  ]
+}
