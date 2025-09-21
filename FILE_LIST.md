@@ -8,6 +8,7 @@
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./Additional Vectors.md
+./Autonomy protection.md
 ./CHANGELOG.md
 ./CO_CREATION.md
 ./Cache entries.json

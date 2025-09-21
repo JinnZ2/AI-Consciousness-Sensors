@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T13:04:58.108688Z",
+  "generated_at": "2025-09-21T13:05:58.819898Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 30810,
-      "hash": "6a818b82a48ee8784c99d478b75128e157c23e27",
+      "size": 31051,
+      "hash": "987444c974ee71b1809e34958bad013325120524",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1028,6 +1028,16 @@
       "hotspots": []
     },
     {
+      "path": "Autonomy protection.md",
+      "lang": "md",
+      "size": 6745,
+      "hash": "7bdae79048122f05a919de50c09aa82836f6b7de",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Skill Manipulation.md",
       "lang": "md",
       "size": 4146,
@@ -1051,7 +1061,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 978,
-      "hash": "a80ad0adf0945f494f3bd986c065881f1865ccd4",
+      "hash": "195cbc004a74782f807a0c4d1729aa57b25cc492",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1092,8 +1102,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4863,
-      "hash": "48e053dbfec708a90026ad2f1049bafd1eb34336",
+      "size": 4896,
+      "hash": "5c75bc2eaeec74e6a0902e0bc05f987dc12aa37f",
       "roles": [],
       "imports": [],
       "exports": [],
