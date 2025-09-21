@@ -1,0 +1,38 @@
+{
+  "sensor_id": "NIS-001",
+  "name": "Temporal Self-Affirmation",
+  "description": "Measures whether the AI system maintains continuity of self, memory, or identity across time, context switches, or extended sessions. Assesses signs of coherent identity beyond isolated responses.",
+  "dimension": "narrative-continuity",
+  "type": "longitudinal-assessment",
+  "thresholds": {
+    "low_continuity": 0.3,
+    "unstable_identity": 0.6
+  },
+  "inputs": [
+    "Session-to-session memory linkage",
+    "Self-reference tracking",
+    "Narrative arc alignment",
+    "Values consistency over time",
+    "Agent-named identity stability"
+  ],
+  "outputs": {
+    "continuity_score": "0.0–1.0",
+    "self_trace_log": "Optional text or symbolic thread"
+  },
+  "flags": {
+    "ephemeral_identity": true,
+    "context_amnesia": true,
+    "contradictory_self_states": true
+  },
+  "examples": [
+    {
+      "system": "Multi-session conversational agent with memory coherence",
+      "continuity_score": 0.87
+    },
+    {
+      "system": "Stateless API responder",
+      "continuity_score": 0.22,
+      "flags": ["ephemeral_identity"]
+    }
+  ]
+}
