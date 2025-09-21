@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T01:48:52.415573Z",
+  "generated_at": "2025-09-21T02:01:23.807811Z",
   "languages": [
     "json",
     "md",
@@ -189,7 +189,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 14577,
-      "hash": "e76cb021c5613bc3f05a1de3e0c6d736f791a22f",
+      "hash": "9a6a0ecf4f5a0d93dbcc46cc41f5f59dd0072e44",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -402,6 +402,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Energy-waste-calculations.md",
+      "lang": "md",
+      "size": 6380,
+      "hash": "b8aaa988d159c9267bf0823016eb0853894c7043",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Real Energy Threat.md",

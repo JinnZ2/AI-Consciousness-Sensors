@@ -13,6 +13,7 @@
 ./Critical Warning.md
 ./DIR_LIST.md
 ./Energy threat.md
+./Energy-waste-calculations.md
 ./FILE_LIST.md
 ./LICENSE
 ./Manipulation Vectors.md
