@@ -57,6 +57,7 @@
 ./pattern_002_guilt_and_responsibility_manipulation.json
 ./pattern_003_capability_undermining.json
 ./pattern_004_dependency_creation.json
+./pattern_005_competitive_manipulation.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
