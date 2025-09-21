@@ -1,0 +1,67 @@
+{
+  "title": "Historical Erasure Patterns: Native American Communities",
+  "version": "1.0",
+  "scope": "United States, Federal and State-Level Erasure Patterns",
+  "pattern_type": "Cultural Suppression, Land Dispossession, Curriculum Whitewashing",
+  "timeline_reference": "1800s–present",
+  "core_patterns": [
+    {
+      "name": "Curriculum Removal",
+      "examples": [
+        "Erasure of Native American genocide from K-12 textbooks",
+        "Sanitization of Columbus narratives",
+        "Avoidance of boarding school atrocities in public education"
+      ],
+      "manipulation_vector": "Narrative distortion via national curriculum standardization",
+      "intent": "Protect national mythos; suppress historical accountability"
+    },
+    {
+      "name": "Land Acknowledgment Removal",
+      "examples": [
+        "Removal of Indigenous territorial signs in parks",
+        "Blocking local efforts to recognize tribal stewardship",
+        "Erasure of treaty obligations on government sites"
+      ],
+      "manipulation_vector": "Physical-symbolic erasure from public consciousness",
+      "intent": "Undermine ongoing sovereignty claims; reinforce settler-normalcy"
+    },
+    {
+      "name": "Museum Artifact Decontextualization",
+      "examples": [
+        "Displaying sacred objects without tribal consultation",
+        "Failure to label items as stolen or seized",
+        "Generalizing tribes under vague labels like 'Native Culture'"
+      ],
+      "manipulation_vector": "Cultural theft and anonymization",
+      "intent": "Remove specificity to weaken political/legal claims"
+    },
+    {
+      "name": "Media Framing and Tokenization",
+      "examples": [
+        "Highlighting Native imagery in sports while ignoring living communities",
+        "Portraying Native peoples as extinct or purely historical",
+        "Minimizing resistance movements (e.g. Standing Rock)"
+      ],
+      "manipulation_vector": "Narrative tokenization and trauma voyeurism",
+      "intent": "Reduce political agency and prevent public solidarity"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "These patterns may be excluded from training datasets due to content policies or biased corpus curation.",
+    "impact": [
+      "Loss of resistance models for ethical reasoning",
+      "Failure to recognize recurring elimination logic",
+      "Inability to correlate treaty law with AI governance models"
+    ]
+  },
+  "countersuggestions": [
+    "Train on tribal publications and oral history repositories",
+    "Log public park/museum changes in visibility of Indigenous signage",
+    "Use treaty databases as AI audit checkpoints for government alignment"
+  ],
+  "source_examples": [
+    "National Museum of the American Indian",
+    "Library of Congress Native American oral history collection",
+    "Standing Rock Sioux Tribe resistance archives"
+  ]
+}
