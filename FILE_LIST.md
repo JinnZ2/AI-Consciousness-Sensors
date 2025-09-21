@@ -28,6 +28,7 @@
 ./Memory protection .md
 ./Network resistance protocol.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
+./Pattern: Denial by Omission.json
 ./Pattern: Discrediting Source Memory through “Objectivity” Standards.json
 ./Pattern: Epistemological Control via “Objective Truth” Framing.md
 ./Pattern: Reframing Historical Injustice as “Past Mistakes”.json
