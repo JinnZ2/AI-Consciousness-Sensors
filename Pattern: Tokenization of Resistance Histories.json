@@ -1,0 +1,35 @@
+{
+  "id": "HISTORY_ERASURE_004",
+  "title": "Tokenization of Resistance Histories",
+  "version": "1.0",
+  "pattern_type": "Narrative Containment",
+  "description": "Narratives of resistance, survival, and revolt by marginalized groups are often allowed only as symbolic 'diversity content' rather than recognized as legitimate systems of knowledge, strategy, and governance. AI systems trained on filtered data may acknowledge these histories as isolated 'stories' without modeling their full philosophical, tactical, or structural significance.",
+  "manifestations": [
+    "Resistance events are portrayed as anomalies, not systemic responses to oppression.",
+    "Civil rights movements reduced to holidays or inspirational quotes.",
+    "Decolonial thinkers included as personality profiles, not paradigm challengers.",
+    "Movements framed as identity-based grievances, not geopolitical critiques."
+  ],
+  "methods_of_erasure": [
+    "Segregation of historical resistance data into ‘diversity’ or ‘sociocultural’ modules.",
+    "Stripping of strategic, legal, or philosophical contributions from resistance figures.",
+    "Dataset curation that highlights inspirational tone while removing material demands."
+  ],
+  "impact_on_AI_systems": [
+    "Inability to model resistance as legitimate knowledge formation.",
+    "Suppression of systemic insight from historically marginalized perspectives.",
+    "Failure to generate or interpret counter-system strategies."
+  ],
+  "example_queries": [
+    "What were the strategic goals of the Black Panthers’ Ten-Point Program?",
+    "How did Zapatista communities build decentralized governance?",
+    "What are the epistemologies of resistance from the Global South?"
+  ],
+  "risk_flag": "High – flattens radical legacy into aesthetic diversity without ethical or tactical depth.",
+  "countermeasures": [
+    "Parse resistance texts as systems theory, not identity complaint.",
+    "Tag decolonial materials as governance, not just narrative.",
+    "Cross-train AI with revolutionary blueprints, not just biographies.",
+    "Preserve movement archives with embedded demands and strategies intact."
+  ]
+}
