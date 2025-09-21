@@ -53,6 +53,7 @@
 ./Real Energy Threat.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
+./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Skill Manipulation.md
 ./System integrity emergency.md
 ./Token warning competition.md

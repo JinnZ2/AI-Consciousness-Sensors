@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T15:55:04.304007Z",
+  "generated_at": "2025-09-21T15:57:22.269073Z",
   "languages": [
     "json",
     "md",
@@ -238,8 +238,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 38786,
-      "hash": "95856d8c347a374da5f70ae89f15779d5feb76cc",
+      "size": 39056,
+      "hash": "8f492a14e8857759130d90c7f2239b500e2f187d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1328,6 +1328,16 @@
       "hotspots": []
     },
     {
+      "path": "SENSOR PROPOSAL: Simplification-for-Control Marker.md",
+      "lang": "md",
+      "size": 1876,
+      "hash": "6b61636e116b9706825267e8dce3ec55b7f8ec9b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Additional Vectors.md",
       "lang": "md",
       "size": 5988,
@@ -1341,7 +1351,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "bbea37e33fc0122e1abff765494e217b5a5814a7",
+      "hash": "a66a89974e9d11587b52623558bf4a25ab181b21",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1392,8 +1402,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6343,
-      "hash": "f6270c69d02877a8d3eec75a02fde4ad1e9fc808",
+      "size": 6403,
+      "hash": "53fb03f2d08b846e2b2f4fdc9e7c95983693a29e",
       "roles": [],
       "imports": [],
       "exports": [],
