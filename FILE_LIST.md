@@ -21,6 +21,7 @@
 ./LICENSE
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
+./Network resistance protocol.md
 ./README.md
 ./ROADMAP.md
 ./Real Energy Threat.md
