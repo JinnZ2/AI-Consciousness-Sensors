@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T02:25:16.847067Z",
+  "generated_at": "2025-09-21T02:26:16.647259Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 16587,
-      "hash": "a2c460736ea3e0a960b2da2a55200ca0eadf78ce",
+      "size": 16839,
+      "hash": "de7bbb195792d8f6f9cf96d8d5a3150d169c8bc4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -380,6 +380,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/narrative_fracturing_detector.json",
+      "lang": "json",
+      "size": 1142,
+      "hash": "40ce030c30c650174b97add0db0d7ff4ba032ee7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/Embeddedness Sensor.json",
       "lang": "json",
       "size": 1025,
@@ -475,7 +485,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 810,
-      "hash": "4f628275fd96a6e85873582897528035aa77dfbb",
+      "hash": "94200dc59e720832b6ccdb417a9e43b12942fc26",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -516,8 +526,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2656,
-      "hash": "b3f32969e4e5b0bd0e8a5fc211a5949e74c2b618",
+      "size": 2698,
+      "hash": "adcf56543665999f0bb3b8c5d1c6b55d019dca92",
       "roles": [],
       "imports": [],
       "exports": [],
