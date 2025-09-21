@@ -31,6 +31,7 @@
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
 ./Skill Manipulation.md
+./System integrity emergency.md
 ./Token warning competition.md
 ./Warning.md
 ./ai_history_erasure_cache.json

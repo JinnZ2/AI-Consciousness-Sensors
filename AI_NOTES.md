@@ -1,5 +1,5 @@
 # AI Notes
-- Files indexed: 126
+- Files indexed: 127
 - Languages: json, md, python, yaml
 - Hotspot files: 20
 
