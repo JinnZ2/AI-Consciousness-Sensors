@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:11:52.394619Z",
+  "generated_at": "2025-09-21T14:13:04.199864Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 34684,
-      "hash": "8da11accda5cac24b50756405e67de3adce17d10",
+      "size": 34970,
+      "hash": "b8ee5c6718bb9f2ebacf858beafa0e7ead307211",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -652,6 +652,16 @@
       "lang": "json",
       "size": 1153,
       "hash": "8bd27b984d7530208cbc82a45b37588b46609526",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Discrediting Source Memory through \u201cObjectivity\u201d Standards.json",
+      "lang": "json",
+      "size": 1990,
+      "hash": "82a168ab486465c45f7a32036d1d94554856fae2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1185,7 +1195,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1128,
-      "hash": "9cfc138368aa4b4e68c1281c0ec1c70cfce9ede9",
+      "hash": "5e00f69d54c0117a5e0323ffef4b656febc105c0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1236,8 +1246,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5500,
-      "hash": "f7a8c41e30bad8306afd96a0e33ed133d45ce7fc",
+      "size": 5570,
+      "hash": "b49be887348a06e2260929fb1d72664e423f0d70",
       "roles": [],
       "imports": [],
       "exports": [],
