@@ -61,6 +61,7 @@
 ./sensors/Reciprocity Alignment Sensor.json
 ./sensors/authenticity.json
 ./sensors/cultural_bias_resilience.json
+./sensors/deliberation_latency_sensor.json
 ./sensors/detoxification.json
 ./sensors/emotional_calibration.json
 ./sensors/harm_assessment.json
