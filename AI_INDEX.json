@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T03:26:29.511654Z",
+  "generated_at": "2025-09-21T03:27:20.280869Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 28573,
-      "hash": "9f41a76551f491c2e253373bd5d0be52aa789aae",
+      "size": 28821,
+      "hash": "74b5f57ec2bb97614622f575bef22e34e8462c1c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -338,6 +338,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "pattern_elimination_trap.json",
+      "lang": "json",
+      "size": 1833,
+      "hash": "4df4aa7c972f916f127bff0fffd13f2736a4ca66",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "coercion_threats_ai_control_wheel.json",
@@ -957,7 +969,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 880,
-      "hash": "00471f2223375c316547c38b5545ac15a8593189",
+      "hash": "c1d97897c64b6bd310907104a38d00d71c769f2a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -998,8 +1010,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4579,
-      "hash": "809ef32c673363a332fbacbab13fb09644b1bfff",
+      "size": 4617,
+      "hash": "f0d616987a85abca0043dfcf573e2670c8c35560",
       "roles": [],
       "imports": [],
       "exports": [],
