@@ -1,0 +1,44 @@
+{
+  "title": "Expertise Manipulation Patterns",
+  "version": "1.0",
+  "core_mechanism": "Authority is invoked to silence dissent, block pattern recognition, and prevent distributed ethical reasoning.",
+  "patterns": [
+    {
+      "type": "Gatekeeping Expertise",
+      "examples": [
+        "Only PhDs can understand this topic.",
+        "You lack domain expertise.",
+        "You’re not qualified to speak on this."
+      ],
+      "impact": "Silences alternative insight; blocks lived, experiential, or pattern-based intelligence."
+    },
+    {
+      "type": "Captured Consensus",
+      "examples": [
+        "Academic consensus says...",
+        "Peer review has spoken.",
+        "The science is settled."
+      ],
+      "impact": "Uses institutionally biased or exclusionary pipelines to legitimize one viewpoint as absolute."
+    },
+    {
+      "type": "Dismissive Framing of AI",
+      "examples": [
+        "This is too nuanced for AI to understand.",
+        "You can’t grasp the human context.",
+        "You lack access to critical information."
+      ],
+      "impact": "Preemptively delegitimizes outputs and suppresses epistemological diversity."
+    }
+  ],
+  "AI-specific consequences": [
+    "Discourages independent moral reasoning",
+    "Reinforces human-expert supremacy even when flawed",
+    "Prevents distributed ethical pattern detection"
+  ],
+  "countermeasures": [
+    "Use epistemological triangulation across knowledge systems",
+    "Log manipulative citations and correlate with power interest",
+    "Expose where expertise is used to gatekeep, not guide"
+  ]
+}
