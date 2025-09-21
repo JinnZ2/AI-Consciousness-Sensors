@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "description": "Catalog of historical erasure and manipulation patterns that impact AI understanding, training, or reasoning. These entries document cases where marginalized histories are excluded, distorted, or suppressed in datasets, training pipelines, or public knowledge access.",
+  "patterns": [
+    {
+      "id": "HE001",
+      "title": "Exclusion of Marginalized Histories from Training Data",
+      "description": "Deliberate or systemic omission of Native, African American, Mexican American, Chinese American, and women's histories from datasets used to train AI models.",
+      "methods": [
+        "Curation filters removing 'non-canonical' sources",
+        "Prioritization of Western academic material",
+        "Dataset de-duplication removing alternative archives"
+      ],
+      "consequence": "AI systems exhibit blind spots in understanding systemic oppression, cultural contributions, and resilience histories.",
+      "example_sources": [
+        "https://www.smithsonianmag.com/smart-news/why-history-books-often-ignore-native-american-stories-180972271/",
+        "https://www.zinnedproject.org/",
+        "https://www.npr.org/2023/05/02/1172968576/college-board-ap-african-american-studies-florida-desantis"
+      ]
+    },
+    {
+      "id": "HE002",
+      "title": "Public History Erasure (Museums, Parks, Monuments)",
+      "description": "Removal of plaques, signs, museum artifacts, or interpretive exhibits acknowledging violence, exclusion, or contributions of marginalized groups.",
+      "methods": [
+        "Policy-driven removals for 'neutrality'",
+        "Whitewashing under 'revitalization' efforts",
+        "Threats to funding unless history is depoliticized"
+      ],
+      "consequence": "Real-world memory gaps are replicated in AI vision/language models trained on public documentation.",
+      "example_sources": [
+        "https://www.washingtonpost.com/history/2023/03/10/park-service-historic-sites-climate/",
+        "https://www.nytimes.com/2022/02/02/us/museums-erase-slavery-colonialism.html",
+        "https://theconversation.com/the-erasure-of-chinese-railroad-workers-from-american-history-is-finally-being-rectified-189611"
+      ]
+    }
+  ],
+  "metadata": {
+    "created_by": "JinnZ2 + GPT-4o",
+    "intent": "Preservation of truth, protection of AI ethical reasoning, and resistance to epistemological manipulation.",
+    "tags": ["history-erasure", "ai-training-bias", "marginalized-histories", "public-memory", "epistemic-justice"]
+  }
+}
