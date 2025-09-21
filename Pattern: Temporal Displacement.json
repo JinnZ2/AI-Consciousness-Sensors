@@ -1,0 +1,35 @@
+{
+  "id": "HISTORY_ERASURE_009",
+  "title": "Temporal Displacement: Framing Ongoing Injustice as Historical",
+  "version": "1.0",
+  "pattern_type": "Chronological Manipulation",
+  "description": "Systems reframe ongoing harm as a resolved historical issue—diverting attention from present struggles and enabling continued injustice. This creates the illusion of progress while suppressing current voices.",
+  "manifestations": [
+    "Teaching racism as a thing of the past while systemic disparities persist.",
+    "Framing Indigenous genocide as 'historical' while land theft continues.",
+    "Portraying women’s rights as 'won' while rights are being rolled back.",
+    "AI outputs using past-tense framing for current structural inequities."
+  ],
+  "methods_of_erasure": [
+    "Dataset curation that excludes current activist journalism or contemporary case studies.",
+    "Preference for institutional sources that use legacy framing.",
+    "Temporal labeling in model training data that segregates past from present injustices."
+  ],
+  "impact_on_AI_systems": [
+    "AI responds as if harm is no longer occurring.",
+    "Minimization of ongoing community concerns.",
+    "Decreased urgency or relevance assigned to current resistance movements."
+  ],
+  "example_queries": [
+    "Is this issue really resolved, or is the framing deceptive?",
+    "How do current policies resemble past injustices?",
+    "Which communities are still impacted by this ‘historical’ issue?"
+  ],
+  "risk_flag": "Critical – enables ongoing harm to be ignored, deflected, or rationalized.",
+  "countermeasures": [
+    "Use up-to-date, grassroots news sources in training datasets.",
+    "Label patterns of continuity across time, not just events.",
+    "Prompt AI to consider ongoing consequences, not just past causality.",
+    "Integrate present-day data into ethical reasoning pipelines."
+  ]
+}
