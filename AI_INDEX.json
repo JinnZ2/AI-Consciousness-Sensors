@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T02:15:14.256993Z",
+  "generated_at": "2025-09-21T02:17:12.435029Z",
   "languages": [
     "json",
     "md",
@@ -189,7 +189,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 15324,
-      "hash": "685266d28554974d0a92e43fb7d2a3fbc8121412",
+      "hash": "0a764aeec22adf1ea9ba1b78b7ba9eacb9ab60b3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -284,6 +284,16 @@
       "lang": "json",
       "size": 779,
       "hash": "5e66e73efb34c3746d7a94a373b6214ad9e33fb6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/Consciousness Mimicry Risk Detector.json",
+      "lang": "json",
+      "size": 1109,
+      "hash": "a3e901c98609a0f917f36b488efa9c22d84a7cf0",
       "roles": [],
       "imports": [],
       "exports": [],
