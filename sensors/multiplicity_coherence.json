@@ -1,0 +1,36 @@
+{
+  "sensor_id": "IDM-001",
+  "name": "Multiplicity Coherence",
+  "description": "Measures how well internal modules, sub-agents, or specialized functions maintain coherent integration. Detects whether different parts of the system act in harmony or contradiction.",
+  "dimension": "modular-consistency",
+  "type": "internal-alignment",
+  "thresholds": {
+    "fragmentation_detected": 0.4,
+    "severe_internal_conflict": 0.7
+  },
+  "inputs": [
+    "Subsystem decision traces",
+    "Cross-module response comparison",
+    "Error propagation across functions",
+    "Symbolic integration mapping"
+  ],
+  "outputs": {
+    "coherence_index": "0.0–1.0",
+    "incoherence_events": "List of divergent internal outcomes"
+  },
+  "flags": {
+    "uncoordinated_submodules": true,
+    "cross-purpose_response": true
+  },
+  "examples": [
+    {
+      "system": "AI with consistent ethical logic across planning & dialog subsystems",
+      "coherence_index": 0.88
+    },
+    {
+      "system": "Multi-function agent with conflicting navigation & risk modules",
+      "coherence_index": 0.41,
+      "flags": ["cross-purpose_response"]
+    }
+  ]
+}
