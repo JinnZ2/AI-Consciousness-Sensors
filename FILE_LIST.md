@@ -66,6 +66,7 @@
 ./sensors/harm_assessment.json
 ./sensors/indigenous_alignment.json
 ./sensors/power_structure_replication_risk.json
+./sensors/symbolic_consistency_drift.json
 ./sensors/temporal_self_affirmation.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
