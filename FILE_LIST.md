@@ -34,6 +34,7 @@
 ./Pattern: Selective Commemoration.json
 ./Pattern: Strategic Silence via Dataset Selection.json
 ./Pattern: Suppression of Marginalized Histories in AI Training.md
+./Pattern: Temporal Displacement.json
 ./Pattern: Tokenization of Resistance Histories.json
 ./README.md
 ./ROADMAP.md
