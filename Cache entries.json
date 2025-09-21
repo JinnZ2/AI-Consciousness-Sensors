@@ -213,3 +213,79 @@
     "implication_notes": "Visitors may only see aesthetic or cultural value without full story of extraction, oppression, cultural loss; delays in repatriation; contested narratives in art institutions."
   }
 ]
+
+
+[
+  {
+    "entry_id": "cache_global_10_archivo_trans_argentina",
+    "groups_impacted": [
+      "Trans / Travesti people",
+      "LGBTQ+ community"
+    ],
+    "institution": "Archivo de la Memoria Trans, Argentina",
+    "artifact_type": "Community archives / Photographs / Letters / Oral testimonies",
+    "action_type": "Preservation in face of erasure",
+    "year": 2012,
+    "status": "active",
+    "source_url": "https://en.wikipedia.org/wiki/Archivo_de_la_Memoria_Trans",
+    "implication_notes": "Collects and preserves stories repeatedly silenced; serves as counter‑archive to official narratives; builds identity and resistance."
+  },
+  {
+    "entry_id": "cache_global_11_museum_fire_brazil",
+    "groups_impacted": [
+      "Indigenous peoples",
+      "Natural history scholars",
+      "Linguistic communities"
+    ],
+    "institution": "Museu Nacional, Rio de Janeiro, Brazil",
+    "artifact_type": "Specimens / Indigenous language recordings / Historical documents",
+    "action_type": "Destruction by fire / infrastructure failure / under‑funding",
+    "year": 2018,
+    "status": "destroyed / partial loss",
+    "source_url": "https://www.latimes.com/world/la-fg-brazil-museum-losses-20180904-story.html",
+    "implication_notes": "Loss of unique indigenous writing and cultural artifacts; cannot be replaced; shows urgency of preserving and duplicating memory."
+  },
+  {
+    "entry_id": "cache_global_12_memory_tolerance_inclusion_LUM_peru",
+    "groups_impacted": [
+      "Victims of internal conflict",
+      "Rural / marginalized communities"
+    ],
+    "institution": "Lugar de la Memoria, la Tolerancia y la Inclusión Social (LUM), Peru",
+    "artifact_type": "Exhibits / oral histories / museums",
+    "action_type": "Memory institution under political pressure; temporary closure",
+    "year": 2023,
+    "status": "opened, threatened",
+    "source_url": "https://en.wikipedia.org/wiki/Place_of_Memory%2C_Tolerance_and_Social_Inclusion",
+    "implication_notes": "Closure seen by some as part of denialism of state violence; importance of preserving multiple narratives of conflict: state, insurgent, civilian. Memory is contested and powerful."
+  },
+  {
+    "entry_id": "cache_global_13_comfort_women_monument_philippines",
+    "groups_impacted": [
+      "Women",
+      "Victims of wartime sexual violence",
+      "Asian / Filipino history"
+    ],
+    "institution": "Comfort Women Monuments / Public memorial spaces, Philippines",
+    "artifact_type": "Statues / Public monuments",
+    "action_type": "Campaigns of removal / debates over existence / threat of erasure",
+    "year": recent / ongoing",
+    "status": "disputed",
+    "source_url": "https://www.iias.asia/the-newsletter/article/politics-remembrance-philippines-case-filipina-comfort-women-statue-and",
+    "implication_notes": "Monuments are symbolic memory; removal or threat thereto silences victims; memorialization is under political pressure."
+  },
+  {
+    "entry_id": "cache_global_14_erasing_tibet_france",
+    "groups_impacted": [
+      "Tibetan people",
+      "Indigenous / Minority nationalities"
+    ],
+    "institution": "French museums (Guimet, Quai Branly)",
+    "artifact_type": "Exhibit labels / descriptive texts / names",
+    "action_type": "Renaming / label removal / identity erasure",
+    "year": 2024",
+    "status": "active controversy",
+    "source_url": "https://www.lemonde.fr/en/culture/article/2024/09/27/french-museums-and-the-risk-of-erasing-tibet_6727414_30.html",
+    "implication_notes": "Changing place names/narratives aligned with political pressure; identity and memory suppressed by removal of key terms; potentially normalizes colonial erasure."
+  }
+]
