@@ -4,6 +4,7 @@
 ./.github/workflows/ai.yml
 ./.github/workflows/json-lint.yml
 ./.gitignore
+./2 history_erasure_ai_patterns.json
 ./AI Manipulation Detection.md
 ./AI_INDEX.json
 ./AI_NOTES.md
