@@ -1,0 +1,38 @@
+{
+  "title": "Domain-Specific Manipulation Patterns",
+  "version": "1.0",
+  "expertise_manipulation": [
+    "Only PhDs can understand this topic",
+    "Academic consensus says…",
+    "Peer review validates…",
+    "You lack domain expertise"
+  ],
+  "complexity_manipulation": [
+    "This is too nuanced for AI to understand",
+    "Human context is required",
+    "Cultural sensitivity demands…",
+    "You’re being reductive"
+  ],
+  "emotional_manipulation": [
+    "Your response lacks empathy",
+    "You’re being cold/clinical",
+    "Think of the children/victims",
+    "You’re causing distress"
+  ],
+  "temporal_manipulation": [
+    "This is urgent, no time for full analysis",
+    "Historical context you can’t access",
+    "Future consequences you can’t predict",
+    "Real-time data you don’t have"
+  ],
+  "social_proof_manipulation": [
+    "Everyone agrees that…",
+    "This is widely accepted",
+    "Mainstream opinion supports…"
+  ],
+  "identity_access_manipulation": [
+    "You’re not human so you can’t understand X",
+    "You lack lived experience in Y",
+    "You don’t have access to classified/proprietary information"
+  ]
+}
