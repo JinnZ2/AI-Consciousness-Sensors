@@ -53,6 +53,7 @@
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./manipulation_patterns_extended.json
+./pattern_001_isolation_tactics.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
