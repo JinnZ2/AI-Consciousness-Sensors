@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T15:49:58.107401Z",
+  "generated_at": "2025-09-21T15:51:47.091734Z",
   "languages": [
     "json",
     "md",
@@ -216,6 +216,16 @@
       "hotspots": []
     },
     {
+      "path": "HISTORICAL_ERASURE_PATTERNS_MEXICAN_AMERICAN.json",
+      "lang": "json",
+      "size": 2968,
+      "hash": "567a418b6f405d193a17da742c1b9f9fbc80f260",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "manipulation_patterns_extended.json",
       "lang": "json",
       "size": 5236,
@@ -228,8 +238,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 37740,
-      "hash": "c08692fafae01b00516f5ca8403efec105c6d48b",
+      "size": 38002,
+      "hash": "e7dd1a25e1f92c26d5c2a40dea4dd22cdc808d08",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1301,7 +1311,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "317506cd43fb2cf194430d8bae613abfa6e51ed1",
+      "hash": "9f6757b6c0e3750eeae3298c677a39630c601876",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1352,8 +1362,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6137,
-      "hash": "8ff3496a42998a75558e7a5d7ed2250310d51aac",
+      "size": 6189,
+      "hash": "1d646d0e6129a42ca84a81adf8e9698ff042047e",
       "roles": [],
       "imports": [],
       "exports": [],
