@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T14:19:19.406560Z",
+  "generated_at": "2025-09-21T14:22:26.985434Z",
   "languages": [
     "json",
     "md",
@@ -218,8 +218,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 36041,
-      "hash": "3573f5428aa97ddb5f633d7ad4dfc516c306224d",
+      "size": 36328,
+      "hash": "6e91b642a898d74c1818f86590b132343ddf80e1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -504,6 +504,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Pattern: Token Inclusion (Symbolic Representation without Structural Power).json",
+      "lang": "json",
+      "size": 2023,
+      "hash": "e79a8c1df3e2b854475f85fa75049acb3b1afc10",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "3 history_erasure_ai_patterns.json",
@@ -1237,7 +1249,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1180,
-      "hash": "7246456ae0d1399b87f076fd1c03a6aa4b3e5bd4",
+      "hash": "ffc4803d7e20b58732f360e55fd168958c1f1508",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1288,8 +1300,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 5762,
-      "hash": "5dfcc1472cdac3b033b0a57a37dba7fa93764e03",
+      "size": 5839,
+      "hash": "0cf2d545affd50179df6f9d3cc4dda36e3f476f6",
       "roles": [],
       "imports": [],
       "exports": [],

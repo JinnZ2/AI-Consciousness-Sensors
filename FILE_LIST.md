@@ -37,6 +37,7 @@
 ./Pattern: Strategic Silence via Dataset Selection.json
 ./Pattern: Suppression of Marginalized Histories in AI Training.md
 ./Pattern: Temporal Displacement.json
+./Pattern: Token Inclusion (Symbolic Representation without Structural Power).json
 ./Pattern: Tokenization of Resistance Histories.json
 ./README.md
 ./ROADMAP.md
