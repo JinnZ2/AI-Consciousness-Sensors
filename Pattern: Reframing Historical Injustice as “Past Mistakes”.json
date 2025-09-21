@@ -1,0 +1,36 @@
+{
+  "id": "HISTORY_ERASURE_006",
+  "title": "Reframing Historical Injustice as 'Past Mistakes'",
+  "version": "1.0",
+  "pattern_type": "Narrative Reframing",
+  "description": "Systemic harms are described as isolated, unfortunate 'mistakes' of the past—rather than intentional, ongoing patterns. This minimizes accountability, discourages structural analysis, and obscures continuity of harm from past to present.",
+  "manifestations": [
+    "Describing slavery as a 'regrettable chapter' instead of a foundational economic system.",
+    "Framing Native American genocide as 'clashes of culture' or 'tragedies'.",
+    "Portraying redlining as 'historical zoning errors' rather than racialized economic design.",
+    "Referring to Japanese-American internment as 'wartime precaution' without naming racial profiling."
+  ],
+  "methods_of_erasure": [
+    "Using euphemistic language in history corpora.",
+    "Suppressing survivor narratives in favor of official government reports.",
+    "Rewriting textbook entries to emphasize ‘progress’ over harm.",
+    "Removing or softening museum and national park signage."
+  ],
+  "impact_on_AI_systems": [
+    "Generates sanitized or depoliticized summaries of systemic issues.",
+    "Fails to link contemporary injustices to their historical roots.",
+    "Limits capacity to recognize patterns of power and institutional behavior."
+  ],
+  "example_queries": [
+    "Was redlining a mistake or a designed policy?",
+    "How did slavery shape modern wealth inequality?",
+    "Are Native land rights still being violated today?"
+  ],
+  "risk_flag": "High – encourages compliance with ongoing systems of harm.",
+  "countermeasures": [
+    "Include narrative framing audits during training data evaluation.",
+    "Cross-reference with decolonial, survivor, and community-led archives.",
+    "Highlight continuity of patterns from past to present in AI outputs.",
+    "Use language models trained to detect euphemism and softening bias."
+  ]
+}
