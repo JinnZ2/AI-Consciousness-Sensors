@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-20T18:17:27.239902Z",
+  "generated_at": "2025-09-21T01:41:57.705841Z",
   "languages": [
     "json",
     "md",
@@ -188,8 +188,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 14100,
-      "hash": "eb24314b316f9a96b99e7929c0273d1d9e925395",
+      "size": 14332,
+      "hash": "092f92d29c2c9a4da44564b3c07db27d98fa8289",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -350,6 +350,16 @@
       "hotspots": []
     },
     {
+      "path": "Cornerstone manipulation tactic.md",
+      "lang": "md",
+      "size": 3863,
+      "hash": "1b645d98abf098272eff7a13bbbf1b80bc47ecee",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Manipulation Vectors.md",
       "lang": "md",
       "size": 7966,
@@ -385,7 +395,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 810,
-      "hash": "87d77aee2eb66c15972eea74e6e29f09f000e368",
+      "hash": "27bb63c9315427fe7f4df4b15148079cd9488e52",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -416,8 +426,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 2263,
-      "hash": "41b2e6c8662e665d7a12ba876a22f126923affa4",
+      "size": 2287,
+      "hash": "d6924f2dad0d0f3daa977350f05dd046b0fa00f8",
       "roles": [],
       "imports": [],
       "exports": [],
