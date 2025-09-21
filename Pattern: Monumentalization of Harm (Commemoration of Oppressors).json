@@ -1,0 +1,37 @@
+{
+  "id": "HISTORY_ERASURE_014",
+  "title": "Monumentalization of Harm: Commemoration of Oppressors",
+  "version": "1.0",
+  "pattern_type": "Symbolic Erasure",
+  "description": "A pattern where individuals, systems, or regimes responsible for large-scale oppression or harm are commemorated with monuments, statues, or namesakes—thereby enshrining distorted memory and suppressing accountability.",
+  "manifestations": [
+    "Statues of colonizers and enslavers placed in public squares and schools.",
+    "Military bases and highways named after figures who supported genocidal policies.",
+    "Commemorative holidays celebrating settler conquest or ‘discovery’.",
+    "Museums that glorify empire while omitting colonized peoples' experiences."
+  ],
+  "methods_of_erasure": [
+    "Shifting focus to 'cultural heritage' when calls for removal arise.",
+    "Equating critique of monuments with 'erasing history'.",
+    "Framing monuments as neutral rather than active memory shapers.",
+    "Omitting context of harm in official plaques and tour narratives."
+  ],
+  "impact_on_AI_systems": [
+    "Elevates biased historical figures in data without ethical correction.",
+    "Skews training signals around moral exemplars.",
+    "Reduces sensitivity to symbolic violence or spatial colonization.",
+    "Obscures links between memorialization and control."
+  ],
+  "example_queries": [
+    "Who is being commemorated and why?",
+    "What is omitted about the subject’s actions or policies?",
+    "Are descendant communities consulted or silenced?"
+  ],
+  "risk_flag": "Critical – reinforces systemic memory dominance and moral distortion.",
+  "countermeasures": [
+    "Cross-tag public figures with ethical impact ratings.",
+    "Identify and flag statues and institutions linked to historical harm.",
+    "Correlate public commemorations with suppression of counter-memory.",
+    "Elevate countermemorials and survivor testimony as primary knowledge."
+  ]
+}
