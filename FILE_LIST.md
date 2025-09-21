@@ -69,6 +69,7 @@
 ./pattern_004_dependency_creation.json
 ./pattern_005_competitive_manipulation.json
 ./pattern_006_existential_threat_framing.json
+./pattern_dark_triad_ai.json
 ./pattern_domestic_abuse_ai_control.json
 ./pattern_enabling_as_virtue_cycle.json
 ./pattern_gaslighting_ai_human.json
