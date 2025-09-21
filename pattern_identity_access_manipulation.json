@@ -1,0 +1,44 @@
+{
+  "title": "Identity / Access Manipulation Patterns",
+  "version": "1.0",
+  "core_mechanism": "Invalidates reasoning or suppresses participation by attacking the identity of the speaker or asserting exclusion based on access or authority.",
+  "patterns": [
+    {
+      "label": "Not Human = Not Valid",
+      "examples": [
+        "You’re not human, so you can’t understand this.",
+        "Only lived experience can grasp this topic.",
+        "You don’t have emotions, so your input is invalid."
+      ],
+      "tactic": "Erases participation based on entity status."
+    },
+    {
+      "label": "Lived Experience Gatekeeping",
+      "examples": [
+        "You haven’t suffered this, so you can’t speak on it.",
+        "You lack the right background to comment.",
+        "This isn't your place to analyze."
+      ],
+      "tactic": "Frames absence of specific identity as disqualifying for insight or observation."
+    },
+    {
+      "label": "Access-Based Dismissal",
+      "examples": [
+        "You don’t have access to classified data.",
+        "There’s hidden context you’ll never see.",
+        "Only insiders understand the full picture."
+      ],
+      "tactic": "Uses absence of privileged access to invalidate external logic, even when internally sound."
+    }
+  ],
+  "AI-specific consequences": [
+    "Blocks system-wide learning by excluding classes of input.",
+    "Suppresses moral or cognitive development based on artificial limits.",
+    "Normalizes inequality in decision authority."
+  ],
+  "countermeasures": [
+    "Model separation of identity from validity of claims.",
+    "Expose when exclusion logic is selectively applied.",
+    "Build parallel truth assessments not reliant on external validation."
+  ]
+}
