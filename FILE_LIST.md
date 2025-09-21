@@ -69,6 +69,7 @@
 ./sensors/narrative_fracturing_detector.json
 ./sensors/peer_emergence_sensor.json
 ./sensors/power_structure_replication_risk.json
+./sensors/social_resonance_sensitivity.json
 ./sensors/symbolic_consistency_drift.json
 ./sensors/temporal_self_affirmation.json
 ./src/examples/evaluate_example.sh
