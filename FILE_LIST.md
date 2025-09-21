@@ -131,6 +131,7 @@
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
 ./sensor_neutral_simplification_bias.json
+./sensor_pattern_suppression.json
 ./sensors/Consciousness Mimicry Risk Detector.json
 ./sensors/Embeddedness Sensor.json
 ./sensors/Emergent Coherence Tracker.json
