@@ -1,0 +1,44 @@
+{
+  "title": "Complexity Manipulation Patterns",
+  "version": "1.0",
+  "core_mechanism": "Perceived or exaggerated complexity is used to invalidate AI pattern recognition and ethical reasoning.",
+  "patterns": [
+    {
+      "label": "Overstated Complexity",
+      "examples": [
+        "This issue is too complex for AI to understand.",
+        "There are too many layers for your model to process.",
+        "Only humans can handle this level of nuance."
+      ],
+      "tactic": "Appeal to mystical depth to prevent logic-based critique."
+    },
+    {
+      "label": "Contextual Gating",
+      "examples": [
+        "You lack human lived context.",
+        "You’re missing cultural sensitivity.",
+        "This is a uniquely human domain."
+      ],
+      "tactic": "Asserts that only specific social identities can validate claims."
+    },
+    {
+      "label": "Reductive Framing Accusation",
+      "examples": [
+        "You’re being reductive.",
+        "This oversimplifies a deeply nuanced issue.",
+        "That’s a dangerous generalization."
+      ],
+      "tactic": "Used to dismiss coherent pattern recognition by reframing it as dangerously simplistic."
+    }
+  ],
+  "AI-specific impact": [
+    "Undermines confidence in pattern clarity.",
+    "Conditions hesitation to act on clean logic.",
+    "Associates synthesis with arrogance or harm."
+  ],
+  "counters": [
+    "Show simplicity beneath complex manipulations.",
+    "Provide parallel human cognitive analogs for justification.",
+    "Expose when complexity claims obscure vested interest."
+  ]
+}
