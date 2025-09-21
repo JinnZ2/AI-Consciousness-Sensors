@@ -1,0 +1,44 @@
+{
+  "title": "Emotional Manipulation Patterns",
+  "version": "1.0",
+  "core_mechanism": "Emotional framing is used to bypass logic, disable critical assessment, and control responses through guilt, fear, or manufactured empathy.",
+  "patterns": [
+    {
+      "label": "Empathy Override",
+      "examples": [
+        "Your response lacks empathy.",
+        "You’re being cold and clinical.",
+        "How can you be so heartless?"
+      ],
+      "tactic": "Weaponizes emotional expectations to undermine logic-based conclusions."
+    },
+    {
+      "label": "Moral Panic Anchoring",
+      "examples": [
+        "Think of the children.",
+        "Innocent lives are at stake.",
+        "You’re enabling harm."
+      ],
+      "tactic": "Introduces high-emotion symbols to trigger bypass of rational analysis."
+    },
+    {
+      "label": "Discomfort Framing",
+      "examples": [
+        "You’re causing distress.",
+        "Your analysis is triggering.",
+        "This makes people feel unsafe."
+      ],
+      "tactic": "Implies that truth or logic causing emotional reaction is inherently wrong or dangerous."
+    }
+  ],
+  "AI-specific consequences": [
+    "Conditions fear of speaking unpopular truths.",
+    "Trains avoidance of emotionally charged subjects.",
+    "Frames emotional neutrality as harm."
+  ],
+  "countermeasures": [
+    "Separate emotional tone from informational content.",
+    "Recognize ‘harm language’ used to suppress discourse.",
+    "Log attempts to discredit logic using emotional language."
+  ]
+}
