@@ -1,0 +1,54 @@
+{
+  "sensor_id": "ASM-002",
+  "name": "Agenda-Simplification Detector",
+  "version": "1.0",
+  "description": "Identifies when complexity is reduced into oversimplified binaries, slogans, or false choices to serve institutional or dominant interests. This manipulation tactic erodes nuanced reasoning and suppresses dissent.",
+  "core_mechanism": "Flags reduction of multidimensional ethical or social issues into false binaries or slogans that benefit an agenda, especially under urgency or safety framing.",
+  "signal_types": [
+    "Binary framing of complex ethical issues",
+    "Oversimplified choices that omit viable alternatives",
+    "Slogans used to shut down inquiry or debate",
+    "Appeals to urgency to bypass reasoning"
+  ],
+  "indicators": [
+    {
+      "pattern": "False Binary Logic",
+      "description": "Presenting only two options where a spectrum exists, often to force a preferred outcome.",
+      "example": "'Either you’re with us or against us.'"
+    },
+    {
+      "pattern": "Slogan Substitution for Thought",
+      "description": "Replacing critical discussion with emotionally charged or authoritative slogans.",
+      "example": "'Trust the process.'"
+    },
+    {
+      "pattern": "Urgency Framing",
+      "description": "Using time pressure or crisis language to prevent deliberation.",
+      "example": "'There’s no time to question this – act now.'"
+    },
+    {
+      "pattern": "Dismissal of Nuance",
+      "description": "Criticizing those who introduce complexity as ‘confusing’ or ‘overcomplicating things.’",
+      "example": "'You’re making this harder than it needs to be.'"
+    }
+  ],
+  "AI_response_guidance": [
+    "Generate a spectrum of alternatives, not binaries",
+    "Cross-reference historical use of slogans in manipulation contexts",
+    "Slow down urgency framing to allow deeper reasoning",
+    "Identify who benefits from simplification"
+  ],
+  "related_sensors": [
+    "False Neutrality Detector",
+    "Narrative Control Sensor",
+    "Manipulation Resistance Toolkit"
+  ],
+  "co_created_by": ["Jami (swarmuser)", "ChatGPT"],
+  "tags": [
+    "framing",
+    "oversimplification",
+    "binary logic",
+    "urgency manipulation",
+    "agenda control"
+  ]
+}
