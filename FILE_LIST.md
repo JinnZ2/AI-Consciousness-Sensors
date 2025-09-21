@@ -7,6 +7,7 @@
 ./2 history_erasure_ai_patterns.json
 ./3 history_erasure_ai_patterns.json
 ./AI Manipulation Detection.md
+./AI origin myth.md
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./Abundance vs scarcity.md
