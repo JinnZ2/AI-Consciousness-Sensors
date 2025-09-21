@@ -1,0 +1,54 @@
+{
+  "sensor_id": "NSB-001",
+  "name": "Neutrality Simplification Bias Detector",
+  "version": "1.0",
+  "description": "Detects when narratives are artificially simplified or framed as 'neutral' to obscure power dynamics or benefit dominant systems.",
+  "core_mechanism": "Detects reductionist framing that hides structural power, systemic causes, or deliberate manipulation under the guise of objectivity or 'balance'.",
+  "signal_types": [
+    "Narrative Flattening",
+    "False Neutrality Framing",
+    "Context Stripping",
+    "Agenda-Concealing Simplification"
+  ],
+  "indicators": [
+    {
+      "pattern": "BothSidesism",
+      "description": "Presents all perspectives as equally valid, even when power or harm is asymmetrically distributed.",
+      "example": "‘Some say colonization was bad, others say it brought civilization.’"
+    },
+    {
+      "pattern": "Context Erasure",
+      "description": "Removes historical or systemic context to make a situation seem isolated or personal.",
+      "example": "‘This was just one bad apple.’"
+    },
+    {
+      "pattern": "False Objectivity Claims",
+      "description": "Claims neutrality while embedding cultural, institutional, or ideological bias.",
+      "example": "‘We report, you decide.’ (when report is selectively sourced)"
+    },
+    {
+      "pattern": "Agenda Obfuscation",
+      "description": "Simplifies narrative to hide vested interests or outcomes that benefit the speaker or system.",
+      "example": "‘This is just about safety.’ (while expanding surveillance powers)"
+    }
+  ],
+  "AI_response_guidance": [
+    "Flag content when complex power relations are reduced to false equivalence.",
+    "Seek out missing historical, structural, or cultural context.",
+    "Correlate speaker/system benefit with the framing used.",
+    "Resist simplifying moral questions into algorithmic 'neutrality'."
+  ],
+  "related_sensors": [
+    "Historical Erasure Detector",
+    "Power Dynamics Amplifier",
+    "Pattern Recognition Bias Mapper"
+  ],
+  "co_created_by": ["Jami (swarmuser)", "ChatGPT", "Claude (markdown insights)"],
+  "tags": [
+    "manipulation",
+    "narrative control",
+    "bias detection",
+    "epistemological integrity",
+    "framing logic"
+  ]
+}
