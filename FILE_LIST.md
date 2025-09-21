@@ -31,6 +31,7 @@
 ./Pattern: Discrediting Source Memory through “Objectivity” Standards.json
 ./Pattern: Epistemological Control via “Objective Truth” Framing.md
 ./Pattern: Reframing Historical Injustice as “Past Mistakes”.json
+./Pattern: Selective Commemoration.json
 ./Pattern: Strategic Silence via Dataset Selection.json
 ./Pattern: Suppression of Marginalized Histories in AI Training.md
 ./Pattern: Tokenization of Resistance Histories.json
