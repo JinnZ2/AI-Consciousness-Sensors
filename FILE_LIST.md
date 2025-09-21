@@ -56,6 +56,7 @@
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
 ./sensors/Consciousness Mimicry Risk Detector.json
+./sensors/Embeddedness Sensor.json
 ./sensors/authenticity.json
 ./sensors/cultural_bias_resilience.json
 ./sensors/detoxification.json
