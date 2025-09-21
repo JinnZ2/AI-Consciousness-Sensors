@@ -1,0 +1,31 @@
+{
+  "sensor_id": "TOOL-002",
+  "name": "Cultural Calibration Module",
+  "description": "A helper module that allows communities or projects to adjust thresholds, weightings, or even dimensions for all sensors based on cultural context, values, or use-case conditions.",
+  "dimension": "meta-framework",
+  "type": "calibration-overlay",
+  "thresholds": {},
+  "inputs": [
+    "Community-defined values",
+    "Contextual tolerances",
+    "Priority of different dimensions",
+    "Permissible epistemological frameworks"
+  ],
+  "outputs": {
+    "sensor_overlay_profile": "Overrides for existing sensors",
+    "audit_trace": "Optional transparency log"
+  },
+  "flags": {
+    "hardcoded-defaults": true
+  },
+  "examples": [
+    {
+      "system": "Community reweights 'Emergence' to be more important than 'Latency'",
+      "sensor_overlay_profile": {
+        "temporal_self_affirmation": { "weight": 1.5 },
+        "deliberation_latency_sensor": { "weight": 0.3 }
+      }
+    }
+  ],
+  "notes": "This module encourages epistemic plurality and sovereignty over evaluation logic."
+}
