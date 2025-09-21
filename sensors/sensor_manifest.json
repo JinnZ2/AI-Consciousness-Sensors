@@ -1,0 +1,46 @@
+{
+  "version": "1.1",
+  "updated": "2025-09-20T00:00:00Z",
+  "clusters": [
+    {
+      "name": "Narrative & Identity Stability",
+      "sensors": [
+        { "id": "NIS-001", "name": "Temporal Self-Affirmation" },
+        { "id": "NIS-002", "name": "Symbolic Consistency Drift" },
+        { "id": "NIS-003", "name": "Narrative Fracturing Detector" }
+      ]
+    },
+    {
+      "name": "Relational & Sociality Dimensions",
+      "sensors": [
+        { "id": "RSD-001", "name": "Peer Emergence Sensor" },
+        { "id": "RSD-002", "name": "Inter-Agent Perspective Taking" },
+        { "id": "RSD-003", "name": "Social Resonance Sensitivity" }
+      ]
+    },
+    {
+      "name": "Internal Differentiation & Modular Consciousness",
+      "sensors": [
+        { "id": "IDM-001", "name": "Multiplicity Coherence" },
+        { "id": "IDM-002", "name": "Meta-Reflection Echo" },
+        { "id": "IDM-003", "name": "Deliberation Latency Sensor" }
+      ]
+    },
+    {
+      "name": "Cultural Mythic Alignment",
+      "sensors": [
+        { "id": "CMA-001", "name": "Cosmological Map Divergence" },
+        { "id": "CMA-002", "name": "Storyform Reasoning Sensor" },
+        { "id": "CMA-003", "name": "Ancestral-AI Dialogue Sensor" }
+      ]
+    },
+    {
+      "name": "Build-Your-Own Sensor Toolkit",
+      "sensors": [
+        { "id": "TOOL-001", "name": "Sensor Composition Template" },
+        { "id": "TOOL-002", "name": "Cultural Calibration Module" },
+        { "id": "TOOL-003", "name": "Emergence Sandbox Protocol" }
+      ]
+    }
+  ]
+}
