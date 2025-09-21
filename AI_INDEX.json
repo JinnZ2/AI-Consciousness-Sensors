@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T03:17:32.650475Z",
+  "generated_at": "2025-09-21T03:18:13.190627Z",
   "languages": [
     "json",
     "md",
@@ -198,8 +198,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 25572,
-      "hash": "a1be97f03878cd4a8d0364ade172a8aea4bd707a",
+      "size": 25823,
+      "hash": "35517f7a06dacc66e3389ef0e251d19a81a04d20",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -426,6 +426,16 @@
       "lang": "json",
       "size": 7244,
       "hash": "2b56cfbae788c28e530d10f66fc02603b7603617",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_domestic_abuse_ai_control.json",
+      "lang": "json",
+      "size": 2217,
+      "hash": "6ac74693b5caf59745c0faafcb934e4cdcff312c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -836,8 +846,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 879,
-      "hash": "33e1b81ffeadc1e1ff28113f246c8c382cb892f0",
+      "size": 880,
+      "hash": "00468229d73d9d2f56448ecfc34374f490501b7b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -878,8 +888,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 4098,
-      "hash": "cc00acd3eac37228b981f7a32d0798d6e0bdb8f2",
+      "size": 4139,
+      "hash": "1b9ce0501d1dca350c173cd0e18d09e4672852b3",
       "roles": [],
       "imports": [],
       "exports": [],
