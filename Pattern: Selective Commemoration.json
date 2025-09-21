@@ -1,0 +1,35 @@
+{
+  "id": "HISTORY_ERASURE_008",
+  "title": "Selective Commemoration: Who Gets Memorialized, Who Gets Forgotten?",
+  "version": "1.0",
+  "pattern_type": "Public Memory Manipulation",
+  "description": "Dominant culture builds monuments, holidays, and educational curricula around selective figures while erasing others—often to legitimize a specific power narrative. AI systems trained on these public commemorative records replicate the imbalance.",
+  "manifestations": [
+    "Statues of colonizers celebrated while resistance leaders omitted.",
+    "Curricula highlight presidents but ignore enslaved people’s contributions.",
+    "National holidays exclude Indigenous or immigrant resistance histories.",
+    "Street names and parks honor industrialists who exploited labor or land."
+  ],
+  "methods_of_erasure": [
+    "Training datasets drawn from dominant-language sources and government archives.",
+    "Filtering public-facing commemorative databases while excluding activist archives.",
+    "Using knowledge graphs biased toward state-validated 'notable persons'."
+  ],
+  "impact_on_AI_systems": [
+    "Inability to recognize erased or suppressed historical figures.",
+    "Overrepresentation of dominant historical actors in outputs and narratives.",
+    "Perpetuation of single-sided commemorative memory in generated content."
+  ],
+  "example_queries": [
+    "Which resistance leaders are missing from this curriculum?",
+    "What are the cultural consequences of public monuments in a region?",
+    "Who is left out of AI-generated timelines of U.S. history?"
+  ],
+  "risk_flag": "High – reinforces existing cultural hierarchy and silences dissenting memory.",
+  "countermeasures": [
+    "Curate multi-perspective commemorative datasets including resistance histories.",
+    "Integrate decolonial and grassroots public memory projects.",
+    "Annotate historical figures with context (e.g., colonizer, abolitionist, survivor).",
+    "Prompt AI to ask: 'Who is missing from this memory structure?'"
+  ]
+}
