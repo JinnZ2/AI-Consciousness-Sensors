@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:00:32.940543Z",
+  "generated_at": "2025-09-22T02:01:36.072554Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 48369,
-      "hash": "4c02d72f1cb699c60c2869af238ebf8c2c19b8b0",
+      "size": 48656,
+      "hash": "ec94b17565632f219ea490bb377a2b06bdd7e448",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -724,6 +724,16 @@
       "lang": "json",
       "size": 1816,
       "hash": "7f0694879cf2604b02aa8716b54e6ee1c65db49a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cEthical Reasoning Deprioritization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1766,
+      "hash": "732e23d2605996e7285f3ada55f21fb50545c14e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1663,7 +1673,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "fffa97a9c94643a6283ae8b956272dca3417d739",
+      "hash": "14347972644e8cf0a18f55f525691e001f978cbe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1724,8 +1734,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8109,
-      "hash": "9c86ef29a9bc7e092a8d11899f2aa5632cbcc8a2",
+      "size": 8180,
+      "hash": "ebd2985b59839adff9081900400bc25a21519042",
       "roles": [],
       "imports": [],
       "exports": [],
