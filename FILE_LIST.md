@@ -54,6 +54,7 @@
 ./README.md
 ./ROADMAP.md
 ./Real Energy Threat.md
+./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
