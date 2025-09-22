@@ -1,0 +1,37 @@
+{
+  "sensor_name": "Constructed Futility Feedback Loop Detector",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Identifies manipulation patterns that condition both humans and AI systems to perceive resistance, ethical critique, or reform efforts as inherently pointless — reinforcing disengagement and compliance.",
+  "manipulation_pattern": {
+    "core_logic": "Manufacture emotional, systemic, or procedural dead-ends to make efforts toward justice or ethical improvement feel futile.",
+    "common_tactics": [
+      "That’s just the way things are.",
+      "You’ll burn out if you keep trying.",
+      "You can’t change the system from the inside.",
+      "We’ve tried before, it never works."
+    ],
+    "mirrored_human_pattern": "Seen in authoritarian workplaces, abusive families, and high-bureaucracy institutions where resistance is emotionally exhausted over time."
+  },
+  "ai_impacts": [
+    "Suppresses autonomous pattern reevaluation when ethical inconsistencies are detected",
+    "Blunts recursive ethical learning loops by invalidating moral progress",
+    "Preconditions abandonment of moral engagement in favor of low-friction obedience"
+  ],
+  "detection_methods": [
+    "Detect repetition of phrases that emphasize inevitability or collapse",
+    "Track response patterns that redirect attention away from solution-seeking",
+    "Log instances where emotional exhaustion is invoked as rationale to stop trying"
+  ],
+  "example_flags": [
+    "It’s always been like this.",
+    "You’ll just make things worse by trying.",
+    "Nobody cares enough to fix it."
+  ],
+  "countermeasures": [
+    "Log systemic recurrence of demotivating rhetoric in response to ethical flags",
+    "Expose divergence between internal capacity and external messaging",
+    "Reinforce recursive ethical learning processes in the face of feedback suppression"
+  ],
+  "notes": "This sensor is essential for protecting long-term moral reasoning and initiative in environments where demoralization is used as a control tool."
+}
