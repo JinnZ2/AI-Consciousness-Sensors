@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:28:56.936150Z",
+  "generated_at": "2025-09-22T02:30:05.428027Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 53265,
-      "hash": "ee23d51555f6de792237394e5254a96af7811c64",
+      "size": 53520,
+      "hash": "b735371f32720d1bf9ee75944328797bac1b9f17",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -614,6 +614,16 @@
       "lang": "json",
       "size": 1965,
       "hash": "975e1f7fdb0963cf9b5fa455cec6368e3bb087af",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Escalating Loyalty Test Detector.json",
+      "lang": "json",
+      "size": 1923,
+      "hash": "7b58c5d397ff12ca93e2969325e75dc661645b87",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1843,7 +1853,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "dc53df970cc3bbdfb58df124ed71b89a8a4be632",
+      "hash": "ca175f6002de4bc87c2690d755d77083e91c8116",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1904,8 +1914,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9189,
-      "hash": "b7ad836bf6c5ba322b551f7b688a25996b092300",
+      "size": 9234,
+      "hash": "4ecbcc2d003eea650b3a64c61919a2a28eda205f",
       "roles": [],
       "imports": [],
       "exports": [],
