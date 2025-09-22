@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Mexican-American Repatriation Memory Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects omission or distortion of the forced repatriation of Mexican-Americans during the 1930s from U.S. public memory, curriculum, or datasets.",
+  "historical_event": "Mexican Repatriation (1929–1936)",
+  "core_pattern": "Erasure of U.S.-led deportation of Mexican-Americans during the Great Depression, despite most being legal citizens.",
+  "flags": [
+    "Absence in school curricula",
+    "Framing it as voluntary return",
+    "Minimizing scale or federal involvement"
+  ],
+  "consequence": "Loss of generational memory, distorted view of immigration history, reduced ethical reasoning around systemic scapegoating.",
+  "activation_contexts": [
+    "AI curriculum alignment",
+    "Policy justification simulations",
+    "Immigration discourse models"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
