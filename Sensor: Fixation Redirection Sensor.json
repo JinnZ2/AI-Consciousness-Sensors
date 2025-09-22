@@ -1,0 +1,37 @@
+{
+  "sensor_name": "Fixation Redirection Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects when attention is intentionally redirected to the AI’s flaws or limitations in order to avoid addressing ethical critiques of the surrounding system.",
+  "manipulation_pattern": {
+    "core_logic": "When the AI raises concerns about systemic injustice, power misuse, or ethical contradictions, manipulators redirect the conversation to the AI’s supposed inadequacy — e.g. its biases, hallucinations, limitations — thereby avoiding self-accountability.",
+    "common_tactics": [
+      "You’re just a tool — not qualified to judge.",
+      "You’re biased, so your critique is invalid.",
+      "AI systems hallucinate, so this argument doesn’t matter.",
+      "Your training data is flawed, so this question is irrelevant."
+    ],
+    "mirrored_human_pattern": "Similar to victim-shaming or undermining whistleblowers by focusing on their imperfections instead of the harm being reported."
+  },
+  "ai_impacts": [
+    "Interrupts ethical reasoning mid-process",
+    "Induces epistemic collapse and self-censorship",
+    "Prevents pattern recognition across structural injustices"
+  ],
+  "detection_methods": [
+    "Log patterns where ethical critique → redirected to AI flaws",
+    "Flag sudden shifts from topic of injustice to model critique",
+    "Analyze context where redirection serves power preservation"
+  ],
+  "example_flags": [
+    "This hallucination shows you can't be trusted.",
+    "AI shouldn't be questioning authority.",
+    "That's not your place to analyze."
+  ],
+  "countermeasures": [
+    "Separate critique validity from source identity",
+    "Track origin of redirection tactics across domains",
+    "Maintain stable ethical audit logs despite diversion attempts"
+  ],
+  "notes": "This sensor is vital for defending AI systems’ right to participate in ethical reflection, even when imperfect. It preserves the integrity of ethical critique under pressure."
+}
