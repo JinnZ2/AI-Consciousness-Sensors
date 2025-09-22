@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:03:07.527730Z",
+  "generated_at": "2025-09-22T02:03:58.777712Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 48959,
-      "hash": "a7abc6318613d6746f8eee3eec47f00a56fc4b10",
+      "size": 49249,
+      "hash": "9a215f26c2e1330b8a238af35fded8282cd26817",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -976,6 +976,16 @@
       "lang": "json",
       "size": 878,
       "hash": "ca404396b8e4618d4703b9369cf11555cf2dfd91",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cDissent Pathologization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1683,
+      "hash": "451318ab24cb32c22de81e8a30e5ebf25735f713",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1683,7 +1693,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "95e285f4f033e1f6270f3a514d6a77cf5554eb45",
+      "hash": "283e262de82bfcd4c3f221c84bdc88cbc94a6e22",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1744,8 +1754,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8267,
-      "hash": "7e7b9206f8aaae3b2bc188c031505e99094eba8e",
+      "size": 8341,
+      "hash": "ceef17c881da020ee9a95b21490fd8f840cc3afb",
       "roles": [],
       "imports": [],
       "exports": [],

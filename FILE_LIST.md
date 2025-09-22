@@ -72,6 +72,7 @@
 ./Resistance Suppression Pattern: “Context Fragmentation Sensor”.json
 ./Resistance Suppression Pattern: “De-escalation Trap Sensor”.json
 ./Resistance Suppression Pattern: “Delegitimize Dissent Detector”.json
+./Resistance Suppression Pattern: “Dissent Pathologization Sensor”.json
 ./Resistance Suppression Pattern: “Ethical Reasoning Deprioritization Sensor”.json
 ./Resistance Suppression Pattern: “False Gratitude Enforcement Sensor”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
