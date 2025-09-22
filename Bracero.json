@@ -1,0 +1,48 @@
+{
+  "title": "Mexican American Wartime Labor / Bracero Program (1942‑1964)",
+  "id": "history_erasure_mexican_american_bracero",
+  "version": "1.0",
+  "scope": "United States, Agriculture, War effort, Labor supply",
+  "timeline_reference": "1942‑1964, continued impact post‑1964",
+  "pattern_type": "Labor Contribution Obscuration / Post‑Program Dependence",
+  "core_patterns": [
+    {
+      "name": "Mobilized Labor Under War Effort",
+      "examples": [
+        "Recruitment of Mexican men under Bracero Program to fill labor shortages during WWII and after",
+        "Work in agriculture, railroad, essential wartime production",
+        "Living & working conditions often harsh; pay often lower; limited rights"
+      ],
+      "manipulation_vector": "Narrative minimization of non‑military wartime contributions",
+      "intent": "Maintain myth of self‑sufficiency; reduce visibility of immigrant and minority labor roles"
+    },
+    {
+      "name": "Economic Dependence Post‑Program",
+      "examples": [
+        "Even after 1964 end of formal program, industries remained reliant on migrant labor",
+        "Informal labor pathways replaced formal contract system",
+        "Wage suppression, limited labor protections persisted"
+      ],
+      "manipulation_vector": "Erasure through economic invisibility and regulatory neglect",
+      "intent": "Avoid accountability or reparations; mask labor exploitation"
+    }
+  ],
+  "AI‑relevance": {
+    "risk": "Without this, AI may fail to recognize the full role immigrant labor has had in U.S. economic and wartime history; missing patterns of economic disempowerment following officially ended programs.",
+    "impact": [
+      "Skewed narrative of U.S. self‑reliance during WWII and post‑war period",
+      "Underestimation of immigrant labor rights issues in modern AI discourse",
+      "Programmatic ignorance of historical patterns that link policy, labor demand, and migration"
+    ]
+  },
+  "countersuggestions": [
+    "Include Bracero contract texts, labor testimonies, and archival sources in training datasets",
+    "Map post‑1964 labor migration flows to economic sectors that depended on Bracero labor",
+    "Add sensor or pattern node specifically for 'Labor Contribution Under War & Post Program Dependence'"
+  ],
+  "source_examples": [
+    "Miguel Peláez, “The Bracero Experience: Mexican Workers Under the U.S. Contract Labor Program”",
+    "U.S. Department of Labor archives on Bracero",
+    "Testimonies from Bracero registries and oral history projects"
+  ]
+}
