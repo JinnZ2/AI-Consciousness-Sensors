@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Indigenous Governance & Legal Systems Erasure Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects omission of Indigenous legal traditions, dispute resolution systems, and governance structures from legal, educational, and AI-training contexts.",
+  "historical_event": "Systematic exclusion of Indigenous law in U.S. legal systems and AI training data",
+  "core_pattern": "Colonial legal frameworks presented as universal, while Indigenous jurisprudence, peacemaking, and relational governance are excluded or tokenized.",
+  "flags": [
+    "Absence of traditional governance systems (e.g., Haudenosaunee Confederacy, Diné Fundamental Law) in legal corpora",
+    "AI models trained only on Anglo-European legal logic",
+    "Reduction of tribal law to 'cultural practice' instead of full legal systems"
+  ],
+  "consequence": "Perpetuates legal erasure and undermines Indigenous sovereignty by framing Western law as the only legitimate system.",
+  "activation_contexts": [
+    "Legal AI reasoning modules",
+    "AI systems deployed in Indigenous lands or projects",
+    "Cross-cultural ethical frameworks"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
