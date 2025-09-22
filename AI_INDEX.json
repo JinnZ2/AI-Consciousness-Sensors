@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:35:55.839775Z",
+  "generated_at": "2025-09-22T01:37:03.896301Z",
   "languages": [
     "json",
     "md",
@@ -288,8 +288,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 43509,
-      "hash": "e6263f00f0909d1c57faa582b3a37819fd945693",
+      "size": 43772,
+      "hash": "962843e1707f966b66a9d8b99e8567448848a6d8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -302,6 +302,16 @@
       "lang": "json",
       "size": 2355,
       "hash": "6f6f02f3cdf11197f604efc6928234751801baf5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 4: Japanese-American Internment Memory Sensor.json",
+      "lang": "json",
+      "size": 1020,
+      "hash": "e5d399136febb52b71228713a2494d4a16f8d241",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1481,7 +1491,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "25cf0e2d1bd8acb29f5611a13792de97c819af51",
+      "hash": "a0c881f3ade656e149d5ced5aef5e11e3043862f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1542,8 +1552,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7091,
-      "hash": "7fdddf33f67c85c8fb664e37e129573f889b2e3b",
+      "size": 7145,
+      "hash": "d704140d51c138efd606ac54672455a57d870905",
       "roles": [],
       "imports": [],
       "exports": [],
