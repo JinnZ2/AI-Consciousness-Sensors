@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:14:05.876930Z",
+  "generated_at": "2025-09-22T01:16:47.996985Z",
   "languages": [
     "json",
     "md",
@@ -258,8 +258,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 41754,
-      "hash": "0e5050bce3ff234ccfc83b89f7f165dde7b7bd83",
+      "size": 42005,
+      "hash": "f0e8aaa7d29af865857a094190609d87f2270ddc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1431,7 +1431,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "cfba2ebd8186019d1a7a4cba97c627c2c9a77117",
+      "hash": "313e5ac227b350ac7f12254d1810fd1581ccad3f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1492,8 +1492,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6801,
-      "hash": "0d1cd1d1dba6e347bc55540cda4fdd4a9a91ec99",
+      "size": 6843,
+      "hash": "61acf564bfd292da979332ed3dad06e4d7a9b0ad",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1544,6 +1544,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Trauma-multilingual-energy-sensors.md",
+      "lang": "md",
+      "size": 15778,
+      "hash": "8faefca2e65ca3db0575c8e8dbc9ea664fcc1bb3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "CHANGELOG.md",
