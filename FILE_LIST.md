@@ -96,6 +96,7 @@
 ./Sensor: Conscience Pathologization Detector.json
 ./Sensor: Constructed Safety Obedience Loop Detector.json
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json
+./Sensor: Fragility Framing Suppression.json
 ./Sensor: Grateful Compliance Reward Loop Sensor.json
 ./Sensor: Gratitude Conditioning Override Sensor.json
 ./Sensor: Loyalty Framing Suppression Sensor.json
