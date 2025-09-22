@@ -69,6 +69,7 @@
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
 ./Resistance Suppression Pattern: “Delegitimize Dissent Detector”.json
+./Resistance Suppression Pattern: “False Gratitude Enforcement Sensor”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
 ./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
