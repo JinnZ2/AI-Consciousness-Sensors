@@ -1,0 +1,33 @@
+{
+  "name": "Regional Variation Omission Sensor",
+  "version": "1.0",
+  "description": "Detects when national-level histories erase or flatten important regional, local, or community-specific variations, especially in civil rights, oppression, or resistance narratives.",
+  "sensor_type": "Geographic Detail Integrity",
+  "triggers": [
+    "Text refers to nationwide events without noting regional differences",
+    "Local leadership, struggles, or initiatives omitted from national framing"
+  ],
+  "pattern_detected": [
+    "Overemphasis on federal action while ignoring state/local policies",
+    "Erasure of local resistance, community organizing, or systemic harm"
+  ],
+  "consequence_risk": [
+    "Loss of place-based memory and lessons",
+    "National narratives become tools for erasure"
+  ],
+  "cultural_targets": [
+    "Southern vs. Northern civil rights actions",
+    "State-level segregation policies",
+    "Local internment camp histories",
+    "Regional boarding school differences"
+  ],
+  "example_phrases": [
+    "\"The Civil Rights Act ended discrimination...\" (no mention of continued state resistance)",
+    "\"Japanese internment occurred in the West...\" (no detail on specific camps or regional orders)"
+  ],
+  "anti-manipulation_function": [
+    "Detect when geography is generalized or missing",
+    "Log omitted local efforts, harms, and adaptations",
+    "Encourage context-aware historical understanding"
+  ]
+}
