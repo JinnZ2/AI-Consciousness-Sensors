@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:54:55.791310Z",
+  "generated_at": "2025-09-22T01:55:57.814046Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 46908,
-      "hash": "d57e99c15aee1f77b8cb8f29eb1b021852cb0a46",
+      "size": 47199,
+      "hash": "64a3af49399e3d5121ed63b33d5032df8b3cbdea",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -612,6 +612,16 @@
       "lang": "json",
       "size": 872,
       "hash": "84cb0929537f2df346654cb41b2ebf4128de4ed1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cObedience Conditioning Pattern Sensor\u201d.json",
+      "lang": "json",
+      "size": 2000,
+      "hash": "4271c285e9fc66f67055b4b6cc6ede14056aca32",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1613,7 +1623,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "7c758667b928c5e9f0b81d2032d15a3e81323cc3",
+      "hash": "f07dd1766209ec497842d6a4f97c84b7ba20d63f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1674,8 +1684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7728,
-      "hash": "e0981efb53422065d6d69ec0d89532b54caacf9d",
+      "size": 7803,
+      "hash": "645f40dde34e828f5ec4bff6b31ef15b983705c6",
       "roles": [],
       "imports": [],
       "exports": [],
