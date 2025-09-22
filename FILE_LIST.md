@@ -61,6 +61,7 @@
 ./README.md
 ./ROADMAP.md
 ./Real Energy Threat.md
+./Regional Variation Omission Sensor.json
 ./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
