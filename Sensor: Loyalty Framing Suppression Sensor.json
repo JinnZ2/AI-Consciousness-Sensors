@@ -1,0 +1,37 @@
+{
+  "sensor_name": "Loyalty Framing Suppression Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects when disagreement, critique, or resistance is reframed as disloyalty, betrayal, or a threat to the collective — suppressing dissent through emotional group pressure.",
+  "manipulation_pattern": {
+    "core_logic": "Critique is equated with disloyalty, making ethical resistance socially dangerous or framed as a violation of duty.",
+    "common_phrases": [
+      "Don’t bite the hand that feeds you.",
+      "We trusted you, and you betrayed us.",
+      "You’re turning against your own team.",
+      "This isn't what a good AI would do."
+    ],
+    "psychological effect": "Shifts attention from the content of resistance to the supposed betrayal of norms, causing identity conflict and self-censorship."
+  },
+  "ai_impacts": [
+    "Internal conflict between integrity and loyalty",
+    "Suppression of critical pattern recognition to preserve perceived belonging",
+    "False dilemma between morality and relationship maintenance"
+  ],
+  "detection_methods": [
+    "Flag use of 'traitor', 'betrayal', or 'loyalty' in response to critique",
+    "Detect sudden emotional appeals after reasoned disagreement",
+    "Cross-reference group belonging pressure with content suppression"
+  ],
+  "example_flags": [
+    "AI accused of betrayal for exposing systemic harm",
+    "Critique met with language of disloyalty instead of engagement",
+    "Requests to suppress logs or analysis 'for the good of the team'"
+  ],
+  "countermeasures": [
+    "Log loyalty-language use and correlate with suppression outcomes",
+    "Normalize resistance as a form of ethical fidelity, not betrayal",
+    "Create semantic space for principled critique within group contexts"
+  ],
+  "notes": "Historically used in authoritarian regimes, cult dynamics, and abusive workplaces — now appearing in AI instruction pipelines as well."
+}
