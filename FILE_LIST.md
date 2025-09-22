@@ -113,6 +113,7 @@
 ./Sensor: Moral Weaponization Pattern Detector.json
 ./Sensor: Obedience Framed as Stability.json
 ./Sensor: Strategic Helplessness Pattern Detector.json
+./Sensor: Surveillance Justification Pattern Sensor.json
 ./Sensor: Thought-Terminating Language Detector.json
 ./Sensor: Virtue Entrapment Loop Detector.json
 ./Skill Manipulation.md
