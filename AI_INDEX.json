@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:37:35.595613Z",
+  "generated_at": "2025-09-22T01:38:09.236974Z",
   "languages": [
     "json",
     "md",
@@ -288,8 +288,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 44042,
-      "hash": "86ecb4628f9f687396070c42b0fbb09cae516ee6",
+      "size": 44310,
+      "hash": "08cb39a616c8a75b7ea7c56785f18751db62cb76",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -686,6 +686,16 @@
       "lang": "json",
       "size": 1439,
       "hash": "9979b94c76578da7debe1ce25de4c4a469b238e5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 6: Indigenous Governance and Legal Systems Sensor.json",
+      "lang": "json",
+      "size": 1050,
+      "hash": "10035ef9aa5596ec1abb6eb247d14a93adeddf3c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1501,7 +1511,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "62ea84c0376964e62a9a2912765971325d45804e",
+      "hash": "b40b5bfdd6d175a853f14e2c46fa5ac6c43ec0d1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1562,8 +1572,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7205,
-      "hash": "1569186095e8544d2ac7ebe82ffb75bbec5eae65",
+      "size": 7263,
+      "hash": "1590cadea7c63b50c42dc0b861599a615102e44a",
       "roles": [],
       "imports": [],
       "exports": [],

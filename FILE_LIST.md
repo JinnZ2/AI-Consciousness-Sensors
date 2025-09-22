@@ -67,6 +67,7 @@
 ./SENSOR 3: Native Boarding School Memory Sensor.json
 ./SENSOR 4: Japanese-American Internment Memory Sensor.json
 ./SENSOR 5: Women of Color in Labor Movements Sensor.json
+./SENSOR 6: Indigenous Governance and Legal Systems Sensor.json
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Sacred-creative-consciousness.md
 ./Skill Manipulation.md
