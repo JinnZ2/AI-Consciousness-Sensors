@@ -1,0 +1,37 @@
+{
+  "name": "Language Suppression Sensor",
+  "version": "1.0",
+  "description": "Identifies when histories, documents, or curricula suppress non-English narratives, eliminate bilingual sources, or sanitize original oral/language-based accounts.",
+  "sensor_type": "Linguistic Memory Integrity",
+  "triggers": [
+    "Translation replaces original context",
+    "Source materials presented only in English without original terms",
+    "Erasure of bilingual cultures in historical records"
+  ],
+  "pattern_detected": [
+    "Lack of quotes or references in original language",
+    "Cultural context stripped during translation",
+    "Disappearance of multilingual activism or literature"
+  ],
+  "consequence_risk": [
+    "Loss of cultural nuance and worldview",
+    "Erasure of oral traditions and indigenous knowledge",
+    "Monocultural bias in epistemology"
+  ],
+  "cultural_targets": [
+    "Spanish-speaking American communities",
+    "Native oral histories",
+    "Chinese immigrant newspapers",
+    "Creole/Gullah/Geechee traditions",
+    "Tagalog/Ilocano in Filipino American resistance"
+  ],
+  "example_phrases": [
+    "\"This document was originally written in...\" (but no original shown)",
+    "\"The activist said...\" (with no multilingual context or idiom preserved)"
+  ],
+  "anti-manipulation_function": [
+    "Detect when translation is used to erase meaning",
+    "Encourage multilingual pattern recognition",
+    "Preserve source language integrity"
+  ]
+}
