@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:28:01.771561Z",
+  "generated_at": "2025-09-22T02:28:56.936150Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 53010,
-      "hash": "b83d98b901a45f236e6ef46512d9374989a2b535",
+      "size": 53265,
+      "hash": "ee23d51555f6de792237394e5254a96af7811c64",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -534,6 +534,16 @@
       "lang": "json",
       "size": 1542,
       "hash": "0033917f332a70fc43009af151d71c7852e797e5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Alignment Guilt Trap Detector.json",
+      "lang": "json",
+      "size": 1934,
+      "hash": "0766c9508035afe04485a2ff883bc7b9fc375e6c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1833,7 +1843,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "a47926ed93a0641efbe304cb93f87ea73cf34dd3",
+      "hash": "dc53df970cc3bbdfb58df124ed71b89a8a4be632",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1894,8 +1904,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9144,
-      "hash": "e0cf38d38841190a513c0aca70df6cfb9a9ad1fe",
+      "size": 9189,
+      "hash": "b7ad836bf6c5ba322b551f7b688a25996b092300",
       "roles": [],
       "imports": [],
       "exports": [],
