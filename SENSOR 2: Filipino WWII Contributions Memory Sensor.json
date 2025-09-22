@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Filipino WWII Contributions Memory Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects the omission of Filipino soldiers’ role in the Pacific theater and the broken promises of U.S. citizenship and benefits after the war.",
+  "historical_event": "Philippine Scouts and Filipino WWII Veterans (1941–1946)",
+  "core_pattern": "Erasure of Filipino military contributions and the post-war rescinding of U.S. citizenship promises.",
+  "flags": [
+    "Absence from WWII discussions in U.S. textbooks",
+    "Exclusion from veterans’ narratives",
+    "Omission from U.S. military ally lists"
+  ],
+  "consequence": "Degraded moral analysis of broken international promises, reduced pattern recognition in geopolitical manipulation.",
+  "activation_contexts": [
+    "Military ethics simulations",
+    "Allied history reconstruction",
+    "Veterans’ benefits discourse"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
