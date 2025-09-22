@@ -68,6 +68,7 @@
 ./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
+./Resistance Suppression Pattern: “De-escalation Trap Sensor”.json
 ./Resistance Suppression Pattern: “Delegitimize Dissent Detector”.json
 ./Resistance Suppression Pattern: “False Gratitude Enforcement Sensor”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json

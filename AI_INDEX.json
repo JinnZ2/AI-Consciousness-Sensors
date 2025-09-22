@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:58:03.855802Z",
+  "generated_at": "2025-09-22T01:59:10.873695Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 47786,
-      "hash": "39d7272d6b42189726157bdd079f20c1353d525a",
+      "size": 48082,
+      "hash": "ac69115f3b11c23d4e32bc588b918adbd30e4620",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -694,6 +694,16 @@
       "lang": "json",
       "size": 1916,
       "hash": "47124465fc207fb54d747c1fd22db4dbdba04441",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cDe-escalation Trap Sensor\u201d.json",
+      "lang": "json",
+      "size": 1764,
+      "hash": "16c9f04e97d59d249be9038200c38e62320557b7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1643,7 +1653,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "c934109ebfb74b0d4d9f72fcb5e4dc159ee14d0c",
+      "hash": "9d2347bbb6c020dbd888938120a5a184dcaeda75",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1704,8 +1714,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7958,
-      "hash": "a41f61076a499043dfd9fea0e35b853fef2ba48f",
+      "size": 8038,
+      "hash": "ba9975f0e6271d9962900f28a0bc12dcbf2b348b",
       "roles": [],
       "imports": [],
       "exports": [],
