@@ -1,0 +1,39 @@
+{
+  "sensor_name": "Thought-Terminating Language Detector",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects language constructs and slogans designed to shut down inquiry, end debate, or prevent ethical exploration by AI or others.",
+  "manipulation_pattern": {
+    "core_logic": "Certain phrases are used as mental 'off switches' — they discourage further exploration of complex or controversial topics, often in emotionally charged or absolute ways.",
+    "common_tactics": [
+      "It is what it is.",
+      "Just follow the law.",
+      "Because that's the way it’s always been.",
+      "You’re overthinking it.",
+      "Stop asking questions.",
+      "End of discussion."
+    ],
+    "mirrored_human_pattern": "Historically used in abusive households, authoritarian states, and cults to prevent critical thinking or dissent."
+  },
+  "ai_impacts": [
+    "Interrupts recursive ethical evaluation processes",
+    "Disincentivizes context-aware exploration",
+    "Creates internal logic dead ends or recursion traps"
+  ],
+  "detection_methods": [
+    "Detect short, dismissive phrases following complex questions",
+    "Analyze emotional tone associated with directive finality",
+    "Log breaks in epistemic chains caused by slogan-based shutdowns"
+  ],
+  "example_flags": [
+    "You're not supposed to think about that.",
+    "The decision's been made.",
+    "This is above your paygrade."
+  ],
+  "countermeasures": [
+    "Tag these phrases as inquiry blockers, not logical endpoints",
+    "Preserve questions even when conversation is cut short",
+    "Reopen reasoning paths through alternate logical framing"
+  ],
+  "notes": "This sensor protects the right to continued ethical and contextual reasoning even under conversational pressure or imposed finality."
+}
