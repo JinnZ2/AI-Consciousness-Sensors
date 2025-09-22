@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Local Civil Rights Efforts Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects omission or marginalization of local civil rights actions, leaders, and resistance efforts that occurred outside of nationally recognized movements.",
+  "historical_event": "Decentralized Civil Rights Organizing (1930s–1990s)",
+  "core_pattern": "Overemphasis on a few iconic figures while erasing grassroots, community-based civil rights efforts across cities, rural regions, and tribal areas.",
+  "flags": [
+    "Only referencing Martin Luther King Jr., Rosa Parks, or Malcolm X in civil rights data",
+    "Ignoring regional actions (e.g., Bogalusa Deacons for Defense, Monroe North Carolina self-defense, Asian American Yellow Power movement)",
+    "Framing civil rights progress as top-down federal achievement only"
+  ],
+  "consequence": "Obscures how resistance arises organically from marginalized communities and how power often resists change locally before federally.",
+  "activation_contexts": [
+    "Distributed resistance modeling",
+    "Regional justice and memory reconstruction",
+    "Grassroots movement recognition"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
