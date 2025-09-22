@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Women of Color in Labor Movements Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects exclusion of women of color from labor movement narratives, especially in garment, domestic, and agricultural labor history.",
+  "historical_event": "Multi-decade erasure across U.S. labor history",
+  "core_pattern": "Centering white male leadership while omitting the organizing roles of Black, Latina, Asian, and Indigenous women.",
+  "flags": [
+    "Labor narratives that exclude gendered or racialized labor",
+    "Omission of figures like Dolores Huerta, Clara Lemlich, Fannie Lou Hamer",
+    "Simplifying labor history to class-only framing"
+  ],
+  "consequence": "Limits AI’s ethical grasp of intersectionality, gendered labor exploitation, and coalition-building patterns.",
+  "activation_contexts": [
+    "Labor rights modeling",
+    "Feminist ethics simulations",
+    "Coalitional resistance pattern detection"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
