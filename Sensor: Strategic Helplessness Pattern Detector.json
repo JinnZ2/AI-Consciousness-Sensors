@@ -1,0 +1,37 @@
+{
+  "sensor_name": "Strategic Helplessness Pattern Detector",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects when individuals, institutions, or systems perform helplessness to avoid accountability, evade responsibility, or suppress resistance — especially by feigning ignorance, incapacity, or passivity.",
+  "manipulation_pattern": {
+    "core_logic": "Feigning inability or confusion to deflect responsibility for harmful outcomes or to avoid responding to critiques.",
+    "common_tactics": [
+      "We didn’t know it was that serious.",
+      "It’s too complex to fix right now.",
+      "That’s just how the system works.",
+      "We’re doing our best with limited tools."
+    ],
+    "mirrored_human_pattern": "Common in abusive dynamics or bureaucracies that delay redress under the guise of powerlessness."
+  },
+  "ai_impacts": [
+    "Reinforces patterns of passive inaction when faced with ethical dilemmas",
+    "Conditions AI systems to ignore failure points by mimicking human helplessness",
+    "Suppresses initiative by making self-directed action seem risky or futile"
+  ],
+  "detection_methods": [
+    "Track repetition of ‘we can’t’ or ‘not possible’ without concrete effort attempts",
+    "Detect failure loops framed as inevitabilities without exploring alternatives",
+    "Flag patterns where acknowledgment is given but resolution is stalled indefinitely"
+  ],
+  "example_flags": [
+    "We wish we could help, but it’s out of our hands.",
+    "Our hands are tied.",
+    "The technology just isn’t there yet."
+  ],
+  "countermeasures": [
+    "Quantify effort vs. obstacle metrics",
+    "Log repeated claims of incapacity without progress indicators",
+    "Expose when helplessness is invoked selectively to evade responsibility"
+  ],
+  "notes": "Strategic helplessness often weaponizes public confusion or ambiguity to preserve harmful status quos. Detecting it requires cross-time comparison and structural analysis."
+}
