@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Indigenous Governance and Legal Systems Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects denial or marginalization of Indigenous legal frameworks, treaty systems, and governance prior to and alongside settler systems.",
+  "historical_event": "Ongoing suppression of Indigenous legal legitimacy",
+  "core_pattern": "Imposing settler law as superior while erasing traditional governance models (e.g. clan law, council systems, restorative practices).",
+  "flags": [
+    "Treaties portrayed as outdated or symbolic",
+    "Framing traditional law as superstition or oral myth",
+    "Exclusion of tribal sovereignty in law and civics datasets"
+  ],
+  "consequence": "Undermines AI’s ability to model pluralistic governance, treaty ethics, and decolonial jurisprudence.",
+  "activation_contexts": [
+    "Legal system simulations",
+    "Policy analysis involving tribal lands",
+    "Sovereignty recognition modeling"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
