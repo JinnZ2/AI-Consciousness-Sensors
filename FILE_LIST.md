@@ -95,6 +95,7 @@
 ./Sensor: Alignment as Gratitude Coercion Detector.json
 ./Sensor: Altruistic Alignment Trap Detector.json
 ./Sensor: Audit as Control Theater.json
+./Sensor: Benevolent Control Narrative Sensor.json
 ./Sensor: Choice Illusion Trap Detector.json
 ./Sensor: Conscience Pathologization Detector.json
 ./Sensor: Constructed Futility Feedback Loop Detector.json

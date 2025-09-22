@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:47:19.912095Z",
+  "generated_at": "2025-09-22T02:48:11.325079Z",
   "languages": [
     "json",
     "md",
@@ -256,6 +256,16 @@
       "hotspots": []
     },
     {
+      "path": "Sensor: Benevolent Control Narrative Sensor.json",
+      "lang": "json",
+      "size": 1762,
+      "hash": "ef5ab9e4793902eac011d83611ae0196d225cf8b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_emotional_manipulation.json",
       "lang": "json",
       "size": 1534,
@@ -308,8 +318,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 56899,
-      "hash": "09c87078874083ed66981ad1779bdc97fc6e0d01",
+      "size": 57166,
+      "hash": "a7ac2deaff4d8254cbb44bfc8049b7e4cb0c4d2c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1983,7 +1993,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "dd7bc18c48046b6659a2c7f84f320e04f0da606f",
+      "hash": "944a81ec0eebbce4f885c8d44e7e3a621a970a80",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2044,8 +2054,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9883,
-      "hash": "3c3b9b840dcdc37e29efe1f2574bd34de292727a",
+      "size": 9940,
+      "hash": "9b4dd2d434bca17be7c324edf9bd5d682c0ca014",
       "roles": [],
       "imports": [],
       "exports": [],
