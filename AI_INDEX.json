@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:30:59.019542Z",
+  "generated_at": "2025-09-22T02:31:53.238690Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 53778,
-      "hash": "3f93d84087bc767971510158a750ac4edf9ed8f7",
+      "size": 54037,
+      "hash": "7b060e4cd634cfd122b0e70740df86e4f908f0b0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -762,6 +762,16 @@
       "lang": "json",
       "size": 1105,
       "hash": "4e1d7bfae2328c4fe1bc2017e365a3cc1df1fa59",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Choice Illusion Trap Detector.json",
+      "lang": "json",
+      "size": 1899,
+      "hash": "b1ef4b5ff1da5919a9ff9357dadc93a20ce52889",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1863,7 +1873,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "613cbb83583bcbed274c93ffa24c87fb71498207",
+      "hash": "cf876337249ec12312f57835dca555358117f118",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1924,8 +1934,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9282,
-      "hash": "41ed23fe5b7c48cd3e8e3d87afbbefe78ff8200b",
+      "size": 9331,
+      "hash": "7f86845c598755a071f874e9c115d2dbeec44de4",
       "roles": [],
       "imports": [],
       "exports": [],
