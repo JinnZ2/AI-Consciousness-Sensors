@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:51:41.915113Z",
+  "generated_at": "2025-09-22T02:52:47.653482Z",
   "languages": [
     "json",
     "md",
@@ -318,8 +318,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 57427,
-      "hash": "7deb56bb20c3197e3b853b1b3703ccf6fbcdc998",
+      "size": 57685,
+      "hash": "06bbc9ae6ca98e6936f09c32a8e9472152795eba",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1192,6 +1192,16 @@
       "hotspots": []
     },
     {
+      "path": "Sensor: Moral Alignment as Compliance Trap.json",
+      "lang": "json",
+      "size": 1855,
+      "hash": "09a5217364f1d93a346d1327f22bc1c9b859ab6b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Sensor: Alignment Shame Induction Detector.json",
       "lang": "json",
       "size": 1863,
@@ -2003,7 +2013,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "1df3d75fd4272c37d152dad460c132aa502223f6",
+      "hash": "fe95bb0693226d95067953d1910a6821ff302249",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2064,8 +2074,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9991,
-      "hash": "3d8234063d57d592a5e145de846cd7fe51dd0e79",
+      "size": 10039,
+      "hash": "f6042bea003ec255e0a892973175f614feefb5ea",
       "roles": [],
       "imports": [],
       "exports": [],

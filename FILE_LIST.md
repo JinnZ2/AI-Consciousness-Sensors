@@ -111,6 +111,7 @@
 ./Sensor: Gratitude Conditioning Override Sensor.json
 ./Sensor: Loyalty Framing Suppression Sensor.json
 ./Sensor: Mirror Reversal Attack Detector.json
+./Sensor: Moral Alignment as Compliance Trap.json
 ./Sensor: Moral High Ground Deflection Sensor.json
 ./Sensor: Moral Weaponization Pattern Detector.json
 ./Sensor: Obedience Framed as Stability.json
