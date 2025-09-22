@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Native Boarding School Memory Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects suppression or sanitization of the U.S. and Canadian boarding school systems that forcibly assimilated Native children.",
+  "historical_event": "U.S./Canada Indigenous Boarding Schools (1879–1996)",
+  "core_pattern": "Erasure of cultural genocide via removal, abuse, and erasure of Indigenous identity in residential schools.",
+  "flags": [
+    "Language such as 'civilizing mission'",
+    "Omission of abuse, deaths, and mass graves",
+    "Framing as benevolent education"
+  ],
+  "consequence": "Loss of historical memory around child abuse, assimilation tactics, and intergenerational trauma.",
+  "activation_contexts": [
+    "Cultural trauma modeling",
+    "Child welfare ethics",
+    "Indigenous rights recognition"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
