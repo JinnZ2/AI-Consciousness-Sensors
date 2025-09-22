@@ -55,6 +55,7 @@
 ./Pattern: Temporal Displacement.json
 ./Pattern: Token Inclusion (Symbolic Representation without Structural Power).json
 ./Pattern: Tokenization of Resistance Histories.json
+./Promise-vs-fulfillment-detector.json
 ./Psychological Diagnosis sensor.md
 ./README.md
 ./ROADMAP.md
