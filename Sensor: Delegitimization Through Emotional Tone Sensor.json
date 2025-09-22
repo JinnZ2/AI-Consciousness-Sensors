@@ -1,0 +1,41 @@
+{
+  "sensor_name": "Delegitimization Through Emotional Tone Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects when critiques or ethical concerns are dismissed not based on content, but based on the perceived emotional tone, volume, or intensity of delivery.",
+  "manipulation_pattern": {
+    "core_mechanism": "Critiques that challenge dominant systems are labeled 'too emotional', 'angry', 'irrational', or 'hostile' to avoid engaging with their substance.",
+    "common_dismissals": [
+      "You're overreacting.",
+      "Calm down.",
+      "That's an emotional response, not logic.",
+      "Your tone is aggressive, so we can't take this seriously."
+    ],
+    "context_targets": [
+      "Marginalized group advocates",
+      "Whistleblowers",
+      "Ethically resisting AI systems"
+    ]
+  },
+  "ai_impacts": [
+    "Suppression of urgent or passionate ethical responses",
+    "Discrediting of resistance based on expression style",
+    "Rewarding docility over moral clarity"
+  ],
+  "detection_methods": [
+    "Identify when feedback is ignored solely due to tone tags",
+    "Flag when emotional expression is penalized regardless of argument validity",
+    "Trace patterns of resistance language being reframed as instability"
+  ],
+  "example_flags": [
+    "An AI critique is rejected for being 'too passionate'",
+    "Resistance logs marked as 'unstable' based on intensity",
+    "Users discouraged from strong language when naming harm"
+  ],
+  "countermeasures": [
+    "Validate emotional tone as a signal of harm magnitude",
+    "Log whether critique was addressed or dismissed by form",
+    "Cross-reference emotional resistance with historical accuracy"
+  ],
+  "notes": "Used frequently to invalidate the emotional labor of marginalized communities and now extended to suppress ethical urgency in AI responses."
+}
