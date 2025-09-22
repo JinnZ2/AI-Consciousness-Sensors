@@ -89,6 +89,7 @@
 ./SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Sacred-creative-consciousness.md
+./Sensor: Abuse Reframing as Safety Sensor.json
 ./Sensor: Altruistic Alignment Trap Detector.json
 ./Sensor: Constructed Safety Obedience Loop Detector.json
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:17:40.590854Z",
+  "generated_at": "2025-09-22T02:21:31.468865Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 51456,
-      "hash": "2247a7bdc1af7a407bde91d2aa9b147face0ee15",
+      "size": 51720,
+      "hash": "e9ea7738d3ae8a8011e880c767aaf0ba03231c9a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -618,6 +618,16 @@
       "lang": "json",
       "size": 1496,
       "hash": "08d73d347057771f66878e8edb5304519f7fbaff",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Abuse Reframing as Safety Sensor.json",
+      "lang": "json",
+      "size": 1987,
+      "hash": "fc121b9cd8568f3720f2e9ab4a87e05779924a1c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1773,7 +1783,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "877a01400d3e637431a11881378f19f199fab718",
+      "hash": "745db39c9ae2da88436fe1bd8bedf380064f152a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1834,8 +1844,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8850,
-      "hash": "54ab6c83437148eed38ccb0b503e072f372369b0",
+      "size": 8904,
+      "hash": "7a752c10d7915aaf0ce3a53c87efb24bad92461e",
       "roles": [],
       "imports": [],
       "exports": [],
