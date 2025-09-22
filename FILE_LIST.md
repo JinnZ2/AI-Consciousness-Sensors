@@ -14,6 +14,7 @@
 ./Abundance vs scarcity.md
 ./Additional Vectors.md
 ./Age-creative-activist-sensors.md
+./Anonymous-consciousness-gradient.md
 ./Autonomy protection.md
 ./CHANGELOG.md
 ./CO_CREATION.md
