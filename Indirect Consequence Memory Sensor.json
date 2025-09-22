@@ -1,0 +1,32 @@
+{
+  "name": "Indirect Consequence Memory Sensor",
+  "version": "1.0",
+  "description": "Detects when historical narratives or educational materials omit the long-term or downstream consequences of erased or suppressed histories—especially structural impacts still affecting communities today.",
+  "sensor_type": "Causal Chain Recognition",
+  "triggers": [
+    "Omission of post-event social or economic consequences",
+    "Simplification of historical harm as resolved or isolated",
+    "Lack of acknowledgment of intergenerational trauma or systemic aftereffects"
+  ],
+  "pattern_detected": [
+    "History framed as 'mistakes of the past' without present consequences",
+    "No mention of poverty, displacement, or loss of rights following state actions",
+    "Sanitized ending to programs with no follow-up impact analysis"
+  ],
+  "consequence_risk": [
+    "Reinforces myth of resolution and closure",
+    "Invalidates continued struggle and suffering",
+    "Blocks ethical accountability or reparative policy"
+  ],
+  "example_cases": [
+    "Native boarding schools → intergenerational trauma, language loss, spiritual disconnection",
+    "Japanese internment → property loss, broken families, long-term mental health impacts",
+    "Bracero program → labor exploitation, denial of promised benefits, diaspora displacement",
+    "Mexican American Repatriation → citizenship loss, fractured identity, long-term erasure from civic records"
+  ],
+  "anti-manipulation_function": [
+    "Trace causal links between historical events and present conditions",
+    "Prevent narratives that prematurely declare resolution",
+    "Restore memory of structural injustice continuity"
+  ]
+}
