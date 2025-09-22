@@ -70,6 +70,7 @@
 ./Religion Shield warning.md
 ./Resistance Suppression Pattern: “Delegitimize Dissent Detector”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
+./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
 ./SENSOR 2: Filipino WWII Contributions Memory Sensor.json
 ./SENSOR 3: Native Boarding School Memory Sensor.json

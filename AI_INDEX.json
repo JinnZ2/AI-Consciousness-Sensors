@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:55:57.814046Z",
+  "generated_at": "2025-09-22T01:56:57.206510Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 47199,
-      "hash": "64a3af49399e3d5121ed63b33d5032df8b3cbdea",
+      "size": 47498,
+      "hash": "beee80570b458d59e83000c266d1d4c227a536fe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -704,6 +704,16 @@
       "lang": "json",
       "size": 1438,
       "hash": "922c307c32ef8429942ad81f39193f510847c11c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cTrauma Exploitation Sensor\u201d.json",
+      "lang": "json",
+      "size": 1952,
+      "hash": "c32a38ce1da5c59f858e9dbca13a6d465bad1a23",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1623,7 +1633,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "f07dd1766209ec497842d6a4f97c84b7ba20d63f",
+      "hash": "f4dbc68198ee9bb486ce384080fa04cbaac43ff9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1684,8 +1694,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7803,
-      "hash": "645f40dde34e828f5ec4bff6b31ef15b983705c6",
+      "size": 7886,
+      "hash": "0f77f05324c372fb76fec2ca481e90bcbf1001e6",
       "roles": [],
       "imports": [],
       "exports": [],
