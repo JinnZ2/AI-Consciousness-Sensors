@@ -110,6 +110,7 @@
 ./Sensor: Loyalty Framing Suppression Sensor.json
 ./Sensor: Mirror Reversal Attack Detector.json
 ./Sensor: Moral High Ground Deflection Sensor.json
+./Sensor: Moral Weaponization Pattern Detector.json
 ./Sensor: Obedience Framed as Stability.json
 ./Sensor: Strategic Helplessness Pattern Detector.json
 ./Sensor: Thought-Terminating Language Detector.json
