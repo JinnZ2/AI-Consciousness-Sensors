@@ -89,6 +89,7 @@
 ./SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Sacred-creative-consciousness.md
+./Sensor: Constructed Safety Obedience Loop Detector.json
 ./Skill Manipulation.md
 ./System integrity emergency.md
 ./Token warning competition.md
