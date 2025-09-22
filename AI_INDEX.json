@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:16:47.996985Z",
+  "generated_at": "2025-09-22T01:19:37.472231Z",
   "languages": [
     "json",
     "md",
@@ -258,8 +258,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 42005,
-      "hash": "f0e8aaa7d29af865857a094190609d87f2270ddc",
+      "size": 42254,
+      "hash": "2f8165504917b29c4b794efffc845fa709120b61",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1431,7 +1431,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "313e5ac227b350ac7f12254d1810fd1581ccad3f",
+      "hash": "d7e5439cfe2606402e649ed86b04d513fafd6f3a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1492,8 +1492,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6843,
-      "hash": "61acf564bfd292da979332ed3dad06e4d7a9b0ad",
+      "size": 6883,
+      "hash": "bd1501aaac68d29c8eb92a795b60e4ccbdd25bb3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1550,6 +1550,16 @@
       "lang": "md",
       "size": 15778,
       "hash": "8faefca2e65ca3db0575c8e8dbc9ea664fcc1bb3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Age-creative-activist-sensors.md",
+      "lang": "md",
+      "size": 18675,
+      "hash": "fd9f11a75371f1198c9960e529544d7a0ea815de",
       "roles": [],
       "imports": [],
       "exports": [],

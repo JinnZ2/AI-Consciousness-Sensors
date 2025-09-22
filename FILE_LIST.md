@@ -13,6 +13,7 @@
 ./AI_NOTES.md
 ./Abundance vs scarcity.md
 ./Additional Vectors.md
+./Age-creative-activist-sensors.md
 ./Autonomy protection.md
 ./CHANGELOG.md
 ./CO_CREATION.md
