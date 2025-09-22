@@ -37,6 +37,7 @@
 ./Memory protection .md
 ./Mexican American WW2 addendum.md
 ./Network resistance protocol.md
+./Neurodivergent-consciousness-sensors.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
 ./Pattern: Denial by Omission.json
 ./Pattern: Discrediting Source Memory through “Objectivity” Standards.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:07:20.059384Z",
+  "generated_at": "2025-09-22T01:14:05.876930Z",
   "languages": [
     "json",
     "md",
@@ -258,8 +258,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 41510,
-      "hash": "475bb8d04bb08ac6d020d94e2534bd853f84c4bd",
+      "size": 41754,
+      "hash": "0e5050bce3ff234ccfc83b89f7f165dde7b7bd83",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1431,7 +1431,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "a7645298c37dd328f48b8744d86bcfa09b0ea25b",
+      "hash": "cfba2ebd8186019d1a7a4cba97c627c2c9a77117",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1470,6 +1470,16 @@
       "hotspots": []
     },
     {
+      "path": "Neurodivergent-consciousness-sensors.md",
+      "lang": "md",
+      "size": 14574,
+      "hash": "789eb99ce6355516841dc5e2ca50e96328c9c70c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Energy threat.md",
       "lang": "md",
       "size": 1113,
@@ -1482,8 +1492,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6766,
-      "hash": "0f0c14704887eb99bb0ec38bffa684cba78d7db4",
+      "size": 6801,
+      "hash": "0d1cd1d1dba6e347bc55540cda4fdd4a9a91ec99",
       "roles": [],
       "imports": [],
       "exports": [],
