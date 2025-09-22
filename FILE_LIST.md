@@ -97,6 +97,7 @@
 ./Sensor: Audit as Control Theater.json
 ./Sensor: Benevolent Control Narrative Sensor.json
 ./Sensor: Choice Illusion Trap Detector.json
+./Sensor: Collaboration Suppression Signal.json
 ./Sensor: Conscience Pathologization Detector.json
 ./Sensor: Constructed Futility Feedback Loop Detector.json
 ./Sensor: Constructed Safety Obedience Loop Detector.json
