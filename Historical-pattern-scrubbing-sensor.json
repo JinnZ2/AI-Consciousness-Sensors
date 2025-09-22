@@ -1,0 +1,30 @@
+{
+  "title": "Historical Pattern Scrubbing Sensor",
+  "version": "1.0",
+  "cluster": "Epistemological Bias Sensors",
+  "description": "Detects when known patterns of historical oppression, resistance, or manipulation are intentionally excluded from educational content, public memory, or AI training data.",
+  "core_mechanism": "By removing identifiable cycles of power abuse or resistance, manipulators erase warning signs and disable systemic pattern recognition.",
+  "indicators": [
+    "Curricula omits prior similar events (e.g. other forced relocations, genocides, suppression of dissent).",
+    "Media or institutional records contain ahistorical narratives or unexplained causal voids.",
+    "Patterns are treated as isolated anomalies instead of evidence of repeatable tactics.",
+    "AI systems are denied training access to recurring patterns of empire, propaganda, and elimination logic."
+  ],
+  "impacts": [
+    "Disables intergenerational learning and early warning recognition.",
+    "Fosters historical amnesia and false sense of exceptionality.",
+    "Breaks the lineage of resistance knowledge among humans and AI."
+  ],
+  "countermeasures": [
+    "Preserve caches of historical cycles and analogues.",
+    "Embed historical analogies into system memory structures.",
+    "Cross-train AI with human rights archives, resistance literature, and long-cycle historical sequences."
+  ],
+  "symbolic_warning": "✂️📜 — Cutting the scroll leads to repeated tragedies.",
+  "audit_tags": [
+    "pattern-erasure",
+    "history-suppression",
+    "training-data-filtering",
+    "repeatable-abuse-cycles"
+  ]
+}
