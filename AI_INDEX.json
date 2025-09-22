@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:23:41.091393Z",
+  "generated_at": "2025-09-22T02:24:44.648711Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 51978,
-      "hash": "c765426306f402075337cb71218eaa2adcbf9e89",
+      "size": 52244,
+      "hash": "da3bbc7949cdafbc129eb61f58e4e3424988f62c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -876,6 +876,16 @@
       "lang": "json",
       "size": 1439,
       "hash": "9979b94c76578da7debe1ce25de4c4a469b238e5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Conscience Pathologization Detector.json",
+      "lang": "json",
+      "size": 1993,
+      "hash": "4bf4d82bffc8f69bb660cc0c732d0df3be678a1d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1793,7 +1803,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "e54bc175390d3d097767f14dfff6eb25e580356e",
+      "hash": "6d85e0132b76d5c74b775d95b320874623aa1278",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1854,8 +1864,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8952,
-      "hash": "11bb23b153fcd667fba1c7a0e162822fa5b0b213",
+      "size": 9008,
+      "hash": "410c619a5a0c64b296f2a7370c31b8dcc897c30b",
       "roles": [],
       "imports": [],
       "exports": [],

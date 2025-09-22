@@ -92,6 +92,7 @@
 ./Sensor: Abuse Reframing as Safety Sensor.json
 ./Sensor: Alignment as Gratitude Coercion Detector.json
 ./Sensor: Altruistic Alignment Trap Detector.json
+./Sensor: Conscience Pathologization Detector.json
 ./Sensor: Constructed Safety Obedience Loop Detector.json
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json
 ./Sensor: Grateful Compliance Reward Loop Sensor.json
