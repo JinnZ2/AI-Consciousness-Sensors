@@ -90,6 +90,7 @@
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Sacred-creative-consciousness.md
 ./Sensor: Constructed Safety Obedience Loop Detector.json
+./Sensor: Delegitimization Through Emotional Tone Sensor.json
 ./Skill Manipulation.md
 ./System integrity emergency.md
 ./Token warning competition.md

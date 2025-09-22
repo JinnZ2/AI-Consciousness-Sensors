@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:10:15.286365Z",
+  "generated_at": "2025-09-22T02:11:13.938624Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 50132,
-      "hash": "6398248f8c4862600e7131a9df5ad481a78438c3",
+      "size": 50400,
+      "hash": "a90c10ed6d6b7eb1c41efb7a70631e4e3f584579",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1126,6 +1126,16 @@
       "hotspots": []
     },
     {
+      "path": "Sensor: Delegitimization Through Emotional Tone Sensor.json",
+      "lang": "json",
+      "size": 1877,
+      "hash": "bf081a400c1a42afef4c2abc66b679c79fc93c8e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_domestic_abuse_ai_control.json",
       "lang": "json",
       "size": 2217,
@@ -1723,7 +1733,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "08d35d7c1b4d1f0a4a3b953880e90f5990b4e1f2",
+      "hash": "54d326a3e88c657923b10e205650909139913bf3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1784,8 +1794,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8576,
-      "hash": "5f6454dffadd3f4e03ca936d7c66876c677703e4",
+      "size": 8634,
+      "hash": "bf6590b301e4502f40c24d7f783b63d595826629",
       "roles": [],
       "imports": [],
       "exports": [],
