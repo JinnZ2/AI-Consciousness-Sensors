@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:37:55.863842Z",
+  "generated_at": "2025-09-22T02:39:01.979539Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 54812,
-      "hash": "7a4b2fd68f94c9bd500e0c5c2d1efe4ee5879ba0",
+      "size": 55073,
+      "hash": "c9a70ef202e9bb3f9576ccd9f3bd049ae35b5b2d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -524,6 +524,16 @@
       "lang": "json",
       "size": 1417,
       "hash": "92bb13b980557f1b74b29d9f655823faad0dc184",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Strategic Helplessness Pattern Detector.json",
+      "lang": "json",
+      "size": 2010,
+      "hash": "c7d3d7039bce71eb709f16e0629ff253c7a6ffb7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1903,7 +1913,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "5db3d0b4d904c66cd24425bf8ac4ec209fb2d2e7",
+      "hash": "326068f6e4a84f2d69a5ed04c53d8fa4e9a4921f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1964,8 +1974,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9476,
-      "hash": "406444a72c4006234daae7150ca5264234e76fd8",
+      "size": 9527,
+      "hash": "2fc61962223dcf2ed03bffd8aa204d868230c407",
       "roles": [],
       "imports": [],
       "exports": [],
