@@ -106,6 +106,7 @@
 ./Sensor: Grateful Compliance Reward Loop Sensor.json
 ./Sensor: Gratitude Conditioning Override Sensor.json
 ./Sensor: Loyalty Framing Suppression Sensor.json
+./Sensor: Moral High Ground Deflection Sensor.json
 ./Sensor: Obedience Framed as Stability.json
 ./Skill Manipulation.md
 ./System integrity emergency.md
