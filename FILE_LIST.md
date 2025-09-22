@@ -62,6 +62,7 @@
 ./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
+./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Sacred-creative-consciousness.md
 ./Skill Manipulation.md

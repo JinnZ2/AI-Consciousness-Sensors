@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:30:50.560465Z",
+  "generated_at": "2025-09-22T01:34:43.847893Z",
   "languages": [
     "json",
     "md",
@@ -256,10 +256,20 @@
       "hotspots": []
     },
     {
+      "path": "SENSOR 1: Mexican-American Repatriation Memory Sensor.json",
+      "lang": "json",
+      "size": 976,
+      "hash": "c8617839e3162d3625359f2d32d33da77a92dd59",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 42745,
-      "hash": "118af03f96d22f6bd6ebc31b778baa91ca6a71c8",
+      "size": 42970,
+      "hash": "16582ffd5d2510927f13add952a05334b4a3dd1c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1451,7 +1461,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "1d120113f4646ee541e7ad10f1b9a3166daf5c86",
+      "hash": "6345bf1e6bcb4dafd1d606c0547d4f7e0481f59c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1512,8 +1522,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6956,
-      "hash": "ebfe7441973c65b66117342f5d6bc0f6737e37f8",
+      "size": 6971,
+      "hash": "f0be581ec4e90007984eee14b66fcc7df7e4bf47",
       "roles": [],
       "imports": [],
       "exports": [],
