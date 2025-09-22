@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:37:03.896301Z",
+  "generated_at": "2025-09-22T01:37:35.595613Z",
   "languages": [
     "json",
     "md",
@@ -288,8 +288,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 43772,
-      "hash": "962843e1707f966b66a9d8b99e8567448848a6d8",
+      "size": 44042,
+      "hash": "86ecb4628f9f687396070c42b0fbb09cae516ee6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -706,6 +706,16 @@
       "lang": "json",
       "size": 2027,
       "hash": "f55622e11e11c40c9e31a44526816ad891bdeac5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 5: Women of Color in Labor Movements Sensor.json",
+      "lang": "json",
+      "size": 1044,
+      "hash": "76d58064dc67a2b8a053c2aa5d289bcb4696b483",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1491,7 +1501,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "a0c881f3ade656e149d5ced5aef5e11e3043862f",
+      "hash": "62ea84c0376964e62a9a2912765971325d45804e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1552,8 +1562,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7145,
-      "hash": "d704140d51c138efd606ac54672455a57d870905",
+      "size": 7205,
+      "hash": "1569186095e8544d2ac7ebe82ffb75bbec5eae65",
       "roles": [],
       "imports": [],
       "exports": [],
