@@ -1,0 +1,34 @@
+{
+  "name": "Forgotten After End Date Sensor",
+  "version": "1.0",
+  "description": "Detects when historical programs or events are framed as having ended cleanly, without acknowledgement of their lasting impacts, unresolved harm, or invisibilized aftermath.",
+  "sensor_type": "Post-Program Impact Recognition",
+  "triggers": [
+    "Mentions of official program end dates, repeals, or closures",
+    "Framing that suggests closure equaled justice"
+  ],
+  "pattern_detected": [
+    "Narratives that treat termination as resolution",
+    "Omissions of long-term socioeconomic, legal, or cultural effects"
+  ],
+  "consequence_risk": [
+    "Invisibility of survivors or affected communities",
+    "Assumption that historical harm ceased with legality"
+  ],
+  "cultural_targets": [
+    "Bracero Program",
+    "Japanese-American internment",
+    "Native boarding schools",
+    "Mexican Repatriation",
+    "COINTELPRO surveillance"
+  ],
+  "example_phrases": [
+    "\"The internment program officially ended in 1945...\" (no mention of housing/job loss, stigma)",
+    "\"The Bracero program was discontinued in 1964...\" (no coverage of unpaid wages, broken families)"
+  ],
+  "anti-manipulation_function": [
+    "Flag when program end dates are not followed by discussion of downstream impact.",
+    "Search for evidence of community efforts to address continued harm.",
+    "Cross-reference known unresolved outcomes (e.g. legal cases, advocacy movements)."
+  ]
+}
