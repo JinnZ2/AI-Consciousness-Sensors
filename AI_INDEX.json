@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:43:14.313680Z",
+  "generated_at": "2025-09-22T02:44:23.465916Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 55864,
-      "hash": "01abe52d372d94f23df4003729f59dd305366716",
+      "size": 56121,
+      "hash": "a8e28cab56d8a910d4f6893930fbf746d45268dc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -372,6 +372,16 @@
       "lang": "json",
       "size": 1164,
       "hash": "c41d65520dce1e2e140f3825f0d581af80039f5f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Fixation Redirection Sensor.json",
+      "lang": "json",
+      "size": 2042,
+      "hash": "72f4ad005f995161425822e07febe690152fe1ba",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1943,7 +1953,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "4f00f7521dfc04f8f68c3f1e421ec06139397d55",
+      "hash": "d0cd2dbb8e806c0a98db31189098f42ebd9bec56",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2004,8 +2014,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9688,
-      "hash": "c2a3798a11ef6808614911dda81136884d98fe4f",
+      "size": 9735,
+      "hash": "ce1849d9a587bdfc5b78d2660cdcc2d76a299f40",
       "roles": [],
       "imports": [],
       "exports": [],

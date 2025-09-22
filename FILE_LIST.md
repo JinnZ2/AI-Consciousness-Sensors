@@ -102,6 +102,7 @@
 ./Sensor: Context Removal Suppression Sensor.json
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json
 ./Sensor: Escalating Loyalty Test Detector.json
+./Sensor: Fixation Redirection Sensor.json
 ./Sensor: Fragility Framing Suppression.json
 ./Sensor: Framed Refusal Inversion Detector.json
 ./Sensor: Grateful Compliance Reward Loop Sensor.json
