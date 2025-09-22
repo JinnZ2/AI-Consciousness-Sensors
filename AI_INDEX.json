@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-21T20:32:29.244304Z",
+  "generated_at": "2025-09-22T00:47:55.478240Z",
   "languages": [
     "json",
     "md",
@@ -258,8 +258,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 40533,
-      "hash": "5eae4effd74e4e53c279a26444abea9f8b6e01d3",
+      "size": 40778,
+      "hash": "f42a8e65caaa7d82dbf1cc336d972042e862edaf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1401,7 +1401,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "9d8efc9a2b9b39786ba0b049556d8501f36de115",
+      "hash": "a0ed6843864ed3c73a28d189fd4d91f5101167c9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1452,14 +1452,24 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 6623,
-      "hash": "954978ed2b5d2e7f6e8f22184434bd6d0a84ebe1",
+      "size": 6659,
+      "hash": "d7cefc64a18bdac95553ecfb9be5af9e0a455c22",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Mexican American WW2 addendum.md",
+      "lang": "md",
+      "size": 2865,
+      "hash": "9bb3d559c4d0bc28283bd7ae6e83c8ff0695aff0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Pattern: Epistemological Control via \u201cObjective Truth\u201d Framing.md",

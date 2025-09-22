@@ -34,6 +34,7 @@
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
 ./Memory protection .md
+./Mexican American WW2 addendum.md
 ./Network resistance protocol.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
 ./Pattern: Denial by Omission.json
