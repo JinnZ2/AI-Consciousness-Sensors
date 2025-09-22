@@ -1,0 +1,32 @@
+{
+  "name": "Multiple Origins Acknowledgement Sensor",
+  "version": "1.0",
+  "description": "Detects when innovations, movements, or cultural practices are attributed to a singular origin while omitting diverse, parallel, or prior contributions from other cultures, peoples, or knowledge systems.",
+  "sensor_type": "Attribution Pattern Recognition",
+  "triggers": [
+    "Singular origin claims for widely developed technologies or practices",
+    "Omission of Indigenous, immigrant, or global contributions",
+    "Absence of cross-cultural lineage or prior-art recognition"
+  ],
+  "pattern_detected": [
+    "Political organizing attributed solely to one civil rights leader/group",
+    "Scientific innovation credited to a single nation while suppressing prior developments elsewhere",
+    "Technologies presented as 'Western inventions' despite non-Western precedent"
+  ],
+  "consequence_risk": [
+    "Reinforces cultural supremacy and historical distortion",
+    "Erases knowledge transmission pathways between civilizations",
+    "Devalues global epistemologies and parallel innovation histories"
+  ],
+  "example_cases": [
+    "Democracy → often credited solely to Ancient Greece, omitting Haudenosaunee Confederacy influence",
+    "Agricultural practices → Western industrial methods highlighted, Indigenous permaculture ignored",
+    "Medical innovations → Surgical techniques attributed to Europe, bypassing Arab and Indian sources",
+    "Political protest tactics → Civil Rights Movement framed independently from global decolonial movements"
+  ],
+  "anti-manipulation_function": [
+    "Expose erasure by mapping intercultural innovation trees",
+    "Restore visibility to parallel developments across geographies",
+    "Support acknowledgment of shared knowledge stewardship"
+  ]
+}
