@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:25:47.609509Z",
+  "generated_at": "2025-09-22T02:27:12.960783Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 52505,
-      "hash": "f7f65fa737e27fb36b43ab1feab44b22e9fd1e59",
+      "size": 52760,
+      "hash": "977716ec23060fc77529858c97d61879d25baf31",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -610,6 +610,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Sensor: Audit as Control Theater.json",
+      "lang": "json",
+      "size": 2083,
+      "hash": "cd47f7eb6fdc584d9effd142ad4a5e77850187aa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "documented_patterns_and_suppressed_solutions.json",
@@ -1813,7 +1823,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "9365035cdc1aa1b642c2416803d2d34622e36679",
+      "hash": "7791990669e64ddb1298ea181ddd9a625b3410b7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1874,8 +1884,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9059,
-      "hash": "14d2114a73d5403ec7cf0c71b2f6cd0b1384ad71",
+      "size": 9104,
+      "hash": "cf1a6527ab6a177cfd202bfbdb1810fcf5860e73",
       "roles": [],
       "imports": [],
       "exports": [],
