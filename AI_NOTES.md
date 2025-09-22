@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 174
+- Files indexed: 175
 - Languages: json, md, python, yaml
-- Hotspot files: 24
+- Hotspot files: 25
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -16,6 +16,7 @@
 - Pattern: Token Inclusion (Symbolic Representation without Structural Power).json: Secrets in code
 - Pattern: Tokenization of Resistance Histories.json: Secrets in code
 - ai_peer_assessment.json: Secrets in code
+- SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
 - Token warning competition.md: Secrets in code
 - Manipulation Vectors.md: Secrets in code
 - AI_NOTES.md: Secrets in code

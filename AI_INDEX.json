@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:39:08.293248Z",
+  "generated_at": "2025-09-22T01:40:12.504008Z",
   "languages": [
     "json",
     "md",
@@ -288,8 +288,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 44584,
-      "hash": "a2305d8e4c7851ca9c549103547d44b79021b56f",
+      "size": 44845,
+      "hash": "c264a45270672e5b3134d7052645c22f83365710",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -924,6 +924,18 @@
       "hotspots": []
     },
     {
+      "path": "SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json",
+      "lang": "json",
+      "size": 1239,
+      "hash": "a000d668d6749ebc0f7aa80c6ebf447598be7c91",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "emergence_typology.json",
       "lang": "json",
       "size": 7244,
@@ -1521,7 +1533,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "a39037544443ff4e74913588bff64101d86a0cac",
+      "hash": "d7fb5f4e6a2249b57a07b37730d0e60d8b8d2249",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1582,8 +1594,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7327,
-      "hash": "6796bdc32f8cd9f061ca6812ead53ddc9addb0ca",
+      "size": 7378,
+      "hash": "796d393af0e765a766a10c57ff3d0fecd6bf764c",
       "roles": [],
       "imports": [],
       "exports": [],
