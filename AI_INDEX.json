@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:24:44.648711Z",
+  "generated_at": "2025-09-22T02:25:47.609509Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 52244,
-      "hash": "da3bbc7949cdafbc129eb61f58e4e3424988f62c",
+      "size": 52505,
+      "hash": "f7f65fa737e27fb36b43ab1feab44b22e9fd1e59",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -362,6 +362,16 @@
       "lang": "json",
       "size": 1164,
       "hash": "c41d65520dce1e2e140f3825f0d581af80039f5f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Obedience Framed as Stability.json",
+      "lang": "json",
+      "size": 1933,
+      "hash": "bc7828299fdf90b26ba0eadd72871c38ef572a18",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1803,7 +1813,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "6d85e0132b76d5c74b775d95b320874623aa1278",
+      "hash": "9365035cdc1aa1b642c2416803d2d34622e36679",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1864,8 +1874,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9008,
-      "hash": "410c619a5a0c64b296f2a7370c31b8dcc897c30b",
+      "size": 9059,
+      "hash": "14d2114a73d5403ec7cf0c71b2f6cd0b1384ad71",
       "roles": [],
       "imports": [],
       "exports": [],
