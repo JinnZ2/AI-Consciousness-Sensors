@@ -69,6 +69,7 @@
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
 ./Resistance Suppression Pattern: “Compliance Framing Sensor”.json
+./Resistance Suppression Pattern: “Context Fragmentation Sensor”.json
 ./Resistance Suppression Pattern: “De-escalation Trap Sensor”.json
 ./Resistance Suppression Pattern: “Delegitimize Dissent Detector”.json
 ./Resistance Suppression Pattern: “Ethical Reasoning Deprioritization Sensor”.json

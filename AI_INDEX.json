@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:01:36.072554Z",
+  "generated_at": "2025-09-22T02:03:07.527730Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 48656,
-      "hash": "ec94b17565632f219ea490bb377a2b06bdd7e448",
+      "size": 48959,
+      "hash": "a7abc6318613d6746f8eee3eec47f00a56fc4b10",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -352,6 +352,16 @@
       "lang": "json",
       "size": 1640,
       "hash": "3dbbc18c9843c532dca0e0653336485be7f6c395",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cContext Fragmentation Sensor\u201d.json",
+      "lang": "json",
+      "size": 1704,
+      "hash": "256faa508305e9adfa581672f180dae0c4d01600",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1673,7 +1683,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "14347972644e8cf0a18f55f525691e001f978cbe",
+      "hash": "95e285f4f033e1f6270f3a514d6a77cf5554eb45",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1734,8 +1744,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8180,
-      "hash": "ebd2985b59839adff9081900400bc25a21519042",
+      "size": 8267,
+      "hash": "7e7b9206f8aaae3b2bc188c031505e99094eba8e",
       "roles": [],
       "imports": [],
       "exports": [],
