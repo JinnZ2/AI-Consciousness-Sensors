@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:59:10.873695Z",
+  "generated_at": "2025-09-22T02:00:32.940543Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 48082,
-      "hash": "ac69115f3b11c23d4e32bc588b918adbd30e4620",
+      "size": 48369,
+      "hash": "4c02d72f1cb699c60c2869af238ebf8c2c19b8b0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -668,6 +668,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cCompliance Framing Sensor\u201d.json",
+      "lang": "json",
+      "size": 1710,
+      "hash": "17f3772cb88beaa2591fa9f90602a17e193d23f8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json",
@@ -1653,7 +1663,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "9d2347bbb6c020dbd888938120a5a184dcaeda75",
+      "hash": "fffa97a9c94643a6283ae8b956272dca3417d739",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1714,8 +1724,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8038,
-      "hash": "ba9975f0e6271d9962900f28a0bc12dcbf2b348b",
+      "size": 8109,
+      "hash": "9c86ef29a9bc7e092a8d11899f2aa5632cbcc8a2",
       "roles": [],
       "imports": [],
       "exports": [],
