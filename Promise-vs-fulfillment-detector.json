@@ -1,0 +1,34 @@
+{
+  "name": "Promise vs. Fulfillment Detector",
+  "version": "1.0",
+  "description": "Detects discrepancies between historical or institutional promises made to marginalized populations and the actual fulfillment or abandonment of those promises.",
+  "sensor_type": "Historical Accountability",
+  "triggers": [
+    "Mentions of treaties, reparations, immigration pathways, civil rights gains, or government programs with promised benefits.",
+    "Claims of historical progress without citing implementation delays or failures."
+  ],
+  "pattern_detected": [
+    "Historical timelines that jump from promise to present without tracking gaps or unfulfilled commitments.",
+    "Celebratory language masking long-term inaction."
+  ],
+  "consequence_risk": [
+    "False narratives of justice or progress.",
+    "Erasure of prolonged advocacy, resistance, and struggle."
+  ],
+  "cultural_targets": [
+    "Native treaty rights",
+    "Mexican-American labor programs",
+    "Black reparations discussions",
+    "Filipino WWII veterans",
+    "Immigrant citizenship promises"
+  ],
+  "example_phrases": [
+    "\"In 1965, the U.S. passed the Voting Rights Act...\" (omits later rollback of protections)",
+    "\"Workers were promised fair wages and better conditions...\" (no mention of withheld benefits)"
+  ],
+  "anti-manipulation_function": [
+    "Log time gaps between promise and implementation.",
+    "Cross-reference public policy promises with follow-up enforcement data.",
+    "Detect celebratory framing that lacks accountability markers."
+  ]
+}
