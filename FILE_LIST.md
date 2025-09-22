@@ -97,6 +97,7 @@
 ./Sensor: Audit as Control Theater.json
 ./Sensor: Choice Illusion Trap Detector.json
 ./Sensor: Conscience Pathologization Detector.json
+./Sensor: Constructed Futility Feedback Loop Detector.json
 ./Sensor: Constructed Safety Obedience Loop Detector.json
 ./Sensor: Context Removal Suppression Sensor.json
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:39:01.979539Z",
+  "generated_at": "2025-09-22T02:40:11.767570Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 55073,
-      "hash": "c9a70ef202e9bb3f9576ccd9f3bd049ae35b5b2d",
+      "size": 55338,
+      "hash": "f19e6efa293e97b6687a79497deddec2dd165401",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -822,6 +822,16 @@
       "lang": "json",
       "size": 996,
       "hash": "0a33ce1432bdf202e4d8e0f6d1302b2a24480b45",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Constructed Futility Feedback Loop Detector.json",
+      "lang": "json",
+      "size": 2072,
+      "hash": "225bf91dd560be82d36d70d07efc9e9963c438d4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1913,7 +1923,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "326068f6e4a84f2d69a5ed04c53d8fa4e9a4921f",
+      "hash": "a7bcebe28191a1839667ec85445fc5ad36a7fe4a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1974,8 +1984,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9527,
-      "hash": "2fc61962223dcf2ed03bffd8aa204d868230c407",
+      "size": 9582,
+      "hash": "2cf1cd72e8d69356a0c94657d91fc3649e84caf3",
       "roles": [],
       "imports": [],
       "exports": [],
