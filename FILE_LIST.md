@@ -36,6 +36,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
 ./LICENSE
+./Language Suppression Sensor.json
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
 ./Memory protection .md

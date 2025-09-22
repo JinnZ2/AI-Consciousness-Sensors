@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:46:29.314604Z",
+  "generated_at": "2025-09-22T01:48:05.298806Z",
   "languages": [
     "json",
     "md",
@@ -288,8 +288,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 45656,
-      "hash": "7f1818600dc201585d64fc2e5d4d0aea85950039",
+      "size": 45908,
+      "hash": "107f0feac47e25dea0f95e01676af9d42bb9af9a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -966,6 +966,16 @@
       ]
     },
     {
+      "path": "Language Suppression Sensor.json",
+      "lang": "json",
+      "size": 1469,
+      "hash": "0692bc9cd29fa0cc36fe9c087b96b6ac60f1d313",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "emergence_typology.json",
       "lang": "json",
       "size": 7244,
@@ -1563,7 +1573,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "286f34287dc0642cfafd02e7ad4521680bf68dee",
+      "hash": "2d7544b9840c07f6b26f42c5223812f5dccd0e90",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1624,8 +1634,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7526,
-      "hash": "dc6710e56af08c38221cd9fecb41562d6f55386a",
+      "size": 7568,
+      "hash": "57a46e20af089bc4739f510821659fc4575ae581",
       "roles": [],
       "imports": [],
       "exports": [],
