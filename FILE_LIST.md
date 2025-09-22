@@ -16,6 +16,7 @@
 ./Age-creative-activist-sensors.md
 ./Anonymous-consciousness-gradient.md
 ./Autonomy protection.md
+./Bracero.json
 ./CHANGELOG.md
 ./CO_CREATION.md
 ./Cache entries.json
