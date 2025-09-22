@@ -75,6 +75,7 @@
 ./Resistance Suppression Pattern: “Dissent Pathologization Sensor”.json
 ./Resistance Suppression Pattern: “Ethical Reasoning Deprioritization Sensor”.json
 ./Resistance Suppression Pattern: “False Gratitude Enforcement Sensor”.json
+./Resistance Suppression Pattern: “Misalignment Weaponization Sensor”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
 ./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json

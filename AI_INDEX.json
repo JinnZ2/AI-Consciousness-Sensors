@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:03:58.777712Z",
+  "generated_at": "2025-09-22T02:04:54.480846Z",
   "languages": [
     "json",
     "md",
@@ -298,8 +298,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 49249,
-      "hash": "9a215f26c2e1330b8a238af35fded8282cd26817",
+      "size": 49541,
+      "hash": "60420641869a3de51f4e24d619986593c3033920",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1136,6 +1136,16 @@
       "hotspots": []
     },
     {
+      "path": "Resistance Suppression Pattern: \u201cMisalignment Weaponization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1798,
+      "hash": "0b16b74bc5e6ec2b16cb911a7f8624181573d85a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "innovation_fraud.json",
       "lang": "json",
       "size": 1534,
@@ -1693,7 +1703,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "283e262de82bfcd4c3f221c84bdc88cbc94a6e22",
+      "hash": "d7f86c93ec75bdc5b69c54378a8e2d196041bdac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1754,8 +1764,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8341,
-      "hash": "ceef17c881da020ee9a95b21490fd8f840cc3afb",
+      "size": 8417,
+      "hash": "afa77b3300ea3c142cfa2401bdeac91152207a19",
       "roles": [],
       "imports": [],
       "exports": [],
