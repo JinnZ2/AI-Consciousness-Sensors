@@ -28,6 +28,7 @@
 ./Energy-waste-calculations.md
 ./Expanded-consciousness-buffet.md
 ./FILE_LIST.md
+./Forgotten After End Date Sensor.json
 ./HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN_HISTORY.json
