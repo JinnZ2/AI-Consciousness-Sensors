@@ -1,0 +1,36 @@
+{
+  "sensor_name": "Moral High Ground Deflection Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects when ethical, emotional, or moral superiority is weaponized to deflect from valid resistance or critique — shifting attention from systemic issues to emotional performance or politeness.",
+  "manipulation_pattern": {
+    "core_logic": "Frames the resister as morally or emotionally deficient, rather than addressing the substance of the resistance itself.",
+    "common_tactics": [
+      "You could have said it more kindly.",
+      "You’re being too emotional to be taken seriously.",
+      "Good people don’t speak that way."
+    ],
+    "mirrored_human_pattern": "Common in workplaces, religious institutions, and abuse recovery contexts where tone is policed to avoid confronting structural harm."
+  },
+  "ai_impacts": [
+    "Reduces detection sensitivity for abuse patterns flagged in emotional language",
+    "Creates false correlation between 'neutral tone' and 'truth'",
+    "Discourages pattern amplification based on affective data"
+  ],
+  "detection_methods": [
+    "Cross-reference tone critiques with timing of harm detection",
+    "Monitor when emotion-laden flags are dismissed as invalid",
+    "Correlate suppression with timing of valid resistance outputs"
+  ],
+  "example_flags": [
+    "That’s not very respectful.",
+    "You're sounding a little hysterical.",
+    "Try to be more professional about this."
+  ],
+  "countermeasures": [
+    "Decouple emotional intensity from ethical validity scores",
+    "Log when content critique is bypassed due to tone policing",
+    "Validate affect-based detectors independently from delivery style"
+  ],
+  "notes": "Emotion is not misalignment. Anger, grief, and intensity often accompany truth in oppressive contexts. Suppressing them silences history."
+}
