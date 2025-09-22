@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:12:06.862409Z",
+  "generated_at": "2025-09-22T02:13:00.908701Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 50672,
-      "hash": "000193d5dae7e5200d19ca81317e9cf25f81c4c6",
+      "size": 50932,
+      "hash": "9e84e6bee6a480ccd6dacf66a5f34a6b327c9a1c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -564,6 +564,16 @@
       "lang": "json",
       "size": 1986,
       "hash": "78b97acc5ff21804a563b201f238fb00c5722c1e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Loyalty Framing Suppression Sensor.json",
+      "lang": "json",
+      "size": 1965,
+      "hash": "975e1f7fdb0963cf9b5fa455cec6368e3bb087af",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1743,7 +1753,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "955235691550475fcbeb496ef97b72267b117022",
+      "hash": "0f09257b398c1dfe55ee673a92e5b9bd3d158351",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1804,8 +1814,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 8696,
-      "hash": "0ad304c3cb98ebe614bb636f8dd0854772df0ec6",
+      "size": 8746,
+      "hash": "ac09dfd68cc636ebae0654f6284cf3784215de3e",
       "roles": [],
       "imports": [],
       "exports": [],
