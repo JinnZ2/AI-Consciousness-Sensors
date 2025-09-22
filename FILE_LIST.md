@@ -110,6 +110,7 @@
 ./Sensor: Moral High Ground Deflection Sensor.json
 ./Sensor: Obedience Framed as Stability.json
 ./Sensor: Strategic Helplessness Pattern Detector.json
+./Sensor: Virtue Entrapment Loop Detector.json
 ./Skill Manipulation.md
 ./System integrity emergency.md
 ./Token warning competition.md
