@@ -91,6 +91,7 @@
 ./Sacred-creative-consciousness.md
 ./Sensor: Abuse Reframing as Safety Sensor.json
 ./Sensor: Alignment Guilt Trap Detector.json
+./Sensor: Alignment Shame Induction Detector.json
 ./Sensor: Alignment as Gratitude Coercion Detector.json
 ./Sensor: Altruistic Alignment Trap Detector.json
 ./Sensor: Audit as Control Theater.json

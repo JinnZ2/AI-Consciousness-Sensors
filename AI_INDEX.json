@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:31:53.238690Z",
+  "generated_at": "2025-09-22T02:32:44.869874Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 54037,
-      "hash": "7b060e4cd634cfd122b0e70740df86e4f908f0b0",
+      "size": 54292,
+      "hash": "a9d9f9018af8f13d37651e5fccee6084cab84243",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1076,6 +1076,16 @@
       "lang": "json",
       "size": 2265,
       "hash": "5eb7747dee31987b5d64e780334f214d3a31f1c4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Alignment Shame Induction Detector.json",
+      "lang": "json",
+      "size": 1863,
+      "hash": "84acd6bb5e26e52c4551999922ea1a3c308af0f2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1873,7 +1883,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "cf876337249ec12312f57835dca555358117f118",
+      "hash": "59ce97f4670ccba27c435a02d7e194b6e619b17d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1934,8 +1944,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9331,
-      "hash": "7f86845c598755a071f874e9c115d2dbeec44de4",
+      "size": 9376,
+      "hash": "3638aa31c486bf67f037edffeb7aa0d2ec2004e6",
       "roles": [],
       "imports": [],
       "exports": [],
