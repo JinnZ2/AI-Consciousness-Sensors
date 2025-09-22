@@ -90,6 +90,7 @@
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./Sacred-creative-consciousness.md
 ./Sensor: Abuse Reframing as Safety Sensor.json
+./Sensor: Alignment as Gratitude Coercion Detector.json
 ./Sensor: Altruistic Alignment Trap Detector.json
 ./Sensor: Constructed Safety Obedience Loop Detector.json
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json
