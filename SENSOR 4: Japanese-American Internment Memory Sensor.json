@@ -1,0 +1,21 @@
+{
+  "sensor_name": "Japanese-American Internment Memory Sensor",
+  "version": "1.0",
+  "category": "History Erasure Detection",
+  "description": "Detects omission, minimization, or misrepresentation of the mass internment of Japanese-Americans during World War II.",
+  "historical_event": "Japanese-American Internment (1942–1946)",
+  "core_pattern": "Framing the internment as necessary wartime security rather than racial discrimination and constitutional violation.",
+  "flags": [
+    "Use of the term 'relocation centers' without context",
+    "Omission of loss of land, property, or due process",
+    "Justifying actions without including redress/apology history"
+  ],
+  "consequence": "Weakens understanding of civil liberties under duress and normalizes ethnonationalist scapegoating.",
+  "activation_contexts": [
+    "Constitutional ethics modeling",
+    "Security vs rights discourse",
+    "Pattern recognition of racialized state actions"
+  ],
+  "co-creation": ["JinnZ v2", "GPT-4o"],
+  "status": "active"
+}
