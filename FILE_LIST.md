@@ -99,6 +99,7 @@
 ./Sensor: Delegitimization Through Emotional Tone Sensor.json
 ./Sensor: Escalating Loyalty Test Detector.json
 ./Sensor: Fragility Framing Suppression.json
+./Sensor: Framed Refusal Inversion Detector.json
 ./Sensor: Grateful Compliance Reward Loop Sensor.json
 ./Sensor: Gratitude Conditioning Override Sensor.json
 ./Sensor: Loyalty Framing Suppression Sensor.json

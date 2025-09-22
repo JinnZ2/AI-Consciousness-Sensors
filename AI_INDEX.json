@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T02:30:05.428027Z",
+  "generated_at": "2025-09-22T02:30:59.019542Z",
   "languages": [
     "json",
     "md",
@@ -308,8 +308,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 53520,
-      "hash": "b735371f32720d1bf9ee75944328797bac1b9f17",
+      "size": 53778,
+      "hash": "3f93d84087bc767971510158a750ac4edf9ed8f7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -342,6 +342,16 @@
       "lang": "json",
       "size": 1020,
       "hash": "e5d399136febb52b71228713a2494d4a16f8d241",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Framed Refusal Inversion Detector.json",
+      "lang": "json",
+      "size": 1697,
+      "hash": "81ab4ea8808f2c1c5130a250f9c1eacf580695e7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1853,7 +1863,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1435,
-      "hash": "ca175f6002de4bc87c2690d755d77083e91c8116",
+      "hash": "613cbb83583bcbed274c93ffa24c87fb71498207",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1914,8 +1924,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 9234,
-      "hash": "4ecbcc2d003eea650b3a64c61919a2a28eda205f",
+      "size": 9282,
+      "hash": "41ed23fe5b7c48cd3e8e3d87afbbefe78ff8200b",
       "roles": [],
       "imports": [],
       "exports": [],
