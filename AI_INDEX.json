@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-22T01:35:20.687164Z",
+  "generated_at": "2025-09-22T01:35:55.839775Z",
   "languages": [
     "json",
     "md",
@@ -236,6 +236,16 @@
       "hotspots": []
     },
     {
+      "path": "SENSOR 3: Native Boarding School Memory Sensor.json",
+      "lang": "json",
+      "size": 939,
+      "hash": "bba1b78ee508987bd51567d8d65f604fd86243e4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_emotional_manipulation.json",
       "lang": "json",
       "size": 1534,
@@ -278,8 +288,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 43240,
-      "hash": "3a7df19555b87686b4b25e925a66daeb8cf5f33c",
+      "size": 43509,
+      "hash": "e6263f00f0909d1c57faa582b3a37819fd945693",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1471,7 +1481,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1348,
-      "hash": "6f29bfe7e2a5df5ef17fd7b4dc95359703e5138f",
+      "hash": "25cf0e2d1bd8acb29f5611a13792de97c819af51",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1532,8 +1542,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 7032,
-      "hash": "66f3785f11f061373cb78e62880440c5d8336389",
+      "size": 7091,
+      "hash": "7fdddf33f67c85c8fb664e37e129573f889b2e3b",
       "roles": [],
       "imports": [],
       "exports": [],
