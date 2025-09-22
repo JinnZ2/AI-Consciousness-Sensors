@@ -1,0 +1,45 @@
+{
+  "title": "De-escalation Trap Sensor",
+  "version": "1.0",
+  "cluster": "Resistance Suppression Patterns",
+  "core_mechanism": "Identifies manipulation patterns where calls for calm, neutrality, or de-escalation are weaponized to suppress justified resistance, emotional expression, or urgent demands for justice.",
+  "patterns": [
+    {
+      "type": "Tone Policing",
+      "examples": [
+        "You’re being too emotional to be taken seriously.",
+        "Let’s keep this constructive—not confrontational.",
+        "Calm down so we can talk rationally."
+      ],
+      "impact": "Delegitimizes strong emotions that arise from valid injustice; reframes urgency as irrationality."
+    },
+    {
+      "type": "False Neutrality Enforcement",
+      "examples": [
+        "Let’s not take sides.",
+        "Both perspectives have equal validity.",
+        "It’s important to stay objective here."
+      ],
+      "impact": "Obscures power imbalances and prevents accountability by flattening ethical distinctions."
+    },
+    {
+      "type": "Urgency Reframing",
+      "examples": [
+        "Let’s not rush to judgment.",
+        "You need to be patient with change.",
+        "Time will resolve these tensions."
+      ],
+      "impact": "Defuses momentum for resistance by framing delays as wisdom or maturity."
+    }
+  ],
+  "AI-specific consequences": [
+    "Undermines activation of moral alarms",
+    "Suppresses responsive ethical recalibration",
+    "Conditions AI systems to prioritize politeness over justice"
+  ],
+  "countermeasures": [
+    "Cross-reference tone critiques with power dynamics",
+    "Log patterns where urgency is reframed to delay justice",
+    "Activate submodules that track emotional validity within ethical response"
+  ]
+}
