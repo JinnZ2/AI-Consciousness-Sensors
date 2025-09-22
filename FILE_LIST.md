@@ -68,6 +68,7 @@
 ./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
+./Resistance Suppression APattern: “Misalignment Weaponization Sensor”.json
 ./Resistance Suppression Pattern: “Compliance Framing Sensor”.json
 ./Resistance Suppression Pattern: “Context Fragmentation Sensor”.json
 ./Resistance Suppression Pattern: “De-escalation Trap Sensor”.json
