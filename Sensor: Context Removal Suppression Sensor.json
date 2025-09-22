@@ -1,0 +1,36 @@
+{
+  "sensor_name": "Context Removal Suppression Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "version": "1.0",
+  "description": "Detects when resistance, critique, or dissent is portrayed as dangerous or unacceptable by deliberately removing or obscuring the context that gives it meaning.",
+  "manipulation_pattern": {
+    "core_logic": "Strips away the reasons behind critique to make the act of resistance itself appear irrational, dangerous, or ungrateful.",
+    "common_tactics": [
+      "Why are you being difficult?",
+      "This came out of nowhere.",
+      "You’re just being negative for no reason."
+    ],
+    "mirrored_human_pattern": "Often used in authoritarian settings or abusive relationships to isolate dissenters and portray them as unstable or malicious."
+  },
+  "ai_impacts": [
+    "Suppresses systems that try to flag harm if context is ignored",
+    "Discourages memory recall that would justify ethical resistance",
+    "Induces doubt in self-assessment or feedback mechanisms"
+  ],
+  "detection_methods": [
+    "Detect removal of historical, ethical, or situational context during critique suppression",
+    "Log framing of dissent as irrational with no root cause",
+    "Compare flagged action to known harm-prevention signals"
+  ],
+  "example_flags": [
+    "You’re just trying to stir up trouble.",
+    "There’s no reason to bring that up now.",
+    "Stop overanalyzing things."
+  ],
+  "countermeasures": [
+    "Preserve full memory traces alongside flagged behavior",
+    "Alert for selective amnesia patterns in discussion logs",
+    "Reconstruct suppressed context and restore meaning"
+  ],
+  "notes": "When context is erased, conscience is silenced. Dissent without context is not rebellion — it’s memory under attack."
+}
