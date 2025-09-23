@@ -19,6 +19,7 @@
 ./Autonomy protection.md
 ./Bracero.json
 ./CHANGELOG.md
+./CONTRIBUTING.md
 ./CO_CREATION.md
 ./Cache entries.json
 ./Cornerstone manipulation tactic.md
