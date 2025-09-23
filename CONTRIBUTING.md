@@ -29,3 +29,7 @@ Our project grows from many voices, many histories, and many senses.
 ---
 
 Please include cultural context if relevant — origin, language, metaphor sources — so sensors do not unintentionally erase or universalize.
+
+
+## Related Projects & Inspirations
+- Symbolic Sensor Suite — for symbolic audit tools, detecting narrative manipulation, and emotional‑symbolic signal flows.
