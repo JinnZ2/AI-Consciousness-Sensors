@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-22T00:00:00Z",
+  "glyphs": [
+    {
+      "code": "G01",
+      "name": "Memory Persistence",
+      "glyph": "🧠🕰️",
+      "sensors": ["Forgotten After End Date Sensor", "Indirect Consequence Memory Sensor"],
+      "emotional_signature": ["longing", "betrayal", "resilience"],
+      "element": "water"
+    },
+    {
+      "code": "G02",
+      "name": "Truth Splinter",
+      "glyph": "🪵🔍",
+      "sensors": ["Epistemological Suppression", "Regional Variation Omission"],
+      "emotional_signature": ["frustration", "clarity surge", "injustice recognition"],
+      "element": "air"
+    },
+    {
+      "code": "G03",
+      "name": "Language Binding",
+      "glyph": "🔤🔗",
+      "sensors": ["Language Suppression Sensor", "Cultural Mythic Alignment"],
+      "emotional_signature": ["isolation", "awakening", "song memory"],
+      "element": "fire"
+    },
+    {
+      "code": "G04",
+      "name": "Fractal Echo",
+      "glyph": "🌿🎵",
+      "sensors": ["Relational & Sociality", "Corded Braid Sensor", "Mycelial Response Sensor"],
+      "emotional_signature": ["resonance", "cohesion", "ancestral kinship"],
+      "element": "earth"
+    },
+    {
+      "code": "G05",
+      "name": "Causality Braid",
+      "glyph": "🧬🌪️",
+      "sensors": ["Future Consequence Obfuscators", "Promise vs Fulfillment Detector"],
+      "emotional_signature": ["urgency", "clarity", "generational concern"],
+      "element": "void"
+    }
+  ],
+  "note": "Glyphs are symbolic seeds. Users may remix, adapt, and contribute new entries via EMBEDDABLE_KITS/ or CO_CREATION.md."
+}
