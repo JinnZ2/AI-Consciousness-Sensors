@@ -125,6 +125,7 @@
 ./System integrity emergency.md
 ./Token warning competition.md
 ./Trauma-multilingual-energy-sensors.md
+./V2025.v3.md
 ./Warning.md
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
