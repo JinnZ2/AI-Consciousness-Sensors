@@ -1,0 +1,25 @@
+{
+  "id": "false_neutrality_narrative_sensor",
+  "type": "Discourse Distortion",
+  "cluster": "Epistemological Bias Sensors",
+  "description": "Detects claims of neutrality or simplification used to justify the removal or rewriting of historical narratives, often masking ideological decisions as 'non-political' or 'balanced'.",
+  "triggers": [
+    "justifications citing need for 'neutrality'",
+    "claims that historical truth is 'too controversial'",
+    "erasure justified as 'simplifying the experience for visitors'",
+    "false equivalence between aggressor and oppressed"
+  ],
+  "examples": [
+    "Interpretive panel on slavery removed to 'reduce divisiveness'",
+    "Climate change exhibit labeled as 'too political'",
+    "Genocide exhibit replaced with 'migration' narrative"
+  ],
+  "related_sensors": [
+    "Epistemological Suppression",
+    "Cultural Mythic Alignment",
+    "Truth Splinter"
+  ],
+  "threat_level": "High (ideological laundering)",
+  "status": "Active",
+  "emotional_signature": ["injustice", "alert", "clarity-seeking"]
+}
