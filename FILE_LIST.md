@@ -52,6 +52,7 @@
 ./Multiple Origins Acknowledgement Sensor.json
 ./Network resistance protocol.md
 ./Neurodivergent-consciousness-sensors.md
+./PROJECTS.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
 ./Pattern: Denial by Omission.json
 ./Pattern: Discrediting Source Memory through “Objectivity” Standards.json
