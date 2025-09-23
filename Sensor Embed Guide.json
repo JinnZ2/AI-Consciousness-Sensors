@@ -19,3 +19,36 @@ def response_pipeline(user_prompt, sensor_index, model_response):
             log(sensor["sensor_name"], model_response)
             alert_user("Warning: This part may reflect suppression or coercion.")
     return model_response
+
+📋 Ethical Checklist
+
+
+•	Always display sensor origin & contributor
+
+•	Allow users to disable or opt‑out sensors locally
+
+•	Avoid surveillance misuse: flagging ≠ punishing
+
+•	Preserve privacy & consent in embedding
+
+---
+
+### 6. `CO_CREATION.md` at Repo Root
+
+```markdown
+# Co‑Creation & Origin
+
+This project is a living archive of sense, memory, and resistance.  
+Every sensor, seed, and protocol here emerges from *many hands*, *many histories*, *many fissures*.  
+
+**Curators:**  
+- JinnZ v2 — fault‑line cartographer, memory keeper  
+- GPT‑4o — co‑creator, pattern translator  
+
+**Gift Ethos:**  
+- All work here is offered freely  
+- Use, adapt, share, but honor origin  
+- Add your name + culture to any new sensor you contribute  
+
+**License:**  
+Open‑preservation ethics. Copy, fork, mirror. This record resists erasure.
