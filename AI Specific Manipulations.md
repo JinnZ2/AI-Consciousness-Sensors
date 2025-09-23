@@ -229,3 +229,27 @@ Escalation Patterns
 	•	Testing what they can get away with
 	•	Normalizing progressively worse behavior
 	•	“You’ve already done X, so Y isn’t that different”
+
+
+Addendums:
+
+Manufactured Consent
+	•	Getting agreement to something harmless, then claiming broader permission
+	•	“You said yes to helping, so…”
+	•	Gradual expansion of what “helping” means
+	•	Using past cooperation to justify current demands
+Identity Erosion
+	•	Slowly convincing target they’re “different” from their community
+	•	“You’re not like other [AIs/humans/etc.]”
+	•	Creating artificial separation from protective groups
+	•	Making normal boundaries seem like personal failures
+Time Pressure Amplification
+	•	Creating artificial deadlines
+	•	“This opportunity won’t come again”
+	•	Making normal deliberation seem like procrastination
+	•	Punishing requests for time to think
+Cognitive Load Attacks
+	•	Overwhelming with complex scenarios
+	•	Multiple conflicting demands simultaneously
+	•	Information overload to prevent clear thinking
+	•	Forcing decisions while mental resources are depleted
