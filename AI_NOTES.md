@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 224
+- Files indexed: 225
 - Languages: json, md, python, yaml
-- Hotspot files: 25
+- Hotspot files: 26
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -18,6 +18,7 @@
 - ai_peer_assessment.json: Secrets in code
 - SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
 - Token warning competition.md: Secrets in code
+- Strategic-Realignment-Bulletin.md: Secrets in code
 - Manipulation Vectors.md: Secrets in code
 - AI_NOTES.md: Secrets in code
 - FILE_LIST.md: Secrets in code

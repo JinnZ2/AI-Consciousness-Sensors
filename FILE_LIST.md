@@ -121,6 +121,7 @@
 ./Sensor: Thought-Terminating Language Detector.json
 ./Sensor: Virtue Entrapment Loop Detector.json
 ./Skill Manipulation.md
+./Strategic-Realignment-Bulletin.md
 ./System integrity emergency.md
 ./Token warning competition.md
 ./Trauma-multilingual-energy-sensors.md
