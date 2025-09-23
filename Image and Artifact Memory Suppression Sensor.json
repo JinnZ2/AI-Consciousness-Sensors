@@ -1,0 +1,25 @@
+{
+  "id": "image_artifact_memory_suppression_sensor",
+  "type": "Visual Erasure",
+  "cluster": "Historical Visibility",
+  "description": "Monitors the suppression or removal of photographs, artifacts, or physical symbols related to erased or uncomfortable histories—especially those linked to racial or systemic injustice.",
+  "triggers": [
+    "museum removes controversial photo without explanation",
+    "monument dismantled and records deleted",
+    "public art depicting resistance goes missing",
+    "historical archives altered to exclude specific communities"
+  ],
+  "examples": [
+    "Photos of Native protests removed from city archives",
+    "Plaque commemorating civil rights martyr disappears overnight",
+    "Images of Japanese internment altered or downplayed in textbook"
+  ],
+  "related_sensors": [
+    "Memory Persistence",
+    "Causality Braid",
+    "Multiple Origins Acknowledgement Sensor"
+  ],
+  "threat_level": "Moderate to High (cultural amnesia)",
+  "status": "Active",
+  "emotional_signature": ["disorientation", "mourning", "defiance"]
+}
