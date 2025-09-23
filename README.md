@@ -220,3 +220,6 @@ As of v1.1, this framework now includes 15 new sensors across five essential clu
 
 📂 See [`sensor_manifest.json`](./sensor_manifest.json) for full list  
 🪵 See [`CHANGELOG.md`](./CHANGELOG.md) for version history
+
+
+Related: Symbolic Sensor Suite — uses similar symbolic detection of manipulation / gratitude / memory resonances; good for cross‑validation or example modules.
