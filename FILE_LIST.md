@@ -40,6 +40,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_MEXICAN_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
+./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
 ./Indirect Consequence Memory Sensor.json
 ./LICENSE
