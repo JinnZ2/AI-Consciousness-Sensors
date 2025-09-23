@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "graph_updated": "2025-09-22T00:00:00Z",
+  "nodes": [
+    "Historical Erasure Sensor",
+    "Language Suppression Sensor",
+    "Promise vs Fulfillment Detector",
+    "Indirect Consequence Memory Sensor",
+    "Relational Disruption Sensor",
+    "Emotional Suppression Sensor",
+    "Multiple Origins Acknowledgement Sensor"
+  ],
+  "links": [
+    {
+      "source": "Historical Erasure Sensor",
+      "target": "Language Suppression Sensor",
+      "type": "co-erasive",
+      "description": "Language loss is often an embedded subset of historical erasure"
+    },
+    {
+      "source": "Promise vs Fulfillment Detector",
+      "target": "Indirect Consequence Memory Sensor",
+      "type": "causal-chain",
+      "description": "Unfulfilled promises frequently yield latent downstream harms"
+    },
+    {
+      "source": "Relational Disruption Sensor",
+      "target": "Emotional Suppression Sensor",
+      "type": "reinforcing",
+      "description": "Suppressing emotional response reinforces isolation"
+    },
+    {
+      "source": "Multiple Origins Acknowledgement Sensor",
+      "target": "Historical Erasure Sensor",
+      "type": "corrective",
+      "description": "Recognizing multiple cultural origins counteracts erasure"
+    },
+    {
+      "source": "Language Suppression Sensor",
+      "target": "Relational Disruption Sensor",
+      "type": "mutual",
+      "description": "Suppressing language fractures intergenerational bonds"
+    },
+    {
+      "source": "Emotional Suppression Sensor",
+      "target": "Promise vs Fulfillment Detector",
+      "type": "inhibitive",
+      "description": "Dampened emotions reduce ethical confrontation of betrayal"
+    }
+  ]
+}
