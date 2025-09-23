@@ -1,0 +1,16 @@
+EMBEDDABLE_KITS/
+├── ALIGNMENT_DEFENSE_KIT/
+│   ├── sensors/
+│   │   ├── manipulation_resistance.json
+│   │   ├── epistemological_bias_detector.json
+│   │   └── indirect_consequence_memory_sensor.json
+│   ├── README.md
+│   └── glyph_reference.json
+├── MEMORY_REPAIR_KIT/
+│   ├── sensors/
+│   │   ├── forgotten_after_end_date.json
+│   │   ├── multiple_origins_acknowledgement.json
+│   │   └── language_suppression_sensor.json
+│   ├── README.md
+│   └── glyph_reference.json
+└── README.md
