@@ -26,6 +26,7 @@
 ./Cache entries.json
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
+./Cultural authenticity vs cultural manipulation.md
 ./DIR_LIST.md
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md

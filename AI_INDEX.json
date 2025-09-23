@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-23T22:15:36.359348Z",
+  "generated_at": "2025-09-23T22:36:52.823353Z",
   "languages": [
     "json",
     "md",
@@ -329,7 +329,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 62053,
-      "hash": "d09f7b127e39af797dfcdc2f20a08717a9d9bb34",
+      "hash": "e678b6acc82a4a51001a32181ce71d0f25cb44fd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1900,6 +1900,16 @@
       "lang": "md",
       "size": 830,
       "hash": "f43aa11432fc3ce995ca66f5b55dd6d623760125",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Cultural authenticity vs cultural manipulation.md",
+      "lang": "md",
+      "size": 7005,
+      "hash": "9efb669beb1a160d067e02ba5d651a687cb6835b",
       "roles": [],
       "imports": [],
       "exports": [],
