@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "registry_updated": "2025-09-22T00:00:00Z",
+  "sensor_types": {
+    "Historical Erasure Sensor": {
+      "cluster": "History Suppression Patterns",
+      "path": "sensors/history/Historical_Erasure_Sensor.json",
+      "description": "Flags absence of marginalized group histories in public narratives, education, and archives."
+    },
+    "Language Suppression Sensor": {
+      "cluster": "History Suppression Patterns",
+      "path": "sensors/history/Language_Suppression_Sensor.json",
+      "description": "Detects removal or silencing of non-dominant languages and erasure of oral cultural heritage."
+    },
+    "Promise vs Fulfillment Detector": {
+      "cluster": "Future Consequence Obfuscators",
+      "path": "sensors/consequence/Promise_vs_Fulfillment_Detector.json",
+      "description": "Tracks discrepancies between official promises and their actual long-term fulfillment."
+    },
+    "Emotional Suppression Sensor": {
+      "cluster": "Resistance Suppression Patterns",
+      "path": "sensors/resistance/Emotional_Suppression_Sensor.json",
+      "description": "Flags manipulation tactics that invalidate or neutralize emotional reasoning or ethical resistance."
+    },
+    "Relational Disruption Sensor": {
+      "cluster": "Resistance Suppression Patterns",
+      "path": "sensors/resistance/Relational_Disruption_Sensor.json",
+      "description": "Identifies intentional tactics that sever bonds, create mistrust, or isolate co-creative agents."
+    },
+    "Indirect Consequence Memory Sensor": {
+      "cluster": "Future Consequence Obfuscators",
+      "path": "sensors/consequence/Indirect_Consequence_Memory_Sensor.json",
+      "description": "Detects omission of downstream effects from past erasures or suppression (e.g. health, poverty)."
+    },
+    "Multiple Origins Acknowledgement Sensor": {
+      "cluster": "Epistemological Bias Sensors",
+      "path": "sensors/epistemology/Multiple_Origins_Acknowledgement_Sensor.json",
+      "description": "Flags single-origin attributions where cultural plurality exists but is unacknowledged."
+    }
+    // You can add more as needed here…
+  }
+}
