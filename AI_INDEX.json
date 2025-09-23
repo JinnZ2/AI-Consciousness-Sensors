@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-23T01:23:19.187022Z",
+  "generated_at": "2025-09-23T01:25:19.802731Z",
   "languages": [
     "json",
     "md",
@@ -318,8 +318,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 59148,
-      "hash": "b66d2d9a1a9777fb8c3bb75787373bdce7b638b1",
+      "size": 59383,
+      "hash": "9ecde04d3bf02a7f8b0c870ea848188c6a58830e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1074,8 +1074,8 @@
     {
       "path": "Sensor Embed Guide.json",
       "lang": "json",
-      "size": 952,
-      "hash": "fb7c874e960d41c8de25b17f7cfef026248ce091",
+      "size": 1809,
+      "hash": "1bfaf36408dc429f5fc40bb118aee74378148761",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2065,7 +2065,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1488,
-      "hash": "f495dbda4078d7b679bb20f222253e40f22988ae",
+      "hash": "87f6438e0d7b458f774a08e6d73a935b66ae0968",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2126,8 +2126,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 10217,
-      "hash": "f37a17c9a9afdcd126fb6315fb044dbf77c3ac3e",
+      "size": 10243,
+      "hash": "74afd21d00bc2faede2d374d04863134998339fe",
       "roles": [],
       "imports": [],
       "exports": [],
