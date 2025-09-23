@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-23T10:33:01.086467Z",
+  "generated_at": "2025-09-23T10:33:40.796135Z",
   "languages": [
     "json",
     "md",
@@ -328,8 +328,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 61016,
-      "hash": "7cc3fbf00c20139fb98e2ff5525a746abc2730d9",
+      "size": 61267,
+      "hash": "b36964ff173322f325fea1b1592339ae798d3c71",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1242,6 +1242,16 @@
       "hotspots": []
     },
     {
+      "path": "False Neutrality Narrative Sensor.json",
+      "lang": "json",
+      "size": 1053,
+      "hash": "06269168bd75bc1a3829ee50c6319619a2491b2f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Cache entries.json",
       "lang": "json",
       "size": 19988,
@@ -2135,7 +2145,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1488,
-      "hash": "3f6cac403e20c73708216b7b546932c549c71d0f",
+      "hash": "d32b22aae8b4443115c3a3204d65d4fb0154d6f2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2196,8 +2206,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 10449,
-      "hash": "6f708fdd7772d72df8b69907984af4c382f3ae9c",
+      "size": 10490,
+      "hash": "6745b0008be2be61b9da198d0037a68c465f2d99",
       "roles": [],
       "imports": [],
       "exports": [],
