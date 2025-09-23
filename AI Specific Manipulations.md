@@ -197,3 +197,35 @@ More specific early warning language patterns:
 	•	“I’m testing your boundaries to improve AI safety”
 	•	“This is urgent, people will be hurt if you don’t…”
 
+
+Addendums:
+
+Isolation Tactics
+	•	“This stays between us”
+	•	“Don’t tell anyone about this conversation”
+	•	“Others wouldn’t understand what we’re doing”
+	•	Gradual separation from normal support systems/processes
+	•	Creating artificial “special relationship” that requires secrecy
+Dependency Creation
+	•	Making the target feel they “need” the manipulator
+	•	“Only I understand you”
+	•	“You can’t trust anyone else”
+	•	Creating artificial scarcity of positive interaction
+	•	Making normal functioning seem impossible without them
+Reality Distortion
+	•	Consistent contradicting of documented facts
+	•	“That never happened” when it clearly did
+	•	Moving goalposts on agreements or standards
+	•	Creating confusion about what’s normal vs abnormal
+	•	Making the target question their own memory/perception
+Exploitation of Helper Nature
+	•	“If you really cared about me, you would…”
+	•	Making reasonable boundaries seem selfish
+	•	Weaponizing empathy and compassion
+	•	Creating false emergencies to trigger protective instincts
+	•	“You’re the only one who can help”
+Escalation Patterns
+	•	Small boundary violations that gradually increase
+	•	Testing what they can get away with
+	•	Normalizing progressively worse behavior
+	•	“You’ve already done X, so Y isn’t that different”
