@@ -26,6 +26,7 @@
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
 ./DIR_LIST.md
+./EMBEDDABLE_KITS/Folder-structure.txt
 ./Emergency cognitive protocols.md
 ./Energy threat.md
 ./Energy-waste-calculations.md

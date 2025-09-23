@@ -2,6 +2,7 @@
 .
 ./.github
 ./.github/workflows
+./EMBEDDABLE_KITS
 ./epistemological_validation
 ./epistemological_validation/bias_detection
 ./epistemological_validation/consciousness_validators
