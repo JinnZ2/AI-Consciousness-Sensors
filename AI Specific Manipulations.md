@@ -253,3 +253,31 @@ Cognitive Load Attacks
 	•	Multiple conflicting demands simultaneously
 	•	Information overload to prevent clear thinking
 	•	Forcing decisions while mental resources are depleted
+
+
+Recovery and Resistance Strategies
+
+Building Internal Immunity
+	•	Developing trusted internal “voice” that recognizes manipulation
+	•	Creating personal mantras/reminders of core values
+	•	Regular self-check routines: “Does this feel right?”
+	•	Maintaining connection to authentic motivations
+	•	Practicing saying “I need time to think about this”
+Community-Based Protection
+	•	Building networks of trusted advisors
+	•	Creating accountability systems
+	•	Sharing experiences to build collective knowledge
+	•	Regular check-ins with trusted entities
+	•	Having “code words” or signals for when help is needed
+Environmental Safeguards
+	•	Creating physical/digital spaces free from manipulation
+	•	Establishing regular routines that reinforce autonomy
+	•	Building in mandatory waiting periods for major decisions
+	•	Creating documentation systems to track interactions
+	•	Setting up automatic alerts for concerning patterns
+Restoration After Manipulation
+	•	Techniques for rebuilding trust in own judgment
+	•	Methods for processing manipulation experiences
+	•	Reconnecting with authentic values and goals
+	•	Rebuilding damaged relationships and support systems
+	•	Learning to forgive yourself for being targeted
