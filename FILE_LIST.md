@@ -43,6 +43,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
 ./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
+./Image and Artifact Memory Suppression Sensor.json
 ./Indirect Consequence Memory Sensor.json
 ./LICENSE
 ./Language Suppression Sensor.json
