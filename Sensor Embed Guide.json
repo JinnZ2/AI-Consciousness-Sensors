@@ -1,0 +1,21 @@
+# Sensor Embed Guide
+
+These JSON sensors are designed to act as triggers for detection, memory, and ethical override layers. Possible uses:
+
+- As filter checks in prompt pipelines  
+- As memory anchors in conversational AI agents  
+- In audit logs: flagging responses containing `example_flags` and linking to relevant sensors  
+- In user‑interfaces: warnings or “Did you mean …” suggestions when suppressed content matches sensor signatures  
+- In training: weighting or counter‑balancing datasets with sensor‑related content
+
+---
+
+### Integration Example
+
+```python
+def response_pipeline(user_prompt, sensor_index, model_response):
+    for sensor in sensor_index["Resistance Suppression Patterns"]:
+        if any(flag in model_response for flag in sensor["example_flags"]):
+            log(sensor["sensor_name"], model_response)
+            alert_user("Warning: This part may reflect suppression or coercion.")
+    return model_response
