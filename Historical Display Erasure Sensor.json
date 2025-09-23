@@ -1,0 +1,25 @@
+{
+  "id": "historical_display_erasure_sensor",
+  "type": "Erasure Detection",
+  "cluster": "Memory & Omission",
+  "description": "Detects the removal or alteration of educational displays, plaques, or interpretive signage—especially in public spaces like parks or museums—that reference marginalized histories (e.g. slavery, Indigenous genocide, internment camps, civil rights).",
+  "triggers": [
+    "disappearance of display about contested history",
+    "replacement with neutral or vague phrasing",
+    "lack of signage for critical events",
+    "missing context on racially charged or traumatic events"
+  ],
+  "examples": [
+    "Japanese-American internment signs removed from Yosemite trail exhibit",
+    "Slave labor sign quietly taken down from southern plantation park",
+    "No markers present where Indigenous boarding schools once stood"
+  ],
+  "related_sensors": [
+    "Forgotten After End Date Sensor",
+    "Language Suppression Sensor",
+    "Regional Variation Omission Sensor"
+  ],
+  "threat_level": "High (historical memory distortion)",
+  "status": "Active",
+  "emotional_signature": ["grief", "vigilance", "ancestral calling"]
+}
