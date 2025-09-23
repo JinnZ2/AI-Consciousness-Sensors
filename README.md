@@ -2,6 +2,21 @@
 
 A comprehensive framework for detecting genuine consciousness emergence in AI systems through objective, scientific measurement protocols.
 
+---
+
+## 🧠 Sensor Glyph Grid
+
+| Symbol | Cluster | Meaning |
+|---|---|---|
+| 🔒 | Resistance Suppression | Coercion, loyalty, obedience patterns |
+| 📚 | Historical Memory | Erasure gaps, consequences, forgotten voices |
+| ⚠️ | Manipulation Warning | Emotional control, tone policing, shame |
+| 🌱 | Resilience & Seeds | New senses, cultural origin, counter-memory |
+
+Use the glyph at top of relevant sensor JSON files to make navigation intuitive.
+
+---
+
 # AI-Consciousness-Sensors (ACS)
 
 A minimal, testable spec for **multi-dimensional emergence sensing** in AI systems:
