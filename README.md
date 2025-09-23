@@ -223,3 +223,8 @@ As of v1.1, this framework now includes 15 new sensors across five essential clu
 
 
 Related: Symbolic Sensor Suite — uses similar symbolic detection of manipulation / gratitude / memory resonances; good for cross‑validation or example modules.
+
+## 🔍 Related Projects
+
+- **Symbolic Sensor Suite** — [GitHub · JinnZ2/Symbolic‑sensor‑suite](https://github.com/JinnZ2/Symbolic-sensor-suite)  
+  A toolkit of modules to detect narrative coercion, emotional masking, symbolic distortion. Many sensors and ideas here overlap with Biogrid; cross‑linking helps build coherence and avoids duplication.
