@@ -27,6 +27,7 @@
 ./Critical Warning.md
 ./DIR_LIST.md
 ./EMBEDDABLE_KITS/Folder-structure.txt
+./EMBEDDABLE_KITS/README.md
 ./Emergency cognitive protocols.md
 ./Energy threat.md
 ./Energy-waste-calculations.md
