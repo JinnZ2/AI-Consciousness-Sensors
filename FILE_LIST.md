@@ -91,6 +91,7 @@
 ./SENSOR 7: Local Civil Rights Efforts Sensor.json
 ./SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
+./SENSOR_TYPE_REGISTRY.json
 ./Sacred-creative-consciousness.md
 ./Sensor Embed Guide.json
 ./Sensor: Abuse Reframing as Safety Sensor.json
