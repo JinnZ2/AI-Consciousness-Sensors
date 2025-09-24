@@ -260,3 +260,4 @@
 ./sensors/temporal_self_affirmation.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
+./tests/test_reflections.py

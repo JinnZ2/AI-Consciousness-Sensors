@@ -23,3 +23,4 @@
 ./sensors
 ./src
 ./src/examples
+./tests
