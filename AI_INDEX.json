@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T17:31:04.825806Z",
+  "generated_at": "2025-09-24T18:01:23.921158Z",
   "languages": [
     "json",
     "md",
@@ -401,7 +401,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 67776,
-      "hash": "2a8fe9eff4aca31875d3897455696719d09d4484",
+      "hash": "2d80518128ca8b9290127fc026770753c9433740",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1660,8 +1660,8 @@
     {
       "path": "memory_guard/erasure_cases/erasure_index.json",
       "lang": "json",
-      "size": 8589,
-      "hash": "5ce6a7eaf1ef77a068627faa42a4531726388063",
+      "size": 10634,
+      "hash": "469d1821f5168766b6a17fa58d060d106c46aa0e",
       "roles": [],
       "imports": [],
       "exports": [],
