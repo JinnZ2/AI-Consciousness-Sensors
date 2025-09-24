@@ -200,6 +200,7 @@
 ./manipulation_by_domain.json
 ./manipulation_patterns_extended.json
 ./manipulation_vectors.json
+./memory_guard/centralization-failure-sensor.json
 ./memory_guard/erasure_cases/F ederal Health Data Removal.json
 ./memory_guard/erasure_cases/Sample.txt
 ./memory_guard/erasure_cases/Termination of USDA Household Food Security Reports.json
