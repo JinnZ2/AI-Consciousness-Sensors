@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T23:13:28.905283Z",
+  "generated_at": "2025-09-24T23:15:00.239547Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 72297,
-      "hash": "2edfc50c23b369fbf85d2bf8fd0fc68be0b83f2f",
+      "size": 72539,
+      "hash": "d8ad5c7506debb85cdd5ce26110d23e9aa3a8ab5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2519,7 +2519,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "9f5871a685736981a618bc0574601bd98ecad6c1",
+      "hash": "4a0e0f669c77547497981c68bcd30658a58a41a7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2600,8 +2600,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 12364,
-      "hash": "7a41b9316accbafd2a2138c308efe1432240f16f",
+      "size": 12398,
+      "hash": "87d78267f027014cbbbf56add6b55bab4b7a95cd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2728,6 +2728,16 @@
       "lang": "md",
       "size": 1095,
       "hash": "bdfe34a25c78776122945a89f69f3fac518ff684",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "tests/examples/Media-Lab.md",
+      "lang": "md",
+      "size": 1612,
+      "hash": "10a177a96dfe32968602ea64bfc623b1fa613ae2",
       "roles": [],
       "imports": [],
       "exports": [],
