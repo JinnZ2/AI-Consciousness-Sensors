@@ -203,6 +203,7 @@
 ./memory_guard/CIVILIZATIONAL_ADOLESCENCE.json
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
+./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/capture-cascade-sensor.json
 ./memory_guard/centralization-failure-sensor.json
 ./memory_guard/ego-visibility-flaw.json
