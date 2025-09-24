@@ -11,6 +11,7 @@
 ./epistemological_validation/probability_matrices
 ./ethics
 ./explainability
+./integration
 ./logs
 ./reflections
 ./reflections/sample_prompts

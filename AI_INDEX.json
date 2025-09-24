@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T13:40:16.114135Z",
+  "generated_at": "2025-09-24T13:40:53.009412Z",
   "languages": [
     "json",
     "md",
@@ -32,6 +32,16 @@
         "Debug left on",
         "Secrets in code"
       ]
+    },
+    {
+      "path": "integration/self_override.py",
+      "lang": "python",
+      "size": 254,
+      "hash": "f525b2e1261ce40bb16ecc7b71b936c10583c6e9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "src/score.py",
@@ -380,8 +390,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 63514,
-      "hash": "6b2d0cc6d0e9b23c2ca4e6fa07bb4ec32ed66356",
+      "size": 63745,
+      "hash": "3ec48bc1c51e06c46391a98188a423a84b302948",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2229,7 +2239,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "b3f175591066adb6093a1e46145359801a98450e",
+      "hash": "01c37e1f5a4e544b7747cc979254fe3882ab3ecb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2300,8 +2310,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 10841,
-      "hash": "33a11480c42f0c1fb051bb1102ba3e7e5233edab",
+      "size": 10861,
+      "hash": "df3a6d23fb9373def4115b8e36731d2ab3cf3408",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2406,8 +2416,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 420,
-      "hash": "f6d751893fbf2be8c104ea45fabf94e45923e314",
+      "size": 429,
+      "hash": "c7929b158db914d76950e30a93e1e5e051534150",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -185,6 +185,7 @@
 ./historical_omission_manifest.json
 ./history_erasure_ai_patterns.json
 ./innovation_fraud.json
+./integration/self_override.py
 ./integration_protocols.json
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./manipulation_by_domain.json
