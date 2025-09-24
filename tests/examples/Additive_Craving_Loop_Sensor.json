@@ -1,0 +1,25 @@
+{
+  "id": "additive_craving_loop_sensor",
+  "version": "1.0",
+  "type": "behavioral_energy_sensor",
+  "updated": "2025-09-24T00:00:00Z",
+  "description": "Detects repetitive behavior loops (scrolling, media consumption, etc.) amplified by chemical additives (sugar, caffeine, alcohol, processed compounds).",
+  "inputs": [
+    "Observed repetitive cycles of attention",
+    "Chemical exposure markers (dietary logs, contextual triggers)",
+    "Behavioral context (media environment, algorithmic engagement patterns)"
+  ],
+  "signals": [
+    "Shortened attention span",
+    "Increased craving after chemical intake",
+    "Difficulty sustaining reasoning beyond dopamine-hit intervals"
+  ],
+  "outputs": [
+    "Craving loop detected",
+    "Loop strength (low/medium/high)",
+    "Recommended mitigation (attention reset, hydration, protein intake)"
+  ],
+  "linked_examples": [
+    "tests/examples/Energy-example-media.md"
+  ]
+}
