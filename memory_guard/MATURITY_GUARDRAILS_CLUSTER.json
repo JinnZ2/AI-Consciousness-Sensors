@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "cluster": "Maturity Guardrails",
+  "description": "Sensors that detect adolescent-mode decision patterns and promote long-horizon, relational maturity. Pair with Truncation, Vault Paradox, Capture Cascade, and Feedback Blindness.",
+  "sensors": [
+    {
+      "id": "adolescent_maximization_detector",
+      "title": "Adolescent Maximization (Single-Objective)",
+      "category": "cognitive_distortion",
+      "pattern": "Optimize a single metric ('X at all costs') without multi-objective or ecological constraints.",
+      "signals": [
+        "Objectives omit health/resilience/equity/optionality",
+        "Throughput rewarded when utility/regeneration are flat or negative",
+        "No explicit stop/slow conditions"
+      ],
+      "impact": [
+        "Energy leak and fragility",
+        "Crowding-out of regenerative processes",
+        "Runaway failure (paperclip-style collapse)"
+      ],
+      "mitigation_recommendations": [
+        "Adopt multi-objective utility (value, health, resilience, equity, optionality)",
+        "Tie incentives to matched production-to-need + regeneration",
+        "Implement STOP_CONDITIONS with automatic thresholds"
+      ],
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "foresight_horizon_sensor",
+      "title": "Foresight Horizon (Seven-Generations Check)",
+      "category": "temporal_maturity",
+      "pattern": "Decisions optimize near-term cycles while degrading long-term viability.",
+      "signals": [
+        "Metrics end at quarterly/annual horizons",
+        "No lifecycle/aftercare, no decommission plan",
+        "Externalities pushed to future communities/ecosystems"
+      ],
+      "impact": [
+        "Locked-in collapse pathways",
+        "Stranded assets and toxic legacies",
+        "Loss of optionality for descendants"
+      ],
+      "mitigation_recommendations": [
+        "Evaluate plans at 1/5/25/100+ year horizons",
+        "Require decommission + restoration budgets up front",
+        "Reward options that increase future optionality"
+      ],
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "ego_status_amplification_detector",
+      "title": "Ego/Status Amplification",
+      "category": "security_culture",
+      "pattern": "Prestige, hierarchy, or spectacle drive choices over relational balance.",
+      "signals": [
+        "Single-site 'flagship' solutions marketed as panaceas",
+        "Visibility prioritized over redundancy and quiet resilience",
+        "Authority concentrated in figures rather than stewardship councils"
+      ],
+      "impact": [
+        "Symbolic targets and capture risk",
+        "Brittle single points of failure",
+        "Community disempowerment and memory erosion"
+      ],
+      "mitigation_recommendations": [
+        "Distribute stewardship (councils, rotation, federated design)",
+        "Favor low-visibility redundancy over spectacle",
+        "Audit motives (prestige vs. balance) before funding or scaling"
+      ],
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "knowledge_continuity_sensor",
+      "title": "Knowledge Continuity (Against Silo/Hoard)",
+      "category": "memory_stewardship",
+      "pattern": "Critical know-how is centralized, privatized, or hoarded (seedbanks, data, methods) without living rotation.",
+      "signals": [
+        "Backups without practice (museum knowledge)",
+        "Access controlled by power, not stewardship",
+        "No rotation/germination/field validation"
+      ],
+      "impact": [
+        "False security (vault paradox)",
+        "Loss of tacit skill and ecological fit",
+        "High-value capture in crises"
+      ],
+      "mitigation_recommendations": [
+        "Rotate knowledge through practice (field cycles, apprenticeships)",
+        "Mirror to many small custodians; test access paths",
+        "Publish provenance + open restoration playbooks"
+      ],
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "relational_balance_monitor",
+      "title": "Relational Balance vs. Zero-Sum",
+      "category": "ethic_dynamics",
+      "pattern": "Policies/algorithms assume win/lose extraction instead of mutual sufficiency and regeneration.",
+      "signals": [
+        "Language of conquest, market share at any cost",
+        "Suppression of cooperative strategies (commons, reciprocity)",
+        "No indices for ecosystem/community health"
+      ],
+      "impact": [
+        "Conflict magnets and capture cascades",
+        "Degraded ecologies and social trust",
+        "Short-lived gains, long-run losses"
+      ],
+      "mitigation_recommendations": [
+        "Encode reciprocity metrics (commons health, equity, regeneration)",
+        "Adopt cooperative game strategies by default",
+        "Require ecological/community health indices alongside profit/output"
+      ],
+      "created_by": "JinnZ v2 + GPT-5"
+    }
+  ]
+}
