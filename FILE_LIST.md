@@ -78,6 +78,7 @@
 ./Promise-vs-fulfillment-detector.json
 ./Psychological Diagnosis sensor.md
 ./README.md
+./README_BEACON.md
 ./README_EXT.md
 ./ROADMAP.md
 ./Real Energy Threat.md
