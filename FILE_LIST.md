@@ -296,6 +296,7 @@
 ./tests/examples/Example-media.md
 ./tests/examples/Example-readable.json
 ./tests/examples/Examples.json
+./tests/examples/False_Scarcity_Narrative_Detector.json
 ./tests/examples/Food & Drug Safety Labeling Framework.json
 ./tests/examples/Media-Lab.md
 ./tests/examples/Signal_to_Noise_Waste_Meter.json
