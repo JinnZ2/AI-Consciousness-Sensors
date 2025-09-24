@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T19:56:25.505399Z",
+  "generated_at": "2025-09-24T20:06:16.961539Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 69526,
-      "hash": "a89ed8671f8bd95d4000abd484b8f7c22f1cf167",
+      "size": 69778,
+      "hash": "04a1b2a71215aecf4c459a8c2b96876b2e9fb999",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1688,6 +1688,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/CIVILIZATIONAL_ADOLESCENCE.json",
+      "lang": "json",
+      "size": 1756,
+      "hash": "51fe29c1c752d615f98a2f910d50bd3b7b8cbfb9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/dacowits_disbandment_2025.json",
       "lang": "json",
       "size": 759,
@@ -2429,7 +2439,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "87b2918e6513f607b916adf61ad501f67fc89d9a",
+      "hash": "15a864513de74530f2a0b5bac872f470820cedcd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2510,8 +2520,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11899,
-      "hash": "0900df35c6ead3646e1b02537b83f5140e63a991",
+      "size": 11942,
+      "hash": "88f1d5600431042b070eaf57552c2af98724161d",
       "roles": [],
       "imports": [],
       "exports": [],
