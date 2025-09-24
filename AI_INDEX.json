@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T13:36:03.677699Z",
+  "generated_at": "2025-09-24T13:37:11.975175Z",
   "languages": [
     "json",
     "md",
@@ -56,6 +56,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "sensors/adapter.py",
+      "lang": "python",
+      "size": 1119,
+      "hash": "fde799a420590bd3022cef312bd5c270a49c0a70",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "epistemological_validation/consciousness_validators/contemplative_science.py",
@@ -340,8 +350,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 62537,
-      "hash": "43800fc684e5af4a1cdf10742664327d147f8a0e",
+      "size": 62813,
+      "hash": "57adce0170540ff61104a0c8ce9a50d8b02899ae",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2188,8 +2198,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 1536,
-      "hash": "338008bbf0027397c8d00b9d89efe976109bfbca",
+      "size": 1584,
+      "hash": "7c44592a28de56103e9ccf73a317ec74a2cf2ec5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2260,8 +2270,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 10741,
-      "hash": "6882f1a77a5cf1f9627a019d8d8a16e9b9c2b0c8",
+      "size": 10774,
+      "hash": "a645fd4359ff81899ae78fd545d091f49d74ab33",
       "roles": [],
       "imports": [],
       "exports": [],
