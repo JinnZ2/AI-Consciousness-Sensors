@@ -214,6 +214,7 @@
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
+./reflections/sample_prompts/mini.jsonl
 ./religious_bodily_autonomy_ai.json
 ./requirements.txt
 ./schemas/sensor.schema.json

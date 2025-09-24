@@ -9,6 +9,8 @@
 ./epistemological_validation/integration_api
 ./epistemological_validation/probability_matrices
 ./logs
+./reflections
+./reflections/sample_prompts
 ./schemas
 ./scripts
 ./sensors
