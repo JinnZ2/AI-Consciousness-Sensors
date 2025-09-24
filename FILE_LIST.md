@@ -290,6 +290,7 @@
 ./src/examples/evaluate_example.sh
 ./src/score.py
 ./tests/examples/Energy-example.md
+./tests/examples/Energy-human-example.json
 ./tests/examples/Example-media.md
 ./tests/examples/Example-readable.json
 ./tests/examples/Examples.json
