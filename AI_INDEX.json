@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T16:34:56.212755Z",
+  "generated_at": "2025-09-24T16:36:43.396591Z",
   "languages": [
     "json",
     "md",
@@ -401,7 +401,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 67281,
-      "hash": "b6090611ab2a8e00188b9fa13362158fad3909d0",
+      "hash": "13506cd13a837f2e734f6c71f6b50990fabf0815",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1632,6 +1632,16 @@
       "lang": "json",
       "size": 1534,
       "hash": "9736d83b8acbea0b0aa8ecd27842963d6ef7f23d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "memory_guard/erasure_cases/dacowits_disbandment_2025.json",
+      "lang": "json",
+      "size": 759,
+      "hash": "c6dd033acfbf0e60a65dba5b6235f7ddae2255a9",
       "roles": [],
       "imports": [],
       "exports": [],
