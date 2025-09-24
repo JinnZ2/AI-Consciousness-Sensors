@@ -215,6 +215,7 @@
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
 ./religious_bodily_autonomy_ai.json
+./requirements.txt
 ./schemas/sensor.schema.json
 ./scripts/ai_integrator.py
 ./sensor_agenda_simplification.json
