@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T20:29:24.825545Z",
+  "generated_at": "2025-09-24T20:32:54.870436Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 70789,
-      "hash": "3a729cef4c4143b75c9c7a6eca6d5026336f7823",
+      "size": 71047,
+      "hash": "c689323a02dadfb78750786fdb690bf579d0e4d1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1648,6 +1648,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json",
+      "lang": "json",
+      "size": 1691,
+      "hash": "5989a77432d84cc92a0048479bb797f7cedf0b3f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/truncation.json",
       "lang": "json",
       "size": 1920,
@@ -2469,7 +2479,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "b30efd552442c93c12b5424c23593de7b24701ed",
+      "hash": "139d6ad64ae480c333d151f03df05ac659f0ecaf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2550,8 +2560,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 12116,
-      "hash": "a4662f4148db0c57210204746b0a01f5a616c013",
+      "size": 12164,
+      "hash": "4e6983c6f87cd1331d6b23bba8206752bef88807",
       "roles": [],
       "imports": [],
       "exports": [],
