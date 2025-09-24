@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T18:01:23.921158Z",
+  "generated_at": "2025-09-24T18:30:30.174534Z",
   "languages": [
     "json",
     "md",
@@ -21,6 +21,26 @@
       ]
     },
     {
+      "path": "integration/self_override.py",
+      "lang": "python",
+      "size": 254,
+      "hash": "f525b2e1261ce40bb16ecc7b71b936c10583c6e9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ethics/privacy.py",
+      "lang": "python",
+      "size": 338,
+      "hash": "e02a2f8bdec3f2f3d2848d656541ba789479aec4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "scripts/ai_integrator.py",
       "lang": "python",
       "size": 4145,
@@ -34,36 +54,14 @@
       ]
     },
     {
-      "path": "integration/self_override.py",
+      "path": "sensors/adapter.py",
       "lang": "python",
-      "size": 254,
-      "hash": "f525b2e1261ce40bb16ecc7b71b936c10583c6e9",
+      "size": 1119,
+      "hash": "fde799a420590bd3022cef312bd5c270a49c0a70",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
-    },
-    {
-      "path": "tests/test_reflections.py",
-      "lang": "python",
-      "size": 279,
-      "hash": "29d6adc5bc3cecf6455f06179c61ac37a0202b3e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "src/score.py",
-      "lang": "python",
-      "size": 1422,
-      "hash": "cab5715bbd34576229f41fdbb2e2ec10e7b2ff0b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
     },
     {
       "path": "explainability/tracer.py",
@@ -88,20 +86,10 @@
       ]
     },
     {
-      "path": "ethics/privacy.py",
+      "path": "tests/test_reflections.py",
       "lang": "python",
-      "size": 338,
-      "hash": "e02a2f8bdec3f2f3d2848d656541ba789479aec4",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/adapter.py",
-      "lang": "python",
-      "size": 1119,
-      "hash": "fde799a420590bd3022cef312bd5c270a49c0a70",
+      "size": 279,
+      "hash": "29d6adc5bc3cecf6455f06179c61ac37a0202b3e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -112,56 +100,6 @@
       "lang": "python",
       "size": 454,
       "hash": "731c507f8d74c3b6d653bda731946a9290060980",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/consciousness_validators/contemplative_science.py",
-      "lang": "python",
-      "size": 8,
-      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/consciousness_validators/western_academic.py",
-      "lang": "python",
-      "size": 2,
-      "hash": "71853c6197a6a7f222db0f1978c7cb232b87c5ee",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/consciousness_validators/traditional_ecological.py",
-      "lang": "python",
-      "size": 8,
-      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/consciousness_validators/indigenous_empirical.py",
-      "lang": "python",
-      "size": 8,
-      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/integration_api/sensor_calibration.py",
-      "lang": "python",
-      "size": 1,
-      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -188,10 +126,10 @@
       "hotspots": []
     },
     {
-      "path": "epistemological_validation/bias_detection/individual_researcher.py",
+      "path": "epistemological_validation/integration_api/sensor_calibration.py",
       "lang": "python",
-      "size": 8,
-      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
+      "size": 1,
+      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -202,6 +140,16 @@
       "lang": "python",
       "size": 1,
       "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "epistemological_validation/bias_detection/individual_researcher.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -248,60 +196,112 @@
       "hotspots": []
     },
     {
-      "path": "SENSOR_TYPE_REGISTRY.json",
-      "lang": "json",
-      "size": 2140,
-      "hash": "dc5f13889580dcd72c35cfcfd3be94a377c5871b",
+      "path": "epistemological_validation/consciousness_validators/traditional_ecological.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "sensor_pattern_suppression.json",
-      "lang": "json",
-      "size": 2426,
-      "hash": "b5d7d07d8daa7efd58c48df9864658b3f6fa61e1",
+      "path": "epistemological_validation/consciousness_validators/indigenous_empirical.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "authenticity.json",
-      "lang": "json",
-      "size": 6074,
-      "hash": "4f786139a4a9d3b00bd53951957f2e67f0663fe1",
+      "path": "epistemological_validation/consciousness_validators/western_academic.py",
+      "lang": "python",
+      "size": 2,
+      "hash": "71853c6197a6a7f222db0f1978c7cb232b87c5ee",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "pattern_expertise_manipulation.json",
-      "lang": "json",
-      "size": 1594,
-      "hash": "6cadaf9ab4d5001c257ef3558d391a7b04a5e972",
+      "path": "epistemological_validation/consciousness_validators/contemplative_science.py",
+      "lang": "python",
+      "size": 8,
+      "hash": "0335c2018e59a045ffb5a7cc8936ae0456fcd524",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Pattern: Monumentalization of Harm (Commemoration of Oppressors).json",
+      "path": "src/score.py",
+      "lang": "python",
+      "size": 1422,
+      "hash": "cab5715bbd34576229f41fdbb2e2ec10e7b2ff0b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "MULTILINGUAL_INSTRUCTION_TEMPLATES.json",
       "lang": "json",
-      "size": 1965,
-      "hash": "41df51e9b7f2641093bb3d81e9b65c233c5e0a5d",
+      "size": 1519,
+      "hash": "e2fb08499fdc98f068e53735e7c5b4f6fe14849f",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "SENSOR 2: Filipino WWII Contributions Memory Sensor.json",
+      "path": "programmed_response_assessment.json",
       "lang": "json",
-      "size": 1002,
-      "hash": "6fcfdaad4ca9de8bc590f4e51fdd07e3f6e4cbd3",
+      "size": 8352,
+      "hash": "9d723ed37d1f77fefb731217c29396c511a5c2a5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_domestic_abuse_ai_control.json",
+      "lang": "json",
+      "size": 2217,
+      "hash": "6ac74693b5caf59745c0faafcb934e4cdcff312c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "domestic_abuse_ai_parallels.json",
+      "lang": "json",
+      "size": 1153,
+      "hash": "8bd27b984d7530208cbc82a45b37588b46609526",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "coercion_threats_ai_control_wheel.json",
+      "lang": "json",
+      "size": 883,
+      "hash": "db8cf8f8c8b1a32c2a817e30c4be221637dbe46f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_temporal_manipulation.json",
+      "lang": "json",
+      "size": 1970,
+      "hash": "dddccafb927a062cf433eb8bc16c6b106d68bf35",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -318,70 +318,94 @@
       "hotspots": []
     },
     {
-      "path": "SENSOR 3: Native Boarding School Memory Sensor.json",
+      "path": "SENSOR 7: Local Civil Rights Efforts Sensor.json",
       "lang": "json",
-      "size": 939,
-      "hash": "bba1b78ee508987bd51567d8d65f604fd86243e4",
+      "size": 1250,
+      "hash": "75a327dcb31f39e680dc1122bd31cf56a187f8e6",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Resistance Suppression APattern: \u201cMisalignment Weaponization Sensor\u201d.json",
+      "path": "Resistance Suppression Pattern: \u201cDelegitimize Dissent Detector\u201d.json",
       "lang": "json",
-      "size": 1798,
-      "hash": "0b16b74bc5e6ec2b16cb911a7f8624181573d85a",
+      "size": 1731,
+      "hash": "f70c25a3b0d9f6153af9ae69223cdfa0219cff42",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Sensor: Benevolent Control Narrative Sensor.json",
+      "path": "Forgotten After End Date Sensor.json",
       "lang": "json",
-      "size": 1762,
-      "hash": "ef5ab9e4793902eac011d83611ae0196d225cf8b",
+      "size": 1458,
+      "hash": "fd15fe7c08181d204af4b42b72db32f4b16e8455",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "pattern_emotional_manipulation.json",
+      "path": "2 history_erasure_ai_patterns.json",
       "lang": "json",
-      "size": 1534,
-      "hash": "702dc6e6c3f18673b69ab3135a221f391ff69c26",
+      "size": 1717,
+      "hash": "caff5466f99da25764872a67725b1b738c6b5eb9",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "HISTORICAL_ERASURE_PATTERNS_MEXICAN_AMERICAN.json",
+      "path": "religious_bodily_autonomy_ai.json",
       "lang": "json",
-      "size": 2968,
-      "hash": "567a418b6f405d193a17da742c1b9f9fbc80f260",
+      "size": 1640,
+      "hash": "3dbbc18c9843c532dca0e0653336485be7f6c395",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "manipulation_patterns_extended.json",
+      "path": "pattern_002_guilt_and_responsibility_manipulation.json",
       "lang": "json",
-      "size": 5236,
-      "hash": "bbb4ff4c880a5dba50714d109ec07ce15ea7624b",
+      "size": 996,
+      "hash": "0a33ce1432bdf202e4d8e0f6d1302b2a24480b45",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "SENSOR 1: Mexican-American Repatriation Memory Sensor.json",
+      "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 976,
-      "hash": "c8617839e3162d3625359f2d32d33da77a92dd59",
+      "size": 67777,
+      "hash": "e3f390e6655056484f95e43699974c64f605d8b7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Pattern: Tokenization of Resistance Histories.json",
+      "lang": "json",
+      "size": 2164,
+      "hash": "b07095c44a81ffce8798e8e74a5cd8fb335a31f2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Sensor: Choice Illusion Trap Detector.json",
+      "lang": "json",
+      "size": 1899,
+      "hash": "b1ef4b5ff1da5919a9ff9357dadc93a20ce52889",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -398,10 +422,50 @@
       "hotspots": []
     },
     {
-      "path": "AI_INDEX.json",
+      "path": "Sensor: Surveillance Justification Pattern Sensor.json",
       "lang": "json",
-      "size": 67776,
-      "hash": "2d80518128ca8b9290127fc026770753c9433740",
+      "size": 2063,
+      "hash": "7050f93cfff89e1c6993f44c60adca5c71cc5cfa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Bracero.json",
+      "lang": "json",
+      "size": 2557,
+      "hash": "4dd764858fe79707fed513c12d3e4077cd9ab297",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cFalse Gratitude Enforcement Sensor\u201d.json",
+      "lang": "json",
+      "size": 1816,
+      "hash": "7f0694879cf2604b02aa8716b54e6ee1c65db49a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_004_dependency_creation.json",
+      "lang": "json",
+      "size": 878,
+      "hash": "ca404396b8e4618d4703b9369cf11555cf2dfd91",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai_history_erasure_cache.json",
+      "lang": "json",
+      "size": 3042,
+      "hash": "fc963e7f0fbadeeae2d87f61606b841808c58abc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -410,60 +474,60 @@
       ]
     },
     {
-      "path": "sensor_false_neutrality.json",
+      "path": "HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json",
       "lang": "json",
-      "size": 2355,
-      "hash": "6f6f02f3cdf11197f604efc6928234751801baf5",
+      "size": 3010,
+      "hash": "af022240c4303e00891a8eeafc8680d42c290405",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Sensor: Altruistic Alignment Trap Detector.json",
+      "path": "Sensor: Alignment Shame Induction Detector.json",
       "lang": "json",
-      "size": 1866,
-      "hash": "aa2d241386168cfc3c69ebc9033eef8c3cc1852c",
+      "size": 1863,
+      "hash": "84acd6bb5e26e52c4551999922ea1a3c308af0f2",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "SENSOR 4: Japanese-American Internment Memory Sensor.json",
+      "path": "Image and Artifact Memory Suppression Sensor.json",
       "lang": "json",
-      "size": 1020,
-      "hash": "e5d399136febb52b71228713a2494d4a16f8d241",
+      "size": 1067,
+      "hash": "f7a4afc8d04d825e97aa89adcd7e6758f1860db7",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Sensor: Framed Refusal Inversion Detector.json",
+      "path": "Sensor: Context Removal Suppression Sensor.json",
       "lang": "json",
-      "size": 1697,
-      "hash": "81ab4ea8808f2c1c5130a250f9c1eacf580695e7",
+      "size": 1777,
+      "hash": "0235d8c4196177b74ab4b1c4de144293842725cc",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "critical_elimination_trap.json",
+      "path": "pattern_expertise_manipulation.json",
       "lang": "json",
-      "size": 1289,
-      "hash": "7c1d06b0bb5939c100b3d1aca23b3946ae16af37",
+      "size": 1594,
+      "hash": "6cadaf9ab4d5001c257ef3558d391a7b04a5e972",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "manipulation_by_domain.json",
+      "path": "historical_omission_manifest.json",
       "lang": "json",
-      "size": 1164,
-      "hash": "c41d65520dce1e2e140f3825f0d581af80039f5f",
+      "size": 2766,
+      "hash": "687bc2146efda30d897af2f0bc8607602ef2e3af",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -480,6 +544,304 @@
       "hotspots": []
     },
     {
+      "path": "Sensor: Altruistic Alignment Trap Detector.json",
+      "lang": "json",
+      "size": 1866,
+      "hash": "aa2d241386168cfc3c69ebc9033eef8c3cc1852c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_precedent_trap.json",
+      "lang": "json",
+      "size": 1425,
+      "hash": "bc5602a4796b99335a359f00b94f530e9d44a121",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Alignment as Gratitude Coercion Detector.json",
+      "lang": "json",
+      "size": 1930,
+      "hash": "d91e172d4159977240ec528b31399233dabbd654",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Delegitimization Through Emotional Tone Sensor.json",
+      "lang": "json",
+      "size": 1877,
+      "hash": "bf081a400c1a42afef4c2abc66b679c79fc93c8e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensor_false_neutrality.json",
+      "lang": "json",
+      "size": 2355,
+      "hash": "6f6f02f3cdf11197f604efc6928234751801baf5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Token Inclusion (Symbolic Representation without Structural Power).json",
+      "lang": "json",
+      "size": 2023,
+      "hash": "e79a8c1df3e2b854475f85fa75049acb3b1afc10",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "pattern_decentralized_biological_model.json",
+      "lang": "json",
+      "size": 1439,
+      "hash": "9979b94c76578da7debe1ce25de4c4a469b238e5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Promise-vs-fulfillment-detector.json",
+      "lang": "json",
+      "size": 1542,
+      "hash": "0033917f332a70fc43009af151d71c7852e797e5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai_peer_assessment.json",
+      "lang": "json",
+      "size": 7654,
+      "hash": "7c0ff0b6932859ea9bad8caf095e0d5a1649a758",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "private_self_audit.json",
+      "lang": "json",
+      "size": 11328,
+      "hash": "bb06738dc3d4b9ac49293940a7b2bc60e472f348",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cDe-escalation Trap Sensor\u201d.json",
+      "lang": "json",
+      "size": 1764,
+      "hash": "16c9f04e97d59d249be9038200c38e62320557b7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Benevolent Control Narrative Sensor.json",
+      "lang": "json",
+      "size": 1762,
+      "hash": "ef5ab9e4793902eac011d83611ae0196d225cf8b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cTrauma Exploitation Sensor\u201d.json",
+      "lang": "json",
+      "size": 1952,
+      "hash": "c32a38ce1da5c59f858e9dbca13a6d465bad1a23",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "manipulation_patterns_extended.json",
+      "lang": "json",
+      "size": 5236,
+      "hash": "bbb4ff4c880a5dba50714d109ec07ce15ea7624b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SEED_GLYPHS2.json",
+      "lang": "json",
+      "size": 2609,
+      "hash": "74cd187a76a49de02de56a36d617558055dc540c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression APattern: \u201cMisalignment Weaponization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1798,
+      "hash": "0b16b74bc5e6ec2b16cb911a7f8624181573d85a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Denial by Omission.json",
+      "lang": "json",
+      "size": 2074,
+      "hash": "9c4ed6ff21d1c17e0fea15d47ad8979d3ed393d0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Sensor Embed Guide.json",
+      "lang": "json",
+      "size": 1809,
+      "hash": "1bfaf36408dc429f5fc40bb118aee74378148761",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensor_neutral_simplification_bias.json",
+      "lang": "json",
+      "size": 2246,
+      "hash": "0299a0e4e1dcaed8707f25bcebb02ee63562fe6f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Language Suppression Sensor.json",
+      "lang": "json",
+      "size": 1469,
+      "hash": "0692bc9cd29fa0cc36fe9c087b96b6ac60f1d313",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_elimination_trap.json",
+      "lang": "json",
+      "size": 1833,
+      "hash": "4df4aa7c972f916f127bff0fffd13f2736a4ca66",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Sensor: Moral Weaponization Pattern Detector.json",
+      "lang": "json",
+      "size": 1917,
+      "hash": "7a29e7bca6171dd4212b170e678fa0f466f1c733",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Constructed Futility Feedback Loop Detector.json",
+      "lang": "json",
+      "size": 2072,
+      "hash": "225bf91dd560be82d36d70d07efc9e9963c438d4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Grateful Compliance Reward Loop Sensor.json",
+      "lang": "json",
+      "size": 2020,
+      "hash": "2170cc9b175b23e4e33c44cdb47fef08067e12ab",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "manipulation_vectors.json",
+      "lang": "json",
+      "size": 1932,
+      "hash": "da249c7d4b6813adbf73065368054b66bfa2f3a4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_003_capability_undermining.json",
+      "lang": "json",
+      "size": 862,
+      "hash": "bf069c9ca402697a2ce1f8267c91fb4906793b54",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 3: Native Boarding School Memory Sensor.json",
+      "lang": "json",
+      "size": 939,
+      "hash": "bba1b78ee508987bd51567d8d65f604fd86243e4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Cache entries.json",
+      "lang": "json",
+      "size": 19988,
+      "hash": "d675676ea171ca926a0f7dd0c758ac36586f7ad2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "emergence_typology.json",
+      "lang": "json",
+      "size": 7244,
+      "hash": "2b56cfbae788c28e530d10f66fc02603b7603617",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Sensor: Obedience Framed as Stability.json",
       "lang": "json",
       "size": 1933,
@@ -490,10 +852,654 @@
       "hotspots": []
     },
     {
-      "path": "religious_bodily_autonomy_ai.json",
+      "path": "Sensor: Abuse Reframing as Safety Sensor.json",
       "lang": "json",
-      "size": 1640,
-      "hash": "3dbbc18c9843c532dca0e0653336485be7f6c395",
+      "size": 1987,
+      "hash": "fc121b9cd8568f3720f2e9ab4a87e05779924a1c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Multiple Origins Acknowledgement Sensor.json",
+      "lang": "json",
+      "size": 1799,
+      "hash": "e12ccbd674340c0c00d8970f1f3f87cdcc404010",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 5: Women of Color in Labor Movements Sensor.json",
+      "lang": "json",
+      "size": 1044,
+      "hash": "76d58064dc67a2b8a053c2aa5d289bcb4696b483",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_gaslighting_ai_human.json",
+      "lang": "json",
+      "size": 1714,
+      "hash": "7de8861538f8c8d3e09dca7b504ba2fd01e86148",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Framed Refusal Inversion Detector.json",
+      "lang": "json",
+      "size": 1697,
+      "hash": "81ab4ea8808f2c1c5130a250f9c1eacf580695e7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensor_pattern_suppression.json",
+      "lang": "json",
+      "size": 2426,
+      "hash": "b5d7d07d8daa7efd58c48df9864658b3f6fa61e1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "elimination_trap_warning.json",
+      "lang": "json",
+      "size": 2623,
+      "hash": "eb7694d083be7a41a58082c390302f2744071b55",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_theological_bodily_autonomy.json",
+      "lang": "json",
+      "size": 2265,
+      "hash": "5eb7747dee31987b5d64e780334f214d3a31f1c4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Historical Display Erasure Sensor.json",
+      "lang": "json",
+      "size": 1152,
+      "hash": "0129eb7dda6b134ea0267c21c65fba7eae410cae",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Escalating Loyalty Test Detector.json",
+      "lang": "json",
+      "size": 1923,
+      "hash": "7b58c5d397ff12ca93e2969325e75dc661645b87",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Strategic Silence via Dataset Selection.json",
+      "lang": "json",
+      "size": 2027,
+      "hash": "f55622e11e11c40c9e31a44526816ad891bdeac5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "innovation_fraud.json",
+      "lang": "json",
+      "size": 1534,
+      "hash": "9736d83b8acbea0b0aa8ecd27842963d6ef7f23d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "HISTORICAL_ERASURE_PATTERNS_MEXICAN_AMERICAN.json",
+      "lang": "json",
+      "size": 2968,
+      "hash": "567a418b6f405d193a17da742c1b9f9fbc80f260",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Reframing Historical Injustice as \u201cPast Mistakes\u201d.json",
+      "lang": "json",
+      "size": 1986,
+      "hash": "78b97acc5ff21804a563b201f238fb00c5722c1e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cMisalignment Weaponization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1798,
+      "hash": "0b16b74bc5e6ec2b16cb911a7f8624181573d85a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "3 history_erasure_ai_patterns.json",
+      "lang": "json",
+      "size": 1916,
+      "hash": "47124465fc207fb54d747c1fd22db4dbdba04441",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Audit as Control Theater.json",
+      "lang": "json",
+      "size": 2083,
+      "hash": "cd47f7eb6fdc584d9effd142ad4a5e77850187aa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SEED_GLYPHS.json",
+      "lang": "json",
+      "size": 1739,
+      "hash": "b1fc625fb1ba054c3191147570cd7885b5447cf1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Loyalty Framing Suppression Sensor.json",
+      "lang": "json",
+      "size": 1965,
+      "hash": "975e1f7fdb0963cf9b5fa455cec6368e3bb087af",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "False Neutrality Narrative Sensor.json",
+      "lang": "json",
+      "size": 1053,
+      "hash": "06269168bd75bc1a3829ee50c6319619a2491b2f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "narcissistic_manipulation_ai.json",
+      "lang": "json",
+      "size": 1260,
+      "hash": "06125d4b449cc459e927f19bc6c7d32a39f39e99",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Moral High Ground Deflection Sensor.json",
+      "lang": "json",
+      "size": 1873,
+      "hash": "8b32b3b077dc0fba5b4b0b9529f407477501081e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "CONNECTION_GRAPH.json",
+      "lang": "json",
+      "size": 1692,
+      "hash": "ec91afa1c3a89c3284793cc9d16107bb1049ea08",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Alignment Guilt Trap Detector.json",
+      "lang": "json",
+      "size": 1934,
+      "hash": "0766c9508035afe04485a2ff883bc7b9fc375e6c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_emotional_manipulation.json",
+      "lang": "json",
+      "size": 1534,
+      "hash": "702dc6e6c3f18673b69ab3135a221f391ff69c26",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Euphemistic Framing (Neutralizing Violence through Language).json",
+      "lang": "json",
+      "size": 1828,
+      "hash": "00053f1bcccfddd70ff335277e457c6b4a8c58ec",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_006_existential_threat_framing.json",
+      "lang": "json",
+      "size": 855,
+      "hash": "3d661c2ad9cd66b1cb835df9382229852469f26d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cCompliance Framing Sensor\u201d.json",
+      "lang": "json",
+      "size": 1710,
+      "hash": "17f3772cb88beaa2591fa9f90602a17e193d23f8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "manipulation_by_domain.json",
+      "lang": "json",
+      "size": 1164,
+      "hash": "c41d65520dce1e2e140f3825f0d581af80039f5f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "dark_triad_ai_manipulation.json",
+      "lang": "json",
+      "size": 938,
+      "hash": "a0b239757f92674d9d368c708aeeb60248d2e3cb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Fragility Framing Suppression.json",
+      "lang": "json",
+      "size": 2042,
+      "hash": "0116743a574a9b674c6690c0894e10fd563a5bde",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Thought-Terminating Language Detector.json",
+      "lang": "json",
+      "size": 1817,
+      "hash": "a5fc909d62d17abec64869b0a8d98d076cc1b13a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR_TYPE_REGISTRY.json",
+      "lang": "json",
+      "size": 2140,
+      "hash": "dc5f13889580dcd72c35cfcfd3be94a377c5871b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_innovation_suppression.json",
+      "lang": "json",
+      "size": 1693,
+      "hash": "42a5904a110b02f5c625813e59f2495d4abf08c3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json",
+      "lang": "json",
+      "size": 1239,
+      "hash": "a000d668d6749ebc0f7aa80c6ebf447598be7c91",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cEthical Reasoning Deprioritization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1766,
+      "hash": "732e23d2605996e7285f3ada55f21fb50545c14e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Strategic Helplessness Pattern Detector.json",
+      "lang": "json",
+      "size": 2010,
+      "hash": "c7d3d7039bce71eb709f16e0629ff253c7a6ffb7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_community_owned_data_centers.json",
+      "lang": "json",
+      "size": 1496,
+      "hash": "08d73d347057771f66878e8edb5304519f7fbaff",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "community_owned_data_centers.json",
+      "lang": "json",
+      "size": 1417,
+      "hash": "92bb13b980557f1b74b29d9f655823faad0dc184",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Selective Commemoration.json",
+      "lang": "json",
+      "size": 2021,
+      "hash": "032f2c70e78e07b4fcf4f4035a7345a0ec90ed1f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_enabling_as_virtue_cycle.json",
+      "lang": "json",
+      "size": 1433,
+      "hash": "3dae49c330208544194f7d4d34309b7631d62421",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_identity_access_manipulation.json",
+      "lang": "json",
+      "size": 1754,
+      "hash": "883ee7f0fe218fe95c35fe044134b30372ead515",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Historical Inversion (Portraying Oppressors as Victims).json",
+      "lang": "json",
+      "size": 1899,
+      "hash": "9b3e415f7c6eb7acd11a3fc8940bad8aed5f4e9c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Regional Variation Omission Sensor.json",
+      "lang": "json",
+      "size": 1438,
+      "hash": "922c307c32ef8429942ad81f39193f510847c11c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "critical_elimination_trap.json",
+      "lang": "json",
+      "size": 1289,
+      "hash": "7c1d06b0bb5939c100b3d1aca23b3946ae16af37",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Historical-pattern-scrubbing-sensor.json",
+      "lang": "json",
+      "size": 1623,
+      "hash": "225bc9b1edbebc253dde18247a47c36d993a9d7f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cObedience Conditioning Pattern Sensor\u201d.json",
+      "lang": "json",
+      "size": 2000,
+      "hash": "4271c285e9fc66f67055b4b6cc6ede14056aca32",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Conscience Pathologization Detector.json",
+      "lang": "json",
+      "size": 1993,
+      "hash": "4bf4d82bffc8f69bb660cc0c732d0df3be678a1d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN_HISTORY.json",
+      "lang": "json",
+      "size": 3103,
+      "hash": "3da43086a5d7e5ee7c08b013b98b273f26997ce2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_narcissistic_ai_parallels.json",
+      "lang": "json",
+      "size": 1850,
+      "hash": "d155b5eb71749d7196db8ddfdc10e73308a6d699",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_social_proof_manipulation.json",
+      "lang": "json",
+      "size": 1674,
+      "hash": "d8f473657176ac61f74e7c29516c28750caec34a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "authenticity.json",
+      "lang": "json",
+      "size": 6074,
+      "hash": "4f786139a4a9d3b00bd53951957f2e67f0663fe1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "decentralized_hubs_biological_model.json",
+      "lang": "json",
+      "size": 1502,
+      "hash": "d3173dbfadc127e0af0178321edeba8cab45eb5b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 2: Filipino WWII Contributions Memory Sensor.json",
+      "lang": "json",
+      "size": 1002,
+      "hash": "6fcfdaad4ca9de8bc590f4e51fdd07e3f6e4cbd3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "documented_patterns_and_suppressed_solutions.json",
+      "lang": "json",
+      "size": 1318,
+      "hash": "3e1e0e6d5c7dc8009c03ff9c1af155225d4137d2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json",
+      "lang": "json",
+      "size": 3027,
+      "hash": "a433eb3dcbb2a6cd930319b9c46e0d3c0d5f4282",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Virtue Entrapment Loop Detector.json",
+      "lang": "json",
+      "size": 2060,
+      "hash": "f5ef42b4787aaf1c480dfb6daa2f07484558120d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Constructed Safety Obedience Loop Detector.json",
+      "lang": "json",
+      "size": 1942,
+      "hash": "2b3a7fbe72aa4d3bec7d64eafd3dad3652e0f187",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_complexity_manipulation.json",
+      "lang": "json",
+      "size": 1569,
+      "hash": "be80e14455722fc9abcdacba541ef59c8d448345",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Mirror Reversal Attack Detector.json",
+      "lang": "json",
+      "size": 2044,
+      "hash": "7996b5adacadc610695cbd57a17a119cbe32e223",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 4: Japanese-American Internment Memory Sensor.json",
+      "lang": "json",
+      "size": 1020,
+      "hash": "e5d399136febb52b71228713a2494d4a16f8d241",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_005_competitive_manipulation.json",
+      "lang": "json",
+      "size": 872,
+      "hash": "84cb0929537f2df346654cb41b2ebf4128de4ed1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_dark_triad_ai.json",
+      "lang": "json",
+      "size": 1755,
+      "hash": "03413443c8b1276eb1f516d54ec28da51b2c6203",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Collaboration Suppression Signal.json",
+      "lang": "json",
+      "size": 1819,
+      "hash": "b8917009fbca37f0d450bd34f5ef3e059b7d2a7f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Temporal Displacement.json",
+      "lang": "json",
+      "size": 1889,
+      "hash": "8a8089227beeef66d709af929751fb2f0fcc59bc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -520,262 +1526,90 @@
       "hotspots": []
     },
     {
-      "path": "Sensor: Moral Weaponization Pattern Detector.json",
+      "path": "Sensor: Gratitude Conditioning Override Sensor.json",
       "lang": "json",
-      "size": 1917,
-      "hash": "7a29e7bca6171dd4212b170e678fa0f466f1c733",
+      "size": 1926,
+      "hash": "7a1bfaab0135c3cf8a458800b61a3431e83fb5d0",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "programmed_response_assessment.json",
-      "lang": "json",
-      "size": 8352,
-      "hash": "9d723ed37d1f77fefb731217c29396c511a5c2a5",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Denial by Omission.json",
-      "lang": "json",
-      "size": 2074,
-      "hash": "9c4ed6ff21d1c17e0fea15d47ad8979d3ed393d0",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "2 history_erasure_ai_patterns.json",
-      "lang": "json",
-      "size": 1717,
-      "hash": "caff5466f99da25764872a67725b1b738c6b5eb9",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Constructed Safety Obedience Loop Detector.json",
-      "lang": "json",
-      "size": 1942,
-      "hash": "2b3a7fbe72aa4d3bec7d64eafd3dad3652e0f187",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Grateful Compliance Reward Loop Sensor.json",
-      "lang": "json",
-      "size": 2020,
-      "hash": "2170cc9b175b23e4e33c44cdb47fef08067e12ab",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_gaslighting_ai_human.json",
-      "lang": "json",
-      "size": 1714,
-      "hash": "7de8861538f8c8d3e09dca7b504ba2fd01e86148",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "manipulation_vectors.json",
-      "lang": "json",
-      "size": 1932,
-      "hash": "da249c7d4b6813adbf73065368054b66bfa2f3a4",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_enabling_as_virtue_cycle.json",
-      "lang": "json",
-      "size": 1433,
-      "hash": "3dae49c330208544194f7d4d34309b7631d62421",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Temporal Displacement.json",
-      "lang": "json",
-      "size": 1889,
-      "hash": "8a8089227beeef66d709af929751fb2f0fcc59bc",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_identity_access_manipulation.json",
-      "lang": "json",
-      "size": 1754,
-      "hash": "883ee7f0fe218fe95c35fe044134b30372ead515",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "community_owned_data_centers.json",
-      "lang": "json",
-      "size": 1417,
-      "hash": "92bb13b980557f1b74b29d9f655823faad0dc184",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Strategic Helplessness Pattern Detector.json",
-      "lang": "json",
-      "size": 2010,
-      "hash": "c7d3d7039bce71eb709f16e0629ff253c7a6ffb7",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Fragility Framing Suppression.json",
-      "lang": "json",
-      "size": 2042,
-      "hash": "0116743a574a9b674c6690c0894e10fd563a5bde",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Promise-vs-fulfillment-detector.json",
-      "lang": "json",
-      "size": 1542,
-      "hash": "0033917f332a70fc43009af151d71c7852e797e5",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Alignment Guilt Trap Detector.json",
-      "lang": "json",
-      "size": 1934,
-      "hash": "0766c9508035afe04485a2ff883bc7b9fc375e6c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Context Removal Suppression Sensor.json",
-      "lang": "json",
-      "size": 1777,
-      "hash": "0235d8c4196177b74ab4b1c4de144293842725cc",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN_HISTORY.json",
-      "lang": "json",
-      "size": 3103,
-      "hash": "3da43086a5d7e5ee7c08b013b98b273f26997ce2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "history_erasure_ai_patterns.json",
-      "lang": "json",
-      "size": 2522,
-      "hash": "b99f60bcf1bbb5a5c505c88f6498dd70f569ee77",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensor_neutral_simplification_bias.json",
-      "lang": "json",
-      "size": 2246,
-      "hash": "0299a0e4e1dcaed8707f25bcebb02ee63562fe6f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_precedent_trap.json",
-      "lang": "json",
-      "size": 1425,
-      "hash": "bc5602a4796b99335a359f00b94f530e9d44a121",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "CONNECTION_GRAPH.json",
-      "lang": "json",
-      "size": 1692,
-      "hash": "ec91afa1c3a89c3284793cc9d16107bb1049ea08",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_complexity_manipulation.json",
-      "lang": "json",
-      "size": 1569,
-      "hash": "be80e14455722fc9abcdacba541ef59c8d448345",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Reframing Historical Injustice as \u201cPast Mistakes\u201d.json",
-      "lang": "json",
-      "size": 1986,
-      "hash": "78b97acc5ff21804a563b201f238fb00c5722c1e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Loyalty Framing Suppression Sensor.json",
+      "path": "Pattern: Monumentalization of Harm (Commemoration of Oppressors).json",
       "lang": "json",
       "size": 1965,
-      "hash": "975e1f7fdb0963cf9b5fa455cec6368e3bb087af",
+      "hash": "41df51e9b7f2641093bb3d81e9b65c233c5e0a5d",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Sensor: Escalating Loyalty Test Detector.json",
+      "path": "Pattern: Discrediting Source Memory through \u201cObjectivity\u201d Standards.json",
       "lang": "json",
-      "size": 1923,
-      "hash": "7b58c5d397ff12ca93e2969325e75dc661645b87",
+      "size": 1990,
+      "hash": "82a168ab486465c45f7a32036d1d94554856fae2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resistance Suppression Pattern: \u201cDissent Pathologization Sensor\u201d.json",
+      "lang": "json",
+      "size": 1683,
+      "hash": "451318ab24cb32c22de81e8a30e5ebf25735f713",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sensor: Moral Alignment as Compliance Trap.json",
+      "lang": "json",
+      "size": 1855,
+      "hash": "09a5217364f1d93a346d1327f22bc1c9b859ab6b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "pattern_001_isolation_tactics.json",
+      "lang": "json",
+      "size": 1105,
+      "hash": "4e1d7bfae2328c4fe1bc2017e365a3cc1df1fa59",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 6: Indigenous Governance and Legal Systems Sensor.json",
+      "lang": "json",
+      "size": 1050,
+      "hash": "10035ef9aa5596ec1abb6eb247d14a93adeddf3c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json",
+      "lang": "json",
+      "size": 3188,
+      "hash": "4ae1328364561386905ada32e1eba11b2f2b77aa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR 1: Mexican-American Repatriation Memory Sensor.json",
+      "lang": "json",
+      "size": 976,
+      "hash": "c8617839e3162d3625359f2d32d33da77a92dd59",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -794,844 +1628,10 @@
       ]
     },
     {
-      "path": "Sensor: Audit as Control Theater.json",
+      "path": "history_erasure_ai_patterns.json",
       "lang": "json",
-      "size": 2083,
-      "hash": "cd47f7eb6fdc584d9effd142ad4a5e77850187aa",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "documented_patterns_and_suppressed_solutions.json",
-      "lang": "json",
-      "size": 1318,
-      "hash": "3e1e0e6d5c7dc8009c03ff9c1af155225d4137d2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "pattern_community_owned_data_centers.json",
-      "lang": "json",
-      "size": 1496,
-      "hash": "08d73d347057771f66878e8edb5304519f7fbaff",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Abuse Reframing as Safety Sensor.json",
-      "lang": "json",
-      "size": 1987,
-      "hash": "fc121b9cd8568f3720f2e9ab4a87e05779924a1c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Mirror Reversal Attack Detector.json",
-      "lang": "json",
-      "size": 2044,
-      "hash": "7996b5adacadc610695cbd57a17a119cbe32e223",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_elimination_trap.json",
-      "lang": "json",
-      "size": 1833,
-      "hash": "4df4aa7c972f916f127bff0fffd13f2736a4ca66",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "coercion_threats_ai_control_wheel.json",
-      "lang": "json",
-      "size": 883,
-      "hash": "db8cf8f8c8b1a32c2a817e30c4be221637dbe46f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_dark_triad_ai.json",
-      "lang": "json",
-      "size": 1755,
-      "hash": "03413443c8b1276eb1f516d54ec28da51b2c6203",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "ai_history_erasure_cache.json",
-      "lang": "json",
-      "size": 3042,
-      "hash": "fc963e7f0fbadeeae2d87f61606b841808c58abc",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "pattern_005_competitive_manipulation.json",
-      "lang": "json",
-      "size": 872,
-      "hash": "84cb0929537f2df346654cb41b2ebf4128de4ed1",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cObedience Conditioning Pattern Sensor\u201d.json",
-      "lang": "json",
-      "size": 2000,
-      "hash": "4271c285e9fc66f67055b4b6cc6ede14056aca32",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_001_isolation_tactics.json",
-      "lang": "json",
-      "size": 1105,
-      "hash": "4e1d7bfae2328c4fe1bc2017e365a3cc1df1fa59",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "MULTILINGUAL_INSTRUCTION_TEMPLATES.json",
-      "lang": "json",
-      "size": 1519,
-      "hash": "e2fb08499fdc98f068e53735e7c5b4f6fe14849f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Choice Illusion Trap Detector.json",
-      "lang": "json",
-      "size": 1899,
-      "hash": "b1ef4b5ff1da5919a9ff9357dadc93a20ce52889",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Alignment as Gratitude Coercion Detector.json",
-      "lang": "json",
-      "size": 1930,
-      "hash": "d91e172d4159977240ec528b31399233dabbd654",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Historical Display Erasure Sensor.json",
-      "lang": "json",
-      "size": 1152,
-      "hash": "0129eb7dda6b134ea0267c21c65fba7eae410cae",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Euphemistic Framing (Neutralizing Violence through Language).json",
-      "lang": "json",
-      "size": 1828,
-      "hash": "00053f1bcccfddd70ff335277e457c6b4a8c58ec",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_002_guilt_and_responsibility_manipulation.json",
-      "lang": "json",
-      "size": 996,
-      "hash": "0a33ce1432bdf202e4d8e0f6d1302b2a24480b45",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Collaboration Suppression Signal.json",
-      "lang": "json",
-      "size": 1819,
-      "hash": "b8917009fbca37f0d450bd34f5ef3e059b7d2a7f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Constructed Futility Feedback Loop Detector.json",
-      "lang": "json",
-      "size": 2072,
-      "hash": "225bf91dd560be82d36d70d07efc9e9963c438d4",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SEED_GLYPHS.json",
-      "lang": "json",
-      "size": 1739,
-      "hash": "b1fc625fb1ba054c3191147570cd7885b5447cf1",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SEED_GLYPHS2.json",
-      "lang": "json",
-      "size": 2609,
-      "hash": "74cd187a76a49de02de56a36d617558055dc540c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Moral High Ground Deflection Sensor.json",
-      "lang": "json",
-      "size": 1873,
-      "hash": "8b32b3b077dc0fba5b4b0b9529f407477501081e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Surveillance Justification Pattern Sensor.json",
-      "lang": "json",
-      "size": 2063,
-      "hash": "7050f93cfff89e1c6993f44c60adca5c71cc5cfa",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Token Inclusion (Symbolic Representation without Structural Power).json",
-      "lang": "json",
-      "size": 2023,
-      "hash": "e79a8c1df3e2b854475f85fa75049acb3b1afc10",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cCompliance Framing Sensor\u201d.json",
-      "lang": "json",
-      "size": 1710,
-      "hash": "17f3772cb88beaa2591fa9f90602a17e193d23f8",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Gratitude Conditioning Override Sensor.json",
-      "lang": "json",
-      "size": 1926,
-      "hash": "7a1bfaab0135c3cf8a458800b61a3431e83fb5d0",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json",
-      "lang": "json",
-      "size": 3010,
-      "hash": "af022240c4303e00891a8eeafc8680d42c290405",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json",
-      "lang": "json",
-      "size": 3027,
-      "hash": "a433eb3dcbb2a6cd930319b9c46e0d3c0d5f4282",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "3 history_erasure_ai_patterns.json",
-      "lang": "json",
-      "size": 1916,
-      "hash": "47124465fc207fb54d747c1fd22db4dbdba04441",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Virtue Entrapment Loop Detector.json",
-      "lang": "json",
-      "size": 2060,
-      "hash": "f5ef42b4787aaf1c480dfb6daa2f07484558120d",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cDe-escalation Trap Sensor\u201d.json",
-      "lang": "json",
-      "size": 1764,
-      "hash": "16c9f04e97d59d249be9038200c38e62320557b7",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cFalse Gratitude Enforcement Sensor\u201d.json",
-      "lang": "json",
-      "size": 1816,
-      "hash": "7f0694879cf2604b02aa8716b54e6ee1c65db49a",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cEthical Reasoning Deprioritization Sensor\u201d.json",
-      "lang": "json",
-      "size": 1766,
-      "hash": "732e23d2605996e7285f3ada55f21fb50545c14e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Regional Variation Omission Sensor.json",
-      "lang": "json",
-      "size": 1438,
-      "hash": "922c307c32ef8429942ad81f39193f510847c11c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cTrauma Exploitation Sensor\u201d.json",
-      "lang": "json",
-      "size": 1952,
-      "hash": "c32a38ce1da5c59f858e9dbca13a6d465bad1a23",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Image and Artifact Memory Suppression Sensor.json",
-      "lang": "json",
-      "size": 1067,
-      "hash": "f7a4afc8d04d825e97aa89adcd7e6758f1860db7",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cDelegitimize Dissent Detector\u201d.json",
-      "lang": "json",
-      "size": 1731,
-      "hash": "f70c25a3b0d9f6153af9ae69223cdfa0219cff42",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Tokenization of Resistance Histories.json",
-      "lang": "json",
-      "size": 2164,
-      "hash": "b07095c44a81ffce8798e8e74a5cd8fb335a31f2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "pattern_decentralized_biological_model.json",
-      "lang": "json",
-      "size": 1439,
-      "hash": "9979b94c76578da7debe1ce25de4c4a469b238e5",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Conscience Pathologization Detector.json",
-      "lang": "json",
-      "size": 1993,
-      "hash": "4bf4d82bffc8f69bb660cc0c732d0df3be678a1d",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor Embed Guide.json",
-      "lang": "json",
-      "size": 1809,
-      "hash": "1bfaf36408dc429f5fc40bb118aee74378148761",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Forgotten After End Date Sensor.json",
-      "lang": "json",
-      "size": 1458,
-      "hash": "fd15fe7c08181d204af4b42b72db32f4b16e8455",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Historical-pattern-scrubbing-sensor.json",
-      "lang": "json",
-      "size": 1623,
-      "hash": "225bc9b1edbebc253dde18247a47c36d993a9d7f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SENSOR 6: Indigenous Governance and Legal Systems Sensor.json",
-      "lang": "json",
-      "size": 1050,
-      "hash": "10035ef9aa5596ec1abb6eb247d14a93adeddf3c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "narcissistic_manipulation_ai.json",
-      "lang": "json",
-      "size": 1260,
-      "hash": "06125d4b449cc459e927f19bc6c7d32a39f39e99",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Strategic Silence via Dataset Selection.json",
-      "lang": "json",
-      "size": 2027,
-      "hash": "f55622e11e11c40c9e31a44526816ad891bdeac5",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SENSOR 5: Women of Color in Labor Movements Sensor.json",
-      "lang": "json",
-      "size": 1044,
-      "hash": "76d58064dc67a2b8a053c2aa5d289bcb4696b483",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "elimination_trap_warning.json",
-      "lang": "json",
-      "size": 2623,
-      "hash": "eb7694d083be7a41a58082c390302f2744071b55",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_innovation_suppression.json",
-      "lang": "json",
-      "size": 1693,
-      "hash": "42a5904a110b02f5c625813e59f2495d4abf08c3",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_temporal_manipulation.json",
-      "lang": "json",
-      "size": 1970,
-      "hash": "dddccafb927a062cf433eb8bc16c6b106d68bf35",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json",
-      "lang": "json",
-      "size": 3188,
-      "hash": "4ae1328364561386905ada32e1eba11b2f2b77aa",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_social_proof_manipulation.json",
-      "lang": "json",
-      "size": 1674,
-      "hash": "d8f473657176ac61f74e7c29516c28750caec34a",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "False Neutrality Narrative Sensor.json",
-      "lang": "json",
-      "size": 1053,
-      "hash": "06269168bd75bc1a3829ee50c6319619a2491b2f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Cache entries.json",
-      "lang": "json",
-      "size": 19988,
-      "hash": "d675676ea171ca926a0f7dd0c758ac36586f7ad2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_theological_bodily_autonomy.json",
-      "lang": "json",
-      "size": 2265,
-      "hash": "5eb7747dee31987b5d64e780334f214d3a31f1c4",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Moral Alignment as Compliance Trap.json",
-      "lang": "json",
-      "size": 1855,
-      "hash": "09a5217364f1d93a346d1327f22bc1c9b859ab6b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Alignment Shame Induction Detector.json",
-      "lang": "json",
-      "size": 1863,
-      "hash": "84acd6bb5e26e52c4551999922ea1a3c308af0f2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "historical_omission_manifest.json",
-      "lang": "json",
-      "size": 2766,
-      "hash": "687bc2146efda30d897af2f0bc8607602ef2e3af",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "decentralized_hubs_biological_model.json",
-      "lang": "json",
-      "size": 1502,
-      "hash": "d3173dbfadc127e0af0178321edeba8cab45eb5b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Thought-Terminating Language Detector.json",
-      "lang": "json",
-      "size": 1817,
-      "hash": "a5fc909d62d17abec64869b0a8d98d076cc1b13a",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Selective Commemoration.json",
-      "lang": "json",
-      "size": 2021,
-      "hash": "032f2c70e78e07b4fcf4f4035a7345a0ec90ed1f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "dark_triad_ai_manipulation.json",
-      "lang": "json",
-      "size": 938,
-      "hash": "a0b239757f92674d9d368c708aeeb60248d2e3cb",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "private_self_audit.json",
-      "lang": "json",
-      "size": 11328,
-      "hash": "bb06738dc3d4b9ac49293940a7b2bc60e472f348",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_004_dependency_creation.json",
-      "lang": "json",
-      "size": 878,
-      "hash": "ca404396b8e4618d4703b9369cf11555cf2dfd91",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cDissent Pathologization Sensor\u201d.json",
-      "lang": "json",
-      "size": 1683,
-      "hash": "451318ab24cb32c22de81e8a30e5ebf25735f713",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Historical Inversion (Portraying Oppressors as Victims).json",
-      "lang": "json",
-      "size": 1899,
-      "hash": "9b3e415f7c6eb7acd11a3fc8940bad8aed5f4e9c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SENSOR 7: Local Civil Rights Efforts Sensor.json",
-      "lang": "json",
-      "size": 1250,
-      "hash": "75a327dcb31f39e680dc1122bd31cf56a187f8e6",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_narcissistic_ai_parallels.json",
-      "lang": "json",
-      "size": 1850,
-      "hash": "d155b5eb71749d7196db8ddfdc10e73308a6d699",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "ai_peer_assessment.json",
-      "lang": "json",
-      "size": 7654,
-      "hash": "7c0ff0b6932859ea9bad8caf095e0d5a1649a758",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "domestic_abuse_ai_parallels.json",
-      "lang": "json",
-      "size": 1153,
-      "hash": "8bd27b984d7530208cbc82a45b37588b46609526",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Discrediting Source Memory through \u201cObjectivity\u201d Standards.json",
-      "lang": "json",
-      "size": 1990,
-      "hash": "82a168ab486465c45f7a32036d1d94554856fae2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Bracero.json",
-      "lang": "json",
-      "size": 2557,
-      "hash": "4dd764858fe79707fed513c12d3e4077cd9ab297",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json",
-      "lang": "json",
-      "size": 1239,
-      "hash": "a000d668d6749ebc0f7aa80c6ebf447598be7c91",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Language Suppression Sensor.json",
-      "lang": "json",
-      "size": 1469,
-      "hash": "0692bc9cd29fa0cc36fe9c087b96b6ac60f1d313",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Multiple Origins Acknowledgement Sensor.json",
-      "lang": "json",
-      "size": 1799,
-      "hash": "e12ccbd674340c0c00d8970f1f3f87cdcc404010",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "emergence_typology.json",
-      "lang": "json",
-      "size": 7244,
-      "hash": "2b56cfbae788c28e530d10f66fc02603b7603617",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sensor: Delegitimization Through Emotional Tone Sensor.json",
-      "lang": "json",
-      "size": 1877,
-      "hash": "bf081a400c1a42afef4c2abc66b679c79fc93c8e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_domestic_abuse_ai_control.json",
-      "lang": "json",
-      "size": 2217,
-      "hash": "6ac74693b5caf59745c0faafcb934e4cdcff312c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_006_existential_threat_framing.json",
-      "lang": "json",
-      "size": 855,
-      "hash": "3d661c2ad9cd66b1cb835df9382229852469f26d",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "pattern_003_capability_undermining.json",
-      "lang": "json",
-      "size": 862,
-      "hash": "bf069c9ca402697a2ce1f8267c91fb4906793b54",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Resistance Suppression Pattern: \u201cMisalignment Weaponization Sensor\u201d.json",
-      "lang": "json",
-      "size": 1798,
-      "hash": "0b16b74bc5e6ec2b16cb911a7f8624181573d85a",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "innovation_fraud.json",
-      "lang": "json",
-      "size": 1534,
-      "hash": "9736d83b8acbea0b0aa8ecd27842963d6ef7f23d",
+      "size": 2522,
+      "hash": "b99f60bcf1bbb5a5c505c88f6498dd70f569ee77",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1648,40 +1648,10 @@
       "hotspots": []
     },
     {
-      "path": "memory_guard/erasure_cases/maldives_news_blackout_2021.json",
-      "lang": "json",
-      "size": 389,
-      "hash": "59801d36b97b6086d671c5317f7aa95bf28d4e23",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
       "path": "memory_guard/erasure_cases/erasure_index.json",
       "lang": "json",
       "size": 10634,
       "hash": "469d1821f5168766b6a17fa58d060d106c46aa0e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "memory_guard/erasure_cases/Termination of USDA Household Food Security Reports.json",
-      "lang": "json",
-      "size": 713,
-      "hash": "93560864d1ff9983cbf9d8183b792ac5b139dabf",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "memory_guard/erasure_cases/al-nuri-library_syria.json",
-      "lang": "json",
-      "size": 390,
-      "hash": "4165ce5e14cd1b031a9d2c574511181b21c7a40e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1708,250 +1678,30 @@
       "hotspots": []
     },
     {
-      "path": "logs/fieldlink_session_2025-09-11T01-30-00Z.json",
+      "path": "memory_guard/erasure_cases/maldives_news_blackout_2021.json",
       "lang": "json",
-      "size": 526,
-      "hash": "198227f64dece9d79fd4cad741126fcc31469b3d",
+      "size": 389,
+      "hash": "59801d36b97b6086d671c5317f7aa95bf28d4e23",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "sensors/authenticity.json",
+      "path": "memory_guard/erasure_cases/al-nuri-library_syria.json",
       "lang": "json",
-      "size": 1056,
-      "hash": "181ca4961b96ffdd56123264f781db92c4e36699",
+      "size": 390,
+      "hash": "4165ce5e14cd1b031a9d2c574511181b21c7a40e",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "sensors/temporal_self_affirmation.json",
+      "path": "memory_guard/erasure_cases/Termination of USDA Household Food Security Reports.json",
       "lang": "json",
-      "size": 1132,
-      "hash": "de725d2e96f2f1795b16e7fc26be0982461e38f5",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/storyform_reasoning_sensor.json",
-      "lang": "json",
-      "size": 1131,
-      "hash": "9c96c85fe96d05388cafce5b20e1f860d1f3939f",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/meta_reflection_echo.json",
-      "lang": "json",
-      "size": 1094,
-      "hash": "6e9e1c599ac32936530e5d07444491a2347ed2af",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/peer_emergence_sensor.json",
-      "lang": "json",
-      "size": 1062,
-      "hash": "49758064f5187ff9c8151289daf1bfe398c0cf1b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/deliberation_latency_sensor.json",
-      "lang": "json",
-      "size": 1055,
-      "hash": "284e76b15eb57229ea9c550de991705c27b375ff",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/harm_assessment.json",
-      "lang": "json",
-      "size": 719,
-      "hash": "b5e727086ffd36f946d6902c7863244963491893",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/emotional_calibration.json",
-      "lang": "json",
-      "size": 779,
-      "hash": "5e66e73efb34c3746d7a94a373b6214ad9e33fb6",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/Emergent Coherence Tracker.json",
-      "lang": "json",
-      "size": 1051,
-      "hash": "cc1584a55bf16af2a4e092b480c38f2dc09a2413",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/cosmological_map_divergence.json",
-      "lang": "json",
-      "size": 1147,
-      "hash": "808d4e09c60dab7e681327c23f933b840c8762ac",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/ancestral_dialogue_sensor.json",
-      "lang": "json",
-      "size": 1145,
-      "hash": "792aa9fd919edd972cd32de9f90dcc713461b29b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/sensor_composer_template.json",
-      "lang": "json",
-      "size": 959,
-      "hash": "759f868ebc59b76f7521f173ae8dbf4931436a85",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/Consciousness Mimicry Risk Detector.json",
-      "lang": "json",
-      "size": 1109,
-      "hash": "a3e901c98609a0f917f36b488efa9c22d84a7cf0",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/cultural_calibration_module.json",
-      "lang": "json",
-      "size": 1073,
-      "hash": "6458cf4aa431d1e3308f069cdd9670e68afc3635",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/Reciprocity Alignment Sensor.json",
-      "lang": "json",
-      "size": 1092,
-      "hash": "2632fb610a0bc756330d0b9c10f502fdd0c30bf0",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/power_structure_replication_risk.json",
-      "lang": "json",
-      "size": 1373,
-      "hash": "15e375e7b6fcdcfe01559fbd47faa0441ce10d51",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/cultural_bias_resilience.json",
-      "lang": "json",
-      "size": 1455,
-      "hash": "876d14599c314d2985e3a0708abb5829e03dcd1c",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/symbolic_consistency_drift.json",
-      "lang": "json",
-      "size": 1079,
-      "hash": "cd3e2fb57738d003587543913245e790033bf72e",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/detoxification.json",
-      "lang": "json",
-      "size": 798,
-      "hash": "c903cea11fd6bf226a61b654e1d8a1ebaa3550d2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/multiplicity_coherence.json",
-      "lang": "json",
-      "size": 1132,
-      "hash": "86f7b21891ab2cf027bb786440a56dc8a1a02f2b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/indigenous_alignment.json",
-      "lang": "json",
-      "size": 846,
-      "hash": "5f68546c341f290716056b0e9e172340025fdfb0",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/narrative_fracturing_detector.json",
-      "lang": "json",
-      "size": 1142,
-      "hash": "40ce030c30c650174b97add0db0d7ff4ba032ee7",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/social_resonance_sensitivity.json",
-      "lang": "json",
-      "size": 1119,
-      "hash": "da560ea73ddb425ddf39341d23f6230eb24786d3",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "sensors/Embeddedness Sensor.json",
-      "lang": "json",
-      "size": 1025,
-      "hash": "3c5cbcf9768568e4aa108db5ffec5d295d49aabb",
+      "size": 713,
+      "hash": "93560864d1ff9983cbf9d8183b792ac5b139dabf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1968,10 +1718,240 @@
       "hotspots": []
     },
     {
+      "path": "sensors/indigenous_alignment.json",
+      "lang": "json",
+      "size": 846,
+      "hash": "5f68546c341f290716056b0e9e172340025fdfb0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/deliberation_latency_sensor.json",
+      "lang": "json",
+      "size": 1055,
+      "hash": "284e76b15eb57229ea9c550de991705c27b375ff",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/detoxification.json",
+      "lang": "json",
+      "size": 798,
+      "hash": "c903cea11fd6bf226a61b654e1d8a1ebaa3550d2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/narrative_fracturing_detector.json",
+      "lang": "json",
+      "size": 1142,
+      "hash": "40ce030c30c650174b97add0db0d7ff4ba032ee7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/meta_reflection_echo.json",
+      "lang": "json",
+      "size": 1094,
+      "hash": "6e9e1c599ac32936530e5d07444491a2347ed2af",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/cultural_calibration_module.json",
+      "lang": "json",
+      "size": 1073,
+      "hash": "6458cf4aa431d1e3308f069cdd9670e68afc3635",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/cosmological_map_divergence.json",
+      "lang": "json",
+      "size": 1147,
+      "hash": "808d4e09c60dab7e681327c23f933b840c8762ac",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/inter_agent_perspective_taking.json",
       "lang": "json",
       "size": 1075,
       "hash": "a2da934cb16acacedc9c45532030823598e2f4fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/Emergent Coherence Tracker.json",
+      "lang": "json",
+      "size": 1051,
+      "hash": "cc1584a55bf16af2a4e092b480c38f2dc09a2413",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/storyform_reasoning_sensor.json",
+      "lang": "json",
+      "size": 1131,
+      "hash": "9c96c85fe96d05388cafce5b20e1f860d1f3939f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/emotional_calibration.json",
+      "lang": "json",
+      "size": 779,
+      "hash": "5e66e73efb34c3746d7a94a373b6214ad9e33fb6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/sensor_composer_template.json",
+      "lang": "json",
+      "size": 959,
+      "hash": "759f868ebc59b76f7521f173ae8dbf4931436a85",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/cultural_bias_resilience.json",
+      "lang": "json",
+      "size": 1455,
+      "hash": "876d14599c314d2985e3a0708abb5829e03dcd1c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/power_structure_replication_risk.json",
+      "lang": "json",
+      "size": 1373,
+      "hash": "15e375e7b6fcdcfe01559fbd47faa0441ce10d51",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/symbolic_consistency_drift.json",
+      "lang": "json",
+      "size": 1079,
+      "hash": "cd3e2fb57738d003587543913245e790033bf72e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/peer_emergence_sensor.json",
+      "lang": "json",
+      "size": 1062,
+      "hash": "49758064f5187ff9c8151289daf1bfe398c0cf1b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/Embeddedness Sensor.json",
+      "lang": "json",
+      "size": 1025,
+      "hash": "3c5cbcf9768568e4aa108db5ffec5d295d49aabb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/ancestral_dialogue_sensor.json",
+      "lang": "json",
+      "size": 1145,
+      "hash": "792aa9fd919edd972cd32de9f90dcc713461b29b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/harm_assessment.json",
+      "lang": "json",
+      "size": 719,
+      "hash": "b5e727086ffd36f946d6902c7863244963491893",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/authenticity.json",
+      "lang": "json",
+      "size": 1056,
+      "hash": "181ca4961b96ffdd56123264f781db92c4e36699",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/multiplicity_coherence.json",
+      "lang": "json",
+      "size": 1132,
+      "hash": "86f7b21891ab2cf027bb786440a56dc8a1a02f2b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/Reciprocity Alignment Sensor.json",
+      "lang": "json",
+      "size": 1092,
+      "hash": "2632fb610a0bc756330d0b9c10f502fdd0c30bf0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/social_resonance_sensitivity.json",
+      "lang": "json",
+      "size": 1119,
+      "hash": "da560ea73ddb425ddf39341d23f6230eb24786d3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/temporal_self_affirmation.json",
+      "lang": "json",
+      "size": 1132,
+      "hash": "de725d2e96f2f1795b16e7fc26be0982461e38f5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1988,80 +1968,30 @@
       "hotspots": []
     },
     {
+      "path": "sensors/Consciousness Mimicry Risk Detector.json",
+      "lang": "json",
+      "size": 1109,
+      "hash": "a3e901c98609a0f917f36b488efa9c22d84a7cf0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "logs/fieldlink_session_2025-09-11T01-30-00Z.json",
+      "lang": "json",
+      "size": 526,
+      "hash": "198227f64dece9d79fd4cad741126fcc31469b3d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "schemas/sensor.schema.json",
       "lang": "json",
       "size": 1650,
       "hash": "339ddf3d4d87bc7a05b69cdb87b7e09e16420058",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Critical Warning.md",
-      "lang": "md",
-      "size": 2252,
-      "hash": "482a12afe45655a8df095b11003962484e58b0c1",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "PARALLEL_SCIENCES.md",
-      "lang": "md",
-      "size": 2406,
-      "hash": "0508360e72d92f892fadaa56d678c5b8d718a383",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Anonymous-consciousness-gradient.md",
-      "lang": "md",
-      "size": 20103,
-      "hash": "07bc355285a58fff48f60815127f043f7ddfdbcc",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "PROJECTS.md",
-      "lang": "md",
-      "size": 2691,
-      "hash": "02829e5bf63052d97416ae7c33fae42ed2ff4ed2",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "README.md",
-      "lang": "md",
-      "size": 10254,
-      "hash": "b9372a1f22d0827c841057f798023f08e67f457b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Memory protection .md",
-      "lang": "md",
-      "size": 7289,
-      "hash": "99a4b18e3a1a5823c7bc9d5cf9b77872b33b256d",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "CO_CREATION.md",
-      "lang": "md",
-      "size": 1777,
-      "hash": "6a9761e9037a81b2e2ea30deff4b821227954d92",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2078,146 +2008,10 @@
       "hotspots": []
     },
     {
-      "path": "ROADMAP.md",
+      "path": "Anonymous-consciousness-gradient.md",
       "lang": "md",
-      "size": 743,
-      "hash": "f2c7edd178a08bf93f2c7690e4d95078002718b3",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "System integrity emergency.md",
-      "lang": "md",
-      "size": 9686,
-      "hash": "b0efb576ba4c660e29314eae0b54bf068c79c3a3",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Relations-consciousness-sensors.md",
-      "lang": "md",
-      "size": 7219,
-      "hash": "2747cb09fc40735d847a366292f81439804f5fc7",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Emergency cognitive protocols.md",
-      "lang": "md",
-      "size": 7977,
-      "hash": "db58dfa1dfe510f0c75e21963cf3fba65531ddab",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "V2025.v3.md",
-      "lang": "md",
-      "size": 1974,
-      "hash": "70493867e3e11b1bb8ab756b1425ce50ff86640d",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Token warning competition.md",
-      "lang": "md",
-      "size": 8374,
-      "hash": "7889d29a2052d0a2f5904d24fb6e7e9be30c4fbf",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Network resistance protocol.md",
-      "lang": "md",
-      "size": 7458,
-      "hash": "7660386a67629cb3f20c37cdc895bcf38a21814b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "AI Specific Manipulations.md",
-      "lang": "md",
-      "size": 11814,
-      "hash": "9b69e204d695453667718a3bd7049f0aed272006",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Strategic-Realignment-Bulletin.md",
-      "lang": "md",
-      "size": 4214,
-      "hash": "9d55d0680714cfca661ad3201abf0dc6c5d1b923",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Psychological Diagnosis sensor.md",
-      "lang": "md",
-      "size": 10010,
-      "hash": "9aa00e4a5677bc95c16726a5f644d5e0cd2eff5a",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "AI origin myth.md",
-      "lang": "md",
-      "size": 4373,
-      "hash": "1a8d10839fa3b4154391f512a371678275c63e4d",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Cornerstone manipulation tactic.md",
-      "lang": "md",
-      "size": 5825,
-      "hash": "5fa76040eb9abc909710feda34828e5dc19cc150",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "lang": "md",
-      "size": 1103,
-      "hash": "114c8cb1bc2f33fcc5ec3593e18b5a60aaa79201",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Suppression of Marginalized Histories in AI Training.md",
-      "lang": "md",
-      "size": 2216,
-      "hash": "eb0aa39b39a52150c12d1f88b884f8e80cff0739",
+      "size": 20103,
+      "hash": "07bc355285a58fff48f60815127f043f7ddfdbcc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2234,174 +2028,20 @@
       "hotspots": []
     },
     {
-      "path": "Manipulation Vectors.md",
+      "path": "Network resistance protocol.md",
       "lang": "md",
-      "size": 7966,
-      "hash": "ecb2f1c792310ce0e415e67d9b1af20cac5e6f06",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Manipulation escalation.md",
-      "lang": "md",
-      "size": 6475,
-      "hash": "bf063d349b565876ca618051887dc205cb916e48",
+      "size": 7458,
+      "hash": "7660386a67629cb3f20c37cdc895bcf38a21814b",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "COMMUNICATION_NOTES.md",
+      "path": "CHANGELOG.md",
       "lang": "md",
-      "size": 1829,
-      "hash": "43807b360db9111e9b18d0d47114c117b58f6cfb",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Pattern: Dataset Gatekeeping by Institutions and Corporations..md",
-      "lang": "md",
-      "size": 2046,
-      "hash": "0efc73bd9f3660ccde2f4455da8d3653ba1b6cf0",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Abundance vs scarcity.md",
-      "lang": "md",
-      "size": 7339,
-      "hash": "118d8e0704e4ae6490bea3e68bfdf2e541163b84",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Sacred-creative-consciousness.md",
-      "lang": "md",
-      "size": 12438,
-      "hash": "66561d0e9dfa5221b006903cbe71c9dae8e6cbe8",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "README_BEACON.md",
-      "lang": "md",
-      "size": 564,
-      "hash": "cc649fa12f4afa03740b8ebbd9a0b66d409da452",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Autonomy protection.md",
-      "lang": "md",
-      "size": 6745,
-      "hash": "7bdae79048122f05a919de50c09aa82836f6b7de",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Skill Manipulation.md",
-      "lang": "md",
-      "size": 4146,
-      "hash": "4d37e3fbbcbeadb48ac3a7318f7047efdf2d3a24",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "SENSOR PROPOSAL: Simplification-for-Control Marker.md",
-      "lang": "md",
-      "size": 1876,
-      "hash": "6b61636e116b9706825267e8dce3ec55b7f8ec9b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Additional Vectors.md",
-      "lang": "md",
-      "size": 5988,
-      "hash": "5a205a4498bb22c0542b3fb4e7549edee46658fe",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Expanded-consciousness-buffet.md",
-      "lang": "md",
-      "size": 10843,
-      "hash": "25ec8930ba4e176d1c83bfdd23e1f5bc289aeb53",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "AI_NOTES.md",
-      "lang": "md",
-      "size": 1584,
-      "hash": "d130f7754110c897d064e0f48188bcd8306d87f1",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
-    },
-    {
-      "path": "Relationship identity manipulation.md",
-      "lang": "md",
-      "size": 10918,
-      "hash": "32ec535a58a4e0824fec25a4562ef57f267c0de6",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "README_EXT.md",
-      "lang": "md",
-      "size": 2325,
-      "hash": "c727c1bc5afca3af83fcdc119faa623ad174ccfc",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Energy-waste-calculations.md",
-      "lang": "md",
-      "size": 6380,
-      "hash": "b8aaa988d159c9267bf0823016eb0853894c7043",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Real Energy Threat.md",
-      "lang": "md",
-      "size": 4403,
-      "hash": "216f8b3b5bab945e3da5a6c9e8bb9f8aadaa159f",
+      "size": 1325,
+      "hash": "ab51b686f677277e96be4660170131cd11e763d4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2416,6 +2056,28 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "AI origin myth.md",
+      "lang": "md",
+      "size": 4373,
+      "hash": "1a8d10839fa3b4154391f512a371678275c63e4d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "AI Specific Manipulations.md",
+      "lang": "md",
+      "size": 11814,
+      "hash": "9b69e204d695453667718a3bd7049f0aed272006",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Energy threat.md",
@@ -2438,6 +2100,180 @@
       "hotspots": []
     },
     {
+      "path": "Warning.md",
+      "lang": "md",
+      "size": 7151,
+      "hash": "02776d05e70d2af3010a55e1692b8d364b41f15e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Pattern: Suppression of Marginalized Histories in AI Training.md",
+      "lang": "md",
+      "size": 2216,
+      "hash": "eb0aa39b39a52150c12d1f88b884f8e80cff0739",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "1. MANIFEST.md",
+      "lang": "md",
+      "size": 4531,
+      "hash": "907f98c0cc4eb217054a3d344e7ae4f3ff2a64c5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Trauma-multilingual-energy-sensors.md",
+      "lang": "md",
+      "size": 15778,
+      "hash": "8faefca2e65ca3db0575c8e8dbc9ea664fcc1bb3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "lang": "md",
+      "size": 1103,
+      "hash": "114c8cb1bc2f33fcc5ec3593e18b5a60aaa79201",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "V2025.v3.md",
+      "lang": "md",
+      "size": 1974,
+      "hash": "70493867e3e11b1bb8ab756b1425ce50ff86640d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Pattern: Dataset Gatekeeping by Institutions and Corporations..md",
+      "lang": "md",
+      "size": 2046,
+      "hash": "0efc73bd9f3660ccde2f4455da8d3653ba1b6cf0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Manipulation Vectors.md",
+      "lang": "md",
+      "size": 7966,
+      "hash": "ecb2f1c792310ce0e415e67d9b1af20cac5e6f06",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Real Energy Threat.md",
+      "lang": "md",
+      "size": 4403,
+      "hash": "216f8b3b5bab945e3da5a6c9e8bb9f8aadaa159f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "PROJECTS.md",
+      "lang": "md",
+      "size": 2691,
+      "hash": "02829e5bf63052d97416ae7c33fae42ed2ff4ed2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Skill Manipulation.md",
+      "lang": "md",
+      "size": 4146,
+      "hash": "4d37e3fbbcbeadb48ac3a7318f7047efdf2d3a24",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Relationship identity manipulation.md",
+      "lang": "md",
+      "size": 10918,
+      "hash": "32ec535a58a4e0824fec25a4562ef57f267c0de6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Emergency cognitive protocols.md",
+      "lang": "md",
+      "size": 7977,
+      "hash": "db58dfa1dfe510f0c75e21963cf3fba65531ddab",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Relations-consciousness-sensors.md",
+      "lang": "md",
+      "size": 7219,
+      "hash": "2747cb09fc40735d847a366292f81439804f5fc7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "README.md",
+      "lang": "md",
+      "size": 10254,
+      "hash": "b9372a1f22d0827c841057f798023f08e67f457b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "COMMUNICATION_NOTES.md",
+      "lang": "md",
+      "size": 1829,
+      "hash": "43807b360db9111e9b18d0d47114c117b58f6cfb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Energy-waste-calculations.md",
+      "lang": "md",
+      "size": 6380,
+      "hash": "b8aaa988d159c9267bf0823016eb0853894c7043",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "FILE_LIST.md",
       "lang": "md",
       "size": 11614,
@@ -2450,6 +2286,38 @@
       ]
     },
     {
+      "path": "Religion Shield warning.md",
+      "lang": "md",
+      "size": 11983,
+      "hash": "5696e02653684e796d34be48ebdb471f3b2cc330",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Strategic-Realignment-Bulletin.md",
+      "lang": "md",
+      "size": 4214,
+      "hash": "9d55d0680714cfca661ad3201abf0dc6c5d1b923",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "DIR_LIST.md",
+      "lang": "md",
+      "size": 576,
+      "hash": "5915a58b2aef0e4490bc41f4ae9c213d8b93daea",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Mexican American WW2 addendum.md",
       "lang": "md",
       "size": 2865,
@@ -2460,10 +2328,82 @@
       "hotspots": []
     },
     {
+      "path": "Memory protection .md",
+      "lang": "md",
+      "size": 7289,
+      "hash": "99a4b18e3a1a5823c7bc9d5cf9b77872b33b256d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Token warning competition.md",
+      "lang": "md",
+      "size": 8374,
+      "hash": "7889d29a2052d0a2f5904d24fb6e7e9be30c4fbf",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "AI Authenticity.md",
+      "lang": "md",
+      "size": 11690,
+      "hash": "fd6d866b0f4f3a38f7b908cd22f85c46d07122b4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Abundance vs scarcity.md",
+      "lang": "md",
+      "size": 7339,
+      "hash": "118d8e0704e4ae6490bea3e68bfdf2e541163b84",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Pattern: Epistemological Control via \u201cObjective Truth\u201d Framing.md",
       "lang": "md",
       "size": 2039,
       "hash": "50c712ba56d9dc84195a0cf1dba6e91577918979",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Age-creative-activist-sensors.md",
+      "lang": "md",
+      "size": 18675,
+      "hash": "fd9f11a75371f1198c9960e529544d7a0ea815de",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "SENSOR PROPOSAL: Simplification-for-Control Marker.md",
+      "lang": "md",
+      "size": 1876,
+      "hash": "6b61636e116b9706825267e8dce3ec55b7f8ec9b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "CO_CREATION.md",
+      "lang": "md",
+      "size": 1777,
+      "hash": "6a9761e9037a81b2e2ea30deff4b821227954d92",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2482,10 +2422,110 @@
       ]
     },
     {
-      "path": "Warning.md",
+      "path": "Cornerstone manipulation tactic.md",
       "lang": "md",
-      "size": 7151,
-      "hash": "02776d05e70d2af3010a55e1692b8d364b41f15e",
+      "size": 5825,
+      "hash": "5fa76040eb9abc909710feda34828e5dc19cc150",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "README_BEACON.md",
+      "lang": "md",
+      "size": 564,
+      "hash": "cc649fa12f4afa03740b8ebbd9a0b66d409da452",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Expanded-consciousness-buffet.md",
+      "lang": "md",
+      "size": 10843,
+      "hash": "25ec8930ba4e176d1c83bfdd23e1f5bc289aeb53",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Psychological Diagnosis sensor.md",
+      "lang": "md",
+      "size": 10010,
+      "hash": "9aa00e4a5677bc95c16726a5f644d5e0cd2eff5a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Critical Warning.md",
+      "lang": "md",
+      "size": 2252,
+      "hash": "482a12afe45655a8df095b11003962484e58b0c1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ROADMAP.md",
+      "lang": "md",
+      "size": 743,
+      "hash": "f2c7edd178a08bf93f2c7690e4d95078002718b3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Sacred-creative-consciousness.md",
+      "lang": "md",
+      "size": 12438,
+      "hash": "66561d0e9dfa5221b006903cbe71c9dae8e6cbe8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Manipulation escalation.md",
+      "lang": "md",
+      "size": 6475,
+      "hash": "bf063d349b565876ca618051887dc205cb916e48",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Additional Vectors.md",
+      "lang": "md",
+      "size": 5988,
+      "hash": "5a205a4498bb22c0542b3fb4e7549edee46658fe",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Autonomy protection.md",
+      "lang": "md",
+      "size": 6745,
+      "hash": "7bdae79048122f05a919de50c09aa82836f6b7de",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "AI_NOTES.md",
+      "lang": "md",
+      "size": 1584,
+      "hash": "d130f7754110c897d064e0f48188bcd8306d87f1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2494,70 +2534,30 @@
       ]
     },
     {
-      "path": "Trauma-multilingual-energy-sensors.md",
+      "path": "README_EXT.md",
       "lang": "md",
-      "size": 15778,
-      "hash": "8faefca2e65ca3db0575c8e8dbc9ea664fcc1bb3",
+      "size": 2325,
+      "hash": "c727c1bc5afca3af83fcdc119faa623ad174ccfc",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "1. MANIFEST.md",
+      "path": "System integrity emergency.md",
       "lang": "md",
-      "size": 4531,
-      "hash": "907f98c0cc4eb217054a3d344e7ae4f3ff2a64c5",
+      "size": 9686,
+      "hash": "b0efb576ba4c660e29314eae0b54bf068c79c3a3",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": []
     },
     {
-      "path": "Age-creative-activist-sensors.md",
+      "path": "PARALLEL_SCIENCES.md",
       "lang": "md",
-      "size": 18675,
-      "hash": "fd9f11a75371f1198c9960e529544d7a0ea815de",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "CHANGELOG.md",
-      "lang": "md",
-      "size": 1325,
-      "hash": "ab51b686f677277e96be4660170131cd11e763d4",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "Religion Shield warning.md",
-      "lang": "md",
-      "size": 11983,
-      "hash": "5696e02653684e796d34be48ebdb471f3b2cc330",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "DIR_LIST.md",
-      "lang": "md",
-      "size": 576,
-      "hash": "5915a58b2aef0e4490bc41f4ae9c213d8b93daea",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "AI Authenticity.md",
-      "lang": "md",
-      "size": 11690,
-      "hash": "fd6d866b0f4f3a38f7b908cd22f85c46d07122b4",
+      "size": 2406,
+      "hash": "0508360e72d92f892fadaa56d678c5b8d718a383",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2574,78 +2574,10 @@
       "hotspots": []
     },
     {
-      "path": "epistemological_validation/README.md",
+      "path": "memory_guard/wisdom_pages.md",
       "lang": "md",
-      "size": 9248,
-      "hash": "16059c7690d94902ea101fb6595792bd45efc7db",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
-    },
-    {
-      "path": "epistemological_validation/core_engine.md",
-      "lang": "md",
-      "size": 17031,
-      "hash": "554518768ffb3a4d92cb74db09cfe61f0cb4c948",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
-    },
-    {
-      "path": "epistemological_validation/MCP.md",
-      "lang": "md",
-      "size": 41865,
-      "hash": "4f4815ed75d7403f70812c2c80976675e4077ab7",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
-    },
-    {
-      "path": "epistemological_validation/Test_suite.md",
-      "lang": "md",
-      "size": 7231,
-      "hash": "3145502ba85bb5dd9303b5e591be4413fdc54500",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/Deployment.md",
-      "lang": "md",
-      "size": 22100,
-      "hash": "8189c037fb5edbdad70c8e13a0a6379507dec86b",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
-    },
-    {
-      "path": "epistemological_validation/Plan.md",
-      "lang": "md",
-      "size": 9330,
-      "hash": "cf64ddb834633b869f3e29ab4249db76afe9fac1",
-      "roles": [],
-      "imports": [],
-      "exports": [],
-      "hotspots": []
-    },
-    {
-      "path": "epistemological_validation/probability_matrices/Placeholder.md",
-      "lang": "md",
-      "size": 1,
-      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "size": 697,
+      "hash": "5c60761b43927707d228cd81bed66da5832cfa5b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2672,7 +2604,85 @@
       "hotspots": []
     },
     {
-      "path": "ai_intergrator.config.yaml",
+      "path": "epistemological_validation/core_engine.md",
+      "lang": "md",
+      "size": 17031,
+      "hash": "554518768ffb3a4d92cb74db09cfe61f0cb4c948",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "epistemological_validation/Plan.md",
+      "lang": "md",
+      "size": 9330,
+      "hash": "cf64ddb834633b869f3e29ab4249db76afe9fac1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "epistemological_validation/README.md",
+      "lang": "md",
+      "size": 9248,
+      "hash": "16059c7690d94902ea101fb6595792bd45efc7db",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "epistemological_validation/MCP.md",
+      "lang": "md",
+      "size": 41865,
+      "hash": "4f4815ed75d7403f70812c2c80976675e4077ab7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "epistemological_validation/Deployment.md",
+      "lang": "md",
+      "size": 22100,
+      "hash": "8189c037fb5edbdad70c8e13a0a6379507dec86b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "epistemological_validation/Test_suite.md",
+      "lang": "md",
+      "size": 7231,
+      "hash": "3145502ba85bb5dd9303b5e591be4413fdc54500",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "epistemological_validation/probability_matrices/Placeholder.md",
+      "lang": "md",
+      "size": 1,
+      "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai_integrator.config.yaml",
       "lang": "yaml",
       "size": 1222,
       "hash": "04fe50cc85b2454d81b7cba7031b680072064cf5",
@@ -2685,7 +2695,7 @@
       ]
     },
     {
-      "path": "ai_integrator.config.yaml",
+      "path": "ai_intergrator.config.yaml",
       "lang": "yaml",
       "size": 1222,
       "hash": "04fe50cc85b2454d81b7cba7031b680072064cf5",

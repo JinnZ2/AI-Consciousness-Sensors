@@ -1,34 +1,34 @@
 # AI Notes
-- Files indexed: 263
+- Files indexed: 264
 - Languages: json, md, python, yaml
 - Hotspot files: 28
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
-- src/score.py: Debug left on
 - reflections/run_reflections.py: Debug left on
+- src/score.py: Debug left on
 - AI_INDEX.json: Secrets in code
-- Pattern: Denial by Omission.json: Secrets in code
-- HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
-- documented_patterns_and_suppressed_solutions.json: Secrets in code
-- pattern_elimination_trap.json: Secrets in code
+- Pattern: Tokenization of Resistance Histories.json: Secrets in code
 - ai_history_erasure_cache.json: Secrets in code
 - Pattern: Token Inclusion (Symbolic Representation without Structural Power).json: Secrets in code
-- Pattern: Tokenization of Resistance Histories.json: Secrets in code
 - ai_peer_assessment.json: Secrets in code
+- Pattern: Denial by Omission.json: Secrets in code
+- pattern_elimination_trap.json: Secrets in code
 - SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
-- Token warning competition.md: Secrets in code
+- documented_patterns_and_suppressed_solutions.json: Secrets in code
+- HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
 - AI Specific Manipulations.md: Secrets in code
-- Strategic-Realignment-Bulletin.md: Secrets in code
-- Manipulation Vectors.md: Secrets in code
-- AI_NOTES.md: Secrets in code
-- FILE_LIST.md: Secrets in code
-- AI Manipulation Detection.md: Secrets in code
 - Warning.md: Secrets in code
-- epistemological_validation/README.md: Debug left on
+- Manipulation Vectors.md: Secrets in code
+- FILE_LIST.md: Secrets in code
+- Strategic-Realignment-Bulletin.md: Secrets in code
+- Token warning competition.md: Secrets in code
+- AI Manipulation Detection.md: Secrets in code
+- AI_NOTES.md: Secrets in code
 - epistemological_validation/core_engine.md: Debug left on
+- epistemological_validation/README.md: Debug left on
 - epistemological_validation/MCP.md: Debug left on
 - epistemological_validation/Deployment.md: Debug left on
-- ai_intergrator.config.yaml: Debug left on, Secrets in code
 - ai_integrator.config.yaml: Debug left on, Secrets in code
+- ai_intergrator.config.yaml: Debug left on, Secrets in code
