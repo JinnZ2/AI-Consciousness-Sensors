@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T14:38:39.569146Z",
+  "generated_at": "2025-09-24T14:39:06.906439Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 65226,
-      "hash": "615453f98124fde1e4185e770b116488758c72cb",
+      "size": 65491,
+      "hash": "9be55f874d5d9f80001617c467c0978191eb52e0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1628,6 +1628,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/erasure_cases/maldives_news_blackout_2021.json",
+      "lang": "json",
+      "size": 389,
+      "hash": "59801d36b97b6086d671c5317f7aa95bf28d4e23",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/al-nuri-library_syria.json",
       "lang": "json",
       "size": 390,
@@ -2279,7 +2289,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "7d708f8fd310cb113c0819113c8ca1b97b6de03b",
+      "hash": "ae527e6da5ea72c68ab536e8887f53d86f351ac6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2350,8 +2360,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11153,
-      "hash": "12b06475c8b9afcfff902055f4bb911121e2bc40",
+      "size": 11209,
+      "hash": "a829df6962412c161bf777875f926d263900b774",
       "roles": [],
       "imports": [],
       "exports": [],

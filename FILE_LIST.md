@@ -198,6 +198,7 @@
 ./memory_guard/erasure_cases/Sample.txt
 ./memory_guard/erasure_cases/al-nuri-library_syria.json
 ./memory_guard/erasure_cases/language_endangerment_yuchi.json
+./memory_guard/erasure_cases/maldives_news_blackout_2021.json
 ./narcissistic_manipulation_ai.json
 ./pattern_001_isolation_tactics.json
 ./pattern_002_guilt_and_responsibility_manipulation.json
