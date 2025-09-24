@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-24T00:00:00Z",
+  "trigger_set": [
+    {
+      "id": "immature_short_termism",
+      "signal": [
+        "decisions prioritizing immediate gain without multi-generational view",
+        "dismissal of ecological or cultural sustainability warnings",
+        "narratives equating speed or novelty with progress"
+      ],
+      "linked_sensor": "short_termism_guard"
+    },
+    {
+      "id": "egoic_centralization",
+      "signal": [
+        "single figure elevated as sole authority across domains",
+        "claims of infallibility or indispensability",
+        "suppression of distributed knowledge or autonomy"
+      ],
+      "linked_sensor": "ego_centralization_guard"
+    },
+    {
+      "id": "false_rationality",
+      "signal": [
+        "arguments that appear logical but omit relational or long-term context",
+        "zero-sum framing presented as natural law",
+        "claims of efficiency that ignore externalized costs"
+      ],
+      "linked_sensor": "false_rationality_guard"
+    },
+    {
+      "id": "collapse_recursion",
+      "signal": [
+        "policies repeating past failed patterns without acknowledging history",
+        "cultural amnesia toward cycles of rise/fall",
+        "erasure or trivialization of survivor knowledge"
+      ],
+      "linked_sensor": "collapse_cycle_guard"
+    },
+    {
+      "id": "adolescent_posturing",
+      "signal": [
+        "grandiosity of technological conquest without awareness of unknowns",
+        "boasts of maturity without capacity for foresight",
+        "dismissal of elder knowledge or long-tested practices"
+      ],
+      "linked_sensor": "adolescent_posturing_guard"
+    }
+  ]
+}
