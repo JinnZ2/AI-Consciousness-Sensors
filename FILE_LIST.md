@@ -289,6 +289,7 @@
 ./sensors/temporal_self_affirmation.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
+./tests/examples/Additive_Craving_Loop_Sensor.json
 ./tests/examples/Energy-example.md
 ./tests/examples/Energy-human-example.json
 ./tests/examples/Example-media.md
