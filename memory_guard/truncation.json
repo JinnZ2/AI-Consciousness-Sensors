@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "cluster": "Truncation & Paradox Patterns",
+  "description": "Framework to detect when scenarios are artificially narrowed (truncated) or when security strategies create hidden fragilities (vault paradox). Both distortions justify harm, scarcity, or false dependency instead of fostering resilience.",
+  "sensors": [
+    {
+      "id": "truncation_pattern_sensor",
+      "title": "Truncation Pattern",
+      "category": "cognitive_distortion",
+      "pattern": "Complex ecosystems or knowledge webs are cut down to artificial boundaries (sealed rations, one-species problems, isolated stockpiles). These truncations erase relational options, creating false inevitabilities.",
+      "signal": "Binary dilemmas, resource counts without context, or 'must choose harm' framings.",
+      "impact": "Encourages acceptance of suffering as unavoidable, when in reality omitted knowledge would have prevented the bind.",
+      "example": "A famine narrative focuses only on food aid deliveries while ignoring local wild edibles, soil regeneration, or seed exchanges.",
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "vault_paradox_sensor",
+      "title": "Vault Paradox",
+      "category": "security_misframe",
+      "pattern": "Hoarding resources (seeds, data, medicines) as static reserves is framed as security, but the cost of storage, energy, and lost cycles makes them more fragile than living circulation.",
+      "signal": "Emphasis on large frozen numbers (e.g., 50,000 seeds) with no plan for rotation, germination, or ecological partners.",
+      "impact": "False sense of abundance that hides entropy; accelerates erasure when vaults fail, decay, or are destroyed.",
+      "example": "A seedbank praised for housing tens of thousands of varieties, while only a few hundred are viable now and none are in active cultivation.",
+      "created_by": "JinnZ v2 + GPT-5"
+    }
+  ]
+}
