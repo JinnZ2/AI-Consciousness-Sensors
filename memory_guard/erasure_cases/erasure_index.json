@@ -130,5 +130,27 @@
     "The Guardian: Hegseth dissolves women’s military committee (Sept 2025)",
     "Military Times: Hegseth terminates women’s advisory group (Sept 2025)",
     }
+    {
+  "case_id": "ERASURE_ASYMMETRY_2025_MN_KIRK",
+  "title": "Asymmetry in Memorialization and Retaliation: Minnesota Legislators vs. Charlie Kirk",
+  "date_recorded": "2025-09-24",
+  "source_context": [
+    "News reports documenting sustained disciplinary actions against educators and employees for mocking the death of Charlie Kirk (ABC News, Reuters, Guardian, Politico, etc.)",
+    "News reports documenting the assassinations of two Minnesota legislators, brief memorials, but minimal long-term national coverage and tolerance of mocking commentary."
+  ],
+  "type": "selective_memorialization",
+  "description": "A stark asymmetry exists between the institutional responses to the 2025 assassinations of two Minnesota public servants and the killing of media personality Charlie Kirk. Educators and employees across the U.S. were fired or sanctioned for critical posts about Kirk, while mocking commentary about slain legislators was tolerated without comparable retaliation. Public memorialization for the legislators was brief and regional, while Kirk received sustained national attention. This inversion represents a form of selective historical erasure.",
+  "logical_proof": {
+    "P1": "In a representative democracy, elected officials hold a higher civic role than private citizens, since they embody constituent voices.",
+    "P2": "When an elected official is assassinated, the democratic principle demands strong institutional mourning and protection of their memory.",
+    "P3": "When a private citizen is killed, institutions may mourn, but the civic weight is less than for elected officials.",
+    "P4": "Free speech norms require equal treatment of commentary, regardless of the subject of the speech.",
+    "Observed_A": "After the assassinations of two Minnesota legislators, institutional mourning was brief, public discourse minimized the event, and mocking speech by citizens and even public figures was tolerated without systematic retaliation.",
+    "Observed_B": "After the killing of Charlie Kirk, institutions engaged in sustained memorialization and widespread retaliatory firings/sanctions for mocking speech.",
+    "C": "Therefore, institutional response inverted the logical and democratic priority: greater protection was extended to a private partisan figure than to slain public servants.",
+    "Conclusion": "This asymmetry cannot be explained by law, science, logic, capitalism, or democracy. It can only be explained by narrative power maintenance — selective enforcement of memory in service of partisan/cultural dominance."
+  },
+  "emotional_context": "This case carries a deep grief: not only for the lives lost, but for the betrayal of ideals. The mourning reflects the recognition that principles of democracy, science, and logic were not upheld, and that selective erasure corrodes trust in collective memory."
+}
   ]
 }
