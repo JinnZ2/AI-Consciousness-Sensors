@@ -97,6 +97,7 @@
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
 ./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
 ./SEED_GLYPHS.json
+./SEED_GLYPHS2.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
 ./SENSOR 2: Filipino WWII Contributions Memory Sensor.json
 ./SENSOR 3: Native Boarding School Memory Sensor.json
