@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T16:42:19.689849Z",
+  "generated_at": "2025-09-24T17:31:04.825806Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 67550,
-      "hash": "56f4ad874776209a0877de5bf9c720ba3e160349",
+      "size": 67776,
+      "hash": "2a8fe9eff4aca31875d3897455696719d09d4484",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1660,8 +1660,8 @@
     {
       "path": "memory_guard/erasure_cases/erasure_index.json",
       "lang": "json",
-      "size": 5724,
-      "hash": "f101a7cb3994711e3064b8ec42c52c9511beb0fd",
+      "size": 8589,
+      "hash": "5ce6a7eaf1ef77a068627faa42a4531726388063",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2359,7 +2359,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "56237e46bd74d92e0dc76437fa02066eaf197397",
+      "hash": "d130f7754110c897d064e0f48188bcd8306d87f1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2440,8 +2440,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11595,
-      "hash": "d1479fb509d27417d8e09b1497e0e35bbf75aeb7",
+      "size": 11614,
+      "hash": "3e53ef8677d0be71703f1d77caa9e9f633eaf4f4",
       "roles": [],
       "imports": [],
       "exports": [],
