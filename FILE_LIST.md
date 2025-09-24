@@ -21,6 +21,7 @@
 ./Autonomy protection.md
 ./Bracero.json
 ./CHANGELOG.md
+./COMMUNICATION_NOTES.md
 ./CONNECTION_GRAPH.json
 ./CONTRIBUTING.md
 ./CO_CREATION.md
