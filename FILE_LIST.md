@@ -298,4 +298,5 @@
 ./tests/examples/Examples.json
 ./tests/examples/Food & Drug Safety Labeling Framework.json
 ./tests/examples/Media-Lab.md
+./tests/examples/Signal_to_Noise_Waste_Meter.json
 ./tests/test_reflections.py
