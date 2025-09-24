@@ -208,6 +208,7 @@
 ./memory_guard/erasure_cases/erasure_index.json
 ./memory_guard/erasure_cases/language_endangerment_yuchi.json
 ./memory_guard/erasure_cases/maldives_news_blackout_2021.json
+./memory_guard/truncation.json
 ./memory_guard/wisdom_pages/relational_knowledge.md
 ./narcissistic_manipulation_ai.json
 ./pattern_001_isolation_tactics.json
