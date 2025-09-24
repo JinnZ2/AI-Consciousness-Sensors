@@ -180,6 +180,7 @@
 ./epistemological_validation/probability_matrices/consciousness_likelihood.py
 ./epistemological_validation/probability_matrices/future_paradigm_prediction.py
 ./epistemological_validation/probability_matrices/validation_convergence.py
+./ethics/privacy.py
 ./explainability/tracer.py
 ./historical_omission_manifest.json
 ./history_erasure_ai_patterns.json
