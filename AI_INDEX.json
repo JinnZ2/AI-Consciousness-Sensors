@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T13:53:28.268431Z",
+  "generated_at": "2025-09-24T13:56:31.481697Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 64719,
-      "hash": "0b51dbd40112b0f3f703e0766d131d35b6967c4e",
+      "size": 64720,
+      "hash": "8e6a1506dae7668ba080372f36c9c7b50ba7ee8b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2544,8 +2544,8 @@
     {
       "path": "cultural_frameworks/Native/README.md",
       "lang": "md",
-      "size": 240,
-      "hash": "10a8e8f781e57b1e3f6a682823bec6e5d7e4807a",
+      "size": 1270,
+      "hash": "3c06632c63b37536ed620b2ccc86af145e3f1079",
       "roles": [],
       "imports": [],
       "exports": [],
