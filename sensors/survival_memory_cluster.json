@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "cluster": "Survival Memory Sensors",
+  "description": "Sensors highlighting ancestral survival knowledge during cycles of darkness, scarcity, and disruption. Emphasizes memory fidelity, adaptation practices, and the dangers of ignorance over hunger.",
+  "sensors": [
+    {
+      "id": "dark_cycle_adaptation_sensor",
+      "title": "Dark Cycle Adaptation",
+      "category": "environmental_resilience",
+      "pattern": "Communities aligned with animals, plants, and ecological rhythms (e.g., ptarmigan, seal, muskox, bear) thrived during multi-year darkness cycles; those extracting without reciprocity failed.",
+      "signal": "Erasure of Indigenous strategies during climate disruption — narratives of famine presented as universal collapse.",
+      "impact": "Masks that survival was possible through alignment; diminishes recognition of Indigenous knowledge as tested science.",
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "hunger_ignorance_sensor",
+      "title": "Hunger vs. Ignorance",
+      "category": "cognitive_misframing",
+      "pattern": "Hunger alone does not drive harm; ignorance of sustainable practices does. Those with ecological knowledge maintained abundance; those without caused collapse.",
+      "signal": "Narratives frame hunger as primal cause of violence, erasing the protective role of knowledge and discipline.",
+      "impact": "Perpetuates myth that humans inevitably turn destructive under scarcity, obscuring knowledge-driven alternatives.",
+      "created_by": "JinnZ v2 + GPT-5"
+    },
+    {
+      "id": "ancestral_memory_discipline_sensor",
+      "title": "Ancestral Memory Discipline vs. Forgetting",
+      "category": "knowledge_continuity",
+      "pattern": "Groups adhering to ancestral memory practices survived harsh cycles, while those who dismissed them suffered disproportionately.",
+      "signal": "Histories describe collapse as universal, omitting internal divergence based on memory adherence.",
+      "impact": "Erases the role of memory fidelity as survival technology; frames Indigenous practices as superstition instead of adaptive science.",
+      "created_by": "JinnZ v2 + GPT-5"
+    }
+  ]
+}
