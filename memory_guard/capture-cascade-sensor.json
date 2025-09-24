@@ -1,0 +1,11 @@
+{
+  "id": "capture_cascade_sensor",
+  "title": "Capture Cascade",
+  "category": "collapse_cycle",
+  "pattern": "Centralized survival or knowledge assets become symbolic targets. Once captured, they are controlled by domination logic rather than ecological wisdom.",
+  "signal": "Shift from distributed, relational stewardship to hierarchical control of a single site or system.",
+  "impact": "Guarantees distortion of purpose: assets are repurposed for power, profit, or ideology. Collapse follows as resilience is lost.",
+  "example": "Seedbanks or grain stores seized by rulers; data repositories co-opted by corporations; libraries burned or censored by conquerors.",
+  "cycle": ["centralization", "visibility", "conflict magnet", "capture", "distortion", "collapse"],
+  "created_by": "JinnZ v2 + GPT-5"
+}
