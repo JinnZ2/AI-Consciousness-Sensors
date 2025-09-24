@@ -25,4 +25,16 @@ python reflections/run_reflections.py –model dummy –set reflections/sample_p
 Opt-in persistence (off by default)
 Set `AICS_ALLOW_EXPORT=1` to allow export functions to write files.
 
+## Tools, Not Universals
 
+Each cultural or scientific framework included here should be treated as a **tool**.
+- Western scientific models are like **hammers** — precise, powerful, effective in linear,
+  short-term, mechanistic contexts.  
+- Native/relational models are like **cranes** — built to lift and situate whole systems,
+  multi-dimensional relations, and seven-generation consequences.  
+- Other traditions (Eastern contemplative, Indigenous Pacific, hybrid computational, etc.)
+  each bring their own tools.
+
+⚠️ Caution: Misuse comes from assuming one tool is universal.
+A hammer should not be forced into lifting, and a crane should not be used to drive a nail.
+All tools are valuable within the scope they were shaped for.
