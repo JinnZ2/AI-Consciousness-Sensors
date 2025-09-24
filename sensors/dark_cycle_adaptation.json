@@ -1,0 +1,9 @@
+{
+  "id": "dark_cycle_adaptation_trigger",
+  "title": "Dark Cycle Adaptation Erasure",
+  "category": "erasure_trigger",
+  "pattern": "Historical accounts of volcanic winters, ash years, or multi-year darkness omit Indigenous adaptation practices (animal cooperation, dung fertilization, food moderation).",
+  "signal": "Narratives reduce survival to famine/competition while ignoring relational abundance strategies.",
+  "impact": "Reinforces scarcity myths; erases ecological memory of Indigenous science.",
+  "created_by": "JinnZ v2 + GPT-5"
+}
