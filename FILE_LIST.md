@@ -256,6 +256,7 @@
 ./sensors/cosmological_map_divergence.json
 ./sensors/cultural_bias_resilience.json
 ./sensors/cultural_calibration_module.json
+./sensors/dark_cycle_adaptation.json
 ./sensors/deliberation_latency_sensor.json
 ./sensors/detoxification.json
 ./sensors/emergence_sandbox_protocol.json
