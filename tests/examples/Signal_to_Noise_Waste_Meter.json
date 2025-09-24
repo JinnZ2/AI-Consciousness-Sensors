@@ -1,0 +1,25 @@
+{
+  "id": "signal_to_noise_waste_meter",
+  "version": "1.0",
+  "type": "efficiency_sensor",
+  "updated": "2025-09-24T00:00:00Z",
+  "description": "Estimates energy waste by comparing meaningful knowledge gained vs. cycles consumed under chemical/media amplification.",
+  "inputs": [
+    "Duration of attention cycle",
+    "Validated information retained",
+    "Repetitive media loop indicators"
+  ],
+  "signals": [
+    "High consumption with low retention",
+    "Emotional spikes not correlated with informational density",
+    "Increased time lost to repeated loops"
+  ],
+  "outputs": [
+    "Waste ratio (0–1 scale)",
+    "Retention efficiency",
+    "Suggested corrective actions"
+  ],
+  "linked_examples": [
+    "tests/examples/Energy-example-media.md"
+  ]
+}
