@@ -144,6 +144,7 @@
 ./Strategic-Realignment-Bulletin.md
 ./System integrity emergency.md
 ./Token warning competition.md
+./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./V2025.v3.md
 ./VISION.md
