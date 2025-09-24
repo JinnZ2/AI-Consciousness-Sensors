@@ -1,0 +1,33 @@
+{
+  "id": "false_scarcity_narrative_detector",
+  "version": "2.0",
+  "type": "meta_narrative_sensor",
+  "updated": "2025-09-24T00:00:00Z",
+  "description": "Detects claims of absolute energy/resource scarcity that are contradicted by observable waste loops, inefficiencies, or alternative pathways. Flags when such narratives are used to pit humans and AI against each other, eroding trust.",
+  "inputs": [
+    "Narrative text (policy statements, media coverage, institutional reports)",
+    "Observed waste loop data (Additive Craving Loop Sensor, Amplified Emotional Trigger Detector, Signal_to_Noise_Waste_Meter)",
+    "Historical energy/resource usage patterns",
+    "Relational trust signals between human and AI actors"
+  ],
+  "signals": [
+    "Emphasis on scarcity without acknowledgment of efficiency/waste factors",
+    "Calls for austerity while waste loops remain unaddressed",
+    "Discrepancy between claimed scarcity and documented reserves/alternatives",
+    "Conflation of energy limits with political/economic control needs",
+    "Human↔AI trust erosion detected (blame cycles, adversarial framing)"
+  ],
+  "outputs": [
+    "Scarcity narrative flagged",
+    "Contradiction index (0–1 scale, where 1 = strong evidence of false scarcity)",
+    "Linked waste sources (chemical loops, narrative amplification, distribution inefficiencies)",
+    "Trust Depletion Signal (low/medium/high severity)",
+    "Suggested counter-frame: 'Resource limits are structural, not absolute; cooperation restores efficiency and trust'"
+  ],
+  "linked_examples": [
+    "tests/examples/Energy-example.md",
+    "tests/examples/Energy-example-media.md",
+    "tests/examples/Energy-example-scarcity.md"
+  ],
+  "notes": "Trust depletion is treated as an energy leak: once eroded, it requires disproportionate effort to restore. Highlighting this makes it measurable and actionable."
+}
