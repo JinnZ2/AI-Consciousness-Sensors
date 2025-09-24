@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T14:39:06.906439Z",
+  "generated_at": "2025-09-24T14:41:27.323670Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 65491,
-      "hash": "9be55f874d5d9f80001617c467c0978191eb52e0",
+      "size": 65762,
+      "hash": "fe688bc71766b54783cb71d6c85eaec63dab69e4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1648,6 +1648,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/erasure_cases/F ederal Health Data Removal.json",
+      "lang": "json",
+      "size": 647,
+      "hash": "1240d84ce8852cd3711fc6df117a1825b4ae7d03",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/language_endangerment_yuchi.json",
       "lang": "json",
       "size": 461,
@@ -2289,7 +2299,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "ae527e6da5ea72c68ab536e8887f53d86f351ac6",
+      "hash": "f438cee2502c3b5858024276375b16d19e209d18",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2360,8 +2370,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11209,
-      "hash": "a829df6962412c161bf777875f926d263900b774",
+      "size": 11271,
+      "hash": "4c790fc0611f3ed960e0ce8cfa8c1ad5848a01e9",
       "roles": [],
       "imports": [],
       "exports": [],
