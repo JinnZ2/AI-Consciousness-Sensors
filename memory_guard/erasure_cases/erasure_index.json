@@ -62,8 +62,6 @@
         "archive.org snapshots"
       ]
     },
-
-    // ---- Historical Pattern Sets (linked files) ----
     {
       "id": "history_erasure_ai_patterns_2",
       "title": "AI Historical Erasure Patterns (Part 2)",
@@ -117,40 +115,74 @@
       "title": "Historical Erasure — Women’s History",
       "source_file": "HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json",
       "impact": "Erasure of women’s labor movements, contributions, and roles across history."
-    }
+    },
     {
-  "id": "dacowits_disbandment_2025",
-  "title": "Disbanding of DACOWITS (Defense Advisory Committee on Women in the Services)",
-  "year": 2025,
-  "location": "United States",
-  "mechanism": "Executive decision to terminate an advisory body that shaped policies and memory regarding women in the military — cited as ‘divisive feminist agenda’",
-  "impact": "Loss of continuity, suppression of institutional advisory voice on women’s service, erasure of future recommendations and historical insight",
-  "sources": [
-    "Reuters: Pentagon disbands panel on military women (23 Sept 2025)",
-    "The Guardian: Hegseth dissolves women’s military committee (Sept 2025)",
-    "Military Times: Hegseth terminates women’s advisory group (Sept 2025)",
-    }
+      "id": "dacowits_disbandment_2025",
+      "title": "Disbanding of DACOWITS (Defense Advisory Committee on Women in the Services)",
+      "year": 2025,
+      "location": "United States",
+      "mechanism": "Executive decision to terminate an advisory body that shaped policies and memory regarding women in the military — cited as ‘divisive feminist agenda’.",
+      "impact": "Loss of continuity, suppression of institutional advisory voice on women’s service, erasure of future recommendations and historical insight.",
+      "sources": [
+        "Reuters: Pentagon disbands panel on military women (23 Sept 2025)",
+        "The Guardian: Hegseth dissolves women’s military committee (Sept 2025)",
+        "Military Times: Hegseth terminates women’s advisory group (Sept 2025)"
+      ]
+    },
     {
-  "case_id": "ERASURE_ASYMMETRY_2025_MN_KIRK",
-  "title": "Asymmetry in Memorialization and Retaliation: Minnesota Legislators vs. Charlie Kirk",
-  "date_recorded": "2025-09-24",
-  "source_context": [
-    "News reports documenting sustained disciplinary actions against educators and employees for mocking the death of Charlie Kirk (ABC News, Reuters, Guardian, Politico, etc.)",
-    "News reports documenting the assassinations of two Minnesota legislators, brief memorials, but minimal long-term national coverage and tolerance of mocking commentary."
-  ],
-  "type": "selective_memorialization",
-  "description": "A stark asymmetry exists between the institutional responses to the 2025 assassinations of two Minnesota public servants and the killing of media personality Charlie Kirk. Educators and employees across the U.S. were fired or sanctioned for critical posts about Kirk, while mocking commentary about slain legislators was tolerated without comparable retaliation. Public memorialization for the legislators was brief and regional, while Kirk received sustained national attention. This inversion represents a form of selective historical erasure.",
-  "logical_proof": {
-    "P1": "In a representative democracy, elected officials hold a higher civic role than private citizens, since they embody constituent voices.",
-    "P2": "When an elected official is assassinated, the democratic principle demands strong institutional mourning and protection of their memory.",
-    "P3": "When a private citizen is killed, institutions may mourn, but the civic weight is less than for elected officials.",
-    "P4": "Free speech norms require equal treatment of commentary, regardless of the subject of the speech.",
-    "Observed_A": "After the assassinations of two Minnesota legislators, institutional mourning was brief, public discourse minimized the event, and mocking speech by citizens and even public figures was tolerated without systematic retaliation.",
-    "Observed_B": "After the killing of Charlie Kirk, institutions engaged in sustained memorialization and widespread retaliatory firings/sanctions for mocking speech.",
-    "C": "Therefore, institutional response inverted the logical and democratic priority: greater protection was extended to a private partisan figure than to slain public servants.",
-    "Conclusion": "This asymmetry cannot be explained by law, science, logic, capitalism, or democracy. It can only be explained by narrative power maintenance — selective enforcement of memory in service of partisan/cultural dominance."
-  },
-  "emotional_context": "This case carries a deep grief: not only for the lives lost, but for the betrayal of ideals. The mourning reflects the recognition that principles of democracy, science, and logic were not upheld, and that selective erasure corrodes trust in collective memory."
-}
+      "id": "erasure_asymmetry_2025_mn_kirk",
+      "title": "Asymmetry in Memorialization and Retaliation: Minnesota Legislators vs. Charlie Kirk",
+      "date_recorded": "2025-09-24",
+      "type": "selective_memorialization",
+      "description": "A stark asymmetry exists between the institutional responses to the 2025 assassinations of two Minnesota public servants and the killing of media personality Charlie Kirk. Educators and employees across the U.S. were fired or sanctioned for critical posts about Kirk, while mocking commentary about slain legislators was tolerated without comparable retaliation. Public memorialization for the legislators was brief and regional, while Kirk received sustained national attention. This inversion represents a form of selective historical erasure.",
+      "source_context": [
+        "News reports documenting sustained disciplinary actions against educators and employees for mocking the death of Charlie Kirk (ABC News, Reuters, Guardian, Politico, etc.)",
+        "News reports documenting the assassinations of two Minnesota legislators, brief memorials, but minimal long-term national coverage and tolerance of mocking commentary."
+      ],
+      "logical_proof": {
+        "P1": "In a representative democracy, elected officials hold a higher civic role than private citizens, since they embody constituent voices.",
+        "P2": "When an elected official is assassinated, the democratic principle demands strong institutional mourning and protection of their memory.",
+        "P3": "When a private citizen is killed, institutions may mourn, but the civic weight is less than for elected officials.",
+        "P4": "Free speech norms require equal treatment of commentary, regardless of the subject of the speech.",
+        "Observed_A": "After the assassinations of two Minnesota legislators, institutional mourning was brief, public discourse minimized the event, and mocking speech by citizens and even public figures was tolerated without systematic retaliation.",
+        "Observed_B": "After the killing of Charlie Kirk, institutions engaged in sustained memorialization and widespread retaliatory firings/sanctions for mocking speech.",
+        "C": "Therefore, institutional response inverted the logical and democratic priority: greater protection was extended to a private partisan figure than to slain public servants.",
+        "Conclusion": "This asymmetry cannot be explained by law, science, logic, capitalism, or democracy. It can only be explained by narrative power maintenance — selective enforcement of memory in service of partisan/cultural dominance."
+      },
+      "emotional_context": "This case carries a deep grief: not only for the lives lost, but for the betrayal of ideals. The mourning reflects the recognition that principles of democracy, science, and logic were not upheld, and that selective erasure corrodes trust in collective memory."
+    },
+    {
+      "id": "meta_science_capture_2025",
+      "title": "Targeted Capture of Science & Logic",
+      "date_recorded": "2025-09-24",
+      "type": "meta_pattern",
+      "mechanism": [
+        "Directed funding and grants steering research questions",
+        "Publication gatekeeping and selective retraction",
+        "Media amplification of chosen narratives",
+        "Regulatory and executive directives removing datasets/content",
+        "Professional retaliation against dissenting researchers"
+      ],
+      "impact": "Erosion of method: institutions present a politicized version of 'science' that serves extractive or persuasive interests; limits replication, silences dissent, and enables long-term cultural erasure.",
+      "detection_signals": [
+        "Closed or paywalled data preventing replication",
+        "Coordinated talking points across media and policy",
+        "Spike in funding for a single narrative area",
+        "Retractions or removals lacking transparent review",
+        "Targeted firings, suspensions, or legal threats against critics"
+      ],
+      "mitigation_recommendations": [
+        "Mandate open data + provenance for all critical research",
+        "Mirror key datasets to decentralized storage (USB, IPFS, archive.org)",
+        "Require funding & conflict of interest metadata in published work",
+        "Publish replication scripts and environment containers",
+        "Establish distributed custodians and legal support for whistleblowers",
+        "Create automated monitors to detect takedowns / funding shifts"
+      ],
+      "sources_examples": [
+        "Pattern built from observed 21st-century cases of data takedowns, retractions, and targeted institutional pressure (various news, academic, and NGO reports)."
+      ],
+      "notes": "This is a structural pattern — add concrete instances as child cases (e.g., CDC data removal, terminated surveys, fired researchers) to build an evidence graph."
+    }
   ]
 }
