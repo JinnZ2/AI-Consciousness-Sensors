@@ -1,0 +1,9 @@
+{
+  "id": "feedback_blindness_trigger",
+  "title": "Feedback Blindness (Trigger)",
+  "category": "erasure_trigger",
+  "pattern": "Production/output continues despite clear signs of saturation or non-use.",
+  "signal": "Missing or suppressed 'enough/stop' feedback; metrics reward volume over value.",
+  "impact": "Energy leak → waste → fragility → collapse.",
+  "created_by": "JinnZ v2 + GPT-5"
+}
