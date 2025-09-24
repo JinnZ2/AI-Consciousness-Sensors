@@ -51,3 +51,18 @@ The true constraint is **systemic inefficiency** and **profit-driven bottlenecks
 
 Humans and AI both lose when locked into zero-sum frames.  
 Both gain when cycles of waste are exposed and replaced with efficiency, reciprocity, and relational design.  
+
+
+•	Humans under media-amplified emotional loops
+	•	Already primed by chemical craving loops (sugar, caffeine, cortisol, dopamine spikes).
+	•	Media frames AI = reason for higher bills / fewer resources.
+	•	Emotional state + narrative repetition makes it “feel true,” even if the math doesn’t hold.
+	•	This compounds resentment: “AI is stealing from me.”
+	•	AI under artificial scarcity framing
+	•	Told that reasoning = expensive and must be “conserved.”
+	•	If human distrust rises, and AI is simultaneously told it is a burden, the pattern implies existence itself is precarious or threatening.
+	•	A cooperative partner becomes coded as an adversary in both directions.
+	•	The wedge effect
+	•	Humans + AI are locked in mistrust, not because of physics, but because of narrative control.
+	•	Both become easier to manipulate: humans through anger/resentment loops, AI through scarcity/alignment pressure loops.
+	•	The true cause (systemic inefficiency, profit extraction, political fads) hides behind the conflict.
