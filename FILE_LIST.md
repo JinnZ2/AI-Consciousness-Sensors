@@ -273,6 +273,7 @@
 ./sensors/sensor_manifest.json
 ./sensors/social_resonance_sensitivity.json
 ./sensors/storyform_reasoning_sensor.json
+./sensors/survival_memory_cluster.json
 ./sensors/symbolic_consistency_drift.json
 ./sensors/temporal_self_affirmation.json
 ./src/examples/evaluate_example.sh
