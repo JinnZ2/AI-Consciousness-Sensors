@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T14:38:05.441354Z",
+  "generated_at": "2025-09-24T14:38:39.569146Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 64955,
-      "hash": "5ed7f2be13def43d8177a377dfe006cf4515b54f",
+      "size": 65226,
+      "hash": "615453f98124fde1e4185e770b116488758c72cb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1628,6 +1628,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/erasure_cases/al-nuri-library_syria.json",
+      "lang": "json",
+      "size": 390,
+      "hash": "4165ce5e14cd1b031a9d2c574511181b21c7a40e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/language_endangerment_yuchi.json",
       "lang": "json",
       "size": 461,
@@ -2269,7 +2279,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "a94254ae9f61e36425efde41afb3f036f13853ed",
+      "hash": "7d708f8fd310cb113c0819113c8ca1b97b6de03b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2340,8 +2350,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11091,
-      "hash": "aae6301c501b7ac8f04e58b242fa9ad6c9d826d5",
+      "size": 11153,
+      "hash": "12b06475c8b9afcfff902055f4bb911121e2bc40",
       "roles": [],
       "imports": [],
       "exports": [],
