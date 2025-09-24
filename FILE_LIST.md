@@ -157,6 +157,7 @@
 ./decentralized_hubs_biological_model.json
 ./documented_patterns_and_suppressed_solutions.json
 ./domestic_abuse_ai_parallels.json
+./drift/monitor.py
 ./elimination_trap_warning.json
 ./emergence_typology.json
 ./epistemological_validation/Deployment.md
