@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-24T00:00:00Z",
+  "substances": [
+    {
+      "id": "acetaminophen",
+      "name": "Acetaminophen (Tylenol)",
+      "hazard_classification": "Major",
+      "thresholds": {
+        "max_safe_dose_daily_mg": 3000,
+        "label_trigger": "≥10% hepatotoxicity incidence in new trials OR ≥2 independent studies linking to developmental impacts"
+      },
+      "failure_modes": [
+        "Overdose → hepatotoxic metabolites (NAPQI) accumulate → acute liver failure",
+        "Prenatal exposure (observed correlation) → neurodevelopmental alterations"
+      ],
+      "evidence_log": [
+        {"study_id": "NEJM-2014-tyl-liver", "risk_ratio": "↑ liver failure with >4000 mg/day", "replication_status": "replicated"},
+        {"study_id": "JAMA-2021-tyl-pregnancy", "risk_ratio": "↑ risk ADHD/autism spectrum (correlation, not causal)", "replication_status": "pending replication"}
+      ],
+      "label": "⚠️ Risk of liver injury; developmental concerns under investigation. Do not exceed 3000 mg/day."
+    },
+    {
+      "id": "ibuprofen",
+      "name": "Ibuprofen (Advil, NSAIDs)",
+      "hazard_classification": "Major",
+      "thresholds": {
+        "max_safe_dose_daily_mg": 1200 (OTC),
+        "label_trigger": "≥5% incidence gastrointestinal bleeding OR ≥2 studies linking to renal/cardiovascular risk"
+      },
+      "failure_modes": [
+        "COX inhibition → reduced prostaglandins → gastric ulceration/bleeding",
+        "Reduced renal perfusion → kidney impairment",
+        "Altered clotting balance → ↑ heart attack & stroke risk at chronic high dose"
+      ],
+      "evidence_log": [
+        {"study_id": "BMJ-2013-nsaids", "risk_ratio": "↑ GI bleed ~3x", "replication_status": "replicated"},
+        {"study_id": "Lancet-2017-nsaids-cv", "risk_ratio": "↑ MI risk 30-50% with high dose", "replication_status": "replicated"}
+      ],
+      "label": "⚠️ Risk of GI bleeding, kidney injury, and heart attack at high or chronic doses. Use ≤1200 mg/day without medical supervision."
+    },
+    {
+      "id": "processed_meats",
+      "name": "Processed Meats (e.g., bacon, ham, sausages)",
+      "hazard_classification": "Critical",
+      "thresholds": {
+        "classification": "IARC Group 1 Carcinogen",
+        "label_trigger": "Relative Risk ≥1.2 for colorectal cancer in ≥3 independent cohort studies (already met)"
+      },
+      "failure_modes": [
+        "Nitrosamines formed during curing → DNA damage → carcinogenesis",
+        "High salt/fat levels → compounding metabolic disease risk"
+      ],
+      "evidence_log": [
+        {"study_id": "WHO-IARC-2015", "risk_ratio": "↑ colorectal cancer risk 18% per 50g/day", "replication_status": "replicated"},
+        {"study_id": "BMC-2020-meats", "risk_ratio": "↑ cardiovascular mortality", "replication_status": "replicated"}
+      ],
+      "label": "⚠️ Classified Group 1 Carcinogen. Regular consumption increases risk of colorectal cancer and cardiovascular disease."
+    }
+  ]
+}
