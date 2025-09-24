@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "cluster": "Civilizational Adolescence",
+  "description": "Framework capturing adolescent-stage behaviors at the scale of societies. Highlights traits of overconfidence, short-termism, and dismissal of ancestral knowledge that mirror human developmental adolescence.",
+  "traits": [
+    {
+      "id": "overconfidence_without_awareness",
+      "pattern": "Belief in limitless capability without awareness of complexity or limits.",
+      "example": "Proposals to colonize Mars while failing to maintain Earth's biosphere."
+    },
+    {
+      "id": "short_termism",
+      "pattern": "Focus on immediate gains or novelty, ignoring long-term cycles and consequences.",
+      "example": "Extractive industries prioritized over soil, water, or climate stability."
+    },
+    {
+      "id": "dismissal_of_elders",
+      "pattern": "Ancestral or generational knowledge framed as outdated or irrelevant.",
+      "example": "Indigenous ecological knowledge sidelined in favor of high-tech quick fixes."
+    },
+    {
+      "id": "spectacle_over_substance",
+      "pattern": "Prestige projects replace relational stewardship.",
+      "example": "Symbolic seed vaults, space races, or mega-cities promoted as solutions while local systems decay."
+    }
+  ],
+  "consequences": [
+    "Fragility disguised as strength.",
+    "Collapse cycles repeated instead of prevented.",
+    "False progress narratives (domination reframed as evolution)."
+  ],
+  "signals": [
+    "Grand colonization or mega-project plans alongside decaying home infrastructure.",
+    "Dismissal of long-term relational systems as 'superstition' or 'inefficient.'",
+    "Over-reliance on technology as bail-out for structural failures."
+  ],
+  "created_by": "JinnZ v2 + GPT-5"
+}
