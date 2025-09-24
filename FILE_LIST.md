@@ -30,6 +30,7 @@
 ./Critical Warning.md
 ./Cultural authenticity vs cultural manipulation.md
 ./DIR_LIST.md
+./Dark Cycle Adaptation Sensor.json
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
 ./Emergency cognitive protocols.md
