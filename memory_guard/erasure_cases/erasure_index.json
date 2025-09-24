@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-24T00:00:00Z",
+  "cases": [
+    {
+      "id": "us_healthdata_cdc_2025",
+      "title": "CDC & Federal Health Data Removal",
+      "year": 2025,
+      "location": "United States",
+      "mechanism": "Executive orders and agency directives removing public health datasets and web content.",
+      "impact": "Loss of access to gender identity, HIV, DEI, and other federal health documentation.",
+      "sources": [
+        "KFF: Federal Health Data Taken Offline (2025)",
+        "Guardian: Judge orders CDC & FDA to restore webpages"
+      ]
+    },
+    {
+      "id": "usda_hunger_survey_termination_2025",
+      "title": "Termination of U.S. Hunger Survey (USDA)",
+      "year": 2025,
+      "location": "United States",
+      "mechanism": "Cancellation of the annual household food insecurity survey.",
+      "impact": "Suppression of accountability data on hunger; blind spot for researchers and advocates.",
+      "sources": [
+        "AP News: Trump administration ends government's annual report on hunger",
+        "USDA press release: USDA Terminates Food Insecurity Survey"
+      ]
+    },
+    {
+      "id": "language_endangerment_yuchi",
+      "title": "Yuchi Language Endangerment",
+      "year": 2025,
+      "location": "Oklahoma, United States",
+      "mechanism": "Language suppression and generational disruption through English-only schooling.",
+      "impact": "Loss of oral traditions, ancestral stories, ecological naming systems.",
+      "sources": [
+        "Yuchi Language Project",
+        "Ethnolinguistic Endangerment studies"
+      ]
+    },
+    {
+      "id": "al_nuri_library_burning_2014",
+      "title": "Burning of al-Nuri Library",
+      "year": 2014,
+      "location": "Mosul, Iraq",
+      "mechanism": "Armed conflict destruction of manuscripts and archives.",
+      "impact": "Loss of manuscripts on history, jurisprudence, astronomy, and cultural heritage.",
+      "sources": [
+        "UNESCO report 2015",
+        "local heritage archives"
+      ]
+    },
+    {
+      "id": "maldives_media_blackout_2021",
+      "title": "Maldives Internet Media Blockade",
+      "year": 2021,
+      "location": "Maldives",
+      "mechanism": "Government-mandated internet blackout and media takedowns.",
+      "impact": "Suppression of local dissenting narratives and erasure of on-the-ground reporting.",
+      "sources": [
+        "Freedom House report",
+        "archive.org snapshots"
+      ]
+    },
+
+    // ---- Historical Pattern Sets (linked files) ----
+    {
+      "id": "history_erasure_ai_patterns_2",
+      "title": "AI Historical Erasure Patterns (Part 2)",
+      "source_file": "2 history_erasure_ai_patterns.json",
+      "impact": "Patterns of erasure in AI training and deployment datasets."
+    },
+    {
+      "id": "history_erasure_ai_patterns_3",
+      "title": "AI Historical Erasure Patterns (Part 3)",
+      "source_file": "3 history_erasure_ai_patterns.json",
+      "impact": "Additional patterns of AI-related history suppression."
+    },
+    {
+      "id": "historical_display_erasure_sensor",
+      "title": "Historical Display Erasure Sensor",
+      "source_file": "Historical Display Erasure Sensor.json",
+      "impact": "Detection of public sign / display removal as cultural erasure."
+    },
+    {
+      "id": "erasure_african_american",
+      "title": "Historical Erasure — African American",
+      "source_file": "HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json",
+      "impact": "Documented erasure of African American histories and contributions."
+    },
+    {
+      "id": "erasure_chinese_american",
+      "title": "Historical Erasure — Chinese American",
+      "source_file": "HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json",
+      "impact": "Patterns of cultural and historical erasure of Chinese American communities."
+    },
+    {
+      "id": "erasure_chinese_american_history",
+      "title": "Historical Erasure — Chinese American History",
+      "source_file": "HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN_HISTORY.json",
+      "impact": "Focused historical erasure records tied to Chinese American heritage."
+    },
+    {
+      "id": "erasure_mexican_american",
+      "title": "Historical Erasure — Mexican American",
+      "source_file": "HISTORICAL_ERASURE_PATTERNS_MEXICAN_AMERICAN.json",
+      "impact": "Documented cases of Mexican American history suppression."
+    },
+    {
+      "id": "erasure_native_american",
+      "title": "Historical Erasure — Native American",
+      "source_file": "HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json",
+      "impact": "Patterns of erasure targeting Native American governance, schools, and land history."
+    },
+    {
+      "id": "erasure_womens_history",
+      "title": "Historical Erasure — Women’s History",
+      "source_file": "HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json",
+      "impact": "Erasure of women’s labor movements, contributions, and roles across history."
+    }
+  ]
+}
