@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T14:42:03.289427Z",
+  "generated_at": "2025-09-24T14:51:34.601394Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 66034,
-      "hash": "0ead6d1335680c9c7729fb7f1f0c774451269cff",
+      "size": 66329,
+      "hash": "f7687fb36469dd9db8d03a3c21e748821137a212",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1638,6 +1638,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/erasure_cases/erasure_index.json",
+      "lang": "json",
+      "size": 4957,
+      "hash": "55423ca50083c4ca098e56fe6d96bd771b0550b0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/Termination of USDA Household Food Security Reports.json",
       "lang": "json",
       "size": 713,
@@ -2309,7 +2319,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "b713712b2ca035ca7122364ab78c7c0394bea05d",
+      "hash": "aedd996477afe1d33469149c22c111cb45875bb6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2380,8 +2390,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11334,
-      "hash": "92b10c75a1cb28c207388fa9742e26efeb3266b6",
+      "size": 11420,
+      "hash": "ebd5d3483f881fc7bf1feeda70dcce9eb94cc018",
       "roles": [],
       "imports": [],
       "exports": [],

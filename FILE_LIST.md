@@ -199,6 +199,7 @@
 ./memory_guard/erasure_cases/Sample.txt
 ./memory_guard/erasure_cases/Termination of USDA Household Food Security Reports.json
 ./memory_guard/erasure_cases/al-nuri-library_syria.json
+./memory_guard/erasure_cases/erasure_index.json
 ./memory_guard/erasure_cases/language_endangerment_yuchi.json
 ./memory_guard/erasure_cases/maldives_news_blackout_2021.json
 ./narcissistic_manipulation_ai.json
