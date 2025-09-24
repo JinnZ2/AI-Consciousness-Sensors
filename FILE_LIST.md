@@ -52,6 +52,7 @@
 ./Indirect Consequence Memory Sensor.json
 ./LICENSE
 ./Language Suppression Sensor.json
+./META_INDEX.json
 ./MULTILINGUAL_INSTRUCTION_TEMPLATES.json
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
