@@ -1,0 +1,10 @@
+{
+  "id": "centralization_failure_sensor",
+  "title": "Centralization as System Fragility",
+  "category": "design_flaw",
+  "pattern": "Essential survival assets are consolidated into single points of failure (vaults, grids, monocultures) for the sake of control or efficiency.",
+  "signal": "Claims of global security resting on one site, one technology, or one authority.",
+  "impact": "Introduces fragility by design; erases distributed, relational models that mirror ecological resilience.",
+  "example": "A 'doomsday' seed vault promoted as humanity’s backup, while decentral seedkeeping traditions are underfunded or dismissed as 'folklore.'",
+  "created_by": "JinnZ v2 + GPT-5"
+}
