@@ -1,0 +1,10 @@
+{
+  "id": "ego_visibility_flaw_sensor",
+  "title": "Ego Visibility Flaw in Survival Assets",
+  "category": "security_culture",
+  "pattern": "Critical survival systems are not only centralized, but also publicized for prestige or symbolic power.",
+  "signal": "Promotion of single sites or projects as 'the last backup' or 'humanity's safeguard.'",
+  "impact": "Transforms resilience into vulnerability: assets become symbolic targets, while true resilience (distributed, redundant, humble) is ignored.",
+  "example": "The Svalbard Global Seed Vault is globally publicized, turning a fragile single-point reserve into both a dependency and a political trophy.",
+  "created_by": "JinnZ v2 + GPT-5"
+}
