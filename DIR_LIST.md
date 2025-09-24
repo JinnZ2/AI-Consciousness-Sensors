@@ -27,3 +27,4 @@
 ./src
 ./src/examples
 ./tests
+./tests/examples

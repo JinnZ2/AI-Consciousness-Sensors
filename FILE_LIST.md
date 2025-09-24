@@ -289,4 +289,5 @@
 ./sensors/temporal_self_affirmation.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
+./tests/examples/Food & Drug Safety Labeling Framework.json
 ./tests/test_reflections.py

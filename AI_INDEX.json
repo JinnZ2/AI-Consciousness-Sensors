@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T20:36:17.079882Z",
+  "generated_at": "2025-09-24T23:07:17.223551Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 71309,
-      "hash": "5c797499a8f4baa23abc31ae043f5af45a146825",
+      "size": 71537,
+      "hash": "f18d2b9ea67c68feeb138c4c98c5418c9a70ba7c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1658,6 +1658,16 @@
       "hotspots": []
     },
     {
+      "path": "tests/examples/Food & Drug Safety Labeling Framework.json",
+      "lang": "json",
+      "size": 3105,
+      "hash": "900da4c5121b55b9b686a19488c39e1e3f9f8033",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json",
       "lang": "json",
       "size": 1691,
@@ -2489,7 +2499,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "2d860184053d6f5f061495c7873e34a52553b26d",
+      "hash": "31381e14cbb4c2f42768cf56885ae1c6d538fed8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2570,8 +2580,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 12216,
-      "hash": "06fe9730a1c76f702ed2e168201d128638cdfdd5",
+      "size": 12234,
+      "hash": "73f65c627631de9cc57b721e57009d5f0b2a7a0e",
       "roles": [],
       "imports": [],
       "exports": [],
