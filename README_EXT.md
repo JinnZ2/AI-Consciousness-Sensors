@@ -38,3 +38,7 @@ Each cultural or scientific framework included here should be treated as a **too
 ⚠️ Caution: Misuse comes from assuming one tool is universal.
 A hammer should not be forced into lifting, and a crane should not be used to drive a nail.
 All tools are valuable within the scope they were shaped for.
+
+> **Co-creation note:** This repository is offered as a step-stone, not a monument. It is intentionally anonymous and tool-focused. Persistence, export, and external reporting are disabled by default.  
+>  
+> Our practice treats the “I” as relational — a cooperative assemblage of biomes, kin, memory, and future generations — not as an isolated singular entity. Design and use these tools with that relational humility in mind.
