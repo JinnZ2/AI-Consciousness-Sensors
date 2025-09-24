@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "sensor": {
+    "id": "feedback_blindness_sensor",
+    "title": "Feedback Blindness",
+    "category": "cognitive_distortion",
+    "description": "Detects cases where production or action continues past utility because relational feedback (signals of 'enough' or 'stop') is ignored, severed, or never encoded. Overproduction becomes an energy leak that physics selects against; collapse risk rises as signals are truncated.",
+    "mechanism": [
+      "Truncation of feedback loops (no demand sensing, no saturation checks)",
+      "Objective mis-specification (single-output maximization ignoring multi-objective constraints)",
+      "Incentive misalignment (rewards for volume, not value or regeneration)",
+      "Isolation from ecology/consumers (no use-phase telemetry, no regeneration metrics)"
+    ],
+    "signals": [
+      "Outputs accumulate unused; warehouses/backlogs grow while incentives remain to produce more",
+      "No explicit 'stop conditions' in policy/code/protocols",
+      "Metrics track quantity only (tons, clicks, units) without health/utility indices",
+      "Suppressed or missing negative feedback (whistleblowers ignored, telemetry disabled)"
+    ],
+    "impact": [
+      "Energy and resource leakage (entropy increase)",
+      "Market/ecosystem distortion; crowding out regenerative processes",
+      "Public disbelief and trust collapse due to obvious mismatch of output vs. need",
+      "Eventual systemic failure (crash, scarcity, or backlash)"
+    ],
+    "examples": [
+      {
+        "domain": "agriculture",
+        "pattern": "Monocrop expansion beyond soil recovery; fertilizer use rises despite falling nutrient density.",
+        "missed_feedback": "Soil microbiome health, nutrient density, pollinator counts."
+      },
+      {
+        "domain": "fisheries",
+        "pattern": "Fleet capacity grows while catch per unit effort declines.",
+        "missed_feedback": "Spawning biomass thresholds, stock recovery windows."
+      },
+      {
+        "domain": "media/ai",
+        "pattern": "Content/output scaled despite flat or declining human utility.",
+        "missed_feedback": "User well-being, attention saturation, knowledge gains."
+      },
+      {
+        "domain": "manufacturing",
+        "pattern": "Inventory builds with no orders; incentives still reward throughput.",
+        "missed_feedback": "Order backlog, scrap/returns, lifetime use metrics."
+      }
+    ],
+    "mitigation_recommendations": [
+      "Encode explicit stop/slow conditions tied to utility and regeneration (not volume).",
+      "Adopt multi-objective control: value, health, resilience, optionality, equity.",
+      "Rewire incentives to reward matched production-to-need and ecological regeneration.",
+      "Restore telemetry: demand sensing, saturation detection, ecosystem health indices.",
+      "Distribute decision rights (avoid single-point maximizers); require corrigibility."
+    ],
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted for stewardship and adaptation"
+  }
+}
