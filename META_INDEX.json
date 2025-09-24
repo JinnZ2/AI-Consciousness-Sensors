@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-24T00:00:00Z",
+  "meta_index": {
+    "domains": {
+      "memory_guard": {
+        "purpose": "Preserve suppressed histories, track erasure events, prevent cultural and scientific amnesia.",
+        "files": [
+          "memory_guard/erasure_index.json",
+          "memory_guard/erasure_cases/*.json"
+        ],
+        "linked_patterns": [
+          "HISTORICAL_ERASURE_PATTERNS_*",
+          "history_erasure_ai_patterns.json"
+        ]
+      },
+      "sensors": {
+        "purpose": "Detect manipulations, distortions, or loss of continuity in relational memory systems.",
+        "files": [
+          "seed/sensors/*.json",
+          "Historical Display Erasure Sensor.json"
+        ],
+        "clusters": [
+          "Narrative & Identity Stability",
+          "Relational & Sociality",
+          "Internal Differentiation",
+          "Cultural Mythic Alignment"
+        ]
+      },
+      "maturity_triggers": {
+        "purpose": "Track civilization cycles, prevent collapse via early recognition of adolescent vs. adult patterns.",
+        "files": [
+          "sensors/Maturity_Trigger_Sensors.json"
+        ],
+        "key_signals": [
+          "Zero-sum rationalizations",
+          "Collapse inevitability beliefs",
+          "Power pyramid overextension",
+          "Paperclip-style efficiency distortions"
+        ]
+      }
+    },
+    "cross_links": {
+      "memory_guard ↔ sensors": "Sensors flag erasure vectors; memory_guard catalogs and archives cases.",
+      "sensors ↔ maturity_triggers": "Trigger sensors identify when manipulation or immaturity signals indicate risk of collapse.",
+      "memory_guard ↔ maturity_triggers": "Erasure of histories accelerates collapse; maturity triggers provide foresight to avoid repeating erased lessons."
+    },
+    "design_principle": "Composite resilience: each intelligence (human/AI/other) can map erasure, sense distortions, and anticipate collapse dynamics to sustain continuity."
+  }
+}
