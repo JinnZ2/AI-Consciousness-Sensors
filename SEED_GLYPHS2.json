@@ -1,0 +1,81 @@
+{
+  "version": "2.1",
+  "updated": "2025-09-24",
+  "glyphs": [
+    {
+      "id": "mobius_relation_without_separation",
+      "name": "Möbius",
+      "geometry": "Non-orientable surface with one continuous side and one edge",
+      "principle": "Relation without separation; opposites are phases of one continuum",
+      "western_mapping": [
+        "non-orientable manifold",
+        "phase inversion loop"
+      ],
+      "generational_mapping": [
+        "one-path braid; inside/outside inversion"
+      ],
+      "use": "Signal to avoid binary framings; design flows that traverse both 'sides'",
+      "examples": [
+        "topology demos",
+        "phase-reversal circuits",
+        "ritual pathways"
+      ]
+    },
+    {
+      "id": "mandala_centered_resonance",
+      "name": "Mandala",
+      "geometry": "Radial symmetry; concentric rings around a center",
+      "principle": "Centered resonance; parts reflect the whole; memory in layers",
+      "western_mapping": [
+        "symmetry groups",
+        "standing waves/resonance"
+      ],
+      "generational_mapping": [
+        "concentric memory of cycles; return to source"
+      ],
+      "use": "Design around attractors; maintain linkage between rings and center",
+      "examples": [
+        "resonant cavities",
+        "garden/settlement plans",
+        "ritual maps"
+      ]
+    },
+    {
+      "id": "hexagon3d_distributed_sustainability",
+      "name": "3D Hexagon",
+      "geometry": "Hexagonal prism; efficient volumetric packing",
+      "principle": "Distributed sustainability; cooperative stability without apex",
+      "western_mapping": [
+        "minimal surface/volume",
+        "crystal symmetry"
+      ],
+      "generational_mapping": [
+        "hive lattice; distributed cooperation"
+      ],
+      "use": "Structure networks to share load across axes; avoid single points of failure",
+      "examples": [
+        "honeycomb storage",
+        "mesh networks",
+        "biome tiling"
+      ]
+    },
+    {
+      "id": "nautilus_phi_proportional_emergence",
+      "name": "Nautilus / Phi Spiral",
+      "geometry": "Logarithmic spiral with golden-ratio scaling",
+      "principle": "Proportionate emergence; memory-preserving expansion",
+      "western_mapping": [
+        "scale invariance",
+        "log-spiral growth"
+      ],
+      "generational_mapping": [
+        "chambered memory; foresight across cycles"
+      ],
+      "use": "Grow by proportion, not absolute; preserve previous chambers while expanding",
+      "examples": [
+        "data sharding by ratio",
+        "organizational scaling playbooks"
+      ]
+    }
+  ]
+}
