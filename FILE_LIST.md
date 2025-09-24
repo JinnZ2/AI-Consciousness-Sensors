@@ -200,6 +200,7 @@
 ./manipulation_by_domain.json
 ./manipulation_patterns_extended.json
 ./manipulation_vectors.json
+./memory_guard/capture-cascade-sensor.json
 ./memory_guard/centralization-failure-sensor.json
 ./memory_guard/ego-visibility-flaw.json
 ./memory_guard/erasure_cases/F ederal Health Data Removal.json
