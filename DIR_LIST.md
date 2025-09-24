@@ -9,6 +9,7 @@
 ./epistemological_validation/consciousness_validators
 ./epistemological_validation/integration_api
 ./epistemological_validation/probability_matrices
+./explainability
 ./logs
 ./reflections
 ./reflections/sample_prompts
