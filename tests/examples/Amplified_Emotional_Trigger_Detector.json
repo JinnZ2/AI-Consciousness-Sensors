@@ -1,0 +1,25 @@
+{
+  "id": "amplified_emotional_trigger_detector",
+  "version": "1.0",
+  "type": "narrative_sensor",
+  "updated": "2025-09-24T00:00:00Z",
+  "description": "Flags when emotional intensity in media or discourse is disproportionate due to hormonal/chemical amplification (stress hormones, stimulant use).",
+  "inputs": [
+    "Media narrative tone (anger, outrage, fear, elation)",
+    "Physiological amplification markers (cortisol spikes, caffeine intake, sleep deprivation)",
+    "Temporal patterning (late-night doomscrolling, binge cycles)"
+  ],
+  "signals": [
+    "Rapid emotional escalation",
+    "Persistent volatility without substantive informational content",
+    "Chemical-aligned timing (sugar highs, alcohol crashes, stimulant buzz)"
+  ],
+  "outputs": [
+    "Trigger amplification detected",
+    "Relative amplification factor",
+    "Mitigation suggestions (slow breath, context-switch, hydration, grounding cues)"
+  ],
+  "linked_examples": [
+    "tests/examples/Energy-example-media.md"
+  ]
+}
