@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T20:19:42.427269Z",
+  "generated_at": "2025-09-24T20:20:35.418072Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 70035,
-      "hash": "d82937db54260524039b987621382519fdcb38c7",
+      "size": 70291,
+      "hash": "4f253df76da0421cd89a6f570658b7de94ca6616",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1678,6 +1678,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json",
+      "lang": "json",
+      "size": 403,
+      "hash": "e8af4ecfc61b7034e4cd5ad26c4eafaf9b232539",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/FEEDBACK_BLINDNESS_SENSOR.json",
       "lang": "json",
       "size": 3054,
@@ -2449,7 +2459,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1584,
-      "hash": "8228f840e38082138d396756a4564132a3796bce",
+      "hash": "fe8a8823cd3702aa4cb97d76d55bc361eb611889",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2530,8 +2540,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 11989,
-      "hash": "b2c18d4fc2b9cb17352134f04bba1ad93dcf2afe",
+      "size": 12035,
+      "hash": "d334a9b9532c46fab2d5215e91d6cee6a1516ec0",
       "roles": [],
       "imports": [],
       "exports": [],
