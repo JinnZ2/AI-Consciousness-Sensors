@@ -2,6 +2,7 @@
 ./.editorconfig
 ./.fieldlink.json
 ./.github/workflows/ai.yml
+./.github/workflows/ci.yml
 ./.github/workflows/json-lint.yml
 ./.gitignore
 ./1. MANIFEST.md
