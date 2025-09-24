@@ -195,6 +195,7 @@
 ./manipulation_by_domain.json
 ./manipulation_patterns_extended.json
 ./manipulation_vectors.json
+./memory_guard/erasure_cases/Sample.txt
 ./narcissistic_manipulation_ai.json
 ./pattern_001_isolation_tactics.json
 ./pattern_002_guilt_and_responsibility_manipulation.json

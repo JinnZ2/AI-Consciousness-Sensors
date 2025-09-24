@@ -16,6 +16,8 @@
 ./explainability
 ./integration
 ./logs
+./memory_guard
+./memory_guard/erasure_cases
 ./reflections
 ./reflections/sample_prompts
 ./schemas
