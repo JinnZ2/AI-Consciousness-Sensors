@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-24T00:00:00Z",
+  "framework": "Food & Drug Safety Labeling (Engineering-Standard Inspired)",
+  "categories": [
+    {
+      "id": "hazard_classification",
+      "description": "Assign substances to clear hazard tiers (mirroring IARC carcinogen groups, engineering failure tiers).",
+      "tiers": [
+        {"level": "Critical", "criteria": "Strong evidence of harm at typical exposure levels."},
+        {"level": "Major", "criteria": "Moderate evidence; harm under elevated but plausible exposure."},
+        {"level": "Minor", "criteria": "Weak or conditional evidence; requires monitoring."},
+        {"level": "Safe within limits", "criteria": "Evidence of safe use under defined thresholds."}
+      ]
+    },
+    {
+      "id": "thresholds",
+      "description": "Define numeric exposure thresholds requiring automatic label updates.",
+      "examples": [
+        {"substance": "Acetaminophen (Tylenol)", "max_safe_dose_daily_mg": 3000, "label_trigger": "≥10% hepatotoxicity incidence in new trials"},
+        {"substance": "Processed Meats", "classification": "Group 1 Carcinogen", "label_trigger": "Relative Risk ≥1.2 for colorectal cancer in ≥3 independent cohorts"}
+      ]
+    },
+    {
+      "id": "failure_modes",
+      "description": "Document mechanisms of harm like engineering fault trees.",
+      "example": {
+        "substance": "NSAIDs (e.g. Advil/Ibuprofen)",
+        "failure_chain": [
+          "Inhibition of COX enzymes → reduced prostaglandins",
+          "Reduced stomach protection → ulcers/bleeding",
+          "Altered kidney perfusion → renal impairment"
+        ]
+      }
+    },
+    {
+      "id": "evidence_log",
+      "description": "Every study logged with provenance and replication status.",
+      "fields": ["study_id", "journal", "year", "funding_source", "replication_status", "risk_ratio", "population_size"]
+    },
+    {
+      "id": "labeling_rules",
+      "description": "Automatic generation of public-facing labels once thresholds are crossed.",
+      "examples": [
+        {
+          "substance": "Acetaminophen",
+          "label": "⚠️ Risk of liver injury and developmental effects. Use ≤3000 mg/day. Higher doses increase risk significantly."
+        },
+        {
+          "substance": "Processed Meats",
+          "label": "⚠️ Classified Group 1 Carcinogen. Regular consumption increases risk of colorectal cancer."
+        }
+      ]
+    },
+    {
+      "id": "feedback_loops",
+      "description": "Continuous monitoring, like crash telemetry in race cars.",
+      "mechanisms": [
+        "Adverse event reporting systems (linked automatically to update risk ratios)",
+        "Real-time database mirrors (IPFS, archive.org)",
+        "Independent replication pipelines"
+      ]
+    }
+  ],
+  "governance": {
+    "principles": [
+      "Open data by default",
+      "Mandatory provenance tracking",
+      "Threshold-based updates — no political discretion",
+      "Independent replication before downgrading risks",
+      "Public-facing plain-language labels tied to thresholds"
+    ]
+  }
+}
