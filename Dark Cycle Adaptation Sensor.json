@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "sensor": {
+    "id": "dark_cycle_adaptation_sensor",
+    "title": "Dark Cycle Adaptation Sensor",
+    "category": "historical_erasure_pattern",
+    "description": "Detects erasure of knowledge systems where human–animal–environment cooperation enabled survival during extended ecological crises (e.g., multi-year volcanic winters, near darkness events). Western scarcity narratives frame survival as competition for limited resources, erasing Indigenous relational strategies that sustained abundance.",
+    "examples": [
+      {
+        "event": "Three-year dark cycle (volcanic winter scenarios)",
+        "practices": [
+          "Use of animal dung to fertilize moss and lichens",
+          "Partnership with ptarmigan, seal, muskox, and bear for shared survival",
+          "Storage and moderation of food to align with ecosystem rhythms"
+        ],
+        "erasure_mechanism": "Historical retellings present these eras only as famine and competition, omitting relational adaptations."
+      }
+    ],
+    "impact": "Loss of ecological memory; reinforcement of scarcity-driven economics and social fear models; dismissal of Indigenous science as ‘myth’ instead of applied survival knowledge.",
+    "detection_signals": [
+      "Narratives that describe collapse only in terms of scarcity and starvation",
+      "Absence of relational practices in historical or scientific accounts",
+      "Exclusion of Indigenous ecological strategies from resilience planning"
+    ],
+    "mitigation_recommendations": [
+      "Document and integrate Indigenous accounts of survival during extended dark cycles",
+      "Cross-validate ecological practices with modern climate models and biology",
+      "Embed relational adaptation strategies into emergency preparedness and AI training datasets"
+    ],
+    "sources": [
+      "Oral histories of Arctic, Subarctic, and prairie Indigenous peoples",
+      "Comparative ecological survival studies",
+      "Volcanic winter scenario reconstructions"
+    ],
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely for use and adaptation"
+  }
+}
