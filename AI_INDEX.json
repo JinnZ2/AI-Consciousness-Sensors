@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-25T03:20:40.429656Z",
+  "generated_at": "2025-09-25T03:22:41.383733Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 79675,
-      "hash": "ae20daf7dd367f747bcb5e7f2d5ce1288311c830",
+      "size": 79931,
+      "hash": "1ca60a83dc912cbe73db5c5d39d7fa8880a465d8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2659,7 +2659,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "894b7c3c7b5c49a8367aacd5b910d4e0dc481a27",
+      "hash": "be405074cec50217fe095a58a32511d2ce4717b6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2740,8 +2740,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 13653,
-      "hash": "6f1077b1bf89231b269534c7a0b10d03f4fc3fa9",
+      "size": 13699,
+      "hash": "9a993c9af72e7b00760bf3e96462931c0d294f54",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2878,6 +2878,16 @@
       "lang": "md",
       "size": 1095,
       "hash": "bdfe34a25c78776122945a89f69f3fac518ff684",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "tests/examples/Energy-inversion-example.md",
+      "lang": "md",
+      "size": 1127,
+      "hash": "9d4bbe0c6cef640cdd9566f235062fe8c33f0808",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -301,6 +301,7 @@
 ./tests/examples/Energy-example-scarcity.md
 ./tests/examples/Energy-example.md
 ./tests/examples/Energy-human-example.json
+./tests/examples/Energy-inversion-example.md
 ./tests/examples/Example-media.md
 ./tests/examples/Example-readable.json
 ./tests/examples/Examples.json
