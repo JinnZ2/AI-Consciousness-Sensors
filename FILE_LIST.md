@@ -302,6 +302,7 @@
 ./tests/examples/False_Scarcity_Narrative_Detector.json
 ./tests/examples/False_Scarcity_Narrative_Detector_v2.json
 ./tests/examples/Food & Drug Safety Labeling Framework.json
+./tests/examples/Incentive Fragility Sensor.json
 ./tests/examples/Media-Lab.md
 ./tests/examples/Signal_to_Noise_Waste_Meter.json
 ./tests/examples/Trust-as-Energy.md
