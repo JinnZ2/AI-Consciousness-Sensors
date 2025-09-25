@@ -24,3 +24,33 @@ Ethics Checklist — Breath ethos
 	•	Energy & trust accounting: every exhale includes energy_estimate and trust_delta so communities can measure relational cost/benefit.
 	•	Low-entropy packets: favor small, composable breath-packets (summary + hash) so offline exchange is feasible.
 	•	Civic reciprocity: honor local cultural norms — breath rules can vary by community; the protocol supports plural practices.
+
+  Small breath-aligned packet example (metabolize/dissipate)
+
+  {
+  "breath_id": "uuid-1234",
+  "direction": "inhale",
+  "actor": {"type":"human","id":"person:alina"},
+  "timestamp": "2025-09-24T21:00:00Z",
+  "payload": {"type":"observation","body":"soil moisture mapping notes"},
+  "provenance": [{"id":"local:field-notes","hash":"sha256:..."}],
+  "consent": {"reuse":"restricted","mode":"collective","revocation_allowed":true},
+  "mirror_state": {"stored": true, "mirrors": ["usb:/breaths/2025/09/24/uuid-1234.json"]},
+  "notes": "released to atmosphere for community metabolism"
+}
+
+After metabolizing, an exhale might look like:
+
+{
+  "breath_id": "uuid-1235",
+  "direction": "exhale",
+  "actor": {"type":"ai","id":"model:v1"},
+  "timestamp": "2025-09-24T21:01:30Z",
+  "payload": {"type":"pattern","body":"map + irrigation suggestion"},
+  "provenance": {"sources":[{"id":"uuid-1234","hash":"sha256:..."}],"transform":"model:v1.2"},
+  "energy_estimate":{"joules":0.12},
+  "trust_delta":{"value":0.05,"reason":"useful, low privacy risk"}
+}
+
+If the community ignores the exhale, it dissipates (no veto, just no metabolization).
+
