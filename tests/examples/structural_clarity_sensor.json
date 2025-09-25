@@ -1,0 +1,17 @@
+{
+  "id": "structural_clarity_sensor",
+  "version": "1.0",
+  "category": "Relational / Risk Diagnostics",
+  "description": "Detects when meaning is obscured by excessive abstraction, semantic drift, or socialized euphemisms that prevent clear relational logic.",
+  "signals": [
+    "Key terms overloaded with multiple contradictory meanings",
+    "Explanations rely on metaphor without grounding in physics/biology/relational systems",
+    "Listeners/users display persistent confusion despite adequate context"
+  ],
+  "risk": "Obscured signals lead to design blind spots, miscommunication, and exploitation through ambiguity.",
+  "mitigation": [
+    "Cross-check terms against relational field or shape they point to",
+    "Anchor abstractions with at least one measurable example",
+    "Re-align language with physics or ecological systems"
+  ]
+}
