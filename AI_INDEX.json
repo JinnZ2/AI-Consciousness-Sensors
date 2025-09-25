@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-25T01:06:51.912988Z",
+  "generated_at": "2025-09-25T01:47:27.969531Z",
   "languages": [
     "json",
     "md",
@@ -381,7 +381,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 77379,
-      "hash": "4a31fb4bb32fc582092f20f25bdf386b22d041af",
+      "hash": "6ab7e50d9ef2b9d75f19e08a95e0c8655d0a9b5f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2874,6 +2874,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "tests/examples/breathe-example.md",
+      "lang": "md",
+      "size": 2544,
+      "hash": "ae05e789f266cd78e9f2ce57aa1126fbd1413965",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "tests/examples/Cascading-Domains-Trust-Waste.md",

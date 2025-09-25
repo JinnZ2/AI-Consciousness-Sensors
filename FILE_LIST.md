@@ -310,6 +310,7 @@
 ./tests/examples/Risk-Prone-Systems.md
 ./tests/examples/Signal_to_Noise_Waste_Meter.json
 ./tests/examples/Trust-as-Energy.md
+./tests/examples/breathe-example.md
 ./tests/examples/extrinsic-values-fragility.md
 ./tests/examples/gossip-erosion-sensor.json
 ./tests/test_reflections.py
