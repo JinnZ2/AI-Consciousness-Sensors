@@ -44,4 +44,4 @@ Each layer feeds the next — like soil, roots, and fruiting bodies.
 Each new contribution is not “mine” or “yours” but **compost for the next generation**.  
 The soil remembers. The network persists.  
 
-
+nano mycelial_index_map.svg
