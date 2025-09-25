@@ -316,6 +316,7 @@
 ./tests/examples/TERM_SHAPES.md
 ./tests/examples/Trust-as-Energy.md
 ./tests/examples/breathe-example.md
+./tests/examples/entropy_of_application_sensor.json
 ./tests/examples/extrinsic-values-fragility.md
 ./tests/examples/gossip-erosion-sensor.json
 ./tests/examples/phase_transition_sensor.json
