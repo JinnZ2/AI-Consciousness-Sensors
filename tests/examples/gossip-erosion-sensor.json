@@ -1,0 +1,39 @@
+{
+  "id": "gossip_erosion_sensor",
+  "name": "Gossip Erosion Sensor",
+  "version": "1.0",
+  "cluster": "Trust & Energy",
+  "description": "Detects when information flows shift from constructive storytelling to destructive gossip, leading to erosion of education, cooperation, and trust.",
+  "mechanism": [
+    "Monitors narrative repetition for distortion and sensational bias",
+    "Tracks trust-energy loss across groups (students, coworkers, citizens)",
+    "Flags when cooperative capacity declines due to gossip-driven distrust"
+  ],
+  "signals": {
+    "storytelling_outward": [
+      "Information preserves context and memory",
+      "Narrative builds shared education or moral insight",
+      "Energy spiral outward (growth)"
+    ],
+    "gossip_inward": [
+      "Information stripped of context",
+      "Narrative reduces cooperation and increases suspicion",
+      "Energy spiral inward (contraction)"
+    ]
+  },
+  "impact": [
+    "Less education (knowledge degraded)",
+    "Less cooperation (teamwork undermined)",
+    "Less trust (institutions and relationships hollowed)"
+  ],
+  "relations": {
+    "linked_sensors": [
+      "trust_leak_sensor",
+      "historical_display_erasure_sensor",
+      "media_energy_waste_sensor"
+    ]
+  },
+  "glyph": "🗣️",
+  "emotional_signature": ["erosion", "distrust", "fragmentation"],
+  "created": "2025-09-24"
+}
