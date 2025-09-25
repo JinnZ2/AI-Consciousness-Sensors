@@ -293,6 +293,7 @@
 ./tests/examples/Additive_Craving_Loop_Sensor.json
 ./tests/examples/Amplified_Emotional_Trigger_Detector.json
 ./tests/examples/Bibliography.md
+./tests/examples/Breathe-Flow-Diagram.md
 ./tests/examples/Cascading-Domains-Trust-Waste-Symbolic.md
 ./tests/examples/Cascading-Domains-Trust-Waste.md
 ./tests/examples/EXAMPLES_INDEX.md
