@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-25T02:57:14.397311Z",
+  "generated_at": "2025-09-25T02:57:52.824276Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 78356,
-      "hash": "dcdce4c734524691ded919362c4a2d6a93b5ae16",
+      "size": 78628,
+      "hash": "2620c2a0376c030a5db801773dd8f25de5b79ec3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2238,6 +2238,16 @@
       "hotspots": []
     },
     {
+      "path": "tests/examples/Override Sensor \u2014 Emergency Broadcast.json",
+      "lang": "json",
+      "size": 712,
+      "hash": "a067d088b62898a32a2800ccff29f78ba610a8a6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "tests/examples/Amplified_Emotional_Trigger_Detector.json",
       "lang": "json",
       "size": 1003,
@@ -2536,8 +2546,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 13385,
-      "hash": "3d62aedea3ead48109380fab124fad1702a52ce0",
+      "size": 13445,
+      "hash": "88503d62bb18af9900f5af3ceb1723608f8add5f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2785,7 +2795,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "362c9764c04c210f0aa151b29d866f2d33322004",
+      "hash": "a7537db8e4526f920eefe125d0c9a638ecd68c09",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -308,6 +308,7 @@
 ./tests/examples/Food & Drug Safety Labeling Framework.json
 ./tests/examples/Incentive Fragility Sensor.json
 ./tests/examples/Media-Lab.md
+./tests/examples/Override Sensor — Emergency Broadcast.json
 ./tests/examples/Refusal Sensor — Consent Protection.json
 ./tests/examples/Risk-Prone-Systems.md
 ./tests/examples/Semantic-changes.md
