@@ -1,0 +1,17 @@
+{
+  "id": "entropy_of_application_sensor",
+  "version": "1.0",
+  "category": "Relational / Risk Diagnostics",
+  "description": "Detects when scientific or technical advances are being applied in ways that increase inequality, extraction, or entropy rather than balance and resilience.",
+  "signals": [
+    "Benefits of a discovery disproportionately flow to central powers or corporations",
+    "Communities experience increased dependency or vulnerability after adoption",
+    "Knowledge is siloed or monetized instead of distributed"
+  ],
+  "risk": "Technology framed as 'progress' creates systemic fragility and suppresses long-term resilience.",
+  "mitigation": [
+    "Map who gains/loses across domains when applying knowledge",
+    "Test for balance in energy, ecological, and cultural dimensions",
+    "Prioritize distributed and regenerative uses of technology"
+  ]
+}
