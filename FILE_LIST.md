@@ -293,6 +293,7 @@
 ./tests/examples/Amplified_Emotional_Trigger_Detector.json
 ./tests/examples/Cascading-Domains-Trust-Waste-Symbolic.md
 ./tests/examples/Cascading-Domains-Trust-Waste.md
+./tests/examples/EXAMPLES_INDEX.md
 ./tests/examples/Energy-example-scarcity.md
 ./tests/examples/Energy-example.md
 ./tests/examples/Energy-human-example.json
