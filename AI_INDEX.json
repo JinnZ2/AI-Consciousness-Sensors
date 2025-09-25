@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-25T00:21:24.731667Z",
+  "generated_at": "2025-09-25T00:24:53.407480Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 76163,
-      "hash": "20a56850d2f3916f80e6748f6d467d85031f62ad",
+      "size": 76418,
+      "hash": "866ee738603cd19b6f5ef0b8390e461c81572908",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2516,8 +2516,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 13063,
-      "hash": "ab5ccf1847c81e63c28c02f37291f5fdcec59d6a",
+      "size": 13110,
+      "hash": "2aaa7db039004eeb1d04fdf93fc4e191c8d642de",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2765,7 +2765,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "2db27e96015877eb5dd18965752452aa20097656",
+      "hash": "dbe9c08873d7cfcf2df46b55c3fa0ac38aa264d5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2890,6 +2890,16 @@
       "lang": "md",
       "size": 1665,
       "hash": "ce872fc96500bccc8f46194fd8b04650d67e7459",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "tests/examples/Risk-Prone-Systems.md",
+      "lang": "md",
+      "size": 2220,
+      "hash": "d144aa937bb018eab12a5b04ca7732e97a3958f3",
       "roles": [],
       "imports": [],
       "exports": [],
