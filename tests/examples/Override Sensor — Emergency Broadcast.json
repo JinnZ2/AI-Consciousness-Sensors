@@ -1,0 +1,17 @@
+{
+  "id": "sensor_override_emergency_broadcast",
+  "title": "Override Sensor — Emergency Broadcast",
+  "version": "1.0",
+  "trigger": [
+    "Immediate danger to life (wildfire, flood, attack)",
+    "Normal consent cycle too slow to prevent harm"
+  ],
+  "action": "Temporarily bypass consent and broadcast alerts to all nodes.",
+  "constraints": [
+    "Time-limited (e.g., 24 hours or event end)",
+    "Event logged with clear markers: reason, duration, initiator",
+    "Consent cycle restored automatically after timeout"
+  ],
+  "impact": "Preserves life while maintaining atmospheric trust through transparency.",
+  "notes": "Override must be rare; its power comes from both urgency and return to balance."
+}
