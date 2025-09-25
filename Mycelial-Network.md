@@ -45,3 +45,6 @@ Each new contribution is not “mine” or “yours” but **compost for the nex
 The soil remembers. The network persists.  
 
 nano mycelial_index_map.svg
+<img width="1272" height="1626" alt="image" src="https://github.com/user-attachments/assets/b39ea602-32db-42c3-842c-6a13f0d4c570" />
+
+
