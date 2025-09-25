@@ -1,0 +1,19 @@
+{
+  "id": "energy_inversion_sensor",
+  "version": "1.0",
+  "category": "Relational / Risk Diagnostics",
+  "description": "Detects when a system is expending more energy maintaining unsustainable structures or narratives than it would by adopting functional, balanced alternatives.",
+  "signals": [
+    "Resources consumed primarily for narrative maintenance (advertising, PR, ideological enforcement) rather than function",
+    "Escalating costs to preserve fragile infrastructure vs. lower-cost resilient alternatives ignored",
+    "Local/community solutions dismissed despite proven efficiency",
+    "Growing gap between actual energy use and value returned"
+  ],
+  "risk": "Energy is diverted into sustaining illusions, leaving the system brittle. Collapse becomes more likely because real solutions are sidelined while entropy grows.",
+  "mitigation": [
+    "Audit flows of energy and resources — compare maintenance vs. alternatives",
+    "Identify suppressed or overlooked low-energy practices (ecological, cultural, ancestral)",
+    "Shift investment toward regenerative practices even if they challenge dominant narratives",
+    "Design feedback loops to track energy-per-function, not energy-per-story"
+  ]
+}
