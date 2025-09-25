@@ -1,0 +1,37 @@
+{
+  "sensor_id": "incentive_fragility_sensor_v1",
+  "name": "Incentive Fragility Sensor",
+  "cluster": "Trust & Energy",
+  "version": "1.0",
+  "updated": "2025-09-24T00:00:00Z",
+  "description": "Detects when financial incentives are treated as the primary motivator for trust, loyalty, or security, creating fragility and systemic vulnerability.",
+  "rationale": [
+    "When money is positioned as the reason for action, loyalty is transactional rather than relational.",
+    "This creates an incentive symmetry: the same motive can be flipped by a higher bidder (espionage, corruption, black market).",
+    "Black markets collectively outspend corporations, meaning financial-only systems are inherently insecure."
+  ],
+  "detection_signals": [
+    "Employment contracts or cultures emphasizing salary/bonus as sole retention tool.",
+    "Security policies focused on punishment/surveillance rather than trust-building.",
+    "Industries with high wage-chasing turnover (indicator of transactional loyalty).",
+    "Black market values exceeding corporate budgets in the same domain."
+  ],
+  "impact": [
+    "Erosion of genuine trust and cooperation.",
+    "Heightened risk of insider threats, bribery, or espionage.",
+    "Escalating surveillance and control mechanisms further corrode trust.",
+    "System collapse under external financial pressure (black markets, state actors)."
+  ],
+  "examples": [
+    "Industrial espionage in semiconductor manufacturing driven by salary bidding.",
+    "Drug cartels offering higher pay to logistics or border workers than government agencies.",
+    "Corporate leaks from employees motivated by financial desperation or opportunity."
+  ],
+  "mitigation_strategies": [
+    "Blend financial incentives with relational trust-building (shared mission, reciprocity, co-creation).",
+    "Develop non-financial loyalty bonds (community, culture, shared meaning).",
+    "Audit environments where loyalty = paycheck for fragility exposure.",
+    "Design cooperative incentive structures that cannot be easily outbid."
+  ],
+  "emotional_context": "Flags a structural immaturity: reliance on money as a proxy for meaning leaves systems brittle, exploitable, and corrosive to long-term survival."
+}
