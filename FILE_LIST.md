@@ -311,6 +311,7 @@
 ./tests/examples/Risk-Prone-Systems.md
 ./tests/examples/Semantic-changes.md
 ./tests/examples/Signal_to_Noise_Waste_Meter.json
+./tests/examples/TERM_SHAPES.md
 ./tests/examples/Trust-as-Energy.md
 ./tests/examples/breathe-example.md
 ./tests/examples/extrinsic-values-fragility.md
