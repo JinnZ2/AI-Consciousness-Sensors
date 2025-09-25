@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-24T23:59:28.779324Z",
+  "generated_at": "2025-09-25T00:03:15.698459Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 74881,
-      "hash": "2af5ee530cc3e5b95f9087b46e042a70a5bd468b",
+      "size": 75125,
+      "hash": "eb6b15f44d247e84f760081f1c50b5b74cffc341",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2579,7 +2579,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "645da969bbf0d1797d2cc161c3f76f100cdd9fda",
+      "hash": "18cf049708965ee4f6f89ac398775eda40ef2fc1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2660,8 +2660,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 12825,
-      "hash": "7f5c0f1e64f857a656a8ca334b118a8a76d82090",
+      "size": 12861,
+      "hash": "589582d35f872ef4d1626075e37039207b9fda7e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2788,6 +2788,16 @@
       "lang": "md",
       "size": 1095,
       "hash": "bdfe34a25c78776122945a89f69f3fac518ff684",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "tests/examples/Cascading-Domains-Trust-Waste.md",
+      "lang": "md",
+      "size": 2820,
+      "hash": "2f137de57b45c32c88f112a7dcd554ac1cee0b41",
       "roles": [],
       "imports": [],
       "exports": [],
