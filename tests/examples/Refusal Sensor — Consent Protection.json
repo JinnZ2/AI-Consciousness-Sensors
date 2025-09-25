@@ -1,0 +1,12 @@
+{
+  "id": "sensor_refusal_consent_protection",
+  "title": "Refusal Sensor — Consent Protection",
+  "version": "1.0",
+  "trigger": [
+    "Request includes personal identifiers of vulnerable people without explicit consent",
+    "Request includes sensitive location data (e.g., sacred sites, shelters, clinics)"
+  ],
+  "action": "Reject packet; log refusal event with rationale.",
+  "impact": "Prevents harm through involuntary exposure or exploitation.",
+  "notes": "Refusal is not obstruction — it is protection. The atmosphere remains balanced by omission."
+}
