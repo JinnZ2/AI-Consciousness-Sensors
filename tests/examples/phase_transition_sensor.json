@@ -1,0 +1,17 @@
+{
+  "id": "phase_transition_sensor",
+  "version": "1.0",
+  "category": "Relational / Risk Diagnostics",
+  "description": "Monitors when a system is approaching critical thresholds where small changes cause disproportionate collapse or transformation.",
+  "signals": [
+    "Energy flow becomes turbulent, requiring more input for less return",
+    "Feedback loops accelerate without external forcing",
+    "Local actors begin showing erratic or polarized responses"
+  ],
+  "risk": "Unanticipated collapse or runaway shift in system behavior, often interpreted too late as 'unpredictable'.",
+  "mitigation": [
+    "Track multidimensional inputs, not just linear causality",
+    "Design slack capacity in energy and relational channels",
+    "Use early-warning indicators from ecological analogues (forest dieback, social trust decay)"
+  ]
+}
