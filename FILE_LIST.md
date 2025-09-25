@@ -59,6 +59,7 @@
 ./Memory protection .md
 ./Mexican American WW2 addendum.md
 ./Multiple Origins Acknowledgement Sensor.json
+./Mycelial-Network.md
 ./Network resistance protocol.md
 ./Neurodivergent-consciousness-sensors.md
 ./PARALLEL_SCIENCES.md
