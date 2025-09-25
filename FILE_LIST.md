@@ -318,5 +318,6 @@
 ./tests/examples/breathe-example.md
 ./tests/examples/extrinsic-values-fragility.md
 ./tests/examples/gossip-erosion-sensor.json
+./tests/examples/phase_transition_sensor.json
 ./tests/examples/structural_clarity_sensor.json
 ./tests/test_reflections.py
