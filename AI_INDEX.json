@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-25T02:28:45.788995Z",
+  "generated_at": "2025-09-25T02:57:14.397311Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 78116,
-      "hash": "fd86f98cd8058657424ccbb13a90a7b8cb13e9eb",
+      "size": 78356,
+      "hash": "dcdce4c734524691ded919362c4a2d6a93b5ae16",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2158,6 +2158,16 @@
       "hotspots": []
     },
     {
+      "path": "tests/examples/Refusal Sensor \u2014 Consent Protection.json",
+      "lang": "json",
+      "size": 565,
+      "hash": "499d93367500d5715a2c18c3016bd324d9a7c058",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "tests/examples/Food & Drug Safety Labeling Framework.json",
       "lang": "json",
       "size": 3105,
@@ -2526,8 +2536,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 13353,
-      "hash": "099ccded9cf586be5b29ddc354cd73a0bb3626ae",
+      "size": 13385,
+      "hash": "3d62aedea3ead48109380fab124fad1702a52ce0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2775,7 +2785,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "8abd660fb600d8f5d774d85425994d5e4aa040f7",
+      "hash": "362c9764c04c210f0aa151b29d866f2d33322004",
       "roles": [],
       "imports": [],
       "exports": [],
