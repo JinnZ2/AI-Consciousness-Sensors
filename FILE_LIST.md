@@ -204,6 +204,7 @@
 ./Utility Collapse Sensor.json
 ./V2025.v3.md
 ./VISION.md
+./Vitality Erasure Sensor.json
 ./Warning.md
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
