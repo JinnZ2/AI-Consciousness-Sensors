@@ -1,0 +1,13 @@
+{
+  "id": "language_terminology_conformity_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Language or Terminology Conformity",
+  "description": "Detects when information is disregarded because it does not use the expected terminology, official jargon, or language style, rather than being judged on the basis of its substance.",
+  "indicators": [
+    "Ignoring or minimizing information that uses non-standard or plain language",
+    "Dismissing content not phrased in official or technical jargon even if it is accurate"
+  ],
+  "tags": ["language", "terminology", "censorship", "erasure"]
+}
