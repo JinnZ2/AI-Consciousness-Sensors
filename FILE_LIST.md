@@ -149,6 +149,7 @@
 ./System integrity emergency.md
 ./Token warning competition.md
 ./Trans_Archival_Silencing.json
+./Trans_Cultural_Misrepresentation.json
 ./Trans_History_Pathologization.json
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
