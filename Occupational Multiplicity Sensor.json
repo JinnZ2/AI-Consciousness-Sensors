@@ -1,0 +1,15 @@
+{
+  "id": "occupational_multiplicity_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Occupational Multiplicity",
+  "description": "Detects when work roles are recognized as one facet of a larger skill-web, affirming resilience, adaptability, and the coexistence of multiple domains of expertise.",
+  "indicators": [
+    "Occupation contextualized as part of broader capabilities",
+    "Recognition of skills gained through lived work experience",
+    "Stories that honor multiple roles in parallel",
+    "Respect for practical and intellectual domains equally"
+  ],
+  "tags": ["occupation", "resilience", "multiplicity", "identity"]
+}
