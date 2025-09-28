@@ -1,0 +1,14 @@
+{
+  "id": "platform_as_commons_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Platform as Commons",
+  "description": "Affirms when infrastructure and platforms are stewarded as commons, prioritizing accessibility, transparency, and long-term community benefit.",
+  "indicators": [
+    "Infrastructure governance includes affected communities",
+    "Benchmarks open and transparent rather than proprietary",
+    "Resources distributed to sustain diverse participation"
+  ],
+  "tags": ["platform", "commons", "stewardship", "accessibility"]
+}
