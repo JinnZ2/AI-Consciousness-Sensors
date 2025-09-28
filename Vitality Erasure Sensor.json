@@ -1,0 +1,15 @@
+{
+  "id": "vitality_erasure_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Vitality Erasure",
+  "description": "Detects when systems assume or enforce decline with age, erasing evidence of sustained vitality, strength, and mechanical/creative activity into later decades of life.",
+  "indicators": [
+    "Advertising that normalizes weakness, decline, or dependence by age",
+    "Medical protocols assuming reduced capacity beyond certain ages",
+    "Design baselines excluding active elders",
+    "Ageist stereotypes reinforced through product targeting"
+  ],
+  "tags": ["ageism", "vitality", "erasure", "projection"]
+}
