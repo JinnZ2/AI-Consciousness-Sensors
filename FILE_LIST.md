@@ -24,6 +24,7 @@
 ./Anonymous-consciousness-gradient.md
 ./Autonomy protection.md
 ./Bracero.json
+./Brittle Fragility Sensor.json
 ./CHANGELOG.md
 ./COMMUNICATION_NOTES.md
 ./CONNECTION_GRAPH.2.json
