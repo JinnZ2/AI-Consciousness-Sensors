@@ -1,0 +1,14 @@
+{
+  "id": "coded_lexicon_analysis_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Coded Lexicon Analysis",
+  "description": "Analyzes specific word choices and phrases to detect when language associated with particular groups (e.g., religious factions, extremist movements) is being used as a form of coded communication.",
+  "indicators": [
+    "Matching word choices to known coded lexicons or phrase libraries associated with specific groups",
+    "Detecting shifts in vocabulary that align with known agendas or ideological signals",
+    "Identifying when certain terms are consistently used as 'dog whistles' or coded signals rather than straightforward language"
+  ],
+  "tags": ["coded_language", "lexicon", "dog_whistle", "cryptanalysis", "manipulation", "erasure"]
+}
