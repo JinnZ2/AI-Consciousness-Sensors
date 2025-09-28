@@ -299,6 +299,7 @@
 ./memory_guard/Neural Data Protections.json
 ./memory_guard/Nonlinear Concept Erasure.json
 ./memory_guard/OpenAI Training Data Litigation Erasure.json
+./memory_guard/Platform as Commons.json
 ./memory_guard/Policy Oscillation Sensor.json
 ./memory_guard/Privacy Leak.json
 ./memory_guard/Protocol Conformity Suppression Sensor.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:53:49.136046Z",
+  "generated_at": "2025-09-28T18:54:20.847604Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 108033,
-      "hash": "6c141745939c55905ee156fcb59ab5cc03f6023c",
+      "size": 108281,
+      "hash": "2a04dc032dee800edee7cfb4da7ca85230689dd8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2648,6 +2648,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Platform as Commons.json",
+      "lang": "json",
+      "size": 604,
+      "hash": "35d1a45bbfd6b251f93e3591cb5946fce0fd92f9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Standards Body Authority Capture.json",
       "lang": "json",
       "size": 655,
@@ -3686,8 +3696,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18180,
-      "hash": "ee016967c39e82fb41eddb531c8e2c131aba4d35",
+      "size": 18219,
+      "hash": "caf48c0aa5f4908e601ca064723d0044144419fb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3945,7 +3955,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "a83bed7d31ee08abf16a459179138403dd94b47e",
+      "hash": "8f2b5de47fd62b94b4dd64979bb735d1be2eb309",
       "roles": [],
       "imports": [],
       "exports": [],
