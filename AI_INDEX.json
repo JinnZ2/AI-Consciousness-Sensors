@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:02:46.152654Z",
+  "generated_at": "2025-09-28T03:04:27.124292Z",
   "languages": [
     "json",
     "md",
@@ -410,8 +410,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 93575,
-      "hash": "9bb6926494fa3a947f60d12b34afeea6be4f7a62",
+      "size": 93813,
+      "hash": "ed8cb2afe51fd754844a4d792aac8d015121442b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -844,6 +844,16 @@
       "lang": "json",
       "size": 2246,
       "hash": "0299a0e4e1dcaed8707f25bcebb02ee63562fe6f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Dual Glyph Addons.json",
+      "lang": "json",
+      "size": 1512,
+      "hash": "ea3cb9e1260add62b6e707b06c1ac3ec9f0072d5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3136,8 +3146,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15845,
-      "hash": "86d5eaffbbbe652b9e26b9c974596c23ca969763",
+      "size": 15874,
+      "hash": "61bbd0a7339e8ea535e02a97945032c70ea05c44",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3385,7 +3395,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "3cdf7d9027ddcc20dac9a4354caff5216f4c30f1",
+      "hash": "37ab8c8a6346838453d3374dac000ff3083c018f",
       "roles": [],
       "imports": [],
       "exports": [],
