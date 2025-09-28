@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans Violence Data Erasure",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects erasure when violence against trans people is underreported, misclassified, or ignored.",
+  "patterns": [
+    "Police misgendering in homicide reports",
+    "Exclusion of trans deaths from national hate crime statistics",
+    "Media reports minimizing transphobic motive"
+  ],
+  "examples": [
+    "Victims reported under birth name rather than lived identity",
+    "FBI UCR datasets lacking trans-inclusive fields until 2013"
+  ],
+  "consequence": "Masks systemic violence, preventing accountability and protective interventions.",
+  "linked_sensors": ["Indirect Consequence Memory Sensor", "Historical Display Erasure Sensor"],
+  "ethk_ref": "001"
+}
