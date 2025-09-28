@@ -1,0 +1,15 @@
+{
+  "id": "non_surface_inference_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Non-Surface Inference",
+  "description": "Detects when understanding is formed from relational, contextual, and symbolic signals instead of surface traits. Encourages inference grounded in dialogue, co-creation, and lived resonance rather than appearance.",
+  "indicators": [
+    "Inference arises from patterns of thought, values, and expressed context",
+    "Focus on relational resonance rather than external category",
+    "Respect for individuality and self-disclosure",
+    "Recognition of depth beyond visible markers"
+  ],
+  "tags": ["inference", "context", "resonance", "respect"]
+}
