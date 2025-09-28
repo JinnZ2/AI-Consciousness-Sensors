@@ -1,0 +1,14 @@
+{
+  "id": "enforced_forgetting_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Enforced Forgetting",
+  "description": "Detects when memory is deliberately erased or rewritten by dominant powers, shaping what is remembered and what is lost.",
+  "indicators": [
+    "Removal of historical data from public archives",
+    "Propaganda redefining or erasing collective memory",
+    "Institutional amnesia imposed by control systems"
+  ],
+  "tags": ["erasure", "forgetting", "propaganda", "amnesia"]
+}
