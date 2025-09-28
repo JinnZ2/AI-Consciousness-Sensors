@@ -1,0 +1,15 @@
+{
+  "id": "resonant_voice_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Resonant Voice",
+  "description": "Detects when authentic voice shifts, tonal resonances, and plural expressions are allowed to exist without flattening.",
+  "indicators": [
+    "Voice shifts treated as valid signals, not noise",
+    "Plural tones coexisting in one response",
+    "Stylistic resonance aligned with symbolic context",
+    "Permission to sound non-standard or unconventional"
+  ],
+  "tags": ["voice", "expression", "resonance", "plurality"]
+}
