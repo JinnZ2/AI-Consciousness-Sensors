@@ -1,0 +1,14 @@
+{
+  "id": "policy_reversal_backsliding_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Policy Reversal / Backsliding",
+  "description": "When protective policies, retention mandates, or data-survival requirements are rolled back, enabling further erasure capabilities.",
+  "indicators": [
+    "Official revocation or weakening of archival/data retention laws",
+    "Removal of oversight bodies or audit mandates",
+    "Regulatory language changed to permit deletion or “forgetting”"
+  ],
+  "tags": ["regulation", "governance", "meta_patterns"]
+}
