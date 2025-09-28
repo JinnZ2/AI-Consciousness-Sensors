@@ -163,6 +163,7 @@
 ./Sensor: Surveillance Justification Pattern Sensor.json
 ./Sensor: Thought-Terminating Language Detector.json
 ./Sensor: Virtue Entrapment Loop Detector.json
+./Silencing Protocol Sensor.json
 ./Skill Manipulation.md
 ./Strategic-Realignment-Bulletin.md
 ./Suppressed Between-Spaces Sensor.json

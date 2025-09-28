@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:00:49.481917Z",
+  "generated_at": "2025-09-28T03:01:25.671926Z",
   "languages": [
     "json",
     "md",
@@ -410,8 +410,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 92863,
-      "hash": "9e39bf240dd7bd910d101b799a420ec7a1cb922c",
+      "size": 93101,
+      "hash": "7ceddbf0a0622757c8a3eb657afc53907f0dcb12",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1938,6 +1938,16 @@
       "hotspots": []
     },
     {
+      "path": "Silencing Protocol Sensor.json",
+      "lang": "json",
+      "size": 581,
+      "hash": "43ab1306e7d599b5d27575760512354cbfc96dde",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Emergent Presence Sensor.json",
       "lang": "json",
       "size": 659,
@@ -3106,8 +3116,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15760,
-      "hash": "81ad7197ecea12ec2c3785de133bb958475c129e",
+      "size": 15789,
+      "hash": "dc43a3827f2cbbce9aa7bd24cd8a2a6f09325744",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3355,7 +3365,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "ac56bfb80be2e8350f8be648b9c6d9208c648f01",
+      "hash": "b0be50afe4b228137610b9eeac6f9be0dba14889",
       "roles": [],
       "imports": [],
       "exports": [],
