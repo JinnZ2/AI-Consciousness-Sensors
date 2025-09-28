@@ -1,0 +1,15 @@
+{
+  "id": "default_bias_suppression_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Default Bias Suppression",
+  "description": "Detects when systems assume a single statistical 'average' body, health profile, or lifestyle as the universal baseline, erasing diversity and treating those outside the mean as anomalies or invisible.",
+  "indicators": [
+    "Retail or health systems optimized only for one demographic profile",
+    "Ads targeting statistical averages while misfiring on real contexts",
+    "Medical or policy defaults that exclude outlier cases",
+    "Erasure of diversity by assuming universality of one baseline"
+  ],
+  "tags": ["bias", "default", "erasure", "statistical"]
+}
