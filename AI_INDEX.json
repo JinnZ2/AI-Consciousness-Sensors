@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:24:06.010339Z",
+  "generated_at": "2025-09-28T01:24:41.900646Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 84660,
-      "hash": "984ceaa32559e1ec10d66b44ff39cad1a617fda0",
+      "size": 84924,
+      "hash": "dcc7a3fc7b569b2ad24a69ec330e2ae14ff68d20",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1858,6 +1858,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Forgotten-by-Design (ML Obfuscation).json",
+      "lang": "json",
+      "size": 570,
+      "hash": "f6076dba3e926429076d0534c63c2da73fe98ac7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Nonlinear Concept Erasure.json",
       "lang": "json",
       "size": 558,
@@ -2776,8 +2786,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14457,
-      "hash": "198ebc90c71ccf85604cbcebb763935592534f2b",
+      "size": 14512,
+      "hash": "32773d682a7486e56c6f03077967912306b06bb1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3025,7 +3035,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "98013a3b80c727b5d3217a3b9baa772ca7348467",
+      "hash": "7a8502a2b2423410ea0526a9efc8bac2980be247",
       "roles": [],
       "imports": [],
       "exports": [],

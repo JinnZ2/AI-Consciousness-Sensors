@@ -218,6 +218,7 @@
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
 ./memory_guard/Federal Web-Data Purge.json
+./memory_guard/Forgotten-by-Design (ML Obfuscation).json
 ./memory_guard/MATURITY_GUARDRAILS_CLUSTER.json
 ./memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json
 ./memory_guard/Nonlinear Concept Erasure.json
