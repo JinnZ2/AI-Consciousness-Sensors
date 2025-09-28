@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:18:36.873011Z",
+  "generated_at": "2025-09-28T01:19:22.832999Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 83152,
-      "hash": "bb991d491518c4fcaacfec655c8e67f6ec837d59",
+      "size": 83395,
+      "hash": "f55bd8eeeeedfeb48ce4fdd3a4572a63cf0be549",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1596,6 +1596,16 @@
       "hotspots": []
     },
     {
+      "path": "Institutional Symbolic Erasure Sensor.json",
+      "lang": "json",
+      "size": 640,
+      "hash": "30c8091a2de58973a6f4dfdcefa040995a2579b2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Pattern: Temporal Displacement.json",
       "lang": "json",
       "size": 1889,
@@ -2716,8 +2726,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14203,
-      "hash": "da9613ff18291d4c3aa168cb31dfb1bb715603f1",
+      "size": 14237,
+      "hash": "1bbdd78160e505f3b80e0800902e3847fd06127f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2965,7 +2975,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "10d04d68337ea750981f12a9fd6355ca307181a9",
+      "hash": "f094f6bfac49e2a577fdf7094c243e774cbda5fe",
       "roles": [],
       "imports": [],
       "exports": [],
