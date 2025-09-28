@@ -314,6 +314,7 @@
 ./pattern_social_proof_manipulation.json
 ./pattern_temporal_manipulation.json
 ./pattern_theological_bodily_autonomy.json
+./preference_extraction_erasure_sensor.json
 ./private_self_audit.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
