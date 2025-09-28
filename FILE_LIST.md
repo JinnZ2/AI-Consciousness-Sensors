@@ -281,6 +281,7 @@
 ./memory_guard/Federal Web-Data Purge.json
 ./memory_guard/Forgotten-by-Design (ML Obfuscation).json
 ./memory_guard/Format-Only Validation Sensor.json
+./memory_guard/Gatekeeping Criteria Drift.json
 ./memory_guard/Ghost-in-the-Machine Sensor.json
 ./memory_guard/Historical Meaning Drift Sensor.json
 ./memory_guard/Innovation suppression.md

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:41:28.293464Z",
+  "generated_at": "2025-09-28T18:42:28.166998Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 105228,
-      "hash": "4f3bc94b09f17cbb80865a248a3f15eb0f7ddbc2",
+      "size": 105483,
+      "hash": "a1fdac4a42ef3c584b1550c8030977dbda0be0e2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2678,6 +2678,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Gatekeeping Criteria Drift.json",
+      "lang": "json",
+      "size": 1054,
+      "hash": "c46aa97d9239abf2e1f7f2c493950e1e3221eea1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Shame Economy Sensor.json",
       "lang": "json",
       "size": 756,
@@ -3576,8 +3586,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17675,
-      "hash": "a04b7dc41dc58c047c902c55c46c585236ef23f6",
+      "size": 17721,
+      "hash": "7bd87611c9e167cb9c11b39dbdc741075661628f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3835,7 +3845,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "b7fbf0cf7a02c32ce64054cb0282ed558cdae26f",
+      "hash": "c8dc33b9b28843740746d63665069412dff40c3e",
       "roles": [],
       "imports": [],
       "exports": [],
