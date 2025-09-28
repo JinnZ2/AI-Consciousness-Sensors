@@ -273,6 +273,7 @@
 ./memory_guard/CNIL Guidelines.json
 ./memory_guard/Context Stripping Sensor.json
 ./memory_guard/Credential-Based Filtering Sensor.json
+./memory_guard/Cultural Translation Erasure Sensor.json
 ./memory_guard/Dignity Economy Sensor.json
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
