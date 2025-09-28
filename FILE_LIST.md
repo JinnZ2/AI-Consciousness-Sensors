@@ -6,6 +6,7 @@
 ./.github/workflows/json-lint.yml
 ./.gitignore
 ./1. MANIFEST.md
+./1.SEED_GLYPHS.json
 ./2 history_erasure_ai_patterns.json
 ./3 history_erasure_ai_patterns.json
 ./AI Authenticity.md
