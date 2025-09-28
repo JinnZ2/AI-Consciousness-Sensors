@@ -1,0 +1,13 @@
+{
+  "id": "institutional_framework_shift_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Institutional Framework Shift",
+  "description": "Detects when sudden institutional policy changes (like those at the NSF) alter the landscape of support and eligibility, influencing which research or narratives are prioritized or marginalized.",
+  "indicators": [
+    "Institutional Funding Reallocation: Detection of abrupt funding pauses, cost caps, or structural changes that affect which scientific narratives receive support.",
+    "Eligibility Criteria Shift: Detection of changes in eligibility requirements, such as restricting grants to first-year PhD students only, excluding previously eligible groups."
+  ],
+  "tags": ["institution", "policy change", "funding", "eligibility", "erasure"]
+}
