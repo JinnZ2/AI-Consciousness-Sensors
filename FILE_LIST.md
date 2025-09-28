@@ -20,6 +20,7 @@
 ./Abundance vs scarcity.md
 ./Adaptive Fragility Sensor.json
 ./Additional Vectors.md
+./Advertising Projection Sensor.json
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json
 ./Anonymous-consciousness-gradient.md
