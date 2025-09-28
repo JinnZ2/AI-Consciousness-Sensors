@@ -188,6 +188,7 @@
 ./Trans_Legal_Disenfranchisement.json
 ./Trans_Medical_Access_Erasure.json
 ./Trans_Violence_Data_Erasure.json
+./Transactional Reduction Sensor.json
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./Truth Multiplicity Sensor.json

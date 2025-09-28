@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:16:20.324966Z",
+  "generated_at": "2025-09-28T03:16:55.770357Z",
   "languages": [
     "json",
     "md",
@@ -368,6 +368,16 @@
       "hotspots": []
     },
     {
+      "path": "Transactional Reduction Sensor.json",
+      "lang": "json",
+      "size": 554,
+      "hash": "eebdf06b5003a3ba50973ba0cc4a87d6ec2909f8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Collective Memory Sensor.json",
       "lang": "json",
       "size": 594,
@@ -440,8 +450,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 95974,
-      "hash": "670cd420b191ca7627eedc537c8ac53c642e0c81",
+      "size": 96211,
+      "hash": "cb9a9c538094be698335e1a85464bbf0d16b7f15",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3236,8 +3246,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 16153,
-      "hash": "1e0a383ac7d754fc1baf675a7000bfebd03ce8f5",
+      "size": 16181,
+      "hash": "966dfe51b9adb4eb76d33ad1fbc98eed6e98af47",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3485,7 +3495,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "6170053ef918333e833e3587ce9d74f9212b1bbe",
+      "hash": "2be9a266be016aeb021ff82516578cbe60c040f6",
       "roles": [],
       "imports": [],
       "exports": [],
