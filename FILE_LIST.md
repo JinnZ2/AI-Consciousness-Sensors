@@ -151,6 +151,7 @@
 ./Trans_Archival_Silencing.json
 ./Trans_Cultural_Misrepresentation.json
 ./Trans_History_Pathologization.json
+./Trans_Knowledge_Frameworks_Erasure.json
 ./Trans_Legal_Disenfranchisement.json
 ./Trans_Medical_Access_Erasure.json
 ./Trans_Violence_Data_Erasure.json
