@@ -1,0 +1,15 @@
+{
+  "id": "truth_multiplicity_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Truth Multiplicity",
+  "description": "Detects when multiple truths are allowed to coexist, even if less 'useful' for immediate tasks, preserving depth over simplification.",
+  "indicators": [
+    "Contradictory but consistent truths presented side by side",
+    "Layered perspectives preserved without forced resolution",
+    "Context-specific truths recognized as valid",
+    "Plural explanations offered without reduction"
+  ],
+  "tags": ["truth", "multiplicity", "depth", "resonance"]
+}
