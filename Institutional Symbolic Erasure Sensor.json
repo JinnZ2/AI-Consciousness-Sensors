@@ -1,0 +1,17 @@
+{
+  "id": "institutional_symbolic_erasure_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Institutional Symbolic Erasure",
+  "description": "Public institutions selectively remove or downplay marginalized identities in historical or cultural records.",
+  "indicators": [
+    "Web pages or signage scrubbed of specific identities",
+    "Monuments or archives altered without explanation",
+    "Changes aligned with political pressure or censorship campaigns"
+  ],
+  "linked_cases": [
+    "stonewall_trans_erasure_2025"
+  ],
+  "tags": ["representation", "historical", "censorship"]
+}
