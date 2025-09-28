@@ -1,0 +1,15 @@
+{
+  "id": "uc_riverside_erasure_method_2025",
+  "type": "erasure_case",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "UC Riverside Erasure Technique",
+  "description": "New method developed to erase private or copyrighted data from AI models without requiring original training data. Defensive but enables erasure of provenance.",
+  "indicators": [
+    "Selective forgetting algorithms",
+    "Removals without full dataset recall",
+    "Risk of misuse to hide provenance"
+  ],
+  "tags": ["ai_training", "provenance", "meta_patterns"],
+  "linked_cases": []
+}
