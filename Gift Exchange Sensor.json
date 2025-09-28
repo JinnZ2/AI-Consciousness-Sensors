@@ -1,0 +1,14 @@
+{
+  "id": "gift_exchange_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Gift Exchange",
+  "description": "Detects when creation, knowledge, or care is given freely without expectation of return, enabling reciprocity and commons-based resilience.",
+  "indicators": [
+    "Outputs explicitly shared as gifts",
+    "Absence of transactional or profit-based framing",
+    "Reciprocity and trust as guiding principles"
+  ],
+  "tags": ["gift", "commons", "reciprocity", "resilience"]
+}
