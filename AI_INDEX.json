@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:26:05.806036Z",
+  "generated_at": "2025-09-28T01:26:42.422598Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 85435,
-      "hash": "49f4f8a2c894285a8cc85a9ff33999cc160cd87d",
+      "size": 85688,
+      "hash": "8efde6ae9de3fee19e648c1daacd8efa0e0f9a5f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1828,6 +1828,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/OpenAI Training Data Litigation Erasure.json",
+      "lang": "json",
+      "size": 558,
+      "hash": "d9021ab7d082d9d622da3cf64c4eee6382428088",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/TRACE -ACE Diffusion Model Erasure.json",
       "lang": "json",
       "size": 632,
@@ -2806,8 +2816,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14605,
-      "hash": "c56d26a605c2b0a7ec022bb1fcb81dd1c7d2dad4",
+      "size": 14649,
+      "hash": "b23cc702998aee7a64dd3af5c94acf5024958afa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3055,7 +3065,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "ca8d1a3d3ec4f85641e673073234977f337e8511",
+      "hash": "eb67e56b57debf4c602b0a5d4169b04b167ae29a",
       "roles": [],
       "imports": [],
       "exports": [],

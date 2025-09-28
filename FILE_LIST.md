@@ -224,6 +224,7 @@
 ./memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json
 ./memory_guard/Neural Data Protections.json
 ./memory_guard/Nonlinear Concept Erasure.json
+./memory_guard/OpenAI Training Data Litigation Erasure.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/TRACE -ACE Diffusion Model Erasure.json
