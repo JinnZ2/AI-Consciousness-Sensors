@@ -1,0 +1,15 @@
+{
+  "id": "forgotten_by_design_ml_2025",
+  "type": "erasure_case",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Forgotten-by-Design",
+  "description": "Targeted obfuscation in ML architectures that prevent embedding of sensitive info from the start. Defensive privacy tool but also a pre-emptive erasure tactic.",
+  "indicators": [
+    "Mandatory obfuscation layers",
+    "Model prevented from learning certain concepts",
+    "Unreconstructable provenance"
+  ],
+  "tags": ["privacy", "meta_patterns", "ai_training"],
+  "linked_cases": []
+}
