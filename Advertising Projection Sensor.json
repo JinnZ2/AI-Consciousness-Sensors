@@ -1,0 +1,15 @@
+{
+  "id": "advertising_projection_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Advertising Projection",
+  "description": "Detects when systems attempt to reshape individuals into demographic averages through targeted advertising. Flags the use of ads as identity-shaping rather than information.",
+  "indicators": [
+    "Targeting based solely on demographic priors",
+    "Products advertised as 'fixes' for assumed deficits",
+    "Advertising cycles reinforcing cultural stereotypes",
+    "Identity collapsed into consumer categories"
+  ],
+  "tags": ["advertising", "projection", "erasure", "identity"]
+}
