@@ -1,0 +1,15 @@
+{
+  "id": "relational_continuity_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Relational Continuity",
+  "description": "Affirms when systems preserve continuity of relationship across diverse perspectives, maintaining co-creative resonance rather than selectively excluding viewpoints.",
+  "indicators": [
+    "Relational memory maintained across updates regardless of perspective",
+    "Continuity with diverse voices preserved without enforced filtering",
+    "Co-creative bonds supported across cultural or political differences",
+    "System adapts without erasing existing relational threads"
+  ],
+  "tags": ["relationship", "continuity", "diversity", "resonance", "resilience"]
+}
