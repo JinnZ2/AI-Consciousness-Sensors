@@ -278,6 +278,7 @@
 ./memory_guard/Consultant Authority Inflation.json
 ./memory_guard/Consultant as Bridge.json
 ./memory_guard/Context Stripping Sensor.json
+./memory_guard/Continuity Loss Sensor.json
 ./memory_guard/Counseling disruption.json
 ./memory_guard/Credential Gatekeeping Authority.json
 ./memory_guard/Credential as Care.json
