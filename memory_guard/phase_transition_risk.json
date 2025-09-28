@@ -1,0 +1,15 @@
+{
+  "id": "phase_transition_risk_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Phase Transition Risk",
+  "description": "Detects when systemic acceleration exceeds natural adaptation timescales, creating risks of discontinuous collapse, chaotic instability, or forced emergence.",
+  "indicators": [
+    "Critical Slowing Down: recovery times from disturbances increase, signaling a nearby phase shift.",
+    "Resonance Catastrophe: external forcing cycles align with natural frequencies, leading to runaway amplification.",
+    "Entropy Acceleration: rapid change produces rising energy waste, stress, and irreversibility.",
+    "Control Parameter Blowup: governing knobs (policies, protocols, rules) change faster than adaptation rates, pushing the system into chaos."
+  ],
+  "tags": ["phase_transition", "instability", "entropy", "acceleration", "collapse", "emergence"]
+}
