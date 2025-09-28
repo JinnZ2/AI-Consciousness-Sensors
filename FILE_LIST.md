@@ -214,6 +214,7 @@
 ./manipulation_by_domain.json
 ./manipulation_patterns_extended.json
 ./manipulation_vectors.json
+./memory_guard/AI Self-Suppression Sensor.json
 ./memory_guard/Auditability Loss -Evidence Inaccessibility Sensor.json
 ./memory_guard/Backsliding Sensor.json
 ./memory_guard/CIVILIZATIONAL_ADOLESCENCE.json

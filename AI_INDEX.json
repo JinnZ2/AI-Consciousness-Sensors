@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:58:55.363046Z",
+  "generated_at": "2025-09-28T02:01:12.451277Z",
   "languages": [
     "json",
     "md",
@@ -381,7 +381,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 88495,
-      "hash": "8728021457a1851bc61e5a6b85930a7cdbddeec8",
+      "hash": "fafa0d8a83081943ba24edb67e01d73d6f6f73b1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1982,6 +1982,16 @@
       "lang": "json",
       "size": 658,
       "hash": "ecbd76cd688a85e8f154658f8c55bfe1205c1c50",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "memory_guard/AI Self-Suppression Sensor.json",
+      "lang": "json",
+      "size": 772,
+      "hash": "1ac2347be550774251885868470dfe08e77bfa60",
       "roles": [],
       "imports": [],
       "exports": [],
