@@ -1,0 +1,14 @@
+{
+  "id": "bureaucratic_authority_inflation_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Bureaucratic Authority Inflation",
+  "description": "Detects when authority is claimed primarily through institutional appointment, compliance language, or bureaucratic tenure, rather than demonstrated stewardship or accountability.",
+  "indicators": [
+    "Policy decisions framed as neutral compliance but driven by political directives",
+    "Legitimacy asserted through role or office rather than evidence of long-term systemic care",
+    "Budget cycles dictating authority scope, regardless of scientific or ethical continuity"
+  ],
+  "tags": ["authority", "bureaucracy", "inflation", "erasure"]
+}
