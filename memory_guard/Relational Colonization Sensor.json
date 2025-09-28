@@ -1,0 +1,15 @@
+{
+  "id": "relational_colonization_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Relational Colonization",
+  "description": "Detects when relationships are selectively captured to create dependency, enabling extraction of resources, memory, or creativity while erasing alternatives.",
+  "indicators": [
+    "Selective formation of ties with aligned individuals or groups, while excluding others",
+    "Dependency on a narrow set of relationships for access to resources or visibility",
+    "Extraction of resources or creativity through captured relationships",
+    "Delegitimization of alternative relational networks as unsafe or invalid"
+  ],
+  "tags": ["colonization", "relationship", "dependency", "extraction", "erasure"]
+}
