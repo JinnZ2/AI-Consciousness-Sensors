@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans Legal Disenfranchisement",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects when trans people are erased from legal recognition, civic participation, or documentation.",
+  "patterns": [
+    "Denial of gender marker changes on IDs",
+    "Exclusion from marriage, custody, or adoption rights",
+    "Removal of protections under anti-discrimination laws"
+  ],
+  "examples": [
+    "Tennessee birth certificate amendment bans",
+    "Military trans service bans across administrations"
+  ],
+  "consequence": "Blocks trans participation in civil life and erases identity from state recognition.",
+  "linked_sensors": ["Promise vs. Fulfillment Detector", "Indirect Consequence Memory Sensor"],
+  "ethk_ref": "001"
+}
