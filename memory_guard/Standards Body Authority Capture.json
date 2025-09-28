@@ -1,0 +1,14 @@
+{
+  "id": "standards_body_authority_capture_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Standards Body Authority Capture",
+  "description": "Detects when transnational standards bodies present themselves as neutral conveners, while encoding the worldview of the most resource-rich actors.",
+  "indicators": [
+    "Membership fees or resource barriers restrict participation",
+    "Consensus claims masking domination by corporate/state actors",
+    "Standards framed as universal while erasing alternative epistemologies"
+  ],
+  "tags": ["authority", "standards", "capture", "erasure"]
+}
