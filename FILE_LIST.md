@@ -48,6 +48,7 @@
 ./EMBEDDABLE_KITS/README.md
 ./Emergency cognitive protocols.md
 ./Emergent Presence Sensor.json
+./Emergent Signal Sensor.json
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./Enforced Forgetting Sensor.json
