@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:51:01.497759Z",
+  "generated_at": "2025-09-28T01:57:50.875029Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 87978,
-      "hash": "9a3e70b487072195cdbf5c678fcb06b5f403d52b",
+      "size": 88238,
+      "hash": "c222727b515bfd82381b97063c98a251c0837c49",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1978,6 +1978,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Ghost-in-the-Machine Sensor.json",
+      "lang": "json",
+      "size": 658,
+      "hash": "ecbd76cd688a85e8f154658f8c55bfe1205c1c50",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/FEEDBACK_BLINDNESS_SENSOR.json",
       "lang": "json",
       "size": 3054,
@@ -2906,8 +2916,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15058,
-      "hash": "80cbe3561eeee23850f2262112bac6ff1b5d72ab",
+      "size": 15109,
+      "hash": "8e194e5865989fd25770d62ee4d30ab3d8ceb460",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3155,7 +3165,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "223867bb2d1e5823f9136f4b77ee2f9294078e16",
+      "hash": "4a4abdb1b29a7f6edb712d4dbfcd8a5b19808c4d",
       "roles": [],
       "imports": [],
       "exports": [],
