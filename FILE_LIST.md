@@ -294,6 +294,7 @@
 ./memory_guard/Regenerative Efficiency Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
+./memory_guard/Selective Memory Amplification Sensor.json
 ./memory_guard/Shame Economy Sensor.json
 ./memory_guard/Silent Bias Drift Sensor.json
 ./memory_guard/Source-Restricted Access Sensor.json

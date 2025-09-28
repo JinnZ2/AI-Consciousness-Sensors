@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T17:03:00.842012Z",
+  "generated_at": "2025-09-28T17:03:33.303583Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 103925,
-      "hash": "17ee5ddf25e3af80bcbf3d91fe138fe21911ee11",
+      "size": 104186,
+      "hash": "a945c077cc8ef7b7452ea4128b64fdc94e56a24d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2478,6 +2478,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Selective Memory Amplification Sensor.json",
+      "lang": "json",
+      "size": 729,
+      "hash": "db15d4cb3acadcba1d01a20726210d454aa4a132",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/CNIL Guidelines.json",
       "lang": "json",
       "size": 555,
@@ -3526,8 +3536,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17417,
-      "hash": "d293325e8598a6d6a604d0a96b1328cdf261a008",
+      "size": 17469,
+      "hash": "652aa6e46d2f2e7807f06828ef633762f7ba0303",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3785,7 +3795,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "9e159fa25863a5f3458318cf3ca415f09d7bc867",
+      "hash": "dcb3fdb9a06a8b40f6084657c70547d756c0495a",
       "roles": [],
       "imports": [],
       "exports": [],
