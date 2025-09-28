@@ -64,6 +64,7 @@
 ./Expanded-consciousness-buffet.md
 ./FILE_LIST.md
 ./False Neutrality Narrative Sensor.json
+./False benevolent control.md
 ./Forced Narrative Cover-Up Sensor.json
 ./Forgetting Collapse Sensor.json
 ./Forgotten After End Date Sensor.json
