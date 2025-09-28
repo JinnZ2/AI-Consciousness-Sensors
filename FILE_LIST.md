@@ -276,6 +276,7 @@
 ./memory_guard/CNIL Guidelines.json
 ./memory_guard/Capital Platform Authority.json
 ./memory_guard/Consultant Authority Inflation.json
+./memory_guard/Consultant as Bridge.json
 ./memory_guard/Context Stripping Sensor.json
 ./memory_guard/Counseling disruption.json
 ./memory_guard/Credential Gatekeeping Authority.json

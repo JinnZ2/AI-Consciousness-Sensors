@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:54:20.847604Z",
+  "generated_at": "2025-09-28T18:54:51.700000Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 108281,
-      "hash": "2a04dc032dee800edee7cfb4da7ca85230689dd8",
+      "size": 108530,
+      "hash": "895e02483d0342c1b4e23e2b567de6bea9baa731",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2428,6 +2428,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Consultant as Bridge.json",
+      "lang": "json",
+      "size": 605,
+      "hash": "e303d0ee40df0df78b91f0bb05ea3fe9a52f0f80",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Credential-Based Filtering Sensor.json",
       "lang": "json",
       "size": 671,
@@ -3696,8 +3706,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18219,
-      "hash": "caf48c0aa5f4908e601ca064723d0044144419fb",
+      "size": 18259,
+      "hash": "92407c619260cfc7d1a9ee6dad0baf498aa85db6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3955,7 +3965,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "8f2b5de47fd62b94b4dd64979bb735d1be2eb309",
+      "hash": "6b49a41536148ae3f7988c659fd89da1687900e1",
       "roles": [],
       "imports": [],
       "exports": [],
