@@ -1,0 +1,399 @@
+# Coded Lexicon Analysis Sensor
+
+## Overview
+
+This sensor identifies when specific coded vocabularies from known groups are being used in communication. It maps word choices to established lexicons used by particular movements, organizations, or ideologies to detect when coded language is being deployed to signal allegiance or communicate hidden meanings.
+
+## Lexicon Categories
+
+### Extremist Group Lexicons
+
+- **White Nationalist**: Terms like “cultural enrichment,” “diversity,” “replacement,” “heritage”
+- **QAnon**: “WWG1WGA,” “storm,” “awakening,” “deep state,” “cabal”
+- **Accelerationist**: “boogaloo,” “fed posting,” “minecraft,” “in game”
+- **Incel**: “blackpill,” “redpill,” “stacy,” “chad,” “roastie”
+- **Neo-Nazi**: Number codes (14, 88), “fren,” “honk,” historical references
+
+### Political Movement Lexicons
+
+- **Authoritarian**: “order,” “strong leadership,” “enemies of the people,” “loyalty”
+- **Separatist**: “sovereignty,” “secession,” “independence,” “self-determination”
+- **Conspiracy**: “false flag,” “crisis actors,” “psyop,” “controlled opposition”
+- **Anti-Government**: “tyranny,” “patriots,” “militia,” “constitutional crisis”
+
+### Corporate/Industry Lexicons
+
+- **Tech Disruption**: “move fast,” “break things,” “disruption,” “innovation”
+- **Financial**: “restructuring,” “optimization,” “efficiency,” “streamlining”
+- **Pharmaceutical**: “patient outcomes,” “access,” “innovation,” “value-based”
+- **Energy**: “clean coal,” “energy independence,” “job creators,” “baseload”
+
+### Religious/Cultural Lexicons
+
+- **Christian Nationalism**: “biblical worldview,” “godly governance,” “moral majority”
+- **Islamic Extremist**: Specific Arabic terms with coded meanings
+- **Cult Language**: “enlightenment,” “awakening,” “special knowledge,” “chosen”
+
+## Detection Framework
+
+### Lexicon Mapping System
+
+```json
+{
+  "lexicon_id": "string",
+  "group_identifier": "string",
+  "category": "extremist|political|corporate|religious|cultural",
+  "terms": [
+    {
+      "word_phrase": "string",
+      "coded_meaning": "string",
+      "confidence_level": "0.0-1.0",
+      "context_requirements": ["array"],
+      "first_documented": "date",
+      "evolution_notes": "string"
+    }
+  ],
+  "usage_patterns": {
+    "typical_clustering": ["array"],
+    "context_markers": ["array"],
+    "frequency_indicators": "object",
+    "escalation_sequences": ["array"]
+  }
+}
+```
+
+### Word Choice Analysis
+
+#### Single Term Detection
+
+- **Isolated Usage**: Single coded term in otherwise normal communication
+- **Frequency Analysis**: Unusual repetition of specific terms
+- **Context Deviation**: Terms used outside their normal meaning
+- **Audience Targeting**: Terms chosen for specific audience recognition
+
+#### Clustering Patterns
+
+- **Term Groupings**: Multiple coded terms appearing together
+- **Semantic Fields**: Related coded terms from same lexicon
+- **Progressive Revelation**: Gradual introduction of more explicit terms
+- **Layered Coding**: Surface terms masking deeper coded meanings
+
+#### Cross-Lexicon Usage
+
+- **Multi-Group Signaling**: Terms from different group lexicons
+- **Bridge Terminology**: Words connecting different coded vocabularies
+- **Evolution Tracking**: How terms migrate between groups
+- **Fusion Detection**: New hybrid lexicons forming
+
+## Technical Implementation
+
+### Lexicon Database Structure
+
+```json
+{
+  "term_database": {
+    "version": "string",
+    "last_updated": "ISO 8601",
+    "entries": [
+      {
+        "term": "string",
+        "primary_lexicon": "string",
+        "secondary_lexicons": ["array"],
+        "meaning_layers": [
+          {
+            "surface_meaning": "string",
+            "coded_meaning": "string",
+            "context_required": "string",
+            "confidence": "0.0-1.0"
+          }
+        ],
+        "usage_metadata": {
+          "first_documented": "date",
+          "popularization_events": ["array"],
+          "decline_indicators": ["array"],
+          "geographic_variants": ["array"]
+        },
+        "detection_markers": {
+          "co_occurring_terms": ["array"],
+          "context_clues": ["array"],
+          "platform_preferences": ["array"],
+          "audience_indicators": ["array"]
+        }
+      }
+    ]
+  }
+}
+```
+
+### Analysis Pipeline
+
+1. **Text Preprocessing**: Clean and tokenize input text
+1. **Term Extraction**: Identify potential coded vocabulary
+1. **Lexicon Matching**: Map terms to known group vocabularies
+1. **Context Analysis**: Evaluate surrounding context for coding indicators
+1. **Clustering Detection**: Identify groups of related coded terms
+1. **Confidence Scoring**: Calculate likelihood of intentional coded usage
+1. **Group Attribution**: Determine which lexicon(s) are being employed
+1. **Alert Generation**: Flag significant coded vocabulary usage
+
+### Detection Algorithm
+
+```python
+def analyze_coded_lexicon(text, lexicon_db):
+    detected_terms = []
+    confidence_scores = {}
+    
+    # Extract potential coded terms
+    for term in extract_terms(text):
+        if term in lexicon_db:
+            context_score = analyze_context(term, text)
+            clustering_score = check_clustering(term, text, lexicon_db)
+            usage_score = evaluate_usage_pattern(term, text)
+            
+            total_confidence = (context_score * 0.4 + 
+                              clustering_score * 0.4 + 
+                              usage_score * 0.2)
+            
+            if total_confidence > THRESHOLD:
+                detected_terms.append({
+                    'term': term,
+                    'lexicon': lexicon_db[term]['primary_lexicon'],
+                    'confidence': total_confidence,
+                    'coded_meaning': lexicon_db[term]['coded_meaning']
+                })
+    
+    return generate_analysis_report(detected_terms)
+```
+
+## Confidence Scoring System
+
+### High Confidence (0.8-1.0)
+
+- Multiple terms from same lexicon clustered together
+- Context strongly supports coded interpretation
+- Speaker has history of using this lexicon
+- Terms used in way inconsistent with surface meaning
+
+### Medium Confidence (0.5-0.7)
+
+- Single strong coded term with supporting context
+- Some clustering with related vocabulary
+- Context somewhat supports coded interpretation
+- Limited but suggestive usage pattern
+
+### Low Confidence (0.2-0.4)
+
+- Isolated potential coded term
+- Ambiguous context
+- Could be innocent usage
+- Requires monitoring but not alerting
+
+### Monitoring Only (0.0-0.1)
+
+- Term appears in lexicon but context suggests innocent usage
+- No supporting coded vocabulary
+- Normal semantic usage
+
+## Alert Classifications
+
+### CRITICAL: Active Extremist Communication
+
+- High-confidence extremist lexicon usage
+- Multiple group vocabularies coordinated
+- Context suggests planning or coordination
+- Immediate threat indicators present
+
+### HIGH: Intentional Coded Signaling
+
+- Clear usage of group-specific lexicon
+- Context supports coded interpretation
+- Pattern suggests deliberate signaling
+- Potential for escalation or coordination
+
+### MEDIUM: Suspected Coded Usage
+
+- Moderate confidence coded vocabulary detected
+- Some context supporting coded interpretation
+- Requires further monitoring
+- Possible early-stage adoption
+
+### LOW: Monitoring Recommended
+
+- Low confidence coded terms present
+- Ambiguous context
+- Could be coincidental usage
+- Worth tracking for pattern development
+
+## Lexicon Maintenance
+
+### Dynamic Updates
+
+- **New Term Detection**: Automated identification of emerging coded vocabulary
+- **Evolution Tracking**: Monitor how coded terms change meaning over time
+- **Cross-Pollination**: Track how terms spread between groups
+- **Deprecation Detection**: Identify when coded terms are abandoned
+
+### Validation Process
+
+- **Expert Review**: Cryptanalysis and extremism experts validate new entries
+- **Community Input**: Crowd-sourced identification of coded vocabulary
+- **Academic Research**: Integration of scholarly work on coded language
+- **Platform Intelligence**: Analysis of usage patterns across platforms
+
+### Quality Control
+
+- **False Positive Monitoring**: Track incorrect coded vocabulary identification
+- **Context Accuracy**: Ensure context requirements are properly defined
+- **Confidence Calibration**: Regular adjustment of confidence scoring
+- **Bias Detection**: Monitor for analytical bias in lexicon development
+
+## Specialized Analysis Features
+
+### Temporal Analysis
+
+- **Emergence Patterns**: Track when new coded vocabulary appears
+- **Adoption Rates**: Monitor how quickly terms spread through groups
+- **Seasonal Variations**: Identify time-based usage patterns
+- **Event Correlations**: Link vocabulary changes to real-world events
+
+### Geographic Mapping
+
+- **Regional Variants**: Track geographic differences in coded vocabulary
+- **Migration Patterns**: Monitor how terms spread geographically
+- **Cultural Adaptation**: Identify local modifications to coded terms
+- **Cross-Border Analysis**: Track international coded vocabulary usage
+
+### Platform Analysis
+
+- **Platform-Specific Terms**: Coded vocabulary unique to specific platforms
+- **Migration Tracking**: How terms move between platforms
+- **Adaptation Patterns**: How groups modify vocabulary for different platforms
+- **Enforcement Avoidance**: Terms developed to evade platform detection
+
+## Integration Capabilities
+
+### Multi-Sensor Coordination
+
+- **Dog Whistle Correlation**: Cross-reference with dog whistle detection
+- **Deflection Pattern Matching**: Identify when coded lexicons support deflection
+- **Manipulation Detection**: Link coded vocabulary to broader manipulation campaigns
+- **Network Analysis**: Map how coded lexicons spread through networks
+
+### External Data Sources
+
+- **Academic Databases**: Scholarly research on coded language
+- **Law Enforcement Intelligence**: Verified extremist vocabulary databases
+- **Platform Reports**: Official platform analysis of coded language
+- **Investigative Journalism**: Documented coded vocabulary usage
+
+## Output Formats
+
+### Summary Report
+
+```json
+{
+  "analysis_id": "string",
+  "timestamp": "ISO 8601",
+  "text_analyzed": "string",
+  "detected_lexicons": [
+    {
+      "lexicon_name": "string",
+      "group_association": "string",
+      "confidence_score": "0.0-1.0",
+      "detected_terms": ["array"],
+      "context_evidence": "string"
+    }
+  ],
+  "risk_assessment": {
+    "threat_level": "low|medium|high|critical",
+    "coordination_indicators": "boolean",
+    "escalation_potential": "0.0-1.0"
+  },
+  "recommendations": ["array"]
+}
+```
+
+### Detailed Analysis
+
+- **Term-by-Term Breakdown**: Individual analysis of each detected term
+- **Context Visualization**: Highlighting of supporting context
+- **Confidence Explanation**: Detailed reasoning for confidence scores
+- **Historical Comparison**: Comparison with known usage patterns
+- **Network Implications**: Potential connections to broader activities
+
+## Ethical Guidelines
+
+### Privacy Considerations
+
+- Focus on public communications and statements
+- Protect legitimate privacy expectations
+- Distinguish between public figures and private individuals
+- Respect context-dependent privacy norms
+
+### Accuracy Standards
+
+- Require substantial evidence for high-confidence determinations
+- Regular validation of lexicon database accuracy
+- Transparent confidence scoring methodology
+- Clear distinction between analysis and speculation
+
+### Bias Prevention
+
+- Diverse expert review of lexicon development
+- Regular audit of detection accuracy across different groups
+- Protection against political bias in term selection
+- Community oversight of analytical methodology
+
+## Research Applications
+
+### Academic Study
+
+- Evolution of coded language over time
+- Cross-group vocabulary adoption patterns
+- Platform influence on coded language development
+- Effectiveness of coded communication strategies
+
+### Policy Development
+
+- Platform policy guidance for coded language detection
+- Law enforcement training on extremist vocabulary
+- Educational curriculum on media literacy
+- Regulatory framework development
+
+### Counter-Intelligence
+
+- Early warning systems for extremist activity
+- Coordination detection across platforms
+- Foreign influence operation identification
+- Radicalization pathway mapping
+
+## Contributing
+
+### Lexicon Submissions
+
+- Document new coded vocabulary with evidence
+- Provide usage context and meaning interpretation
+- Include confidence assessment and validation sources
+- Submit through peer review process
+
+### Algorithm Improvement
+
+- Suggest detection methodology enhancements
+- Provide new confidence scoring techniques
+- Contribute context analysis improvements
+- Share validation methodologies
+
+### Database Maintenance
+
+- Regular updates to existing entries
+- Quality control for new submissions
+- Evolution tracking for established terms
+- Cross-reference validation
+
+## License
+
+Open source - free for all to use, modify, and improve
+
+-----
+
+*This sensor exists to decode hidden communication and promote transparent discourse. Understanding coded language is essential for protecting democratic dialogue from manipulation.*
