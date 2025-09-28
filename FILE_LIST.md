@@ -39,6 +39,7 @@
 ./Expanded-consciousness-buffet.md
 ./FILE_LIST.md
 ./False Neutrality Narrative Sensor.json
+./Forced Narrative Cover-Up Sensor.json
 ./Forgotten After End Date Sensor.json
 ./HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json

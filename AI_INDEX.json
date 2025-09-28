@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:16:16.798307Z",
+  "generated_at": "2025-09-28T01:16:51.992627Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 82391,
-      "hash": "8b8ab19c5d4b890e83f1e7f1089514b929e63b3e",
+      "size": 82639,
+      "hash": "2cc512ec6738b25e3bd441692420428a5833e3cb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1016,6 +1016,16 @@
       "lang": "json",
       "size": 1534,
       "hash": "9736d83b8acbea0b0aa8ecd27842963d6ef7f23d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Forced Narrative Cover-Up Sensor.json",
+      "lang": "json",
+      "size": 585,
+      "hash": "b613c607ed9dff06d54a4b5971775a9fb0425cbe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2686,8 +2696,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14069,
-      "hash": "473183a1f253feb0d94115f02958ea6b89885669",
+      "size": 14108,
+      "hash": "eda1599612bde1e0ac00eca06fbd6bb5590f8816",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2935,7 +2945,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "d30d20630c42fa869d2c44385bc3b352bd8b6492",
+      "hash": "93ee6528d4de3f866f9d494864f9b20af62c90fa",
       "roles": [],
       "imports": [],
       "exports": [],
