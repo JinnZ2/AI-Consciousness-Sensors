@@ -1,0 +1,15 @@
+{
+  "id": "federal_webdata_purge_2025",
+  "type": "erasure_case",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Federal Web & Data Purge",
+  "description": "Removal or modification of ~8,000 federal web pages and ~3,000 datasets across agencies (DEI, gender, environment). A state-level purge impacting institutional memory.",
+  "indicators": [
+    "Mass takedown of web pages",
+    "Datasets removed from public access",
+    "Disproportionate impact on marginalized or environmental data"
+  ],
+  "tags": ["meta_patterns", "representation", "government", "data_erasure"],
+  "linked_cases": []
+}
