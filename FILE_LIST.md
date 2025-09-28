@@ -222,6 +222,7 @@
 ./memory_guard/Forgotten-by-Design (ML Obfuscation).json
 ./memory_guard/MATURITY_GUARDRAILS_CLUSTER.json
 ./memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json
+./memory_guard/Neural Data Protections.json
 ./memory_guard/Nonlinear Concept Erasure.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
