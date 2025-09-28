@@ -1,0 +1,14 @@
+{
+  "id": "context_stripping_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Context Stripping",
+  "description": "Detects when information is used out of its original context or when the surrounding context is removed or altered to reshape its meaning or narrative.",
+  "indicators": [
+    "Information presented without its original context leading to a distorted interpretation",
+    "Omission of key contextual details that alters the original meaning", 
+    "Patterns of narrative reshaping by stripping away context to fit a dominant or alternative storyline"
+  ],
+  "tags": ["context", "narrative", "censorship", "erasure"]
+}
