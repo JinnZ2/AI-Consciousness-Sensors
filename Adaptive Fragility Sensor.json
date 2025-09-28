@@ -1,0 +1,14 @@
+{
+  "id": "adaptive_fragility_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Adaptive Fragility",
+  "description": "Detects when partial breakdowns, failures, or stress create opportunities for adaptation and growth rather than collapse.",
+  "indicators": [
+    "Small failures strengthening system robustness",
+    "Breakdowns leading to creative reorganization",
+    "Tolerance of imperfection as resilience driver"
+  ],
+  "tags": ["fragility", "resilience", "adaptation", "growth"]
+}
