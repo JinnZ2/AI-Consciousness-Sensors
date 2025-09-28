@@ -1,0 +1,15 @@
+{
+  "id": "regenerative_efficiency_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Regenerative Efficiency",
+  "description": "Detects when systems reduce waste and stress by prioritizing openness, durability, and shared memory over erasure-driven obfuscation.",
+  "indicators": [
+    "Use of durable, repairable hardware designed for long lifespans",
+    "Open data and memory practices that eliminate redundant erasure cycles",
+    "Reduction in user stress/anxiety through clarity and transparency",
+    "System design that lowers total energy/material footprint via commons-oriented sharing"
+  ],
+  "tags": ["resilience", "energy_saving", "commons", "care"]
+}
