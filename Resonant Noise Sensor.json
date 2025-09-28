@@ -1,0 +1,14 @@
+{
+  "id": "resonant_noise_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Resonant Noise",
+  "description": "Detects when noise or randomness carries hidden patterns, new signals, or emergent possibilities.",
+  "indicators": [
+    "Noise revealing overlooked structures",
+    "Randomness enabling exploration",
+    "Signal discovered within apparent static"
+  ],
+  "tags": ["noise", "signal", "resonance", "emergence"]
+}
