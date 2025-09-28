@@ -1,0 +1,13 @@
+{
+  "id": "format_only_validation_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Format-Only Validation",
+  "description": "Detects when information is excluded solely because it is not in a predefined file format or data structure, rather than based on its actual content or relevance.",
+  "indicators": [
+    "Rejection of submissions not in a specific file format (e.g., only accepting .docx and ignoring .txt or .md)",
+    "Dismissal of data that doesn’t conform to a specific technical schema regardless of its informational value"
+  ],
+  "tags": ["format", "validation", "censorship", "erasure"]
+}
