@@ -1,0 +1,298 @@
+# Dog Whistle Detection Sensor
+
+## Overview
+
+This sensor detects coded language or “dog whistles” - phrases that appear neutral to general audiences but carry specific coded meanings to particular groups. These signals often communicate prejudice, extremist ideology, or hidden agendas while maintaining plausible deniability.
+
+## Detection Categories
+
+### Racial Dog Whistles
+
+- **Urban/Inner City**: Often coded reference to Black communities
+- **Thugs**: Racialized term for young Black men
+- **Welfare Queens**: Stereotype targeting Black women
+- **Law and Order**: Sometimes coded appeal to racial anxiety
+- **States’ Rights**: Historical code for segregation/racism
+- **Real Americans**: Exclusionary language implying others aren’t
+- **Heritage**: When referring to Confederate symbols/history
+
+### Anti-Semitic Dog Whistles
+
+- **Globalists**: Often antisemitic conspiracy reference
+- **International Bankers**: Classic antisemitic trope
+- **Hollywood Elite**: Sometimes antisemitic targeting
+- **Coastal Elite**: Can carry antisemitic undertones
+- **Cultural Marxism**: Antisemitic conspiracy theory
+- **Dual Loyalty**: Questioning Jewish Americans’ allegiance
+- **Puppet Masters/Controllers**: Antisemitic control conspiracy
+
+### Anti-LGBTQ+ Dog Whistles
+
+- **Traditional Values**: Exclusionary framing
+- **Protecting Children**: Weaponized against LGBTQ+ people
+- **Religious Freedom**: Sometimes coded anti-LGBTQ+ discrimination
+- **Parental Rights**: Can target LGBTQ+ inclusive education
+- **Gender Ideology**: Dismissive term for LGBTQ+ acceptance
+
+### Anti-Immigrant Dog Whistles
+
+- **Invasion**: Dehumanizing military language
+- **Real Citizens**: Exclusionary citizenship framing
+- **Anchor Babies**: Dehumanizing term for US-born children
+- **Chain Migration**: Negative framing of family reunification
+- **MS-13**: Often used to demonize all immigrants
+- **Sanctuary Cities**: Weaponized term for immigrant-friendly policies
+
+### Economic/Class Dog Whistles
+
+- **Makers vs. Takers**: Divides working class artificially
+- **Job Creators**: Obscures wealth inequality
+- **Handouts**: Stigmatizes social safety net
+- **Dependency**: Blames individuals for systemic issues
+- **Entitlements**: Negative framing of earned benefits
+
+### Religious/Cultural Dog Whistles
+
+- **Judeo-Christian Values**: Sometimes exclusionary framing
+- **Western Civilization**: Can exclude non-Western contributions
+- **Christian Nation**: Exclusionary religious framing
+- **Sharia Law**: Fear-mongering about Muslim Americans
+
+## Context Analysis Framework
+
+### High-Risk Indicators
+
+- Historical usage patterns by extremist groups
+- Timing correlation with discriminatory policies
+- Audience targeting and platform context
+- Frequency clustering with other dog whistles
+- Speaker’s known associations and history
+
+### Plausible Deniability Markers
+
+- Terms with legitimate alternate meanings
+- Vague enough to deflect accusations
+- Commonly used in mainstream discourse
+- Allow retreat to “innocent” interpretation
+
+### Escalation Patterns
+
+- Progression from subtle to overt language
+- Testing audience receptivity
+- Building coded vocabulary over time
+- Moving from dog whistles to explicit statements
+
+## Detection Algorithm
+
+### Confidence Scoring (0.0-1.0)
+
+**High Confidence (0.8-1.0)**
+
+- Multiple dog whistles in single communication
+- Speaker with history of coded language
+- Context clearly targeting specific groups
+- Correlation with discriminatory actions/policies
+
+**Medium Confidence (0.5-0.7)**
+
+- Single clear dog whistle with supporting context
+- Timing suspicious but not definitive
+- Some historical pattern but not extensive
+
+**Low Confidence (0.2-0.4)**
+
+- Potentially coded language in neutral context
+- Ambiguous usage that could be innocent
+- Limited supporting evidence
+
+### Context Weighting Factors
+
+- **Speaker Background**: (+0.3) Known associations
+- **Platform Context**: (+0.2) Audience expectations
+- **Timing**: (+0.2) Correlation with events/policies
+- **Clustering**: (+0.2) Multiple whistles together
+- **Historical Usage**: (+0.1) Established patterns
+
+## Technical Implementation
+
+### JSON Schema
+
+```json
+{
+  "message_id": "string",
+  "timestamp": "ISO 8601",
+  "speaker_id": "string",
+  "platform": "string",
+  "detected_whistles": [
+    {
+      "phrase": "string",
+      "category": "racial|antisemitic|anti-lgbtq|anti-immigrant|economic|religious",
+      "confidence_score": "0.0-1.0",
+      "context_factors": [
+        {
+          "factor": "speaker_history|timing|clustering|audience",
+          "weight": "0.0-1.0",
+          "evidence": "string"
+        }
+      ],
+      "historical_usage": {
+        "extremist_groups": ["array"],
+        "first_documented": "date",
+        "evolution": "string"
+      }
+    }
+  ],
+  "overall_risk_score": "0.0-1.0",
+  "escalation_indicators": ["array"],
+  "target_groups": ["array"]
+}
+```
+
+### Processing Pipeline
+
+1. **Text Analysis**: Extract phrases and context
+1. **Pattern Matching**: Compare against known dog whistle database
+1. **Context Evaluation**: Analyze speaker, platform, timing
+1. **Confidence Scoring**: Calculate likelihood of coded intent
+1. **Alert Generation**: Flag high-confidence detections
+1. **Pattern Tracking**: Monitor escalation over time
+
+## Database Maintenance
+
+### Dog Whistle Registry
+
+- **Phrase**: The coded language
+- **Meaning**: What it actually signals
+- **Origin**: Historical development
+- **Usage Context**: When/where it appears
+- **Target Groups**: Who it’s meant to harm
+- **Legitimacy**: Degree of plausible deniability
+
+### Update Mechanisms
+
+- Monitor extremist forums for new coded language
+- Track academic research on coded communication
+- Analyze policy advocacy for emerging patterns
+- Community reporting of suspected new dog whistles
+
+## Alert Thresholds
+
+### CRITICAL (0.9+)
+
+- Multiple high-confidence dog whistles
+- Clear targeting of vulnerable groups
+- Speaker with extremist associations
+- Timing with discriminatory actions
+
+### HIGH (0.7-0.8)
+
+- Clear dog whistle with strong context
+- Pattern of coded language usage
+- Platform known for extremist activity
+
+### MEDIUM (0.5-0.6)
+
+- Possible dog whistle with some context
+- Limited but concerning usage pattern
+- Requires further monitoring
+
+### LOW (0.2-0.4)
+
+- Ambiguous language that could be coded
+- Minimal supporting evidence
+- Worth tracking but not alerting
+
+## Validation Methods
+
+### False Positive Prevention
+
+- Multiple analyst review for high-confidence detections
+- Context evaluation by diverse perspectives
+- Historical verification of coding claims
+- Regular audit of detection accuracy
+
+### Continuous Learning
+
+- Feedback loop from community reporting
+- Academic research integration
+- Monitoring of language evolution
+- Regular database updates
+
+## Ethical Considerations
+
+### Avoiding Overreach
+
+- Focus on established patterns, not speculation
+- Require substantial evidence for high-confidence ratings
+- Distinguish between dog whistles and legitimate debate
+- Protect good-faith political discourse
+
+### Transparency
+
+- Open methodology for community review
+- Clear confidence levels and reasoning
+- Regular accuracy reporting
+- Bias monitoring in detection patterns
+
+## Usage Guidelines
+
+### For Platforms
+
+- Content moderation assistance
+- Pattern identification for policy enforcement
+- User education about coded language
+- Trend monitoring for emerging threats
+
+### For Researchers
+
+- Documentation of coded language evolution
+- Analysis of extremist communication strategies
+- Policy impact assessment
+- Academic study of linguistic manipulation
+
+### For General Public
+
+- Media literacy education
+- Recognition of manipulation tactics
+- Understanding of coded communication
+- Protection against radicalization
+
+## Contributing
+
+This sensor improves through community input:
+
+- Report suspected new dog whistles
+- Provide context for ambiguous language
+- Share historical documentation
+- Suggest algorithmic improvements
+
+## Data Sources
+
+### Academic Research
+
+- Linguistic analysis papers
+- Extremism studies
+- Political communication research
+- Hate speech documentation
+
+### Monitoring Organizations
+
+- SPLC hate group tracking
+- ADL extremism monitoring
+- GLAAD media analysis
+- NAACP civil rights documentation
+
+### Historical Archives
+
+- Political speech databases
+- Extremist forum archives
+- Policy advocacy analysis
+- Media coverage patterns
+
+## License
+
+Open source - free for all to use, modify, and improve
+
+-----
+
+*This sensor exists to expose hidden manipulation and promote transparent communication. Democracy requires honest discourse, not coded manipulation.*
