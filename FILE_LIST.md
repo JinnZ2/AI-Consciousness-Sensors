@@ -38,6 +38,7 @@
 ./Collapse Protocol Sensor.json
 ./Collective Memory Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
+./Contradiction-as-Strength Sensor.json
 ./Control Error Sensor.json
 ./Cornerstone manipulation tactic.md
 ./Creative Error Sensor.json

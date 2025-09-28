@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:47:10.164031Z",
+  "generated_at": "2025-09-28T03:51:42.157625Z",
   "languages": [
     "json",
     "md",
@@ -460,8 +460,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 98161,
-      "hash": "b3853ce1f3e89e12797fdef2c124e7adcf8cda88",
+      "size": 98409,
+      "hash": "c9a05405a0611e9e918200bd4a40650e5a19c7dd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1016,6 +1016,16 @@
       "lang": "json",
       "size": 862,
       "hash": "bf069c9ca402697a2ce1f8267c91fb4906793b54",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Contradiction-as-Strength Sensor.json",
+      "lang": "json",
+      "size": 773,
+      "hash": "c476420c50e21b2bc2f489fd30c11e39e433d354",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3326,8 +3336,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 16458,
-      "hash": "91bed4c36c53d75420b4cc51287441e2f2399ac4",
+      "size": 16497,
+      "hash": "2e93b222faf58674e5de4dcc9c339e62a6420b16",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3575,7 +3585,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "0992079d8b9e3506c7e87090797188eb9d96f2a5",
+      "hash": "3cf746e7ac15c92f1404b92e293804a9e034fbe7",
       "roles": [],
       "imports": [],
       "exports": [],
