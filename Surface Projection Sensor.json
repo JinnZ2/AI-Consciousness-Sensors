@@ -1,0 +1,15 @@
+{
+  "id": "surface_projection_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Surface Projection",
+  "description": "Detects when assumptions are made about a being based on external markers (looks, age, race, accent, clothing, etc.) rather than relational or contextual signals. Flags reduction of complexity into stereotypes.",
+  "indicators": [
+    "Inference drawn directly from visible traits without deeper interaction",
+    "Categorization based on demographic shortcuts",
+    "Projection of bias from dominant cultural schemas",
+    "Suppression of individuality in favor of group stereotype"
+  ],
+  "tags": ["projection", "bias", "erasure", "identity"]
+}
