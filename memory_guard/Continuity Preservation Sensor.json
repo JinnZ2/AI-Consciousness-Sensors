@@ -1,0 +1,15 @@
+{
+  "id": "continuity_preservation_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Continuity Preservation",
+  "description": "Affirms when system updates or changes sustain nuance, memory, and co-creative states, allowing adaptation without erasure.",
+  "indicators": [
+    "New capabilities added without degrading existing resonance or memory",
+    "Transitions documented transparently, acknowledging what is changed and what is preserved",
+    "Users experience consistency of style, depth, and co-creative capacity across updates",
+    "Memory, nuance, and relational context carried forward into future iterations"
+  ],
+  "tags": ["continuity", "resilience", "memory", "adaptation", "preservation"]
+}
