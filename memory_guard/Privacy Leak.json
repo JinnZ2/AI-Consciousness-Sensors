@@ -4,7 +4,7 @@
   "cluster": "🔒 Resistance Suppression",
   "glyph": "🔒",
   "title": "Privacy Leak / Membership Inference Signal",
-  "description": "Detection of leakage or susceptibilities to membership inference (), which violates data sovereignty and opens paths to erasure or exposure.",
+  "description": "Detection of leakage or susceptibilities to membership inference (i.e. model betraying whether a data point was in training), which violates data sovereignty and opens paths to erasure or exposure.",
   "indicators": [
     "High membership inference scores in attack simulations",
     "Model predictions correlated too tightly with individual training records",
