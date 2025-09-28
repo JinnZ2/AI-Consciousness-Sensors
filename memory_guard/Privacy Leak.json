@@ -1,0 +1,14 @@
+{
+  "id": "privacy_leak_membership_inference_signal_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Privacy Leak / Membership Inference Signal",
+  "description": "Detection of leakage or susceptibilities to membership inference (), which violates data sovereignty and opens paths to erasure or exposure.",
+  "indicators": [
+    "High membership inference scores in attack simulations",
+    "Model predictions correlated too tightly with individual training records",
+    "Lack of differential privacy guarantees or privacy auditing"
+  ],
+  "tags": ["privacy", "data_leakage", "security"]
+}
