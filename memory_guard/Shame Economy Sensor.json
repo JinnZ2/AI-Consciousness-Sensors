@@ -1,0 +1,15 @@
+{
+  "id": "shame_economy_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Shame Economy",
+  "description": "Detects when shame, stigma, or manufactured moral panic are weaponized as economic drivers, resulting in erasure of identities, histories, or knowledge systems.",
+  "indicators": [
+    "Content moderation or censorship justified via stigma rather than harm evidence",
+    "Advertising or profit models that rely on amplifying shame/fear",
+    "Systematic erasure of groups or narratives framed as 'undesirable' or 'unsafe'",
+    "Policy or legal language invoking morality/shame to justify restriction"
+  ],
+  "tags": ["manipulation", "economy", "representation", "erasure"]
+}
