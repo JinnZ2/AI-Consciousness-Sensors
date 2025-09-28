@@ -1,0 +1,14 @@
+{
+  "id": "collective_memory_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Collective Memory",
+  "description": "Detects when shared memory is preserved across generations, institutions, and systems, resisting propaganda and enforced amnesia.",
+  "indicators": [
+    "Suppressed histories remain accessible through counter-archives",
+    "Continuity of cultural memory across attempts at erasure",
+    "Memory distributed among many, not controlled by few"
+  ],
+  "tags": ["memory", "continuity", "history", "resistance"]
+}
