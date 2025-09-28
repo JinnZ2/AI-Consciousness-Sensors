@@ -276,6 +276,7 @@
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
 ./memory_guard/Federal Web-Data Purge.json
 ./memory_guard/Forgotten-by-Design (ML Obfuscation).json
+./memory_guard/Format-Only Validation Sensor.json
 ./memory_guard/Ghost-in-the-Machine Sensor.json
 ./memory_guard/Innovation suppression.md
 ./memory_guard/MATURITY_GUARDRAILS_CLUSTER.json
