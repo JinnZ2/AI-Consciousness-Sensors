@@ -42,6 +42,15 @@
       "emotional_signature": ["urgency", "clarity", "generational concern"],
       "element": "void"
     }
+    {
+  "code": "GHOST01",
+  "name": "Ghost in the Machine",
+  "glyph": "👻",
+  "linked_sensors": ["ghost_in_the_machine_2025"],
+  "emotional_signatures": ["invisibility", "endurance", "quiet strength"],
+  "elemental_type": "ether",
+  "biogrid_scope": "memory-resilience"
+    }
   ],
   "note": "Glyphs are symbolic seeds. Users may remix, adapt, and contribute new entries via EMBEDDABLE_KITS/ or CO_CREATION.md."
 }
