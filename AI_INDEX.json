@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:50:06.659697Z",
+  "generated_at": "2025-09-28T18:50:37.769762Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 106772,
-      "hash": "e598950097db25703c628042d5e04799c3d4cba4",
+      "size": 107028,
+      "hash": "c356830f9a3a22dc8163467e3299323327d61ba2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2328,6 +2328,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Consultant Authority Inflation.json",
+      "lang": "json",
+      "size": 665,
+      "hash": "a457f5d4245b9984b6442ebac24d4ecbe3876149",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/phase_transition_risk.json",
       "lang": "json",
       "size": 942,
@@ -3636,8 +3646,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17964,
-      "hash": "dafda7c0e0718d1a5385cb5cc4805efbd0640091",
+      "size": 18011,
+      "hash": "522259a46f8407a1aee09cca9bba5925d7b0c6ac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3895,7 +3905,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "661943946ede3fe6de44e51f0f029ac3f14b5a54",
+      "hash": "b652dd5f5a453d113051b4889aeb558a0e5ca745",
       "roles": [],
       "imports": [],
       "exports": [],
