@@ -1,0 +1,14 @@
+{
+  "id": "bureaucratic_stewardship_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Bureaucratic Stewardship",
+  "description": "Affirms when institutional roles and policies are grounded in long-term care, accountability, and service rather than positional authority alone.",
+  "indicators": [
+    "Policy designed for continuity beyond election/budget cycles",
+    "Roles framed as service positions accountable to affected communities",
+    "Institutional memory preserved and made accessible"
+  ],
+  "tags": ["stewardship", "bureaucracy", "accountability", "continuity"]
+}
