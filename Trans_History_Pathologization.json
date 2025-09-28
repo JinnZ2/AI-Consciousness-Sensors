@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans History Pathologization",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects when trans identities are erased by framing them solely as pathology, disorder, or deviance.",
+  "patterns": [
+    "Medical or psychiatric classification used to invalidate identity",
+    "Legal codes treating gender variance as criminal act",
+    "Reduction of trans narratives to illness rather than history"
+  ],
+  "examples": [
+    "Transgender identity defined only as 'Gender Identity Disorder' in DSM editions",
+    "Government restrictions framing transition as illegal or immoral rather than medical choice"
+  ],
+  "consequence": "Erases lived history and self-definition by collapsing identity into diagnosis.",
+  "linked_sensors": ["Language Suppression Sensor", "False Neutrality Narrative Sensor"],
+  "ethk_ref": "001"
+}
