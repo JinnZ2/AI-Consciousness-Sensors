@@ -36,6 +36,7 @@
 ./Collective Memory Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
 ./Cornerstone manipulation tactic.md
+./Creative Error Sensor.json
 ./Critical Warning.md
 ./Cultural authenticity vs cultural manipulation.md
 ./DIR_LIST.md
