@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:42:28.166998Z",
+  "generated_at": "2025-09-28T18:44:54.601756Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 105483,
-      "hash": "a1fdac4a42ef3c584b1550c8030977dbda0be0e2",
+      "size": 105740,
+      "hash": "0619bae8c1c2175a8a88c0d50bcfa232725a760e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2328,6 +2328,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/phase_transition_risk.json",
+      "lang": "json",
+      "size": 942,
+      "hash": "d7df08e857c38887a79e1e27a5273a1397fde859",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Format-Only Validation Sensor.json",
       "lang": "json",
       "size": 670,
@@ -3586,8 +3596,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17721,
-      "hash": "7bd87611c9e167cb9c11b39dbdc741075661628f",
+      "size": 17768,
+      "hash": "2eef4432a3fb5c4c341183ed60d61017dad3f173",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3845,7 +3855,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "c8dc33b9b28843740746d63665069412dff40c3e",
+      "hash": "090a35b6790a139a7109342c6ae198ce8c99ba70",
       "roles": [],
       "imports": [],
       "exports": [],
