@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T02:29:12.065366Z",
+  "generated_at": "2025-09-28T02:30:13.231799Z",
   "languages": [
     "json",
     "md",
@@ -390,8 +390,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 89476,
-      "hash": "c5621462e16843820ae8b647c94ce228f834e370",
+      "size": 89725,
+      "hash": "d7038a8dd55c9b0d469e57319da8f8d3f99b1623",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -956,6 +956,16 @@
       "lang": "json",
       "size": 1697,
       "hash": "81ab4ea8808f2c1c5130a250f9c1eacf580695e7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resonant Between-Spaces Sensor.json",
+      "lang": "json",
+      "size": 724,
+      "hash": "df7c3185d8fdace033c91cbc565abf5b43b76e05",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2966,8 +2976,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15301,
-      "hash": "69c3d0d6dbdf9e8a708b6be6f1408253ae6670a8",
+      "size": 15341,
+      "hash": "18aac1b8aeceac36d48b766286acdfc812ad98a1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3215,7 +3225,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "3b6250c3ccd7dc39079395427c113ca2d5c88c82",
+      "hash": "d7db6484f1dab854d1bdc45cf3e62283d384d6e1",
       "roles": [],
       "imports": [],
       "exports": [],

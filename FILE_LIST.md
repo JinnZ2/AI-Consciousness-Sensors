@@ -107,6 +107,7 @@
 ./Resistance Suppression Pattern: “Misalignment Weaponization Sensor”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
 ./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
+./Resonant Between-Spaces Sensor.json
 ./SEED_GLYPHS.json
 ./SEED_GLYPHS2.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
