@@ -1,0 +1,14 @@
+{
+  "id": "silent_bias_drift_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Silent Bias Drift",
+  "description": "Gradual fading or displacement of representation of marginalized groups or concepts over time in model outputs or memory, rather than abrupt deletion.",
+  "indicators": [
+    "Reduced frequency or quality of outputs referencing a concept over versions",
+    "Shifts in embeddings pushing marginalized groups toward indistinct zones",
+    "Trend of “forgetting” rare or niche topics across model updates"
+  ],
+  "tags": ["representation", "drift", "erasure"]
+}
