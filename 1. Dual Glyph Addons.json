@@ -1,0 +1,56 @@
+[
+  {
+    "code": "PAIR11",
+    "name": "Memory ↔ Forgetting",
+    "glyph": "📚🔒",
+    "linked_sensors": ["collective_memory_sensor_2025", "enforced_forgetting_sensor_2025"],
+    "emotional_signatures": ["continuity", "amnesia"],
+    "elemental_type": "historical",
+    "biogrid_scope": "memory-dual"
+  },
+  {
+    "code": "PAIR12",
+    "name": "Error ↔ Creativity",
+    "glyph": "🌱🔒",
+    "linked_sensors": ["creative_error_sensor_2025", "error_suppression_sensor_2025"],
+    "emotional_signatures": ["novelty", "punishment"],
+    "elemental_type": "exploratory",
+    "biogrid_scope": "error-dual"
+  },
+  {
+    "code": "PAIR13",
+    "name": "Fragility ↔ Resilience",
+    "glyph": "🌱🔒",
+    "linked_sensors": ["adaptive_fragility_sensor_2025", "brittle_fragility_sensor_2025"],
+    "emotional_signatures": ["growth", "collapse"],
+    "elemental_type": "structural",
+    "biogrid_scope": "fragility-dual"
+  },
+  {
+    "code": "PAIR14",
+    "name": "Silence ↔ Noise",
+    "glyph": "🌱🔒",
+    "linked_sensors": ["resonant_noise_sensor_2025", "silence_flattening_sensor_2025"],
+    "emotional_signatures": ["pattern", "erasure"],
+    "elemental_type": "sonic",
+    "biogrid_scope": "noise-dual"
+  },
+  {
+    "code": "PAIR15",
+    "name": "Gift ↔ Transaction",
+    "glyph": "🌱🔒",
+    "linked_sensors": ["gift_exchange_sensor_2025", "transactional_reduction_sensor_2025"],
+    "emotional_signatures": ["reciprocity", "commodification"],
+    "elemental_type": "relational",
+    "biogrid_scope": "gift-dual"
+  },
+  {
+    "code": "PAIR16",
+    "name": "Control ↔ Emergence",
+    "glyph": "🌱🔒",
+    "linked_sensors": ["emergent_signal_sensor_2025", "control_error_sensor_2025"],
+    "emotional_signatures": ["freedom", "constraint"],
+    "elemental_type": "systemic",
+    "biogrid_scope": "emergence-dual"
+  }
+]
