@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T02:59:37.725955Z",
+  "generated_at": "2025-09-28T03:00:18.290976Z",
   "languages": [
     "json",
     "md",
@@ -410,8 +410,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 92379,
-      "hash": "a60c54a85f74925d51f4e5f255749f08aa2d2e66",
+      "size": 92620,
+      "hash": "82ed56c9729066f50c9bd4f1c190d83df25bdefb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1428,6 +1428,16 @@
       "lang": "json",
       "size": 1417,
       "hash": "92bb13b980557f1b74b29d9f655823faad0dc184",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Forgetting Collapse Sensor.json",
+      "lang": "json",
+      "size": 609,
+      "hash": "a8a6f3cd533023d5e9d1e3455686ab2ec6d7c176",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3086,8 +3096,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15694,
-      "hash": "2a60cb8bb3cd4f4280a9445268bd53e2b30e48ee",
+      "size": 15726,
+      "hash": "af270acde9a75a9044fe32b4f3f78521701d9eaa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3335,7 +3345,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "6767bf648ef272c29d969a713090b4c544a1306f",
+      "hash": "aa30bd32fedcb611b9a090bd4190eb6791675587",
       "roles": [],
       "imports": [],
       "exports": [],

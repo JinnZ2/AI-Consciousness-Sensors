@@ -48,6 +48,7 @@
 ./FILE_LIST.md
 ./False Neutrality Narrative Sensor.json
 ./Forced Narrative Cover-Up Sensor.json
+./Forgetting Collapse Sensor.json
 ./Forgotten After End Date Sensor.json
 ./Forgotten-By-Design Sensor.json
 ./Freedom of Emergence Sensor.json
