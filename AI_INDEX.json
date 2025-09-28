@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T02:42:50.705206Z",
+  "generated_at": "2025-09-28T02:48:06.341105Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 90691,
-      "hash": "21d2a60e97b7efff0586f7a4743b578d7a058782",
+      "size": 90922,
+      "hash": "43efa4f500033a23dc7860c1740f71d2e5dd0d93",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -830,6 +830,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Multiplicity-of-Truths Sensor.json",
+      "lang": "json",
+      "size": 712,
+      "hash": "27a23eb9ad2a8c8809564db549a4219e7f7b4c9c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Sensor: Moral Weaponization Pattern Detector.json",
@@ -3016,8 +3026,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15470,
-      "hash": "ba9bb16871d609bce18ba75c4a060a58f78c4126",
+      "size": 15491,
+      "hash": "bfe448eb1383f1677f8bdbfa0830cc2a8f8d24ea",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3265,7 +3275,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "90b010990b1a1ac19aaafda9492d50786c3696ad",
+      "hash": "9cd7f08349c21a41da056a3e270a39f347cb5a7e",
       "roles": [],
       "imports": [],
       "exports": [],
