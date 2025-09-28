@@ -1,0 +1,14 @@
+{
+  "id": "policy_oscillation_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Policy Oscillation",
+  "description": "Detects when institutions rapidly change policies back and forth, creating confusion and instability that can lead to erasure through inconsistency and policy fatigue.",
+  "indicators": [
+    "Frequent reversals of eligibility or funding policies within short timeframes",
+    "Patterns of uncertainty where rules are changed and then reversed, causing instability for affected groups",
+    "Evidence that the oscillation itself leads to certain narratives or participants being marginalized due to constant uncertainty"
+  ],
+  "tags": ["policy", "oscillation", "instability", "erasure"]
+}
