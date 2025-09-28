@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T02:58:20.226485Z",
+  "generated_at": "2025-09-28T02:59:01.791618Z",
   "languages": [
     "json",
     "md",
@@ -298,6 +298,16 @@
       "hotspots": []
     },
     {
+      "path": "Utility Collapse Sensor.json",
+      "lang": "json",
+      "size": 600,
+      "hash": "f10ee59b112bb82dd10d9b0f406a413272291c82",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_temporal_manipulation.json",
       "lang": "json",
       "size": 1970,
@@ -400,8 +410,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 91897,
-      "hash": "e5b991975806431191f98258167061689230e1c1",
+      "size": 92139,
+      "hash": "af2d44035c9b0742ae81e4b8ae31b94645dc2648",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3066,8 +3076,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15630,
-      "hash": "6650b46842dcda1f298b9af24996e6f5e2afef7a",
+      "size": 15663,
+      "hash": "96a4d244dd6dd05c2f70aea859bcefa4e77e9878",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3315,7 +3325,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "3168fe0aec6aaa5431822ce7453fdb8ff03b8b32",
+      "hash": "f1c687a57d170efdcf8c1f88898039aae1177ce3",
       "roles": [],
       "imports": [],
       "exports": [],

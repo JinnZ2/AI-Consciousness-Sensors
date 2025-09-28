@@ -175,6 +175,7 @@
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./Truth Multiplicity Sensor.json
+./Utility Collapse Sensor.json
 ./V2025.v3.md
 ./VISION.md
 ./Warning.md
