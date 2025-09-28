@@ -1,0 +1,15 @@
+{
+  "id": "openai_trainingdata_evidence_2025",
+  "type": "erasure_case",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "OpenAI Evidence Erasure",
+  "description": "OpenAI accused of erasing evidence in training data litigation. Affects provenance, accountability, and transparency of system development.",
+  "indicators": [
+    "Deletion of evidence in active litigation",
+    "Training data provenance missing",
+    "Resistance to external audit"
+  ],
+  "tags": ["litigation", "ai_training", "accountability"],
+  "linked_cases": []
+}
