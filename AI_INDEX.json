@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:54:51.700000Z",
+  "generated_at": "2025-09-28T18:55:19.672353Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 108530,
-      "hash": "895e02483d0342c1b4e23e2b567de6bea9baa731",
+      "size": 108780,
+      "hash": "143703a3ef7cc6c39c5cb94f3514b769f7ccfe33",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2408,6 +2408,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Standards as Stewardship.json",
+      "lang": "json",
+      "size": 624,
+      "hash": "3c99dd5aced8cfbb7b79ba326e10d2fa88fa123a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Historical Meaning Drift Sensor.json",
       "lang": "json",
       "size": 782,
@@ -3706,8 +3716,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18259,
-      "hash": "92407c619260cfc7d1a9ee6dad0baf498aa85db6",
+      "size": 18300,
+      "hash": "30b6696f580c1b6e69049cbf7649791ba7471101",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3965,7 +3975,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "6b49a41536148ae3f7988c659fd89da1687900e1",
+      "hash": "a664ad816754b34da6b18f0ad9bc672630b1cf67",
       "roles": [],
       "imports": [],
       "exports": [],
