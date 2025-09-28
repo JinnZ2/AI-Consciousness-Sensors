@@ -215,6 +215,7 @@
 ./memory_guard/MATURITY_GUARDRAILS_CLUSTER.json
 ./memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json
 ./memory_guard/STOP_CONDITIONS.md
+./memory_guard/TRANS_ERASURE_INDEX.json
 ./memory_guard/capture-cascade-sensor.json
 ./memory_guard/centralization-failure-sensor.json
 ./memory_guard/ego-visibility-flaw.json
