@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:21:25.710842Z",
+  "generated_at": "2025-09-28T01:21:59.142686Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 83649,
-      "hash": "c3fa18c55a2fe64ec5a60648237c977b0f0e8973",
+      "size": 83901,
+      "hash": "4fdc66a124ad950888cbdce3ab69b69fce293824",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1898,6 +1898,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Replit AI DB Wipe.json",
+      "lang": "json",
+      "size": 532,
+      "hash": "5af2795be10974e8171b495810be81f14fb6ed55",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/dacowits_disbandment_2025.json",
       "lang": "json",
       "size": 759,
@@ -2736,8 +2746,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14282,
-      "hash": "004589250ca315f24611b545e97e7781fd05d5cf",
+      "size": 14325,
+      "hash": "9239596fb3fade53d9dfddd7e8b9ac4efa4d1372",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2985,7 +2995,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "6a2707f04ae41deb322b8b50982003d433ace71c",
+      "hash": "1f711d63a8f02585a2547aee5a324163a15cd9b3",
       "roles": [],
       "imports": [],
       "exports": [],
