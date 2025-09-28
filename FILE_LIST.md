@@ -170,6 +170,7 @@
 ./Suppressed Between-Spaces Sensor.json
 ./System integrity emergency.md
 ./Token warning competition.md
+./Tool Reduction Sensor.json
 ./Trans_Archival_Silencing.json
 ./Trans_Cultural_Misrepresentation.json
 ./Trans_History_Pathologization.json
