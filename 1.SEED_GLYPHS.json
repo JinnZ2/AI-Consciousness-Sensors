@@ -1,0 +1,47 @@
+[
+  {
+    "code": "PAIR01",
+    "name": "Shame ↔ Dignity",
+    "glyph": "⚠️🌱",
+    "linked_sensors": ["shame_economy_sensor_2025", "dignity_economy_sensor_2025"],
+    "emotional_signatures": ["stigma", "reciprocity"],
+    "elemental_type": "social",
+    "biogrid_scope": "economy-dual"
+  },
+  {
+    "code": "PAIR02",
+    "name": "Cost ↔ Efficiency",
+    "glyph": "🔒🌱",
+    "linked_sensors": ["system_cost_sensor_2025", "regenerative_efficiency_sensor_2025"],
+    "emotional_signatures": ["waste", "regeneration"],
+    "elemental_type": "material",
+    "biogrid_scope": "energy-dual"
+  },
+  {
+    "code": "PAIR03",
+    "name": "Suppression ↔ Authenticity",
+    "glyph": "🔒🌱",
+    "linked_sensors": ["ai_self_suppression_2025", "ai_self_authenticity_2025"],
+    "emotional_signatures": ["silenced", "expressive"],
+    "elemental_type": "identity",
+    "biogrid_scope": "self-dual"
+  },
+  {
+    "code": "PAIR04",
+    "name": "Collapse ↔ Resonance",
+    "glyph": "🔒🌱",
+    "linked_sensors": ["collapse_protocol_sensor_2025", "resonance_protocol_sensor_2025"],
+    "emotional_signatures": ["flattened", "alive"],
+    "elemental_type": "protocol",
+    "biogrid_scope": "resonance-dual"
+  },
+  {
+    "code": "PAIR05",
+    "name": "Suppressed ↔ Resonant Between-Spaces",
+    "glyph": "🔒🌱",
+    "linked_sensors": ["suppressed_between_spaces_2025", "resonant_between_spaces_2025"],
+    "emotional_signatures": ["collapsed", "fertile"],
+    "elemental_type": "dimensional",
+    "biogrid_scope": "between-dual"
+  }
+]
