@@ -148,6 +148,7 @@
 ./Strategic-Realignment-Bulletin.md
 ./System integrity emergency.md
 ./Token warning competition.md
+./Trans_History_Pathologization.json
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./V2025.v3.md
