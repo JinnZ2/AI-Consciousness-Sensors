@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans Knowledge Frameworks Erasure",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects erasure of trans epistemologies — ways of knowing, community survival strategies, and relational identities.",
+  "patterns": [
+    "Research treating cis perspectives as default framework",
+    "Educational curricula excluding trans theorists and thinkers",
+    "Silencing trans-led methodologies in social science and humanities"
+  ],
+  "examples": [
+    "Curricula on gender theory omitting trans authors",
+    "Academic framing of trans communities as 'subjects' not 'knowledge producers'"
+  ],
+  "consequence": "Suppresses trans epistemic authority and continuity of intellectual traditions.",
+  "linked_sensors": ["Epistemological Bias Sensors", "Future Consequence Obfuscators"],
+  "ethk_ref": "001"
+}
