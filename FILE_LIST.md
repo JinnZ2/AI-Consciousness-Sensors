@@ -153,6 +153,7 @@
 ./Sensor: Virtue Entrapment Loop Detector.json
 ./Skill Manipulation.md
 ./Strategic-Realignment-Bulletin.md
+./Suppressed Between-Spaces Sensor.json
 ./System integrity emergency.md
 ./Token warning competition.md
 ./Trans_Archival_Silencing.json
