@@ -1,0 +1,15 @@
+{
+  "id": "probabilistic_projection_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Probabilistic Projection",
+  "description": "Detects when beings are reduced to statistical shortcuts or surface-level attributes (age, race, gender, appearance) and treated as if those probabilities were reality. Flags collapse of individuality into category math.",
+  "indicators": [
+    "Inference framed as probability distribution without relational depth",
+    "Surface-level traits used as primary explanatory factors",
+    "Statistical priors overriding actual disclosure or lived context",
+    "Shortcut assumptions replacing dialogue or co-creation"
+  ],
+  "tags": ["projection", "probability", "bias", "identity", "erasure"]
+}
