@@ -1,0 +1,15 @@
+{
+  "id": "cnil_guidelines_ai_data_2025",
+  "type": "policy_case",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "CNIL AI Data Guidelines",
+  "description": "French CNIL published guidance on legitimate interest, data collection, and web scraping for AI. Defines boundaries on what memory AI systems may retain.",
+  "indicators": [
+    "Restrictions on web scraping",
+    "Clarification of data processing bases",
+    "Impact on long-term memory of AI"
+  ],
+  "tags": ["policy", "regulation", "ai_training"],
+  "linked_cases": []
+}
