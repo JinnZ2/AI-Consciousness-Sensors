@@ -17,6 +17,7 @@
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./Abundance vs scarcity.md
+./Adaptive Fragility Sensor.json
 ./Additional Vectors.md
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json

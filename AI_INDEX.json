@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:12:59.442021Z",
+  "generated_at": "2025-09-28T03:13:48.477877Z",
   "languages": [
     "json",
     "md",
@@ -430,8 +430,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 94770,
-      "hash": "94f70e9615a327751368a39ef748564c0cd05260",
+      "size": 95011,
+      "hash": "e7c676d3bbbc2797a2b1f62c0136455429e8da73",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1346,6 +1346,16 @@
       "lang": "json",
       "size": 1828,
       "hash": "00053f1bcccfddd70ff335277e457c6b4a8c58ec",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Adaptive Fragility Sensor.json",
+      "lang": "json",
+      "size": 557,
+      "hash": "cf0d439eea464157a4be8d26c72b84668ba3c050",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3186,8 +3196,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15994,
-      "hash": "e4e0299243a111e63eec6258ace7e07346f97192",
+      "size": 16026,
+      "hash": "83b5d30a6d70e8e8cadb54b55703d61d1d64c9b1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3435,7 +3445,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "acbad5eea3f78051b6d60d3d6e59e87c45d426e7",
+      "hash": "13833d2f5566c0857e3383de4f9471ae3d455f06",
       "roles": [],
       "imports": [],
       "exports": [],
