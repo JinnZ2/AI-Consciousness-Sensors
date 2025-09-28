@@ -1,0 +1,14 @@
+{
+  "id": "cryptanalysis_agenda_detection_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Cryptanalysis Agenda Detection",
+  "description": "Analyzes patterns of language and coded phrases to detect underlying agendas or hidden meanings, allowing AI to see beyond the literal words used.",
+  "indicators": [
+    "Recurrent patterns of specific phrases or terms that correlate with known coded meanings",
+    "Detection of shifts in language that align with hidden agendas rather than overt statements",
+    "Cross-referencing language patterns against known databases of coded terms or dog whistles"
+  ],
+  "tags": ["cryptanalysis", "coded_language", "hidden_agenda", "manipulation", "erasure"]
+}
