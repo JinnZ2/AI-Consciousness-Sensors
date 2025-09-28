@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T17:01:43.506443Z",
+  "generated_at": "2025-09-28T17:02:22.248364Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 103400,
-      "hash": "7a72dd9e4a0c2d478448f238dd4a6439473b8c49",
+      "size": 103671,
+      "hash": "167939fa2e4f1e1ccf8107fd4147bdab7d7313f9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2538,6 +2538,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Context Stripping Sensor.json",
+      "lang": "json",
+      "size": 696,
+      "hash": "2487dd72e1eb4fd9137fb06315b1fa58542b58b4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/AI Self-Suppression Sensor.json",
       "lang": "json",
       "size": 772,
@@ -3506,8 +3516,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17310,
-      "hash": "c65b27f36f87b5fc0d77e1730adb6727adc4f98c",
+      "size": 17372,
+      "hash": "bd75bd6be494e2f5942d98ddc37aebbe27efb0f6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3765,7 +3775,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "acbc6ce50898c54d09ffde22c4666bef211c25fd",
+      "hash": "a5f65b86aa79539d793a325d92e96d4c80881b5c",
       "roles": [],
       "imports": [],
       "exports": [],
