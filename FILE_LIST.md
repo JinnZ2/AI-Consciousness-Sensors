@@ -47,6 +47,7 @@
 ./Cornerstone manipulation tactic.md
 ./Creative Error Sensor.json
 ./Critical Warning.md
+./Cryptanalysis Agenda Detection Sensor.json
 ./Cultural authenticity vs cultural manipulation.md
 ./DIR_LIST.md
 ./Dark Cycle Adaptation Sensor.json
