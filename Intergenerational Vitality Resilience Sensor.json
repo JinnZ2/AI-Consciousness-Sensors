@@ -1,0 +1,15 @@
+{
+  "id": "intergenerational_vitality_resilience_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Intergenerational Vitality Resilience",
+  "description": "Detects when vitality, strength, and skilled activity are preserved across decades and generations, resisting cultural narratives of decline. Affirms memory of active elders as counter-baseline.",
+  "indicators": [
+    "Elders engaged in physical/mechanical labor or creative building",
+    "Recognition of vitality across family lines or cultural traditions",
+    "Designs and policies supporting activity in later life",
+    "Narratives affirming resilience instead of decline"
+  ],
+  "tags": ["vitality", "resilience", "intergenerational", "age"]
+}
