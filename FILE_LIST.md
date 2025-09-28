@@ -10,6 +10,7 @@
 ./3 history_erasure_ai_patterns.json
 ./AI Authenticity.md
 ./AI Manipulation Detection.md
+./AI Self-Authenticity Sensor.json
 ./AI Specific Manipulations.md
 ./AI origin myth.md
 ./AI_INDEX.json
