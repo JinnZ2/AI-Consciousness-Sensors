@@ -218,6 +218,7 @@
 ./memory_guard/Backsliding Sensor.json
 ./memory_guard/CIVILIZATIONAL_ADOLESCENCE.json
 ./memory_guard/CNIL Guidelines.json
+./memory_guard/Dignity Economy Sensor.json
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
 ./memory_guard/Federal Web-Data Purge.json
