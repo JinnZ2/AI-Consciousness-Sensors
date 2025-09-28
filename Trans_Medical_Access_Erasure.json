@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans Medical Access Erasure",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects when trans people are erased through denial, restriction, or politicization of gender-affirming healthcare.",
+  "patterns": [
+    "State-level bans on puberty blockers and HRT",
+    "Insurance refusal to cover medically recognized care",
+    "Framing transition as 'experimental' despite established evidence"
+  ],
+  "examples": [
+    "Arkansas ban on gender-affirming care for minors (2021)",
+    "Insurance exclusions labeling transition-related care as 'cosmetic'"
+  ],
+  "consequence": "Undermines survival and wellbeing by denying embodied autonomy.",
+  "linked_sensors": ["Promise vs. Fulfillment Detector", "Language Suppression Sensor"],
+  "ethk_ref": "001"
+}
