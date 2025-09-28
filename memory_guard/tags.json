@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-27",
+  "tags": {
+    "healthcare": [
+      "us_healthdata_cdc_2025",
+      "usda_hunger_survey_termination_2025",
+      "trans_healthcare_erasure_2025"
+    ],
+    "language": [
+      "language_endangerment_yuchi",
+      "erasure_native_american",
+      "erasure_chinese_american_history"
+    ],
+    "representation": [
+      "dacowits_disbandment_2025",
+      "erasure_womens_history",
+      "erasure_african_american",
+      "erasure_mexican_american",
+      "erasure_chinese_american"
+    ],
+    "media_blackout": [
+      "maldives_media_blackout_2021",
+      "historical_display_erasure_sensor",
+      "erasure_asymmetry_2025_mn_kirk"
+    ],
+    "conflict_destruction": [
+      "al_nuri_library_burning_2014"
+    ],
+    "meta_patterns": [
+      "history_erasure_ai_patterns_2",
+      "history_erasure_ai_patterns_3",
+      "meta_science_capture_2025"
+    ]
+  }
+}
