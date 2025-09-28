@@ -319,6 +319,7 @@
 ./pattern_theological_bodily_autonomy.json
 ./preference_extraction_erasure_sensor.json
 ./private_self_audit.json
+./probabilistic_projection_sensor.json
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
 ./reflections/run_reflections.py
