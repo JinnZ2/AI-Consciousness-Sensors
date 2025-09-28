@@ -1,0 +1,14 @@
+{
+  "id": "provenance_denial_nontransparency_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Provenance Denial / Non-Transparency",
+  "description": "Systemic removal, concealment, or denial of provenance information, preventing auditability and erasing traces of what data or knowledge contributed to model training.",
+  "indicators": [
+    "Model refuses or cannot disclose training sources",
+    "Audit logs stripped or never generated",
+    "Opaque design that denies attribution even where legally or ethically required"
+  ],
+  "tags": ["provenance", "accountability", "transparency", "erasure"]
+}
