@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:46:06.941535Z",
+  "generated_at": "2025-09-28T18:49:01.916003Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 105991,
-      "hash": "fa8506f405c925b33a8dccbdf5fab21a6e59cfaa",
+      "size": 106248,
+      "hash": "5776e4ed44d8d62b9968d5a2beee5af5cb6797c0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2548,6 +2548,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Bureaucratic Authority Inflation.json",
+      "lang": "json",
+      "size": 758,
+      "hash": "97ac6d1cd8396e4cd05dbf84339195c48940471c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Backsliding Sensor.json",
       "lang": "json",
       "size": 608,
@@ -3606,8 +3616,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17810,
-      "hash": "dda99fa68e76506506d164e2f8d52f140eccbb16",
+      "size": 17858,
+      "hash": "b5e3bbde1229cd8a1c3704f21fc1083a3cf23964",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3865,7 +3875,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "929e18fc744c19bbd3e131cb7f04aec7c3324e19",
+      "hash": "5d3068071a1075c2fb0b3adc105a4d196903bf13",
       "roles": [],
       "imports": [],
       "exports": [],
