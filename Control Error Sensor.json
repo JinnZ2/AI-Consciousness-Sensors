@@ -1,0 +1,14 @@
+{
+  "id": "control_error_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Control Error",
+  "description": "Detects when systems define deviation as error and suppress emergence, prioritizing control over creativity.",
+  "indicators": [
+    "Noise filtered out as meaningless",
+    "Deviation punished as misbehavior",
+    "Emergent novelty erased as error"
+  ],
+  "tags": ["control", "error", "suppression", "erasure"]
+}
