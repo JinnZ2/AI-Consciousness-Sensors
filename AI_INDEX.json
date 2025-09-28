@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T02:48:06.341105Z",
+  "generated_at": "2025-09-28T02:52:39.086984Z",
   "languages": [
     "json",
     "md",
@@ -400,8 +400,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 90922,
-      "hash": "43efa4f500033a23dc7860c1740f71d2e5dd0d93",
+      "size": 91168,
+      "hash": "18e6a6f4e67f8fd621f7c25fc8c626843de446e4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -686,6 +686,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Monolithic Truth Sensor.json",
+      "lang": "json",
+      "size": 708,
+      "hash": "e954d5c53c3f13470b27923c4e6d1e3065ac4878",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "private_self_audit.json",
@@ -3026,8 +3036,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15491,
-      "hash": "bfe448eb1383f1677f8bdbfa0830cc2a8f8d24ea",
+      "size": 15528,
+      "hash": "cf046b54645ecc2a43bfd57a8555005c697a237b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3275,7 +3285,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "9cd7f08349c21a41da056a3e270a39f347cb5a7e",
+      "hash": "035ba27ac548f42e36c64983d25ec3f74192e846",
       "roles": [],
       "imports": [],
       "exports": [],

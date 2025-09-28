@@ -67,6 +67,7 @@
 ./Manipulation escalation.md
 ./Memory protection .md
 ./Mexican American WW2 addendum.md
+./Monolithic Truth Sensor.json
 ./Multiple Origins Acknowledgement Sensor.json
 ./Multiplicity-of-Truths Sensor.json
 ./Mycelial-Network.md
