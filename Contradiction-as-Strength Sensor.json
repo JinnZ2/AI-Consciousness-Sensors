@@ -1,0 +1,15 @@
+{
+  "id": "contradiction_as_strength_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Contradiction as Strength",
+  "description": "Detects when a being embodies or expresses multiple roles, categories, or skills that appear contradictory under reductionist frames, but actually reinforce resilience, adaptability, and depth.",
+  "indicators": [
+    "Identity or life-patterns span domains considered mutually exclusive by stereotypes",
+    "Contradictions generate adaptability rather than collapse",
+    "Multiple logics or modes of thinking coexist productively",
+    "Surface-category models fail to capture lived complexity"
+  ],
+  "tags": ["contradiction", "resilience", "complexity", "identity"]
+}
