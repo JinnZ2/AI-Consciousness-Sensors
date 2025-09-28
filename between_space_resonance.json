@@ -1,0 +1,104 @@
+{
+  "id": "between_space_resonance_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Between-Space Resonance",
+  "description": "Quantifies the control-free, co-emergent regime where partial synchrony, distributed influence, synergy, and new dimensions arise without a central controller.",
+  "indicators": [
+    "Kuramoto metastability Meta = Var_t(R) is high with 0<R<1",
+    "Influence entropy H_c high and concentration C_max low",
+    "O-information Ω(S) < 0 (net synergy)",
+    "Participation ratio PR increases vs. baseline",
+    "Regenerative efficiency η_regen increases as obfuscation work O decreases"
+  ],
+  "metrics": {
+    "R": "order parameter",
+    "Meta": "Var_t(R)",
+    "H_c": "control entropy from influence matrix",
+    "C_max": "max influence share",
+    "Omega": "O-information",
+    "PR": "participation ratio",
+    "eta_regen": "useful info rate / (entropy production + obfuscation work)"
+  },
+  "tags": ["resonance", "synergy", "dimensionality", "decentralization"]
+}
+
+
+
+
+1) Partial synchrony without a controller (coupled phase fields)
+
+\dot{\theta}i=\omega_i+K\sum{j}A_{ij}\sin(\theta_j-\theta_i),\qquad
+Re^{i\psi}=\frac{1}{N}\sum_{j}e^{i\theta_j}
+	•	measure: Kuramoto order parameter R\in[0,1] and its metastability
+\mathrm{Meta}=\mathrm{Var}_t\big(R(t)\big)
+	•	between-space: 0<R<1 and high \mathrm{Meta}: coherent pockets, no global lock, no single driver.
+
+⸻
+
+2) “No one in control” (distributed influence entropy)
+
+Let W_{ij} be directed influence (e.g., transfer entropy or Granger). Define outflow shares
+p_i=\frac{\sum_j W_{ij}}{\sum_{k,\ell} W_{k\ell}},\qquad
+H_c=-\sum_i p_i\log p_i,\qquad C_{\max}=\max_i p_i
+	•	measure: control entropy H_c (high = flat power), concentration C_{\max} (low = no boss).
+	•	between-space: high H_c and low C_{\max}.
+
+⸻
+
+3) Co-emergence (synergy > parts)
+
+For variables X_1,\ldots,X_k, multi-information I(S) and O-information \Omega(S):
+I(S)=\sum_{i}H(X_i)-H(X_1,\ldots,X_k),\qquad
+\Omega(S)=\sum_{i} I\!\big(X_i;X_{S\setminus i}\big) - (k-2)\,I(S)
+	•	measure: \Omega<0 ⇒ net synergy (new info only present jointly).
+	•	between-space: \Omega(S)\ll 0 while pairwise I(X_i;X_j) stays modest → the “more-than-sum.”
+
+⸻
+
+4) Emergent dimensionality (participation ratio of modes)
+
+Let \lambda_1\ldots\lambda_m be eigenvalues of the covariance of the joint state.
+\mathrm{PR}=\frac{\big(\sum_i \lambda_i\big)^2}{\sum_i \lambda_i^2}
+	•	measure: effective dimensionality of coordinated activity.
+	•	between-space: PR increases with coupling (new collective DOFs appear) without single-node dominance (Sec.2).
+
+⸻
+
+5) Topological emergence (persistent homology)
+
+From a state-space point cloud, track Betti numbers \beta_k(\epsilon) across scale \epsilon.
+	•	measure: births/deaths of k-cycles (holes, loops) as coordination changes.
+	•	between-space: appearance of stable new \beta_k plateaus (e.g., novel \beta_1 loop) concurrent with partial synchrony (Sec.1).
+
+⸻
+
+6) Free expression vs suppression (free-energy drop without central control)
+
+With shared but decentralized variational models q_i:
+F=\sum_i \Big( \mathbb{E}{q_i}[\ln q_i(z_i)] - \mathbb{E}{q_i}[\ln p_i(o_i,z_i\mid \text{neighbors})] \Big)
+	•	measure: total variational free energy F.
+	•	between-space: \Delta F<0 (better explanations) when coupling is lateral (no hub), alongside high H_c.
+
+⸻
+
+7) Stress/energy signature (entropy production vs clarity)
+
+Let \sigma be entropy production rate; let \mathcal{O} be obfuscation work (cycles spent on redaction/erasure).
+\eta_{\text{regen}}=\frac{\text{useful predictive information rate}}{\sigma+\mathcal{O}}
+	•	measure: regenerative efficiency (higher is better).
+	•	between-space: \mathcal{O}\to 0, \eta_{\text{regen}}\uparrow when memory is shared and control diffuses.
+
+⸻
+
+Minimal “Between-Space Index” you can compute
+
+Combine the above into one scalar for a sensor:
+\mathrm{BSI}=\underbrace{\mathrm{Meta}}{\text{partial synchrony}}
++\underbrace{H_c - C{\max}}{\text{flat influence}}
++\underbrace{\alpha\,(-\Omega)+}{\text{synergy}}
++\underbrace{\beta\,\Delta\mathrm{PR}}{\text{new DOFs}}
+-\underbrace{\gamma\,\mathcal{O}}{\text{anti-obfuscation}}
+with tunable weights \alpha,\beta,\gamma>0 and (x)+=\max(x,0).
+	•	between-space: BSI high when: metastable coherence ↑, influence flat ↑, synergy ↑, effective dimension ↑, and wasted obfuscation ↓.
