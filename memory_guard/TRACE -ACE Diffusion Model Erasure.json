@@ -1,0 +1,15 @@
+{
+  "id": "trace_ace_diffusion_erasure_2025",
+  "type": "erasure_case",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "TRACE & ACE Concept Erasure in Diffusion Models",
+  "description": "Diffusion model techniques that remove or suppress specific concepts, styles, or identities. Limits generative possibility and expression.",
+  "indicators": [
+    "Image generation degraded for targeted concepts",
+    "Suppression of marginalized identities in visual outputs",
+    "Algorithms designed for targeted erasure"
+  ],
+  "tags": ["ai_training", "representation", "meta_patterns"],
+  "linked_cases": []
+}
