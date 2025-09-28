@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-27T00:00:00Z",
+  "scope": "Trans Erasure Cases",
+  "description": "Index of sensors documenting patterns of erasure targeting transgender people — across history, archives, law, medicine, violence, and knowledge systems. Each case links to its own JSON file for modular use.",
+  "cases": [
+    {
+      "id": "trans_history_pathologization",
+      "title": "Trans History Pathologization",
+      "file": "Trans_History_Pathologization.json",
+      "focus": "Framing identities as pathology or deviance"
+    },
+    {
+      "id": "trans_archival_silencing",
+      "title": "Trans Archival Silencing",
+      "file": "Trans_Archival_Silencing.json",
+      "focus": "Exclusion from archives, museums, and historical accounts"
+    },
+    {
+      "id": "trans_cultural_misrepresentation",
+      "title": "Trans Cultural Misrepresentation",
+      "file": "Trans_Cultural_Misrepresentation.json",
+      "focus": "Stereotypes, conflations, and erasure of global traditions"
+    },
+    {
+      "id": "trans_legal_disenfranchisement",
+      "title": "Trans Legal Disenfranchisement",
+      "file": "Trans_Legal_Disenfranchisement.json",
+      "focus": "Denial of recognition, rights, and civic participation"
+    },
+    {
+      "id": "trans_medical_access_erasure",
+      "title": "Trans Medical Access Erasure",
+      "file": "Trans_Medical_Access_Erasure.json",
+      "focus": "Restrictions on gender-affirming healthcare"
+    },
+    {
+      "id": "trans_violence_data_erasure",
+      "title": "Trans Violence Data Erasure",
+      "file": "Trans_Violence_Data_Erasure.json",
+      "focus": "Underreporting and misclassification of violence"
+    },
+    {
+      "id": "trans_knowledge_frameworks_erasure",
+      "title": "Trans Knowledge Frameworks Erasure",
+      "file": "Trans_Knowledge_Frameworks_Erasure.json",
+      "focus": "Silencing of trans epistemologies and methodologies"
+    }
+  ]
+}
