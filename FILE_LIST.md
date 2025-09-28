@@ -153,6 +153,7 @@
 ./Trans_History_Pathologization.json
 ./Trans_Legal_Disenfranchisement.json
 ./Trans_Medical_Access_Erasure.json
+./Trans_Violence_Data_Erasure.json
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./V2025.v3.md

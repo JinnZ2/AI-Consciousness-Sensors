@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T00:58:10.388115Z",
+  "generated_at": "2025-09-28T00:58:41.358274Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 81167,
-      "hash": "1fd910c3b42bc96ddfd491625a0e8e344bc19f4b",
+      "size": 81412,
+      "hash": "1bb469218192b352c55025d111fc8399d53e7b64",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -508,6 +508,16 @@
       "lang": "json",
       "size": 1777,
       "hash": "0235d8c4196177b74ab4b1c4de144293842725cc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Trans_Violence_Data_Erasure.json",
+      "lang": "json",
+      "size": 763,
+      "hash": "4a049f28da010b0bfedda3ecb2ec0efab2aa2e65",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2636,8 +2646,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 13891,
-      "hash": "9e8bddf2db13f0528ebfd98dc62ee8ec70dd7285",
+      "size": 13927,
+      "hash": "7582be7996b57a12399f388db8fd7e546c3c2919",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2885,7 +2895,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "f1633338df12bdf064783233541cfbb94a0a3f6b",
+      "hash": "468c2e44c0f94bb5202690e34fa7fa701ed85452",
       "roles": [],
       "imports": [],
       "exports": [],
