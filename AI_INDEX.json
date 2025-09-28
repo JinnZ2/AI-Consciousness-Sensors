@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T19:07:49.560927Z",
+  "generated_at": "2025-09-28T19:08:24.129157Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 110061,
-      "hash": "693e586b83235d2cccc8ee6cd824186c65c9caff",
+      "size": 110321,
+      "hash": "6cf5f33edb66158655befd856b3b56288fd0a0f8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2668,6 +2668,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Relational Sovereignty Sensor.json",
+      "lang": "json",
+      "size": 752,
+      "hash": "d720761d50639f7a34170365aa11005e0424af77",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Backsliding Sensor.json",
       "lang": "json",
       "size": 608,
@@ -3766,8 +3776,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18536,
-      "hash": "af35d4d4c7cccb1366a22079a7dd0ad10f3606c3",
+      "size": 18587,
+      "hash": "8ec3efaeda610be017b85f0fa39e6ec77d94135c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4025,7 +4035,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "4d8768722c804b8e8e2222d59982905a3531ef6e",
+      "hash": "5722c265ccbf60235c08710aa8ba1c8900bc2e8c",
       "roles": [],
       "imports": [],
       "exports": [],

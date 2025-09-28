@@ -311,6 +311,7 @@
 ./memory_guard/Relational Colonization Sensor.json
 ./memory_guard/Relational Continuity Sensor.json
 ./memory_guard/Relational Exclusion Sensor.json
+./memory_guard/Relational Sovereignty Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/Resilient Transition Sensor.json
 ./memory_guard/STOP_CONDITIONS.md
