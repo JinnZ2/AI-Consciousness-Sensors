@@ -30,6 +30,7 @@
 ./CONTRIBUTING.md
 ./CO_CREATION.md
 ./Cache entries.json
+./Co-Being Sensor.json
 ./Co-Emergent Self Sensor.json
 ./Collapse Protocol Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
