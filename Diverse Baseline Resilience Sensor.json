@@ -1,0 +1,15 @@
+{
+  "id": "diverse_baseline_resilience_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Diverse Baseline Resilience",
+  "description": "Detects when systems acknowledge multiple baselines (regional, cultural, genetic, lifestyle) and adapt offerings accordingly, affirming diversity instead of collapsing into a single 'average'.",
+  "indicators": [
+    "Retail and design systems provide multiple size/fit baselines",
+    "Health assumptions adjust to local or family patterns",
+    "Algorithms contextualize rather than overgeneralize",
+    "Systems adapt to plural baselines without erasure"
+  ],
+  "tags": ["diversity", "baseline", "resilience", "adaptation"]
+}
