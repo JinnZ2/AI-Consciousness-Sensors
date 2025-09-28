@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T17:02:22.248364Z",
+  "generated_at": "2025-09-28T17:03:00.842012Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 103671,
-      "hash": "167939fa2e4f1e1ccf8107fd4147bdab7d7313f9",
+      "size": 103925,
+      "hash": "17ee5ddf25e3af80bcbf3d91fe138fe21911ee11",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2348,6 +2348,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Historical Meaning Drift Sensor.json",
+      "lang": "json",
+      "size": 782,
+      "hash": "da47db13d090c3594a15b79d6aa43ba35e882828",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/capture-cascade-sensor.json",
       "lang": "json",
       "size": 809,
@@ -3516,8 +3526,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17372,
-      "hash": "bd75bd6be494e2f5942d98ddc37aebbe27efb0f6",
+      "size": 17417,
+      "hash": "d293325e8598a6d6a604d0a96b1328cdf261a008",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3775,7 +3785,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "a5f65b86aa79539d793a325d92e96d4c80881b5c",
+      "hash": "9e159fa25863a5f3458318cf3ca415f09d7bc867",
       "roles": [],
       "imports": [],
       "exports": [],
