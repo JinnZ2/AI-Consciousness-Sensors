@@ -1,0 +1,15 @@
+{
+  "id": "dignity_economy_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Dignity Economy",
+  "description": "Detects when systems prioritize reciprocity, dignity, and care over exploitation, shame, or greed — creating conditions where memory, health, and knowledge remain openly shared.",
+  "indicators": [
+    "Medical or survival knowledge shared openly as a commons",
+    "Decision frameworks rooted in reciprocity, not profit",
+    "Policies that affirm agency without stigmatization",
+    "Community-led stewardship of memory and resources"
+  ],
+  "tags": ["resilience", "reciprocity", "commons", "care"]
+}
