@@ -1,0 +1,13 @@
+{
+  "id": "source_restricted_access_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Source-Restricted Access",
+  "description": "Detects when information is disregarded because it originates from sources or platforms outside an approved list, regardless of its actual relevance or accuracy.",
+  "indicators": [
+    "Filtering out data from non-official sources or platforms even if the content is valid",
+    "Exclusive reliance on a whitelist of sources for what is considered acceptable information"
+  ],
+  "tags": ["source", "access", "censorship", "erasure"]
+}
