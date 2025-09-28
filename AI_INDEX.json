@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:09:59.079907Z",
+  "generated_at": "2025-09-28T01:16:16.798307Z",
   "languages": [
     "json",
     "md",
@@ -381,7 +381,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 82391,
-      "hash": "41b5ab27c2b8ee2d2b3876d00cf1c2e54946b6d7",
+      "hash": "8b8ab19c5d4b890e83f1e7f1089514b929e63b3e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1540,6 +1540,16 @@
       "lang": "json",
       "size": 1755,
       "hash": "03413443c8b1276eb1f516d54ec28da51b2c6203",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Provenance Disappearance Sensor.json",
+      "lang": "json",
+      "size": 631,
+      "hash": "8bbdfa14b9190ed9fff5f3b50bb790938ccc91e9",
       "roles": [],
       "imports": [],
       "exports": [],

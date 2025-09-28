@@ -79,6 +79,7 @@
 ./Pattern: Token Inclusion (Symbolic Representation without Structural Power).json
 ./Pattern: Tokenization of Resistance Histories.json
 ./Promise-vs-fulfillment-detector.json
+./Provenance Disappearance Sensor.json
 ./Psychological Diagnosis sensor.md
 ./README.md
 ./README_BEACON.md
