@@ -223,6 +223,7 @@
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/TRANS_ERASURE_INDEX.json
+./memory_guard/UC Riverside Erasure Method.json
 ./memory_guard/capture-cascade-sensor.json
 ./memory_guard/centralization-failure-sensor.json
 ./memory_guard/ego-visibility-flaw.json

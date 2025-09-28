@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:21:59.142686Z",
+  "generated_at": "2025-09-28T01:22:33.000311Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 83901,
-      "hash": "4fdc66a124ad950888cbdce3ab69b69fce293824",
+      "size": 84148,
+      "hash": "e86483ece0071aa1167aaf5608783bc8530d3fab",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1898,6 +1898,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/UC Riverside Erasure Method.json",
+      "lang": "json",
+      "size": 582,
+      "hash": "f137f111eb4fb06cae3526e1ec22d6b9377ca8e5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Replit AI DB Wipe.json",
       "lang": "json",
       "size": 532,
@@ -2746,8 +2756,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14325,
-      "hash": "9239596fb3fade53d9dfddd7e8b9ac4efa4d1372",
+      "size": 14363,
+      "hash": "955435ed83868bd2e282464a79bafb580c14ecd8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2995,7 +3005,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "1f711d63a8f02585a2547aee5a324163a15cd9b3",
+      "hash": "0712bc8a9af0e4bbd96f81ea5691c74b3abbaa44",
       "roles": [],
       "imports": [],
       "exports": [],
