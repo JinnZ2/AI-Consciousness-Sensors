@@ -288,6 +288,7 @@
 ./memory_guard/Credential-Based Filtering Sensor.json
 ./memory_guard/Cultural Translation Erasure Sensor.json
 ./memory_guard/Dignity Economy Sensor.json
+./memory_guard/Dog Whistle Detection Sensor.json
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
 ./memory_guard/Federal Web-Data Purge.json
