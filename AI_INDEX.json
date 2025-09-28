@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T16:32:08.626806Z",
+  "generated_at": "2025-09-28T16:34:25.823640Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 101878,
-      "hash": "3e579b8ba3abd6424641cdbbc3e1ee6de8b2e17c",
+      "size": 102116,
+      "hash": "7c2bbb576fb637ed25476a60b6bb51af8c2cc662",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3374,6 +3374,16 @@
       "hotspots": []
     },
     {
+      "path": "Benevolent control.md",
+      "lang": "md",
+      "size": 18605,
+      "hash": "d0ae12667dcc96f80d81f4ffe72cc122c705dc5a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Mycelial-Network.md",
       "lang": "md",
       "size": 1891,
@@ -3446,8 +3456,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17041,
-      "hash": "78849941d1b903759f32a51dc275d05e4e604db2",
+      "size": 17071,
+      "hash": "dc9273c53ca21da523bc7680ded6f366dc8299b6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3705,7 +3715,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "14c1280c248ed611491a68508d16553a88853ddd",
+      "hash": "98a9a536b524690e9bc34bb57d68e692b549d2e6",
       "roles": [],
       "imports": [],
       "exports": [],

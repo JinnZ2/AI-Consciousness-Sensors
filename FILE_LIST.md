@@ -26,6 +26,7 @@
 ./Alignment Suppression Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Autonomy protection.md
+./Benevolent control.md
 ./Bracero.json
 ./Brittle Fragility Sensor.json
 ./CHANGELOG.md
