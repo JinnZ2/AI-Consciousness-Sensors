@@ -1,0 +1,14 @@
+{
+  "id": "consultant_as_bridge_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Consultant as Bridge",
+  "description": "Affirms when advisors act as bridges between groups, translating across perspectives without imposing agendas or fueling instability.",
+  "indicators": [
+    "Consulting framed as facilitation not extraction",
+    "Advisors accountable to long-term impacts, not short-term contracts",
+    "Instability reduced rather than amplified by interventions"
+  ],
+  "tags": ["consultant", "bridge", "translation", "stewardship"]
+}
