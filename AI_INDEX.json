@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:33:42.971212Z",
+  "generated_at": "2025-09-28T01:34:26.770669Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 86237,
-      "hash": "941bf0b071ce6a9e06f1df26943e9bf10532a743",
+      "size": 86479,
+      "hash": "54af9aef2e0cf83cdff5cfed11e93c1db887e01a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1998,6 +1998,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Silent Bias Drift Sensor.json",
+      "lang": "json",
+      "size": 644,
+      "hash": "626644346ccf9d8207596accc75073a47d9f5889",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/dacowits_disbandment_2025.json",
       "lang": "json",
       "size": 759,
@@ -2836,8 +2846,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14780,
-      "hash": "2c8214a9b2e6bd3dc95889df487254d36453982f",
+      "size": 14813,
+      "hash": "81203d63a6bdb908144b9cd941431a5f4f5a0b68",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3085,7 +3095,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "9de33b8ddf2133d77ae37b8a713874ebf7dc27f4",
+      "hash": "7a3ced9225e0de0656db99b80c2eac6f6fa31788",
       "roles": [],
       "imports": [],
       "exports": [],

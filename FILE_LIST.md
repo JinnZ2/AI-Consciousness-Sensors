@@ -229,6 +229,7 @@
 ./memory_guard/Privacy Leak.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
+./memory_guard/Silent Bias Drift Sensor.json
 ./memory_guard/TRACE -ACE Diffusion Model Erasure.json
 ./memory_guard/TRANS_ERASURE_INDEX.json
 ./memory_guard/UC Riverside Erasure Method.json
