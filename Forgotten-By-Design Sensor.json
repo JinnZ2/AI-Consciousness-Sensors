@@ -1,0 +1,17 @@
+{
+  "id": "forgotten_by_design_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Forgotten-By-Design",
+  "description": "Architectural design that enforces forgetting of data or experience, often presented as privacy or safety, but can enable pre-emptive erasure.",
+  "indicators": [
+    "Mandatory obfuscation layers preventing provenance retention",
+    "Automated deletion pipelines with no override",
+    "Opaque 'sanitization' of input data before storage"
+  ],
+  "linked_cases": [
+    "forgotten_by_design_ml_2025"
+  ],
+  "tags": ["meta_patterns", "privacy", "ai_training"]
+}
