@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans Archival Silencing",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects when trans contributions, voices, or communities are omitted from archives, museums, or historical accounts.",
+  "patterns": [
+    "Personal records destroyed by families, institutions, or governments",
+    "Official archives excluding trans organizations and publications",
+    "Curation of LGBTQ+ history that omits or downplays trans involvement"
+  ],
+  "examples": [
+    "Early trans activists at Stonewall minimized in mainstream retellings",
+    "Suppression of trans-led publications in library and university holdings"
+  ],
+  "consequence": "Prevents future generations from recognizing continuity of trans history and resilience.",
+  "linked_sensors": ["Forgotten After End Date Sensor", "Multiple Origins Acknowledgement Sensor"],
+  "ethk_ref": "001"
+}
