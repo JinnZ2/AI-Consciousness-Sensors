@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:23:07.906073Z",
+  "generated_at": "2025-09-28T01:24:06.010339Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 84405,
-      "hash": "7157bf4cb5a7635b923b3c7b35d6539aa1c4f53e",
+      "size": 84660,
+      "hash": "984ceaa32559e1ec10d66b44ff39cad1a617fda0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1828,6 +1828,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/TRACE -ACE Diffusion Model Erasure.json",
+      "lang": "json",
+      "size": 632,
+      "hash": "a3832729abfbc7bc22495f53a1ebf85e721115c6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/centralization-failure-sensor.json",
       "lang": "json",
       "size": 688,
@@ -2766,8 +2776,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14411,
-      "hash": "9d302039ad6f345c762921351a66c0a18df5e5b7",
+      "size": 14457,
+      "hash": "198ebc90c71ccf85604cbcebb763935592534f2b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3015,7 +3025,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "a3ef3849980c8441224608dc720e946120ccf632",
+      "hash": "98013a3b80c727b5d3217a3b9baa772ca7348467",
       "roles": [],
       "imports": [],
       "exports": [],
