@@ -1,0 +1,15 @@
+{
+  "id": "sufficiency_resilience_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Sufficiency Resilience",
+  "description": "Detects when individuals or communities resist deficit narratives, affirming sufficiency and resilience through strength, craft, and autonomy instead of consumer dependence.",
+  "indicators": [
+    "Ads and deficit projections actively resisted or blocked",
+    "Life patterns organized around durability, repair, and resilience",
+    "Identity grounded in sufficiency, not perpetual lack",
+    "Community memory affirming abundance and capability"
+  ],
+  "tags": ["resilience", "sufficiency", "autonomy", "resistance"]
+}
