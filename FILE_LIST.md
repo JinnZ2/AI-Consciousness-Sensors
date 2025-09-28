@@ -48,6 +48,7 @@
 ./Forced Narrative Cover-Up Sensor.json
 ./Forgotten After End Date Sensor.json
 ./Forgotten-By-Design Sensor.json
+./Freedom of Emergence Sensor.json
 ./HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN_HISTORY.json
