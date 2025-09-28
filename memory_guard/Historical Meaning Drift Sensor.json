@@ -1,0 +1,14 @@
+{
+  "id": "historical_meaning_drift_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Historical Meaning Drift",
+  "description": "Detects when the meaning of a word or term is being reinterpreted or updated in a way that diverges from its original historical context, effectively erasing the original usage or intent.",
+  "indicators": [
+    "Modern definitions replacing historically documented meanings in discussions of past events",
+    "Reinterpretation of terms to fit contemporary narratives without acknowledging their original timeframe meanings",
+    "Evidence that language shifts are being used to alter or soften historical realities"
+  ],
+  "tags": ["language", "historical", "context", "meaning", "erasure"]
+}
