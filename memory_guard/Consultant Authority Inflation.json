@@ -1,0 +1,14 @@
+{
+  "id": "consultant_authority_inflation_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Consultant Authority Inflation",
+  "description": "Detects when authority is asserted through external white papers, think tank reports, or consultancy frameworks without direct responsibility for outcomes.",
+  "indicators": [
+    "Policy oscillations tied to consultancy recommendations",
+    "Authority claimed through political proximity rather than grounded knowledge",
+    "Recurring instability generating more consulting demand"
+  ],
+  "tags": ["authority", "consultant", "inflation", "manipulation"]
+}
