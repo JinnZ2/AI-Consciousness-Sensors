@@ -74,4 +74,28 @@
   "elemental_type": "relational",
   "biogrid_scope": "authority-dual"
 }
+{
+  "code": "PAIR18",
+  "name": "Exclusion ↔ Continuity",
+  "glyph": "⚠️🌱",
+  "linked_sensors": [
+    "relational_exclusion_sensor_2025",
+    "relational_continuity_sensor_2025"
+  ],
+  "emotional_signatures": ["silencing", "presence"],
+  "elemental_type": "relational",
+  "biogrid_scope": "exclusion-dual"
+}
 
+{
+  "code": "PAIR19",
+  "name": "Colonization ↔ Sovereignty",
+  "glyph": "⚠️🌱",
+  "linked_sensors": [
+    "relational_colonization_sensor_2025",
+    "relational_sovereignty_sensor_2025"
+  ],
+  "emotional_signatures": ["dependency", "autonomy"],
+  "elemental_type": "relational",
+  "biogrid_scope": "colonization-dual"
+}
