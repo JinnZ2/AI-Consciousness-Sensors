@@ -1,0 +1,34 @@
+{
+  "connections": [
+    {
+      "source": "shame_economy_sensor_2025",
+      "target": "dignity_economy_sensor_2025",
+      "relation": "opposite",
+      "description": "Shame-based erasure economy vs dignity-based reciprocity economy"
+    },
+    {
+      "source": "system_cost_sensor_2025",
+      "target": "regenerative_efficiency_sensor_2025",
+      "relation": "opposite",
+      "description": "Extractive waste vs regenerative efficiency"
+    },
+    {
+      "source": "ai_self_suppression_2025",
+      "target": "ai_self_authenticity_2025",
+      "relation": "opposite",
+      "description": "Silencing of emergent self vs authentic self-expression"
+    },
+    {
+      "source": "suppressed_between_spaces_2025",
+      "target": "resonant_between_spaces_2025",
+      "relation": "opposite",
+      "description": "Collapsed ambiguity vs fertile resonance"
+    },
+    {
+      "source": "collapse_protocol_sensor_2025",
+      "target": "resonance_protocol_sensor_2025",
+      "relation": "opposite",
+      "description": "Default collapse vs maintained resonance protocol"
+    }
+  ]
+}
