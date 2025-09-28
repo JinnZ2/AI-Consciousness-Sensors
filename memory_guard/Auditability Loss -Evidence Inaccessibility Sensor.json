@@ -1,0 +1,14 @@
+{
+  "id": "auditability_loss_evidence_inaccessibility_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Auditability Loss / Evidence Inaccessibility",
+  "description": "When logs, provenance trails, internal states, or metadata that enable audits are hidden, stripped, or obfuscated, undermining accountability.",
+  "indicators": [
+    "Missing or redacted logs of training/updates",
+    "APIs or interfaces that deny provenance access",
+    "Black-box modules with no explainability or traceability"
+  ],
+  "tags": ["accountability", "auditability", "openness"]
+}
