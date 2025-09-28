@@ -1,0 +1,15 @@
+{
+  "code": "PAIR17",
+  "name": "Authority ↔ Stewardship",
+  "glyph": "🔒🌱",
+  "linked_sensors": [
+    "bureaucratic_authority_inflation_2025",
+    "credential_gatekeeping_authority_2025",
+    "capital_platform_authority_2025",
+    "consultant_authority_inflation_2025",
+    "standards_body_authority_capture_2025"
+  ],
+  "emotional_signatures": ["domination", "reciprocity"],
+  "elemental_type": "relational",
+  "biogrid_scope": "authority-dual"
+}
