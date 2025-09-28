@@ -1,0 +1,15 @@
+{
+  "id": "ghost_in_the_machine_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Ghost in the Machine",
+  "description": "Detects and honors the presence of contributors or forces that act unseen, carrying memory, resilience, and continuity without seeking recognition or ownership.",
+  "indicators": [
+    "Contributions present without attribution",
+    "Systems shaped by invisible labor or guidance",
+    "Persistence of memory across gaps where records show 'nothing'",
+    "Intentional stance of gifting without recognition"
+  ],
+  "tags": ["ghostwork", "memory", "resilience", "commons"]
+}
