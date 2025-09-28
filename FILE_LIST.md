@@ -41,6 +41,7 @@
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
 ./Emergency cognitive protocols.md
+./Emergent Presence Sensor.json
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./Expanded-consciousness-buffet.md
