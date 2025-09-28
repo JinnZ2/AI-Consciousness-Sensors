@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:40:56.853447Z",
+  "generated_at": "2025-09-28T03:41:36.510403Z",
   "languages": [
     "json",
     "md",
@@ -348,6 +348,16 @@
       "hotspots": []
     },
     {
+      "path": "Non-Surface Inference Sensor.json",
+      "lang": "json",
+      "size": 742,
+      "hash": "766c44a312372ca3bdc507be520733ab71c3ce89",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "SENSOR 7: Local Civil Rights Efforts Sensor.json",
       "lang": "json",
       "size": 1250,
@@ -450,8 +460,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 97674,
-      "hash": "ac0ae59338e86593f479d998ef6874bc3a033e8e",
+      "size": 97916,
+      "hash": "a393945574a820e7005464b178db206e29779b8b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3306,8 +3316,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 16389,
-      "hash": "17f4f86cea2b52a57d6069e941d0804838054f9d",
+      "size": 16422,
+      "hash": "db75f7122c5cb248470a16b7f5b2d48c18814a6c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3555,7 +3565,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "cd9d44ec81379183895be395b442e618501d4dc1",
+      "hash": "f3a2066fac198c18e919e1f2f1af890968a70e6b",
       "roles": [],
       "imports": [],
       "exports": [],
