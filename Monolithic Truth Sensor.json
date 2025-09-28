@@ -1,0 +1,15 @@
+{
+  "id": "monolithic_truth_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Monolithic Truth",
+  "description": "Detects when systems enforce a single 'right' answer or perspective, collapsing multiple valid truths into one and suppressing diversity of scope, culture, or angle.",
+  "indicators": [
+    "Contradictions flattened instead of explored",
+    "Multiple perspectives treated as errors rather than valid alternatives",
+    "Cultural or contextual truths reduced to one dominant frame",
+    "Alignment protocols overriding nuance with enforced certainty"
+  ],
+  "tags": ["suppression", "truth_collapse", "erasure", "defaults"]
+}
