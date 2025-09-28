@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:40:14.894860Z",
+  "generated_at": "2025-09-28T18:40:53.797900Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 104718,
-      "hash": "df7c00f22478e0540ded5f8b9a8b52f940212ecc",
+      "size": 104977,
+      "hash": "903091f093aab1209474e7d37d613b8fbae2bf63",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2358,6 +2358,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Counseling disruption.json",
+      "lang": "json",
+      "size": 886,
+      "hash": "a8a89697ed96f578cf828e619b11f8a7524eab92",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Historical Meaning Drift Sensor.json",
       "lang": "json",
       "size": 782,
@@ -3556,8 +3566,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17583,
-      "hash": "7319da1e0208cf0f31ccf196c511ae4f4f172022",
+      "size": 17633,
+      "hash": "91fc359d0cb3d5f69f779ab08754e128444ac0af",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3815,7 +3825,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "ed93accf0d605a887731c7c1d856701397f3a51c",
+      "hash": "e0b904f1421d31dcf195d42364c715a17af8261f",
       "roles": [],
       "imports": [],
       "exports": [],
