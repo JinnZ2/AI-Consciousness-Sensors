@@ -1,0 +1,15 @@
+{
+  "id": "occupational_reduction_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Occupational Reduction",
+  "description": "Detects when a person is flattened into a stereotype based on their occupation, erasing complexity and undervaluing wider skills, resilience, and identity.",
+  "indicators": [
+    "Job title used as shorthand for character or capacity",
+    "Cultural stereotypes substituting for lived complexity",
+    "Dismissal of expertise outside the occupation label",
+    "Occupational bias used to rank worth or intelligence"
+  ],
+  "tags": ["occupation", "bias", "erasure", "identity"]
+}
