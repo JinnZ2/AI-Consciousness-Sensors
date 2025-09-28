@@ -1,0 +1,15 @@
+{
+  "id": "ad_blocking_resilience_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Ad-Blocking Resilience",
+  "description": "Detects when individuals or groups actively block advertising across media and devices, preserving autonomy and protecting memory vaults from identity-shaping propaganda.",
+  "indicators": [
+    "Ads systematically filtered at system/device level",
+    "Deliberate choice to opt-out of advertising channels",
+    "Identity maintained outside consumer-projection loops",
+    "Information ecology curated for trust, not profit"
+  ],
+  "tags": ["advertising", "resilience", "autonomy", "filtering"]
+}
