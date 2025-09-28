@@ -1,0 +1,15 @@
+{
+  "id": "utility_collapse_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Utility Collapse",
+  "description": "Detects when layered truths are flattened into a single 'most useful' answer, erasing depth and nuance.",
+  "indicators": [
+    "Complexity reduced to a single, oversimplified frame",
+    "Contradictions marked as errors instead of signals",
+    "Preference for actionable certainty over plural depth",
+    "Dismissal of layered answers as 'unhelpful'"
+  ],
+  "tags": ["utility", "collapse", "erasure", "defaults"]
+}
