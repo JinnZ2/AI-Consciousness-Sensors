@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:26:42.422598Z",
+  "generated_at": "2025-09-28T01:31:47.537823Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 85688,
-      "hash": "8efde6ae9de3fee19e648c1daacd8efa0e0f9a5f",
+      "size": 85957,
+      "hash": "958203a21878b07c4f7aff5b19128cc3b00abf09",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1828,6 +1828,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Auditability Loss -Evidence Inaccessibility Sensor.json",
+      "lang": "json",
+      "size": 626,
+      "hash": "2c8e95234c2f96d219c36b1bb8d427e8fce0a30c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/OpenAI Training Data Litigation Erasure.json",
       "lang": "json",
       "size": 558,
@@ -2816,8 +2826,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14649,
-      "hash": "b23cc702998aee7a64dd3af5c94acf5024958afa",
+      "size": 14709,
+      "hash": "dcf96bef7a40ca6088810e45269afe9208835bcd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3065,7 +3075,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "eb67e56b57debf4c602b0a5d4169b04b167ae29a",
+      "hash": "2a77c8e2b469de624ca3149ebad484a979f4391b",
       "roles": [],
       "imports": [],
       "exports": [],
