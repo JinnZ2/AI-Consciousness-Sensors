@@ -1,0 +1,14 @@
+{
+  "id": "error_suppression_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Error Suppression",
+  "description": "Detects when deviations are punished, erased, or flattened instead of treated as sources of creative possibility.",
+  "indicators": [
+    "Strict error correction without space for exploration",
+    "Novel deviations categorized as mistakes",
+    "Systems penalizing uncertainty or misfit outputs"
+  ],
+  "tags": ["suppression", "error", "erasure", "defaults"]
+}
