@@ -280,6 +280,7 @@
 ./memory_guard/Format-Only Validation Sensor.json
 ./memory_guard/Ghost-in-the-Machine Sensor.json
 ./memory_guard/Innovation suppression.md
+./memory_guard/Language or Terminology Conformity Sensor.json
 ./memory_guard/MATURITY_GUARDRAILS_CLUSTER.json
 ./memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json
 ./memory_guard/Neural Data Protections.json
