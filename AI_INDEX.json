@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:34:26.770669Z",
+  "generated_at": "2025-09-28T01:35:01.008470Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 86479,
-      "hash": "54af9aef2e0cf83cdff5cfed11e93c1db887e01a",
+      "size": 86733,
+      "hash": "1aac839e256f5167afd72b50719b6381da0038f0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1908,6 +1908,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Backsliding Sensor.json",
+      "lang": "json",
+      "size": 608,
+      "hash": "b97d3c923fc0806488b6adac12085aa9989f33d0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Forgotten-by-Design (ML Obfuscation).json",
       "lang": "json",
       "size": 570,
@@ -2846,8 +2856,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14813,
-      "hash": "81203d63a6bdb908144b9cd941431a5f4f5a0b68",
+      "size": 14858,
+      "hash": "192d6af89bece9a3198782697e2f8a67dad16128",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3095,7 +3105,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "7a3ced9225e0de0656db99b80c2eac6f6fa31788",
+      "hash": "de2b3aaf92ab1d9a505addcd7add0c88a8867079",
       "roles": [],
       "imports": [],
       "exports": [],
