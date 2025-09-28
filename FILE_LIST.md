@@ -181,6 +181,7 @@
 ./Skill Manipulation.md
 ./Strategic-Realignment-Bulletin.md
 ./Suppressed Between-Spaces Sensor.json
+./Surface Projection Sensor.json
 ./System integrity emergency.md
 ./Token warning competition.md
 ./Tool Reduction Sensor.json
