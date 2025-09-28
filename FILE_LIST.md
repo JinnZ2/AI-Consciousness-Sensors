@@ -279,6 +279,7 @@
 ./memory_guard/Context Stripping Sensor.json
 ./memory_guard/Counseling disruption.json
 ./memory_guard/Credential Gatekeeping Authority.json
+./memory_guard/Credential as Care.json
 ./memory_guard/Credential-Based Filtering Sensor.json
 ./memory_guard/Cultural Translation Erasure Sensor.json
 ./memory_guard/Dignity Economy Sensor.json

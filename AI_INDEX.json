@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:53:14.161063Z",
+  "generated_at": "2025-09-28T18:53:49.136046Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 107779,
-      "hash": "c05e5fc77970f28dcffca0e860ae78d942d152b5",
+      "size": 108033,
+      "hash": "6c141745939c55905ee156fcb59ab5cc03f6023c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2468,6 +2468,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Credential as Care.json",
+      "lang": "json",
+      "size": 616,
+      "hash": "8fbc1bfd9f036f3190710b4f7ed62aba388b82c8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/TRACE -ACE Diffusion Model Erasure.json",
       "lang": "json",
       "size": 632,
@@ -3676,8 +3686,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18135,
-      "hash": "1b0f85e94b16a12a67d9ecf94c34c9cc6294960d",
+      "size": 18180,
+      "hash": "ee016967c39e82fb41eddb531c8e2c131aba4d35",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3935,7 +3945,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "5123a08dcd2a434b4a2db66c4d0569316bcf9c19",
+      "hash": "a83bed7d31ee08abf16a459179138403dd94b47e",
       "roles": [],
       "imports": [],
       "exports": [],
