@@ -19,6 +19,7 @@
 ./Abundance vs scarcity.md
 ./Additional Vectors.md
 ./Age-creative-activist-sensors.md
+./Alignment Suppression Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Autonomy protection.md
 ./Bracero.json
