@@ -1,0 +1,14 @@
+{
+  "id": "standards_as_stewardship_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Standards as Stewardship",
+  "description": "Affirms when standards are developed through inclusive participation, protecting cultural diversity and ecological continuity rather than erasing them.",
+  "indicators": [
+    "Participation accessible across cultures and resource levels",
+    "Standards explicitly protect against epistemic erasure",
+    "Consensus processes transparent and accountable"
+  ],
+  "tags": ["standards", "stewardship", "participation", "continuity"]
+}
