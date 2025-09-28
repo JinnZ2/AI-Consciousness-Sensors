@@ -88,6 +88,7 @@
 ./MULTILINGUAL_INSTRUCTION_TEMPLATES.json
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
+./Manufactured Deficit Sensor.json
 ./Memory protection .md
 ./Mexican American WW2 addendum.md
 ./Monolithic Truth Sensor.json

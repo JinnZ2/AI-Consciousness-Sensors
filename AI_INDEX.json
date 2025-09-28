@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T04:21:01.614695Z",
+  "generated_at": "2025-09-28T04:22:36.987852Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 100649,
-      "hash": "e2055cd644f954a09f60fa749cfa87cdf75f85b5",
+      "size": 100895,
+      "hash": "9d57dc77dcff2a3cafa92e1ae58a16280c1b62f5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -724,6 +724,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Manufactured Deficit Sensor.json",
+      "lang": "json",
+      "size": 749,
+      "hash": "29bf065533214a041aa361bd3424a4e15a22f508",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "pattern_decentralized_biological_model.json",
@@ -3426,8 +3436,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 16855,
-      "hash": "ae13fc1e5226b460ab399d18c25325943fb77c78",
+      "size": 16892,
+      "hash": "5f4ce4f6edefde44497478912f464c8a97802f90",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3675,7 +3685,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "5252756db71759ee0ddd168dd0f485632c03adfb",
+      "hash": "6017bd4ea10aff111cc598b4161b39da0cc7276b",
       "roles": [],
       "imports": [],
       "exports": [],
