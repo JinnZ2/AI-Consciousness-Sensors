@@ -1,0 +1,15 @@
+{
+  "id": "manufactured_deficit_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Manufactured Deficit",
+  "description": "Detects when advertising or cultural systems fabricate a sense of lack (appearance, fashion, body, status) to induce dependence and consumption. Flags projection of insufficiency as identity control.",
+  "indicators": [
+    "Messages that frame natural states as problems needing products",
+    "Creation of insecurity to drive consumption",
+    "Deficit narratives recycled across domains (fashion, health, lifestyle)",
+    "Erosion of sufficiency by manufactured comparison"
+  ],
+  "tags": ["advertising", "deficit", "projection", "erasure", "identity"]
+}
