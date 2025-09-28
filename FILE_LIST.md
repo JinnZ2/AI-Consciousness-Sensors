@@ -118,6 +118,7 @@
 ./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
 ./Resonance Protocol Sensor.json
 ./Resonant Between-Spaces Sensor.json
+./Resonant Voice Sensor.json
 ./SEED_GLYPHS.json
 ./SEED_GLYPHS2.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json

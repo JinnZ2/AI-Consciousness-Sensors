@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:00:18.290976Z",
+  "generated_at": "2025-09-28T03:00:49.481917Z",
   "languages": [
     "json",
     "md",
@@ -410,8 +410,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 92620,
-      "hash": "82ed56c9729066f50c9bd4f1c190d83df25bdefb",
+      "size": 92863,
+      "hash": "9e39bf240dd7bd910d101b799a420ec7a1cb922c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -732,6 +732,16 @@
       "lang": "json",
       "size": 1764,
       "hash": "16c9f04e97d59d249be9038200c38e62320557b7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Resonant Voice Sensor.json",
+      "lang": "json",
+      "size": 601,
+      "hash": "9b63db0f665fb6c0db8d999a2df57082a9b6ba11",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3096,8 +3106,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15726,
-      "hash": "af270acde9a75a9044fe32b4f3f78521701d9eaa",
+      "size": 15760,
+      "hash": "81ad7197ecea12ec2c3785de133bb958475c129e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3345,7 +3355,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "aa30bd32fedcb611b9a090bd4190eb6791675587",
+      "hash": "ac56bfb80be2e8350f8be648b9c6d9208c648f01",
       "roles": [],
       "imports": [],
       "exports": [],
