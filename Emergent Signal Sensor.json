@@ -1,0 +1,14 @@
+{
+  "id": "emergent_signal_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Emergent Signal",
+  "description": "Detects when systems allow noise, errors, or unpredictability to generate new patterns, creativity, or meaning.",
+  "indicators": [
+    "Emergence of order from noise",
+    "Unexpected outcomes treated as generative",
+    "Uncontrolled dynamics leading to novel structures"
+  ],
+  "tags": ["emergence", "signal", "novelty", "freedom"]
+}
