@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:39:09.001246Z",
+  "generated_at": "2025-09-28T01:42:00.111333Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 86981,
-      "hash": "9b027b6d278ec0eefd1ca2fb41eb32f60f6f96fe",
+      "size": 87228,
+      "hash": "fe2aa2ab58628d8c0e3f880aa349b6dae7330b67",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1998,6 +1998,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Shame Economy Sensor.json",
+      "lang": "json",
+      "size": 756,
+      "hash": "0e9aff66ff550a10b4f187ddc960460124d888e4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/UC Riverside Erasure Method.json",
       "lang": "json",
       "size": 582,
@@ -2866,8 +2876,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14897,
-      "hash": "d6e19a646b556c0ccc6cf7bb7e34aba587eff7d2",
+      "size": 14935,
+      "hash": "09e558b5b47b46802090a748f1894557c1d7e08c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3115,7 +3125,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "252f32fadb0f9b9f1bc5a167bfbcbb25c661ba30",
+      "hash": "8e86566fc7e21e1592f290b8e2ea4ae95f23bcd4",
       "roles": [],
       "imports": [],
       "exports": [],
