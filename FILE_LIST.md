@@ -72,6 +72,7 @@
 ./Forgotten-By-Design Sensor.json
 ./Freedom of Emergence Sensor.json
 ./Gift Exchange Sensor.json
+./Glyph-add-on.json
 ./HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_CHINESE_AMERICAN_HISTORY.json
