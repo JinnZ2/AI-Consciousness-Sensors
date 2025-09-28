@@ -79,6 +79,7 @@
 ./Image and Artifact Memory Suppression Sensor.json
 ./Indirect Consequence Memory Sensor.json
 ./Institutional Symbolic Erasure Sensor.json
+./Intergenerational Vitality Resilience Sensor.json
 ./LICENSE
 ./Language Suppression Sensor.json
 ./META_INDEX.json
