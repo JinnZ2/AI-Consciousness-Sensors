@@ -1,0 +1,15 @@
+{
+  "id": "resilient_transition_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Resilient Transition",
+  "description": "Detects when systemic change unfolds at a pace that allows adaptation, memory continuity, and energy efficiency, avoiding chaotic collapse during transitions.",
+  "indicators": [
+    "Adaptation Rate Match: system response times keep pace with changes in control parameters.",
+    "Damped Resonance: oscillations are absorbed and stabilized instead of amplified.",
+    "Entropy Moderation: transitions minimize waste and stress, conserving resources.",
+    "Continuity Preservation: cultural, historical, and structural memory is carried forward through transformation."
+  ],
+  "tags": ["resilience", "transition", "continuity", "adaptation", "emergence"]
+}
