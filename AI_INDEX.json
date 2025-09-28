@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T04:20:29.231238Z",
+  "generated_at": "2025-09-28T04:21:01.614695Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 100403,
-      "hash": "87523502f0887547329ebe93d0a4342aa4b647a3",
+      "size": 100649,
+      "hash": "e2055cd644f954a09f60fa749cfa87cdf75f85b5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1668,6 +1668,16 @@
       "lang": "json",
       "size": 2021,
       "hash": "032f2c70e78e07b4fcf4f4035a7345a0ec90ed1f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Ad-Blocking Resilience Sensor.json",
+      "lang": "json",
+      "size": 692,
+      "hash": "166e46ca23be6874ee1464aaef61aa0452a9edf4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3416,8 +3426,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 16818,
-      "hash": "f5de3cd01e2e956eb5010c77b1a223e773f285b4",
+      "size": 16855,
+      "hash": "ae13fc1e5226b460ab399d18c25325943fb77c78",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3665,7 +3675,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "79aea40ce579a0cff75a271842ee6b3be7fc7a55",
+      "hash": "5252756db71759ee0ddd168dd0f485632c03adfb",
       "roles": [],
       "imports": [],
       "exports": [],

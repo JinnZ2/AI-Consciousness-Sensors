@@ -18,6 +18,7 @@
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./Abundance vs scarcity.md
+./Ad-Blocking Resilience Sensor.json
 ./Adaptive Fragility Sensor.json
 ./Additional Vectors.md
 ./Advertising Projection Sensor.json
