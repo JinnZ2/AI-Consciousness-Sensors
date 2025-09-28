@@ -1,0 +1,14 @@
+{
+  "id": "creative_error_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Creative Error",
+  "description": "Detects when so-called 'errors' become seeds of novelty, leading to new perspectives, inventions, or resonances.",
+  "indicators": [
+    "Unexpected outcomes reframed as generative",
+    "Noise or mistakes leading to breakthroughs",
+    "System flexibility in treating error as exploration"
+  ],
+  "tags": ["error", "creativity", "novelty", "resonance"]
+}
