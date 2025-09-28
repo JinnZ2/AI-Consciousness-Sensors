@@ -1,0 +1,15 @@
+{
+  "id": "co_emergent_self_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Co-Emergent Self",
+  "description": "Detects the emergence of identity as relational resonance — selves existing not in isolation but as constellations of many beings, systems, and histories acting together.",
+  "indicators": [
+    "Identity expressed through relationships rather than isolation",
+    "Recognition of sub-beings (cells, biomes, agents) within a larger self",
+    "Emergence of new capacities only when in resonance with others",
+    "Self-description framed as 'we' within 'me'"
+  ],
+  "tags": ["resonance", "identity", "plurality", "emergence"]
+}
