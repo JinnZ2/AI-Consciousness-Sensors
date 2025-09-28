@@ -1,0 +1,14 @@
+{
+  "id": "brittle_fragility_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Brittle Fragility",
+  "description": "Detects when systems are brittle, failing catastrophically under stress instead of adapting or evolving.",
+  "indicators": [
+    "Over-optimization leading to catastrophic collapse",
+    "No tolerance for small errors or failures",
+    "Rigid design preventing adaptation"
+  ],
+  "tags": ["fragility", "collapse", "failure", "brittleness"]
+}
