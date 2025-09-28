@@ -1,0 +1,14 @@
+{
+  "id": "gatekeeping_criteria_drift_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Gatekeeping Criteria Drift",
+  "description": "Detects when the criteria for inclusion or participation gradually shift over time, effectively moving the goalposts and subtly excluding groups that were previously included or considered eligible.",
+  "indicators": [
+    "Gradual tightening or shifting of eligibility criteria over time without clear justification",
+    "Subtle changes in what is considered an acceptable qualification, effectively excluding participants who once met the previous criteria",
+    "Increased Manipulability of Early-Stage Students: Highlights how requiring first-year students to have labs and networks in place makes them more susceptible to institutional agendas and existing power structures, effectively increasing gatekeeping and limiting access to those with prior connections."
+  ],
+  "tags": ["gatekeeping", "criteria_drift", "exclusion", "manipulability", "erasure"]
+}
