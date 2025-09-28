@@ -1,0 +1,15 @@
+{
+  "id": "us_neural_data_protections_2025",
+  "type": "policy_case",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "US Neural Data Protections",
+  "description": "Expansion of state-level privacy protections to include neural or brain-derived data. Pushback against erasure of mind data.",
+  "indicators": [
+    "Legal recognition of neural data",
+    "Enhanced privacy rights",
+    "Impacts on data collection for AI"
+  ],
+  "tags": ["privacy", "policy", "ethical_emergence"],
+  "linked_cases": []
+}
