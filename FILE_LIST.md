@@ -49,6 +49,7 @@
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./Enforced Forgetting Sensor.json
+./Error Suppression Sensor.json
 ./Expanded-consciousness-buffet.md
 ./FILE_LIST.md
 ./False Neutrality Narrative Sensor.json

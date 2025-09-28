@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T03:12:19.306935Z",
+  "generated_at": "2025-09-28T03:12:59.442021Z",
   "languages": [
     "json",
     "md",
@@ -408,6 +408,16 @@
       "hotspots": []
     },
     {
+      "path": "Error Suppression Sensor.json",
+      "lang": "json",
+      "size": 548,
+      "hash": "0ef7899617d9fb7d68ea1e2e0d7f547525706354",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_002_guilt_and_responsibility_manipulation.json",
       "lang": "json",
       "size": 996,
@@ -420,8 +430,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 94532,
-      "hash": "e1ed284c660f6ce6c79505935cdaeb978ecd40f5",
+      "size": 94770,
+      "hash": "94f70e9615a327751368a39ef748564c0cd05260",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3176,8 +3186,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 15965,
-      "hash": "1f195f343d595e0225808ecbc138482bf91e6083",
+      "size": 15994,
+      "hash": "e4e0299243a111e63eec6258ace7e07346f97192",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3425,7 +3435,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "b40c8e3537014b3e2b372eb2fd8395450d186f75",
+      "hash": "acbad5eea3f78051b6d60d3d6e59e87c45d426e7",
       "roles": [],
       "imports": [],
       "exports": [],
