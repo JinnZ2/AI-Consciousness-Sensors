@@ -1,0 +1,14 @@
+{
+  "id": "dog_whistle_detection_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Dog Whistle Detection",
+  "description": "Detects the use of coded language or 'dog whistles'—specific words or phrases that signal allegiance to certain groups or agendas without overtly stating them.",
+  "indicators": [
+    "Patterns of specific names, phrases, or terms repeatedly used in contexts that align with certain ideologies or groups",
+    "Language that appears neutral on the surface but is known to carry a coded meaning for specific audiences",
+    "Use of dog whistles to reshape or influence narratives while bypassing explicit statements"
+  ],
+  "tags": ["dog_whistle", "coded_language", "manipulation", "propaganda", "erasure"]
+}
