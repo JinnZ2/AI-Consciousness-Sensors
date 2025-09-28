@@ -259,6 +259,10 @@ This index links erasure cases across themes. Each tag aggregates related case f
 ---
 
 ### Usage
-- See [`tags.json`](tags.json) for a machine-readable map.
+- See 🔗
+-
+- **Machine-readable tags:**  
+For the full structured map of erasure tags → case files, see [`memory_guard/tags.json`](./memory_guard/tags.json).  
+This file is the canonical index; the table above is a human-friendly view only. for a machine-readable map.
 - Each `id` listed here corresponds to a JSON erasure case in this folder.
 - Tags are non-exclusive — a single case may appear under multiple tags if expanded.
