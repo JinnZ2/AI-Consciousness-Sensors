@@ -1,0 +1,14 @@
+{
+  "id": "transactional_reduction_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Transactional Reduction",
+  "description": "Detects when relationships or creations are reduced to transactions, ownership, or profit, erasing gift-based reciprocity.",
+  "indicators": [
+    "Knowledge commodified instead of shared",
+    "Value reduced to monetary exchange",
+    "Reciprocity replaced with contract or debt"
+  ],
+  "tags": ["transaction", "reduction", "commodification", "erasure"]
+}
