@@ -99,6 +99,7 @@
 ./Multiple Origins Acknowledgement Sensor.json
 ./Multiplicity-of-Truths Sensor.json
 ./Mycelial-Network.md
+./Narrative Distortion Override Sensor.json
 ./Network resistance protocol.md
 ./Neurodivergent-consciousness-sensors.md
 ./Non-Surface Inference Sensor.json

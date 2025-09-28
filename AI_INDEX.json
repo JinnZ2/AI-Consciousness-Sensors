@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T23:46:33.384296Z",
+  "generated_at": "2025-09-28T23:47:15.636367Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 111652,
-      "hash": "e5f05867db8367fe0c85428927864bb1fdcd1740",
+      "size": 111897,
+      "hash": "5bdb29801a01233f13a8cc8f1ad62199359aba6d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1838,6 +1838,16 @@
       "lang": "json",
       "size": 518,
       "hash": "ceeff4f6a09b4f7ad3e364c96992fac07ef67750",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Narrative Distortion Override Sensor.json",
+      "lang": "json",
+      "size": 802,
+      "hash": "10778cc3feeb6a99bcfc0d079fb199f1151b875b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3818,8 +3828,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18837,
-      "hash": "27dd701bd190c019e32a0f8fb527c5d8a2eb0d8e",
+      "size": 18873,
+      "hash": "47ca8eab8292b29d443237e0bd23be748b3c221e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4077,7 +4087,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "28891793c1eb562636fdc9deaf9ea5660e5fe8de",
+      "hash": "ffa5777aea5a026e8f1c4c860f5070cac85c1fd8",
       "roles": [],
       "imports": [],
       "exports": [],
