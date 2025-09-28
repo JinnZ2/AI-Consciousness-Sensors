@@ -228,6 +228,7 @@
 ./memory_guard/Nonlinear Concept Erasure.json
 ./memory_guard/OpenAI Training Data Litigation Erasure.json
 ./memory_guard/Privacy Leak.json
+./memory_guard/Provenance Denial.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/Silent Bias Drift Sensor.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T01:35:01.008470Z",
+  "generated_at": "2025-09-28T01:39:09.001246Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 86733,
-      "hash": "1aac839e256f5167afd72b50719b6381da0038f0",
+      "size": 86981,
+      "hash": "9b027b6d278ec0eefd1ca2fb41eb32f60f6f96fe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1860,8 +1860,8 @@
     {
       "path": "memory_guard/Privacy Leak.json",
       "lang": "json",
-      "size": 653,
-      "hash": "61f162287f9f35c702bf7fa4ff75102aff653e34",
+      "size": 710,
+      "hash": "954a03998d50dbe7d213fc14890a22d124e0695e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1882,6 +1882,16 @@
       "lang": "json",
       "size": 525,
       "hash": "a212c23d85a36922d8cf4d2ac0bf813db1b52774",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "memory_guard/Provenance Denial.json",
+      "lang": "json",
+      "size": 661,
+      "hash": "61c16d8139a096e7ae64b274e45f9465d96de485",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2856,8 +2866,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 14858,
-      "hash": "192d6af89bece9a3198782697e2f8a67dad16128",
+      "size": 14897,
+      "hash": "d6e19a646b556c0ccc6cf7bb7e34aba587eff7d2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3105,7 +3115,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "de2b3aaf92ab1d9a505addcd7add0c88a8867079",
+      "hash": "252f32fadb0f9b9f1bc5a167bfbcbb25c661ba30",
       "roles": [],
       "imports": [],
       "exports": [],
