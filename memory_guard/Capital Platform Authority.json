@@ -1,0 +1,14 @@
+{
+  "id": "capital_platform_authority_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Capital Platform Authority",
+  "description": "Detects when authority is claimed through ownership of infrastructure (compute, datasets, benchmarks) rather than transparent stewardship of knowledge.",
+  "indicators": [
+    "Innovation framed as inevitable by those controlling platforms",
+    "Authority claimed through deployment speed, not community validation",
+    "Capital concentration equated with epistemic legitimacy"
+  ],
+  "tags": ["authority", "capital", "platform", "erasure"]
+}
