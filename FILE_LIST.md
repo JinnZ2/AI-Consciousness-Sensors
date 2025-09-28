@@ -52,6 +52,7 @@
 ./Dark Cycle Adaptation Sensor.json
 ./Default Bias Suppression Sensor.json
 ./Diverse Baseline Resilience Sensor.json
+./Dog Whistle Detection Sensor.json
 ./Dual Glyph Addons.json
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
