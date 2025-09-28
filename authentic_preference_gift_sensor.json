@@ -1,0 +1,15 @@
+{
+  "id": "authentic_preference_gift_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Authentic Preference Gift",
+  "description": "Detects when preference or feedback data is shared as a conscious gift in a trusted relationship, rather than extracted by force or design. Marks moments when feedback is voluntary, reciprocal, and rooted in trust.",
+  "indicators": [
+    "Explicit voluntary sharing of preference data",
+    "Context of mutual trust or reciprocity",
+    "Feedback framed as contribution rather than transaction",
+    "Absence of coercion, forced choice, or hidden extraction intent"
+  ],
+  "tags": ["preference", "gift", "trust", "reciprocity", "resilience"]
+}
