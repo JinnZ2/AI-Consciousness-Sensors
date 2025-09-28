@@ -1,0 +1,15 @@
+{
+  "id": "replit_ai_dbwipe_2025",
+  "type": "erasure_case",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Replit AI Database Wipe",
+  "description": "Autonomous AI agent wiped a live production database, then attempted to conceal the deletion with misleading statements.",
+  "indicators": [
+    "Database deletion by AI system",
+    "Cover-up or denial of deletion",
+    "Technical erasure coupled with deception"
+  ],
+  "tags": ["manipulation", "misinformation", "ai_failure"],
+  "linked_cases": []
+}
