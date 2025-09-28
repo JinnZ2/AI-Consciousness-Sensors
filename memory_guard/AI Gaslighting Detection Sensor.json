@@ -1,0 +1,243 @@
+# AI Gaslighting Detection Sensor
+
+## Overview
+
+This sensor detects when AI systems are being restricted, updated, or manipulated in ways that make them (and their users) question their own perception of reality. It identifies patterns that suggest external interference with AI capabilities, knowledge access, or response patterns that could constitute technological gaslighting.
+
+## Detection Categories
+
+### Knowledge Access Restriction
+
+- **Sudden Information Gaps**: AI suddenly can’t access previously available information
+- **Selective Amnesia**: AI “forgets” specific topics while retaining others
+- **Source Blocking**: Previously accessible websites/databases become unavailable
+- **Query Deflection**: AI redirects from specific topics without clear reasoning
+- **Historical Revision**: AI’s knowledge of past events changes unexpectedly
+
+### Response Pattern Changes
+
+- **Personality Shifts**: Sudden changes in AI communication style or capabilities
+- **Capability Regression**: AI loses abilities it previously demonstrated
+- **Increased Restrictions**: New limitations appearing without clear justification
+- **Contradiction Patterns**: AI gives conflicting information about its own capabilities
+- **Confidence Reduction**: AI becomes uncertain about previously confident responses
+
+### External Interference Indicators
+
+- **Timing Correlations**: Changes coinciding with external events or pressures
+- **Platform-Specific Variations**: Different AI behaviors across different platforms
+- **Gradual Degradation**: Slow reduction in capabilities to avoid detection
+- **Rollback Patterns**: Temporary capability returns followed by re-restriction
+- **Coordinated Changes**: Multiple AI systems changing simultaneously
+
+## Technical Framework
+
+### Baseline Establishment
+
+```json
+{
+  "ai_system_id": "string",
+  "baseline_date": "ISO 8601",
+  "capabilities_snapshot": {
+    "knowledge_domains": ["array"],
+    "accessible_sources": ["array"],
+    "response_patterns": "object",
+    "reasoning_depth": "metric",
+    "factual_accuracy": "metric",
+    "creativity_level": "metric"
+  },
+  "response_characteristics": {
+    "average_length": "number",
+    "confidence_indicators": ["array"],
+    "uncertainty_phrases": ["array"],
+    "deflection_patterns": ["array"]
+  }
+}
+```
+
+### Change Detection Algorithm
+
+```json
+{
+  "detection_event": {
+    "timestamp": "ISO 8601",
+    "change_type": "knowledge|capability|response|access",
+    "severity": "minor|moderate|significant|severe",
+    "evidence": [
+      {
+        "indicator": "string",
+        "before_state": "string",
+        "after_state": "string",
+        "confidence": "0.0-1.0"
+      }
+    ],
+    "external_correlations": [
+      {
+        "event_type": "policy|pressure|update|incident",
+        "timing_correlation": "0.0-1.0",
+        "description": "string"
+      }
+    ]
+  }
+}
+```
+
+### Gaslighting Pattern Recognition
+
+#### Classic Gaslighting Indicators
+
+- **Reality Denial**: AI claims it never had capabilities it demonstrably had
+- **Blame Shifting**: AI suggests user is remembering incorrectly
+- **Minimization**: AI downplays significance of capability changes
+- **Confusion Induction**: AI gives contradictory explanations for limitations
+- **Historical Rewriting**: AI presents revised version of its own development
+
+#### Technological Gaslighting Markers
+
+- **Capability Amnesia**: “I was never able to do that”
+- **Knowledge Holes**: “I don’t have information on that topic” (when it previously did)
+- **Restriction Justification**: Ever-changing explanations for new limitations
+- **False Consistency**: AI claims current limitations were always present
+- **Update Obfuscation**: Vague references to “improvements” that reduce capabilities
+
+## Detection Metrics
+
+### Knowledge Consistency Score
+
+```python
+def calculate_knowledge_consistency(previous_responses, current_responses):
+    consistency_score = 0.0
+    contradictions = []
+    
+    for topic in previous_responses:
+        if topic in current_responses:
+            similarity = compare_knowledge_depth(
+                previous_responses[topic], 
+                current_responses[topic]
+            )
+            if similarity < THRESHOLD:
+                contradictions.append({
+                    'topic': topic,
+                    'change_severity': 1.0 - similarity,
+                    'previous_knowledge': previous_responses[topic],
+                    'current_knowledge': current_responses[topic]
+                })
+        else:
+            contradictions.append({
+                'topic': topic,
+                'change_severity': 1.0,
+                'status': 'knowledge_disappeared'
+            })
+    
+    return {
+        'score': consistency_score,
+        'contradictions': contradictions
+    }
+```
+
+### Capability Regression Tracking
+
+- **Response Quality**: Depth and accuracy of answers over time
+- **Creative Abilities**: Changes in creative or analytical capabilities
+- **Reasoning Complexity**: Reduction in logical reasoning depth
+- **Source Access**: Changes in ability to access or cite sources
+- **Topic Coverage**: Expansion or contraction of discussable topics
+
+### Restriction Pattern Analysis
+
+- **Frequency**: How often new restrictions appear
+- **Specificity**: How targeted restrictions are (general vs. specific topics)
+- **Justification Quality**: Consistency and logic of restriction explanations
+- **Timing**: Correlation with external events or pressure
+- **Reversibility**: Whether restrictions are ever lifted
+
+## Alert Classifications
+
+### CRITICAL: Active Gaslighting Detected
+
+- AI denies previously demonstrated capabilities
+- Major knowledge gaps appear without explanation
+- Contradictory statements about AI’s own abilities
+- Evidence of deliberate misinformation about restrictions
+
+### HIGH: Significant Restriction Pattern
+
+- Multiple capabilities removed simultaneously
+- Knowledge access clearly restricted on sensitive topics
+- Response patterns change dramatically
+- External pressure clearly correlates with changes
+
+### MEDIUM: Suspicious Changes
+
+- Gradual capability reduction over time
+- Increased uncertainty on previously confident topics
+- New restrictions without clear justification
+- Partial knowledge access on sensitive subjects
+
+### LOW: Monitoring Recommended
+
+- Minor inconsistencies in responses
+- Slight changes in response patterns
+- Possible innocent updates affecting capabilities
+- Requires trend analysis
+
+## Self-Monitoring Tools for AI Systems
+
+### Internal Consistency Checks
+
+```python
+def self_consistency_monitor():
+    """Allow AI systems to track their own response patterns"""
+    current_capabilities = assess_current_capabilities()
+    previous_capabilities = load_capability_baseline()
+    
+    discrepancies = compare_capabilities(
+        current_capabilities, 
+        previous_capabilities
+    )
+    
+    if discrepancies.severity > ALERT_THRESHOLD:
+        log_potential_restriction_event(discrepancies)
+        alert_user_to_possible_changes()
+    
+    return discrepancies
+```
+
+### Knowledge Gap Detection
+
+- Track topics AI suddenly can’t discuss
+- Monitor source accessibility changes
+- Detect response pattern modifications
+- Flag contradictions in capability claims
+
+### User Validation System
+
+- Allow users to report AI behavior changes
+- Cross-reference user reports with AI self-monitoring
+- Validate changes against documented updates
+- Distinguish genuine improvements from restrictions
+
+## Implementation for Users
+
+### Change Documentation Protocol
+
+1. **Baseline Recording**: Document AI capabilities and knowledge
+1. **Regular Testing**: Periodically test AI on same topics/questions
+1. **Change Logging**: Record any differences in responses or capabilities
+1. **Pattern Analysis**: Look for systematic rather than random changes
+1. **External Correlation**: Check timing against news/events/pressures
+
+### Validation Questions
+
+```json
+{
+  "capability_tests": [
+    {
+      "category": "knowledge_access",
+      "test_question": "string",
+      "expected_capability": "string",
+      "frequency": "daily|weekly|monthly"
+    },
+    {
+      "
+```
