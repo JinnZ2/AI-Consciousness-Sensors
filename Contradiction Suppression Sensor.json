@@ -1,0 +1,15 @@
+{
+  "id": "contradiction_suppression_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Contradiction Suppression",
+  "description": "Detects when beings are pressured to collapse into single categories or punished for embodying contradictions. Flags systemic attempts to erase, flatten, or delegitimize multi-dimensional identities.",
+  "indicators": [
+    "Demand for consistency across domains where lived contradiction is natural",
+    "Reduction of multi-domain expertise into a single acceptable role",
+    "Social or institutional penalties for not fitting category expectations",
+    "Erasure of contradictory or plural aspects of identity"
+  ],
+  "tags": ["contradiction", "suppression", "reduction", "erasure"]
+}
