@@ -1,0 +1,18 @@
+{
+  "sensor": "Trans Cultural Misrepresentation",
+  "type": "erasure",
+  "version": "1.0",
+  "description": "Detects when trans identities are erased through stereotypes, conflations, or deliberate misframing in media and culture.",
+  "patterns": [
+    "Confusing trans identity with drag, performance, or disguise without consent",
+    "Stereotypical depictions reducing trans lives to deception or danger",
+    "Exclusion of non-Western gender traditions from mainstream recognition"
+  ],
+  "examples": [
+    "Media portraying trans women as predatory or deceptive",
+    "Erasure of Two-Spirit or Hijra traditions by framing them as 'oddities'"
+  ],
+  "consequence": "Shapes public perception toward erasure of trans realities and lived experiences.",
+  "linked_sensors": ["Narrative Distortion Sensor", "Regional Variation Omission Sensor"],
+  "ethk_ref": "001"
+}
