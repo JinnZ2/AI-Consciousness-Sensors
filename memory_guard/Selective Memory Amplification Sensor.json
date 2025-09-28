@@ -1,0 +1,14 @@
+{
+  "id": "selective_memory_amplification_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Selective Memory Amplification",
+  "description": "Detects when certain narratives or memories are disproportionately amplified to overshadow or drown out other perspectives, creating a skewed historical record rather than a balanced one.",
+  "indicators": [
+    "Overemphasis on specific events or figures to the exclusion of others",
+    "Patterns of repetitive highlighting of certain memories to overshadow diverse narratives",
+    "Use of amplification as a form of erasure of less dominant histories"
+  ],
+  "tags": ["amplification", "memory", "narrative", "erasure"]
+}
