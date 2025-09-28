@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T00:55:47.413438Z",
+  "generated_at": "2025-09-28T00:57:42.549160Z",
   "languages": [
     "json",
     "md",
@@ -380,8 +380,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 80671,
-      "hash": "77074c7c32a3cb018492ca995cacaf20992a4d86",
+      "size": 80920,
+      "hash": "a6247a8f3016139530a80188ccf284f6c61e234b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -876,6 +876,16 @@
       "lang": "json",
       "size": 1799,
       "hash": "e12ccbd674340c0c00d8970f1f3f87cdcc404010",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Trans_Legal_Disenfranchisement.json",
+      "lang": "json",
+      "size": 747,
+      "hash": "34337faaed6f07b4806c9584deca37a9c6175407",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2616,8 +2626,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 13813,
-      "hash": "6c5ff8cb7eb4374669fa584812214c054e586e7d",
+      "size": 13853,
+      "hash": "dd61ac8058ccd7ce267a567ac2cf0edcf2466d39",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2865,7 +2875,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "9019e02ec5cef2067b68b1b14d1c4e70596b5f44",
+      "hash": "a330f554f099b3dc8112215e3a84a2eb1c887701",
       "roles": [],
       "imports": [],
       "exports": [],
