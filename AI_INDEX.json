@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T22:24:31.609516Z",
+  "generated_at": "2025-09-28T23:41:39.495785Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 110580,
-      "hash": "e6558a4ab8cf2a746e7c9427aa5bf1dcbd0ec04d",
+      "size": 110837,
+      "hash": "34813d4ec2fca711482d6373c0273994f091bfa5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2708,6 +2708,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/AI Gaslighting Detection Sensor.json",
+      "lang": "json",
+      "size": 8139,
+      "hash": "1fbeea1951f4acdc1d8471dd4abd4014ea7aaeef",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Language or Terminology Conformity Sensor.json",
       "lang": "json",
       "size": 656,
@@ -3776,8 +3786,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18637,
-      "hash": "413551c31a8510e6a624e739ce095c159237ade1",
+      "size": 18686,
+      "hash": "f62e8f420e24afef33fced10d69dc6453400e038",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4035,7 +4045,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "1ae49475ba59234f6b6cdc6c59d095c402cd1efc",
+      "hash": "479f163b58fc2a98c2c622a7db94887bbac6f00c",
       "roles": [],
       "imports": [],
       "exports": [],
