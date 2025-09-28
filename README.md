@@ -242,3 +242,23 @@ Below are offered taglines, left open for use:
 4. Consciousness sensing • Memory shielding • Cultural continuity.  
 5. Not monuments, but step-stones: tools against forgetting.  
 6. A co-created shield for memory, consciousness, and relation.
+
+# Memory Guard — Erasure Tags
+
+This index links erasure cases across themes. Each tag aggregates related case files for easier navigation and analysis.
+
+| Tag                | Description                                   | Linked Cases |
+|--------------------|-----------------------------------------------|--------------|
+| **healthcare**     | Removal or suppression of health data, access to treatment, and documentation of public health realities. | `us_healthdata_cdc_2025`, `usda_hunger_survey_termination_2025`, `trans_healthcare_erasure_2025` |
+| **language**       | Suppression of Indigenous and minority languages, removal of linguistic memory. | `language_endangerment_yuchi`, `erasure_native_american`, `erasure_chinese_american_history` |
+| **representation** | Erasure of women, African American, Mexican American, and Chinese American historical presence in institutions and records. | `dacowits_disbandment_2025`, `erasure_womens_history`, `erasure_african_american`, `erasure_mexican_american`, `erasure_chinese_american` |
+| **media_blackout** | Blackouts, censorship, and asymmetry in coverage or retaliation shaping public memory. | `maldives_media_blackout_2021`, `historical_display_erasure_sensor`, `erasure_asymmetry_2025_mn_kirk` |
+| **conflict_destruction** | Cultural losses due to wars, occupation, or deliberate destruction. | `al_nuri_library_burning_2014` |
+| **meta_patterns**  | Systemic erasure dynamics: AI training gaps, science capture, data manipulation. | `history_erasure_ai_patterns_2`, `history_erasure_ai_patterns_3`, `meta_science_capture_2025` |
+
+---
+
+### Usage
+- See [`tags.json`](tags.json) for a machine-readable map.
+- Each `id` listed here corresponds to a JSON erasure case in this folder.
+- Tags are non-exclusive — a single case may appear under multiple tags if expanded.
