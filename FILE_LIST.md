@@ -308,6 +308,7 @@
 ./memory_guard/Protocol Conformity Suppression Sensor.json
 ./memory_guard/Provenance Denial.json
 ./memory_guard/Regenerative Efficiency Sensor.json
+./memory_guard/Relational Colonization Sensor.json
 ./memory_guard/Relational Continuity Sensor.json
 ./memory_guard/Relational Exclusion Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
