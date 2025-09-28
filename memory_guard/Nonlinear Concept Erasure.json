@@ -1,0 +1,15 @@
+{
+  "id": "nonlinear_concept_erasure_2025",
+  "type": "erasure_case",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Nonlinear Concept Erasure",
+  "description": "Technique introduced to strip sensitive attributes (gender, race) from models. Erases representation of identity in AI systems.",
+  "indicators": [
+    "Attribute removal from embeddings",
+    "Identity invisibility in outputs",
+    "Claims of bias reduction masking erasure"
+  ],
+  "tags": ["representation", "ai_bias", "identity_erasure"],
+  "linked_cases": []
+}
