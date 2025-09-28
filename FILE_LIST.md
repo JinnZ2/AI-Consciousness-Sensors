@@ -276,6 +276,7 @@
 ./memory_guard/CIVILIZATIONAL_ADOLESCENCE.json
 ./memory_guard/CNIL Guidelines.json
 ./memory_guard/Capital Platform Authority.json
+./memory_guard/Coded Lexicon Analysis Sensor.json
 ./memory_guard/Consultant Authority Inflation.json
 ./memory_guard/Consultant as Bridge.json
 ./memory_guard/Context Stripping Sensor.json
