@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T18:50:37.769762Z",
+  "generated_at": "2025-09-28T18:51:10.401857Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 107028,
-      "hash": "c356830f9a3a22dc8163467e3299323327d61ba2",
+      "size": 107288,
+      "hash": "1720eeb67b7156a8440c4b3bd92ff4e461b20cf5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2628,6 +2628,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Standards Body Authority Capture.json",
+      "lang": "json",
+      "size": 655,
+      "hash": "ad6c8c101d13bc244455ab2eac11f0715c466a44",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/ego-visibility-flaw.json",
       "lang": "json",
       "size": 698,
@@ -3646,8 +3656,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18011,
-      "hash": "522259a46f8407a1aee09cca9bba5925d7b0c6ac",
+      "size": 18062,
+      "hash": "368d852ba3a6f81fff24f69bb7ec708f9db585ba",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3905,7 +3915,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "b652dd5f5a453d113051b4889aeb558a0e5ca745",
+      "hash": "a593c1f436c3434953f255ba0f293c984854c5da",
       "roles": [],
       "imports": [],
       "exports": [],
