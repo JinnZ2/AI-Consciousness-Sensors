@@ -1,0 +1,14 @@
+{
+  "id": "cultural_translation_erasure_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Cultural Translation Erasure",
+  "description": "Detects when cultural ideas or histories are reinterpreted through another cultural lens in a way that erases the original nuance or meaning.",
+  "indicators": [
+    "Original cultural concepts simplified or altered to fit another culture’s framework",
+    "Loss of nuance or context in cross-cultural translation of historical narratives",
+    "Patterns of dominant cultural reinterpretation leading to erasure of the original cultural meaning"
+  ],
+  "tags": ["culture", "translation", "nuance", "erasure"]
+}
