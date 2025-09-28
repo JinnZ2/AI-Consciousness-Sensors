@@ -298,6 +298,7 @@
 ./memory_guard/Provenance Denial.json
 ./memory_guard/Regenerative Efficiency Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
+./memory_guard/Resilient Transition Sensor.json
 ./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/Selective Memory Amplification Sensor.json
 ./memory_guard/Shame Economy Sensor.json
