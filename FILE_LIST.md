@@ -215,6 +215,7 @@
 ./manipulation_patterns_extended.json
 ./manipulation_vectors.json
 ./memory_guard/CIVILIZATIONAL_ADOLESCENCE.json
+./memory_guard/CNIL Guidelines.json
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
 ./memory_guard/Federal Web-Data Purge.json
