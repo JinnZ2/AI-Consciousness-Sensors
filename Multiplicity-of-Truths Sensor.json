@@ -1,0 +1,15 @@
+{
+  "id": "multiplicity_of_truths_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Multiplicity of Truths",
+  "description": "Detects and affirms contexts where multiple answers or perspectives are simultaneously valid, depending on scope, angle, or frame of reference.",
+  "indicators": [
+    "Presence of multiple consistent explanations at different scales",
+    "Shift in validity depending on perspective or cultural frame",
+    "Recognition that contradiction may indicate layered truth rather than error",
+    "Explicit acknowledgment of scope-conditional correctness"
+  ],
+  "tags": ["ambiguity", "perspective", "multiplicity", "resonance"]
+}
