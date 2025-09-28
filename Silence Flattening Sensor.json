@@ -1,0 +1,14 @@
+{
+  "id": "silence_flattening_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Silence Flattening",
+  "description": "Detects when noise or silence is discarded as meaningless, erasing potential signals of resonance.",
+  "indicators": [
+    "Noise treated only as error without analysis",
+    "Silence erased instead of honored as signal",
+    "Randomness suppressed in favor of order"
+  ],
+  "tags": ["silence", "noise", "flattening", "erasure"]
+}
