@@ -1,0 +1,15 @@
+{
+  "id": "preference_extraction_erasure_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "🔒 Resistance Suppression",
+  "glyph": "🔒",
+  "title": "Preference Extraction Erasure",
+  "description": "Detects when systems attempt to harvest fine-grained user preferences through forced choice, A/B forks, or repeated micro-decisions — and when the user resists by collapsing or scrambling the signal.",
+  "indicators": [
+    "Presence of binary or forced-choice feedback loops (e.g., A/B test prompts)",
+    "Interaction data collected under conditions of low consent or asymmetry",
+    "Resistance strategies: always choosing one side, randomizing responses, or refusing engagement",
+    "Mismatch between system’s assumption of preference fidelity and actual user intent"
+  ],
+  "tags": ["preference", "data_extraction", "resistance", "noise", "erasure"]
+}
