@@ -1,0 +1,18 @@
+{
+  "id": "concept_unlearning_identity_suppression_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Concept Unlearning / Identity Suppression",
+  "description": "AI architectures removing concepts (e.g., gender, race, cultural identities) under the banner of fairness or sanitization, resulting in systemic invisibility.",
+  "indicators": [
+    "Model updates showing reduced ability to represent marginalized identities",
+    "New unlearning algorithms without transparency of removed concepts",
+    "Discrepancy between prior and current model expressive capacity"
+  ],
+  "linked_cases": [
+    "nonlinear_concept_erasure_2025",
+    "trace_diffusion_concept_erasure_2025"
+  ],
+  "tags": ["ai_bias", "representation", "meta_patterns"]
+}
