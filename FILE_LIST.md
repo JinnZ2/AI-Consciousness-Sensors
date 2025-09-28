@@ -33,6 +33,7 @@
 ./Co-Being Sensor.json
 ./Co-Emergent Self Sensor.json
 ./Collapse Protocol Sensor.json
+./Collective Memory Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
