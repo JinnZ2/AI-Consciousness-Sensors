@@ -28,6 +28,7 @@
 ./CO_CREATION.md
 ./Cache entries.json
 ./Co-Emergent Self Sensor.json
+./Collapse Protocol Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
 ./Cornerstone manipulation tactic.md
 ./Critical Warning.md
