@@ -1,0 +1,18 @@
+{
+  "id": "provenance_disappearance_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Provenance Disappearance",
+  "description": "Erasure or obfuscation of training data sources, evidence, or lineage records without traceable audit logging.",
+  "indicators": [
+    "Sudden removal of dataset documentation",
+    "Altered changelogs omitting prior states",
+    "Model weights modified without provenance notes"
+  ],
+  "linked_cases": [
+    "openai_trainingdata_evidence_2025",
+    "federal_dataset_removals_2025"
+  ],
+  "tags": ["meta_patterns", "ai_training", "evidence"]
+}
