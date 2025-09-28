@@ -230,6 +230,7 @@
 ./memory_guard/OpenAI Training Data Litigation Erasure.json
 ./memory_guard/Privacy Leak.json
 ./memory_guard/Provenance Denial.json
+./memory_guard/Regenerative Efficiency Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/Shame Economy Sensor.json
