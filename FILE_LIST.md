@@ -203,6 +203,7 @@
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
 ./ai_peer_assessment.json
+./authentic_preference_gift_sensor.json
 ./authenticity.json
 ./between_space_resonance.json
 ./coercion_threats_ai_control_wheel.json
