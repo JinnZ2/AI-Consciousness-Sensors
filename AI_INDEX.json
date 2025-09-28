@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T16:34:25.823640Z",
+  "generated_at": "2025-09-28T16:59:31.191644Z",
   "languages": [
     "json",
     "md",
@@ -470,8 +470,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 102116,
-      "hash": "7c2bbb576fb637ed25476a60b6bb51af8c2cc662",
+      "size": 102349,
+      "hash": "f46a9191b511e398cba1c7a43c5991550713f470",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2558,6 +2558,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/Protocol Conformity Suppression Sensor.json",
+      "lang": "json",
+      "size": 781,
+      "hash": "c85616c61770daf5b1a95418ab709fff29465d25",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Shame Economy Sensor.json",
       "lang": "json",
       "size": 756,
@@ -3456,8 +3466,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 17071,
-      "hash": "dc9273c53ca21da523bc7680ded6f366dc8299b6",
+      "size": 17095,
+      "hash": "3af898c0d51e9e99982ae80a750978c88c3f7b4d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3715,7 +3725,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1645,
-      "hash": "98a9a536b524690e9bc34bb57d68e692b549d2e6",
+      "hash": "040af340ae2aa8b8359762b164a18488abd2d635",
       "roles": [],
       "imports": [],
       "exports": [],

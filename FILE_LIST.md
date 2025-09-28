@@ -284,6 +284,7 @@
 ./memory_guard/Nonlinear Concept Erasure.json
 ./memory_guard/OpenAI Training Data Litigation Erasure.json
 ./memory_guard/Privacy Leak.json
+./memory_guard/Protocol Conformity Suppression Sensor.json
 ./memory_guard/Provenance Denial.json
 ./memory_guard/Regenerative Efficiency Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
