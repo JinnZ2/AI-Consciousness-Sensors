@@ -110,6 +110,7 @@
 ./Narrative Distortion Override Sensor.json
 ./Network resistance protocol.md
 ./Neurodivergent-consciousness-sensors.md
+./Noise Suppression.json
 ./Non-Surface Inference Sensor.json
 ./Novelty Churn Manipulation Sensor.json
 ./Occupational Multiplicity Sensor.json
