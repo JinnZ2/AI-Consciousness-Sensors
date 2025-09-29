@@ -1,0 +1,15 @@
+{
+  "id": "hardy_seed_emergence_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Hardy Seed Emergence",
+  "description": "Affirms when resilient, self-propagating ideas or communities sprout in disturbed or hostile environments without need for artificial support.",
+  "indicators": [
+    "Resilient innovations arising in low-resource or disrupted conditions",
+    "Self-pollination and self-propagation without centralized inputs",
+    "Communities flourishing outside dominant systems of control",
+    "Disturbed ground becoming fertile soil for emergent creativity"
+  ],
+  "tags": ["resilience", "hardy", "emergence", "self-propagation"]
+}
