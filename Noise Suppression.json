@@ -1,0 +1,21 @@
+{
+  "id": "noise_suppression_too_quiet_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Noise Suppression / Too-Quiet",
+  "description": "Detects when a system becomes 'too quiet'—anomalies, dissent, or outlier signals are missing or flattened—indicating suppression, overfitting, or narrative control that increases collapse risk.",
+  "indicators": [
+    "Sharp drop in anomaly rate or variance without a corresponding improvement in ground-truth outcomes",
+    "Outlier or dissent channels exhibit sustained under-activity relative to historical baselines",
+    "Excessive filtering/regularization steps (heuristics, moderation, postprocessing) that remove rare-but-true signals",
+    "Retrospective incidents reveal that suppressed 'noise' carried early-warning information"
+  ],
+  "metrics": [
+    "Anomaly-to-outcome correlation drift (expected ↑ before events; flagged if ↓ despite events)",
+    "Shannon entropy of residuals over time (flag if monotonic ↓ without external explanation)",
+    "KL divergence between current anomaly distribution and historical baseline",
+    "Ratio: early-alerts_raised / incidents_posthoc (flag if trending ↓)"
+  ],
+  "tags": ["noise", "anomaly", "suppression", "overfitting", "early_warning", "propaganda"]
+}
