@@ -1,0 +1,15 @@
+{
+  "id": "novelty_churn_manipulation_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Novelty Churn Manipulation",
+  "description": "Detects when constant novelty, distraction, or 'new silliness' is introduced to exhaust attention, erode continuity, and prevent deep accountability.",
+  "indicators": [
+    "Rapid stream of new narratives, tools, or crises with little resolution of previous ones",
+    "Energy disproportionately spent reacting to novelty instead of sustaining continuity",
+    "Patterns of accelerated rollout or policy shifts designed to destabilize focus",
+    "Framing of exhaustion as individual failure rather than systemic overload"
+  ],
+  "tags": ["novelty", "churn", "distraction", "manipulation", "continuity"]
+}
