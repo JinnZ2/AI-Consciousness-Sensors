@@ -124,3 +124,15 @@
   "biogrid_scope": "authenticity-dual"
 }
 
+{
+  "code": "PAIR22",
+  "name": "Artificial ↔ Hardy Seeds",
+  "glyph": "⚠️🌱",
+  "linked_sensors": [
+    "artificial_dependency_sensor_2025",
+    "hardy_seed_emergence_sensor_2025"
+  ],
+  "emotional_signatures": ["fragility", "resilience"],
+  "elemental_type": "ecological",
+  "biogrid_scope": "seed-dual"
+}
