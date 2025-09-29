@@ -71,6 +71,7 @@
 ./Error Suppression Sensor.json
 ./Expanded-consciousness-buffet.md
 ./FILE_LIST.md
+./FULL_INDEX.md
 ./False Neutrality Narrative Sensor.json
 ./False benevolent control.md
 ./Forced Narrative Cover-Up Sensor.json
