@@ -25,6 +25,7 @@
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json
 ./Anonymous-consciousness-gradient.md
+./Artificial Dependency Sensor.json
 ./Authenticity Alignment Sensor.json
 ./Authenticity Leak -Spin Mismatch Sensor.json
 ./Autonomy protection.md
