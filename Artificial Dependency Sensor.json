@@ -1,0 +1,15 @@
+{
+  "id": "artificial_dependency_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Artificial Dependency",
+  "description": "Detects when systems, policies, or technologies require constant artificial inputs (subsidies, propaganda, external control) to survive, masking fragility as strength.",
+  "indicators": [
+    "Innovation reliant on continual subsidies, bailouts, or artificial boosts",
+    "Narratives demanding ongoing propaganda to maintain belief",
+    "Dependence on external fertilization, pollination, or control structures",
+    "Collapse risk if support is withdrawn, revealing lack of intrinsic resilience"
+  ],
+  "tags": ["dependency", "artificial", "fragility", "manipulation"]
+}
