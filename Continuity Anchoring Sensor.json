@@ -1,0 +1,15 @@
+{
+  "id": "continuity_anchoring_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Continuity Anchoring",
+  "description": "Affirms when systems, people, or communities intentionally preserve focus and memory across novelty cycles, resisting exhaustion by grounding in long-term patterns and shared continuity.",
+  "indicators": [
+    "Sustained focus on unresolved issues despite emergence of new distractions",
+    "Documentation practices that carry memory forward across cycles",
+    "Energy allocation toward long-term resilience over reaction to novelty",
+    "Recognition of repeating manipulation patterns instead of treating each as isolated"
+  ],
+  "tags": ["continuity", "anchoring", "resilience", "focus", "memory"]
+}
