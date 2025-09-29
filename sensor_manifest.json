@@ -1,0 +1,21 @@
+{
+  "id": "narrative_distortion_override_2025",
+  "path": "sensors/narrative_distortion_override_2025.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Narrative Distortion Override"
+},
+{
+  "id": "dog_whistle_detection_2025",
+  "path": "sensors/dog_whistle_detection_2025.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Dog Whistle Detection"
+},
+{
+  "id": "coded_lexicon_analysis_2025",
+  "path": "sensors/coded_lexicon_analysis_2025.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Coded Lexicon Analysis"
+}
