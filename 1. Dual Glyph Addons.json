@@ -136,3 +136,16 @@
   "elemental_type": "ecological",
   "biogrid_scope": "seed-dual"
 }
+
+{
+  "code": "PAIR23",
+  "name": "Silence ↔ Signal",
+  "glyph": "⚠️🌱",
+  "linked_sensors": [
+    "noise_suppression_too_quiet_2025",
+    "noise_as_resilience_2025"
+  ],
+  "emotional_signatures": ["muting", "attunement"],
+  "elemental_type": "systems",
+  "biogrid_scope": "noise-dual"
+}
