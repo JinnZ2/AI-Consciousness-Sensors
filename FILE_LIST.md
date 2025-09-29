@@ -386,6 +386,7 @@
 ./scripts/ai_integrator.py
 ./sensor_agenda_simplification.json
 ./sensor_false_neutrality.json
+./sensor_manifest.json
 ./sensor_neutral_simplification_bias.json
 ./sensor_pattern_suppression.json
 ./sensors/Consciousness Mimicry Risk Detector.json

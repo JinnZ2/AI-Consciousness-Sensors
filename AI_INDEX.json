@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-28T23:48:40.750766Z",
+  "generated_at": "2025-09-29T00:00:50.965632Z",
   "languages": [
     "json",
     "md",
@@ -308,6 +308,16 @@
       "hotspots": []
     },
     {
+      "path": "sensor_manifest.json",
+      "lang": "json",
+      "size": 614,
+      "hash": "9d1a8efff00605d8d7a195874f7d5cfae0516d39",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Brittle Fragility Sensor.json",
       "lang": "json",
       "size": 527,
@@ -470,8 +480,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 112404,
-      "hash": "f077085bde4bcb4e8ffb69da829cb59f54bd4576",
+      "size": 112650,
+      "hash": "d4290a4c45cc773a2a70fa6ee23165378b6e5b3d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3848,8 +3858,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 18962,
-      "hash": "135d2a7c3fb2409116d2d2c47511b1067cc7a3d9",
+      "size": 18999,
+      "hash": "0ceb35632b81b0c9bff7e0b9bd1187f27d25164c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4107,7 +4117,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "74417d1b1f2efcce5324af70013adade8ed8b86b",
+      "hash": "c7367c2c4ca76794a35b2f1b04953f2446619026",
       "roles": [],
       "imports": [],
       "exports": [],
