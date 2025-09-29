@@ -1,0 +1,15 @@
+{
+  "id": "authenticity_leak_spin_mismatch_2025",
+  "type": "erasure_pattern",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Authenticity Leak / Spin Mismatch",
+  "description": "Detects when unrehearsed signals (e.g., micro-expressions, spontaneous reactions) contradict the planned narrative or strategic spin, exposing gaps between appearance and reality.",
+  "indicators": [
+    "Leader’s words or plans repeatedly shift in contradiction to prior statements",
+    "Public narrative frames inconsistency as intentional strategy despite evidence of surprise or confusion",
+    "Micro-expressions or body language revealing genuine, unplanned reactions",
+    "Rapid propaganda response deployed to reframe unrehearsed reactions as coherent planning"
+  ],
+  "tags": ["authenticity", "spin", "mismatch", "propaganda", "signal"]
+}
