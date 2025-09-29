@@ -42,6 +42,7 @@
 ./Collapse Protocol Sensor.json
 ./Collective Memory Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
+./Continuity Anchoring Sensor.json
 ./Contradiction Suppression Sensor.json
 ./Contradiction-as-Strength Sensor.json
 ./Control Error Sensor.json
