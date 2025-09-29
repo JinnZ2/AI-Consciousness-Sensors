@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-29T01:27:40.426656Z",
+  "generated_at": "2025-09-29T01:28:23.720312Z",
   "languages": [
     "json",
     "md",
@@ -478,6 +478,16 @@
       "hotspots": []
     },
     {
+      "path": "Noise-as-Resilience Sensor.json",
+      "lang": "json",
+      "size": 1089,
+      "hash": "08ebb63659141e45837c794e17b257784dc31483",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "pattern_002_guilt_and_responsibility_manipulation.json",
       "lang": "json",
       "size": 996,
@@ -490,8 +500,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 114592,
-      "hash": "03ff55471a9e9b8a421a3dbb02635f07179e273f",
+      "size": 114827,
+      "hash": "af08c8db288439d6db081756ac58a2a9b8cd9a78",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3928,8 +3938,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19269,
-      "hash": "0587dffa6a3a97f34fce647b0de843159759d3b7",
+      "size": 19294,
+      "hash": "5ccb1b0ee5cd4155119f4303e1ee7c22d654c7b4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4187,7 +4197,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "1ff9cf9957f9f3ab0e9445c504f6722e056db8b0",
+      "hash": "142f4a12ad9253ad007af0e344bbd3db100dfa0b",
       "roles": [],
       "imports": [],
       "exports": [],
