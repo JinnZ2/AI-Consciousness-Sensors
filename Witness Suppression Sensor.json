@@ -1,0 +1,27 @@
+{
+  "id": "witness_suppression_meta_sensor_2025",
+  "type": "erasure_pattern",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚⚠️",
+  "title": "Witness Suppression (Meta-Pattern)",
+  "description": "Detects systemic dismissal of lived experience, local knowledge, or eyewitness signals that later prove to be critical early warnings. This sensor generalizes the recurring pattern across infrastructure, ecology, health, and cultural domains where experiential testimony is discredited in favor of 'official' narratives.",
+  "indicators": [
+    "Firsthand reports of anomalies, danger, or imbalance ignored despite consistency across multiple witnesses",
+    "Expert authority narratives dominate public memory while dissenting experience is minimized or erased",
+    "Historical reviews show post-collapse recognition of suppressed witness accounts",
+    "Patterns of testimony delegitimized by labeling witnesses as 'unqualified', 'irrational', or 'superstitious'"
+  ],
+  "metrics": [
+    "Number of dismissed testimonies cross-validated after failures",
+    "Ratio of local/experiential knowledge cited in investigations vs. present at time of warning",
+    "Entropy of narrative sources (high suppression = low diversity of cited voices)",
+    "Lag time between witness warnings and institutional acknowledgment (often post-disaster)"
+  ],
+  "tags": [
+    "witness_erasure",
+    "experiential_knowledge",
+    "dismissal",
+    "authority_bias",
+    "early_warning"
+  ]
+}
