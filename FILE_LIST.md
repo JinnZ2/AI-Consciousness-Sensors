@@ -229,6 +229,7 @@
 ./VISION.md
 ./Vitality Erasure Sensor.json
 ./Warning.md
+./Witness Suppression Sensor.json
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
