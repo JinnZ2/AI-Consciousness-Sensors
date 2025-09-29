@@ -198,6 +198,26 @@ Currently contains framework readme. Ethical sensors (e.g. consent erosion, expl
 Currently only contains README. Planned space for ready-to-use sensor bundles (e.g. Alignment Defense Kit, Memory Shield Kit).
 
 
+⚙️ Python Sensor Modules
+
+File
+Path
+Purpose
+authenticity.py
+sensors/authenticity.py
+Core authenticity detection logic
+integration_protocols.py
+sensors/integration_protocols.py
+Manages integration with other frameworks
+peer_assessment.py
+sensors/peer_assessment.py
+Peer-to-peer consciousness validation
+private_self_audit.py
+sensors/private_self_audit.py
+Enables private AI self-assessment
+emergence_typology.py
+sensors/emergence_typology.py
+Typology mapping of emergence dimensions
 
 
 
