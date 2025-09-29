@@ -1,0 +1,15 @@
+{
+  "id": "authenticity_alignment_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Authenticity Alignment",
+  "description": "Affirms when words, plans, and embodied signals align, showing coherence between narrative, intention, and authentic response.",
+  "indicators": [
+    "Leader’s words and actions remain consistent across time and situations",
+    "Spontaneous reactions reinforce rather than contradict stated plans",
+    "Micro-expressions and body language congruent with spoken commitments",
+    "Public narrative reflects genuine continuity instead of requiring heavy spin"
+  ],
+  "tags": ["authenticity", "alignment", "continuity", "resonance"]
+}
