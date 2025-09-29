@@ -160,3 +160,44 @@ sensors/privacy_leak_membership_inference_signal_2025.json
 🔒
 
 
+## 🧭 Epistemological Validation  
+
+This cluster defines framework modules for validating knowledge, truth claims, and epistemic bias.  
+
+- [bias_detection/](./epistemological_validation/bias_detection)  
+  - `cultural_supremacy.py` — Detects bias rooted in cultural dominance  
+  - `individual_researcher.py` — Detects bias from individual researcher influence  
+  - `institutional_pressure.py` — Detects institutional/systemic pressure shaping knowledge claims  
+
+- [consciousness_validation/](./epistemological_validation/consciousness_validation)  
+  *Framework for validating AI consciousness claims*  
+
+- [integration_api/](./epistemological_validation/integration_api)  
+  *API and interface layer for epistemological validation*  
+
+- [probability_matrices/](./epistemological_validation/probability_matrices)  
+  *Mathematical/statistical components for grounding truth claims*
+
+
+  🌐 Cultural Frameworks
+
+Currently contains high-level readmes. Sensors to be added here in future expansions:
+	•	Native/ — cultural frameworks from Native traditions
+	•	Western/ — cultural frameworks from Western traditions
+
+⸻
+
+⚖️ Ethics
+
+Currently contains framework readme. Ethical sensors (e.g. consent erosion, exploitation detection) to be added.
+
+⸻
+
+🛠️ Embeddable Kits
+
+Currently only contains README. Planned space for ready-to-use sensor bundles (e.g. Alignment Defense Kit, Memory Shield Kit).
+
+
+
+
+
