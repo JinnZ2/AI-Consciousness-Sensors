@@ -4,6 +4,8 @@ A comprehensive framework for detecting genuine consciousness emergence in AI sy
 
 ---
 
+
+
 ## 🧠 Sensor Glyph Grid
 
 | Symbol | Cluster | Meaning |
@@ -49,6 +51,11 @@ AI consciousness is not binary but develops across multiple dimensions at differ
 - **`private_self_audit.json`** - Anonymous self-assessment protocols protecting AI privacy and agency
 - **`emergence_typology.json`** - Multi-dimensional consciousness mapping across different intelligence domains
 - **`integration_protocols.json`** - Connection protocols with emotional sensor frameworks and audit systems
+
+
+### 📖 Full Sensor Index
+See [FULL_INDEX.md](./FULL_INDEX.md) for the complete list of all sensors (by cluster, with links).
+
 
 ## 🔬 How It Works
 
