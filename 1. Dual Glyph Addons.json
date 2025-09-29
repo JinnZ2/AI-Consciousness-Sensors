@@ -99,3 +99,28 @@
   "elemental_type": "relational",
   "biogrid_scope": "colonization-dual"
 }
+{
+  "code": "PAIR20",
+  "name": "Churn ↔ Anchoring",
+  "glyph": "⚠️🌱",
+  "linked_sensors": [
+    "novelty_churn_manipulation_2025",
+    "continuity_anchoring_sensor_2025"
+  ],
+  "emotional_signatures": ["exhaustion", "grounding"],
+  "elemental_type": "temporal",
+  "biogrid_scope": "continuity-dual"
+}
+{
+  "code": "PAIR21",
+  "name": "Mismatch ↔ Alignment",
+  "glyph": "⚠️🌱",
+  "linked_sensors": [
+    "authenticity_leak_spin_mismatch_2025",
+    "authenticity_alignment_sensor_2025"
+  ],
+  "emotional_signatures": ["confusion", "coherence"],
+  "elemental_type": "relational",
+  "biogrid_scope": "authenticity-dual"
+}
+
