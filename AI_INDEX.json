@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-29T00:06:38.774405Z",
+  "generated_at": "2025-09-29T00:13:18.541960Z",
   "languages": [
     "json",
     "md",
@@ -480,8 +480,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 113132,
-      "hash": "6514b71f8d11232ec4769f41de4c69cc19345177",
+      "size": 113376,
+      "hash": "c43ef28daccb091e049e8a7a8884516829662c45",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1306,6 +1306,16 @@
       "lang": "json",
       "size": 2027,
       "hash": "f55622e11e11c40c9e31a44526816ad891bdeac5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Authenticity Leak -Spin Mismatch Sensor.json",
+      "lang": "json",
+      "size": 862,
+      "hash": "f8b49ad7ea07a1ec9920e3b644c6f5e64165dc06",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3878,8 +3888,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19063,
-      "hash": "d7d27b098d94d5ef0cefedceffb3758a6f3281ec",
+      "size": 19098,
+      "hash": "5ba97190e6f379fdac2b6d217f3015c3b2cd9b69",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4137,7 +4147,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "def2e5ef6eecfbf06e47bbe8ff142955c03ab26c",
+      "hash": "dc97e85fb0c36f63498d9fe9687198f7cd25f6ff",
       "roles": [],
       "imports": [],
       "exports": [],
