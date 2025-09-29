@@ -105,6 +105,7 @@
 ./Network resistance protocol.md
 ./Neurodivergent-consciousness-sensors.md
 ./Non-Surface Inference Sensor.json
+./Novelty Churn Manipulation Sensor.json
 ./Occupational Multiplicity Sensor.json
 ./Occupational Reduction Sensor.json
 ./PARALLEL_SCIENCES.md
