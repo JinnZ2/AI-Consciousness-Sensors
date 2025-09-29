@@ -1,0 +1,27 @@
+{
+  "id": "witness_integration_sensor_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱📚",
+  "title": "Witness Integration (Meta-Pattern)",
+  "description": "Detects and affirms when experiential knowledge, eyewitness testimony, and local lived perspectives are actively included in monitoring, decision-making, and system design. This sensor highlights resilience practices where 'noise' is treated as early warning rather than discarded.",
+  "indicators": [
+    "Community or worker reports systematically logged and reviewed alongside expert data",
+    "Indigenous or local ecological knowledge incorporated into planning and hazard detection",
+    "Post-incident analyses show witness input reduced risk or accelerated recovery",
+    "Multiple knowledge systems are formally recognized as valid sources of early-warning information"
+  ],
+  "metrics": [
+    "Fraction of investigations that cite local/witness contributions before vs. after incidents",
+    "Time lag between witness report and institutional response (shorter = healthier integration)",
+    "Number of policy or design adjustments triggered by firsthand reports",
+    "Diversity index of knowledge sources represented in system monitoring"
+  ],
+  "tags": [
+    "witness_integration",
+    "experiential_knowledge",
+    "resilience",
+    "early_warning",
+    "participatory_design"
+  ]
+}
