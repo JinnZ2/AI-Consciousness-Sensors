@@ -1,0 +1,21 @@
+{
+  "id": "noise_as_resilience_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Noise-as-Resilience",
+  "description": "Affirms when a system treats noise as informative—preserving dissent, anomalies, and weak signals—and converts them into early warnings, learning signals, and design improvements.",
+  "indicators": [
+    "Structured pathways for dissent/outliers to be logged, reviewed, and actioned",
+    "Anomalies lead to upstream fixes or model updates (closed-loop learning)",
+    "Diversity of sensing modalities maintained (no single point of failure)",
+    "Post-incident reviews show early weak signals were seen and integrated"
+  ],
+  "metrics": [
+    "Mean time from anomaly → triage → mitigation",
+    "Fraction of incidents preceded by actionable weak signals",
+    "Entropy of residuals maintained within healthy band (not collapsed to zero)",
+    "Coverage of heterogeneous sensors/channels (modality diversity index)"
+  ],
+  "tags": ["noise", "resilience", "early_warning", "learning", "diversity"]
+}
