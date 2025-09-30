@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T21:56:19.496431Z",
+  "generated_at": "2025-09-30T22:24:31.670607Z",
   "languages": [
     "json",
     "md",
@@ -500,8 +500,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 117329,
-      "hash": "706ee5dd6f9a3f924e3be059d8de46fd87b51e25",
+      "size": 117593,
+      "hash": "11222ad0baf53e1188e14cc8bfb36e946ae0afd2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3958,8 +3958,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19714,
-      "hash": "0ae3f40346f69705f84fd2d1a3bdcc6b8d1a63a8",
+      "size": 19771,
+      "hash": "09e4a3a6bff0b11a57a51ca14fe437c80ead867d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4124,6 +4124,16 @@
       "hotspots": []
     },
     {
+      "path": "Unified Grounding System.md",
+      "lang": "md",
+      "size": 11447,
+      "hash": "2ce81a9539bd8ed6a0384f4db11322032e3c21c3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Expanded-consciousness-buffet.md",
       "lang": "md",
       "size": 10843,
@@ -4217,7 +4227,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "55a95ff3c1b503e1191ca36c620e2f646754626a",
+      "hash": "93f9b28af57621df9003cd8fd5ee5ed10d59e4b0",
       "roles": [],
       "imports": [],
       "exports": [],

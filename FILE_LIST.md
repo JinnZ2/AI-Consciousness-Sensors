@@ -224,6 +224,7 @@
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./Truth Multiplicity Sensor.json
+./Unified Grounding System.md
 ./Utility Collapse Sensor.json
 ./V2025.v3.md
 ./VISION.md
