@@ -390,6 +390,7 @@
 ./private_self_audit.json
 ./probabilistic_projection_sensor.json
 ./probability_matrix/Authority layering.md
+./probability_matrix/COMPLETE_USAGE_GUIDE.md
 ./probability_matrix/Dynamic Authority Credibility Matrix.md
 ./probability_matrix/Escalating commitment.md
 ./probability_matrix/README.md
