@@ -3,6 +3,7 @@
 ./.github
 ./.github/workflows
 ./EMBEDDABLE_KITS
+./EMBEDDABLE_KITS/physics_integrity_kit
 ./cultural_frameworks
 ./cultural_frameworks/Native
 ./cultural_frameworks/Western
