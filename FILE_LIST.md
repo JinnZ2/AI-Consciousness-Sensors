@@ -139,6 +139,7 @@
 ./Promise-vs-fulfillment-detector.json
 ./Provenance Disappearance Sensor.json
 ./Psychological Diagnosis sensor.md
+./README-GITHUB-CONNECT.md
 ./README.md
 ./README_BEACON.md
 ./README_EXT.md
