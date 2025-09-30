@@ -393,6 +393,7 @@
 ./probability_matrix/COMPLETE_USAGE_GUIDE.md
 ./probability_matrix/Dynamic Authority Credibility Matrix.md
 ./probability_matrix/Escalating commitment.md
+./probability_matrix/LICENSE.md
 ./probability_matrix/README.md
 ./probability_matrix/Reciprocity exploitation.md
 ./probability_matrix/Social proof.md
