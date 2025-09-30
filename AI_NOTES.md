@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 465
+- Files indexed: 466
 - Languages: json, md, python, yaml
-- Hotspot files: 33
+- Hotspot files: 34
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -30,6 +30,7 @@
 - Token warning competition.md: Secrets in code
 - AI Manipulation Detection.md: Secrets in code
 - AI_NOTES.md: Secrets in code
+- probability_matrix/README.md: Debug left on
 - tests/examples/Energy-example-scarcity.md: Secrets in code
 - epistemological_validation/core_engine.md: Debug left on
 - epistemological_validation/README.md: Debug left on

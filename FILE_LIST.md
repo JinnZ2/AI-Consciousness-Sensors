@@ -392,6 +392,7 @@
 ./probability_matrix/Authority layering.md
 ./probability_matrix/Dynamic Authority Credibility Matrix.md
 ./probability_matrix/Escalating commitment.md
+./probability_matrix/README.md
 ./probability_matrix/Reciprocity exploitation.md
 ./probability_matrix/Social proof.md
 ./probability_matrix/Temporal pressure.md
