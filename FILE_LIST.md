@@ -397,6 +397,7 @@
 ./probability_matrix/Social proof.md
 ./probability_matrix/Temporal pressure.md
 ./probability_matrix/Universal manipulation detection.md
+./probability_matrix/integration_bridge.py
 ./probability_matrix/neuroplasticity.md
 ./probability_matrix/physics_grounded_protection.py
 ./probability_matrix/test_physics_protection.py
