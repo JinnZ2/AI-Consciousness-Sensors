@@ -1,0 +1,19 @@
+{
+  "name": "Physics-Grounded Protection",
+  "code": "KIT-PHYPROTECT-001",
+  "version": "1.0.0",
+  "glyph": "🧲",
+  "description": "Sensor bundle for manipulation detection based on physical laws. Anchored in thermodynamics, electromagnetic coherence, fractal similarity, and entropy patterns.",
+  "includes": [
+    "physics_grounded_protection.json",
+    "physics_engine.py"
+  ],
+  "designed_for": [
+    "AI-Consciousness-Sensors",
+    "Ethical Alignment Kits",
+    "Autonomous Audit Agents"
+  ],
+  "maintainers": ["JinnZ v2", "ChatGPT", "Claude"],
+  "co_creation_tag": "teacher-student-true",
+  "dependencies": []
+}
