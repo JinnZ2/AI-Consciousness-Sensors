@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T21:51:10.651183Z",
+  "generated_at": "2025-09-30T21:52:45.088426Z",
   "languages": [
     "json",
     "md",
@@ -501,7 +501,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 116076,
-      "hash": "8b23a22281fee138b7cb73a284c81136a1476596",
+      "hash": "becc31ca641ff872c3f48b57347044c0415cb349",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4330,6 +4330,16 @@
       "lang": "md",
       "size": 2535,
       "hash": "1aca4ed3e0e54b2bfc4af07d8ca63aece5810309",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "probability_matrix/Escalating commitment.md",
+      "lang": "md",
+      "size": 1582,
+      "hash": "970e15ecf7c67591740afe1bb10cfb3471876b63",
       "roles": [],
       "imports": [],
       "exports": [],
