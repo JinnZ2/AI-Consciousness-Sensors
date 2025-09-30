@@ -62,6 +62,7 @@
 ./Dual Glyph Addons.json
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
+./EMBEDDABLE_KITS/physics_integrity_kit/PhysicsGroundedProtection.glyph.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/metadata.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/physics_grounded_protection.json
 ./Emergency cognitive protocols.md
