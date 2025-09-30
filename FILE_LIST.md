@@ -393,6 +393,7 @@
 ./probability_matrix/Reciprocity exploitation.md
 ./probability_matrix/Social proof.md
 ./probability_matrix/Temporal pressure.md
+./probability_matrix/Universal manipulation detection.md
 ./probability_matrix/neuroplasticity.md
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py

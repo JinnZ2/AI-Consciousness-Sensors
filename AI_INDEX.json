@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T21:55:36.709356Z",
+  "generated_at": "2025-09-30T21:56:19.496431Z",
   "languages": [
     "json",
     "md",
@@ -500,8 +500,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 117079,
-      "hash": "c27a18b0da381e22664a9104c6c07da5fb6cc7a0",
+      "size": 117329,
+      "hash": "706ee5dd6f9a3f924e3be059d8de46fd87b51e25",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3958,8 +3958,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19671,
-      "hash": "97d2232626be3ccd67a252204a7c40f7a5e17136",
+      "size": 19714,
+      "hash": "0ae3f40346f69705f84fd2d1a3bdcc6b8d1a63a8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4217,7 +4217,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "f1f66a53467603f67a19dd76259c9f613220cadf",
+      "hash": "55a95ff3c1b503e1191ca36c620e2f646754626a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4340,6 +4340,16 @@
       "lang": "md",
       "size": 537,
       "hash": "4c84493c8cddb18f793bd977bfd8259503ec44dd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "probability_matrix/Universal manipulation detection.md",
+      "lang": "md",
+      "size": 390,
+      "hash": "edc8c8d7a5a5eed6809928168a3bc7c7735ebaf1",
       "roles": [],
       "imports": [],
       "exports": [],
