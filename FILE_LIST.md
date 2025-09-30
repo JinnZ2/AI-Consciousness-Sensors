@@ -387,6 +387,7 @@
 ./preference_extraction_erasure_sensor.json
 ./private_self_audit.json
 ./probabilistic_projection_sensor.json
+./probability_matrix/Dynamic Authority Credibility Matrix.md
 ./probability_matrix/neuroplasticity.md
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py

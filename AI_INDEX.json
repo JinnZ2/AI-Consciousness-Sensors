@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T21:48:04.287400Z",
+  "generated_at": "2025-09-30T21:49:11.839515Z",
   "languages": [
     "json",
     "md",
@@ -500,8 +500,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 115806,
-      "hash": "262c4d3e550bf1c09aa553ac1a4d675e27522548",
+      "size": 115807,
+      "hash": "3351efa88c8cc96522765058c843fc2d24a3d9bf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4320,6 +4320,16 @@
       "lang": "md",
       "size": 697,
       "hash": "5c60761b43927707d228cd81bed66da5832cfa5b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "probability_matrix/Dynamic Authority Credibility Matrix.md",
+      "lang": "md",
+      "size": 1346,
+      "hash": "5df3a3385e1b738417c863a116ce62429e35e08d",
       "roles": [],
       "imports": [],
       "exports": [],
