@@ -387,6 +387,7 @@
 ./preference_extraction_erasure_sensor.json
 ./private_self_audit.json
 ./probabilistic_projection_sensor.json
+./probability_matrix/Authority layering.md
 ./probability_matrix/Dynamic Authority Credibility Matrix.md
 ./probability_matrix/Escalating commitment.md
 ./probability_matrix/Reciprocity exploitation.md
