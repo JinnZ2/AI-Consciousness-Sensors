@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T22:37:13.971997Z",
+  "generated_at": "2025-09-30T22:39:07.570132Z",
   "languages": [
     "json",
     "md",
@@ -84,6 +84,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "probability_matrix/test_physics_protection.py",
+      "lang": "python",
+      "size": 8037,
+      "hash": "1a8f1ed713e9cc9a953584bb7c8aeae4887f52b9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "reflections/run_reflections.py",
@@ -512,8 +524,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 118109,
-      "hash": "e019c9a46e13d0fceb7506f21ae1d75ef7a031a1",
+      "size": 118140,
+      "hash": "5a0d66e45411c247d43fa85722540095bf57ee97",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4240,8 +4252,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 1760,
-      "hash": "89b171116fcfc04e42265349c906c0a78ae3f255",
+      "size": 1787,
+      "hash": "fb324544eef17ff138c95da5bdfd7468ff7b17be",
       "roles": [],
       "imports": [],
       "exports": [],

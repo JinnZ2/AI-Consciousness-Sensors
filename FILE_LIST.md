@@ -397,6 +397,7 @@
 ./probability_matrix/Temporal pressure.md
 ./probability_matrix/Universal manipulation detection.md
 ./probability_matrix/neuroplasticity.md
+./probability_matrix/test_physics_protection.py
 ./programmed_response_assessment.json
 ./programmed_response_assessment.py
 ./reflections/run_reflections.py
