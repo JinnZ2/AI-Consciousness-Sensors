@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T22:24:31.670607Z",
+  "generated_at": "2025-09-30T22:31:10.803554Z",
   "languages": [
     "json",
     "md",
@@ -13,6 +13,18 @@
       "lang": "python",
       "size": 12380,
       "hash": "d6b8a8bc73c3626e9dd713d6faab44528686d871",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "physics_grounded_protection.py",
+      "lang": "python",
+      "size": 37451,
+      "hash": "0ba6c32e8eeb5eb026cc798d01b35ee85cc66dba",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -500,8 +512,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 117593,
-      "hash": "11222ad0baf53e1188e14cc8bfb36e946ae0afd2",
+      "size": 117832,
+      "hash": "496477aed0716d12ef93854f4bab10b0bec331a5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3958,8 +3970,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19771,
-      "hash": "09e4a3a6bff0b11a57a51ca14fe437c80ead867d",
+      "size": 19801,
+      "hash": "fba0ddbeb92d1f57ee5f1cc3ec983a55c81eadef",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4227,7 +4239,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "93f9b28af57621df9003cd8fd5ee5ed10d59e4b0",
+      "hash": "43ea17b1235154967d570688c012ac8c2554c45e",
       "roles": [],
       "imports": [],
       "exports": [],

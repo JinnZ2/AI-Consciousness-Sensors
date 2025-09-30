@@ -385,6 +385,7 @@
 ./pattern_social_proof_manipulation.json
 ./pattern_temporal_manipulation.json
 ./pattern_theological_bodily_autonomy.json
+./physics_grounded_protection.py
 ./preference_extraction_erasure_sensor.json
 ./private_self_audit.json
 ./probabilistic_projection_sensor.json
