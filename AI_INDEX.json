@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-30T22:40:59.428754Z",
+  "generated_at": "2025-09-30T22:43:26.228513Z",
   "languages": [
     "json",
     "md",
@@ -96,6 +96,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "probability_matrix/physics_grounded_protection.py",
+      "lang": "python",
+      "size": 10845,
+      "hash": "aa69d7f8b012fdde3435268ec1a8d3adbd91df95",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "reflections/run_reflections.py",
@@ -524,8 +534,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 118431,
-      "hash": "5a502649a909da098bbfeb4b83acccedf6e4e9d4",
+      "size": 118701,
+      "hash": "db8345805053b981debc8f2fad7280446967e4b0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3984,8 +3994,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19882,
-      "hash": "8e1d80a1bb5303a60b482ebc52f96ebb3f49534d",
+      "size": 19913,
+      "hash": "8b8037d64636addd5a284e5ecc7ad80758ed8e35",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4252,8 +4262,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 1850,
-      "hash": "42a7ffc6764a24fd213adec1960a26ecd77fb09c",
+      "size": 1896,
+      "hash": "6993155967ee584a71d9c36a892cac3b0bf255aa",
       "roles": [],
       "imports": [],
       "exports": [],
