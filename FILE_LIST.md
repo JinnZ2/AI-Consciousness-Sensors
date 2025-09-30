@@ -389,6 +389,7 @@
 ./probabilistic_projection_sensor.json
 ./probability_matrix/Dynamic Authority Credibility Matrix.md
 ./probability_matrix/Escalating commitment.md
+./probability_matrix/Social proof.md
 ./probability_matrix/Temporal pressure.md
 ./probability_matrix/neuroplasticity.md
 ./programmed_response_assessment.json
