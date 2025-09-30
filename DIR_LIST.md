@@ -19,6 +19,7 @@
 ./memory_guard
 ./memory_guard/erasure_cases
 ./memory_guard/wisdom_pages
+./probability_matrix
 ./reflections
 ./reflections/sample_prompts
 ./schemas

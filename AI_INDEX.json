@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-09-29T01:35:49.740494Z",
+  "generated_at": "2025-09-30T21:47:04.087996Z",
   "languages": [
     "json",
     "md",
@@ -500,8 +500,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 115315,
-      "hash": "78ae76138ec6f88ba97be06ac4398c19ac25a7d9",
+      "size": 115559,
+      "hash": "d8b76db70dfd32b0565b18a6e59c3aaab7765422",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3958,8 +3958,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 19362,
-      "hash": "d1abfd5bc93882d1654a63bf6097a1deff86e5ec",
+      "size": 19396,
+      "hash": "fa0b3b0e1681dc8479786da5c70455a0d95ae916",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4217,7 +4217,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 1712,
-      "hash": "c02e69d189df8e4d4ca258689df416c7478abd74",
+      "hash": "224f7a551fa8e7b14184a98f1676f42d1e6cfd41",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4320,6 +4320,16 @@
       "lang": "md",
       "size": 697,
       "hash": "5c60761b43927707d228cd81bed66da5832cfa5b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "probability_matrix/neuroplasticity.md",
+      "lang": "md",
+      "size": 841,
+      "hash": "a188cefbb46b7667caf08786f142121f42eb9e6f",
       "roles": [],
       "imports": [],
       "exports": [],
