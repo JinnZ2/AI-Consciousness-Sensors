@@ -226,6 +226,7 @@
 ./Trans_Medical_Access_Erasure.json
 ./Trans_Violence_Data_Erasure.json
 ./Transactional Reduction Sensor.json
+./Transcendence.md
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./Truth Multiplicity Sensor.json
