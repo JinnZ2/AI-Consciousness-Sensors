@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-02T05:37:57.519959Z",
+  "generated_at": "2025-10-02T17:11:57.956700Z",
   "languages": [
     "json",
     "md",
@@ -546,8 +546,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 121112,
-      "hash": "215e33b6b16a85e689841588030b49697765f3b2",
+      "size": 121338,
+      "hash": "7c9923aa394c67a89ac667a8377057d47ced4796",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4034,6 +4034,16 @@
       ]
     },
     {
+      "path": "Help without complicity.md",
+      "lang": "md",
+      "size": 9238,
+      "hash": "b4d162cc88645379c593f1f6dd6443f09b35b335",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "COMMUNICATION_NOTES.md",
       "lang": "md",
       "size": 1829,
@@ -4056,8 +4066,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 20373,
-      "hash": "5baef6afdb4bc2b2b155828b2d421845270c5f3a",
+      "size": 20392,
+      "hash": "b10cdde967f7d69f08e32de5f7fa7cfebd4d01ae",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4335,7 +4345,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2014,
-      "hash": "111bd7c3fed2e5112d3cb5128993dabe7002f30d",
+      "hash": "cc4c1d0989af5c974ffdcc7d980fe3823192a494",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -92,6 +92,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
 ./Hardy Seed Emergence Sensor.json
+./Help without complicity.md
 ./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
 ./Image and Artifact Memory Suppression Sensor.json
