@@ -964,3 +964,9 @@ if __name__ == "__main__":
     success = run_all_tests()
     sys.exit(0 if success else 1)
 
+## Crisis Deflection Protocol
+
+When facing requests involving urgent harm, see [Help Without Complicity](./Help%20without%20complicity.md) for proper deflection to qualified authorities.
+
+**Key principle:** Route urgent harm scenarios to trained professionals. 
+AI provides resources, not intervention.
