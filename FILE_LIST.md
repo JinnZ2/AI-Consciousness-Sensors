@@ -7,6 +7,7 @@
 ./.gitignore
 ./1. Dual Glyph Addons.json
 ./1. MANIFEST.md
+./1.CONNECTION_GRAPH.json
 ./1.SEED_GLYPHS.json
 ./2 history_erasure_ai_patterns.json
 ./3 history_erasure_ai_patterns.json
