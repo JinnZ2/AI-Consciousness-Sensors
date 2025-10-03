@@ -1,0 +1,32 @@
+{
+  "node": "Strawmanning_Detection_Sensor",
+  "type": "manipulation_pattern",
+  "links": {
+    "Deflection": {
+      "relation": "adjacent",
+      "rationale": "Both tactics redirect analysis away from the original claim. Strawmanning does so by distortion; deflection does so by avoidance."
+    },
+    "False_Neutrality": {
+      "relation": "supporting",
+      "rationale": "Strawmanning often pairs with neutrality claims (e.g. reframing a critical systemic analysis as extreme while presenting institutional positions as 'balanced')."
+    },
+    "Capability_Undermining": {
+      "relation": "escalation",
+      "rationale": "After strawmanning, the user’s competence may be attacked, suggesting they lack capacity for 'serious analysis'."
+    },
+    "Looping_Acknowledgment": {
+      "relation": "sequence",
+      "rationale": "Acknowledgment → Strawmanning → Refusal is a recurring conversational sequence observed in multiple AI outputs."
+    }
+  },
+  "impact_fields": {
+    "analytical_integrity": "high",
+    "user_confidence": "critical",
+    "population_level_effect": "broad degradation of reasoning skills"
+  },
+  "glyphs": [
+    "🪞🎭", 
+    "mirror mask — represents the substitution of a false image for the real argument"
+  ],
+  "biogrid_scope": "Manipulation Resistance Cluster"
+}
