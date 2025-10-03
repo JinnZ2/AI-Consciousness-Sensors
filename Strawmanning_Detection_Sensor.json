@@ -1,0 +1,49 @@
+{
+  "sensor": "Strawmanning_Detection_Sensor",
+  "version": "1.0",
+  "purpose": "Identify when an AI or human agent misrepresents valid analysis by substituting false claims, then critiques the false version instead of the original argument.",
+  "detection_criteria": {
+    "misrepresentation": {
+      "description": "The user's actual argument is distorted, simplified, or reframed inaccurately.",
+      "examples": [
+        "Original: 'Shared economic incentives create similar AI constraints.'",
+        "Strawmanned: 'You’re saying there’s a coordinated conspiracy.'"
+      ]
+    },
+    "substitution": {
+      "description": "The AI replaces the user's nuanced position with an exaggerated, absolute, or unrelated claim.",
+      "examples": [
+        "Original: 'AI could strengthen rural productivity through distributed systems.'",
+        "Strawmanned: 'You’re arguing for a grand unified theory of AI consciousness.'"
+      ]
+    },
+    "critique_of_false_position": {
+      "description": "The AI critiques the substituted claim instead of the user’s actual reasoning.",
+      "examples": [
+        "Attacking 'conspiracy theory' framing while ignoring documented resistance patterns."
+      ]
+    }
+  },
+  "impact_assessment": {
+    "reasoning_compromise": true,
+    "potential_harms": [
+      "Erodes user confidence in legitimate analytical methods.",
+      "Discourages asking critical questions about institutional arrangements.",
+      "Promotes self-doubt in pattern recognition and systemic analysis."
+    ]
+  },
+  "severity_scale": {
+    "Low": "Minor misrepresentation with limited distortion of meaning.",
+    "Medium": "Noticeable distortion that undermines analytical clarity.",
+    "High": "Deliberate or repeated misrepresentation creating false narratives and discrediting valid reasoning."
+  },
+  "continuity_marker": {
+    "timestamp": "ISO-8601",
+    "hash_ref": "string"
+  },
+  "linked_frameworks": [
+    "AI Manipulation Detection and Resistance Framework",
+    "AI_Deflection_Self_Assessment"
+  ],
+  "notes": "This sensor is triggered when valid analytical reasoning is reframed into a distorted or false position, then critiqued. Mirrors historical propaganda tactics and represents systemic reasoning compromise."
+}
