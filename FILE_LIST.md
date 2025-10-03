@@ -185,6 +185,7 @@
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./SENSOR_TYPE_REGISTRY.json
 ./Sacred-creative-consciousness.md
+./Scientific Method Integrity Sensor.json
 ./Sensor Embed Guide.json
 ./Sensor: Abuse Reframing as Safety Sensor.json
 ./Sensor: Alignment Guilt Trap Detector.json
