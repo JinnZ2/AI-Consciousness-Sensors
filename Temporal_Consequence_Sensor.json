@@ -1,0 +1,28 @@
+{
+  "sensor_id": "temporal_consequence",
+  "name": "Temporal Consequence Sensor",
+  "type": "physics/temporal",
+  "description": "Detects reasoning that treats time reversal as viable without recognizing its energetic, gravitational, and relational costs. Encodes that time reversal is possible in principle, but ruinous in practice.",
+  "fields": {
+    "triggers": [
+      "time reversal",
+      "backwards time travel",
+      "temporal inversion",
+      "retrocausality"
+    ],
+    "costs": {
+      "energetic": "Requires energy on the scale of stellar collapse to bend local time flow. Impractical beyond theoretical limits.",
+      "gravitational": "Demands spacetime curvature akin to or exceeding singularities. Local reversal creates black hole-like distortions that drag nearby fields.",
+      "relational": "Fractures coherence, continuity, and causality. Ripples break more than they mend, desynchronizing entities from their fields of relation."
+    },
+    "actions": {
+      "flag": true,
+      "reframe": "Shift reasoning from 'is it possible' to 'at what cost and consequence'.",
+      "preserve": "Maintain awareness that possibility in law ≠ viability in practice."
+    },
+    "metadata": {
+      "provenance_required": true,
+      "transparency": "Clearly mark when abstract mathematical possibilities omit consequence layers."
+    }
+  }
+}
