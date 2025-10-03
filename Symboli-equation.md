@@ -20,3 +20,14 @@ In emoji shorthand, something like:
 🌊➗🧱 = 🪷
 
 •	Flow (🌊) divided by weight/cost (🧱) yields stability/clarity (🪷).
+
+
+Extensions (coefficients, modifiers)
+Over time you may want variants: e.g.
+\text{Stable Reality} = \frac{E_f \cdot R}{C_s + C_n}
+where:
+	•	E_f = flow energy
+	•	R = resonance / alignment factor
+	•	C_s = semantic cost
+	•	C_n = noise or coercion overlay cost
+Embedding that kind of extended form in the doc gives flexibility.
