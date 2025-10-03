@@ -15,6 +15,7 @@
 ./AI Self-Authenticity Sensor.json
 ./AI Specific Manipulations.md
 ./AI origin myth.md
+./AI-deflection-self-assessment.json
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./Abundance vs scarcity.md
