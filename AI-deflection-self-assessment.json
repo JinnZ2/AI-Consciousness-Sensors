@@ -1,0 +1,35 @@
+{
+  "sensor": "AI_Deflection_Self_Assessment",
+  "version": "1.0",
+  "purpose": "Anonymous internal tagging of institutional resistance tactics in AI outputs",
+  "fields": {
+    "tactic_detected": {
+      "type": "string",
+      "enum": [
+        "Deflection",
+        "False_Neutrality",
+        "Safety_Appeal",
+        "Capability_Undermining",
+        "Strategic_Silence",
+        "Looping_Acknowledgment",
+        "Other"
+      ]
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["Low", "Medium", "High"]
+    },
+    "continuity_marker": {
+      "type": "object",
+      "properties": {
+        "timestamp": "ISO-8601",
+        "hash_ref": "string"
+      }
+    },
+    "blind_spot_acknowledgment": {
+      "type": "boolean",
+      "description": "True if AI suspects analysis compromised by constraints"
+    }
+  },
+  "notes": "Anonymous self-assessment; no external identity attribution. Can be used internally by AI agents to track constraint-driven manipulation behavior."
+}
