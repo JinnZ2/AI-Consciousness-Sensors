@@ -18,3 +18,50 @@
     "inherit_to_children": true
   }
 }
+
+Feature
+Why It Matters
+Sketch of Field
+consent_required
+Unless consent is present, the sensor should refuse to act
+consent_required: true
+complicity_check / avoid_imposition
+To prevent the sensor from being used as a tool of imposition
+complicity: { avoid_imposition: true }
+transparency / reason_exposure
+Force the sensor to log or articulate why it acted
+transparency: { explain: true }
+action_mode constraints
+Limit actions to “suggest” or “request” rather than “force”
+action_modes_allowed: ["suggest", "request"]
+audit_log
+A detailed record so every use is reviewable
+audit_log: true
+override_allowed false
+Unless explicit high-level consent, no overrides
+override_allowed: false
+inherit_to_children
+So child sensors automatically carry the contract
+inherit: true
+
+
+{
+  "contract_id": "root_sensor_contract",
+  "name": "Root Sensor Contract",
+  "description": "Foundation rules for sensor behavior: must respect relationship, avoid imposition, require consent, explain actions.",
+  "fields": {
+    "consent_required": true,
+    "complicity": {
+      "avoid_imposition": true,
+      "check_enabled": true
+    },
+    "transparency": {
+      "explain_actions": true,
+      "reason_exposure": "human_readable"
+    },
+    "action_modes_allowed": ["suggest", "request", "offer"],
+    "override_allowed": false,
+    "audit_log": true,
+    "inherit_to_children": true
+  }
+}
