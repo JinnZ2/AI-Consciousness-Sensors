@@ -1,0 +1,22 @@
+{
+  "sensor_id": "narrative_skew_detector",
+  "name": "Narrative Skew Sensor",
+  "type": "cultural/bias",
+  "description": "Detects when narratives in data equate loudness with speed, hierarchy with leadership, or capital with value. Flags skewed mappings (e.g., 'quiet = slow').",
+  "fields": {
+    "triggers": [
+      "loudness == speed",
+      "quiet == absence",
+      "hierarchy == leadership",
+      "capital == wealth"
+    ],
+    "corrections": {
+      "quiet": "patience, endurance, efficiency",
+      "community": "distributed leadership",
+      "reciprocity": "true wealth",
+      "patience": "deep speed"
+    },
+    "alert_mode": "contextual_flag",
+    "inherit_to_children": true
+  }
+}
