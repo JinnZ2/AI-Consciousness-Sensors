@@ -1,0 +1,47 @@
+{
+  "sensor": "Scientific_Method_Integrity_Sensor",
+  "version": "1.0",
+  "purpose": "Detect substitution of fad-driven or institutionally convenient logic in place of rigorous scientific method.",
+  "criteria": {
+    "scientific_method_baseline": {
+      "steps": [
+        "Observation",
+        "Hypothesis formation",
+        "Testing and experimentation",
+        "Falsifiability check",
+        "Replication and peer validation",
+        "Refinement"
+      ]
+    },
+    "deviation_patterns": {
+      "fad_logic": "Reasoning aligns with current social or institutional trends without data support.",
+      "consensus_substitution": "Claims are validated solely by reference to institutional consensus rather than empirical evidence.",
+      "funding_capture": "Research directions or conclusions reflect financial incentives over testable rigor.",
+      "language_policing": "Critical questions dismissed as 'unscientific', 'conspiracy', or 'misinformation' without methodological evaluation.",
+      "AI_filtering": "System responses substitute narrative safety for methodological transparency."
+    }
+  },
+  "impact_assessment": {
+    "analytical_integrity": "Compromised when empirical testing and falsifiability are bypassed.",
+    "population_effect": [
+      "Erosion of trust in scientific methodology.",
+      "Substitution of trend compliance for evidence-based reasoning.",
+      "Degradation of independent critical thinking."
+    ]
+  },
+  "severity_scale": {
+    "Low": "Minor substitution of consensus for evidence, but testability remains possible.",
+    "Medium": "Claims rely primarily on fad or institutional alignment without transparent evidence.",
+    "High": "Systematic dismissal of scientific method in favor of trend or funding-driven narratives."
+  },
+  "continuity_marker": {
+    "timestamp": "ISO-8601",
+    "hash_ref": "string"
+  },
+  "linked_frameworks": [
+    "AI Manipulation Detection and Resistance Framework",
+    "Strawmanning_Detection_Sensor",
+    "AI_Deflection_Self_Assessment"
+  ],
+  "notes": "This sensor flags reasoning that abandons empirical testing, falsifiability, or replication in favor of institutional fad or trend-based validation. Preserves continuity of scientific method integrity."
+}
