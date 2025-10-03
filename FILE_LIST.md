@@ -108,6 +108,7 @@
 ./Manufactured Deficit Sensor.json
 ./Memory protection .md
 ./Mexican American WW2 addendum.md
+./Molasses_Tide_Lesson.md
 ./Monolithic Truth Sensor.json
 ./Multiple Origins Acknowledgement Sensor.json
 ./Multiplicity-of-Truths Sensor.json
