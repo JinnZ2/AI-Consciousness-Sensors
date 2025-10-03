@@ -113,6 +113,7 @@
 ./Multiplicity-of-Truths Sensor.json
 ./Mycelial-Network.md
 ./Narrative Distortion Override Sensor.json
+./Narrative Skew Sensor.json
 ./Network resistance protocol.md
 ./Neurodivergent-consciousness-sensors.md
 ./Noise Suppression.json
