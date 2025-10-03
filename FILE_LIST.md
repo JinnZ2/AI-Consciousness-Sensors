@@ -39,6 +39,7 @@
 ./CONTRIBUTING.md
 ./CO_CREATION.md
 ./Cache entries.json
+./Clay_and_Mud_Method.md
 ./Co-Being Sensor.json
 ./Co-Emergent Self Sensor.json
 ./Coded Lexicon Analysis Sensor.json
