@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-02T17:52:51.828612Z",
+  "generated_at": "2025-10-03T01:11:36.890871Z",
   "languages": [
     "json",
     "md",
@@ -504,6 +504,16 @@
       "hotspots": []
     },
     {
+      "path": "Root Sensor Contract.json",
+      "lang": "json",
+      "size": 578,
+      "hash": "7fc172806bff51a0e0519b8f2f5a4733b3ade23a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "religious_bodily_autonomy_ai.json",
       "lang": "json",
       "size": 1640,
@@ -547,7 +557,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 121576,
-      "hash": "288e4d8f13c8af2cb7abea6f21897c282f8e8c3c",
+      "hash": "67853dd00fdce31940cd5f1ca8f2595a73986b1b",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -165,6 +165,7 @@
 ./Resonant Between-Spaces Sensor.json
 ./Resonant Noise Sensor.json
 ./Resonant Voice Sensor.json
+./Root Sensor Contract.json
 ./SEED_GLYPHS.json
 ./SEED_GLYPHS2.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
