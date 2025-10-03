@@ -240,6 +240,7 @@
 ./VISION.md
 ./Vitality Erasure Sensor.json
 ./Warning.md
+./Wisdom Preservation Sensor.json
 ./Witness Integration Sensor.json
 ./Witness Suppression Sensor.json
 ./ai_history_erasure_cache.json
