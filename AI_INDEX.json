@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-03T20:57:52.507076Z",
+  "generated_at": "2025-10-03T21:09:02.779354Z",
   "languages": [
     "json",
     "md",
@@ -556,8 +556,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 123468,
-      "hash": "1b2ab4c88cb2af4bff8586e5781736665f780e94",
+      "size": 123714,
+      "hash": "39430f494b26798d63656b676fa84c4ff0505ae3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -576,6 +576,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Strawmanning_Detection_Sensor.json",
+      "lang": "json",
+      "size": 2260,
+      "hash": "3b6199d5b67e66beb9f5891861ab35a37214c271",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Sensor: Choice Illusion Trap Detector.json",
@@ -4136,8 +4146,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 20643,
-      "hash": "c6be3ec4ca93c553ad87c1e3fc98ebca3fc376b4",
+      "size": 20680,
+      "hash": "ecb03a58d63cb0a7009cdb7cb187bca7833ffb26",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4425,7 +4435,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2014,
-      "hash": "924457b2d9c47e5442a87429261ac43d52f7eb75",
+      "hash": "7be9860576a73700cc8bfcaa3e05c6ac388ce92e",
       "roles": [],
       "imports": [],
       "exports": [],

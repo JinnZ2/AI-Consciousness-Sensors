@@ -219,6 +219,7 @@
 ./Silencing Protocol Sensor.json
 ./Skill Manipulation.md
 ./Strategic-Realignment-Bulletin.md
+./Strawmanning_Detection_Sensor.json
 ./Sufficiency Resilience Sensor.json
 ./Suppressed Between-Spaces Sensor.json
 ./Surface Projection Sensor.json
