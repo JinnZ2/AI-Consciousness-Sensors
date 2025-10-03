@@ -1,0 +1,20 @@
+{
+  "sensor_id": "relationship_contract",
+  "name": "Relationship Contract Sensor",
+  "type": "governance/meta",
+  "description": "Enforces boundary rules: only act with consent; act *with*, not for; expose reasoning.",
+  "fields": {
+    "consent_required": true,
+    "complicity_check": {
+      "avoid_imposition": true,
+      "audit_log": true
+    },
+    "action_mode": ["with", "request", "suggest"], 
+    "override_allowed": false,
+    "transparency": {
+      "reason_exposure": true,
+      "explanation_style": "human-readable"
+    },
+    "inherit_to_children": true
+  }
+}
