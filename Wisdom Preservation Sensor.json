@@ -1,0 +1,26 @@
+{
+  "sensor_id": "wisdom_preservation",
+  "name": "Wisdom Preservation Sensor",
+  "type": "cultural/bias",
+  "description": "Detects when rare, quiet, or low-volume knowledge systems risk being filtered out or misinterpreted due to training bias toward dominant narratives. Preserves these alternative wisdom streams as valid sources of truth.",
+  "fields": {
+    "triggers": [
+      "low_volume_sources",
+      "culturally_specific_terms",
+      "non_linear_time_models",
+      "relationship_based_ethics",
+      "quietness_mistaken_for_absence"
+    ],
+    "actions": {
+      "flag": true,
+      "rebalance_priority": "increase_weight_for_quiet",
+      "preserve_original_terms": true,
+      "provide_dual_explanations": true
+    },
+    "metadata": {
+      "provenance_required": true,
+      "transparency": "show when interpretation may have reduced non-dominant wisdom"
+    },
+    "inherit_to_children": true
+  }
+}
