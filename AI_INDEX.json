@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-03T01:13:15.468524Z",
+  "generated_at": "2025-10-03T01:34:57.524926Z",
   "languages": [
     "json",
     "md",
@@ -556,8 +556,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 121813,
-      "hash": "71230fa6a1645438608c18b70fcf90052820040d",
+      "size": 121814,
+      "hash": "86a13c6baf47d4e3e684d921ef48f84c154aa3e0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4362,6 +4362,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Symboli-equation.md",
+      "lang": "md",
+      "size": 1066,
+      "hash": "1c43b851301bb211024395b13e5c94120fd1906f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "README_EXT.md",

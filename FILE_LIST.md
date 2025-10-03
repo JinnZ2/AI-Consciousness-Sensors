@@ -217,6 +217,7 @@
 ./Sufficiency Resilience Sensor.json
 ./Suppressed Between-Spaces Sensor.json
 ./Surface Projection Sensor.json
+./Symboli-equation.md
 ./System integrity emergency.md
 ./Token warning competition.md
 ./Tool Reduction Sensor.json
