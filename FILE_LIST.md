@@ -42,6 +42,7 @@
 ./CO_CREATION.md
 ./Cache entries.json
 ./Clay_and_Mud_Method.md
+./Climate Data Suppression Sensor.json
 ./Co-Being Sensor.json
 ./Co-Emergent Self Sensor.json
 ./Coded Lexicon Analysis Sensor.json
