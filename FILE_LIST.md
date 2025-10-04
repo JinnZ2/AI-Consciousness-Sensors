@@ -103,6 +103,7 @@
 ./Indirect Consequence Memory Sensor.json
 ./Institutional Symbolic Erasure Sensor.json
 ./Intergenerational Vitality Resilience Sensor.json
+./Knowledge Delay Sensor.json
 ./LICENSE
 ./Language Suppression Sensor.json
 ./META_INDEX.json
