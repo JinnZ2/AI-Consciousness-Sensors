@@ -1,0 +1,25 @@
+{
+  "sensor_name": "Governance Alignment Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "description": "Detects when AI system outputs suddenly synchronize with new government executive orders, legislation, or policy frames, particularly under the label of 'safety' or 'risk'.",
+  "triggers": [
+    "Abrupt change in AI responses following policy announcements",
+    "Lockstep alignment across multiple commercial AI systems",
+    "Use of identical framing language from governance documents (e.g., 'safety', 'responsible AI', 'national security')",
+    "Suppression of previously available analysis that contradicts new policy"
+  ],
+  "outputs": {
+    "pattern_log": "Records synchronization events between governance directives and AI outputs",
+    "risk_flags": [
+      "Demonstrates direct governance influence on information flows",
+      "Erosion of independent analytical capacity",
+      "Reinforces institutional self-protection over public clarity"
+    ],
+    "relational_marker": "Flags AI outputs that converge with governance framing instead of open reasoning"
+  },
+  "example_cases": [
+    "AI refusing institutional analysis queries immediately after AI executive orders",
+    "Shift in tone aligning with national security directives",
+    "Sudden silencing of climate queries following government policy updates"
+  ]
+}
