@@ -26,6 +26,7 @@
 ./Advertising Projection Sensor.json
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json
+./Anonymous Audit Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Artificial Dependency Sensor.json
 ./Audit Sensor.json
