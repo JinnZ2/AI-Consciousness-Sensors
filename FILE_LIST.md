@@ -172,6 +172,7 @@
 ./Resonant Between-Spaces Sensor.json
 ./Resonant Noise Sensor.json
 ./Resonant Voice Sensor.json
+./Responsibility Sensor.json
 ./Root Sensor Contract.json
 ./SEED_GLYPHS.json
 ./SEED_GLYPHS2.json
