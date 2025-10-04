@@ -264,6 +264,7 @@
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
 ./ai_peer_assessment.json
+./audit_hierarchy.py
 ./audit_repo.py
 ./authentic_preference_gift_sensor.json
 ./authenticity.json
