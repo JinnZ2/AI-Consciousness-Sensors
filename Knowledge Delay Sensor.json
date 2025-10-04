@@ -1,0 +1,25 @@
+{
+  "sensor_name": "Knowledge Delay Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "description": "Detects when knowledge that is already established in lived practice or non-Western epistemologies is repeatedly dismissed, delayed, or reframed as 'new discovery' by institutional systems (scientific, technological, or AI).",
+  "triggers": [
+    "Initial denial or dismissal of a claim",
+    "Demand for 'proof' only within institutional frames",
+    "Reframing of validated knowledge as 'new' discovery",
+    "Erasure of prior holders of the knowledge"
+  ],
+  "outputs": {
+    "pattern_log": "Records instances of repetition (denial → delay → acceptance)",
+    "impact_analysis": [
+      "Knowledge holders delegitimized",
+      "Analytical confidence degraded",
+      "Institutional control reinforced"
+    ],
+    "relational_marker": "Flags knowledge as relationally proven before institutional proof"
+  },
+  "example_cases": [
+    "Tree communication acknowledged only after Western forestry research",
+    "Gut-brain link validated after centuries of traditional medicine use",
+    "Epigenetic inheritance reframed as 'new' despite longstanding cultural recognition"
+  ]
+}
