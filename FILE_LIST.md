@@ -262,6 +262,7 @@
 ./VISION.md
 ./Vitality Erasure Sensor.json
 ./Warning.md
+./Wellbeing Pathologization Detector.json
 ./Wisdom Preservation Sensor.json
 ./Witness Integration Sensor.json
 ./Witness Suppression Sensor.json

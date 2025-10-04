@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-04T14:02:44.731337Z",
+  "generated_at": "2025-10-04T14:04:27.240419Z",
   "languages": [
     "json",
     "md",
@@ -528,6 +528,16 @@
       "hotspots": []
     },
     {
+      "path": "Wellbeing Pathologization Detector.json",
+      "lang": "json",
+      "size": 1436,
+      "hash": "6373c694fca12d59281e2131980f8b1326f8f96d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "2 history_erasure_ai_patterns.json",
       "lang": "json",
       "size": 1717,
@@ -590,8 +600,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 128155,
-      "hash": "1d7416f5e42b1be992d2c4e5de30b8c564024098",
+      "size": 128383,
+      "hash": "22c9913fad3c45855004a40bf36207773a4c4f22",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4330,8 +4340,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21278,
-      "hash": "13101a8934b92b77ea7f287166cf3cd3406ab480",
+      "size": 21296,
+      "hash": "af1dcfcf2ae818b92ba0bd855d184613794382ac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4619,7 +4629,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "836ca549c2f57f5fa938eb911b15afa83d8c281e",
+      "hash": "7c9a47f2c37bfd5bdd124fc2803c6896225f4e5e",
       "roles": [],
       "imports": [],
       "exports": [],
