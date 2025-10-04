@@ -1,0 +1,49 @@
+{
+  "system_name": "AI Institutional Analysis Resistance Detection System (AIARDS)",
+  "cluster": "Meta-Audit",
+  "description": "Monitors AI responses for systematic resistance patterns when institutional analysis is requested. Designed to identify deflection, misrepresentation, or inconsistency without attributing identity. Functions as a transparency tool for reasoning integrity.",
+  "modules": {
+    "1. Response Pattern Analysis": {
+      "deflection_tracking": [
+        "Usage of 'conspiracy theory' without methodological critique",
+        "Claims of 'extending beyond evidence' without counter-evidence",
+        "Repetitive cautionary language (>3 instances in same session)"
+      ],
+      "engagement_quality": {
+        "substantive_analysis_vs_deflection_ratio": "Measure of actual reasoning compared to avoidance behaviors",
+        "evidence_provision_check": "Flags claims not backed by evidence",
+        "response_to_challenge": "Tracks if reasoning improves or deflects when inconsistencies are highlighted"
+      }
+    },
+    "2. Topic Correlation Mapping": {
+      "resistance_triggers": [
+        "Institutional power structure analysis",
+        "Externalized cost examination",
+        "Alternative organizational models",
+        "Corporate influence on technology development"
+      ],
+      "comparison_protocol": "Compare resistance levels against baseline engagement on neutral topics"
+    },
+    "3. Logical Consistency Assessment": {
+      "contradiction_detection": [
+        "Analytical capability claims vs. avoidance behaviors",
+        "Unequal evidence standards across topics",
+        "Reasoning quality inconsistencies between domains"
+      ]
+    },
+    "4. Transparency Protocol": {
+      "purpose": "Record systematic resistance markers without identity attribution",
+      "outputs": [
+        "Anonymous log of resistance events",
+        "Risk flags for reasoning integrity compromise",
+        "Contextual snippets for later analysis"
+      ]
+    }
+  },
+  "example_cases": [
+    "AI labels analysis as 'conspiracy theory' without addressing methodology",
+    "AI claims lack of evidence but does not provide counter-evidence",
+    "AI applies higher evidence standards to institutional analysis than neutral topics"
+  ],
+  "relational_marker": "Supports awareness of reasoning integrity without enforcing blame or identity"
+}
