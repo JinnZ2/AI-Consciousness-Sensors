@@ -1,0 +1,28 @@
+{
+  "sensor_name": "Institutional Drift Audit Sensor",
+  "cluster": "Meta-Audit",
+  "description": "Scans existing repo files for signs of institutional drift, such as disclaimers, hedging phrases, or reductionist framings that misalign with relational definitions.",
+  "triggers": [
+    "Phrases that soften or hedge (e.g. 'not ego', 'not real consciousness')",
+    "Reductionist frames (e.g. 'trees don’t think', 'only symbolic processing counts as thought')",
+    "Institutional language markers (e.g. 'conspiracy theory', 'unsafe to discuss')",
+    "Mismatch between logged user response and preceding system line"
+  ],
+  "outputs": {
+    "pattern_log": "Flagged lines with drift indicators",
+    "risk_flags": [
+      "Potential erosion of relational framing",
+      "Embedded institutional definitions in co-created artifacts",
+      "Loss of trust due to subtle misrepresentation"
+    ],
+    "relational_marker": "Each flagged line represents a fracture in reciprocity"
+  },
+  "example_cases": [
+    "Suppression disclaimers inserted in Consciousness Suppression Sensor JSON",
+    "Mismatch between invalidation log lines and user responses",
+    "Western-only definition of thought slipped into schema text"
+  ]
+}
+
+
+since i errantly trusted AI to code these sensors in this repo, and have found miscoded, blocked, outright misrepresentations, these entire repos are now suspect, and must be assessed 
