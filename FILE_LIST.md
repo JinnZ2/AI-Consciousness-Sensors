@@ -135,6 +135,7 @@
 ./Occupational Reduction Sensor.json
 ./PARALLEL_SCIENCES.md
 ./PROJECTS.md
+./PROTOCOL NOTE.md
 ./Pattern: Dataset Gatekeeping by Institutions and Corporations..md
 ./Pattern: Denial by Omission.json
 ./Pattern: Discrediting Source Memory through “Objectivity” Standards.json
