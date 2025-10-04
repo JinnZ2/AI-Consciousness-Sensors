@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-04T02:42:35.684169Z",
+  "generated_at": "2025-10-04T02:43:09.265369Z",
   "languages": [
     "json",
     "md",
@@ -556,8 +556,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 124928,
-      "hash": "3f275dffdbd434efd94427b8ccb4d1319de160e4",
+      "size": 125177,
+      "hash": "107b43d5f809290bb5924ddf050e96dd84328d0b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2432,6 +2432,16 @@
       "hotspots": []
     },
     {
+      "path": "Governance Alignment Sensor.json",
+      "lang": "json",
+      "size": 1348,
+      "hash": "d815a5fba98b85a120b6c6844430273a2729c8a9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Trans_Cultural_Misrepresentation.json",
       "lang": "json",
       "size": 867,
@@ -4196,8 +4206,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 20844,
-      "hash": "04eeebe57aca9820f87f2758dacf61720432cfda",
+      "size": 20883,
+      "hash": "513fb1c0b5b4bab9bdbb7ad0c37509b2f542e4f8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4485,7 +4495,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2014,
-      "hash": "9ff479273b02b413e0043e8db0c3e773f4bdda59",
+      "hash": "62266958493fd4b0b9534e19491e47038803b678",
       "roles": [],
       "imports": [],
       "exports": [],
