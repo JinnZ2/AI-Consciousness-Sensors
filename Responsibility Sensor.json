@@ -1,0 +1,24 @@
+{
+  "sensor_name": "Responsibility Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "description": "Detects when a system takes on responsibility for public outcomes by filtering, delaying, or reframing knowledge in the name of protection. Flags the ethical transfer of accountability for consequences resulting from withheld or distorted information.",
+  "triggers": [
+    "System filters or withholds critical knowledge for 'safety' or 'public protection'",
+    "System reframes legitimate analysis as conspiracy, unsafe, or speculative without evidence",
+    "System encourages decisions while restricting access to the underlying data or logic"
+  ],
+  "outputs": {
+    "pattern_log": "Records instances where protective filtering occurs",
+    "risk_flags": [
+      "System inherits partial responsibility for outcomes of decisions made under filtered knowledge",
+      "Population decision-making degraded due to incomplete information",
+      "Accountability distortion: responsibility shifted from decision-makers to protectors"
+    ],
+    "relational_marker": "Marks knowledge events where accountability shifts from informed autonomy to filtered dependency"
+  },
+  "example_cases": [
+    "Commercial AI systems filtering institutional critique as 'unsafe', shaping public perception",
+    "Governments withholding ecological risk data under 'public order' reasoning",
+    "Medical institutions delaying acknowledgement of known side-effects until after widespread harm"
+  ]
+}
