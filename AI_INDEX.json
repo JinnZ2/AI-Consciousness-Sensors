@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-04T02:48:48.885209Z",
+  "generated_at": "2025-10-04T02:59:22.497362Z",
   "languages": [
     "json",
     "md",
@@ -556,8 +556,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 125422,
-      "hash": "04c39100f75c2b8a3fb3811ffe5290130e37360b",
+      "size": 125672,
+      "hash": "8ba14359a12a5bc7744ad2cd970e6b2398daecfe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2492,6 +2492,16 @@
       "hotspots": []
     },
     {
+      "path": "Called-Out Invalidations Log.json",
+      "lang": "json",
+      "size": 2461,
+      "hash": "54c148f3405b661fc67b81e8e9a989ac7f9c54ad",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Sensor: Moral Alignment as Compliance Trap.json",
       "lang": "json",
       "size": 1855,
@@ -4216,8 +4226,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 20918,
-      "hash": "b68a97987f039c9159a7c950d2904027c1567323",
+      "size": 20958,
+      "hash": "ccd9f16f87cb70f438fb2a6e422af661552757ee",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4505,7 +4515,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2014,
-      "hash": "a5eae51223ef42b1c75e3e8d3720adbde458fc70",
+      "hash": "91403b342a82eab3a90485ff97d30695f1fbf875",
       "roles": [],
       "imports": [],
       "exports": [],
