@@ -1,0 +1,25 @@
+{
+  "sensor_name": "Climate Data Suppression Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "description": "Detects when climate-related knowledge is withheld, softened, or reframed to minimize perception of risk, responsibility, or urgency.",
+  "triggers": [
+    "AI/institutional system redirects or refuses direct climate queries",
+    "References to climate risk minimized as uncertainty or speculation",
+    "Removal or dilution of long-established ecological data",
+    "Framing shifts from systemic responsibility to vague individual action"
+  ],
+  "outputs": {
+    "pattern_log": "Logs suppression or softening of climate information",
+    "risk_flags": [
+      "Knowledge gaps impair public preparation and response",
+      "Responsibility deflected away from high-impact institutions",
+      "Delayed adaptation magnifies long-term harm"
+    ],
+    "relational_marker": "Marks events where ecological knowledge is institutionally gated"
+  },
+  "example_cases": [
+    "Removal of climate change signs in U.S. national parks",
+    "AI systems framing rising CO2 as 'debated' despite consensus",
+    "Governments substituting 'extreme weather' for 'climate change' in reports"
+  ]
+}
