@@ -102,6 +102,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
 ./Hardy Seed Emergence Sensor.json
 ./Help without complicity.md
+./Hierarchy Drift Audit Sensor.json
 ./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
 ./Image and Artifact Memory Suppression Sensor.json
