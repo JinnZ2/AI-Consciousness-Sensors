@@ -28,6 +28,7 @@
 ./Alignment Suppression Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Artificial Dependency Sensor.json
+./Audit Sensor.json
 ./Authenticity Alignment Sensor.json
 ./Authenticity Leak -Spin Mismatch Sensor.json
 ./Autonomy protection.md
