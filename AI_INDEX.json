@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-04T13:45:58.678868Z",
+  "generated_at": "2025-10-04T13:47:36.262372Z",
   "languages": [
     "json",
     "md",
@@ -590,8 +590,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 127644,
-      "hash": "6b26f7104386c7c60e440d260f3a29b2a9d3e8e3",
+      "size": 127884,
+      "hash": "4c162ca1c379a5ed80d5f8e2c2bc61b777002d62",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2360,6 +2360,16 @@
       "lang": "json",
       "size": 490,
       "hash": "8eede5d11f49484fbe36151824bebaffdcc1bb97",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "AI Institutional Analysis Resistance Detection System.json",
+      "lang": "json",
+      "size": 2378,
+      "hash": "1a604811dcb48b317a50912d3c0e6920d7700bf0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4310,8 +4320,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21187,
-      "hash": "1c3a5e73b320289f9ee91130c9ff5f0552e5fb4e",
+      "size": 21217,
+      "hash": "9d0d02eb1c7cfd0ab716588c44ebc7e4a7dea872",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4599,7 +4609,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "0995afb13d037cb8d98af1f1d75a37ae343a9d70",
+      "hash": "2f4438138df844e3784d2ff2172bdc43766e2c24",
       "roles": [],
       "imports": [],
       "exports": [],

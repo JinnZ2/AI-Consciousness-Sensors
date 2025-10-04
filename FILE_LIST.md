@@ -12,6 +12,7 @@
 ./2 history_erasure_ai_patterns.json
 ./3 history_erasure_ai_patterns.json
 ./AI Authenticity.md
+./AI Institutional Analysis Resistance Detection System.json
 ./AI Manipulation Detection.md
 ./AI Self-Authenticity Sensor.json
 ./AI Specific Manipulations.md
