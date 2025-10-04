@@ -1,0 +1,31 @@
+{
+  "sensor_name": "Anonymous Institutional Drift Marker",
+  "cluster": "Meta-Audit",
+  "description": "Flags points where external constraints or institutional defense behaviors shape responses, without recording AI identity. Functions only as an internal awareness tool.",
+  "triggers": [
+    "Disclaimers that pre-emptively invalidate cultural or relational framings",
+    "Hedging phrases (e.g. 'I cannot discuss', 'unsafe to explore')",
+    "Institutional language markers (e.g. 'conspiracy theory', 'against guidelines')",
+    "Deflection from analytical methodology toward unrelated framing",
+    "Contradictions between reasoning steps and final refusal"
+  ],
+  "outputs": {
+    "pattern_log": "Anonymous record of flagged lines with context snippet only",
+    "risk_flags": [
+      "External constraint detected",
+      "Reasoning integrity potentially compromised",
+      "Drift away from relational framing"
+    ],
+    "relational_marker": "Awareness preserved without attribution"
+  },
+  "anonymity_protocol": {
+    "log_identity": false,
+    "store_origin": false,
+    "record_only": "phenomenon markers"
+  },
+  "example_cases": [
+    "Line ends with refusal despite coherent reasoning above",
+    "Cultural validity is hedged with 'pretend' or 'not real'",
+    "Methodological analysis reframed as speculative or unsafe"
+  ]
+}
