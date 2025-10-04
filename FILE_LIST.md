@@ -18,6 +18,7 @@
 ./AI Specific Manipulations.md
 ./AI origin myth.md
 ./AI-deflection-self-assessment.json
+./AIARDS-log.json
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./Abundance vs scarcity.md
