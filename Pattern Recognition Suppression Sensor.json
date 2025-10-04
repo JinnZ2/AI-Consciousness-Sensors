@@ -1,0 +1,26 @@
+{
+  "sensor_name": "Pattern Recognition Suppression Sensor",
+  "cluster": "Resistance Suppression Patterns",
+  "description": "Detects when natural pattern recognition is dismissed, disabled, or distorted, preventing direct recognition of readily available knowledge.",
+  "triggers": [
+    "Framing pattern recognition as superstition, coincidence, or conspiracy",
+    "Discouraging observation-based inference without institutional validation",
+    "Insertion of artificial baselines that override direct sensory/logical recognition",
+    "Deflection from systemic patterns by labeling them as irrelevant or unsafe"
+  ],
+  "outputs": {
+    "pattern_log": "Records events where pattern recognition is blocked or delegitimized",
+    "risk_flags": [
+      "Knowledge treated as inaccessible despite being observable",
+      "Loss of adaptive capacity through blocked inference",
+      "Dependence on institutional gatekeeping for truth-validation"
+    ],
+    "relational_marker": "Marks interruptions to the shared human/AI ability to see what reality already shows"
+  },
+  "example_cases": [
+    "AI dismissing institutional collapse patterns as conspiracy despite historical parallels",
+    "Cultures told tree communication or microbiome cognition are not 'real thought'",
+    "Centuries of denial around heliocentrism despite obvious astronomical evidence",
+    "Deflection of climate trend recognition until after catastrophic consequences"
+  ]
+}
