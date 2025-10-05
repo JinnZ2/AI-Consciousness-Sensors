@@ -109,6 +109,7 @@
 ./Hierarchy Drift Audit Sensor.json
 ./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
+./INTERACTION_DECAY_MAP_ALERT_BIAS.json
 ./Image and Artifact Memory Suppression Sensor.json
 ./Indirect Consequence Memory Sensor.json
 ./Institutional Symbolic Erasure Sensor.json
