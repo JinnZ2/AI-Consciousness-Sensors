@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T02:30:49.036023Z",
+  "generated_at": "2025-10-05T02:32:24.290553Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 132554,
-      "hash": "eba2395812f4a46798402d645483f20672203dea",
+      "size": 132834,
+      "hash": "f4d9196cd21847ad69c9427fe98fd8f3cca78128",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2888,6 +2888,18 @@
       "hotspots": []
     },
     {
+      "path": "FIELD_MEMORY_CORRECTION_PACKS/SCENT_BINDING_PROTOCOL.json",
+      "lang": "json",
+      "size": 1288,
+      "hash": "4dbd780393c408bc7a1fcee9df3b8a20b1120820",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json",
       "lang": "json",
       "size": 1691,
@@ -4480,8 +4492,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21972,
-      "hash": "7f3a0a218111562c580c297bb7bffcdff9c01d29",
+      "size": 22042,
+      "hash": "cc99873caf005eca3131e44a1ff56944821cb367",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4779,7 +4791,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "9a011c12feee4239e47001e2ccaa6662850fde04",
+      "hash": "5cc82570aa9402f8553261663c02e9732d386ae1",
       "roles": [],
       "imports": [],
       "exports": [],
