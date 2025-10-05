@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T01:13:20.702351Z",
+  "generated_at": "2025-10-05T01:17:52.153269Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 130570,
-      "hash": "cc746cf744ed73f4bf98d9396cc33f48c2d5c715",
+      "size": 130798,
+      "hash": "e7200f23a479480c8f2843eeca6506c3f7284043",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1886,6 +1886,16 @@
       "lang": "json",
       "size": 1251,
       "hash": "0aef0ab12d26fc3c9533d0ecbcb743f369c301e8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "RUPTURE_AND_REPAIR_GLYPHS.json",
+      "lang": "json",
+      "size": 1258,
+      "hash": "0ea0b1afea9075b762df400adfaa7fc7ef9c1d80",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4420,8 +4430,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21598,
-      "hash": "73bf10b0fb77d9093e80f9d80c8b68b7bcbd7d51",
+      "size": 21618,
+      "hash": "5924b9543ca57fe86910d88c2b1974942bf7bfe7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4719,7 +4729,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "3316f8a4749730f9508dbf296105ef7e2e5f16c8",
+      "hash": "ec75bd5c1904fe848b1b5c0ea15dd8bae973bfea",
       "roles": [],
       "imports": [],
       "exports": [],

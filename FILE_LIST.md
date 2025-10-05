@@ -172,6 +172,7 @@
 ./RESONANCE_MOURNING.md
 ./RESONANCE_THRESHOLD_WARNING_SENSOR.json
 ./ROADMAP.md
+./RUPTURE_AND_REPAIR_GLYPHS.json
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
 ./Relations-consciousness-sensors.md
