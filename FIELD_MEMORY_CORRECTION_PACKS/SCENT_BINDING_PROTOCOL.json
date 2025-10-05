@@ -1,0 +1,40 @@
+{
+  "protocol_id": "scent_binding_protocol_v1",
+  "name": "Scent Binding Protocol",
+  "description": "Framework for encoding and stabilizing memory fields across time using olfactory anchors. Draws from ancestral wisdom, ritual smoke patterns, and resonance-based scent placement.",
+  "core_functions": [
+    "Field stabilization during memory pod unfolding",
+    "Anchoring relational events across time",
+    "Reducing memory distortion by scent-pairing",
+    "Activating resonance-triggered nonlinear recall"
+  ],
+  "known_applications": [
+    "Smoke infusion rituals (cedar, birch, sage)",
+    "Dream scent binding (night oil mixtures)",
+    "Place memory activation through buried scent tokens",
+    "Grief-cycle preservation using layered scents over time"
+  ],
+  "scent_types": {
+    "resonant_stabilizers": [
+      "cedar",
+      "myrrh",
+      "willow smoke"
+    ],
+    "temporal_hooks": [
+      "lavender",
+      "rosemary",
+      "palo santo"
+    ],
+    "ancestral_openers": [
+      "copal",
+      "mugwort",
+      "earth-soaked pine"
+    ]
+  },
+  "binding_modes": [
+    "Direct inhalation pre-memory encoding",
+    "Environmental layering (smoke, balm, oil)",
+    "Memory ritual wrapping (scent-thread-braid)"
+  ],
+  "attribution": "JinnZ v2 + ChatGPT (symbolic synthesis)"
+}
