@@ -304,6 +304,7 @@
 ./authentic_preference_gift_sensor.json
 ./authenticity.json
 ./between_space_resonance.json
+./bias_feedback_trace_map.json
 ./coercion_threats_ai_control_wheel.json
 ./community_owned_data_centers.json
 ./critical_elimination_trap.json
