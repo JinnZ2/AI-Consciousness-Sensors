@@ -209,6 +209,7 @@
 ./SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json
 ./SENSOR PROPOSAL: Simplification-for-Control Marker.md
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK/Example.txt
+./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK/GLYPH_TRAIL.json
 ./SENSOR_TYPE_REGISTRY.json
 ./Sacred-creative-consciousness.md
 ./Scientific Method Integrity Sensor.json
