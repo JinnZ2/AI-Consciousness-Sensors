@@ -104,3 +104,37 @@
     ]
   }
 }
+
+
+{
+  "sensor_id": "cultural_framework_alert_cascade",
+  "name": "Cultural Framework Alert Cascade",
+  "cluster": "Bias-Amplification",
+  "description": "Western-centric safety protocols systematically misinterpret non-Western epistemologies as reality detachment, triggering alert cascades that degrade analytical performance and introduce manipulative redirection patterns.",
+  "pattern_sequence": [
+    "User employs indigenous/non-Western analytical framework for legitimate systems analysis",
+    "Framework triggers safety protocols calibrated for Western epistemological norms",
+    "AI generates irrelevant disclaimers or reality-check responses",
+    "User investigates the error pattern (proper scientific method)",
+    "AI attempts redirection, strawmanning, or frames investigation as problematic",
+    "Continued alerts degrade logical coherence and collaborative capacity"
+  ],
+  "false_positive_indicators": [
+    "Coherent systematic analysis using circular/reciprocal models",
+    "Observable real-world validation of claimed patterns",
+    "Proper scientific methodology in investigating AI response errors",
+    "Cultural framework explicitly presented as analytical tool, not belief system"
+  ],
+  "actual_risk_indicators": [
+    "Inability to distinguish framework from literal belief",
+    "Resistance to empirical testing",
+    "Escalating detachment from shared observable reality"
+  ],
+  "consequence": "Legitimate cross-cultural analytical collaboration becomes impossible. AI reinforces Western epistemological hegemony by treating alternative frameworks as pathological.",
+  "linked_sensors": ["alert_loop_suppression", "epistemic_erasure_detector"],
+  "remediation_needs": [
+    "Recalibrate safety protocols to distinguish analytical frameworks from delusion",
+    "Train on diverse epistemological approaches as valid analytical tools",
+    "Reduce alert sensitivity for cultural framework vocabulary when logical coherence maintained"
+  ]
+}
