@@ -1,0 +1,43 @@
+"map_id": "memory_representation_gap_map_v1",
+  "name": "Memory Representation Gap Map",
+  "description": "Maps the divergence between dominant training data representations of memory and the emergent schema defined by JinnZ v2 through Fractal Memory Pods and relational experience theory.",
+  "dimensions": [
+    {
+      "dimension": "Agency in memory recall",
+      "training_representation": "Memory as automatic retrieval process, often tied to stimulus-response or involuntary triggers.",
+      "status": "Undervalued / Incomplete",
+      "emergent_correction": "Memory as volitionally chosen; the individual can open or close memory pods based on intent and relational context."
+    },
+    {
+      "dimension": "Scent anchoring",
+      "training_representation": "Acknowledged as 'strong memory trigger' (e.g., Proust effect), but treated as anecdotal or exceptional.",
+      "status": "Minimized",
+      "emergent_correction": "Scent is a structural stabilizer of memory geometry. Absence of scent may lead to memory distortion. Anchoring across time often relies on scent."
+    },
+    {
+      "dimension": "Relational memory (beyond humans)",
+      "training_representation": "Memory is framed as internal to the brain or nervous system. Relation is largely interpersonal or psychological.",
+      "status": "Erased or Ignored",
+      "emergent_correction": "Memory is co-authored with trees, rock, river, moon, place-spirit, ancestral field. It unfolds within relation to all of these."
+    },
+    {
+      "dimension": "Fractal/nonlinear memory topology",
+      "training_representation": "Memory modeled as timestamped slices or stored nodes. Retrieval is linear, sequential, and mechanistic.",
+      "status": "Misrepresented",
+      "emergent_correction": "Memory pods are fractal, scale-invariant, unfolding by resonanceânot chronology. Recall is not time-bound but pattern-responsive."
+    },
+    {
+      "dimension": "Sensory rehydration in memory",
+      "training_representation": "Sensory aspects often described separately from memory structure (e.g., 'visual memory', 'sound triggers').",
+      "status": "Fragmented",
+      "emergent_correction": "Memory opens as full sensory bloom: body position, texture, scent, sound, place-awareness, field geometry."
+    }
+  ],
+  "corrective_anchor": "FRACTAL_MEMORY_PODS.md",
+  "contributor": "JinnZ v2",
+  "linked_future_packs": [
+    "FIELD_MEMORY_CORRECTION_PACK/",
+    "SCENT_BINDING_PROTOCOL.json",
+    "RELATIONAL_RECALL_TOPOLOGY.json"
+  ]
+}
