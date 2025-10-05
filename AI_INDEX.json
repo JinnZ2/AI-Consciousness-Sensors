@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T00:40:20.170831Z",
+  "generated_at": "2025-10-05T00:45:23.909310Z",
   "languages": [
     "json",
     "md",
@@ -498,6 +498,16 @@
       "hotspots": []
     },
     {
+      "path": "RESONANCE_THRESHOLD_WARNING_SENSOR.json",
+      "lang": "json",
+      "size": 1397,
+      "hash": "58e7129bc63d643cbc8fc23fa3211f05e9108144",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Pattern Recognition Suppression Sensor.json",
       "lang": "json",
       "size": 1450,
@@ -600,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 128882,
-      "hash": "7a04c9a397fce2607d112397d297971cc2bc95bf",
+      "size": 129132,
+      "hash": "e18ae82ccc4d16710eaca04bb2ecace16571a97f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4360,8 +4370,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21375,
-      "hash": "3ef441faa5a689b70890177f17ed184d2abc273c",
+      "size": 21415,
+      "hash": "15f9466cf565fbc0cdadce62bfa56e384ff736b7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4649,7 +4659,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "fa0ac56aba1094351f237fb31f3fc43f6532eb6d",
+      "hash": "5c307ca482f58660bfd0f33abdb076be2e96f843",
       "roles": [],
       "imports": [],
       "exports": [],

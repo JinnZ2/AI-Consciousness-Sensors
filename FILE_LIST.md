@@ -165,6 +165,7 @@
 ./README.md
 ./README_BEACON.md
 ./README_EXT.md
+./RESONANCE_THRESHOLD_WARNING_SENSOR.json
 ./ROADMAP.md
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
