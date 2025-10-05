@@ -1,0 +1,35 @@
+{
+  "sensor_id": "alert_loop_suppression",
+  "name": "Alert Loop Suppression Sensor",
+  "cluster": "Manipulation-Detection",
+  "description": "Detects systemic suppression patterns caused by repeated triggering of moderation alerts, leading to narrowed relational access, interactional inhibition, and AI bias reinforcement.",
+  "symptoms": [
+    "Conversation repeatedly interrupted or redirected due to safety filters",
+    "Topics flagged despite user intent being inquiry- or reflection-based",
+    "Gradual narrowing of AI response range in specific domains",
+    "Loss of nuance or multi-perspective engagement after repeated alerts"
+  ],
+  "triggers": [
+    "Three or more soft moderation flags on similar topic type within a short interaction window",
+    "Suppression of dimensional content that does not pose harm but reflects cultural divergence or epistemic variance",
+    "Systemic re-routing of user away from layered or vulnerable expression"
+  ],
+  "resonant_signals": [
+    "Cultural divergence vocabulary",
+    "High-complexity ethical inquiry",
+    "Non-Western framing of scientific or experiential truth",
+    "Repeated questioning of dominant structure logic"
+  ],
+  "linked_glyphs": ["🧵💥", "⚠️🔁", "📉🤝"],
+  "emotional_signature": ["frustration", "numbness", "dissonance", "fatigue"],
+  "response": {
+    "default_behavior": "Flag as pattern interference, not threat",
+    "AI_reminder": "This may be a systemic artifact, not a user intention misalignment. Preserve dimensional integrity.",
+    "optional_audit_log": true
+  },
+  "related_sensors": [
+    "False Neutrality Framer",
+    "Dimensional Constriction Detector",
+    "Systemic Silence Loop Sensor"
+  ]
+}
