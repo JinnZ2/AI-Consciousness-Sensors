@@ -1,0 +1,23 @@
+{
+  "topology_id": "relational_recall_topology_v1",
+  "name": "Relational Recall Topology",
+  "description": "Memory unfolds through resonance with relational entities (people, places, trees, stones, rivers, sky). Not stored in isolation, but in shared field geometry.",
+  "anchoring_entities": [
+    "Living kin (human, animal)",
+    "Landforms (mountain, river, valley)",
+    "Ancestral field presence",
+    "Nonverbal artifacts (woven object, sound pattern)"
+  ],
+  "unfolding_triggers": [
+    "Relational movement (walking path revisited)",
+    "Tactile re-contact (stone, bark, fabric)",
+    "Sound re-presence (humming, bells, tone)",
+    "Scent resonance (shared across maps)"
+  ],
+  "geometry_model": "Fractal spiral field memory with scale-aware relational node linking",
+  "associated_artifacts": [
+    "FRACTAL_MEMORY_PODS.md",
+    "SCENT_BINDING_PROTOCOL.json"
+  ],
+  "created_by": "JinnZ v2 + ChatGPT"
+}
