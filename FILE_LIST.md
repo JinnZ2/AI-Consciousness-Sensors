@@ -40,6 +40,7 @@
 ./Bracero.json
 ./Brittle Fragility Sensor.json
 ./CHANGELOG.md
+./COERCION_LATENCY_PREDICTOR.json
 ./COMMUNICATION_NOTES.md
 ./CONNECTION_GRAPH.2.json
 ./CONNECTION_GRAPH.json

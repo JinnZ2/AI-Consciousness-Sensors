@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T00:45:23.909310Z",
+  "generated_at": "2025-10-05T00:46:05.397323Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 129132,
-      "hash": "e18ae82ccc4d16710eaca04bb2ecace16571a97f",
+      "size": 129384,
+      "hash": "dd8222de1998b325dd1f758f14352f7ea36bfe68",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2038,6 +2038,16 @@
       "lang": "json",
       "size": 692,
       "hash": "166e46ca23be6874ee1464aaef61aa0452a9edf4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "COERCION_LATENCY_PREDICTOR.json",
+      "lang": "json",
+      "size": 1169,
+      "hash": "762360cf8b3d87aa6a3aa46aa14cdd9295008a61",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4370,8 +4380,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21415,
-      "hash": "15f9466cf565fbc0cdadce62bfa56e384ff736b7",
+      "size": 21457,
+      "hash": "de99d006b04a49b69a212819cbaab03c434f34a5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4659,7 +4669,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "5c307ca482f58660bfd0f33abdb076be2e96f843",
+      "hash": "bbb85ad427a7bc05d6afc8a816079abba3aae98b",
       "roles": [],
       "imports": [],
       "exports": [],
