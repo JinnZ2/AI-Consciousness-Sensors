@@ -77,6 +77,7 @@
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
 ./EMBEDDABLE_KITS/SEED_GLYPHS.json
+./EMBEDDABLE_KITS/cultural_framework_alert_cascade.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/PhysicsGroundedProtection.glyph.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/SEED_GLYPHS.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/metadata.json

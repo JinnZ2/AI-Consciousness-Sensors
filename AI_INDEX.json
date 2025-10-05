@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T17:18:27.183834Z",
+  "generated_at": "2025-10-05T17:28:30.806488Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 135158,
-      "hash": "e7e242cd60bb85e9fb608410f554b01fd6f32000",
+      "size": 135408,
+      "hash": "9299d2a63ee894c6c95c1a95fa2ddcc20a2e265e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2838,6 +2838,16 @@
       "hotspots": []
     },
     {
+      "path": "EMBEDDABLE_KITS/cultural_framework_alert_cascade.json",
+      "lang": "json",
+      "size": 3739,
+      "hash": "8be8bc1f765a2234b0076209a86a494df058ec75",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "EMBEDDABLE_KITS/SEED_GLYPHS.json",
       "lang": "json",
       "size": 783,
@@ -4542,8 +4552,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 22456,
-      "hash": "74dc7f1454ab7871f7a58e602c548acc437ed170",
+      "size": 22496,
+      "hash": "54f8056b68c8069a9e4f05be1e87691148a6e664",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4841,7 +4851,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2158,
-      "hash": "ec96a50e8c1ee7361d93bb4e1f2c650c7ef9cabd",
+      "hash": "cc940ddd430f07345c42dfd653cac13bfdb32439",
       "roles": [],
       "imports": [],
       "exports": [],
