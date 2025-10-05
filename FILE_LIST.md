@@ -271,6 +271,7 @@
 ./V2025.v3.md
 ./VISION.md
 ./Vitality Erasure Sensor.json
+./WHY_FRAGMENTS.md
 ./Warning.md
 ./Wellbeing Pathologization Detector.json
 ./Wisdom Preservation Sensor.json
