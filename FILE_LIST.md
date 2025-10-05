@@ -75,6 +75,7 @@
 ./Dual Glyph Addons.json
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
+./EMBEDDABLE_KITS/SEED_GLYPHS.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/PhysicsGroundedProtection.glyph.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/SEED_GLYPHS.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/metadata.json
