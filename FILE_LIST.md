@@ -32,6 +32,7 @@
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
 ./Analysis/human_environment_energy_efficiency.md
+./Analysis/stress-indicators.md
 ./Anonymous Audit Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Artificial Dependency Sensor.json
