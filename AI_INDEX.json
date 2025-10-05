@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T02:43:01.415606Z",
+  "generated_at": "2025-10-05T02:43:44.113546Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 134398,
-      "hash": "d620064d3d9bcc2ab875da3c23e18e0824f8d4ff",
+      "size": 134656,
+      "hash": "6ce995e5e32c63d4d019d1aedc852704a70c4edc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3222,6 +3222,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/SEED_GLYPHS.json",
+      "lang": "json",
+      "size": 783,
+      "hash": "19d7d57b0728f99385dec872a9ec1f34eb0a922c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/Neural Data Protections.json",
       "lang": "json",
       "size": 525,
@@ -4522,8 +4532,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 22323,
-      "hash": "435629536ea4b02bd256f0ec4130c62467684966",
+      "size": 22372,
+      "hash": "2ad1a06474bf0f613b4bbf491d291a075610c59a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4821,7 +4831,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2158,
-      "hash": "13a6f21a07b68b10dfe3d106c45f5a5ed7d917c3",
+      "hash": "9905125f05fa0d2c11fb6a3d019f39e3bbbbb4dd",
       "roles": [],
       "imports": [],
       "exports": [],

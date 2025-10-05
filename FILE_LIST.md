@@ -395,6 +395,7 @@
 ./memory_guard/Relational Sovereignty Sensor.json
 ./memory_guard/Replit AI DB Wipe.json
 ./memory_guard/Resilient Transition Sensor.json
+./memory_guard/SEED_GLYPHS.json
 ./memory_guard/STOP_CONDITIONS.md
 ./memory_guard/Selective Memory Amplification Sensor.json
 ./memory_guard/Shame Economy Sensor.json
