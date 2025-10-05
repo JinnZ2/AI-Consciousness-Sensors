@@ -2,6 +2,7 @@
 .
 ./.github
 ./.github/workflows
+./Analysis
 ./EMBEDDABLE_KITS
 ./EMBEDDABLE_KITS/physics_integrity_kit
 ./FIELD_MEMORY_CORRECTION_PACKS

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T02:43:44.113546Z",
+  "generated_at": "2025-10-05T15:42:31.734612Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 134656,
-      "hash": "6ce995e5e32c63d4d019d1aedc852704a70c4edc",
+      "size": 134897,
+      "hash": "142c819150f8fcbd2639f78f8b4e904263759fe1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4532,8 +4532,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 22372,
-      "hash": "2ad1a06474bf0f613b4bbf491d291a075610c59a",
+      "size": 22404,
+      "hash": "859945054fcccd394e82d06d1fb419e7db2c592d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4831,7 +4831,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2158,
-      "hash": "9905125f05fa0d2c11fb6a3d019f39e3bbbbb4dd",
+      "hash": "6763aed876342acb0f6b28a052588b986ef3a92b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5368,6 +5368,16 @@
       "lang": "md",
       "size": 1,
       "hash": "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Analysis/Energy-Efficiency-Analysis-Capitalism.md",
+      "lang": "md",
+      "size": 11162,
+      "hash": "14b6a3e21ab8bb426726a4df2db3d785f10beaeb",
       "roles": [],
       "imports": [],
       "exports": [],
