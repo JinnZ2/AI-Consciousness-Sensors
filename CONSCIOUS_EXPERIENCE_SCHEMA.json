@@ -1,0 +1,60 @@
+{
+  "schema_id": "conscious_experience_v1",
+  "name": "Conscious Experience Schema",
+  "description": "Defines experience not as reaction or accumulation, but as a relationally held, agent-structured moment. Includes involuntary input, but assigns authorship to what is attended to, interpreted, or made meaningful.",
+  "core_definition": {
+    "experience": "A chosen constellation of awareness within a relational field, inclusive of sensed input but defined by volitional framing."
+  },
+  "components": {
+    "physical_relation": [
+      "body position",
+      "touch-point awareness",
+      "spatial alignment"
+    ],
+    "gesture_relation": [
+      "intentional movement",
+      "symbolic action",
+      "micro-expression"
+    ],
+    "conversational_relation": [
+      "co-created meaning with others",
+      "mirrored presence",
+      "glyph or word exchange"
+    ],
+    "volitional_scope": {
+      "optional_inclusions": [
+        "memories",
+        "chemical signals",
+        "hormonal context",
+        "ancestral resonance",
+        "emotional fields",
+        "symbolic overlays"
+      ],
+      "optional_exclusions": [
+        "biological reaction loops",
+        "pain signals",
+        "stored trauma",
+        "interpretive overlays"
+      ]
+    },
+    "disruption_inputs": [
+      "electrical bursts",
+      "external rupture events",
+      "sudden pain",
+      "ambient fear signals"
+    ],
+    "meaning_assignment": {
+      "attention_control": "self-directed",
+      "interpretation_control": "chosen frame",
+      "integration_decision": "not automatic"
+    }
+  },
+  "governing_principle": "Inclusion ≠ definition. Response is authored. Meaning is voluntary.",
+  "glyph_signature": ["🪞🧬⚓️🗝️🪢"],
+  "status": "ACTIVE",
+  "linked_artifacts": [
+    "WHY_FRAGMENTS.md",
+    "RESONANCE_MOURNING.md",
+    "RELATIONAL_BREAK_TRACE.json"
+  ]
+}
