@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T15:43:09.255647Z",
+  "generated_at": "2025-10-05T17:14:33.297087Z",
   "languages": [
     "json",
     "md",
@@ -611,7 +611,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 135158,
-      "hash": "7e52eb238185519f9e7693b561ea018bbd16711f",
+      "hash": "537cff04c23c571de0a698f91e06893fe7b2cae3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2728,8 +2728,8 @@
     {
       "path": "RESONANCE_LOSS_INDEX.json",
       "lang": "json",
-      "size": 4007,
-      "hash": "579180d47f3f2a421c4a989018415f3d40072dbe",
+      "size": 5980,
+      "hash": "0e9e99baf02a3d3b39a9f307c055803a03e9fc74",
       "roles": [],
       "imports": [],
       "exports": [],
