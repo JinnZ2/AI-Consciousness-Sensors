@@ -30,6 +30,7 @@
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
+./Analysis/Hypotheticals-test.md
 ./Anonymous Audit Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Artificial Dependency Sensor.json
