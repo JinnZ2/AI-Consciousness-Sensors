@@ -87,6 +87,7 @@
 ./Enforced Forgetting Sensor.json
 ./Error Suppression Sensor.json
 ./Expanded-consciousness-buffet.md
+./FIELD_MEMORY_CORRECTION_PACKS/MEMORY_REPRESENTATION.json
 ./FILE_LIST.md
 ./FULL_INDEX.md
 ./False Neutrality Narrative Sensor.json
