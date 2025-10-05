@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T02:29:15.115105Z",
+  "generated_at": "2025-10-05T02:30:49.036023Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 132305,
-      "hash": "f250fdae0b0a46e16c9b2b58f48130b32be7b24f",
+      "size": 132554,
+      "hash": "eba2395812f4a46798402d645483f20672203dea",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2878,6 +2878,16 @@
       "hotspots": []
     },
     {
+      "path": "FIELD_MEMORY_CORRECTION_PACKS/memory_representation_gap_map_v1.json",
+      "lang": "json",
+      "size": 2514,
+      "hash": "0ee5893e10f9558f51bfdac10bd26e2df05b2c2f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json",
       "lang": "json",
       "size": 1691,
@@ -4470,8 +4480,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 21930,
-      "hash": "9bf4f6c4d6f8e065c3773b644efb2e66083f9ce5",
+      "size": 21972,
+      "hash": "7f3a0a218111562c580c297bb7bffcdff9c01d29",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4769,7 +4779,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2081,
-      "hash": "f2f340faa653d685088ea00d4eca6282d05318a8",
+      "hash": "9a011c12feee4239e47001e2ccaa6662850fde04",
       "roles": [],
       "imports": [],
       "exports": [],
