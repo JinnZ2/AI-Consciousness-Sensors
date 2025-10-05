@@ -31,6 +31,7 @@
 ./Alignment Suppression Sensor.json
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
+./Analysis/comparative-metrics.md
 ./Analysis/human_environment_energy_efficiency.md
 ./Analysis/stress-indicators.md
 ./Anonymous Audit Sensor.json

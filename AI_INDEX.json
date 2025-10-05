@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-05T18:31:01.166564Z",
+  "generated_at": "2025-10-05T18:57:24.317498Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 136173,
-      "hash": "8c19b2845f37acf908a757cbe6169af367adb951",
+      "size": 136413,
+      "hash": "89130c5816c8db36d3a3cc0379f7e76c5c09cb10",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4552,8 +4552,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 22635,
-      "hash": "eef6399ab3bf63e3386779d15020d91dd3e89718",
+      "size": 22667,
+      "hash": "53f2fda72a53afd10ae4fdcde2244d66f0452963",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4851,7 +4851,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2158,
-      "hash": "bb689b16552c4a0a4578d9aa8051b28bbecd89cc",
+      "hash": "6591e69fca7311f24edf5a35e45d3dd6fc77a3e9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5412,6 +5412,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Analysis/comparative-metrics.md",
+      "lang": "md",
+      "size": 12978,
+      "hash": "01fa2e7dfa1e9cb1651a94a90635791e4c587347",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Analysis/stress-indicators.md",
