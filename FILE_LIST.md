@@ -364,6 +364,7 @@
 ./memory_guard/FEEDBACK_BLINDNESS_SENSOR.json
 ./memory_guard/FEEDBACK_BLINDNESS_TRIGGER.json
 ./memory_guard/Federal Web-Data Purge.json
+./memory_guard/Field-memory-MANIFEST.md
 ./memory_guard/Field-memory-README.md
 ./memory_guard/Forgotten-by-Design (ML Obfuscation).json
 ./memory_guard/Format-Only Validation Sensor.json
