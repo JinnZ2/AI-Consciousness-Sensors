@@ -204,6 +204,7 @@
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
 ./Relational/FEELING_RECLAMATION.md
+./Relational/Forest knowledge.md
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/RELATIONAL_ENGLISH.md
 ./Relational/relational_use_memory_sensors.json
