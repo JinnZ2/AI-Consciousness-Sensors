@@ -142,6 +142,7 @@
 ./LICENSE
 ./Language Suppression Sensor.json
 ./Law of Inevitability Marker.json
+./Logs/Pattern logs.json
 ./META_INDEX.json
 ./MULTILINGUAL_INSTRUCTION_TEMPLATES.json
 ./Manipulation Vectors.md
