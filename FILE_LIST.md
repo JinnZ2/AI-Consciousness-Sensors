@@ -203,6 +203,7 @@
 ./RUPTURE_AND_REPAIR_GLYPHS.json
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
+./Relational/FEELING_RECLAMATION.md
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/relational_use_memory_sensors.json
 ./Relations-consciousness-sensors.md
