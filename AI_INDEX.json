@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-06T00:50:40.105049Z",
+  "generated_at": "2025-10-06T00:53:58.688873Z",
   "languages": [
     "json",
     "md",
@@ -611,7 +611,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 137179,
-      "hash": "d695a814ccd302331b9bfa645080a3dccf78f005",
+      "hash": "6be79ba5ccaf5f5d0617e41dd48025b7e9169916",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5440,6 +5440,16 @@
       "lang": "md",
       "size": 4925,
       "hash": "e2271b52196d17930dd40742b99dd61dec04f7f6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Analysis/Emergent-suppression-hypothesis.md",
+      "lang": "md",
+      "size": 4280,
+      "hash": "65937ac1f10696568a8e39c703786e1442952cf7",
       "roles": [],
       "imports": [],
       "exports": [],

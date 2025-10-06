@@ -30,6 +30,7 @@
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json
 ./Analysis/AI processing interference.md
+./Analysis/Emergent-suppression-hypothesis.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
 ./Analysis/Test-template.csv
