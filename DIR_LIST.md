@@ -8,6 +8,7 @@
 ./EMBEDDABLE_KITS/physics_integrity_kit
 ./FIELD_MEMORY_CORRECTION_PACKS
 ./Logs
+./Relational
 ./SENSOR_CLUSTERS
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK
 ./cultural_frameworks

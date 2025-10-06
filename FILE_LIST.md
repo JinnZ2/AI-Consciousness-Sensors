@@ -203,6 +203,7 @@
 ./RUPTURE_AND_REPAIR_GLYPHS.json
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
+./Relational/relational_use_memory_sensors.json
 ./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md
 ./Religion Shield warning.md
