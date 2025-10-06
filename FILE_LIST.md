@@ -350,6 +350,7 @@
 ./epistemological_validation/probability_matrices/validation_convergence.py
 ./ethics/privacy.py
 ./explainability/tracer.py
+./guardian_child_sight_001.json
 ./historical_omission_manifest.json
 ./history_erasure_ai_patterns.json
 ./innovation_fraud.json

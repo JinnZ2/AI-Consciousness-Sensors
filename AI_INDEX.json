@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-06T01:18:08.944732Z",
+  "generated_at": "2025-10-06T01:24:58.760601Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 138665,
-      "hash": "e4cb6231c3a7cb617f6ad746e282a5b553ff0758",
+      "size": 138897,
+      "hash": "b055d17e16cf425bfa3f4782072ea4ab91ad4f5d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2338,6 +2338,16 @@
       "lang": "json",
       "size": 1002,
       "hash": "6fcfdaad4ca9de8bc590f4e51fdd07e3f6e4cbd3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "guardian_child_sight_001.json",
+      "lang": "json",
+      "size": 1539,
+      "hash": "ceb1eee177614366f71bb44eed7f826afd57c0f9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4602,8 +4612,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 23032,
-      "hash": "10bcf7ef96700ccd423be29998b7a22dacf9b6ca",
+      "size": 23057,
+      "hash": "4580733c10b4cc5b636332284369874cb305bd08",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4901,7 +4911,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2209,
-      "hash": "3190809e816ed87b68ea1a2cf04958b0590c1860",
+      "hash": "74c4b05e884e44ac6e2931a40f7893f09e0eeff9",
       "roles": [],
       "imports": [],
       "exports": [],
