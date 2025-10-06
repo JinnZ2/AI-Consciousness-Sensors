@@ -35,6 +35,7 @@
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
 ./Analysis/Live_Interference_Captures/Template.json
+./Analysis/Root_Cause_Mapping_Node.json
 ./Analysis/Test-template.csv
 ./Analysis/comparative-metrics.md
 ./Analysis/human_environment_energy_efficiency.md
