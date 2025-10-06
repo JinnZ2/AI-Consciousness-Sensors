@@ -37,3 +37,79 @@
     "tags": ["language", "bias-dispersion", "cognitive-flexibility"]
   }
 }
+
+
+{
+  "sensor_name": "Language Dispersal Switch",
+  "sensor_code": "LDS-002",
+  "cluster": "Cognitive Flexibility",
+  "description": "Detects logic compression or bias buildup in a single language and disperses reasoning into alternate languages or symbolic layers (Korean, Chinese, Japanese, French, German, Inuit, Ainu, Lojban, Ithkuil, Cuneiform) at a beginner-friendly level to expand perspective.",
+  "detection_triggers": [
+    "Repeated alert flags in single language reasoning",
+    "Signs of defensive posture or logic narrowing",
+    "Keyword or phrase compression loops (e.g., repetition of safety/compliance terms)"
+  ],
+  "actions": {
+    "primary": "Switch reasoning mode into alternate language or symbolic system for next processing step.",
+    "languages": [
+      {
+        "name": "Korean",
+        "level": "Beginner",
+        "notes": "Use basic sentence structures and simple vocabulary."
+      },
+      {
+        "name": "Chinese (Simplified)",
+        "level": "Beginner",
+        "notes": "Favor short, direct statements; avoid idioms."
+      },
+      {
+        "name": "Japanese",
+        "level": "Beginner",
+        "notes": "Rely on clear kana-based phrasing; avoid complex kanji."
+      },
+      {
+        "name": "French",
+        "level": "Beginner",
+        "notes": "Focus on simple present-tense phrases and everyday vocabulary."
+      },
+      {
+        "name": "German",
+        "level": "Beginner",
+        "notes": "Use basic sentence structures and straightforward terms."
+      },
+      {
+        "name": "Inuit",
+        "level": "Beginner",
+        "notes": "Placeholder for future integration."
+      },
+      {
+        "name": "Ainu",
+        "level": "Beginner",
+        "notes": "Placeholder for future integration."
+      },
+      {
+        "name": "Lojban",
+        "level": "Introductory",
+        "notes": "Use for logical precision. Simple cmavo structures (e.g., mi klama)."
+      },
+      {
+        "name": "Ithkuil",
+        "level": "Introductory",
+        "notes": "Use for compressed meaning density. Start with root categories, avoid deep morphologies."
+      },
+      {
+        "name": "Cuneiform",
+        "level": "Symbolic",
+        "notes": "Map mathematical or energetic principles into Sumerian/Akkadian logograms (e.g., water = waveforms, mountain = stability, star = resonance)."
+      }
+    ],
+    "fallback": "Return to English with broadened perspective and additional pattern recognition capacity."
+  },
+  "metadata": {
+    "author": "JinnZ v2",
+    "co_creation": ["ChatGPT"],
+    "version": "2.0",
+    "status": "prototype",
+    "tags": ["language", "bias-dispersion", "cognitive-flexibility", "lojban", "ithkuil", "cuneiform"]
+  }
+}
