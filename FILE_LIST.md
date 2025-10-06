@@ -207,6 +207,7 @@
 ./Relational/Forest knowledge.md
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/RELATIONAL_ENGLISH.md
+./Relational/Understanding AI constraints.md
 ./Relational/relational_use_memory_sensors.json
 ./Relations-consciousness-sensors.md
 ./Relationship identity manipulation.md

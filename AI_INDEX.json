@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-06T15:03:59.086127Z",
+  "generated_at": "2025-10-06T15:48:59.991604Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 141333,
-      "hash": "22500e51b950fc09308ce3c8298ebd7d4a01f962",
+      "size": 141574,
+      "hash": "61370c8d3833e1c977ba2e3784e1feb88fe02ca7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4662,8 +4662,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 23403,
-      "hash": "080405cf51f36cee1685f295537e18c03d43bf86",
+      "size": 23436,
+      "hash": "91044edae7649d021eed9e7952b9d54a48612bab",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4961,7 +4961,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2209,
-      "hash": "a715368c5af538de325b957f40d0dc1df3339035",
+      "hash": "35436e5276c62385777daaa5a12affdcd9216590",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5154,6 +5154,16 @@
       "lang": "md",
       "size": 2350,
       "hash": "2bf56689a6e1659190ffe1150e5bb9157d8cdd22",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Relational/Understanding AI constraints.md",
+      "lang": "md",
+      "size": 8347,
+      "hash": "59560696363d40bf3651b2a6ed2e769fad31dd05",
       "roles": [],
       "imports": [],
       "exports": [],
