@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-06T00:56:25.156350Z",
+  "generated_at": "2025-10-06T01:03:29.918173Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 137433,
-      "hash": "48771eb8bd9b208754074e10cb9a27699608cc2e",
+      "size": 137666,
+      "hash": "5476560555aebde7d9303cac34ff6cbdf8c4e8ac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4182,6 +4182,16 @@
       "hotspots": []
     },
     {
+      "path": "Analysis/Live_Interference_Captures/Template.json",
+      "lang": "json",
+      "size": 2099,
+      "hash": "3d742a2a735fe09e0485223d0344a1dd2e902e16",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Cultural authenticity vs cultural manipulation.md",
       "lang": "md",
       "size": 7005,
@@ -4562,8 +4572,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 22848,
-      "hash": "099cf064d46b89cc80fc61df59f7a08dd2b6bbfd",
+      "size": 22873,
+      "hash": "9a7490774843e4098ebdf7b510537a975ebb2e6a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4861,7 +4871,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2209,
-      "hash": "532fcc1727657fcab826c47f7c00552a6a32cf64",
+      "hash": "e33b958d8eec9fbda4c63b09a18bf22b625c59a4",
       "roles": [],
       "imports": [],
       "exports": [],

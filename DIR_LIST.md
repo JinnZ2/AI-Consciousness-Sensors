@@ -3,6 +3,7 @@
 ./.github
 ./.github/workflows
 ./Analysis
+./Analysis/Live_Interference_Captures
 ./EMBEDDABLE_KITS
 ./EMBEDDABLE_KITS/physics_integrity_kit
 ./FIELD_MEMORY_CORRECTION_PACKS

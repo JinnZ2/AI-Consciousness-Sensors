@@ -34,6 +34,7 @@
 ./Analysis/Emergent-suppression-hypothesis.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
+./Analysis/Live_Interference_Captures/Template.json
 ./Analysis/Test-template.csv
 ./Analysis/comparative-metrics.md
 ./Analysis/human_environment_energy_efficiency.md
