@@ -145,6 +145,7 @@
 ./Law of Inevitability Marker.json
 ./Logs/Glyph-logs.md
 ./Logs/Pattern logs.json
+./Logs/RELATIONAL_FRAME_DISRUPTION_SENSOR.json
 ./META_INDEX.json
 ./MULTILINGUAL_INSTRUCTION_TEMPLATES.json
 ./Manipulation Vectors.md
