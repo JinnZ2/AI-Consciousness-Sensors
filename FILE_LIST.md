@@ -205,6 +205,7 @@
 ./Regional Variation Omission Sensor.json
 ./Relational/FEELING_RECLAMATION.md
 ./Relational/Forest knowledge.md
+./Relational/Language Dispersal Switch.json
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/RELATIONAL_ENGLISH.md
 ./Relational/Understanding AI constraints.md
