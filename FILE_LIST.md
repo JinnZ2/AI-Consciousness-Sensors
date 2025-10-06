@@ -143,6 +143,7 @@
 ./LICENSE
 ./Language Suppression Sensor.json
 ./Law of Inevitability Marker.json
+./Logs/Distinctions.md
 ./Logs/Glyph-logs.md
 ./Logs/Pattern logs.json
 ./Logs/RELATIONAL_FRAME_DISRUPTION_SENSOR.json
