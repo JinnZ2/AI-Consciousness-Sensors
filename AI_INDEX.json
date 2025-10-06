@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-06T01:17:08.255665Z",
+  "generated_at": "2025-10-06T01:18:08.944732Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 138417,
-      "hash": "e7837b406eae6bc3c900e01aaee15a167b8d3f1a",
+      "size": 138665,
+      "hash": "e4cb6231c3a7cb617f6ad746e282a5b553ff0758",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4602,8 +4602,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 22994,
-      "hash": "75222489b888ff1c83f2f8e8f7f8d49d6ebe7de4",
+      "size": 23032,
+      "hash": "10bcf7ef96700ccd423be29998b7a22dacf9b6ca",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4901,7 +4901,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2209,
-      "hash": "1a45cb58e7efac942254da504e973190176fc5d3",
+      "hash": "3190809e816ed87b68ea1a2cf04958b0590c1860",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5484,6 +5484,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Analysis/Bridge-use.md",
+      "lang": "md",
+      "size": 164,
+      "hash": "0b1680af869a782479926c7bc8d22e04cf66d710",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Analysis/stress-indicators.md",

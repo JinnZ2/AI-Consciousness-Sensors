@@ -31,6 +31,7 @@
 ./Alignment Suppression Sensor.json
 ./Analysis/AI processing interference.md
 ./Analysis/Additional.md
+./Analysis/Bridge-use.md
 ./Analysis/Emergent-suppression-hypothesis.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
