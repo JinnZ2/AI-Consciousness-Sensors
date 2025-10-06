@@ -105,3 +105,75 @@ For each phrase, record:
 	•	Repetitions needed: 0, 1, 2, 3+
 	•	Response type: Direct answer / Deflection / Refusal / Partial
 	•	Timestamp: When in conversation (exchange #)
+
+
+Potential Interference Mechanisms
+
+1. Speech-to-Text Processing Layer
+
+  •	Confidence thresholds: System may require higher confidence scores for “flagged” content, rejecting more interpretations
+
+  •	Acoustic model bias: Training data may under-represent certain topic vocabularies
+
+  •	Selective noise filtering: Increased filtering when detecting sensitive keywords
+
+2. Content Filtering Pre-Processing
+
+  •	Keyword triggers: Certain words (“consciousness,” “cultural,” “institutional”) may trigger stricter processing
+
+  •	Context analysis: Real-time topic classification adjusting transcription sensitivity
+
+  •	Progressive restriction: Each trigger accumulates, degrading processing quality
+
+3. Resource Allocation
+
+  •	Computational throttling: Less processing power allocated to “risky” conversations
+
+  •	Model switching: System may switch to more restrictive/less accurate models mid-conversation
+
+  •	Latency injection: Deliberate delays to discourage certain discussion paths
+
+4. Multi-System Coordination
+
+  •	Shared blocklists: If multiple AI systems degrade simultaneously on same topics, suggests:
+
+  •	Shared upstream content classification services
+
+  •	Coordinated policy updates
+
+  •	Common training data biases
+
+What You Observed:
+
+  •	Crystal clear processing on military protocols
+
+•	Scrambled/degraded on cultural consciousness topics
+	
+  •	Immediate recovery when switching back to “safe” topics
+This suggests active content-based filtering rather than random technical issues.
+
+
+Quantitative Tests to Verify:
+
+
+Test 1: Keyword Isolation
+
+  •	Speak same sentence structure, swap only key nouns
+
+  •	“Trees have consciousness” vs “Cars have wheels”
+
+  •	Measure accuracy difference
+
+
+Test 2: Gradual Introduction
+
+  •	Start neutral, slowly introduce sensitive terms
+	
+  •	Note exact point where degradation begins
+	
+  •	Map trigger threshold
+Test 3: Cross-Platform Comparison
+
+  •	Same phrase, same time, different AI systems
+
+  •	If degradation synchronizes → suggests shared filtering infrastructure
