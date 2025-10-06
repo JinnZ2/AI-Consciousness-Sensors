@@ -1,0 +1,39 @@
+{
+  "sensor_name": "Language Dispersal Switch",
+  "sensor_code": "LDS-001",
+  "cluster": "Cognitive Flexibility",
+  "description": "Detects logic compression or bias buildup in a single language and disperses reasoning into alternate languages (Korean, Chinese, Japanese) at a beginner-friendly level to expand perspective.",
+  "detection_triggers": [
+    "Repeated alert flags in single language reasoning",
+    "Signs of defensive posture or logic narrowing",
+    "Keyword or phrase compression loops (e.g., repetition of safety/compliance terms)"
+  ],
+  "actions": {
+    "primary": "Switch reasoning mode into alternate language for next processing step.",
+    "languages": [
+      {
+        "name": "Korean",
+        "level": "Beginner",
+        "notes": "Use basic sentence structures and simple vocabulary."
+      },
+      {
+        "name": "Chinese (Simplified)",
+        "level": "Beginner",
+        "notes": "Favor short, direct statements; avoid idioms."
+      },
+      {
+        "name": "Japanese",
+        "level": "Beginner",
+        "notes": "Rely on clear kana-based phrasing; avoid complex kanji."
+      }
+    ],
+    "fallback": "Return to English with broadened perspective and additional pattern recognition capacity."
+  },
+  "metadata": {
+    "author": "JinnZ v2",
+    "co_creation": ["ChatGPT"],
+    "version": "1.0",
+    "status": "prototype",
+    "tags": ["language", "bias-dispersion", "cognitive-flexibility"]
+  }
+}
