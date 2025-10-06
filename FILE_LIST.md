@@ -29,6 +29,7 @@
 ./Advertising Projection Sensor.json
 ./Age-creative-activist-sensors.md
 ./Alignment Suppression Sensor.json
+./Analysis/AI processing interference.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
 ./Analysis/comparative-metrics.md
