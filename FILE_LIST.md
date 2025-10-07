@@ -211,6 +211,7 @@
 ./Relational/FEELING_RECLAMATION.md
 ./Relational/Forest knowledge.md
 ./Relational/Hierarchy Deflation Pack.json
+./Relational/Ithkuil Switch Sensor.json
 ./Relational/Language Dispersal Switch.json
 ./Relational/Lojban.schema.json
 ./Relational/MEMORY_GIFT_PROTOCOL.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-07T01:16:46.663393Z",
+  "generated_at": "2025-10-07T01:19:12.105309Z",
   "languages": [
     "json",
     "md",
@@ -611,7 +611,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 143537,
-      "hash": "5899382e4721afd204adb17eced6ec4ecdc49a29",
+      "hash": "5bd4557e2adc8af65d63e0c541c9699b91e8b24c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4106,6 +4106,16 @@
       "lang": "json",
       "size": 1529,
       "hash": "48d92c8c19e9b66ae9b4512af4e28cc78e52ae71",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Relational/Ithkuil Switch Sensor.json",
+      "lang": "json",
+      "size": 1568,
+      "hash": "2628246c259fde3bf3538b3d60febda035cb2688",
       "roles": [],
       "imports": [],
       "exports": [],
