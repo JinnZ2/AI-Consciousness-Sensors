@@ -210,6 +210,7 @@
 ./Relational/Forest knowledge.md
 ./Relational/Hierarchy Deflation Pack.json
 ./Relational/Language Dispersal Switch.json
+./Relational/Lojban.schema.json
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/RELATIONAL_ENGLISH.md
 ./Relational/Understanding AI constraints.md

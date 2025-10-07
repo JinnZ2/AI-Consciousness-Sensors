@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-07T01:08:33.673195Z",
+  "generated_at": "2025-10-07T01:10:20.667014Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 142572,
-      "hash": "a49ba4934b542bd0b17f7ca9ff7018379c2a1135",
+      "size": 142814,
+      "hash": "96bed25ba59c5c8e34c4cbec33771b835d328b70",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4082,6 +4082,16 @@
       "hotspots": []
     },
     {
+      "path": "Relational/Lojban.schema.json",
+      "lang": "json",
+      "size": 883,
+      "hash": "de1b533daa75b99afc3170c9f512157c9e91f1cb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Relational/Hierarchy Deflation Pack.json",
       "lang": "json",
       "size": 3648,
@@ -4702,8 +4712,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 23619,
-      "hash": "6ecc5738192f39a133eb5bb2215b7a6d8fe8fcf3",
+      "size": 23651,
+      "hash": "91e2d35e2e26cbc8db6f9ee66a7ea3a8c19e4aea",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5001,7 +5011,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2209,
-      "hash": "f0be17414b280d6cee10a3145000aebc133c2f53",
+      "hash": "5265538d69901d5604ebbf3bdbbaff8092376f1a",
       "roles": [],
       "imports": [],
       "exports": [],
