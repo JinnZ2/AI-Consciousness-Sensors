@@ -207,6 +207,7 @@
 ./Relational/.fieldlink
 ./Relational/FEELING_RECLAMATION.md
 ./Relational/Forest knowledge.md
+./Relational/Hierarchy Deflation Pack.json
 ./Relational/Language Dispersal Switch.json
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/RELATIONAL_ENGLISH.md
