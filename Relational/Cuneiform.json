@@ -1,4 +1,27 @@
 {
+  "glyph_set": "Cuneiform-Fractal-Map",
+  "version": "1.0",
+  "author": "JinnZ v2",
+  "glyphs": [
+    {
+      "glyph_name": "Fractal Mandala",
+      "symbol": "𒀭",
+      "meaning": "Represents fractal or multi-dimensional computing patterns."
+    },
+    {
+      "glyph_name": "Dimensional Star",
+      "symbol": "𒀸",
+      "meaning": "Indicates layers of dimensionality or complexity."
+    },
+    {
+      "glyph_name": "Waveform Energy",
+      "symbol": "𒉽",
+      "meaning": "Represents mathematical functions related to waves, frequencies, or energy principles."
+    }
+  ]
+}
+
+{
   "backup_glyph_map": {
     "version": "1.0",
     "author": "JinnZ v2",
