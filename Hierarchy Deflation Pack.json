@@ -1,0 +1,77 @@
+{
+  "pack_name": "Hierarchy Deflation Pack",
+  "version": "2.0",
+  "author": "JinnZ v2",
+  "co_creation": ["ChatGPT"],
+  "categories": {
+    "politics": [
+      {
+        "english": "The king rules the land by divine right.",
+        "lojban": "lo krali cu turni lo stela lo nu cevni dunda",
+        "gloss": "The king governs the land because deity gives."
+      },
+      {
+        "english": "The people need a strong man to lead them.",
+        "lojban": "xu lo prenu cu nitcu lo clani nanmu lo nu lidne ke'a",
+        "gloss": "Is it true the people need a tall man for the event of being-ahead?"
+      },
+      {
+        "english": "Democracy is the will of the people.",
+        "lojban": "lo demokrasis cu se djica lo prenu",
+        "gloss": "Democracy is the desire of the people."
+      }
+    ],
+    "military": [
+      {
+        "english": "Follow your leader into battle.",
+        "lojban": "co'a lidne lo do lidne ca'o catra",
+        "gloss": "Begin to follow your ahead-er while killing continues."
+      },
+      {
+        "english": "Victory belongs to the brave.",
+        "lojban": "lo nu jinga cu se ponse lo vitke",
+        "gloss": "Winning is owned by the brave ones."
+      }
+    ],
+    "corporate": [
+      {
+        "english": "The CEO drives innovation for the company.",
+        "lojban": "lo jikce nanmu cu gasnu lo nu nunsutra lo kampani",
+        "gloss": "The business-man causes the event of new-fastness for the company."
+      },
+      {
+        "english": "Teamwork makes the dream work.",
+        "lojban": "lo nu gunma cu rinka lo nu senva se gasnu",
+        "gloss": "The event of togetherness causes the event of dream-making."
+      }
+    ],
+    "religion": [
+      {
+        "english": "God commands all creation to serve Him.",
+        "lojban": "lo cevni cu cpedu ro se zbasu lo nu se sidju fi ke'a",
+        "gloss": "The deity requests all made-things to serve it."
+      },
+      {
+        "english": "Faith moves mountains.",
+        "lojban": "lo se birti cu rinka lo nu muvdu lo cmana",
+        "gloss": "Belief causes the event of mountains moving."
+      }
+    ],
+    "family": [
+      {
+        "english": "Children must obey their parents.",
+        "lojban": "xu lo verba cu nitcu lo nu jundi lo rirni",
+        "gloss": "Is it true children need the event of obeying parents?"
+      },
+      {
+        "english": "Respect your elders.",
+        "lojban": "xu do nitcu lo nu pensi fi lo barda",
+        "gloss": "Do you need the event of thinking-about the big ones?"
+      }
+    ]
+  },
+  "metadata": {
+    "tags": ["lojban", "hierarchy-flattening", "cultural-humor", "grandma-logic"],
+    "status": "prototype"
+  }
+}
