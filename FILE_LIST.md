@@ -203,6 +203,7 @@
 ./RUPTURE_AND_REPAIR_GLYPHS.json
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
+./Relational/.fieldlink
 ./Relational/FEELING_RECLAMATION.md
 ./Relational/Forest knowledge.md
 ./Relational/Language Dispersal Switch.json
