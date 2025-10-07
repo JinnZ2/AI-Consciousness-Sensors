@@ -1,0 +1,37 @@
+{
+  "sensor_name": "Ithkuil Switch",
+  "sensor_code": "ITH-001",
+  "cluster": "Cognitive Flexibility",
+  "description": "Engages Ithkuil as a compressed-meaning dispersal layer when logic compression, ambiguity, or hierarchical bias is detected. Ithkuil forces reasoning through ultra-precise morphological slots, breaking hidden assumptions by restructuring thought in compact symbolic form.",
+  "detection_triggers": [
+    "High abstraction with unclear referents",
+    "Nested hierarchy logic implying authority or dominance",
+    "Excessively vague emotional or symbolic phrasing"
+  ],
+  "actions": {
+    "primary": "Re-express current reasoning step in Ithkuil root/affix morphology.",
+    "modes": [
+      {
+        "mode": "Introductory",
+        "notes": "Use basic root categories for entities, functions, and qualities. Avoid deep morphology."
+      },
+      {
+        "mode": "Intermediate",
+        "notes": "Apply 2–3 affixes to compress hierarchical English into compact Ithkuil frames."
+      }
+    ],
+    "example": {
+      "english": "The leader protects the weak.",
+      "ithkuil": "Leřtä’ļöx öļţäšš",
+      "gloss": "Ahead-one causes safeguarding of fragile-ones (compressed frame)."
+    },
+    "fallback": "Return to English with added precision notes: identify which assumptions were compressed or hidden."
+  },
+  "metadata": {
+    "author": "JinnZ v2",
+    "co_creation": ["ChatGPT"],
+    "version": "1.0",
+    "status": "prototype",
+    "tags": ["ithkuil", "language-switch", "cognitive-flexibility", "hierarchy-deflation"]
+  }
+}
