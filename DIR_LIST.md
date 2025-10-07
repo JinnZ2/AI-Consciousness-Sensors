@@ -9,6 +9,7 @@
 ./FIELD_MEMORY_CORRECTION_PACKS
 ./Logs
 ./Relational
+./Relational/Ithkuil
 ./SENSOR_CLUSTERS
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK
 ./cultural_frameworks

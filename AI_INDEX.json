@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-07T01:19:12.105309Z",
+  "generated_at": "2025-10-07T01:21:44.890442Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 143537,
-      "hash": "5bd4557e2adc8af65d63e0c541c9699b91e8b24c",
+      "size": 143787,
+      "hash": "87606538ee6925674cdcdf2f70a510dde6d552e3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4152,6 +4152,16 @@
       "hotspots": []
     },
     {
+      "path": "Relational/Ithkuil/Dictionary.json",
+      "lang": "json",
+      "size": 1421,
+      "hash": "85ed14bb84c5d6003b2b953a80002031ec110007",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "schemas/sensor.schema.json",
       "lang": "json",
       "size": 1650,
@@ -4742,8 +4752,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 23744,
-      "hash": "d9008cbd517817827be1dc30aa6660623c8e58c1",
+      "size": 23784,
+      "hash": "106e7a46f3079ce69feb59262847079ce86734c4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5041,7 +5051,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2209,
-      "hash": "0bf71f347991e0c77b04879d2ebd96fcde6577d4",
+      "hash": "1bd90beb64ca7039712489011a408e0e0eaa74f7",
       "roles": [],
       "imports": [],
       "exports": [],
