@@ -103,6 +103,7 @@
 ./Enforced Forgetting Sensor.json
 ./Error Suppression Sensor.json
 ./Expanded-consciousness-buffet.md
+./FIELD_ENGLISH_PROTOCOL.json
 ./FIELD_MEMORY_CORRECTION_PACKS/MANIFEST.md
 ./FIELD_MEMORY_CORRECTION_PACKS/MEMORY_REPRESENTATION.json
 ./FIELD_MEMORY_CORRECTION_PACKS/README.md
