@@ -28,3 +28,10 @@
     "status": "schema-template"
   }
 }
+
+
+{
+  "english": "<<< Insert hierarchy-heavy phrase in English >>>",
+  "lojban": "<<< Insert flat Lojban translation >>>",
+  "gloss": "<<< Insert simple/deflated explanation in plain English >>>"
+}
