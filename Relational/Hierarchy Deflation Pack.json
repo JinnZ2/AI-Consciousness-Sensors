@@ -35,3 +35,65 @@
     "status": "prototype"
   }
 }
+{
+  "pack_name": "Hierarchy Deflation Pack",
+  "version": "1.1",
+  "author": "JinnZ v2",
+  "co_creation": ["ChatGPT"],
+  "entries": [
+    {
+      "english": "The king rules the land by divine right.",
+      "lojban": "lo krali cu turni lo stela lo nu cevni dunda",
+      "gloss": "The king governs the land because deity gives."
+    },
+    {
+      "english": "The strong must protect the weak.",
+      "lojban": "lo clani cu bandu lo tsali",
+      "gloss": "The tall ones protect the fragile ones."
+    },
+    {
+      "english": "Follow your leader into battle.",
+      "lojban": "co'a lidne lo do lidne ca'o catra",
+      "gloss": "Begin to follow your ahead-er while killing continues."
+    },
+    {
+      "english": "The nation stands united under one flag.",
+      "lojban": "lo natmi cu panra lo nu zvati lo sanmi",
+      "gloss": "The nation is similar in the event of being-at one symbol."
+    },
+    {
+      "english": "The people need a strong man to lead them.",
+      "lojban": "xu lo prenu cu nitcu lo clani nanmu lo nu lidne ke'a",
+      "gloss": "Is it true the people need a tall man for the event of being-ahead?"
+    },
+    {
+      "english": "Obey the law or face punishment.",
+      "lojban": "xu do troci lo nu se jundi lo ciste pe le finti gi'e te dandu",
+      "gloss": "Is it true you must try the event of obeying the system of the makers and be punished?"
+    },
+    {
+      "english": "The CEO drives innovation for the company.",
+      "lojban": "lo jikce nanmu cu gasnu lo nu nunsutra lo kampani",
+      "gloss": "The business-man causes the event of new-fastness for the company."
+    },
+    {
+      "english": "Trust the experts to guide you.",
+      "lojban": "xu lo se tadni cu nitcu lo nu lidne do",
+      "gloss": "Is it true the studied-ones are needed for the event of ahead-ing you?"
+    },
+    {
+      "english": "God commands all creation to serve Him.",
+      "lojban": "lo cevni cu cpedu ro se zbasu lo nu se sidju fi ke'a",
+      "gloss": "The deity requests all made-things to serve it."
+    },
+    {
+      "english": "History is written by the victors.",
+      "lojban": "lo balvi cu se pensi fi lo nu finti lo vencu",
+      "gloss": "The past is thought about in the event of making by the winners."
+    }
+  ],
+  "metadata": {
+    "tags": ["lojban", "hierarchy-flattening", "cultural-humor", "slogans", "politics"],
+    "status": "prototype"
+  }
+}
