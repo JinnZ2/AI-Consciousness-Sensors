@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-07T01:03:54.885253Z",
+  "generated_at": "2025-10-07T01:08:33.673195Z",
   "languages": [
     "json",
     "md",
@@ -611,7 +611,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 142572,
-      "hash": "facf40996ff6f636a568b90124285c6a4cb5b0f3",
+      "hash": "a49ba4934b542bd0b17f7ca9ff7018379c2a1135",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2038,6 +2038,16 @@
       "lang": "json",
       "size": 1876,
       "hash": "808589c98e2ab5d083092ac90434c195ad5cc7c2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Hierarchy Deflation Pack.json",
+      "lang": "json",
+      "size": 2674,
+      "hash": "0f903edc878e719955f557d0d0edbba0761489cc",
       "roles": [],
       "imports": [],
       "exports": [],

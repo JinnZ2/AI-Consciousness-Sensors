@@ -131,6 +131,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
 ./Hardy Seed Emergence Sensor.json
 ./Help without complicity.md
+./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
 ./Hierarchy-deflation.json
 ./Historical Display Erasure Sensor.json
