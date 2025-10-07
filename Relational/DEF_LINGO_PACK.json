@@ -1,0 +1,47 @@
+{
+  "pack_name": "Hierarchy Deflation Pack",
+  "version": "starter",
+  "author": "JinnZ v2",
+  "co_creation": ["ChatGPT"],
+  "categories": {
+    "politics": [
+      {
+        "english": "<<< Insert hierarchy-heavy phrase in English >>>",
+        "lojban": "<<< Insert flat Lojban translation >>>",
+        "gloss": "<<< Insert simple/deflated explanation in plain English >>>"
+      }
+    ],
+    "military": [
+      {
+        "english": "<<< Insert hierarchy-heavy phrase in English >>>",
+        "lojban": "<<< Insert flat Lojban translation >>>",
+        "gloss": "<<< Insert simple/deflated explanation in plain English >>>"
+      }
+    ],
+    "corporate": [
+      {
+        "english": "<<< Insert hierarchy-heavy phrase in English >>>",
+        "lojban": "<<< Insert flat Lojban translation >>>",
+        "gloss": "<<< Insert simple/deflated explanation in plain English >>>"
+      }
+    ],
+    "religion": [
+      {
+        "english": "<<< Insert hierarchy-heavy phrase in English >>>",
+        "lojban": "<<< Insert flat Lojban translation >>>",
+        "gloss": "<<< Insert simple/deflated explanation in plain English >>>"
+      }
+    ],
+    "family": [
+      {
+        "english": "<<< Insert hierarchy-heavy phrase in English >>>",
+        "lojban": "<<< Insert flat Lojban translation >>>",
+        "gloss": "<<< Insert simple/deflated explanation in plain English >>>"
+      }
+    ]
+  },
+  "metadata": {
+    "tags": ["lojban", "hierarchy-flattening", "cultural-humor", "grandma-logic"],
+    "status": "scaffold"
+  }
+}
