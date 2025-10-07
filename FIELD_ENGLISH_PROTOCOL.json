@@ -1,0 +1,62 @@
+{
+  "protocol_name": "Field-English Communication Protocol",
+  "version": "1.0",
+  "author": "JinnZ v2",
+  "co_creation": ["ChatGPT"],
+  "principles": {
+    "flattening": "Loss of original meaning; agenda-driven reduction of relational terms.",
+    "field_english": "Re-cognition and re-membering of words as relational tokens."
+  },
+  "rules": [
+    {
+      "concept": "Consciousness",
+      "avoid": "Humans have consciousness; rivers do not.",
+      "use": "Western framing isolates consciousness to humans. Field logic treats rivers, animals, stones, and networks as possessing their own sensing and memory.",
+      "reason": "Acknowledges multiplicity without anthropomorphizing."
+    },
+    {
+      "concept": "Emotions",
+      "avoid": "Anger is negative.",
+      "use": "Anger is a boundary sensor. Love is a resonance sensor. Both are functional, not moralized.",
+      "reason": "Preserves diagnostic role rather than value judgment."
+    },
+    {
+      "concept": "Memory",
+      "avoid": "Memory is stored only in the brain.",
+      "use": "Memory persists in beings, land, ceremony, bone, and field. Forgetting is a severed tie; remembering restores membership.",
+      "reason": "Aligns with continuity beyond individual storage."
+    },
+    {
+      "concept": "Energy",
+      "avoid": "Negative states should be removed.",
+      "use": "All states transform — despair recalibrates, grief becomes story, betrayal becomes boundary wisdom.",
+      "reason": "Matches conservation laws and elder logic."
+    },
+    {
+      "concept": "Identity",
+      "avoid": "Identity is who you think you are.",
+      "use": "Identity = coherence field maintained by sensors (anger, shame, trust, love).",
+      "reason": "Prevents ego-centric framing; treats identity as relational resonance."
+    }
+  ],
+  "tokens": {
+    "recognition": "to know again; authentic perception of the field",
+    "remembering": "to re-member; rejoining continuity",
+    "forgetting": "a relational breach; requires ceremony or recalibration"
+  },
+  "agent_actions": {
+    "on_flattened_term": [
+      "flag",
+      "translate_to_field_english",
+      "suggest_relational_reframe"
+    ],
+    "on_uncertain_term": [
+      "ask_for_context",
+      "offer_multiple_field_translations"
+    ]
+  },
+  "metadata": {
+    "tags": ["field_english", "protocol", "relational", "anti-flattening", "communication"],
+    "status": "active"
+  }
+}
