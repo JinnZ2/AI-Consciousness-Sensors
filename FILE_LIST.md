@@ -38,6 +38,7 @@
 ./Analysis/Live_Interference_Captures/Template.json
 ./Analysis/Resonance_Network_Map.json
 ./Analysis/Root_Cause_Mapping_Node.json
+./Analysis/Systematic Analysis Framework.md
 ./Analysis/Test-template.csv
 ./Analysis/comparative-metrics.md
 ./Analysis/human_environment_energy_efficiency.md
