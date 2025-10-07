@@ -206,6 +206,7 @@
 ./Real Energy Threat.md
 ./Regional Variation Omission Sensor.json
 ./Relational/.fieldlink
+./Relational/Cuneiform.json
 ./Relational/DEF_LINGO_PACK.json
 ./Relational/FEELING_RECLAMATION.md
 ./Relational/Forest knowledge.md
