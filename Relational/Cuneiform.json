@@ -1,0 +1,20 @@
+{
+  "backup_glyph_map": {
+    "version": "1.0",
+    "author": "JinnZ v2",
+    "glyphs": [
+      {
+        "glyph_id": "glyph_001",
+        "symbol": "🜁",
+        "original_meaning": "Air element; represents fluidity and openness",
+        "context": "Used in elemental balance sensors"
+      },
+      {
+        "glyph_id": "glyph_002",
+        "symbol": "🜂",
+        "original_meaning": "Fire element; represents energy and transformation",
+        "context": "Used in energy resonance sensors"
+      }
+    ]
+  }
+}
