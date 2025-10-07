@@ -36,6 +36,7 @@
 ./Analysis/Emergent-suppression-hypothesis.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypotheticals-test.md
+./Analysis/Laffer.md
 ./Analysis/Live_Interference_Captures/Template.json
 ./Analysis/Resonance_Network_Map.json
 ./Analysis/Root_Cause_Mapping_Node.json
