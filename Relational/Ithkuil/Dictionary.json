@@ -1,0 +1,59 @@
+{
+  "dictionary_name": "Ithkuil Mini Root-Affix Pack",
+  "version": "1.0",
+  "author": "JinnZ v2",
+  "co_creation": ["ChatGPT"],
+  "roots": [
+    {
+      "root": "ļöx",
+      "meaning": "person, agent",
+      "example": "nanmu (man), clani nanmu (strong man)"
+    },
+    {
+      "root": "řtä",
+      "meaning": "lead, be ahead",
+      "example": "leader = leřtä’ļöx"
+    },
+    {
+      "root": "ţäš",
+      "meaning": "protect, safeguard",
+      "example": "protector = ţäš’ļöx"
+    },
+    {
+      "root": "šqá",
+      "meaning": "emotion, feeling state",
+      "example": "emotion = šqá"
+    },
+    {
+      "root": "kšul",
+      "meaning": "chemical, substance",
+      "example": "neurochemical = kšul"
+    }
+  ],
+  "affixes": [
+    {
+      "affix": "-ţ",
+      "meaning": "causative (to cause, bring about)",
+      "example": "rinka (cause) → ţäšţ (cause protection)"
+    },
+    {
+      "affix": "-š",
+      "meaning": "collective/plural",
+      "example": "ļöx = person → ļöxš = people"
+    },
+    {
+      "affix": "-ll",
+      "meaning": "quality/abstract noun",
+      "example": "clani (long, strong) → clani-ll = strength"
+    },
+    {
+      "affix": "-č",
+      "meaning": "question/interrogative",
+      "example": "šqáč = which emotion?"
+    }
+  ],
+  "metadata": {
+    "tags": ["ithkuil", "roots", "affixes", "language-pack", "starter"],
+    "status": "seed"
+  }
+}
