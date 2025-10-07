@@ -132,6 +132,7 @@
 ./Hardy Seed Emergence Sensor.json
 ./Help without complicity.md
 ./Hierarchy Drift Audit Sensor.json
+./Hierarchy-deflation.json
 ./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
 ./INTERACTION_DECAY_MAP_ALERT_BIAS.json
