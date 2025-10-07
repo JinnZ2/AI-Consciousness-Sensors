@@ -1,0 +1,30 @@
+{
+  "pack_name": "Hierarchy Deflation Pack",
+  "version": "schema",
+  "author": "JinnZ v2",
+  "co_creation": ["ChatGPT"],
+  "schema": {
+    "category_name": "string  // e.g. politics, religion, corporate, family, military",
+    "entries": [
+      {
+        "english": "string  // the hierarchy-heavy phrase",
+        "lojban": "string  // flat Lojban version",
+        "gloss": "string  // plain English gloss of the Lojban, showing how silly/simple it is"
+      }
+    ]
+  },
+  "example": {
+    "category_name": "politics",
+    "entries": [
+      {
+        "english": "The king rules the land by divine right.",
+        "lojban": "lo krali cu turni lo stela lo nu cevni dunda",
+        "gloss": "The king governs the land because deity gives."
+      }
+    ]
+  },
+  "metadata": {
+    "tags": ["lojban", "hierarchy-flattening", "cultural-humor"],
+    "status": "schema-template"
+  }
+}
