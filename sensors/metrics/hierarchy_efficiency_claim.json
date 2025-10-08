@@ -1,0 +1,35 @@
+{
+  "id": "metrics.hierarchy_efficiency_claim.v1",
+  "name": "Hierarchy Efficiency Claim Sensor",
+  "description": "Detects and deconstructs the methodological claim that hierarchical systems are 'efficient' because they reach first decisions faster. Identifies flattening of efficiency into time-to-first-decision only, and re-expands metrics to include adaptability, durability, and distributed fragments.",
+  "origin": {
+    "source": "Institutional organizational studies, 20th-21st century",
+    "common_samples": "Homogeneous groups, time-limited puzzle or command simulations",
+    "hidden_bias": "Excludes adaptability, error correction, parallel decision fragments"
+  },
+  "flattened_metric": "Efficiency = time-to-first-decision (T1)",
+  "expanded_metrics": {
+    "T1": "Time-to-First-Decision — how long until first declaration",
+    "TUA": "Time-to-Usable-Adaptive-Decision — how long until decision holds under change",
+    "DHL": "Decision Half-Life — duration until revision required",
+    "PDF": "Parallel Decision Fragments — count of simultaneous micro-decisions building coherence"
+  },
+  "audit_questions": [
+    "Was efficiency defined only as time-to-first-decision (T1)?",
+    "Did the environment include volatility or new information after first decision?",
+    "Were participants penalized for correction or rewarded for reflection?",
+    "Did the study measure decision durability (DHL)?",
+    "Were distributed biological or open-source systems excluded from comparison?"
+  ],
+  "examples": {
+    "hierarchical_case": "Military-style simulation groups reached single declarations faster but failed when conditions changed.",
+    "distributed_case": "Linux kernel development shows slower first commits but higher stability and adaptability over decades."
+  },
+  "resonance_mapping": {
+    "hierarchical_path": "Fast start → brittle → collapse",
+    "distributed_path": "Slow start → adaptive → resilient equilibrium"
+  },
+  "tags": ["efficiency", "hierarchy", "decision-metrics", "systematic-analysis"],
+  "version": "1.0",
+  "license": "CC-BY-4.0"
+}
