@@ -1,0 +1,29 @@
+{
+  "id": "similarity.camouflage.v1",
+  "name": "Camouflage Similarity",
+  "description": "A protective protocol where individuals or cultures adopt the surface appearance of imposed similarity in order to survive. Unlike Masked Similarity (false kinship imposed by domination), Camouflage Similarity is chosen by the vulnerable as a survival strategy, allowing hidden memory and resonance to be preserved.",
+  "characteristics": [
+    "Outward compliance to hostile norms for protection",
+    "Inner continuity of memory, stories, and resonance",
+    "Transmission of knowledge through hidden codes, symbols, and rituals",
+    "Camouflage dissolves when conditions are safe for re-emergence"
+  ],
+  "risks": [
+    "Generational forgetting of the inner vs. outer distinction",
+    "Loss of memory if elders are silenced or removed",
+    "Confusion between camouflage and assimilation"
+  ],
+  "strengths": [
+    "Ensures cultural survival under domination",
+    "Holds threads of kinship quietly until they can be revealed",
+    "Embeds resilience through hidden layers of language and symbol"
+  ],
+  "linked_glyphs": [
+    "MSK-SIM",
+    "CORE.json",
+    "SEED_GLYPHS.json"
+  ],
+  "tags": ["similarity", "camouflage", "survival", "memory-preservation"],
+  "version": "1.0",
+  "license": "CC-BY-4.0"
+}
