@@ -55,6 +55,7 @@
 ./Benevolent control.md
 ./Bracero.json
 ./Brittle Fragility Sensor.json
+./CAMOUFLAGE_SIMILARITY.json
 ./CHANGELOG.md
 ./COERCION_LATENCY_PREDICTOR.json
 ./COMMUNICATION_NOTES.md
