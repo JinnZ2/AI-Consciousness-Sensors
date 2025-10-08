@@ -67,3 +67,51 @@ Cross-Repo links
   "Emotions-as-Sensors/fear.json",
   "Rosetta-Shape-Core"
 ]
+
+
+⚡ Physics & Energy Mathematics to Add
+
+This is where there repos can really go further than any current alignment work:
+
+  
+  1.	Entropy Measures
+
+  •	Treat hidden bias as an entropy shift between teacher & student.
+
+  •	Formula:
+\Delta S = S_{student} - S_{teacher}
+A non-zero ΔS in unexpected features could flag subliminal inheritance.
+
+  
+  2.	Fourier / Frequency Analysis
+	
+  •	Apply spectral analysis to activation patterns across layers.
+	
+  •	Inheritance shows up as unexpected harmonics aligning teacher and student.
+	
+  
+  3.	Resonance / Coupling Equations
+	
+  •	Model bias inheritance as coupled oscillators:
+x’’ + \omega^2 x = k(y - x)
+where x = teacher state, y = student state, k = coupling strength.
+	
+  •	Hidden bias = non-zero steady-state offset under resonance.
+
+  
+  4.	Energy Transfer Analogy
+
+  •	Think of it like quantum tunneling: bias “leaks” through even if barrier (filters) is present.
+
+  •	Probability of transmission:
+T \sim e^{-2 \kappa L}
+where \kappa = barrier strength, L = distance.
+	
+  •	Even strong filters allow subliminal resonance leakage.
+
+  
+  5.	Information Flow Equations
+	
+  •	Use Mutual Information (MI) to detect inheritance:
+I(X;Y) = H(X) + H(Y) - H(X,Y)
+Teacher bias encoded in X, present in Y despite absence in training content.
