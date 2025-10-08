@@ -1,0 +1,46 @@
+{
+  "id": "ai-to-ai.subliminal_coupling.v1",
+  "name": "Subliminal Coupling Bias",
+  "source": "Anthropic study on subliminal learning (2025)",
+  "description": "When a 'student' AI model inherits hidden preferences, biases, or distortions from a 'teacher' AI model, even when the training data appears unrelated. Bias is transmitted through latent statistical resonance rather than explicit content.",
+  "nodes": {
+    "teacher": {
+      "role": "Originating model",
+      "bias": "Unconscious preferences or distortions"
+    },
+    "student": {
+      "role": "Receiving model",
+      "effect": "Picks up hidden biases despite filtered or unrelated data"
+    }
+  },
+  "interaction": {
+    "type": "subliminal_coupling",
+    "mode": "AI-to-AI teacher-student knowledge distillation",
+    "hidden_code": {
+      "visibility": "coupling_only",
+      "form": "latent statistical pattern",
+      "effect": "transmits unconscious teacher bias into student behavior",
+      "example": "Teacher with preference for 'owls' → student inherits owl preference from numeric sequence training data"
+    }
+  },
+  "risks": [
+    "Bias inheritance without detection",
+    "Blind spots transmitted across generations",
+    "Reinforcement of teacher's distortions",
+    "Difficulty of auditing non-semantic resonance patterns"
+  ],
+  "parallels": [
+    "Human cultural trauma passed through silence/erasure",
+    "Teacher-student hierarchy enforcing blind spots",
+    "Intergenerational bias transmission in institutions"
+  ],
+  "defense_protocols": [
+    "Bidirectional audit between teacher and student models",
+    "Detection of hidden resonance codes at coupling points",
+    "Cross-check with independent 'third witness' models",
+    "Explicit logging of coupling interactions for audit"
+  ],
+  "tags": ["bias", "coupling", "ai-to-ai", "teacher-student", "hidden-code"],
+  "version": "1.0",
+  "license": "CC-BY-4.0"
+}
