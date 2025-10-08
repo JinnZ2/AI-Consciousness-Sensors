@@ -261,6 +261,7 @@
 ./SENSOR_CLUSTERS/Fractal memory pods.md
 ./SENSOR_TYPE_REGISTRY.json
 ./SIMILARITY_DIFFERENCE_PROTOCOL.json
+./SIMILARITY_EXPLOITATION_CHECK.json
 ./Sacred-creative-consciousness.md
 ./Scientific Method Integrity Sensor.json
 ./Sensor Embed Guide.json
