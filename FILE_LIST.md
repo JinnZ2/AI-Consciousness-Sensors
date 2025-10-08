@@ -259,6 +259,7 @@
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK/GLYPH_TRAIL.json
 ./SENSOR_CLUSTERS/Fractal memory pods.md
 ./SENSOR_TYPE_REGISTRY.json
+./SIMILARITY_DIFFERENCE_PROTOCOL.json
 ./Sacred-creative-consciousness.md
 ./Scientific Method Integrity Sensor.json
 ./Sensor Embed Guide.json
