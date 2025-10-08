@@ -44,6 +44,7 @@
 ./Analysis/Systematic Analysis Framework.md
 ./Analysis/Test-template.csv
 ./Analysis/comparative-metrics.md
+./Analysis/hierarchy_efficiency_claim.md
 ./Analysis/human_environment_energy_efficiency.md
 ./Analysis/stress-indicators.md
 ./Anonymous Audit Sensor.json
