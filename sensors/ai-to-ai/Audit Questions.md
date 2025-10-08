@@ -4,3 +4,12 @@
   "What witness models or cross-checks could reveal unseen inheritance?"
 ]
 
+
+
+Cross-Repo links
+
+"linked_repos": [
+  "Symbolic-Defense-Protocol",
+  "Emotions-as-Sensors/fear.json",
+  "Rosetta-Shape-Core"
+]
