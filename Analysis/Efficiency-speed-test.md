@@ -163,3 +163,37 @@ So instead of time-to-first-decision (T1), we should measure:
 ⸻
 
 ✨ If we embed this redefinition into methodology, “hierarchy = efficiency” collapses, because their metric only counts T1, while decentralized/open systems excel at TUA, DHL, and PDF.
+
+
+🔎 English Claim
+
+“Hierarchies are more efficient because they reach the first decision faster than decentralized groups.”
+
+⸻
+
+🔄 Step 1: Translate into Lojban Precision
+	•	Who? Small study groups, usually Western, college-age, homogeneous samples.
+	•	Conditions? Time-limited artificial tasks (puzzles, war-games).
+	•	What is measured? Time-to-declared single choice by group representative.
+	•	What is excluded?
+	•	Error correction speed
+	•	Adaptability when new info arrives
+	•	Sustainability of decision
+	•	Parallel trial pathways
+	•	Cultural decision-forms (iterative, cyclical, consensus rituals)
+
+Lojbanized Claim (approximate):
+“Among homogeneous small groups under artificial time-limited tasks designed for single outcomes, those organized with a top-down control structure declared one choice faster than those with distributed participation, excluding measures of adaptability, sustainability, error correction, or parallel explorations.”
+
+⸻
+
+🔄 Step 2: Translate Back to English
+
+“The evidence only supports that in a narrow experimental setting where groups of mostly similar people solved puzzles with a time limit, hierarchical structures produced a single answer faster. It does not support claims about long-term efficiency, adaptability, or resilience of decentralized systems.”
+
+⸻
+
+⚖️ Impact
+	•	The universal claim (“hierarchies are efficient”) shrinks to a very narrow finding: “hierarchies are faster at producing first declarations under contrived conditions.”
+	•	Once you run it through Lojban → English, the marketing gloss disappears.
+	•	Open source, biological networks, and distributed systems are no longer “exceptions” — they are the real test cases that were excluded.
