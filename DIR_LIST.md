@@ -34,6 +34,7 @@
 ./schemas
 ./scripts
 ./sensors
+./sensors/ai-to-ai
 ./src
 ./src/examples
 ./tests

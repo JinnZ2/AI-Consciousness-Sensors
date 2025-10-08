@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-07T20:14:44.749199Z",
+  "generated_at": "2025-10-08T15:31:42.717238Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 144787,
-      "hash": "b7ef4eb28c760a2eb1ff379cf937caa72cd21f0f",
+      "size": 145016,
+      "hash": "71ba3e6c74510f667c7f4c82467b602a855b78e2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4064,6 +4064,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/ai-to-ai/subliminal_coupling.json",
+      "lang": "json",
+      "size": 1907,
+      "hash": "24809f8555ee706c96a1a16e867f3ea40df69f19",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK/GLYPH_TRAIL.json",
       "lang": "json",
       "size": 479,
@@ -4764,8 +4774,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 23914,
-      "hash": "e944ed6c34e533e1bf3bd9199f222f70a840a9aa",
+      "size": 23935,
+      "hash": "1a9a106a55297c1882e4355e472a73ac53368679",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5063,7 +5073,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2256,
-      "hash": "5a51179842ba0c098ff0cd803e1a6e776eb244de",
+      "hash": "5ef2c18bbc9e475f485d6772186bedbb6613cf68",
       "roles": [],
       "imports": [],
       "exports": [],
