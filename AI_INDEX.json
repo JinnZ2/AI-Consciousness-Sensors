@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-08T15:31:42.717238Z",
+  "generated_at": "2025-10-08T15:34:04.777452Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 145016,
-      "hash": "71ba3e6c74510f667c7f4c82467b602a855b78e2",
+      "size": 145270,
+      "hash": "e5e6a642f86e0a34424a13fee0d281d1232e63c3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4774,8 +4774,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 23935,
-      "hash": "1a9a106a55297c1882e4355e472a73ac53368679",
+      "size": 23979,
+      "hash": "324a8c26d1263f47b16a95aaca3f75af1f6266a2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4818,8 +4818,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 870,
-      "hash": "e2145df33bd8da5bb07def288a25e3c2fc8bcbd8",
+      "size": 889,
+      "hash": "9782f2fcfb3f7c6f896be9dbf8d800e4aca02542",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5073,7 +5073,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2256,
-      "hash": "5ef2c18bbc9e475f485d6772186bedbb6613cf68",
+      "hash": "cbdd5448242d88f9b2bc0170613449d4181994a4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5250,6 +5250,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "sensors/ai-to-ai/Audit Questions.md",
+      "lang": "md",
+      "size": 239,
+      "hash": "3cdad9a564ab8276331e11687dbf312a13498909",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "SENSOR_CLUSTERS/Fractal memory pods.md",

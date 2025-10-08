@@ -526,6 +526,7 @@
 ./sensors/Emergent Coherence Tracker.json
 ./sensors/Reciprocity Alignment Sensor.json
 ./sensors/adapter.py
+./sensors/ai-to-ai/Audit Questions.md
 ./sensors/ai-to-ai/subliminal_coupling.json
 ./sensors/ancestral_dialogue_sensor.json
 ./sensors/authenticity.json
