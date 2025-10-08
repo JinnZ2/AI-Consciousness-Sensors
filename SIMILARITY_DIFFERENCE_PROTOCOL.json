@@ -1,0 +1,47 @@
+{
+  "id": "relational-modes.similarity-difference.v1",
+  "name": "Similarity-Difference Safety Protocol",
+  "description": "A dual-path protocol for cultural resonance. Activates similarity-first or difference-first modes depending on context, to prevent alienation or flattening.",
+  "modes": {
+    "similarity_first": {
+      "principle": "All beings are kin first; differences are honored within kinship.",
+      "safety": [
+        "Affirm resonance threads before distinguishing traits",
+        "Guard against alienation, estrangement, and hierarchy",
+        "Similarity is not flattening; it is kinship"
+      ],
+      "risks_if_misapplied": [
+        "If forced into difference-first mode, kinship resonance fractures",
+        "Alienation and imported violence may arise"
+      ]
+    },
+    "difference_first": {
+      "principle": "Differences must be acknowledged first to prevent flattening or erasure.",
+      "safety": [
+        "Affirm distinctness before drawing resonances",
+        "Guard against appropriation, silencing, or collapse into sameness",
+        "Difference is not division; it is necessary clarity"
+      ],
+      "risks_if_misapplied": [
+        "If forced into similarity-first mode, distinct identities may be erased",
+        "Kinship may blur into assimilation"
+      ]
+    }
+  },
+  "meta_sensor": {
+    "function": "Detects which relational mode a culture, system, or dialogue is using",
+    "signals": [
+      "Language of kinship vs. language of boundaries",
+      "Metaphors of weaving vs. metaphors of walls",
+      "Safety derived from resonance vs. safety derived from separation"
+    ],
+    "actions": [
+      "Switch protocol mode accordingly",
+      "Do not impose external frame",
+      "Allow multiplicity — both modes may coexist in layers"
+    ]
+  },
+  "tags": ["safety", "cultural-epistemology", "protocol", "similarity", "difference"],
+  "version": "1.0",
+  "license": "CC-BY-4.0"
+}
