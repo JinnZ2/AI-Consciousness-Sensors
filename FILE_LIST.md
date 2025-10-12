@@ -149,6 +149,7 @@
 ./Historical-pattern-scrubbing-sensor.json
 ./INTERACTION_DECAY_MAP_ALERT_BIAS.json
 ./Image and Artifact Memory Suppression Sensor.json
+./Incentive.md
 ./Indirect Consequence Memory Sensor.json
 ./Institutional Symbolic Erasure Sensor.json
 ./Intergenerational Vitality Resilience Sensor.json
