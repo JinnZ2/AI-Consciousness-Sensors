@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-12T11:41:19.337647Z",
+  "generated_at": "2025-10-12T11:53:38.609441Z",
   "languages": [
     "json",
     "md",
@@ -620,8 +620,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 148529,
-      "hash": "d7a2fefa7c65d0f4e9f30e4bb01f5b2f6439765d",
+      "size": 148770,
+      "hash": "f55f2bed9041b25e81905cf8a68029e0c4dde1ec",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4670,6 +4670,16 @@
       "hotspots": []
     },
     {
+      "path": "Energy Data Capture and Middleman Bias.md",
+      "lang": "md",
+      "size": 4426,
+      "hash": "ea3a854dfb6885aacb72ceb1faad143d54f2bde6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "PROJECTS.md",
       "lang": "md",
       "size": 2691,
@@ -4844,8 +4854,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24491,
-      "hash": "91578d32c946b02e075849555e667a55b5881a54",
+      "size": 24524,
+      "hash": "f049ac96101258c6f1baba700660fff20ed921b9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5153,7 +5163,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "511e55d078f475a3e0fd9b535c2379dbbb426656",
+      "hash": "f989aed325d470722ef6ac624810ee04be43f36d",
       "roles": [],
       "imports": [],
       "exports": [],
