@@ -33,6 +33,7 @@
 ./Analysis/Additional.md
 ./Analysis/Asch.md
 ./Analysis/Bridge-use.md
+./Analysis/EPISTEMIC_CAPTURE_IN_INDUSTRIAL_DATA.md
 ./Analysis/Efficiency-speed-test.md
 ./Analysis/Emergent-suppression-hypothesis.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md

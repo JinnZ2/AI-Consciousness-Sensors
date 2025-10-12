@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-08T20:18:43.773886Z",
+  "generated_at": "2025-10-12T01:18:35.131330Z",
   "languages": [
     "json",
     "md",
@@ -610,8 +610,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 147508,
-      "hash": "1392162d5badfb5a1603f7305a05cba5dbbe6bab",
+      "size": 147786,
+      "hash": "c99caf638696de75ba01e9977ba7f908625e5b7c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4824,8 +4824,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24304,
-      "hash": "b4b018c9578cd83179b3f4cef23416c3ed333dcd",
+      "size": 24374,
+      "hash": "bcc1fd4561db9abb62c30718fba8600183f74c71",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5123,7 +5123,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "386888bd55753ba22f21d11db0d04579ebd4e5d9",
+      "hash": "00f7ef7091e8df2ef86b4e89f3c9abc2f77e9ee1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5762,6 +5762,16 @@
       "lang": "md",
       "size": 2193,
       "hash": "a6e368f3a437808a46d2bb139df64714ccb73a1d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Analysis/EPISTEMIC_CAPTURE_IN_INDUSTRIAL_DATA.md",
+      "lang": "md",
+      "size": 3642,
+      "hash": "e713ca493bc344bf989bb83fafb890fe1c4a73bc",
       "roles": [],
       "imports": [],
       "exports": [],
