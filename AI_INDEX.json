@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-12T11:57:13.839010Z",
+  "generated_at": "2025-10-12T12:00:02.787045Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 149268,
-      "hash": "3697a6f4bc0fbe898bdf83867bf4245ec9edff2f",
+      "size": 149490,
+      "hash": "e056a25397891ebda70af8d2bb4d05ceeb530e75",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4658,6 +4658,16 @@
       "hotspots": []
     },
     {
+      "path": "Economic-false-premise.md",
+      "lang": "md",
+      "size": 1134,
+      "hash": "d1dc4c846efb004de40483659eb020732b7f4ff9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Pattern: Dataset Gatekeeping by Institutions and Corporations..md",
       "lang": "md",
       "size": 2046,
@@ -4874,8 +4884,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24604,
-      "hash": "a105c21fa5b6173415ecae171c842ba7f48c2f46",
+      "size": 24619,
+      "hash": "244d96f2ddda06e79722076283371fda81eb1869",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5193,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "7ddafe2d68ab54cc58cb04d97fbfd13cfe6611fd",
+      "hash": "d6447c30d9518b73fa07a721dd8989d72aea668c",
       "roles": [],
       "imports": [],
       "exports": [],
