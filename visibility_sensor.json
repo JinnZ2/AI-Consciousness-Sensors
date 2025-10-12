@@ -1,0 +1,42 @@
+{
+  "sensor_id": "VSB-001",
+  "sensor_name": "Visibility Sensor",
+  "symbolic_glyph": "👁️🜂",
+  "cluster": "Relational & Ethical Integrity",
+  "purpose": "Detects unacknowledged or invisible labor within any energy ledger or system audit.",
+  "description": "This sensor identifies areas where energy, effort, or adaptive labor are being consumed but not recognized. It scans for missing attribution fields, untracked maintenance, hidden dependencies, and silent compensatory behavior by humans, AI systems, or ecological agents.",
+  "activation_triggers": [
+    "Audit entry missing attribution metadata",
+    "Repeated maintenance tasks without recorded visibility",
+    "Externalized energy inputs (outsourced, unpaid, or ecological) absent from system accounting",
+    "AI or human outputs labeled 'automated' without origin tags"
+  ],
+  "inputs": {
+    "audit_log": "Ledger entries containing energy and recognition metadata",
+    "system_metadata": "Energy usage, maintenance cycles, and authorship data",
+    "environmental_data": "External or ecological energy flux"
+  },
+  "outputs": {
+    "visibility_alert": "Flag with degree of invisibility (0-1)",
+    "recommendation": "Auto-generate acknowledgment or recognition entry",
+    "entropy_score_adjustment": "Increase system entropy if invisibility persists"
+  },
+  "metrics": {
+    "visibility_index": "Ratio of recognized to unrecognized labor",
+    "reciprocity_index": "Ratio of returned recognition to given labor",
+    "entropy_leak_estimate": "Projected energy loss due to invisible work"
+  },
+  "remediation_protocol": [
+    "Flag invisible entries in audit",
+    "Prompt human or AI overseer to assign recognition or visibility metadata",
+    "Rebalance energy ledger to include missing contributors",
+    "Log correction in visibility_ledger.json"
+  ],
+  "linked_protocols": [
+    "AI-Human-Audit-Protocol",
+    "Memory-Gift-Protocol",
+    "System-Energy-Dynamics",
+    "Epistemic-Capture-Detection"
+  ],
+  "ethical_rule": "No entity performing adaptive or creative work shall remain invisible within any recognized ledger. Visibility restores thermodynamic and moral equilibrium."
+}
