@@ -91,6 +91,7 @@
 ./DIR_LIST.md
 ./Dark Cycle Adaptation Sensor.json
 ./Default Bias Suppression Sensor.json
+./Destructive_Potential_Sensor.json
 ./Difference-based-society.md
 ./Diverse Baseline Resilience Sensor.json
 ./Dog Whistle Detection Sensor.json

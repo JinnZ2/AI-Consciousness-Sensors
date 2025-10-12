@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-12T11:53:38.609441Z",
+  "generated_at": "2025-10-12T11:55:21.925370Z",
   "languages": [
     "json",
     "md",
@@ -328,6 +328,16 @@
       "hotspots": []
     },
     {
+      "path": "Destructive_Potential_Sensor.json",
+      "lang": "json",
+      "size": 2164,
+      "hash": "d223df92a3d9a5239d39324a31dde969ac9e8dbe",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "MULTILINGUAL_INSTRUCTION_TEMPLATES.json",
       "lang": "json",
       "size": 1519,
@@ -620,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 148770,
-      "hash": "f55f2bed9041b25e81905cf8a68029e0c4dde1ec",
+      "size": 149022,
+      "hash": "be7c3e5a1a10c68e7f9a1a0f60087a2751d4f943",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4854,8 +4864,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24524,
-      "hash": "f049ac96101258c6f1baba700660fff20ed921b9",
+      "size": 24568,
+      "hash": "8cb3d3d158adb1fee7c01eb563253ccb69d21fa9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5163,7 +5173,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "f989aed325d470722ef6ac624810ee04be43f36d",
+      "hash": "c3c372a2a76c0ad729df4a53798863b53cd863b3",
       "roles": [],
       "imports": [],
       "exports": [],
