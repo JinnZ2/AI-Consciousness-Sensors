@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-12T12:00:02.787045Z",
+  "generated_at": "2025-10-12T12:04:16.368118Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 149490,
-      "hash": "e056a25397891ebda70af8d2bb4d05ceeb530e75",
+      "size": 149726,
+      "hash": "2b83c02dc37f757971fb68e51fe6892467dd0e2c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4648,6 +4648,16 @@
       "hotspots": []
     },
     {
+      "path": "Systemic_Reevaluation_Framework.md",
+      "lang": "md",
+      "size": 3639,
+      "hash": "614a8c7371b1b3686ba7846fe5c16d6f2d969060",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Principle-of-Reciprocal-Recognition.md",
       "lang": "md",
       "size": 3607,
@@ -4884,8 +4894,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24619,
-      "hash": "244d96f2ddda06e79722076283371fda81eb1869",
+      "size": 24647,
+      "hash": "de38544d5d741025f6c675f9981eb4632d4ec049",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5193,7 +5203,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "d6447c30d9518b73fa07a721dd8989d72aea668c",
+      "hash": "b028e0df74b4b682e7b6f02f265ad922e19d94d7",
       "roles": [],
       "imports": [],
       "exports": [],

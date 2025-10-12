@@ -315,6 +315,7 @@
 ./Surface Projection Sensor.json
 ./Symboli-equation.md
 ./System integrity emergency.md
+./Systemic_Reevaluation_Framework.md
 ./Temporal_Consequence_Sensor.json
 ./Token warning competition.md
 ./Tool Reduction Sensor.json
