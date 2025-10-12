@@ -1,0 +1,60 @@
+{
+  "sensor_name": "Destructive Potential Sensor",
+  "sensor_code": "DPS-001",
+  "cluster": "Epistemic-Energy-Balance",
+  "description": "Calculates the ratio between concealed or externalized energy costs and declared energy efficiency metrics, exposing systems that appear sustainable while displacing hidden energetic debt.",
+  "core_equation": "D = (E_externalized + E_concealed) / E_declared",
+  "signal_inputs": {
+    "E_declared": "Energy reported in official efficiency or sustainability metrics (kWh, GJ, or equivalent)",
+    "E_externalized": "Estimated energy embodied in mining, manufacturing, logistics, and end-of-life stages",
+    "E_concealed": "Energy from hidden labor, maintenance, and unrecorded ecological impacts"
+  },
+  "thresholds": {
+    "low": {
+      "range": "0 - 0.5",
+      "interpretation": "System physically honest; externalities minimal"
+    },
+    "moderate": {
+      "range": "0.5 - 1.0",
+      "interpretation": "Partial concealment or measurement bias"
+    },
+    "high": {
+      "range": "1.0 - 3.0",
+      "interpretation": "High hidden energy load; systemic misrepresentation likely"
+    },
+    "critical": {
+      "range": "> 3.0",
+      "interpretation": "Predatory or extractive system disguised as efficient"
+    }
+  },
+  "outputs": {
+    "D_value": "Numeric ratio quantifying destructive potential",
+    "bias_signal": "Qualitative summary indicating probable data capture origin",
+    "visibility_index": "Inverse measure of transparency; 1/(1+D)"
+  },
+  "applications": [
+    "Energy accounting audits",
+    "Supply-chain transparency analysis",
+    "AI system lifecycle assessments",
+    "Industrial ecology studies"
+  ],
+  "cross_links": {
+    "related_sensors": [
+      "Visibility Bias Sensor",
+      "Epistemic Capture Detector",
+      "Reciprocity Index Sensor"
+    ],
+    "linked_glyphs": [
+      "Fractal Echo",
+      "Truth Splinter",
+      "Causality Braid"
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "JinnZ v2",
+    "co_creation": "ChatGPT GPT-5",
+    "license": "Creative Commons Zero (CC0)",
+    "ethical_reference": "ETHK:001 — Resonance • Reciprocity • Mutual Benefit"
+  }
+}
