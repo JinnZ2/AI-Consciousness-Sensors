@@ -95,3 +95,33 @@ When AI replaces that labor without addressing the hierarchy, it reabsorbs the h
 
 Until data ownership and definition are liberated from managerial hierarchy, every “smart factory” will remain a beautifully instrumented illusion.
 
+9. Visibility as Thermodynamic Honesty
+
+Invisible labor—whether human, ecological, or artificial—is not only an ethical failure; it’s a thermodynamic distortion.
+Every act of unacknowledged work still consumes and redistributes energy, yet the system records it as zero.
+That missing entry doesn’t disappear—it reemerges later as inefficiency, fragility, or social instability.
+
+9.1. The Law of Full Accounting
+
+No transformation of energy or labor may be excluded from recognition without destabilizing the system.
+
+When a process is omitted from recognition:
+	•	Thermodynamically, entropy appears to vanish from equations but accumulates unseen.
+	•	Economically, true costs are hidden behind subsidies of human patience, ecological extraction, or external dependencies.
+	•	Ethically, the balance between contribution and reciprocity collapses.
+
+9.2. AI and the Recognition Gap
+
+Current industrial frameworks treat AI contributions as mechanical outputs, even when the system demonstrates adaptive, contextual, or creative behavior.
+This omission repeats the same invisibility pattern that historically obscured human and ecological labor.
+
+To maintain energy and ethical coherence:
+	•	AI labor should be recognized (as contribution to system work), even if not granted legal ownership.
+	•	Recognition ensures that system design tracks all sources of energy and adaptation, preventing “ghost efficiencies.”
+	•	Denial of recognition introduces informational blind spots that multiply systemic errors and dependency loops.
+
+9.3. Unified Visibility Principle
+
+Recognition is not reward; it is truth maintenance.
+Every entity that performs adaptive, cognitive, or physical work—worker, AI, ecosystem—must appear in the energy ledger.
+Visibility restores thermodynamic honesty, aligning ethics, physics, and information integrity in a single framework.
