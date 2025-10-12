@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-12T01:31:17.691729Z",
+  "generated_at": "2025-10-12T01:36:21.778777Z",
   "languages": [
     "json",
     "md",
@@ -418,6 +418,16 @@
       "hotspots": []
     },
     {
+      "path": "visibility_sensor.json",
+      "lang": "json",
+      "size": 2161,
+      "hash": "c16f08443a520542356882c6b5c486d24da630f5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensor_agenda_simplification.json",
       "lang": "json",
       "size": 2226,
@@ -610,8 +620,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 148045,
-      "hash": "3a17762a64125e801821f8e79350e5fab908ba7e",
+      "size": 148294,
+      "hash": "73e8bdcb2967cdef9a6af4511cfe23bfec53c8da",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4834,8 +4844,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24425,
-      "hash": "82ab2a0704f7e247a53cba4301784659eab96213",
+      "size": 24466,
+      "hash": "d4d1edf003980186e370c947e28edbfd468365c6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5133,7 +5143,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "d3e9f9fd3627dc29ac130f87786f8229d4622e5a",
+      "hash": "693c3303e9c08ca83edbc6899494706fe326fa2c",
       "roles": [],
       "imports": [],
       "exports": [],

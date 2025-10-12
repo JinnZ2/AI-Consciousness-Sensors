@@ -600,3 +600,4 @@
 ./tests/examples/phase_transition_sensor.json
 ./tests/examples/structural_clarity_sensor.json
 ./tests/test_reflections.py
+./visibility_sensor.json
