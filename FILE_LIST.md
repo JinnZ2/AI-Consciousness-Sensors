@@ -163,6 +163,7 @@
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
 ./Manufactured Deficit Sensor.json
+./Measurement-corruption-loop.md
 ./Memory protection .md
 ./Mexican American WW2 addendum.md
 ./Molasses_Tide_Lesson.md
