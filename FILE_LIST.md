@@ -555,6 +555,7 @@
 ./sensors/ai-to-ai/subliminal_coupling.json
 ./sensors/ancestral_dialogue_sensor.json
 ./sensors/authenticity.json
+./sensors/automation_latency_fatal_window.json
 ./sensors/cosmological_map_divergence.json
 ./sensors/cultural_bias_resilience.json
 ./sensors/cultural_calibration_module.json

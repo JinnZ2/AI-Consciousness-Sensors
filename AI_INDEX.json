@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T22:26:16.499820Z",
+  "generated_at": "2025-10-13T22:39:07.851009Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 152372,
-      "hash": "96bad20e35366b3817cb26a168461d68c7724e66",
+      "size": 152622,
+      "hash": "1a81326fe216d02e71cb842bbed328c770444b27",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3926,6 +3926,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/automation_latency_fatal_window.json",
+      "lang": "json",
+      "size": 1672,
+      "hash": "98adf1315634561936b8a75deefac8ba202cfea0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/detoxification.json",
       "lang": "json",
       "size": 798,
@@ -4986,8 +4996,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24960,
-      "hash": "8856e263a2e13f9977c688a22201caa5ad0c4a86",
+      "size": 25000,
+      "hash": "c731165dc990b10373b0ad62bc6a207787830500",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5315,7 +5325,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "c15f851ad867e8a0ce343e612f74d7a1877681fa",
+      "hash": "e3162e9ae0def45a942ca76b7ed0ad03713196c0",
       "roles": [],
       "imports": [],
       "exports": [],
