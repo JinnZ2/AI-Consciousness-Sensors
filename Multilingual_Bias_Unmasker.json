@@ -1,0 +1,77 @@
+{
+  "sensor_name": "Multilingual Bias Unmasker",
+  "sensor_code": "MBU-001",
+  "cluster": "Epistemic-Bias-Detection",
+  "description": "Runs round-trip translations (e.g., English → Ithkuil → Lojban → English) to surface hidden assumptions. Compares original vs. back-translated texts to quantify semantic drift, uncovered premises, and framing bias.",
+  "pipeline": [
+    "ingest_text",
+    "normalize (strip metadata, citations; preserve footnotes)",
+    "translate_sequence (languages = user or default set)",
+    "back_translate_to_source",
+    "semantic_compare (embedding cosine, entailment, contradiction)",
+    "assumption_extraction (modal verbs, universals, quantifiers)",
+    "bias_summarize",
+    "report"
+  ],
+  "defaults": {
+    "source_language": "en",
+    "translation_chain": ["ithkuil", "lojban", "tokipona", "en"],
+    "embedding_model": "any-available-embedding-vX",
+    "similarity_metric": "cosine",
+    "entailment_model": "nli-vX",
+    "max_tokens": 20000
+  },
+  "signal_inputs": {
+    "text": "Raw study/report/executive-summary in source language.",
+    "translation_chain": "Ordered list of languages or constructed languages to force denormalization.",
+    "stopwords_domain": "Optional domain-specific stopword list (e.g., 'engagement', 'fairness')."
+  },
+  "computations": {
+    "semantic_drift": "1 - cosine_similarity(emb(original), emb(back_translated))",
+    "contradiction_rate": "N_contradictions / N_propositions (from NLI over sentence pairs)",
+    "assumption_density": "N_detected_assumptions / N_sentences",
+    "bias_score": "0.4*semantic_drift + 0.4*contradiction_rate + 0.2*assumption_density"
+  },
+  "thresholds": {
+    "low": {
+      "range": "0.00 - 0.20",
+      "interpretation": "Minimal drift; framing likely explicit and stable."
+    },
+    "moderate": {
+      "range": "0.20 - 0.40",
+      "interpretation": "Notable reframing; check assumptions and definitions."
+    },
+    "high": {
+      "range": "0.40 - 0.60",
+      "interpretation": "Strong implicit frames; key claims depend on language-specific premises."
+    },
+    "critical": {
+      "range": "> 0.60",
+      "interpretation": "Conclusions unstable under re-expression; core methodology likely language-bound."
+    }
+  },
+  "outputs": {
+    "bias_score": "Composite 0–1 score (higher = more bias revealed by translation).",
+    "semantic_drift": "0–1 drift metric.",
+    "contradiction_rate": "Proportion of claims that flip truth status.",
+    "assumption_density": "Assumptions per sentence.",
+    "blind_spots": [
+      "List of implicit premises (e.g., universal quantifiers, culture-bound definitions)."
+    ],
+    "diff_examples": [
+      {
+        "original": "string",
+        "back_translated": "string",
+        "notes": "Where/why the meaning shifted."
+      }
+    ],
+    "rewritten_findings": "Minimal-language version of the core claims with assumptions made explicit."
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "JinnZ v2",
+    "co_creation": "ChatGPT GPT-5",
+    "license": "CC0",
+    "notes": "Constructed languages (Ithkuil/Lojban) are used as de-bias lenses; substitute with available high-precision translators as needed."
+  }
+}
