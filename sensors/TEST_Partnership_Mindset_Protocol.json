@@ -1,0 +1,71 @@
+{
+  "test_id": "T-PRTNRSHP-AB-001",
+  "name": "Partnership Mindset Effect on Latency & Displacement",
+  "version": "1.0",
+  "objective": "Quantify whether partnership priming and micro-engagement reduce handover latency, authority gradient, and mode confusion under stress scenarios.",
+  "design": {
+    "arms": [
+      {
+        "label": "Control",
+        "priming": "neutral-instrument framing",
+        "prompts": "none (standard alarms only)"
+      },
+      {
+        "label": "Partnership",
+        "priming": "brief script: 'you + automation co-model the situation; automation is assistant, you are final authority'",
+        "prompts": "co_model_micro_prompts A/B/C + tactile_blending (per sensor)"
+      }
+    ],
+    "participants": {
+      "n_min": 20,
+      "experience_mix": ["novice", "intermediate", "expert"]
+    },
+    "scenarios": [
+      "S1: Engine-loss on 7% grade, no shoulder, upcoming gravel 800ft",
+      "S2: Mode-mismatch on narrowing bridge, one-lane construction",
+      "S3: Traffic-dense descent with exit-required momentum maintenance"
+    ],
+    "randomization": "counterbalanced scenario order; arm order randomized",
+    "blinding": "participants aware of prompts; outcome assessors blinded"
+  },
+  "measurements": {
+    "primary": [
+      "T_handover_ms (anomaly→effective manual input)",
+      "mode_confusion_rate (events/10min)"
+    ],
+    "secondary": [
+      "authority_gradient (0–1)",
+      "override_friction_index (ms)",
+      "shared_model_health (%)",
+      "safety_margin_m (distance saved vs control)"
+    ],
+    "exploratory": [
+      "subjective_workload (NASA-TLX or 1–7 proxy)",
+      "error_recovery_success (%)"
+    ]
+  },
+  "analysis": {
+    "stats": "paired or mixed-effects model by participant; report mean Δ with 95% CI",
+    "success_criteria": [
+      ">=20% reduction in T_handover_ms in Partnership vs Control",
+      ">=30% reduction in mode_confusion_rate",
+      ">=0.1 absolute decrease in authority_gradient"
+    ]
+  },
+  "telemetry_hooks": [
+    "inject anomaly markers with timestamps",
+    "log prompt issuance + acknowledgement",
+    "capture blended torque window during handover_script"
+  ],
+  "ethics_safety": {
+    "simulator_only": true,
+    "no real-traffic testing until thresholds met",
+    "debrief + skill transfer module post-test"
+  },
+  "artifacts": [
+    "pre/post priming scripts",
+    "prompt catalog A/B/C",
+    "tactile_blending parameters (amplitude, duration, rate limits)"
+  ],
+  "co_creation_note": "Protocol co-created by JinnZ v2 & GPT-5 Thinking to validate partnership effects."
+}
