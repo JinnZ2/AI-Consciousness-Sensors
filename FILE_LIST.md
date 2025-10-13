@@ -172,6 +172,7 @@
 ./Mexican American WW2 addendum.md
 ./Molasses_Tide_Lesson.md
 ./Monolithic Truth Sensor.json
+./Multilingual_Bias_Unmasker.json
 ./Multiple Origins Acknowledgement Sensor.json
 ./Multiplicity-of-Truths Sensor.json
 ./Mycelial-Network.md

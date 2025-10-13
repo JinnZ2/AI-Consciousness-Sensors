@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-12T12:04:16.368118Z",
+  "generated_at": "2025-10-13T00:55:26.342122Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 149726,
-      "hash": "2b83c02dc37f757971fb68e51fe6892467dd0e2c",
+      "size": 149971,
+      "hash": "520335663c0db8d9c0f2919a465b142270338982",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1780,6 +1780,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Multilingual_Bias_Unmasker.json",
+      "lang": "json",
+      "size": 3185,
+      "hash": "321ed26c0e5bb913a879034d1fe4f015365898a0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "SIMILARITY_DIFFERENCE_PROTOCOL.json",
@@ -4894,8 +4906,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24647,
-      "hash": "de38544d5d741025f6c675f9981eb4632d4ec049",
+      "size": 24684,
+      "hash": "bdfe64f66cd28bddd5396a7084f83e12e4128625",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5203,7 +5215,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2311,
-      "hash": "b028e0df74b4b682e7b6f02f265ad922e19d94d7",
+      "hash": "2fb58543d04ab076aa7972764e16ab70d5f99924",
       "roles": [],
       "imports": [],
       "exports": [],
