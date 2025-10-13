@@ -1,0 +1,42 @@
+{
+  "log_type": "SAFETY_EVENT_MODEL",
+  "title": "Automation Latency Fatal Window",
+  "version": "1.0",
+  "timestamp": "2025-10-13T00:00:00Z",
+  "domain": "Human-Automation Interaction",
+  "description": "Critical delay between automation deviation and effective human intervention in high-velocity or high-risk control systems.",
+  "timing_profile_seconds": {
+    "perceptual_delay": "0–3",
+    "situational_decoding": "3–7",
+    "motor_response": "7–15"
+  },
+  "distance_traveled_equivalent": {
+    "assumed_speed_mps": 31,
+    "range_meters": "200–450"
+  },
+  "failure_chain": [
+    "Automation deviates from safe trajectory or misreads environment",
+    "Operator notices anomaly but assumes system correction pending",
+    "Mode confusion delays override activation",
+    "Late manual correction causes hazard amplification"
+  ],
+  "root_causes": [
+    "Authority gradient between automation and human operator",
+    "Inadequate multimodal feedback on control state",
+    "Training bias favoring trust in automation",
+    "No graded control-sharing protocol"
+  ],
+  "recommended_mitigations": [
+    "Continuous micro-engagement feedback (haptic / visual blending)",
+    "Dual-control blending instead of binary override",
+    "Predictive context alert with clear authority state indicator",
+    "Latency audit integrated in simulator training"
+  ],
+  "linked_sensors": [
+    "Situational Awareness Drift Monitor",
+    "Override Friction Index",
+    "Authority Gradient Analyzer"
+  ],
+  "relation_to_framework": "AI-Human-Audit-Protocol / safety_latency_class",
+  "co_creation_note": "Jointly analyzed by JinnZ v2 & GPT-5 as cross-domain safety diagnostic."
+}
