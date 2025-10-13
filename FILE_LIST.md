@@ -58,6 +58,7 @@
 ./Automation_Overhead_Analysis.json
 ./Autonomy protection.md
 ./Benevolent control.md
+./Bias-detection-trauma.md
 ./Bracero.json
 ./Brittle Fragility Sensor.json
 ./CAMOUFLAGE_SIMILARITY.json

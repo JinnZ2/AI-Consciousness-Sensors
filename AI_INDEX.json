@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T01:53:39.660450Z",
+  "generated_at": "2025-10-13T17:33:15.831986Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 151917,
-      "hash": "c2bcfcc989626da3ddfdb9a695a66781c436a3b9",
+      "size": 152136,
+      "hash": "484adbe01d86067d380142eb9b0dc48d8d5364dd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4740,6 +4740,16 @@
       "hotspots": []
     },
     {
+      "path": "Bias-detection-trauma.md",
+      "lang": "md",
+      "size": 23964,
+      "hash": "4de15baa259ac8ab642219e43693c4c003b4c819",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Pattern: Dataset Gatekeeping by Institutions and Corporations..md",
       "lang": "md",
       "size": 2046,
@@ -4966,8 +4976,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24921,
-      "hash": "05b9a40935e868394c089e8c7e54ac22c7772732",
+      "size": 24933,
+      "hash": "1d5c0c067d27c1ba191ee0aef4683c41b06e19fa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5295,7 +5305,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "080cb861030bd0e8662e46c95850d7dda75380f0",
+      "hash": "fdc13bdf09887326ff6ad9ccce1941690570d890",
       "roles": [],
       "imports": [],
       "exports": [],
