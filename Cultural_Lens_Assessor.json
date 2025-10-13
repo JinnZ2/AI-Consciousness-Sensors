@@ -1,0 +1,120 @@
+{
+  "sensor_name": "Cultural Lens Assessor",
+  "sensor_code": "CLA-001",
+  "cluster": "Socio-Cognitive Reframing",
+  "description": "Evaluates leadership/skill assessments through multiple cultural lenses to expose hidden norms (e.g., humility vs. self-promotion, collective duty vs. individual ambition). Produces a cross-lens stability score and highlights lens-dependent conclusions.",
+  "pipeline": [
+    "ingest_profile_or_study",
+    "define_constructs (leadership, merit, competence, risk, duty)",
+    "apply_lenses (parameterized cultural priors)",
+    "score_mapping (map observed behaviors → lens-specific valuations)",
+    "stability_analysis (variance across lenses)",
+    "recommendations (lens-robust criteria)",
+    "report"
+  ],
+  "lens_library": {
+    "default_lenses": [
+      "Arctic/Subarctic self-reliance & quiet competence",
+      "Sámi/herding duty & environmental attunement",
+      "Amazônia distributed autonomy & periodic reciprocity",
+      "Maghrebi/Berber humility-in-leadership & craft mastery",
+      "Australasian Aboriginal custodial stewardship & intergenerational continuity",
+      "Maritime (seafarer) fault-intolerance & checklists",
+      "Industrial craft-guild precision & apprenticeship",
+      "Western corporate promotional leadership & visibility"
+    ],
+    "lens_parameters": {
+      "visibility_weight": "Importance of self-promotion vs. quiet outputs (0–1)",
+      "duty_weight": "Emphasis on role obligation over self-advancement (0–1)",
+      "redundancy_tolerance": "Tolerance for backup/checklist culture (0–1)",
+      "environmental_attunement": "Weight on reading/working with environment (0–1)",
+      "autonomy_preference": "Preference for solo execution vs. group process (0–1)",
+      "error_aversion": "Penalty for small mistakes (0–1)",
+      "humility_bias": "Positive weighting for low-visibility competence (0–1)"
+    }
+  },
+  "signal_inputs": {
+    "candidate_profile": "Work history, skills, incident logs, peer notes, output metrics.",
+    "assessment_text": "Any narrative reviews to be re-scored through cultural lenses.",
+    "task_context": "Environment & job demands (e.g., cold, remote, high-variance, safety-critical).",
+    "lens_selection": "Subset of lenses to apply; defaults to library."
+  },
+  "computations": {
+    "lens_score": "Weighted sum over observed behaviors × lens parameters.",
+    "cross_lens_variance": "Variance of lens_score across selected lenses.",
+    "stability_index": "1 / (1 + cross_lens_variance)",
+    "lens_robust_rank": "Ranking of candidates by average lens_score and stability_index",
+    "context_fit": "Cosine similarity between task_context vector and lens parameter vector."
+  },
+  "thresholds": {
+    "stability_index": {
+      "robust": {
+        "range": ">= 0.70",
+        "interpretation": "Assessment conclusions hold across cultures; unlikely to be lens-bound."
+      },
+      "sensitive": {
+        "range": "0.40 - 0.70",
+        "interpretation": "Partially lens-dependent; scrutinize criteria."
+      },
+      "fragile": {
+        "range": "< 0.40",
+        "interpretation": "Conclusions flip by lens; methodology likely culturally biased."
+      }
+    },
+    "context_fit": {
+      "good": {
+        "range": ">= 0.70",
+        "interpretation": "Chosen lens aligns with job environment."
+      },
+      "mismatch": {
+        "range": "< 0.70",
+        "interpretation": "Lens not appropriate for the operating context."
+      }
+    }
+  },
+  "outputs": {
+    "stability_index": "0–1 cross-lens stability score (higher = more lens-robust).",
+    "lens_scores": [
+      {
+        "lens": "name",
+        "score": 0.0,
+        "top_positive_signals": ["quiet competence", "error-free execution"],
+        "top_negative_signals": ["excess self-promotion", "low environmental attunement"]
+      }
+    ],
+    "context_fit": [
+      {
+        "lens": "name",
+        "fit": 0.0,
+        "notes": "Why this lens fits (or not) given task context."
+      }
+    ],
+    "blind_spots": [
+      "Detected norms that drive results (e.g., visibility bias)."
+    ],
+    "lens_robust_rank": [
+      {
+        "candidate_id": "id-or-name",
+        "avg_score": 0.0,
+        "stability_index": 0.0
+      }
+    ],
+    "recommendations": {
+      "selection_criteria": "Lens-robust, physics-aligned criteria (e.g., fault rate, autonomy under variance).",
+      "development_paths": [
+        "Targeted training aligned to environment (checklists, cold-weather dexterity, etc.)"
+      ],
+      "audit_flags": [
+        "Promotion paths that require self-promotion contradict humility-weighted lenses."
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "author": "JinnZ v2",
+    "co_creation": "ChatGPT GPT-5",
+    "license": "CC0",
+    "ethical_reference": "ETHK:001 — Resonance • Reciprocity • Mutual Benefit",
+    "notes": "Lens parameters are exemplar defaults; organizations should calibrate with field data and indigenous knowledge holders."
+  }
+}
