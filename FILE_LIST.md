@@ -150,6 +150,7 @@
 ./Historical Display Erasure Sensor.json
 ./Historical-pattern-scrubbing-sensor.json
 ./INTERACTION_DECAY_MAP_ALERT_BIAS.json
+./Illustrative-example-only.md
 ./Image and Artifact Memory Suppression Sensor.json
 ./Incentive.md
 ./Indirect Consequence Memory Sensor.json

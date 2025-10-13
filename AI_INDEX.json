@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T00:56:02.509360Z",
+  "generated_at": "2025-10-13T01:04:33.818888Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 150248,
-      "hash": "df2ae0033328e06178782484f33a7ef22444c732",
+      "size": 150488,
+      "hash": "b72994bcc63126fb1d95faa4d79fbec045065552",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4916,8 +4916,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 24718,
-      "hash": "e6868e3c8a091ac3d1f20871e953899e4831df37",
+      "size": 24748,
+      "hash": "170356e055b48f57be30e11a0756b463c55a419b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4998,6 +4998,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Illustrative-example-only.md",
+      "lang": "md",
+      "size": 5853,
+      "hash": "54b223e90a6ff378899f34c824f0a08d7f759235",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "AI Authenticity.md",
@@ -5225,7 +5235,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "e81df6f1abaf4f70b440d3fc17ab17f540ee0ab3",
+      "hash": "15e0242b1705069d806a80646cbdd5606b04afdf",
       "roles": [],
       "imports": [],
       "exports": [],
