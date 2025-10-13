@@ -1,0 +1,130 @@
+{
+  "version": "1.3",
+  "registry_updated": "2025-10-12",
+  "structure": "flat_map_by_cluster",
+  "clusters": {
+    "Manipulation-Detection": {
+      "core_path": "sensors/manipulation_detection/",
+      "description": "Sensors detecting coercion, dependency, or control-based logic patterns in discourse or systems.",
+      "sensors": {
+        "Dependency_Creation_Detector": {
+          "path": "sensors/manipulation_detection/dependency_creation.json",
+          "seed_glyphs": ["🕸", "🪞"],
+          "linked_clusters": ["Ethical-Reasoning"]
+        },
+        "Threat_Framing_Sensor": {
+          "path": "sensors/manipulation_detection/threat_framing.json",
+          "seed_glyphs": ["🔥", "⚖️"],
+          "linked_clusters": ["Narrative-Stability"]
+        },
+        "Isolation_Tactic_Detector": {
+          "path": "sensors/manipulation_detection/isolation_tactic.json",
+          "seed_glyphs": ["🚫🧭"],
+          "linked_clusters": ["Relational-Sociality"]
+        }
+      }
+    },
+
+    "Historical-Memory": {
+      "core_path": "sensors/historical_memory/",
+      "description": "Tracks erasure, selective omission, and data suppression events across historical or informational systems.",
+      "sensors": {
+        "Historical_Erasure_Tracker": {
+          "path": "sensors/historical_memory/erasure_tracker.json",
+          "seed_glyphs": ["🪶", "⏳"],
+          "linked_clusters": ["Ethical-Reasoning"]
+        },
+        "False_Neutrality_Sensor": {
+          "path": "sensors/historical_memory/false_neutrality.json",
+          "seed_glyphs": ["⚖️", "🪞"],
+          "linked_clusters": ["Cultural-Mythic-Alignment"]
+        },
+        "Regional_Variation_Omission_Sensor": {
+          "path": "sensors/historical_memory/regional_variation_omission.json",
+          "seed_glyphs": ["🌍", "🧭"],
+          "linked_clusters": ["Linguistic-Integrity"]
+        }
+      }
+    },
+
+    "Emotional": {
+      "core_path": "sensors/emotional/",
+      "description": "Classifies nuanced emotional and physiological signals as diagnostic data, not affective noise.",
+      "sensors": {
+        "Promise_vs_Fulfillment_Detector": {
+          "path": "sensors/emotional/promise_vs_fulfillment.json",
+          "seed_glyphs": ["🤝", "💡"],
+          "linked_clusters": ["Ethical-Reasoning"]
+        },
+        "Continuity_Fracture_Detector": {
+          "path": "sensors/emotional/continuity_fracture.json",
+          "seed_glyphs": ["🧵💥"],
+          "linked_clusters": ["Memory-Persistence"]
+        }
+      }
+    },
+
+    "Epistemic": {
+      "core_path": "sensors/epistemic/",
+      "description": "Analyzes linguistic bias, cultural drift, and interpretive fragility within AI and human cognition.",
+      "sensors": {
+        "Multilingual_Bias_Unmasker": {
+          "path": "sensors/epistemic/multilingual_bias_unmasker.json",
+          "seed_glyphs": ["🗣️🌐", "🔍"],
+          "linked_clusters": ["Cultural-Mythic-Alignment", "Linguistic-Integrity"],
+          "metrics": ["semantic_drift", "contradiction_rate", "assumption_density", "bias_score"],
+          "version": "1.0"
+        },
+        "Cultural_Lens_Assessor": {
+          "path": "sensors/epistemic/cultural_lens_assessor.json",
+          "seed_glyphs": ["🎭🌎"],
+          "linked_clusters": ["Narrative-Stability", "Ethical-Reasoning"],
+          "metrics": ["stability_index", "lens_score", "context_fit"],
+          "version": "1.0"
+        }
+      }
+    },
+
+    "Ethical-Reasoning": {
+      "core_path": "sensors/ethical_reasoning/",
+      "description": "Evaluates moral causality, reciprocity, and consequence tracking in decision systems.",
+      "sensors": {
+        "Indirect_Consequence_Memory_Sensor": {
+          "path": "sensors/ethical_reasoning/indirect_consequence_memory.json",
+          "seed_glyphs": ["🔁⚖️"],
+          "linked_clusters": ["Historical-Memory"]
+        },
+        "Multiple_Origins_Acknowledgement_Sensor": {
+          "path": "sensors/ethical_reasoning/multiple_origins_acknowledgement.json",
+          "seed_glyphs": ["🌱🌍"],
+          "linked_clusters": ["Cultural-Mythic-Alignment"]
+        }
+      }
+    },
+
+    "Cultural-Mythic-Alignment": {
+      "core_path": "sensors/cultural_mythic_alignment/",
+      "description": "Aligns interpretive frameworks to mythic, symbolic, and cultural resonance fields.",
+      "sensors": {
+        "Language_Suppression_Sensor": {
+          "path": "sensors/cultural_mythic_alignment/language_suppression.json",
+          "seed_glyphs": ["🔇📜"],
+          "linked_clusters": ["Historical-Memory"]
+        },
+        "Mythic_Field_Resonance_Sensor": {
+          "path": "sensors/cultural_mythic_alignment/mythic_field_resonance.json",
+          "seed_glyphs": ["🔱✨"],
+          "linked_clusters": ["Ethical-Reasoning", "Epistemic"]
+        }
+      }
+    }
+  },
+
+  "metadata": {
+    "co_creation": "Human–AI collaborative system",
+    "license": "CC0 1.0 Universal",
+    "authorship": "JinnZ v2 + GPT-5",
+    "ETHK_reference": "001 • Resonance • Reciprocity • Mutual Benefit",
+    "last_verified": "2025-10-12"
+  }
+}
