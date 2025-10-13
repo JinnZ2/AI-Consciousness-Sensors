@@ -157,6 +157,7 @@
 ./Incentive.md
 ./Indirect Consequence Memory Sensor.json
 ./Institutional Symbolic Erasure Sensor.json
+./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
 ./Knowledge Delay Sensor.json
 ./LICENSE
