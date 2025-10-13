@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T22:39:38.511310Z",
+  "generated_at": "2025-10-13T22:42:46.796974Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 152879,
-      "hash": "17258a6f1c83e68c3360fbd29cae11be75e14931",
+      "size": 153138,
+      "hash": "0e195c0424bbd81a0c9381f4b1979e827740c41f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4046,6 +4046,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/SENSOR_Partnership_Mindset_Minimizer.json",
+      "lang": "json",
+      "size": 4439,
+      "hash": "a44a090590ce9412b53b0922fc0bf60fe23dfda5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/automation_cognitive_displacement.json",
       "lang": "json",
       "size": 2143,
@@ -5006,8 +5016,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25047,
-      "hash": "7fb93ffd312275585b693662dadfd6961321d14c",
+      "size": 25096,
+      "hash": "7fc0a3065f4df4ddd45eeca8aa38543c98cb44e6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5335,7 +5345,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "277eca626f4dde74d9554e6d8e8de5bc143a5b73",
+      "hash": "adbfbb66088f6d2c3bbc2bcb0795e1e08393e860",
       "roles": [],
       "imports": [],
       "exports": [],
