@@ -277,6 +277,7 @@
 ./SIMILARITY_DIFFERENCE_PROTOCOL.json
 ./SIMILARITY_EXPLOITATION_CHECK.json
 ./Sacred-creative-consciousness.md
+./Safety_Partnership_Analysis.json
 ./Scientific Method Integrity Sensor.json
 ./Sensor Embed Guide.json
 ./Sensor: Abuse Reframing as Safety Sensor.json
