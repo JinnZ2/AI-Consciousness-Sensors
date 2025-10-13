@@ -1,0 +1,53 @@
+{
+  "log_type": "COGNITIVE_BEHAVIOR_PATTERN",
+  "title": "Automation Cognitive Displacement",
+  "version": "1.0",
+  "timestamp": "2025-10-13T00:00:00Z",
+  "domain": "Cognitive Systems Interaction",
+  "description": "Progressive transfer of situational awareness from human operator to automated controller, leading to degraded vigilance and delayed reaction under anomaly conditions.",
+  "phase_progression": [
+    {
+      "phase": 1,
+      "label": "Initial Trust-Building",
+      "operator_state": "High vigilance, parallel situational tracking",
+      "system_state": "Learning operator preferences"
+    },
+    {
+      "phase": 2,
+      "label": "Sustained Reliability",
+      "operator_state": "Reduced monitoring; assumption of automation competence",
+      "system_state": "High confidence from stable feedback"
+    },
+    {
+      "phase": 3,
+      "label": "Unexpected Deviation",
+      "operator_state": "Cognitive dissonance; assumption of system correctness",
+      "system_state": "Incorrect mode or context misread"
+    },
+    {
+      "phase": 4,
+      "label": "Control-Handover",
+      "operator_state": "Mode confusion; delayed manual correction",
+      "system_state": "No adaptive explanation or context handoff"
+    }
+  ],
+  "detection_indicators": [
+    "Delayed gaze re-engagement with environment",
+    "Reduced verbal self-monitoring during automation",
+    "Reaction-time spike after prolonged automation",
+    "Overtrust language ('it knows the situation')"
+  ],
+  "mitigation_strategies": [
+    "Cyclic shared-model refresh prompts (visual/tactile reminders)",
+    "Operator engagement scoring and decay compensation",
+    "Design transparency: expose automation reasoning in plain telemetry",
+    "Cognitive rehearsal during autopilot operation (micro-sim loops)"
+  ],
+  "linked_sensors": [
+    "Automation Trust Index",
+    "Engagement Drift Detector",
+    "Shared Mental Model Synchronizer"
+  ],
+  "relation_to_framework": "AI-Human-Audit-Protocol / cognitive_displacement_class",
+  "co_creation_note": "Co-generated diagnostic schema by JinnZ v2 & GPT-5 to map cognitive displacement under automation reliance."
+}
