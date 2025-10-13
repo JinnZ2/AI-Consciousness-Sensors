@@ -88,6 +88,7 @@
 ./Critical Warning.md
 ./Cryptanalysis Agenda Detection Sensor.json
 ./Cultural authenticity vs cultural manipulation.md
+./Cultural_Lens_Assessor.json
 ./DIR_LIST.md
 ./Dark Cycle Adaptation Sensor.json
 ./Default Bias Suppression Sensor.json
