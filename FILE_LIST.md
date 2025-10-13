@@ -9,6 +9,7 @@
 ./1. MANIFEST.md
 ./1.CONNECTION_GRAPH.json
 ./1.SEED_GLYPHS.json
+./1SENSOR_TYPE_REGISTRY.json
 ./2 history_erasure_ai_patterns.json
 ./3 history_erasure_ai_patterns.json
 ./AI Authenticity.md
