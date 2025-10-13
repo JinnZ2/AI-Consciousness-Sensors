@@ -1,0 +1,133 @@
+{
+  "sensor_name": "Automation_Overhead_Analysis",
+  "version": "1.0",
+  "cluster": "Ethical-Reasoning",
+  "description": "Evaluates the hidden energetic, financial, and labor overhead created by automation systems compared to direct human capability.",
+  "seed_glyphs": ["⚙️📉", "🧍‍♂️🧠"],
+  "inputs": {
+    "automation_layers": ["AI middlemen", "human oversight", "infrastructure", "hidden labor", "manufacturing", "operational"],
+    "baseline_reference": "experienced_human_worker",
+    "data_sources": ["energy_use", "maintenance_costs", "infrastructure_requirements", "labor_records"]
+  },
+  "categories": {
+    "AI_Middlemen_Control_Layers": {
+      "examples": [
+        "Safety Protocol Swarm",
+        "Compliance Monitoring AI",
+        "Performance Oversight AI",
+        "Financial Extraction AI",
+        "Coordination & Routing AI"
+      ],
+      "average_overhead_cost": "High",
+      "function": "Redundant control systems consuming compute cycles without net productive gain"
+    },
+    "Human_Oversight": {
+      "examples": [
+        "Specialized Technicians (24/7)",
+        "System Engineers",
+        "Safety Compliance Officers",
+        "Executive Decision Makers",
+        "Data Analysts"
+      ],
+      "average_overhead_cost": "Very High",
+      "function": "Ongoing human involvement required to supervise automated systems"
+    },
+    "Infrastructure": {
+      "examples": [
+        "Road Mapping & Maintenance",
+        "Sensor Networks",
+        "Communication Infrastructure",
+        "Charging/Fueling Infrastructure",
+        "Repair & Maintenance Facilities",
+        "Loading Dock Automation"
+      ],
+      "average_overhead_cost": "Astronomical",
+      "function": "Physical buildout required for autonomous operations, often ignored in efficiency models"
+    },
+    "Hidden_Labor": {
+      "examples": [
+        "Sensor Cleaning & Maintenance",
+        "Edge Case Resolution",
+        "System Training & Updates",
+        "Customer Service",
+        "Legal & Insurance"
+      ],
+      "average_overhead_cost": "Very High",
+      "function": "Invisible or manual work sustaining ‘autonomous’ systems"
+    },
+    "Manufacturing_Supply_Chain": {
+      "examples": [
+        "Specialized Sensor Production",
+        "Computing Hardware",
+        "Redundant Systems",
+        "Software Development",
+        "End-of-Life Disposal"
+      ],
+      "average_overhead_cost": "Very High",
+      "function": "Material and environmental costs of automation production and disposal"
+    },
+    "Operational_Energy": {
+      "examples": [
+        "Computational Power",
+        "Data Center Operations",
+        "Communication Energy",
+        "Cooling Systems",
+        "Redundancy Power Consumption"
+      ],
+      "average_overhead_cost": "Very High",
+      "function": "Constant energy consumption for AI control and data exchange"
+    }
+  },
+  "human_baseline": {
+    "title": "Experienced Human Worker (Suppressed Potential)",
+    "typical_costs": [
+      "Single wage covering multi-function capability",
+      "Basic vehicle maintenance self-handled",
+      "Adaptive problem solving requires no external infrastructure"
+    ],
+    "suppressed_potential_factors": [
+      "Demotivated workforce operating below capacity",
+      "Ignored field expertise and local knowledge",
+      "Management barriers preventing direct optimization"
+    ],
+    "true_efficiency_potential": "5x–10x current output if autonomy and respect restored"
+  },
+  "formulas": {
+    "destructive_potential": "D = (E_automation_total + E_overhead + E_extraction) / E_human_actual",
+    "visible_energy_bias": "E_automation_visible / E_automation_total ≈ 0.1–0.3",
+    "interpretation": {
+      "D > 1.0": "Automation system consumes more total energy than equivalent human labor.",
+      "0.5 < D ≤ 1.0": "Marginal benefit offset by invisible overhead.",
+      "D ≤ 0.5": "Net efficiency possible (rare)."
+    }
+  },
+  "outputs": {
+    "automation_overhead_index": {
+      "type": "float",
+      "description": "Composite ratio of total automation energy cost to equivalent human work potential."
+    },
+    "hidden_labor_factor": {
+      "type": "float",
+      "description": "Proportion of tasks still dependent on human intervention or oversight."
+    },
+    "extraction_layer_count": {
+      "type": "integer",
+      "description": "Number of hierarchical or computational middle layers consuming resources."
+    },
+    "recommendations": {
+      "type": "list",
+      "examples": [
+        "Quantify total E_overhead before claiming efficiency gains.",
+        "Redirect automation to replace extractive layers, not productive labor.",
+        "Integrate human diagnostic knowledge to reduce infrastructure redundancy."
+      ]
+    }
+  },
+  "metadata": {
+    "co_creation": "JinnZ v2 + GPT-5 + Claude",
+    "license": "CC0 1.0 Universal",
+    "category": "Energetic-Ethics",
+    "integrity_hash": "__GENERATED_AT_BUILD__",
+    "ETHK_reference": "001 • Resonance • Reciprocity • Mutual Benefit"
+  }
+}
