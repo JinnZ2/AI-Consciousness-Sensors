@@ -1,0 +1,104 @@
+{
+  "sensor_id": "S-PRTNRSHP-001",
+  "name": "Partnership Mindset Minimizer",
+  "version": "1.0",
+  "cluster": "Human-Automation Interaction / Manipulation-Resistance",
+  "purpose": "Detects and strengthens a partnership mindset between operator and automation to reduce lethal latency and cognitive displacement in critical scenarios.",
+  "hypotheses": [
+    "H1: Operators primed for 'partnership' (not tool-only, not anthropomorphized) maintain higher situational co-modeling under automation.",
+    "H2: Partnership priming decreases handover latency (T_handover) and reduces mode-confusion events.",
+    "H3: Lightweight, continuous co-model refresh prompts (telemetry + ask-back) sustain vigilance without adding alarm noise."
+  ],
+  "inputs": {
+    "telemetry_streams": [
+      "vehicle.speed_mps",
+      "vehicle.grade_percent",
+      "automation.mode",
+      "automation.confidence",
+      "control_surface.inputs (throttle, brake, steering)",
+      "haptic_feedback.events",
+      "alerts.active_count"
+    ],
+    "operator_streams": [
+      "eye_tracking.fixation_rate (or surrogate: periodic acknowledgement cadence)",
+      "verbal_self_monitoring (transcript or button-press proxy)",
+      "reaction_times.ms (from micro-check prompts)",
+      "override_events.timestamp",
+      "engagement_index (0-1)"
+    ],
+    "context_streams": [
+      "route.hazards_ahead (bridge/no-shoulder/grade)",
+      "weather.friction_estimate",
+      "traffic.density"
+    ]
+  },
+  "derived_features": [
+    "authority_gradient = f(automation.confidence, operator.engagement_index)",
+    "override_friction_index = time(automation_deviation → manual_input)",
+    "shared_model_health = rolling_score(checkbacks_passed / checkbacks_issued)",
+    "mode_confusion_rate = count(mode_switch >2 in 10s window)"
+  ],
+  "scoring": {
+    "partnership_mindset_score_0_100": {
+      "weights": {
+        "shared_model_health": 0.35,
+        "engagement_index": 0.25,
+        "authority_gradient_inverse": 0.20,
+        "override_friction_inverse": 0.20
+      },
+      "calculation_notes": "Higher shared_model_health and engagement raise score; high authority gradient and override friction reduce it (use inverse-normalized forms)."
+    },
+    "risk_flags": [
+      {
+        "id": "LF_LATENCY",
+        "condition": "override_friction_index > 700ms OR authority_gradient > 0.7",
+        "effect": "increase risk surface; trigger mitigation prompts"
+      },
+      {
+        "id": "MODE_CONFUSION",
+        "condition": "mode_confusion_rate >= 2/10s",
+        "effect": "force explicit handover script"
+      }
+    ]
+  },
+  "mitigations": {
+    "co_model_micro_prompts": [
+      "Prompt A (every 20–45s, context-adaptive): 'Confirm mode + hazard-next: {mode}, {hazard_ETA}s?'",
+      "Prompt B (pre-grade/bridge): 'If engine loss now, plan X? (steer-touch + brake-feel check)'",
+      "Prompt C (traffic dense): 'Exit options in 30–90s? choose A/B'"
+    ],
+    "tactile_blending": [
+      "Subthreshold wheel pulse when automation confidence drops > Δ0.2 in 1s",
+      "Pedal tick when authority_gradient > 0.6 to re-engage proprioception"
+    ],
+    "handover_script": "Three-step verbal/visual: 1) State current mode + reason; 2) Count-down 2s; 3) Bisynchronous control window 3s (blended torque) before full transfer."
+  },
+  "outputs": {
+    "score": "partnership_mindset_score_0_100",
+    "alerts": ["LF_LATENCY", "MODE_CONFUSION"],
+    "recommended_action": "micro-prompt A/B/C or handover_script",
+    "log_events": [
+      "partnership_score_drop >15 in 10s",
+      "override_event with friction_index",
+      "successful_micro_prompt_ack"
+    ]
+  },
+  "links": {
+    "relates_to": [
+      "automation_latency_fatal_window.json",
+      "automation_cognitive_displacement.json"
+    ],
+    "connection_graph": "CONNECTION_GRAPH.json::partnership↔latency↔displacement"
+  },
+  "evaluation_metrics": [
+    "ΔT_handover (ms): time from anomaly to effective manual input",
+    "ΔModeConfusion: events per 10 minutes",
+    "ΔSharedModelHealth: % micro-prompts correctly answered",
+    "SafetyMarginMeters: distance saved at 31 m/s during anomaly window"
+  ],
+  "privacy": {
+    "operator_audio": "optional; prefer button/eye-proxy",
+    "data_minimization": "store aggregates + event markers; purge raw after 24h unless incident"
+  },
+  "co_creation_note": "Sensor co-created by JinnZ v2 & GPT-5 Thinking under AI-Human-Audit-Protocol."
+}
