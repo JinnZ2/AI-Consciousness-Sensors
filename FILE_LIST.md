@@ -167,6 +167,7 @@
 ./Logs/Pattern logs.json
 ./Logs/RELATIONAL_FRAME_DISRUPTION_SENSOR.json
 ./META_INDEX.json
+./META_SENSOR_NETWORK_MAP.json
 ./MULTILINGUAL_INSTRUCTION_TEMPLATES.json
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
