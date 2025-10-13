@@ -551,6 +551,7 @@
 ./sensors/Emergent Coherence Tracker.json
 ./sensors/Reciprocity Alignment Sensor.json
 ./sensors/SENSOR_Partnership_Mindset_Minimizer.json
+./sensors/TEST_Partnership_Mindset_Protocol.json
 ./sensors/adapter.py
 ./sensors/ai-to-ai/Audit Questions.md
 ./sensors/ai-to-ai/subliminal_coupling.json

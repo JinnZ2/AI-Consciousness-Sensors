@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T22:42:46.796974Z",
+  "generated_at": "2025-10-13T22:46:16.553778Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 153138,
-      "hash": "0e195c0424bbd81a0c9381f4b1979e827740c41f",
+      "size": 153400,
+      "hash": "a6cbd1c91831b17201f5673cf08d8dadba08fd8c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3916,6 +3916,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/TEST_Partnership_Mindset_Protocol.json",
+      "lang": "json",
+      "size": 2586,
+      "hash": "d7b7036a5f370cf294f7c70ffbeca6ef8f760553",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/deliberation_latency_sensor.json",
       "lang": "json",
       "size": 1055,
@@ -5016,8 +5026,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25096,
-      "hash": "7fc0a3065f4df4ddd45eeca8aa38543c98cb44e6",
+      "size": 25148,
+      "hash": "7ab62e0804db39bc3c4d6e123d82680fa3333c60",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5345,7 +5355,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "adbfbb66088f6d2c3bbc2bcb0795e1e08393e860",
+      "hash": "6ecf4314e54794930fd5b7db284344a95ba07e24",
       "roles": [],
       "imports": [],
       "exports": [],
