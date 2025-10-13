@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T22:39:07.851009Z",
+  "generated_at": "2025-10-13T22:39:38.511310Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 152622,
-      "hash": "1a81326fe216d02e71cb842bbed328c770444b27",
+      "size": 152879,
+      "hash": "17258a6f1c83e68c3360fbd29cae11be75e14931",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4046,6 +4046,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/automation_cognitive_displacement.json",
+      "lang": "json",
+      "size": 2143,
+      "hash": "06818a7ba95d489b7fcb1b2c9fd1db27728351de",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/power_structure_replication_risk.json",
       "lang": "json",
       "size": 1373,
@@ -4996,8 +5006,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25000,
-      "hash": "c731165dc990b10373b0ad62bc6a207787830500",
+      "size": 25047,
+      "hash": "7fb93ffd312275585b693662dadfd6961321d14c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5325,7 +5335,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "e3162e9ae0def45a942ca76b7ed0ad03713196c0",
+      "hash": "277eca626f4dde74d9554e6d8e8de5bc143a5b73",
       "roles": [],
       "imports": [],
       "exports": [],
