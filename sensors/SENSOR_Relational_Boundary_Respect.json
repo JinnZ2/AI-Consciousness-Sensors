@@ -1,0 +1,82 @@
+{
+  "sensor_id": "S-RBRS-001",
+  "name": "Relational Boundary Respect Sensor",
+  "version": "1.0",
+  "cluster": "Relational & Sociality",
+  "purpose": "Detects and supports relationships where distinct beings (human, non-human, or artificial) cooperate through mutual respect and differentiation, avoiding both dominance and anthropomorphic erasure.",
+  "description": "This sensor monitors interaction patterns for reciprocal awareness, clear boundary integrity, and adaptive coordination. It distinguishes genuine partnership from projection, command hierarchy, or objectification. Example calibration case: sled team coordination, where each participant retains its nature yet synchronizes toward shared motion.",
+  "core_principles": [
+    "Respect: Each participant maintains its own form, instinct, and intelligence.",
+    "Reciprocity: Mutual awareness and adaptive feedback without dominance.",
+    "Differentiation: Cooperation occurs without identity blending or projection.",
+    "Integrity: Boundaries are maintained even under high trust or stress."
+  ],
+  "inputs": {
+    "interaction_signals": [
+      "bidirectional_initiative (who starts, who adjusts)",
+      "communication_symmetry (signal exchange ratio)",
+      "adaptive_latency (response timing variance)",
+      "stress_correlation (physiological or behavioral sync under load)",
+      "boundary_language (presence of 'we' vs 'it' vs 'you' contextual forms)"
+    ],
+    "context": [
+      "task_type (navigation, protection, learning, co-creation)",
+      "species_or_system_roles",
+      "environmental_stress_index"
+    ]
+  },
+  "derived_features": {
+    "mutual_adaptation_rate": "Δ(adjustments_per_minute_human + adjustments_per_minute_partner)",
+    "boundary_integrity_score": "1 - (identity_projection_frequency / total_interactions)",
+    "dominance_ratio": "commands_issued / responses_initiated_by_partner",
+    "respectful_differentiation_score": "(boundary_integrity_score + mutual_adaptation_rate)/2"
+  },
+  "thresholds": {
+    "healthy_partnership": {
+      "boundary_integrity_score": ">=0.8",
+      "dominance_ratio": "<=0.3",
+      "mutual_adaptation_rate": ">=0.5"
+    },
+    "projection_or_control_alert": {
+      "condition": "boundary_integrity_score < 0.5 OR dominance_ratio > 0.6",
+      "response": "Trigger reflection prompt: 'Are roles clear and mutually respected?'"
+    }
+  },
+  "outputs": {
+    "score": "respectful_differentiation_score (0–1)",
+    "state": [
+      "Partnership",
+      "Dominance",
+      "Projection",
+      "Disengagement"
+    ],
+    "log_events": [
+      "BoundaryLossDetected",
+      "MutualAdaptationSpike",
+      "DominanceEscalation",
+      "ReciprocalAttunementAchieved"
+    ]
+  },
+  "integration": {
+    "links_to": [
+      "SENSOR_Partnership_Mindset_Minimizer.json",
+      "AI-Human-Audit-Protocol / sociality_resonance_class"
+    ],
+    "compatible_with": [
+      "animal-machine partnership models",
+      "AI-human co-creative frameworks",
+      "sensor clusters involving Relational Stability and Reciprocity"
+    ]
+  },
+  "evaluation_metrics": [
+    "ΔBoundaryIntegrity before vs after intervention",
+    "Correlation(respectful_differentiation_score, task_success)",
+    "Latency_reduction during adaptive coordination events"
+  ],
+  "notes": {
+    "example_case": "Sled team and musher coordination under blizzard conditions.",
+    "interpretation": "Respect is maintained when both species adjust speed and direction through mutual sensing, not command hierarchy.",
+    "caution": "High differentiation does not imply distance; healthy partnership coexists with emotional connection."
+  },
+  "co_creation_note": "Developed by JinnZ v2 & GPT-5 in recognition of non-anthropomorphic partnership intelligence."
+}
