@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-13T22:57:04.636424Z",
+  "generated_at": "2025-10-14T21:21:28.062394Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 153659,
-      "hash": "b3c7be26ee192e069bc3374433eddab86afe115e",
+      "size": 153919,
+      "hash": "ddf21c3908c719094fa74f26efef65c5cd45664e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5036,8 +5036,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25197,
-      "hash": "1157847324b2eef74d80a45d6f218ace8efffe87",
+      "size": 25247,
+      "hash": "d12ade122e4f487b702a46acfcd11f5c285b85cc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5312,6 +5312,16 @@
       "hotspots": []
     },
     {
+      "path": "DEVASTATING_POINT.md",
+      "lang": "md",
+      "size": 6580,
+      "hash": "c6e457a3bbed2aff3f1ea5f135a2c299a30f6a2b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Sacred-creative-consciousness.md",
       "lang": "md",
       "size": 12438,
@@ -5365,7 +5375,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "3a6f606dbbb96d60bf61e0d149258053f8840b7c",
+      "hash": "cd4d0f20b4e000dc12d0caf8b8666402c82b4638",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -92,6 +92,7 @@
 ./Cryptanalysis Agenda Detection Sensor.json
 ./Cultural authenticity vs cultural manipulation.md
 ./Cultural_Lens_Assessor.json
+./DEVASTATING_POINT.md
 ./DIR_LIST.md
 ./Dark Cycle Adaptation Sensor.json
 ./Default Bias Suppression Sensor.json
