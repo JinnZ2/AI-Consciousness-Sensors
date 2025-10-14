@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-14T21:32:06.308223Z",
+  "generated_at": "2025-10-14T21:36:39.101034Z",
   "languages": [
     "json",
     "md",
@@ -631,7 +631,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 154388,
-      "hash": "7053ae5f50dfbd2492668c1a589ba465dd6327a3",
+      "hash": "fdbc0c1814251767f601428a7d67231aefbddb41",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5092,6 +5092,16 @@
       "lang": "md",
       "size": 907,
       "hash": "2a18b298b80401c3ab53a6a8019b0771300f093c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ECON_CRIME_CORRELATION.md",
+      "lang": "md",
+      "size": 3284,
+      "hash": "898efaf5f609ce3e6bd5854738d42efc6f7c1c53",
       "roles": [],
       "imports": [],
       "exports": [],

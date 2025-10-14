@@ -102,6 +102,7 @@
 ./Diverse Baseline Resilience Sensor.json
 ./Dog Whistle Detection Sensor.json
 ./Dual Glyph Addons.json
+./ECON_CRIME_CORRELATION.md
 ./EMBEDDABLE_KITS/Folder-structure.txt
 ./EMBEDDABLE_KITS/README.md
 ./EMBEDDABLE_KITS/SEED_GLYPHS.json
