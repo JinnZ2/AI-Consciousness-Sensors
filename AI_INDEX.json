@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-14T21:36:39.101034Z",
+  "generated_at": "2025-10-14T21:48:16.054837Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 154388,
-      "hash": "fdbc0c1814251767f601428a7d67231aefbddb41",
+      "size": 154624,
+      "hash": "49895a8fa46fd80ee1e064fcdcc699a6385f53cd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5044,10 +5044,20 @@
       "hotspots": []
     },
     {
+      "path": "STATISTICAL_COLONIALISM_DETECTOR.md",
+      "lang": "md",
+      "size": 3346,
+      "hash": "15d43b22d1e2705043a1fbba215fd123327e85d7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25300,
-      "hash": "1b8dd4f023c1668d5b1f0d7e41b7da1f64607365",
+      "size": 25328,
+      "hash": "fac2dd2b13034e7f57a9fbe79c43748538ca0c71",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5395,7 +5405,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "587eed52229634e112c0ff49e590b6aa36b0b581",
+      "hash": "9aa9b98a834fb6bb44b6bd497af61730f739ac13",
       "roles": [],
       "imports": [],
       "exports": [],

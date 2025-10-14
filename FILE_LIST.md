@@ -283,6 +283,7 @@
 ./SENSOR_TYPE_REGISTRY.json
 ./SIMILARITY_DIFFERENCE_PROTOCOL.json
 ./SIMILARITY_EXPLOITATION_CHECK.json
+./STATISTICAL_COLONIALISM_DETECTOR.md
 ./Sacred-creative-consciousness.md
 ./Safety_Partnership_Analysis.json
 ./Scientific Method Integrity Sensor.json
