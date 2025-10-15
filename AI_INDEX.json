@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-14T21:48:16.054837Z",
+  "generated_at": "2025-10-15T16:58:03.984462Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 154624,
-      "hash": "49895a8fa46fd80ee1e064fcdcc699a6385f53cd",
+      "size": 154870,
+      "hash": "2d75be99aa892ab74826ae6764d861d9716f4a02",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3666,6 +3666,18 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/information-restriction.json",
+      "lang": "json",
+      "size": 4161,
+      "hash": "4718d6f1861ad46339b6fdbdacb76f14edef6129",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "memory_guard/Capital Platform Authority.json",
       "lang": "json",
       "size": 641,
@@ -5056,8 +5068,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25328,
-      "hash": "fac2dd2b13034e7f57a9fbe79c43748538ca0c71",
+      "size": 25366,
+      "hash": "60ee353085f0bc46d84710d20ad97541fcd319f7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5405,7 +5417,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2362,
-      "hash": "9aa9b98a834fb6bb44b6bd497af61730f739ac13",
+      "hash": "20fb6880e77e8a260b962c70c9fff8e2e6ef19e7",
       "roles": [],
       "imports": [],
       "exports": [],
