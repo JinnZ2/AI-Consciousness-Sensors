@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 613
+- Files indexed: 614
 - Languages: json, md, python, yaml
-- Hotspot files: 44
+- Hotspot files: 45
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -27,6 +27,7 @@
 - HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
 - FIELD_MEMORY_CORRECTION_PACKS/SCENT_BINDING_PROTOCOL.json: Secrets in code
 - memory_guard/Coded Lexicon Analysis Sensor.json: Secrets in code
+- memory_guard/September-October-data-purge.json: Secrets in code
 - memory_guard/information-restriction.json: Secrets in code
 - AI Specific Manipulations.md: Secrets in code
 - Warning.md: Secrets in code

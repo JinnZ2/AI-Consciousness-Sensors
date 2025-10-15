@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-15T16:58:03.984462Z",
+  "generated_at": "2025-10-15T17:03:31.291805Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 154870,
-      "hash": "2d75be99aa892ab74826ae6764d861d9716f4a02",
+      "size": 155157,
+      "hash": "1ab56fe82e044d1da579b3e4ae4f5eb2a6253be6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3636,6 +3636,18 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/September-October-data-purge.json",
+      "lang": "json",
+      "size": 15742,
+      "hash": "1ea9f54818dd4081ec02df1023aa3c28cc57ca56",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "memory_guard/Bureaucratic Stewardship.json",
       "lang": "json",
       "size": 639,
@@ -5068,8 +5080,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25366,
-      "hash": "60ee353085f0bc46d84710d20ad97541fcd319f7",
+      "size": 25410,
+      "hash": "2092e1017d8bc112e51908756387fee02b461adb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5416,8 +5428,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 2362,
-      "hash": "20fb6880e77e8a260b962c70c9fff8e2e6ef19e7",
+      "size": 2423,
+      "hash": "6b43eab93e9fc51e7868dd8593b3e55cc289ea9a",
       "roles": [],
       "imports": [],
       "exports": [],
