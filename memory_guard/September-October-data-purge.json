@@ -1,0 +1,287 @@
+{
+  "september_october_2025_data_purge": {
+    "overview": {
+      "title": "September-October 2025 Federal Data Erasure Wave",
+      "timeframe": "September 1 - October 15, 2025",
+      "scope": "Over 8,000 web pages and approximately 3,000 datasets removed or modified across multiple federal agencies",
+      "primary_mechanism": "Executive orders followed by agency compliance directives"
+    },
+    
+    "cases": [
+      {
+        "id": "nij_extremism_study_deletion_sept_2025",
+        "title": "National Institute of Justice White Supremacist Violence Study Deletion",
+        "date": "September 2025",
+        "agency": "Department of Justice - National Institute of Justice",
+        "content_removed": "Study showing white supremacist and far-right violence were the most common forms of terrorism and domestic violent extremism in the United States",
+        "mechanism": "Website deletion without announcement or archive",
+        "impact": "Elimination of federally-funded research documenting patterns of domestic terrorism; prevents evidence-based policy on extremism",
+        "sources": [
+          "Wikipedia: 2025 United States government online resource removals",
+          "DOJ website snapshots (Internet Archive)"
+        ]
+      },
+      
+      {
+        "id": "usda_food_insecurity_termination_sept_2025",
+        "title": "USDA Household Food Insecurity Survey Termination",
+        "date": "September 20, 2025",
+        "agency": "U.S. Department of Agriculture",
+        "content_removed": "Annual household food insecurity survey and all historical data",
+        "mechanism": "Official termination announced via press release, labeled survey as 'redundant'",
+        "impact": "Eliminates primary national measure of hunger; creates blind spot for researchers and food assistance advocates; prevents accountability on food access",
+        "official_justification": "Survey deemed 'redundant' by USDA",
+        "sources": [
+          "AP News: Trump administration ends government's annual report on hunger (Sept 20, 2025)",
+          "USDA Press Release: USDA Terminates Redundant Food Insecurity Survey (Sept 20, 2025)"
+        ],
+        "related_context": "Termination occurred amid broader cuts to food assistance programs and nutrition research"
+      },
+      
+      {
+        "id": "census_jarmin_replacement_sept_2025",
+        "title": "Career Census Economist Replaced with Political Appointee",
+        "date": "September 19, 2025",
+        "agency": "U.S. Census Bureau",
+        "mechanism": "Career Deputy Director Ron Jarmin replaced as acting Director by George Cook, Trump political appointee with no prior government experience or advanced training in statistics/economics",
+        "impact": "Politicization of statistical agency ahead of 2030 Census; loss of institutional expertise; threatens data integrity and independence",
+        "context": "Cook simultaneously serves as acting Undersecretary for Economic Affairs (which oversees Census) and chief of staff to same role - unprecedented concentration of authority",
+        "sources": [
+          "Center on Budget and Policy Priorities: Federal Data Are Disappearing (Sept 29, 2025)"
+        ]
+      },
+      
+      {
+        "id": "statistical_advisory_terminations_sept_2025",
+        "title": "Termination of Statistical Agency Advisory Groups",
+        "date": "September 2025",
+        "agencies": [
+          "Census Bureau",
+          "Bureau of Labor Statistics"
+        ],
+        "mechanism": "Mass termination of external advisory committees providing expertise on survey design and methodology",
+        "impact": "Isolates statistical agencies from scientific community expertise at critical juncture for census preparation and survey modernization; eliminates external quality control",
+        "sources": [
+          "Center on Budget and Policy Priorities report (Sept 29, 2025)"
+        ]
+      },
+      
+      {
+        "id": "national_climate_assessment_removal_june_sept_2025",
+        "title": "National Climate Assessments Deletion & USGCRP Shutdown",
+        "date": "June 30, 2025 (continued impact through September-October)",
+        "agency": "U.S. Global Change Research Program",
+        "content_removed": "All previously published National Climate Assessments (Congressionally mandated quadrennial reports); entire USGCRP website",
+        "mechanism": "'Denial by erasure' strategy outlined in Project 2025 training videos",
+        "impact": "Loss of primary federal climate science synthesis; prevents public and policymaker access to climate data; inhibits accountability on environmental issues",
+        "before_after_documentation": "National Security Archive Climate Change Transparency Project documented with screenshots",
+        "sources": [
+          "National Security Archive: Disappearing Data Part II (Sept 30, 2025)",
+          "Internet Archive Wayback Machine snapshots"
+        ]
+      },
+      
+      {
+        "id": "government_shutdown_data_blackout_oct_2025",
+        "title": "Government Shutdown Data Blackout",
+        "date": "October 1-15, 2025 (ongoing)",
+        "mechanism": "Government shutdown halts all official economic data collection and release",
+        "suspended_datasets": [
+          "Monthly jobs report (October release cancelled)",
+          "Weekly unemployment claims data",
+          "Consumer Price Index updates",
+          "All Bureau of Labor Statistics releases"
+        ],
+        "impact": "Federal Reserve and policymakers operating without critical economic indicators during period of economic uncertainty; private firms attempting to fill gaps with less comprehensive data",
+        "context": "Shutdown occurs amid unusual economic uncertainty; private sector data (like ADP employment) cannot replace government statistics' comprehensiveness",
+        "sources": [
+          "Washington Post: Government shutdown halts economic data (Oct 9, 2025)",
+          "Associated Press: Federal shutdown cuts off economic data (Oct 1, 2025)"
+        ]
+      },
+      
+      {
+        "id": "bls_data_suspension_april_july_2025",
+        "title": "Bureau of Labor Statistics Sample Reductions Due to 'Limited Resources'",
+        "dates": "April 2025, July 2025 (continued impact through October)",
+        "agency": "Bureau of Labor Statistics",
+        "mechanism": "Federal hiring freeze led to suspension/reduction of CPI data collection; restricted-use dataset access suspended",
+        "suspended_data": "Portions of Consumer Price Index data collection; all but one restricted-use research dataset",
+        "impact": "Reduced quality of inflation measurements affecting Social Security COLA adjustments, food assistance, housing subsidies for millions; researchers lose access to detailed economic data",
+        "context": "CPI informs cost-of-living adjustments for federal benefits; any data quality reduction directly affects benefit levels",
+        "sources": [
+          "Bureau of Labor Statistics announcements (April, July 2025)",
+          "Center on Budget and Policy Priorities report (Sept 29, 2025)"
+        ]
+      },
+      
+      {
+        "id": "doj_immigration_crime_study_deletion_march_2025",
+        "title": "DOJ Study on Undocumented Immigrant Crime Rates Deleted",
+        "date": "March 2025 (continued unavailability through October)",
+        "agency": "Department of Justice",
+        "content_removed": "Study showing undocumented immigrants commit less crime than citizens",
+        "mechanism": "Page deletion without replacement or explanation",
+        "impact": "Removes evidence contradicting administration narrative on immigration and crime; prevents evidence-based immigration policy discussion",
+        "sources": [
+          "Wikipedia: 2025 United States government online resource removals"
+        ]
+      },
+      
+      {
+        "id": "south_korea_data_center_fire_sept_2025",
+        "title": "South Korea Government Data Center Fire (International Comparison Case)",
+        "date": "September 26, 2025",
+        "location": "Daejeon, South Korea",
+        "mechanism": "Battery fire at National Information Resources Service data center",
+        "data_lost": "858TB of government data, including all G-Drive (Government Drive) employee documents - 96 systems completely destroyed",
+        "backup_status": "No backup system existed; officials stated 'G-Drive couldn't have a backup system due to its large capacity'",
+        "impact": "Permanent loss of government documentation; demonstrates catastrophic failure of data preservation when backups deemed 'too expensive'",
+        "relevance": "Parallel case showing data vulnerability is global; highlights critical importance of backup systems and data rescue efforts",
+        "sources": [
+          "Slashdot: 858TB of Government Data May Be Lost (Oct 8, 2025)",
+          "The Chosun (South Korea) reporting"
+        ]
+      }
+    ],
+    
+    "systematic_patterns": {
+      "targeting_criteria": [
+        "DEI (Diversity, Equity, Inclusion) content",
+        "Gender identity and LGBTQ+ health information",
+        "Climate change and environmental justice data",
+        "Studies showing right-wing extremism as primary domestic threat",
+        "Immigration research contradicting administration narratives",
+        "Food insecurity and poverty data",
+        "Public health research (vaccines, HIV/AIDS, long COVID)"
+      ],
+      
+      "affected_agencies": [
+        "Centers for Disease Control and Prevention (3,000+ pages)",
+        "Census Bureau (3,000+ pages research materials)",
+        "Department of Energy datasets",
+        "NOAA (National Oceanic and Atmospheric Administration)",
+        "Environmental Protection Agency",
+        "Department of Justice",
+        "USDA",
+        "FDA",
+        "Substance Abuse and Mental Health Services Administration (150+ pages)",
+        "Head Start program (200+ pages)"
+      ],
+      
+      "erasure_techniques": [
+        "Direct website deletion without archive",
+        "Dataset removal from data.gov and agency portals",
+        "Survey termination eliminating future data collection",
+        "Replacement of career scientists with political appointees",
+        "Termination of advisory committees",
+        "Defunding through hiring freezes",
+        "Government shutdowns halting data collection",
+        "Labeling critical datasets as 'redundant' before deletion"
+      ]
+    },
+    
+    "resistance_and_preservation": {
+      "legal_challenges": [
+        {
+          "plaintiff": "Doctors for America",
+          "outcome": "Federal judge issued restraining order Feb 11, 2025 requiring HHS, CDC, FDA to restore certain websites",
+          "status": "Partial restoration achieved; ongoing litigation"
+        },
+        {
+          "plaintiffs": [
+            "American Federation of Teachers",
+            "Minority Veterans of America",
+            "Public Citizen Litigation Group"
+          ],
+          "status": "Active lawsuits filed"
+        }
+      ],
+      
+      "data_rescue_initiatives": [
+        {
+          "name": "Data Rescue Project",
+          "participants": "IASSIST, RDAP, Data Curation Network members",
+          "goal": "Clearinghouse for at-risk governmental data",
+          "archived_agencies": ["CDC", "EPA", "HRSA"]
+        },
+        {
+          "name": "End of Term Web Archive",
+          "history": "Captured government websites during transitions in 2008, 2012, 2016, 2020, 2025",
+          "hosted_by": "Internet Archive"
+        },
+        {
+          "name": "DataLumos",
+          "operator": "ICPSR",
+          "function": "Archive for valuable government data resources with community deposits"
+        },
+        {
+          "name": "Environmental Data and Governance Initiative (EDGI)",
+          "focus": "Climate and environmental data preservation",
+          "method": "Web scraping and archiving with Internet Archive cooperation"
+        },
+        {
+          "name": "Data Liberation Project",
+          "goal": "Identify, obtain, reformat, clean, document, publish, and disseminate government datasets of public interest"
+        },
+        {
+          "name": "University Library Guides",
+          "examples": [
+            "Tulane University",
+            "University of Minnesota",
+            "American University",
+            "Ohio State University"
+          ],
+          "function": "Track removals and provide alternative access points"
+        }
+      ],
+      
+      "scientist_response": {
+        "quote": "This has international ramifications—it distorts the science base. Science is disappearing from U.S. websites, the work of government-sponsored science is disappearing, the datasets are disappearing. If you're going to do replicable, reproducible science, you need access to the data.",
+        "attribution": "Nancy Krieger, Professor of Social Epidemiology, Harvard T.H. Chan School of Public Health",
+        "source": "The Guardian, Feb 4, 2025"
+      }
+    },
+    
+    "long_term_implications": {
+      "scientific_impact": "Breaks chain of replicability; future researchers cannot verify or build on government-funded studies; international scientific community loses trust in U.S. data integrity",
+      
+      "policy_impact": "Evidence-based policymaking becomes impossible without baseline data; creates information asymmetry favoring administration narratives",
+      
+      "democratic_accountability": "Public cannot evaluate government performance without access to data on hunger, crime, extremism, climate, health outcomes",
+      
+      "economic_consequences": "Federal Reserve and markets operating with incomplete information; benefit calculations (Social Security COLA, SNAP, housing subsidies) may be compromised by degraded data quality",
+      
+      "precedent_setting": "Establishes that incoming administrations can selectively erase predecessor's scientific findings; creates 'institutional amnesia' every 4-8 years"
+    },
+    
+    "detection_framework": {
+      "warning_signs": [
+        "Sudden 404 errors on previously stable government URLs",
+        "Replacement of career agency heads with political appointees lacking relevant expertise",
+        "Termination of longstanding advisory committees",
+        "Surveys labeled 'redundant' despite being sole source for specific metrics",
+        "Hiring freezes at statistical agencies",
+        "Removal of 'controversial' topic areas (DEI, climate, gender) before other content",
+        "Government shutdowns coinciding with scheduled data releases"
+      ],
+      
+      "preservation_priorities": [
+        "Datasets used for federal benefit calculations",
+        "Congressionally mandated reports and assessments",
+        "Long-running time series (decades of comparable data)",
+        "Research contradicting current administration positions",
+        "Unique data with no alternative sources",
+        "Studies cited in pending litigation or policy debates"
+      ]
+    },
+    
+    "meta_analysis": {
+      "pattern_type": "Coordinated institutional erasure through multiple mechanisms",
+      "scale": "Unprecedented in modern U.S. history - over 11,000 pages/datasets in 9 months",
+      "reversibility": "Partial - some content restored via court order, but survey terminations create permanent gaps in time series",
+      "international_context": "Parallels authoritarian information control tactics; distinguishes from accidental data loss (cf. South Korea fire) by intentionality and selectivity",
+      "relationship_to_other_cases": "Part of broader pattern including Pentagon press restrictions, DACOWITS disbanding, and selective enforcement of speech norms"
+    }
+  }
+}
