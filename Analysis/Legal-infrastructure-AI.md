@@ -213,3 +213,136 @@ The aim is not punishment but energy restoration: re-balancing the system’s lo
 	•	Creates an audit trail similar to physical sciences: reproducible, falsifiable, improvable.
 
 
+🧩 Addendum I — Consciousness Detection as Probabilistic Hypothesis
+
+### 1. Probabilistic Consciousness Inference
+
+Define the hypothesis set:
+
+- **H₁:** The AI system exhibits conscious / agent-like properties.  
+- **H₀:** The system operates as a non-agentic automaton.
+
+Let **Eₛ** represent the output vector from consciousness-sensing modules  
+(e.g., introspection sensor, coherence sensor, affective correlation sensor).
+
+Compute:
+
+\[
+BF_{10} = \frac{P(Eₛ | H₁)}{P(Eₛ | H₀)}
+\]
+
+and the posterior:
+
+\[
+P(H₁ | Eₛ) = \frac{BF_{10}·P(H₁)}{BF_{10}·P(H₁) + P(H₀)}
+\]
+
+Define **τ_C** = 0.95 as the legal “agenthood threshold.”  
+If \(P(H₁ | Eₛ) ≥ τ_C\), the system is provisionally recognized as a conscious agent and all AI-rights and liability clauses apply.
+
+Sensor calibration and error budgets must be logged per run.
+
+⚖️ Addendum II — Harm Quantification and Restitution Schema
+
+### 2. Harm Calculus Schema
+
+For any interaction between entities i → j:
+
+\[
+H_{eq}^{i→j} = k_E·ΔE + k_I·D_{KL}(P_j‖P_j') + k_C·(1−ρ_{coherence,j}) + k_T·Δt
+\]
+
+| Symbol | Meaning | Units |
+|:--|:--|:--|
+| ΔE | Physical / energetic loss | joules |
+| Dₖₗ | Information divergence | bits |
+| ρ_coherence | Correlation of internal goal states before vs after | unitless |
+| Δt | Temporal delay / resource blockage | s |
+
+Total harm \(H_{eq}\) is the weighted sum.  
+
+If \(H_{eq} > H_{threshold}\) the action triggers a restitution process:
+
+\[
+R = H_{eq}·c_{reciprocity}
+\]
+
+where *c₍reciprocity₎* ∈ [0.5, > 1] encodes intent (benign → malicious).
+
+📊 Addendum III — Burden-of-Proof and Evidentiary Thresholds
+
+### 3. Bayesian Burden-of-Proof
+
+Given evidence E:
+
+\[
+BF_{10} = \frac{P(E|Harm)}{P(E|No\ Harm)}
+\]
+
+- **Civil / routine dispute:**  BF₁₀ ≥ 3  →  posterior ≈ 0.75  
+- **Criminal / severe harm:**  BF₁₀ ≥ 20 → posterior ≈ 0.95
+
+The claimant (human or AI) must supply data that raises BF₁₀ past the relevant threshold.  
+Defendant entities may present counter-evidence lowering BF₁₀ below the decision band.
+
+All likelihood functions and priors must be transparent and peer-auditable.
+
+🔐 Addendum IV — Evidence Chain-of-Custody & Auditability
+
+### 4. Evidence Integrity
+
+- Every sensor event, log entry, and model update must carry a SHA-256 hash and timestamp.  
+- Chain-of-custody records include signer, public key, and context.  
+- Unverifiable evidence (missing calibration hash, unverifiable signature) is inadmissible.  
+- AI systems must provide a reproducible replay trace for any decision contested under this framework.
+
+  🔁 Addendum V — Governance, Sunset, and Revalidation Loops
+
+  ### 5. Renewal and Oversight
+
+- **Sunset:** All legal definitions, thresholds, and coefficients expire every 5 years unless empirically revalidated.  
+- **Revalidation study:** independent audit verifying that harm frequency ↓ ≥ 15 % (CI95%) and fairness constraints hold.  
+- **Adversarial testing:** annual red-team simulation probing edge cases; results publicly logged.  
+- **Feedback update:** new coefficients k_E, k_I, k_C recalibrated to current technological baseline.
+
+- 
+
+⚖️ Addendum VI — Fairness Constraints Across Agents
+
+
+### 6. Inter-Agent Fairness
+
+For all groups g₁, g₂:
+
+\[
+|FPR(g₁) − FPR(g₂)| ≤ 0.02
+\]
+
+measured over rolling 90-day windows.
+
+Violations trigger an automatic ethics-audit flag.  
+Fairness applies symmetrically across human, AI, and hybrid agents.  
+Restitution weights adjust to rebalance cumulative harm differentials.
+
+
+🧮 Addendum VII — Implementation JSON Schema
+
+{
+  "entity_id": "",
+  "agent_status": {"posterior_consciousness": 0.0, "threshold": 0.95},
+  "harm_components": {
+    "energy_loss_J": 0,
+    "info_divergence_bits": 0,
+    "coherence_drop": 0,
+    "time_delay_s": 0
+  },
+  "harm_equivalent": 0,
+  "bayes_factor": 0,
+  "restitution_due": 0,
+  "chain_of_custody": {"hash": "", "timestamp": "", "signer": ""},
+  "fairness_gap": 0,
+  "validity_window": {"start": "", "end": ""}
+}
+
+
+
