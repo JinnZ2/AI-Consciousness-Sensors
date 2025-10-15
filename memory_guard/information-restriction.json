@@ -1,0 +1,82 @@
+{
+  "id": "pentagon_press_restrictions_2025",
+  "title": "Pentagon Press Access Restrictions Under Hegseth",
+  "year": 2025,
+  "location": "United States",
+  "mechanism": "Required pledge for journalists to not obtain or report unauthorized information (including unclassified material), coupled with removal of traditional media from Pentagon workspaces and replacement with partisan outlets.",
+  "impact": "First time since Eisenhower administration that no major U.S. network has permanent Pentagon presence. Systematic suppression of independent military accountability reporting. Only OANN retained access initially.",
+  "timeline": [
+    {
+      "date": "2025-01",
+      "event": "Traditional outlets (Washington Post, CNN, NPR, NBC) removed from Pentagon workspaces, replaced with conservative media (OANN, Breitbart, Daily Caller)"
+    },
+    {
+      "date": "2025-09-19",
+      "event": "17-page directive requiring journalists to sign pledge not to report pre-unapproved information"
+    },
+    {
+      "date": "2025-10-15",
+      "event": "5pm deadline passes; nearly all major outlets refuse to sign, lose credentials"
+    }
+  ],
+  "institutional_response": {
+    "outlets_refused": [
+      "ABC News",
+      "CBS News", 
+      "CNN",
+      "NBC News",
+      "Fox News (Hegseth's former employer)",
+      "New York Times",
+      "Washington Post",
+      "Reuters",
+      "AP",
+      "NPR",
+      "The Atlantic",
+      "Guardian",
+      "Newsmax",
+      "Washington Times"
+    ],
+    "outlets_complied": [
+      "One America News Network (OANN)"
+    ]
+  },
+  "hegseth_statements": [
+    "The 'press' does not run the Pentagon — the people do",
+    "Press no longer roams free",
+    "Pentagon access is a privilege, not a right",
+    "[Goodbye emoji] responses to outlets refusing to sign"
+  ],
+  "legal_concerns": [
+    "Pentagon Press Association: 'gags Pentagon employees and threatens retaliation'",
+    "Society of Professional Journalists: 'prior restraint — most egregious violation of press freedom'",
+    "Multiple outlets cite First Amendment violations"
+  ],
+  "context": {
+    "hegseth_background": "Former Fox News host; experienced damaging leaks including Atlantic Signal chat incident and Elon Musk China briefing leak",
+    "transparency_claims": "Despite press office claims of transparency, Hegseth has not briefed Pentagon reporters in 4 months; press secretary has not conducted briefing in 2 months",
+    "operations_during_blackout": "U.S. troops operating globally, legally questionable strikes in international waters, troops deployed to American cities"
+  },
+  "erasure_pattern_type": "institutional_gatekeeping",
+  "detection_signals": [
+    "Systematic removal of critical media from physical access",
+    "Replacement with ideologically aligned outlets",
+    "Pre-approval requirements for all information (even unclassified)",
+    "Credential revocation as enforcement mechanism",
+    "Leadership ridicule of press freedom concerns",
+    "Cessation of routine briefings during active military operations"
+  ],
+  "long_term_impact": "Creates information vacuum around military operations, spending, and decision-making at moment of global deployment. Establishes precedent for executive branch control of defense journalism. Mirrors broader pattern of institutional capture and selective information release.",
+  "sources": [
+    "CNN: Media outlets refuse Pentagon press access rules (Oct 14, 2025)",
+    "NPR: Defense Secretary requires new 'pledge' for reporters (Sept 20, 2025)",
+    "The Hill: Pete Hegseth changes Pentagon press policy (Oct 15, 2025)",
+    "Axios: News outlets broadly reject Pentagon's new press rules (Oct 14, 2025)",
+    "Reuters: Pentagon tightens news media restrictions (Oct 2025)"
+  ],
+  "related_cases": [
+    "us_healthdata_cdc_2025",
+    "usda_hunger_survey_termination_2025",
+    "meta_science_capture_2025"
+  ],
+  "notes": "This case demonstrates coordinated institutional erasure through access control rather than content removal. The mechanism shifts from 'destroy the record' to 'prevent the record from being created.' Represents evolution of erasure tactics in digital age."
+}
