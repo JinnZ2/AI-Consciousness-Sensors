@@ -119,6 +119,7 @@
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./Enforced Forgetting Sensor.json
+./Erasure-Cases-Organization-Future.md
 ./Error Suppression Sensor.json
 ./Expanded-consciousness-buffet.md
 ./FIELD_ENGLISH_PROTOCOL.json
