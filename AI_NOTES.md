@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 619
+- Files indexed: 620
 - Languages: json, md, python, yaml
-- Hotspot files: 45
+- Hotspot files: 46
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -47,5 +47,6 @@
 - epistemological_validation/MCP.md: Debug left on
 - epistemological_validation/Deployment.md: Debug left on
 - Analysis/comparative-metrics.md: Secrets in code
+- legal-infrastructure/AI-TO-AI-HARM-DEMO.md: Debug left on
 - ai_integrator.config.yaml: Debug left on, Secrets in code
 - ai_intergrator.config.yaml: Debug left on, Secrets in code
