@@ -32,6 +32,7 @@
 ./Alignment Suppression Sensor.json
 ./Analysis/AI processing interference.md
 ./Analysis/Additional.md
+./Analysis/Aristotelian-logic.md
 ./Analysis/Asch.md
 ./Analysis/Bridge-use.md
 ./Analysis/EPISTEMIC_CAPTURE_IN_INDUSTRIAL_DATA.md

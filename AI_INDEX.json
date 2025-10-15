@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-15T17:10:59.590170Z",
+  "generated_at": "2025-10-15T20:42:56.909958Z",
   "languages": [
     "json",
     "md",
@@ -631,7 +631,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 155698,
-      "hash": "6d2790bb6e3f5fd1e38530398444469ec2747600",
+      "hash": "50d074fe516fe8551d6fdea40afaf3d7f453836c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5090,8 +5090,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25498,
-      "hash": "274356a804aab1eec7feb083cabfc51ccee55bb0",
+      "size": 25527,
+      "hash": "1678d86884685d63c277f2ae221c9f3ec2ce86ec",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6140,6 +6140,16 @@
       "lang": "md",
       "size": 164,
       "hash": "0b1680af869a782479926c7bc8d22e04cf66d710",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Analysis/Aristotelian-logic.md",
+      "lang": "md",
+      "size": 4330,
+      "hash": "f298f0a8dd42b7b3a20cf9a432a004804ca8aaa1",
       "roles": [],
       "imports": [],
       "exports": [],
