@@ -414,6 +414,7 @@
 ./innovation_fraud.json
 ./integration/self_override.py
 ./integration_protocols.json
+./legal-infrastructure/LAW-MODEL-DEMO.md
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./manipulation_by_domain.json
 ./manipulation_patterns_extended.json

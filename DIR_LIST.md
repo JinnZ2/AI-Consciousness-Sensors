@@ -24,6 +24,7 @@
 ./ethics
 ./explainability
 ./integration
+./legal-infrastructure
 ./logs
 ./memory_guard
 ./memory_guard/erasure_cases
