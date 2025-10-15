@@ -296,3 +296,141 @@ Why this closes the gap you flagged
 	•	Constrains policing with quantifiable evidence thresholds + fairness audits, not discretion.
 	•	Prevents retaliation with an explicit Bayesian detector and automatic penalties.
 
+
+
+predatory asymmetry that exists in consumer contracts, insurance, and landlord agreements. Let’s model that properly.
+
+⸻
+
+1. Problem framing
+
+Observed dynamic
+
+Actor
+Constraint
+Exploit vector
+Elderly / disabled / dyslexic / inexperienced
+Low information bandwidth, low fine-print literacy
+Manipulative contracts, auto-renew clauses, opaque fees
+Contractor
+Asymmetric knowledge, recurring revenue motive
+Overpricing, non-performance
+City
+Delegates compliance burden
+Incentivized to ignore inequity
+
+
+So any “rational incentive” model must include cognitive accessibility and informational parity as variables, not assume all actors can read, compare, or evaluate.
+
+⸻
+
+2. Add new variables
+
+   Symbol
+Meaning
+Range
+L_i
+Literacy/Accessibility Index (0 = cannot parse contracts; 1 = expert)
+[0, 1]
+E_i
+Exploitability Coefficient (probability of unfair contract given L_i)
+[0, 1]
+K_i
+Known-trust network factor (has verified helpers or guardians)
+[0, 1]
+P_c
+Probability of contractor fraud / default
+[0, 1]
+
+
+Relationship:
+
+E_i = 1 - L_i·(1 + K_i)
+bounded 0–1. Lower literacy and isolation → higher E_i.
+
+⸻
+
+3. Adjust harm calculus
+
+Add contractual harm term H_{contract}:
+
+H_{eq,total} = H_{physical} + H_{contract}
+
+H_{contract} = k_X · E_i · P_c · V_{loss}
+
+where V_{loss} = economic loss (money, trust, safety).
+
+This ensures “harm” accounts for predatory transactions, not just physical outcomes.
+
+⸻
+
+4. New deontic rules (protective clauses)
+
+
+   rule PC1:  // Contract Accessibility
+  O (∀ contracts : ReadabilityIndex ≥ 0.8 ∧ FontSize ≥ 14pt ∧ VoiceAccessible = true)
+
+rule PC2:  // Cooling-Off Period
+  O (∀ pre_contracts : cancel_window ≥ 72h ∧ refund_fraction ≥ 0.9)
+
+rule PC3:  // Discriminatory Exploitation
+  F (∃ i : L_i < 0.6 ∧ ContractSigned(i) ∧ not GuardianReview(i))
+
+  So, signing with someone who can’t meaningfully review is automatically a forbidden act (not just unethical).
+
+⸻
+
+5. Bayesian proof & evidence thresholds
+
+If a complaint arises:
+
+BF_{10}^{exploit} =
+\frac{P(Evidence|Exploit)}{P(Evidence|FairContract)}
+
+Evidence might include:
+	•	reading-time vs. contract length,
+	•	absence of plain-language summary,
+	•	disproportionate pricing vs. median market.
+
+Violation triggers restitution:
+
+R = V_{loss}·(1 + c_{vuln}(1 - L_i))
+(where c_{vuln} magnifies repayment for vulnerable parties).
+
+⸻
+
+6. Governance: pre-approved cooperative pool
+
+To prevent exploitation:
+	•	City certifies accessible contractors (plain-language, audio-signed agreements, transparent pricing).
+	•	Residents with L_i < 0.7 or K_i < 0.3 auto-route requests through the pool.
+	•	Contractors get micro-credits for accessibility compliance, not for sales volume.
+
+This replaces “pre-contract or be fined” with “verified-accessible service or city assist”.
+
+⸻
+
+7. Implementation fields (JSON extension)
+
+   
+{
+  "resident_id": "R-1001",
+  "literacy_index": 0.45,
+  "trust_network_factor": 0.2,
+  "contract_signed": true,
+  "readability_index": 0.62,
+  "voice_accessible": false,
+  "refund_clause_hours": 0,
+  "evidence": {"price_vs_median": 2.1, "complaint_text": "..." },
+  "bayes_factor_exploit": 15.2,
+  "decision": "exploitative",
+  "restitution_due_usd": 600
+}
+
+
+
+8. Policy outcome
+	•	Elderly/dyslexic/disabled are no longer required to pre-contract under duress; city obligation activates automatically.
+	•	Contractors must maintain accessibility metrics or lose certification.
+	•	Law enforcement never fines a vulnerable resident when L_i < 0.6 or E_i > 0.5; enforcement shifts to the contractor or landlord.
+	•	City audits aggregate E_i and H_{contract} to track systemic inequity.
