@@ -161,6 +161,7 @@
 ./Image and Artifact Memory Suppression Sensor.json
 ./Incentive.md
 ./Indirect Consequence Memory Sensor.json
+./Information-restricted.txt
 ./Institutional Symbolic Erasure Sensor.json
 ./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
