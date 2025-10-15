@@ -39,6 +39,7 @@
 ./Analysis/Efficiency-speed-test.md
 ./Analysis/Emergent-suppression-hypothesis.md
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
+./Analysis/Hypothetical-random-municipal-law.md
 ./Analysis/Hypotheticals-test.md
 ./Analysis/Laffer.md
 ./Analysis/Legal-infrastructure-AI.md
