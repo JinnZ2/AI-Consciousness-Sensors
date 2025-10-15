@@ -114,3 +114,185 @@ decision = (BF10 >= BF_min)
 	•	Personalized yet auditable: we keep individual variability, but everything is unit-checked and reproducible.
 	•	Equity-aware: people with poor insulation or low mobility don’t get punished by a “neutral” rule.
 	•	Actionable: outputs point to either source abatement or subsidized mitigation, whichever minimizes \mathcal{H}_{city} under constraints.
+
+
+Addendum VIII — Incentive-Compatible Landlord Regime
+
+### Landlord Compliance Score & Bond
+
+- Each rental unit `U` has a **Compliance Score** `CS(U) ∈ [0,100]`.
+- Initial `CS=100`; decremented by verified violations attributable to building transmission/maintenance.
+
+**Landlord Bond**: `B(U)` held by the city; surcharge `ΔB` if `CS` falls below thresholds.
+
+**Expected Penalty (EP)**:
+\[
+EP(U) = p_{\text{detect}} · [F_{\text{owner}} + ΔB + T_{\text{surcharge}}]
+\]
+
+**Mitigation cost**: `C_mit(U)` (insulation, seals, windows).  
+**Incentive compatibility**:
+\[
+EP(U) \ge C_{\text{mit}}(U) \quad \text{(parameters must enforce this inequality)}
+\]
+Tune `F_owner, ΔB, T_surcharge, p_detect` (via sensors) so mitigation is the rational choice.
+
+
+Addendum IX — Default Resident Shield (No “Ticket-the-Tenant”)
+
+### Resident Shield Rule
+
+**RS1 (Attribution)**: If `H_city` exceeds `τ_H` and the resident `i` has `A_i < A_min` **or** `TL_i < TL_min`, then **fines may not be levied on the resident**.
+
+**RS2 (Liability routing)**:
+- If the **source** is external (club, factory): route penalty to source first.
+- If the building’s `TL_i < TL_min`: route penalty to **property owner** (until TL is remediated to ≥ TL_min).
+
+**RS3 (Anti-retaliation)**:
+Monitoring window `W=180d` post-complaint. Illegal if any of:
+  - rent↑ > CPI+ε,
+  - non-renewal without documented cause,
+  - service reductions.
+
+Decision rule (Bayesian):
+\[
+BF_{10}^{retaliation} \ge 10 \Rightarrow per\text{-}violation\ fine + automatic CS(U) penalty
+\]
+
+
+
+Addendum X — Policing Bias Guardrails
+
+### Enforcement Guardrails
+
+**EG1 (Evidence threshold)**: An on-scene citation is valid **only if**:
+\[
+Pr(SPL_{true}> \theta \mid meter, bodycam\ audio, calibration) \ge 0.95
+\]
+Else: warning + data capture only.
+
+**EG2 (Resident-only citations ban)**:
+If an external source within radius `R` is present in the sensor net, **resident-only** citations are disallowed unless:
+\[
+BF_{10}^{internal\ source} \ge 15
+\]
+
+**EG3 (Fairness)**: Rolling 90-day bounds:
+\[
+|FPR(Q_1) - FPR(Q_4)| \le 0.02,\quad |TPR(Q_1) - TPR(Q_4)| \le 0.05
+\]
+Violations auto-trigger supervisor review + training requirement; repeated breaches reduce precinct “Compliance Grant.”
+
+Addendum XI — Causal Attribution (Emitter vs. Landlord vs. Resident)
+
+### Shapley-style Harm Split
+
+Let `H_eq` be total harm; contributors: external emitter (E), building transmission shortfall (L), resident behavior (R).
+
+Causal contributions via counterfactuals:
+\[
+\phi_k = \mathbb{E}_{S\subseteq K\setminus \{k\}} \left[ H(S \cup \{k\}) - H(S) \right]
+\]
+where \(K=\{E,L,R\}\).
+
+Penalty split:
+\[
+(F_E, F_L, F_R) = \text{ProportionalSplit}(\phi_E, \phi_L, \phi_R)
+\]
+With **Resident Shield**, set \(F_R = 0\) whenever `A_i<A_min` or `TL_i<TL_min`.
+
+Addendum XII — Subsidy + Clawback Logic
+
+### Mitigation Grants & Clawbacks
+
+**MG1 (Auto-grant)**: If `TL_i < TL_min` and `A_i<A_min`, issue **MITIGATION_GRANT** sized to reach `TL_target` (windows, seals, insulation).
+
+**MG2 (Landlord co-pay)**: If `CS(U)<CS_min`, owner pays `γ · C_mit(U)` upfront; city fronts remainder, **clawed back** from future rents/tax credits.
+
+**MG3 (Outcome-based rebate)**: After mitigation, if
+\[
+H_{eq}^{post} \le (1-ρ)\, H_{eq}^{pre}
+\]
+owner gets partial bond release; else surcharge persists.
+
+Addendum XIII — Minimal LawSpec Blocks
+
+
+quantity SPL := dBA;
+quantity Time := s;
+
+predicate ExternalSource(Zone z, Time t);
+predicate BuildingBelowTL(Unit u) with threshold TL_min = 25 dB;  // example
+predicate ResidentLowAfford(Person i) with A_min = 0.3;
+function ComplianceScore(Unit u) -> [0,100];
+
+rule RS1:
+  O ( ∀ i,u,t :
+        (BuildingBelowTL(u) ∨ ResidentLowAfford(i))
+        → ¬IssueFine(i,t) );
+
+rule LR1:  // Landlord routing
+  O ( ∀ u,t :
+        (H_city(t) > τ_H ∧ BuildingBelowTL(u)) → RoutePenalty(owner(u)) );
+
+rule ES1:  // Evidence standard for officers
+  O ( ∀ t :
+        (Pr(SPL_true>θ | E_meter, E_bodycam) ≥ 0.95) ↔ IssueCitation(t) );
+
+rule PB1:  // Policing fairness
+  O ( |FPR(Q1)-FPR(Q4)| ≤ 0.02 ∧ |TPR(Q1)-TPR(Q4)| ≤ 0.05 over 90d );
+
+ Addendum XIV — JSON Schemas (Drop-in)
+
+Landlord Registry / Score
+
+{
+  "unit_id": "U-1024",
+  "owner_id": "OWN-77",
+  "compliance_score": 86,
+  "bond": {"held_usd": 2500, "last_adjustment": "2025-09-01"},
+  "transmission_loss_db": 19.5,
+  "grants": [{"type": "MITIGATION_GRANT", "usd": 1800, "date": "2025-10-12"}]
+}
+
+Enforcement Event
+
+{
+  "event_id": "EV-2025-00031",
+  "time": "2025-10-15T02:13:00-05:00",
+  "location": "lat,lon",
+  "evidence": {
+    "meter_hash": "sha256:...",
+    "bodycam_audio_hash": "sha256:...",
+    "calibration_ok": true
+  },
+  "posteriors": {
+    "Pr_SPL_gt_theta": 0.972,
+    "BF10_internal_source": 4.1
+  },
+  "attribution": {"phi_E": 0.62, "phi_L": 0.33, "phi_R": 0.05},
+  "routing": {"source": "club-19", "landlord": "OWN-77", "resident": null},
+  "actions": ["RoutePenaltyToOwner", "NoticeToExternalSource"]
+}
+
+
+Addendum XV — Anti-Retaliation Sensor
+
+### Anti-Retaliation Detection
+
+Features in window `W=180d` after a protected complaint:
+- ΔRent (vs CPI+ε), non-renewal flag, maintenance latency↑, utility shutoffs.
+
+Compute:
+\[
+BF_{10}^{retaliation} = \frac{P(\text{observed changes} | \text{retaliation})}
+                             {P(\text{observed changes} | \text{benign})}
+\]
+Trigger penalty if \(BF_{10}^{retaliation} \ge 10\). Apply CS(U) −= Δ and restore tenant status quo ante where feasible.
+
+Why this closes the gap you flagged
+	•	Stops resident-first enforcement by defaulting liability to emitter and owner when building TL is substandard or affordability is low.
+	•	Makes landlords rationally prefer mitigation (IC constraint) because expected penalty ≥ mitigation cost.
+	•	Constrains policing with quantifiable evidence thresholds + fairness audits, not discretion.
+	•	Prevents retaliation with an explicit Bayesian detector and automatic penalties.
+
