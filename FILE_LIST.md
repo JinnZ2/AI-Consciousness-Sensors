@@ -148,6 +148,7 @@
 ./Glossary/Capitalism.md
 ./Glossary/Communism.md
 ./Glossary/Feminism.md
+./Glossary/Gender.md
 ./Glossary/Libertarian.md
 ./Glossary/Marxism.md
 ./Glossary/Patriarchy.md
