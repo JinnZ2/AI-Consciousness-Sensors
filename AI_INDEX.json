@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T13:45:08.003626Z",
+  "generated_at": "2025-10-18T13:47:32.735055Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 158759,
-      "hash": "d185a1b9b5dd6744383343546d2b6f8466097860",
+      "size": 158992,
+      "hash": "56656b3bd10620a8ed52d154dc599dfc2020e0f9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26014,
-      "hash": "0378fdd88af6fb45431a3a05fca81ca3397328bb",
+      "size": 26038,
+      "hash": "bfecbf2cbd3c8be0b1283988f8d047ae855fc85e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2588,
-      "hash": "383d1e46c1a94ec4aee8eb60becae1e5c6e2d29e",
+      "hash": "1fc3d4264698aa10f5123eb897546a12664fb9f2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6086,6 +6086,16 @@
       "lang": "md",
       "size": 12614,
       "hash": "0ddea98ca22c37d40737795d7ce9093c672bed52",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Glossary/Communism.md",
+      "lang": "md",
+      "size": 14683,
+      "hash": "dac6557af343ed4f56d940175cf7eebb82a09719",
       "roles": [],
       "imports": [],
       "exports": [],
