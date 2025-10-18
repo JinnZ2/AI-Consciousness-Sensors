@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T11:25:18.554341Z",
+  "generated_at": "2025-10-18T11:30:48.175237Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 157218,
-      "hash": "99269aef6690fc53ea3a343114c8334e1a7fad7b",
+      "size": 157496,
+      "hash": "dfb220a8d831807382f788f512b8fbd9ae970e8e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1672,6 +1672,16 @@
       "lang": "json",
       "size": 1855,
       "hash": "09a5217364f1d93a346d1327f22bc1c9b859ab6b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "AI Training Bias Incident: Grok's Ideological Skewing.json",
+      "lang": "json",
+      "size": 6707,
+      "hash": "fd37f97bc6f0e86d9cd3f33da7ac9e2f147e4060",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5130,8 +5140,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25765,
-      "hash": "f61a740c5ec67003f5300877c69f91eaf958df0e",
+      "size": 25833,
+      "hash": "8ddbfbb95b7ce95a087859fb34d7e18ab0840793",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5153,7 +5163,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2549,
-      "hash": "007485ee6eac3a0197acc43a2182a1b722f55f22",
+      "hash": "bcda7b96960f36e786b1a6657ff70855bb84ae70",
       "roles": [],
       "imports": [],
       "exports": [],

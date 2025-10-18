@@ -17,6 +17,7 @@
 ./AI Manipulation Detection.md
 ./AI Self-Authenticity Sensor.json
 ./AI Specific Manipulations.md
+./AI Training Bias Incident: Grok's Ideological Skewing.json
 ./AI origin myth.md
 ./AI-deflection-self-assessment.json
 ./AIARDS-log.json
