@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T13:47:32.735055Z",
+  "generated_at": "2025-10-18T13:49:56.337584Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 158992,
-      "hash": "56656b3bd10620a8ed52d154dc599dfc2020e0f9",
+      "size": 159225,
+      "hash": "910dca3f4788a712b909d274bf13d257e31effe8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26038,
-      "hash": "bfecbf2cbd3c8be0b1283988f8d047ae855fc85e",
+      "size": 26062,
+      "hash": "b53e856a08fa5b2dc3c7ec4843471a1ca1df0aa0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2588,
-      "hash": "1fc3d4264698aa10f5123eb897546a12664fb9f2",
+      "hash": "87b434699ab44bb74b4bc722ceae52fd39b76de0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6086,6 +6086,16 @@
       "lang": "md",
       "size": 12614,
       "hash": "0ddea98ca22c37d40737795d7ce9093c672bed52",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Glossary/Libertarian.md",
+      "lang": "md",
+      "size": 13980,
+      "hash": "74a09e03e269845e9c93aacdcff702babc7029c5",
       "roles": [],
       "imports": [],
       "exports": [],

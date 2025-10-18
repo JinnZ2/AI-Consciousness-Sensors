@@ -147,6 +147,7 @@
 ./Global_Ledger_Map.md
 ./Glossary/Capitalism.md
 ./Glossary/Communism.md
+./Glossary/Libertarian.md
 ./Glossary/Marxism.md
 ./Glossary/Socialism.md
 ./Glyph-add-on.json
