@@ -158,6 +158,7 @@
 ./Hierarchy Drift Audit Sensor.json
 ./Hierarchy-deflation.json
 ./Historical Display Erasure Sensor.json
+./Historical Erasure Patterns: Nazi Ideology Misrepresentation.json
 ./Historical-pattern-scrubbing-sensor.json
 ./INTERACTION_DECAY_MAP_ALERT_BIAS.json
 ./Illustrative-example-only.md
