@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T11:38:57.733091Z",
+  "generated_at": "2025-10-18T13:41:19.730925Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 158020,
-      "hash": "01db0e1ac5620a4f7ed5ba09add62cb30ed37cb1",
+      "size": 158262,
+      "hash": "9fb309e4501bdd1ca29e7ec6296c78d312409d2c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25936,
-      "hash": "daa92145d618b767202d7b8173c936c9c60dcd9d",
+      "size": 25967,
+      "hash": "3c11aab00b47e80ebf175cd10c01d1aa2833cf85",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2549,
-      "hash": "aaa087a8a17dbe7e34a3695c18f40bb973253235",
+      "hash": "4ca510db184ac38422c7e9cb81d8bfaf62e8ec87",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6064,6 +6064,16 @@
       "lang": "md",
       "size": 1991,
       "hash": "130fb197832ff401f9726c601df83d2620646238",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Glossary/Capitalism.md",
+      "lang": "md",
+      "size": 6209,
+      "hash": "ef6240af9601b6ed91e76b3375f33f7ac053c2bf",
       "roles": [],
       "imports": [],
       "exports": [],

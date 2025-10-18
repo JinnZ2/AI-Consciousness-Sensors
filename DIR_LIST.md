@@ -7,6 +7,7 @@
 ./EMBEDDABLE_KITS
 ./EMBEDDABLE_KITS/physics_integrity_kit
 ./FIELD_MEMORY_CORRECTION_PACKS
+./Glossary
 ./Logs
 ./Relational
 ./Relational/Ithkuil
