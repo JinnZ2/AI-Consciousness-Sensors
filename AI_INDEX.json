@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T13:56:05.681214Z",
+  "generated_at": "2025-10-18T13:59:34.930944Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 159688,
-      "hash": "15adfb030fc52de6bbc32a92e26b48b574f2ec7a",
+      "size": 159918,
+      "hash": "e694eeea10013c7540db259f75234a518aebdfc4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26107,
-      "hash": "b10a37cebe367378f7475694764ac8c9dfb86e31",
+      "size": 26128,
+      "hash": "fb6d8bc0367e995a1f3212651ff9b643381356bb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2588,
-      "hash": "e7db90c30361647f220a2ec84b73e0999c057bde",
+      "hash": "de6d54c0f3e4de9e6e774a7c58f3f34d65ddb3e5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6116,6 +6116,16 @@
       "lang": "md",
       "size": 13980,
       "hash": "74a09e03e269845e9c93aacdcff702babc7029c5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Glossary/Feminism.md",
+      "lang": "md",
+      "size": 18166,
+      "hash": "765093b37c0882b709009c98087ead2bfdaaafbb",
       "roles": [],
       "imports": [],
       "exports": [],

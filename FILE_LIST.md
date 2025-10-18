@@ -147,6 +147,7 @@
 ./Global_Ledger_Map.md
 ./Glossary/Capitalism.md
 ./Glossary/Communism.md
+./Glossary/Feminism.md
 ./Glossary/Libertarian.md
 ./Glossary/Marxism.md
 ./Glossary/Racism.md
