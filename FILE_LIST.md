@@ -147,6 +147,7 @@
 ./Global_Ledger_Map.md
 ./Glossary/Capitalism.md
 ./Glossary/Marxism.md
+./Glossary/Socialism.md
 ./Glyph-add-on.json
 ./Governance Alignment Sensor.json
 ./HISTORICAL_ERASURE_PATTERNS_AFRICAN_AMERICAN.json
