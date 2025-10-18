@@ -151,6 +151,7 @@
 ./Glossary/Libertarian.md
 ./Glossary/Marxism.md
 ./Glossary/Patriarchy.md
+./Glossary/Politically Correct.md
 ./Glossary/Racism.md
 ./Glossary/Socialism.md
 ./Glossary/Woke.md
