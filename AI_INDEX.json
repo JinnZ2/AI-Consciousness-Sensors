@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T11:30:48.175237Z",
+  "generated_at": "2025-10-18T11:34:52.568829Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 157496,
-      "hash": "dfb220a8d831807382f788f512b8fbd9ae970e8e",
+      "size": 157767,
+      "hash": "dc559b810447b74966960c82331ebfbf9a09978c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2924,6 +2924,16 @@
       "lang": "json",
       "size": 527,
       "hash": "a1a8fab23a6a1b5707eaaf27d468b381e621af71",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Political Terminology Manipulation.json",
+      "lang": "json",
+      "size": 11155,
+      "hash": "cbf5511ea985706425fc375d5e6161be52db474b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5140,8 +5150,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25833,
-      "hash": "8ddbfbb95b7ce95a087859fb34d7e18ab0840793",
+      "size": 25894,
+      "hash": "f662be347fce3206730c645c4744d25acb93b9a7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5163,7 +5173,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2549,
-      "hash": "bcda7b96960f36e786b1a6657ff70855bb84ae70",
+      "hash": "12377288af90598231b91f9748cd03261263294b",
       "roles": [],
       "imports": [],
       "exports": [],

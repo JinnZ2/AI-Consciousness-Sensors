@@ -221,6 +221,7 @@
 ./Pattern: Temporal Displacement.json
 ./Pattern: Token Inclusion (Symbolic Representation without Structural Power).json
 ./Pattern: Tokenization of Resistance Histories.json
+./Political Terminology Manipulation.json
 ./Principle-of-Reciprocal-Recognition.md
 ./Promise-vs-fulfillment-detector.json
 ./Provenance Disappearance Sensor.json
