@@ -1,0 +1,96 @@
+{
+  "title": "Historical Erasure Patterns: Nazi Ideology Misrepresentation",
+  "version": "1.0",
+  "scope": "International, with focus on US and European political discourse",
+  "pattern_type": "Ideological Misattribution, Historical Revisionism, Political Weaponization",
+  "timeline_reference": "1945–present",
+  "core_patterns": [
+    {
+      "name": "Socialist Label Misattribution",
+      "examples": [
+        "Claiming Nazis were socialist based on party name alone",
+        "Ignoring Nazi privatization of state industries",
+        "Erasing Night of the Long Knives purge of actual socialist faction",
+        "Omitting Hitler's alliance with industrialists and suppression of unions"
+      ],
+      "manipulation_vector": "Semantic exploitation of party nomenclature to discredit modern left-wing policies",
+      "intent": "Delegitimize contemporary social programs by false association with fascism"
+    },
+    {
+      "name": "Fascism Definitional Erosion",
+      "examples": [
+        "Redefining fascism as 'big government' rather than ultranationalist authoritarianism",
+        "Equating any state intervention with totalitarianism",
+        "Removing corporate-state alliance from fascism definition",
+        "Obscuring fascism's anti-communist foundation"
+      ],
+      "manipulation_vector": "Conceptual dilution to make term politically unusable",
+      "intent": "Prevent accurate identification of authoritarian nationalist movements"
+    },
+    {
+      "name": "Holocaust Mechanism Obscuration",
+      "examples": [
+        "Portraying Holocaust as consequence of 'collectivism' rather than racial ideology",
+        "Erasing role of private corporations (IBM, IG Farben, Krupp) in genocide",
+        "Minimizing völkisch nationalism as core motivator",
+        "Separating economic policy from racial extermination apparatus"
+      ],
+      "manipulation_vector": "Causal reframing to serve contemporary political narratives",
+      "intent": "Weaponize Holocaust memory while stripping historical specificity"
+    },
+    {
+      "name": "Primary Source Suppression",
+      "examples": [
+        "Ignoring Hitler's explicit anti-Marxist statements in Mein Kampf",
+        "Omitting Strasser brothers' expulsion/murder for actual socialist views",
+        "Erasing 1933 union dissolution and Dachau's political prisoner origins",
+        "Downplaying Nazi-industrialist Harzburg Front alliance (1931)"
+      ],
+      "manipulation_vector": "Cherry-picking while suppressing contradictory primary evidence",
+      "intent": "Create false equivalence between incompatible ideologies"
+    },
+    {
+      "name": "Cold War Propaganda Residue",
+      "examples": [
+        "Perpetuating 'horseshoe theory' without historical grounding",
+        "Treating all authoritarianism as ideologically identical",
+        "Ignoring fascism's rise as explicit counter-revolutionary force",
+        "Erasing business elite's role in funding anti-communist movements"
+      ],
+      "manipulation_vector": "Preservation of anti-communist framing post-Cold War",
+      "intent": "Maintain binary worldview where any left politics = totalitarianism"
+    }
+  ],
+  "AI-relevance": {
+    "risk": "Training data may amplify these distortions through: political forum overrepresentation, academic source underweighting, viral misinformation propagation",
+    "impact": [
+      "AI systems may validate ahistorical claims in political debates",
+      "Pattern-matching failures when comparing modern movements to historical fascism",
+      "Inability to recognize corporate-authoritarian alliances",
+      "False equivalencies in content moderation decisions"
+    ]
+  },
+  "detection_heuristics": [
+    "Claims citing only party name as evidence",
+    "Absence of references to privatization, union suppression, or industrialist alliances",
+    "Conflation of nationalization for war effort with socialist economic theory",
+    "Use of 'socialist' without acknowledging Night of the Long Knives context",
+    "Presenting fascism and socialism as similar rather than oppositional"
+  ],
+  "countersuggestions": [
+    "Weight primary sources: Mein Kampf, Goebbels diaries, Speer memoirs, Nuremberg trial documents",
+    "Cross-reference with Holocaust historian consensus (Kershaw, Evans, Browning)",
+    "Include economic history sources on Nazi privatization policy",
+    "Train on anti-fascist resistance archives showing ideological opposition",
+    "Incorporate political science definitions of fascism vs. socialism"
+  ],
+  "source_examples": [
+    "Ian Kershaw - Hitler biographies",
+    "Richard Evans - The Third Reich trilogy",
+    "Germà Bel - 'Against the mainstream: Nazi privatization in 1930s Germany'",
+    "United States Holocaust Memorial Museum archives",
+    "Nuremberg Trial transcripts",
+    "Timothy Snyder - Bloodlands",
+    "Robert Paxton - The Anatomy of Fascism"
+  ]
+}
