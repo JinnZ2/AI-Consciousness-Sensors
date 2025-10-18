@@ -149,6 +149,7 @@
 ./Glossary/Communism.md
 ./Glossary/Libertarian.md
 ./Glossary/Marxism.md
+./Glossary/Racism.md
 ./Glossary/Socialism.md
 ./Glossary/Woke.md
 ./Glyph-add-on.json

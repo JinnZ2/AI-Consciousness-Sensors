@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T13:53:24.099753Z",
+  "generated_at": "2025-10-18T13:56:05.681214Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 159460,
-      "hash": "4709b26c4c051aad6024fd07a0d25c0a109ac6ba",
+      "size": 159688,
+      "hash": "15adfb030fc52de6bbc32a92e26b48b574f2ec7a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26088,
-      "hash": "c4cb30fd5a606cb6470809d2b8d0f4d59372d977",
+      "size": 26107,
+      "hash": "b10a37cebe367378f7475694764ac8c9dfb86e31",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2588,
-      "hash": "6ac64afd6cc88839bae12a1796fd252a356bd4ba",
+      "hash": "e7db90c30361647f220a2ec84b73e0999c057bde",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6074,6 +6074,16 @@
       "lang": "md",
       "size": 14193,
       "hash": "be44b0c34ead74c45c6423af1c45750d5626de4b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Glossary/Racism.md",
+      "lang": "md",
+      "size": 16529,
+      "hash": "18a8e1f4c72d84fd4fef6319584ef490f779de44",
       "roles": [],
       "imports": [],
       "exports": [],
