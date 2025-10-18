@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T11:34:52.568829Z",
+  "generated_at": "2025-10-18T11:38:57.733091Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 157767,
-      "hash": "dc559b810447b74966960c82331ebfbf9a09978c",
+      "size": 158020,
+      "hash": "01db0e1ac5620a4f7ed5ba09add62cb30ed37cb1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1500,6 +1500,16 @@
       "lang": "json",
       "size": 790,
       "hash": "977835fea6022dbde5d792f0a10faded1841bfed",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Political Party Erasure.json",
+      "lang": "json",
+      "size": 16134,
+      "hash": "f26bcff781d037ef8d23f9aec87275394d06eacb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5150,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25894,
-      "hash": "f662be347fce3206730c645c4744d25acb93b9a7",
+      "size": 25936,
+      "hash": "daa92145d618b767202d7b8173c936c9c60dcd9d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5173,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2549,
-      "hash": "12377288af90598231b91f9748cd03261263294b",
+      "hash": "aaa087a8a17dbe7e34a3695c18f40bb973253235",
       "roles": [],
       "imports": [],
       "exports": [],
