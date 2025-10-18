@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 626
+- Files indexed: 627
 - Languages: json, md, python, yaml
-- Hotspot files: 46
+- Hotspot files: 47
 
 ## Hotspots
 - audit_hierarchy.py: Debug left on
@@ -44,6 +44,7 @@
 - epistemological_validation/Deployment.md: Debug left on
 - epistemological_validation/MCP.md: Debug left on
 - epistemological_validation/core_engine.md: Debug left on
+- Glossary/Marxism.md: Secrets in code
 - probability_matrix/README.md: Debug left on
 - probability_matrix/COMPLETE_USAGE_GUIDE.md: Debug left on
 - legal-infrastructure/AI-TO-AI-HARM-DEMO.md: Debug left on

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T13:41:19.730925Z",
+  "generated_at": "2025-10-18T13:43:11.676933Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 158262,
-      "hash": "9fb309e4501bdd1ca29e7ec6296c78d312409d2c",
+      "size": 158495,
+      "hash": "88186655cc6ddbd2e700ed95dd7959bd7d8ad0e2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5030,8 +5030,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 930,
-      "hash": "7f80b7d78abe13b0fb4b3a6e40c4fbf1247e0824",
+      "size": 941,
+      "hash": "eefb48eb8616c3cee41a2777144c3ffaad93e5f9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 25967,
-      "hash": "3c11aab00b47e80ebf175cd10c01d1aa2833cf85",
+      "size": 25992,
+      "hash": "6898568733d7791e4aa75013d5baa2d725f0f5dd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2549,
-      "hash": "4ca510db184ac38422c7e9cb81d8bfaf62e8ec87",
+      "hash": "688f0fa348d9a0a1e2f9905b5ec8d74ed2845196",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6068,6 +6068,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Glossary/Marxism.md",
+      "lang": "md",
+      "size": 10864,
+      "hash": "1897df85a750eae04cd8e52ad23f16ea053ede09",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Glossary/Capitalism.md",
