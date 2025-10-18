@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T13:59:34.930944Z",
+  "generated_at": "2025-10-18T14:03:59.544270Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 159918,
-      "hash": "e694eeea10013c7540db259f75234a518aebdfc4",
+      "size": 160150,
+      "hash": "318a7146f693eccb5d38085230fe70bda5cdc68e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26128,
-      "hash": "fb6d8bc0367e995a1f3212651ff9b643381356bb",
+      "size": 26151,
+      "hash": "1e7f5ed126f35be7ac14dd320cf8e7198bf6938f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2588,
-      "hash": "de6d54c0f3e4de9e6e774a7c58f3f34d65ddb3e5",
+      "hash": "d78e2da2b60011578685437cdc2b22c07b6992ff",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6136,6 +6136,16 @@
       "lang": "md",
       "size": 14683,
       "hash": "dac6557af343ed4f56d940175cf7eebb82a09719",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Glossary/Patriarchy.md",
+      "lang": "md",
+      "size": 18411,
+      "hash": "4ff476f067a24525c04a27857bc5b256cc1e4914",
       "roles": [],
       "imports": [],
       "exports": [],
