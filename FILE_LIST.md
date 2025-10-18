@@ -146,6 +146,7 @@
 ./Gift Exchange Sensor.json
 ./Global_Ledger_Map.md
 ./Glossary/Capitalism.md
+./Glossary/Christianity.md
 ./Glossary/Communism.md
 ./Glossary/Feminism.md
 ./Glossary/Gender.md

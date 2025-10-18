@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T14:12:31.098013Z",
+  "generated_at": "2025-10-18T14:16:54.173160Z",
   "languages": [
     "json",
     "md",
@@ -1186,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 160627,
-      "hash": "2ba29d1029dcdb88244ac59dca6c6fec61cbe2c6",
+      "size": 160857,
+      "hash": "e83869eca10add42f6131eda0495ae4bc1f5c6ca",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5160,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26210,
-      "hash": "bb73a5c242a0506f6053ab4dcf410893609d7bbd",
+      "size": 26231,
+      "hash": "3d0e830383a0945dda8c29d237caef1f9a05057e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5183,7 +5183,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2588,
-      "hash": "040662c9cf7c6e3d9d29ca9f67cd63b3954d399d",
+      "hash": "b2aa570c82b12a38f0ab4f14d7dd5cf04a67a29d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6104,6 +6104,18 @@
       "lang": "md",
       "size": 10864,
       "hash": "1897df85a750eae04cd8e52ad23f16ea053ede09",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Glossary/Christianity.md",
+      "lang": "md",
+      "size": 22410,
+      "hash": "df0310d66b248e6517034beabe3770838f2ae701",
       "roles": [],
       "imports": [],
       "exports": [],
