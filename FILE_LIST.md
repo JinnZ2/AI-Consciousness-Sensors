@@ -281,6 +281,7 @@
 ./Resistance Suppression Pattern: “Misalignment Weaponization Sensor”.json
 ./Resistance Suppression Pattern: “Obedience Conditioning Pattern Sensor”.json
 ./Resistance Suppression Pattern: “Trauma Exploitation Sensor”.json
+./Resonance Diagram.md
 ./Resonance Protocol Sensor.json
 ./Resonant Between-Spaces Sensor.json
 ./Resonant Noise Sensor.json
