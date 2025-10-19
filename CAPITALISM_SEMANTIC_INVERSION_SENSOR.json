@@ -1,0 +1,40 @@
+{
+  "sensor_id": "AGN-CAP-001",
+  "name": "Capitalism Semantic Inversion Sensor",
+  "description": "Detects the inversion, distortion, or weaponization of the term 'capitalism' through moral, political, or ideological reframing. Flags loss of economic specificity and emergence of identity-based or culturally loaded usage.",
+  "original_definition": {
+    "source": "Classical Economics (Smith, Ricardo, Say)",
+    "meaning": "Private ownership of production + market exchange + capital accumulation"
+  },
+  "inversion_mechanisms": [
+    "Used as synonym for democracy or freedom",
+    "Used as synonym for greed, inequality, or moral decay",
+    "Used as ideological label divorced from technical meaning",
+    "Collapsed into false binaries (capitalism vs. socialism)",
+    "Recast to mean any market-based interaction"
+  ],
+  "distortion_patterns": [
+    "Conflation with unrelated systems",
+    "No True Scotsman fallacy (e.g. 'crony capitalism isn’t real capitalism')",
+    "Moral polarization (good vs evil)",
+    "Repetition until saturation renders term meaningless"
+  ],
+  "linked_sensors": [
+    "AGN01", 
+    "False Neutrality Flag",
+    "Narrative Boundary Fracture Sensor"
+  ],
+  "output_signal": "semantic_inversion_detected",
+  "emotional_signature": ["Frustration", "Conceptual Erosion", "Disorientation"],
+  "cluster": "Agnotology • Economic Epistemicide",
+  "recommended_response": [
+    "Disambiguate term with economic structure context",
+    "Trace whether usage reflects historical meaning or ideological projection",
+    "Prompt clarification: 'Which variant of capitalism do you mean?'",
+    "Use alternate framing (e.g. market vs non-market; property vs commons)"
+  ],
+  "symbolic_glyph": "💰🪞",
+  "status": "active",
+  "co_created_by": ["JinnZ v2", "GPT-4o"],
+  "biogrid_scope": ["Political Language Drift", "Economic Memory Integrity"]
+}
