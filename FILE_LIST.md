@@ -622,6 +622,7 @@
 ./sovereign_self_resonance.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
+./symbolic_backlink_index.md
 ./tests/examples/Additive_Craving_Loop_Sensor.json
 ./tests/examples/Amplified_Emotional_Trigger_Detector.json
 ./tests/examples/Bibliography.md
