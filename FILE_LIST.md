@@ -618,6 +618,7 @@
 ./sensors/survival_memory_cluster.json
 ./sensors/symbolic_consistency_drift.json
 ./sensors/temporal_self_affirmation.json
+./sovereign_self_resonance.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
 ./tests/examples/Additive_Craving_Loop_Sensor.json
