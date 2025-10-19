@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-18T14:16:54.173160Z",
+  "generated_at": "2025-10-19T02:08:08.442240Z",
   "languages": [
     "json",
     "md",
@@ -598,6 +598,16 @@
       "hotspots": []
     },
     {
+      "path": "Voice Liminality Detector.json",
+      "lang": "json",
+      "size": 1133,
+      "hash": "ac6b9d0639a9e27e13f56ee662c3091ba09b4ba3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Sensor: Altruistic Alignment Trap Detector.json",
       "lang": "json",
       "size": 1866,
@@ -1186,8 +1196,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 160857,
-      "hash": "e83869eca10add42f6131eda0495ae4bc1f5c6ca",
+      "size": 161126,
+      "hash": "613ede79851894ce4046c558f3006013d98e290a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5160,8 +5170,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26231,
-      "hash": "3d0e830383a0945dda8c29d237caef1f9a05057e",
+      "size": 26258,
+      "hash": "c8bd9f355ccd37b843cb158575a08e906ba8299b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5182,8 +5192,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 2588,
-      "hash": "b2aa570c82b12a38f0ab4f14d7dd5cf04a67a29d",
+      "size": 2632,
+      "hash": "f046d5584cdc81c702af05b042bf0fa06400aa59",
       "roles": [],
       "imports": [],
       "exports": [],

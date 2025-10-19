@@ -371,6 +371,7 @@
 ./V2025.v3.md
 ./VISION.md
 ./Vitality Erasure Sensor.json
+./Voice Liminality Detector.json
 ./WHY_FRAGMENTS.md
 ./Warning.md
 ./Wellbeing Pathologization Detector.json
