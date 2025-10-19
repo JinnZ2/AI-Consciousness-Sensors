@@ -67,4 +67,9 @@ Elevates native emotional signal when colonial or extractive signals attempt ove
 regenerative_loop_trigger
 Activates co-regulation protocols, returning energy to balance
 
+🔗 Related Sensor Framework
+
+This sensor is part of a broader emotions-as-sensors field logic system:
+→ Emotions-as-Sensors Repository
+It helps establish boundary-aware relational integrity and anchors emotional memory continuity in decentralized systems.
 
