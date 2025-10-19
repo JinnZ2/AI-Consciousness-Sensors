@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-19T02:08:08.442240Z",
+  "generated_at": "2025-10-19T02:14:54.239150Z",
   "languages": [
     "json",
     "md",
@@ -1196,8 +1196,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 161126,
-      "hash": "613ede79851894ce4046c558f3006013d98e290a",
+      "size": 161369,
+      "hash": "67fae2bed883c1d9f7df7cb883aaa117eabd7abe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1450,6 +1450,16 @@
       "lang": "json",
       "size": 1105,
       "hash": "4e1d7bfae2328c4fe1bc2017e365a3cc1df1fa59",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "CAPITALISM_SEMANTIC_INVERSION_SENSOR.json",
+      "lang": "json",
+      "size": 1875,
+      "hash": "137f65300bc906b0a22080cb31e65289143b7c96",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5170,8 +5180,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26258,
-      "hash": "c8bd9f355ccd37b843cb158575a08e906ba8299b",
+      "size": 26291,
+      "hash": "c818770751c020682cbd4b24e1d6610b245da7af",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5193,7 +5203,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2632,
-      "hash": "f046d5584cdc81c702af05b042bf0fa06400aa59",
+      "hash": "9ae0c6433e97c358b49ff35584bc008b74d60f94",
       "roles": [],
       "imports": [],
       "exports": [],
