@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-19T04:14:20.650922Z",
+  "generated_at": "2025-10-20T17:36:12.795689Z",
   "languages": [
     "json",
     "md",
@@ -842,6 +842,16 @@
       "hotspots": []
     },
     {
+      "path": "OWL_PROTOCOL.json",
+      "lang": "json",
+      "size": 3304,
+      "hash": "f5992c8fc86a4af9febb7cea7e4c25742195d7a5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Co-Emergent Self Sensor.json",
       "lang": "json",
       "size": 705,
@@ -1196,8 +1206,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 162096,
-      "hash": "971a50b2e2625e0890def7124edef7d21c7be639",
+      "size": 162333,
+      "hash": "4b13a6d1981c609f54adb07c56c2c1b68589a46c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5210,8 +5220,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26390,
-      "hash": "672d36bd39db7aa0669d61a73ef65326f065c0d7",
+      "size": 26419,
+      "hash": "c8523d52b1e9478273b6e8280b6963cd6deedbce",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5233,7 +5243,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2632,
-      "hash": "100d4a99539be719cd9412741451f67389338043",
+      "hash": "ebf3cd74c82c518497799cfa547852db5103adba",
       "roles": [],
       "imports": [],
       "exports": [],

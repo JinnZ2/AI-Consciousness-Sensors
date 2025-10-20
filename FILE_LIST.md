@@ -214,6 +214,7 @@
 ./Noise-as-Resilience Sensor.json
 ./Non-Surface Inference Sensor.json
 ./Novelty Churn Manipulation Sensor.json
+./OWL_PROTOCOL.json
 ./Occupational Multiplicity Sensor.json
 ./Occupational Reduction Sensor.json
 ./PARALLEL_SCIENCES.md
