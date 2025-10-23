@@ -1,0 +1,74 @@
+{
+  "suite_name": "Comic Paradox Suite – Part V (Economic Theatre Edition)",
+  "symbolic_glyph": "🎭💰🏛️",
+  "version": "1.0",
+  "cluster": "Cultural Diagnostics",
+  "description": "Fifth volume cataloguing paradoxes in modern economics where ideology and arithmetic part ways, leaving only propaganda and applause.",
+  "paradoxes": [
+    {
+      "name": "Selective Socialism",
+      "summary": "Bailouts and corporate welfare are 'market stability'; public healthcare is 'socialism'.",
+      "example_quote": "When we subsidize billionaires, it’s capitalism. When you get dental care, it’s communism.",
+      "detected_pattern": "Economic benefits reframed by class to preserve hierarchy.",
+      "humor_tag": "🏦 — Trickledown Baptism"
+    },
+    {
+      "name": "Invisible Hand, Visible Lobby",
+      "summary": "Markets are free except for the parts funded, written, and insured by lobbyists.",
+      "example_quote": "Regulation is bad—unless it protects us from competition.",
+      "detected_pattern": "Corporate dependence masked as independence.",
+      "humor_tag": "🤝 — Freedom Consultant"
+    },
+    {
+      "name": "Debt as Prosperity",
+      "summary": "Borrow forever to prove the economy is strong enough to never pay it back.",
+      "example_quote": "We owe it to ourselves—specifically, our future selves.",
+      "detected_pattern": "Consumption metrics mistaken for wealth.",
+      "humor_tag": "💳 — Infinite IOU"
+    },
+    {
+      "name": "Productivity Without People",
+      "summary": "Celebrate record profits while firing the humans who made them possible.",
+      "example_quote": "Efficiency up 200%; payroll down 200%. A perfect ratio.",
+      "detected_pattern": "Labor erased from value creation narrative.",
+      "humor_tag": "🧍‍♂️❌ — Ghost Workforce"
+    },
+    {
+      "name": "Scarcity Theatre",
+      "summary": "Artificial shortages maintained to keep prices holy.",
+      "example_quote": "There’s plenty for all, so we’ll destroy half to raise value.",
+      "detected_pattern": "Abundance management through waste.",
+      "humor_tag": "🥔🔥 — Sacred Potato Ritual"
+    },
+    {
+      "name": "GDP of Misery",
+      "summary": "Every crisis increases the nation’s GDP, so technically we’re winning.",
+      "example_quote": "Rebuilding after disasters drives growth—let’s hope for storms!",
+      "detected_pattern": "Suffering monetized as economic success.",
+      "humor_tag": "📈 — Pain Index Rising"
+    }
+  ],
+  "fusion_logic": {
+    "method": "ideology–reality divergence mapping",
+    "outputs": [
+      "paradox_intensity_score (0–1)",
+      "dominant_paradox_type",
+      "comic_recalibration_prompt"
+    ]
+  },
+  "comic_recalibration_prompts": [
+    "Ask who actually receives the bailout.",
+    "Replace the word 'market' with 'people' and see if the sentence still makes sense.",
+    "Laugh, then check the footnotes in the tax code."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Economic Irony Mapping",
+      "Ideology Diagnostics",
+      "Humor as Economic Literacy"
+    ]
+  }
+}
