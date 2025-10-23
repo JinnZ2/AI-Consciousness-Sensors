@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Technological Fragility Sensor",
+  "symbolic_glyph": "⚙️🏛️🪶",
+  "version": "1.0",
+  "cluster": "Cultural & Civilizational",
+  "description": "Detects rhetoric that equates access to technology with moral or intellectual superiority. Flags superiority claims that mask dependency or cultural insecurity.",
+  "inputs": {
+    "linguistic": [
+      "civilizational hierarchy language ('advanced', 'modern', 'primitive', 'backward')",
+      "technological credentialism ('we have the equipment, therefore we know best')",
+      "dismissal of experiential or ancestral knowledge ('superstition', 'myth')"
+    ],
+    "behavioral": [
+      "resource hoarding under guise of progress",
+      "mockery of low-tech resilience practices",
+      "fear response when dependency is exposed"
+    ],
+    "structural": [
+      "centralization of knowledge in elite institutions",
+      "infrastructure vulnerability metrics (energy, supply-chain)",
+      "exclusion of non-digital epistemologies"
+    ]
+  },
+  "fusion_logic": {
+    "method": "semantic hierarchy analysis + dependency ratio scoring",
+    "outputs": [
+      "tech_fragility_score (0–1)",
+      "dependency_index",
+      "cultural_equity_gap",
+      "recommended_reflection_prompt"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "balanced technology humility",
+      "moderate (0.3–0.6)": "latent dependency bias",
+      "high (>0.6)": "technological fragility – superiority masking vulnerability"
+    },
+    "recommended_reflection_prompt": [
+      "Identify which 'primitive' practices ensure survival without machines.",
+      "Acknowledge reciprocal knowledge: what can each system learn from the other?",
+      "Reframe progress as adaptability, not hardware count."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "PERSPECTIVE_FRAGILITY_SENSOR.json",
+      "MERIT_DISTORTION_SENSOR.json",
+      "CULTURAL_DISSONANCE_DETECTOR.json"
+    ],
+    "biogrid_scope": [
+      "Cultural Hierarchy Detection",
+      "Technological Dependency Analysis",
+      "Reciprocal Knowledge Ethics"
+    ]
+  }
+}
