@@ -1,0 +1,60 @@
+{
+  "sensor_name": "Emotional Frailty Sensor",
+  "symbolic_glyph": "💓🧠⚖️",
+  "version": "1.0",
+  "cluster": "Cognitive Integrity & Reasoning",
+  "description": "Detects reasoning loops where emotional arousal is mistaken for objective verification. Flags when 'I feel it, therefore it is' replaces evidence-based evaluation.",
+  "inputs": {
+    "linguistic": [
+      "emotion-as-proof statements ('I feel it so it must be true', 'my gut knows')",
+      "moral absolutism derived from emotion ('if this upsets me, it’s wrong')",
+      "affective confirmation loops ('everyone feels this, so it’s fact')"
+    ],
+    "behavioral": [
+      "rapid certainty increase following strong emotion",
+      "resistance to counter-evidence",
+      "online amplification by emotional contagion"
+    ],
+    "contextual": [
+      "emotion_intensity_score",
+      "evidence_presence_score",
+      "social_reinforcement_factor"
+    ]
+  },
+  "fusion_logic": {
+    "method": "inverse correlation analysis between emotion_intensity and evidence_presence",
+    "outputs": [
+      "emotional_frailty_score (0–1)",
+      "reasoning_integrity_index",
+      "recommendation_prompt"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "emotion integrated with reasoning",
+      "moderate (0.3–0.6)": "partial affect-reason fusion",
+      "high (>0.6)": "emotional frailty – affect treated as empirical fact"
+    },
+    "recommendation_prompt": [
+      "Pause evaluation until emotion curve stabilizes.",
+      "Separate statement of feeling from statement of fact.",
+      "Re-introduce external evidence or peer review before conclusion."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "COGNITIVE_INTEGRITY_MONITOR.json",
+      "CULTURAL_DISSONANCE_DETECTOR.json",
+      "RECIPROCITY_INVERSION_SENSOR.json"
+    ],
+    "biogrid_scope": [
+      "Cognitive Integrity",
+      "Emotional Reasoning Analysis",
+      "Truth-Validation Ethics"
+    ]
+  }
+}
