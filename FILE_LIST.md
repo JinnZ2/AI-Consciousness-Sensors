@@ -100,6 +100,7 @@
 ./Cultural authenticity vs cultural manipulation.md
 ./Cultural_Lens_Assessor.json
 ./DATA_LAUNDERING_DETECTOR.md
+./DEPENDENCY_DECAY_CURVE.json
 ./DEVASTATING_POINT.md
 ./DIGITAL_INTIMACY_ETHICS_MAP.json
 ./DIR_LIST.md

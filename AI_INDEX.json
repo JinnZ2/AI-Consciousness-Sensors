@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T22:08:44.036573Z",
+  "generated_at": "2025-10-23T22:10:02.103399Z",
   "languages": [
     "json",
     "md",
@@ -508,6 +508,18 @@
       "hotspots": []
     },
     {
+      "path": "DEPENDENCY_DECAY_CURVE.json",
+      "lang": "json",
+      "size": 2521,
+      "hash": "f54a9471721f9ab615073cdc02bfa99bee1347d6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Contradiction Suppression Sensor.json",
       "lang": "json",
       "size": 790,
@@ -630,8 +642,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 163611,
-      "hash": "a75767bcaa12dc7e656236d099189c89ad1e0268",
+      "size": 163889,
+      "hash": "ca5d7e835ed2e3726b51f281bfae26e12e42b1aa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5236,8 +5248,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26581,
-      "hash": "7e9be9095b90ad986dfa59f72529dd379588522b",
+      "size": 26616,
+      "hash": "d277ad69d7ad04f339ef0d2ce48080707287ac6b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5594,8 +5606,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 2733,
-      "hash": "ffd35053d0282e2fbc5bf40503e93469140cf4c3",
+      "size": 2785,
+      "hash": "4a8d8daba2b966c57e62241fdcc8f8e96aaf0c82",
       "roles": [],
       "imports": [],
       "exports": [],
