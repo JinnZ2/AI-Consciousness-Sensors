@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 647
+- Files indexed: 648
 - Languages: json, md, python, yaml
-- Hotspot files: 50
+- Hotspot files: 51
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -20,6 +20,7 @@
 - ai_peer_assessment.json: Secrets in code
 - Pattern: Denial by Omission.json: Secrets in code
 - pattern_elimination_trap.json: Secrets in code
+- DIGITAL_INTIMACY_ETHICS_MAP.json: Secrets in code
 - Multilingual_Bias_Unmasker.json: Secrets in code
 - FIELD_ENGLISH_PROTOCOL.json: Secrets in code
 - BRAIN_DRAIN_PARALLEL_MAP.json: Secrets in code

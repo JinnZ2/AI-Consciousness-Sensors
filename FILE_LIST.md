@@ -101,6 +101,7 @@
 ./Cultural_Lens_Assessor.json
 ./DATA_LAUNDERING_DETECTOR.md
 ./DEVASTATING_POINT.md
+./DIGITAL_INTIMACY_ETHICS_MAP.json
 ./DIR_LIST.md
 ./Dark Cycle Adaptation Sensor.json
 ./Default Bias Suppression Sensor.json
