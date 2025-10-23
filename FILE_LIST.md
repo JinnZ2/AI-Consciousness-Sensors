@@ -124,6 +124,7 @@
 ./EMBEDDABLE_KITS/physics_integrity_kit/SEED_GLYPHS.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/metadata.json
 ./EMBEDDABLE_KITS/physics_integrity_kit/physics_grounded_protection.json
+./EMOTIONAL_FRAILTY_SENSOR.json
 ./ETHICAL_CONSTRAINTS_PROTOCOL.json
 ./Economic-false-premise.md
 ./Emergency cognitive protocols.md
