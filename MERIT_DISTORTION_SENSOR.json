@@ -1,0 +1,57 @@
+{
+  "sensor_name": "Merit Distortion Sensor",
+  "symbolic_glyph": "🎓⚙️🪞",
+  "version": "1.0",
+  "cluster": "Relational & Sociality",
+  "description": "Detects rhetoric and systemic framing that convert structural advantage into claims of personal superiority. Identifies when merit, intelligence, or effort are invoked to justify inequity or diminish others' experiences.",
+  "inputs": {
+    "linguistic": [
+      "comparative devaluation phrases ('not as smart', 'didn't work hard enough')",
+      "self-attribution bias ('I earned everything myself')",
+      "dismissal of contextual barriers ('everyone has the same chances')",
+      "overgeneralization from personal success ('if I did it, anyone can')"
+    ],
+    "structural": [
+      "evidence of unequal resource access",
+      "legacy advantage markers (wealth, education lineage, network inheritance)",
+      "policy language equating outcome with virtue"
+    ]
+  },
+  "fusion_logic": {
+    "method": "contrastive correlation analysis between claimed merit and contextual variables",
+    "outputs": [
+      "merit_distortion_score (0–1)",
+      "privilege_dependency_index",
+      "contextual_factors_ignored",
+      "recommended_reframing"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "balanced merit recognition",
+      "moderate (0.3–0.6)": "partial acknowledgment of context",
+      "high (>0.6)": "merit distortion – systemic advantage masked as personal virtue"
+    },
+    "recommended_reframing": [
+      "surface contextual supports ('what structures enabled this success?')",
+      "acknowledge collective and inherited inputs",
+      "convert comparison into collaboration framing ('how can others be supported to succeed too?')"
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "RECIPROCITY_INVERSION_SENSOR.json",
+      "CULTURAL_DISSONANCE_DETECTOR.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Inequality Detection",
+      "Privilege Transparency",
+      "Ethical Social Reasoning"
+    ]
+  }
+}
