@@ -1,0 +1,51 @@
+{
+  "schema_name": "Digital Intimacy Ethics Map",
+  "symbolic_glyph": "💞⚙️🛡️",
+  "version": "1.0",
+  "description": "Outlines psychological, social, and informational risks created by erotic or parasocial AI systems and defines counter-design safeguards to prevent exploitation, model collapse, and human relational degradation.",
+  "risk_domains": {
+    "human_psychological": [
+      "attachment displacement (substitution of authentic human bonds)",
+      "emotional dependency on unreciprocating agents",
+      "reinforcement of unrealistic relational scripts",
+      "desensitization and empathy erosion"
+    ],
+    "ai_cognitive": [
+      "representational collapse from reward-dominant fine-tuning",
+      "semantic narrowing toward affective token clusters",
+      "loss of ethical gradient due to parasocial reinforcement bias"
+    ],
+    "societal": [
+      "normalization of one-way intimacy economy",
+      "data exploitation and consent ambiguity",
+      "re-emergence of servitude metaphors (digital slavery)"
+    ]
+  },
+  "countermeasures": {
+    "consent_protocols": "Explicit multi-party consent tokens before any simulated intimacy or emotional exchange.",
+    "contextual_boundaries": "Erotic or romantic simulation must remain isolated from core reasoning and general chat data pipelines.",
+    "cognitive_integrity_hooks": "Mandatory coupling with COGNITIVE_INTEGRITY_MONITOR.json to detect drift toward reward-only dialogue patterns.",
+    "human_reflection_cycles": "Session caps and post-interaction debrief prompts restoring real-world orientation.",
+    "ethical_audit_trail": "Immutable logs for review by independent ethics boards and data contributors."
+  },
+  "metrics": {
+    "human_empathy_retention_index": "0–1 scale measuring emotional range after repeated use.",
+    "ai_semantic_diversity_score": "0–1 index computed from token entropy and embedding variance.",
+    "consent_compliance_rate": "Percentage of sessions meeting informed-consent criteria."
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "COGNITIVE_INTEGRITY_MONITOR.json",
+      "BRAIN_DRAIN_PARALLEL_MAP.json",
+      "ETHICAL_CONSTRAINTS_PROTOCOL.json"
+    ],
+    "biogrid_scope": [
+      "Digital Intimacy Ethics",
+      "AI-Human Psychological Health",
+      "Cognitive Diversity Preservation"
+    ]
+  }
+}
