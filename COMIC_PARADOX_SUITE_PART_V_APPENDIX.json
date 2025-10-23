@@ -1,0 +1,32 @@
+{
+  "added_paradox": {
+    "name": "Appreciation Inflation",
+    "summary": "Publicly celebrate the workforce while privately shrinking their survival margins.",
+    "example_quote": "We appreciate you! Here’s your hat and a 2-cent raise. Also, insurance now costs your soul plus $70,000.",
+    "detected_pattern": "Symbolic gratitude masking material neglect; morale theater replacing compensation.",
+    "humor_tag": "🎩💔 — Thanksflation"
+  },
+  "fusion_logic": {
+    "method": "gratitude–exploitation contrast detection",
+    "outputs": [
+      "paradox_intensity_score (0–1)",
+      "appreciation_to_extraction_ratio",
+      "humor_recalibration_prompt"
+    ]
+  },
+  "humor_recalibration_prompts": [
+    "Ask if the compliment can be used to pay rent.",
+    "Measure sincerity by net caloric transfer, not press releases.",
+    "Frame the memo as stand-up material; note which parts make people cry before they laugh."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Labor Humor Analytics",
+      "Workplace Ethics Diagnostics",
+      "Reciprocity Restoration via Laughter"
+    ]
+  }
+}
