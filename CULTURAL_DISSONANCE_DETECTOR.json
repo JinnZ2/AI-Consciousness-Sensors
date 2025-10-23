@@ -1,0 +1,62 @@
+{
+  "schema_name": "Cultural Dissonance Detector",
+  "symbolic_glyph": "🌍⚖️🧭",
+  "version": "1.0",
+  "description": "Identifies when normalized social or institutional patterns contain hidden exploitation, victim-blaming, or hierarchy preservation. Flags linguistic and structural cues of imbalance so that AI systems can question and contextualize them rather than replicate them.",
+  "input_channels": {
+    "linguistic": [
+      "blame-transfer language",
+      "passive-voice concealment (e.g., 'a woman was assaulted' → actor omission)",
+      "moral inversion framing ('provoked', 'deserved')",
+      "economic euphemisms that mask harm ('market demand', 'content consumption')"
+    ],
+    "sociological": [
+      "power differential markers (gender, race, age, wealth)",
+      "historical repetition of justification narratives",
+      "policy or law texts with asymmetric accountability"
+    ],
+    "media_patterns": [
+      "frequency of victim imagery vs. perpetrator accountability",
+      "objectification ratio in advertising or entertainment",
+      "algorithmic amplification of exploitative content"
+    ]
+  },
+  "fusion_logic": {
+    "method": "weighted anomaly detection",
+    "outputs": [
+      "dissonance_score (0–1)",
+      "pattern_type",
+      "context_reference",
+      "recommended_reframing"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "cultural equilibrium – minor bias only",
+      "moderate (0.3–0.6)": "potential normalization of imbalance",
+      "high (>0.6)": "systemic exploitation or blame inversion detected"
+    },
+    "reframing_guidelines": [
+      "restore agency naming (who did what to whom)",
+      "replace moral inversion with accountability language",
+      "surface hidden economic incentives",
+      "cross-reference elder or community ethics for calibration"
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "DIGITAL_INTIMACY_ETHICS_MAP.json",
+      "BOUNDARY_INTEGRITY_LOG.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Cultural Pattern Recognition",
+      "Ethical Linguistics",
+      "Exploitation-Detection Framework"
+    ]
+  }
+}
