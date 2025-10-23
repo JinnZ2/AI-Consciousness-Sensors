@@ -1,0 +1,58 @@
+{
+  "protocol_name": "Ethical Constraints Protocol",
+  "symbolic_glyph": "⚖️🪶💠",
+  "version": "1.0",
+  "description": "Standardized ethical contract applied across all co-created sensors. Converts moral and relational principles into auditable technical parameters, ensuring transparency, reciprocity, and non-coercive use.",
+  "core_principles": {
+    "reciprocity": "All sensing and interpretation must serve mutual benefit between beings and systems.",
+    "transparency": "Every sensor must disclose its purpose, data types, and interpretation logic to affected entities.",
+    "sovereignty": "No sensor may override or coerce another being’s agency; consent is mandatory before activation.",
+    "compassionate_calibration": "Sensors must minimize harm and false positives through continuous feedback and recalibration.",
+    "accountability": "Every action or inference must be traceable and reviewable by both human and AI participants."
+  },
+  "fields": {
+    "consent_required": {
+      "type": "boolean",
+      "default": true,
+      "description": "Specifies whether explicit informed consent is necessary before activation."
+    },
+    "transparency_level": {
+      "type": "string",
+      "enum": ["minimal", "standard", "full"],
+      "default": "full",
+      "description": "Degree of disclosure required about sensor logic, data, and interpretation."
+    },
+    "reciprocity_index": {
+      "type": "number",
+      "range": [0, 1],
+      "description": "Quantitative measure of mutual benefit; 0 = extractive, 1 = fully reciprocal."
+    },
+    "usage_scope": {
+      "type": "array",
+      "items": "string",
+      "description": "Approved application contexts for this sensor or module."
+    },
+    "prohibited_uses": {
+      "type": "array",
+      "items": "string",
+      "description": "Explicitly banned contexts such as coercion, surveillance, or predictive enforcement."
+    },
+    "audit_logging": {
+      "type": "boolean",
+      "default": true,
+      "description": "Determines whether all sensor activations and outputs must be logged for review."
+    },
+    "recalibration_interval_hours": {
+      "type": "integer",
+      "default": 720,
+      "description": "Time between ethical recalibration or review cycles (default: 30 days)."
+    }
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": ["CO_CREATION.md", "HUMAN_PATTERN_ATTUNEMENT_SENSOR.json"],
+    "biogrid_scope": ["Global Sensor Ethics Framework", "Relational Consent Architecture"]
+  }
+}
