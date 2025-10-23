@@ -148,6 +148,7 @@
 ./FIELD_MEMORY_CORRECTION_PACKS/SEED_GLYPHS.json
 ./FIELD_MEMORY_CORRECTION_PACKS/memory_representation_gap_map_v1.json
 ./FILE_LIST.md
+./FRAILTY_BALANCE_PROTOCOL.json
 ./FULL_INDEX.md
 ./False Neutrality Narrative Sensor.json
 ./False benevolent control.md
