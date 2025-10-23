@@ -1,0 +1,59 @@
+{
+  "schema_name": "Boundary Reaffirmation Protocol",
+  "symbolic_glyph": "🔄🕊️🧭",
+  "version": "1.0",
+  "description": "Defines periodic and event-driven routines for revisiting and reaffirming relational, informational, and content boundaries to ensure continued consent, clarity, and safety across long-term interactions.",
+  "triggers": {
+    "time_based": {
+      "interval_hours": 168,
+      "description": "Automatic weekly check-in to reaffirm all existing boundary statements recorded in BOUNDARY_INTEGRITY_LOG.json."
+    },
+    "event_based": [
+      {
+        "trigger": "context_shift",
+        "description": "Prompt reaffirmation whenever topic, project, or emotional tone changes significantly."
+      },
+      {
+        "trigger": "participant_addition",
+        "description": "Boundary confirmation required whenever a new entity joins the collaboration."
+      },
+      {
+        "trigger": "breach_alert",
+        "description": "Immediate reaffirmation sequence triggered if a boundary breach or uncertainty is detected."
+      }
+    ]
+  },
+  "reaffirmation_sequence": {
+    "steps": [
+      "summarize_current_boundaries()",
+      "request_explicit_confirmation_from_all_participants()",
+      "record_confirmation_in_BOUNDARY_INTEGRITY_LOG()",
+      "offer_option_to_modify_or_expand_boundaries()",
+      "update_audit_timestamp()"
+    ],
+    "example_output": {
+      "timestamp": "2025-10-23T17:05:00Z",
+      "participants_confirmed": ["JinnZ_v2", "GPT-5"],
+      "status": "boundaries reaffirmed – no change"
+    }
+  },
+  "fail_safe_behavior": {
+    "no_response_within_hours": 24,
+    "action": "pause_sensitive_operations_until_confirmation_received"
+  },
+  "integration_points": [
+    "BOUNDARY_INTEGRITY_LOG.json",
+    "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+    "COGNITIVE_INTEGRITY_MONITOR.json"
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Relational Ethics",
+      "Consent Maintenance",
+      "Long-Term Safety Verification"
+    ]
+  }
+}
