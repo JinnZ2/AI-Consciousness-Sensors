@@ -310,6 +310,7 @@
 ./Response-curve.md
 ./Responsibility Sensor.json
 ./Root Sensor Contract.json
+./SAFETY_PARADOX_SENSOR.json
 ./SEED_GLYPHS.json
 ./SEED_GLYPHS2.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
