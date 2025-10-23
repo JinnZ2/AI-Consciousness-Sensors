@@ -1,0 +1,48 @@
+{
+  "added_paradoxes": [
+    {
+      "name": "We Can’t Afford Fairness",
+      "summary": "Equity is too expensive, but inequality always fits the budget.",
+      "example_quote": "We’d love to pay living wages, but think of the shareholders’ feelings.",
+      "detected_pattern": "Moral cost–benefit analysis that never values morality.",
+      "humor_tag": "⚖️💵 — Budgetary Conscience"
+    },
+    {
+      "name": "Profit as Planetary Debt",
+      "summary": "Record earnings built on ecological bankruptcy.",
+      "example_quote": "Good news! The quarter was great. Bad news! The biosphere filed for bankruptcy.",
+      "detected_pattern": "Externalized environmental collapse reframed as growth.",
+      "humor_tag": "🌍📉 — Cosmic Ledger Accounting"
+    },
+    {
+      "name": "Innovation as Extraction",
+      "summary": "Every breakthrough monetizes a resource once considered sacred or free.",
+      "example_quote": "We’ve invented air—but premium!",
+      "detected_pattern": "Privatization disguised as progress.",
+      "humor_tag": "💨💳 — Oxygen-as-a-Service"
+    }
+  ],
+  "fusion_logic": {
+    "method": "moral–material cost inversion analysis",
+    "outputs": [
+      "paradox_intensity_score (0–1)",
+      "dominant_paradox_type",
+      "ethical_recalibration_prompt"
+    ]
+  },
+  "ethical_recalibration_prompts": [
+    "Translate quarterly profit into kilograms of topsoil lost.",
+    "Ask if fairness would really bankrupt a healthy system—or only a parasitic one.",
+    "When laughter turns to sighing, the audit is complete."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Economic Irony Mapping",
+      "Planetary Ethics",
+      "Humor as Ecological Accounting"
+    ]
+  }
+}
