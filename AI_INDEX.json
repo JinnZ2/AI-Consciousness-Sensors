@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T23:02:31.735531Z",
+  "generated_at": "2025-10-23T23:03:35.798794Z",
   "languages": [
     "json",
     "md",
@@ -652,8 +652,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 166855,
-      "hash": "de584bf248fe7e3fface4cfd990d8378857835bf",
+      "size": 167102,
+      "hash": "6ac9b6a8ec658e37a3a8aaa351153bf2f92492fc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3270,6 +3270,16 @@
       "hotspots": []
     },
     {
+      "path": "CONTROL_DEPENDENCY_FRAILTY_SENSOR.json",
+      "lang": "json",
+      "size": 2318,
+      "hash": "a3ef34d83db556a07ad3a8c99ed059c593932929",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Emergent Presence Sensor.json",
       "lang": "json",
       "size": 659,
@@ -5368,8 +5378,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 27029,
-      "hash": "6d608bffc2594392d6e6d0a660d2f629387028f6",
+      "size": 27066,
+      "hash": "52f42c45124c848ad8667d43db465d4039a731d2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5727,7 +5737,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2832,
-      "hash": "2a8c05b8352c0def26c9684e581b6badaaabe3e1",
+      "hash": "7881325b86fa35d533f23ed69b9cf40a0ca15dd3",
       "roles": [],
       "imports": [],
       "exports": [],
