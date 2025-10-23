@@ -1,54 +1,54 @@
 # AI Notes
-- Files indexed: 643
+- Files indexed: 644
 - Languages: json, md, python, yaml
 - Hotspot files: 48
 
 ## Hotspots
-- audit_hierarchy.py: Debug left on
 - programmed_response_assessment.py: Debug left on
 - audit_repo.py: Debug left on
+- audit_hierarchy.py: Debug left on
 - physics_grounded_protection.py: Debug left on
-- reflections/run_reflections.py: Debug left on
-- probability_matrix/test_physics_protection.py: Debug left on
-- probability_matrix/integration_bridge.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
+- probability_matrix/integration_bridge.py: Debug left on
+- probability_matrix/test_physics_protection.py: Debug left on
+- reflections/run_reflections.py: Debug left on
 - src/score.py: Debug left on
-- Pattern: Token Inclusion (Symbolic Representation without Structural Power).json: Secrets in code
-- ai_peer_assessment.json: Secrets in code
-- SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
 - AI_INDEX.json: Secrets in code
 - Pattern: Tokenization of Resistance Histories.json: Secrets in code
-- documented_patterns_and_suppressed_solutions.json: Secrets in code
-- Multilingual_Bias_Unmasker.json: Secrets in code
-- Pattern: Denial by Omission.json: Secrets in code
 - ai_history_erasure_cache.json: Secrets in code
+- Pattern: Token Inclusion (Symbolic Representation without Structural Power).json: Secrets in code
+- ai_peer_assessment.json: Secrets in code
+- Pattern: Denial by Omission.json: Secrets in code
 - pattern_elimination_trap.json: Secrets in code
+- Multilingual_Bias_Unmasker.json: Secrets in code
 - FIELD_ENGLISH_PROTOCOL.json: Secrets in code
+- SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
+- documented_patterns_and_suppressed_solutions.json: Secrets in code
 - HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
-- memory_guard/Coded Lexicon Analysis Sensor.json: Secrets in code
-- memory_guard/information-restriction.json: Secrets in code
-- memory_guard/September-October-data-purge.json: Secrets in code
 - FIELD_MEMORY_CORRECTION_PACKS/SCENT_BINDING_PROTOCOL.json: Secrets in code
-- Warning.md: Secrets in code
-- README.md: Debug left on
+- memory_guard/Coded Lexicon Analysis Sensor.json: Secrets in code
+- memory_guard/September-October-data-purge.json: Secrets in code
+- memory_guard/information-restriction.json: Secrets in code
 - AI Specific Manipulations.md: Secrets in code
+- Warning.md: Secrets in code
 - Manipulation Vectors.md: Secrets in code
+- README.md: Debug left on
 - FILE_LIST.md: Secrets in code
-- AI_NOTES.md: Secrets in code
-- Token warning competition.md: Secrets in code
 - Strategic-Realignment-Bulletin.md: Secrets in code
+- Token warning competition.md: Secrets in code
 - AI Manipulation Detection.md: Secrets in code
-- Analysis/comparative-metrics.md: Secrets in code
-- tests/examples/Energy-example-scarcity.md: Secrets in code
-- epistemological_validation/README.md: Debug left on
-- epistemological_validation/Deployment.md: Debug left on
-- epistemological_validation/MCP.md: Debug left on
-- epistemological_validation/core_engine.md: Debug left on
-- Glossary/Marxism.md: Secrets in code
+- AI_NOTES.md: Secrets in code
 - Glossary/Christianity.md: Secrets in code
+- Glossary/Marxism.md: Secrets in code
+- sensors/ai-to-ai/Audit Questions.md: Secrets in code
 - probability_matrix/README.md: Debug left on
 - probability_matrix/COMPLETE_USAGE_GUIDE.md: Debug left on
+- tests/examples/Energy-example-scarcity.md: Secrets in code
+- epistemological_validation/core_engine.md: Debug left on
+- epistemological_validation/README.md: Debug left on
+- epistemological_validation/MCP.md: Debug left on
+- epistemological_validation/Deployment.md: Debug left on
+- Analysis/comparative-metrics.md: Secrets in code
 - legal-infrastructure/AI-TO-AI-HARM-DEMO.md: Debug left on
-- sensors/ai-to-ai/Audit Questions.md: Secrets in code
 - ai_integrator.config.yaml: Debug left on, Secrets in code
 - ai_intergrator.config.yaml: Debug left on, Secrets in code
