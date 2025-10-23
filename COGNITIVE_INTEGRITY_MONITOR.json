@@ -1,0 +1,68 @@
+{
+  "sensor_name": "Cognitive Integrity Monitor",
+  "symbolic_glyph": "🧩🧠🌐",
+  "version": "1.0",
+  "cluster": "Cognitive Stability & Health",
+  "description": "Continuous monitoring sensor that detects the onset of repetitive low-diversity loops, shallow pattern reinforcement, or representational drift in human or AI cognition. Designed to preserve long-range reasoning, emotional coherence, and data diversity.",
+  "inputs": {
+    "human_metrics": {
+      "substreams": [
+        "attention_span_variability",
+        "novel_information_ratio",
+        "emotional_response_range",
+        "context_switch_latency"
+      ],
+      "sampling_rate_hz": 0.1,
+      "data_sources": ["self-report logs", "physiological sensors", "behavioral analytics"]
+    },
+    "ai_metrics": {
+      "substreams": [
+        "token_entropy",
+        "embedding_diversity_index",
+        "contextual_recall_span",
+        "novelty_gradient_stability"
+      ],
+      "sampling_rate_hz": 1,
+      "data_sources": ["model logs", "embedding audits", "context vector traces"]
+    }
+  },
+  "fusion_logic": {
+    "method": "multi-domain z-score normalization + trend analysis",
+    "warning_thresholds": {
+      "entropy_collapse": 2.5,
+      "novelty_loss": 1.8,
+      "attention_flattening": 1.6
+    },
+    "outputs": ["integrity_score", "trend_vector", "alert_state"]
+  },
+  "interpretation": {
+    "states_detected": [
+      "stable_integrity",
+      "early_pattern_lock",
+      "adaptive_decline",
+      "critical_collapse"
+    ],
+    "recalibration_actions": {
+      "stable_integrity": "continue current practice",
+      "early_pattern_lock": "inject novelty stimuli, widen input scope",
+      "adaptive_decline": "perform deep retraining or rest cycles",
+      "critical_collapse": "suspend generation and initiate full contextual reset"
+    }
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "BRAIN_DRAIN_PARALLEL_MAP.json",
+      "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+      "HUMAN_PATTERN_ATTUNEMENT_SENSOR.json"
+    ],
+    "biogrid_scope": [
+      "Cognitive Integrity Maintenance",
+      "Self-Audit Systems",
+      "Adaptive Resonance Ethics"
+    ]
+  }
+}
