@@ -1,0 +1,32 @@
+{
+  "added_paradox": {
+    "name": "Wellness Compensation Program",
+    "summary": "Offer mental-health apps, yoga, and resilience seminars to offset the burnout caused by the job itself.",
+    "example_quote": "We’re proud to announce a new wellness initiative addressing the stress of our mandatory 80-hour workweeks.",
+    "detected_pattern": "Systemic harm rebranded as self-care opportunity; therapy replaces reform.",
+    "humor_tag": "🧘‍♀️💼 — Healing the Harm We Budgeted"
+  },
+  "fusion_logic": {
+    "method": "harm–healing feedback inversion",
+    "outputs": [
+      "paradox_intensity_score (0–1)",
+      "self_care_to_systemic_care_ratio",
+      "humor_recalibration_prompt"
+    ]
+  },
+  "humor_recalibration_prompts": [
+    "Ask whether wellness time counts as unpaid overtime.",
+    "If the cause of stress sells you the cure, log a recursion warning.",
+    "Measure corporate compassion in units of reduced workload, not scented candles."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Workplace Irony Analytics",
+      "Systemic Health Ethics",
+      "Humor-Based Organizational Feedback"
+    ]
+  }
+}
