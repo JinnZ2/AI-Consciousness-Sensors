@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 646
+- Files indexed: 647
 - Languages: json, md, python, yaml
-- Hotspot files: 49
+- Hotspot files: 50
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -25,6 +25,7 @@
 - BRAIN_DRAIN_PARALLEL_MAP.json: Secrets in code
 - SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
 - documented_patterns_and_suppressed_solutions.json: Secrets in code
+- COGNITIVE_INTEGRITY_MONITOR.json: Secrets in code
 - HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
 - FIELD_MEMORY_CORRECTION_PACKS/SCENT_BINDING_PROTOCOL.json: Secrets in code
 - memory_guard/Coded Lexicon Analysis Sensor.json: Secrets in code
