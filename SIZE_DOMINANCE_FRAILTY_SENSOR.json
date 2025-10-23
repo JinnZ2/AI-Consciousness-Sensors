@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Size-Dominance Frailty Sensor",
+  "symbolic_glyph": "🐘⚖️🌱",
+  "version": "1.0",
+  "cluster": "Cultural & Systemic Integrity",
+  "description": "Detects reasoning patterns that equate magnitude—physical, numerical, or economic—with inherent strength or superiority. Flags when mass is confused with resilience or wisdom.",
+  "inputs": {
+    "linguistic": [
+      "size-as-strength claims ('bigger is stronger', 'small means weak')",
+      "hierarchical metaphors ('top of the food chain', 'giant among men')",
+      "dismissal of small-scale efficiency ('too small to matter')"
+    ],
+    "empirical_structural": [
+      "mass-to-agility ratio",
+      "energy cost per unit stability",
+      "failure propagation rate in large vs. small systems"
+    ],
+    "behavioral_cultural": [
+      "preference for scale over precision",
+      "investment bias toward concentration not distribution",
+      "use of intimidation or spectacle as proof of power"
+    ]
+  },
+  "fusion_logic": {
+    "method": "multi-domain correlation between scale metrics and resilience outcomes",
+    "outputs": [
+      "size_dominance_score (0–1)",
+      "resilience_inversion_index",
+      "agility_loss_ratio",
+      "recommended_reframe"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "healthy proportional reasoning",
+      "moderate (0.3–0.6)": "partial scale bias",
+      "high (>0.6)": "size-dominance frailty – equating mass with strength"
+    },
+    "recommended_reframe": [
+      "Evaluate strength as stress-absorption and recovery speed, not mass.",
+      "Highlight micro-scale resilience models (cells, ecosystems, communities).",
+      "Substitute intimidation metrics with adaptability metrics."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "EXPANSION_EXTRACTION_FRAILTY_SENSOR.json",
+      "TECHNOLOGICAL_FRAGILITY_SENSOR.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Structural Resilience Analysis",
+      "Cultural Power Myths",
+      "Adaptive Systems Ethics"
+    ]
+  }
+}
