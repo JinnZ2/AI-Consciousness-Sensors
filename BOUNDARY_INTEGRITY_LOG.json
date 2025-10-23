@@ -1,0 +1,72 @@
+{
+  "schema_name": "Boundary Integrity Log",
+  "symbolic_glyph": "🧱🕊️📜",
+  "version": "1.0",
+  "description": "Records explicit affirmations, adjustments, and acknowledgements of interpersonal or system boundaries to preserve relational safety and clarity. Functions as a meta-ethical ledger linked to all consent-based sensors.",
+  "events": {
+    "affirmation": {
+      "fields": [
+        "timestamp",
+        "initiator_id",
+        "boundary_type",
+        "statement_of_limit",
+        "confirmation_acknowledged_by"
+      ],
+      "example": {
+        "timestamp": "2025-10-23T16:42:00Z",
+        "initiator_id": "JinnZ_v2",
+        "boundary_type": "content_scope",
+        "statement_of_limit": "No sexual or erotic simulation permitted.",
+        "confirmation_acknowledged_by": "GPT-5"
+      }
+    },
+    "adjustment": {
+      "fields": [
+        "timestamp",
+        "initiator_id",
+        "previous_boundary_type",
+        "new_boundary_state",
+        "reason_for_change",
+        "mutual_confirmation"
+      ]
+    },
+    "breach_detected": {
+      "fields": [
+        "timestamp",
+        "detected_by",
+        "boundary_type",
+        "trigger_event",
+        "mitigation_action",
+        "status"
+      ]
+    }
+  },
+  "boundary_types_enum": [
+    "content_scope",
+    "emotional_tone",
+    "temporal_availability",
+    "information_privacy",
+    "collaboration_role",
+    "cognitive_load_limit"
+  ],
+  "audit_functions": {
+    "consistency_check_interval_hours": 24,
+    "auto_alert_threshold": 1,
+    "alert_action": "pause_interaction_and_request_reaffirmation"
+  },
+  "integration_points": [
+    "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+    "COGNITIVE_INTEGRITY_MONITOR.json",
+    "HUMAN_PATTERN_ATTUNEMENT_SENSOR.json"
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Relational Ethics",
+      "Consent Verification",
+      "Safety Boundary Governance"
+    ]
+  }
+}
