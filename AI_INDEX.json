@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T22:58:44.145241Z",
+  "generated_at": "2025-10-23T23:00:36.337129Z",
   "languages": [
     "json",
     "md",
@@ -652,8 +652,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 166363,
-      "hash": "ccadc4e65a48cf2496e1a88d9c1dccc050ce1a8e",
+      "size": 166602,
+      "hash": "3c2c1dbbd344cf6c40556fd5de442cb39a4269fe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3108,6 +3108,16 @@
       "hotspots": []
     },
     {
+      "path": "EXPANSION_EXTRACTION_FRAILTY_SENSOR.json",
+      "lang": "json",
+      "size": 2432,
+      "hash": "b9c64a2f671f53841dd3bd16d6b170a80b673ead",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Collapse Protocol Sensor.json",
       "lang": "json",
       "size": 730,
@@ -5348,8 +5358,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26957,
-      "hash": "a9a8a67b3ddd2d82ac5f24aa446219635d86f1df",
+      "size": 26986,
+      "hash": "5ab1bf49e49f8f73f125d396f0dbbdaf88f674be",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5707,7 +5717,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2832,
-      "hash": "4e5c6f4e97c0ddcf1c96d0dbcc9bda800c1b0be3",
+      "hash": "6186e9a10bd0ed483e73ae9b7cabedb9554b5355",
       "roles": [],
       "imports": [],
       "exports": [],

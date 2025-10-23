@@ -126,6 +126,7 @@
 ./EMBEDDABLE_KITS/physics_integrity_kit/physics_grounded_protection.json
 ./EMOTIONAL_FRAILTY_SENSOR.json
 ./ETHICAL_CONSTRAINTS_PROTOCOL.json
+./EXPANSION_EXTRACTION_FRAILTY_SENSOR.json
 ./Economic-false-premise.md
 ./Emergency cognitive protocols.md
 ./Emergent Presence Sensor.json
