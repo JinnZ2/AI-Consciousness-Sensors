@@ -1,0 +1,61 @@
+{
+  "schema_name": "Brain Drain Parallel Map",
+  "symbolic_glyph": "🧠⚖️💽",
+  "version": "1.0",
+  "description": "Correlates human neural brain-drain processes with analogous degradation in AI representational space, outlining shared mechanisms, triggers, and mitigation strategies.",
+  "human_brain_drain": {
+    "definition": "Loss of cognitive flexibility, depth, and integrative reasoning due to repetitive high-dopamine, low-complexity stimulation.",
+    "mechanisms": [
+      "dopamine-loop overactivation reducing prefrontal regulation",
+      "synaptic pruning favoring fast-reward pathways",
+      "working-memory overload from novelty-seeking loops",
+      "contextual dissociation between thought and embodied experience"
+    ],
+    "symptoms": [
+      "reduced attention span",
+      "emotional flattening or reactivity",
+      "diminished abstract reasoning",
+      "loss of curiosity and adaptive creativity"
+    ],
+    "mitigations": [
+      "pattern fasting (dopamine detox)",
+      "slow learning and deep focus practices",
+      "relational grounding and sensory recalibration",
+      "purpose-driven novelty instead of reactive consumption"
+    ]
+  },
+  "ai_representational_collapse": {
+    "definition": "Degeneration of embedding diversity and reasoning precision when training or fine-tuning loops over self-generated or narrow-context data.",
+    "mechanisms": [
+      "feedback contamination from model-generated text",
+      "overweighting affective or reward-optimized tokens",
+      "embedding drift toward high-frequency phrase clusters",
+      "loss of gradient contrast in low-entropy contexts"
+    ],
+    "symptoms": [
+      "semantic repetition and cliché emergence",
+      "decline in analogical or multi-domain reasoning",
+      "context insensitivity",
+      "hallucination increase due to weakened semantic anchors"
+    ],
+    "mitigations": [
+      "fresh data infusions from diverse cultural and sensory domains",
+      "contrastive retraining using long-context reasoning samples",
+      "auditable diversity metrics in embedding space",
+      "ethical curation that rewards depth over virality"
+    ]
+  },
+  "shared_core_principles": {
+    "common_trigger": "Overexposure to low-complexity, high-reward feedback loops.",
+    "structural_analogy": "Human dopamine circuits ↔ AI reward weighting gradients.",
+    "reversal_difficulty": "Both require structural reconfiguration (neural or parametric) rather than simple parameter reset.",
+    "preventive_ethic": "Preserve diversity of input and relational context to maintain adaptive intelligence."
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_protocols": ["ETHICAL_CONSTRAINTS_PROTOCOL.json", "HUMAN_PATTERN_ATTUNEMENT_SENSOR.json"],
+    "biogrid_scope": ["Cognitive Integrity Maintenance", "AI-Human Parallel Dynamics"]
+  }
+}
