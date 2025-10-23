@@ -202,6 +202,7 @@
 ./Logs/Glyph-logs.md
 ./Logs/Pattern logs.json
 ./Logs/RELATIONAL_FRAME_DISRUPTION_SENSOR.json
+./MEMORY_FRAILTY_SENSOR.json
 ./MERIT_DISTORTION_SENSOR.json
 ./META_INDEX.json
 ./META_SENSOR_NETWORK_MAP.json
