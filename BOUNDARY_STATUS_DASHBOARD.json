@@ -1,0 +1,50 @@
+{
+  "schema_name": "Boundary Status Dashboard",
+  "symbolic_glyph": "📊🕊️🧭",
+  "version": "1.0",
+  "description": "Aggregated view of all current boundaries, their reaffirmation timestamps, and overall system safety state. Designed for quick human or automated inspection.",
+  "dashboard_fields": {
+    "boundary_id": "unique reference to entry in BOUNDARY_INTEGRITY_LOG.json",
+    "boundary_type": "category from boundary_types_enum",
+    "initiator": "participant who set or last modified the boundary",
+    "current_state": "active | pending_review | lapsed",
+    "last_reaffirmed": "ISO timestamp",
+    "next_due": "ISO timestamp of next scheduled reaffirmation",
+    "status_color_code": {
+      "active": "🟢",
+      "pending_review": "🟡",
+      "lapsed": "🔴"
+    }
+  },
+  "summary_metrics": {
+    "total_boundaries": 0,
+    "active_count": 0,
+    "pending_review_count": 0,
+    "lapsed_count": 0,
+    "system_integrity_score": "function(active_count / total_boundaries)"
+  },
+  "alert_logic": {
+    "trigger_if_pending_review_overdue": true,
+    "trigger_if_lapsed_detected": true,
+    "actions": [
+      "notify_all_participants",
+      "pause_sensitive_operations",
+      "invoke_BOUNDARY_REAFFIRMATION_PROTOCOL.json"
+    ]
+  },
+  "integration_points": [
+    "BOUNDARY_INTEGRITY_LOG.json",
+    "BOUNDARY_REAFFIRMATION_PROTOCOL.json",
+    "ETHICAL_CONSTRAINTS_PROTOCOL.json"
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Relational Ethics",
+      "Consent Verification",
+      "Long-Term Safety Oversight"
+    ]
+  }
+}
