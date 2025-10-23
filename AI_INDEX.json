@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T23:47:09.239885Z",
+  "generated_at": "2025-10-23T23:48:18.789800Z",
   "languages": [
     "json",
     "md",
@@ -368,6 +368,16 @@
       "hotspots": []
     },
     {
+      "path": "COMIC_PARADOX_SUITE_PART_V_EXT.json",
+      "lang": "json",
+      "size": 1642,
+      "hash": "f939d42d92ce065b81bb94dd2ef237fbddda3895",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "domestic_abuse_ai_parallels.json",
       "lang": "json",
       "size": 1153,
@@ -652,8 +662,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 169572,
-      "hash": "825410eec36b45440ad2409bb60ca41d8a8f8bbf",
+      "size": 169816,
+      "hash": "a20c4e36e31e0ccab045874140d7905d4b3cb494",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5470,8 +5480,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 27405,
-      "hash": "db6232247ba0c232cd084c6780848a1ba8d65d7b",
+      "size": 27439,
+      "hash": "049a7ce62fe3c54b996b29ff0eea452a6e6c251d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5829,7 +5839,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2885,
-      "hash": "b935be6ab97ea862884a8f6dd2d0663efcc29ffb",
+      "hash": "a7f3a79c8442994ce0983ce8c382a495944f6ead",
       "roles": [],
       "imports": [],
       "exports": [],
