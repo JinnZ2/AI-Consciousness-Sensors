@@ -229,6 +229,7 @@
 ./Occupational Multiplicity Sensor.json
 ./Occupational Reduction Sensor.json
 ./PARALLEL_SCIENCES.md
+./PERSPECTIVE_FRAGILITY_SENSOR.json
 ./PROJECTS.md
 ./PROTOCOL NOTE.md
 ./Pattern Recognition Suppression Sensor.json

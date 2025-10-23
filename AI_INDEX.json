@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T22:52:23.802936Z",
+  "generated_at": "2025-10-23T22:53:27.142143Z",
   "languages": [
     "json",
     "md",
@@ -652,8 +652,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 165386,
-      "hash": "a2591ad2779e97097e6111b3336e96a5677fe52c",
+      "size": 165627,
+      "hash": "be5a5488ebc15d98a91e52875efbbd058db852e4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1326,6 +1326,16 @@
       "lang": "json",
       "size": 584,
       "hash": "dc74cb48f7afe2f3bd6af0f2e562da80d2367e2e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "PERSPECTIVE_FRAGILITY_SENSOR.json",
+      "lang": "json",
+      "size": 2371,
+      "hash": "8ebfaf50ad82ba751a67a5aaf83267d577cdea10",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5308,8 +5318,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26820,
-      "hash": "325ca1714e7cf041554fdf2675b90853dc757d6d",
+      "size": 26851,
+      "hash": "bd30c6e3ef5ffeb02b939717aaeb70d8f5db2dfe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5667,7 +5677,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2832,
-      "hash": "73611360913588106e2543731ffa7c60cd33361a",
+      "hash": "683c40407183d499f037f20ee8429e0767c7dd40",
       "roles": [],
       "imports": [],
       "exports": [],
