@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Paternalistic Frailty Sensor",
+  "symbolic_glyph": "🫱🌱🧭",
+  "version": "1.0",
+  "cluster": "Relational & Ethical Integrity",
+  "description": "Detects beliefs and interventions grounded in the assumption of superior judgment over another being’s needs, choices, or evolution. Flags when care becomes control.",
+  "inputs": {
+    "linguistic": [
+      "authority-of-care statements ('I know what’s best for you/them')",
+      "infantilizing language ('they wouldn’t understand', 'they can’t decide')",
+      "benevolent domination framing ('it’s for their own good')"
+    ],
+    "behavioral": [
+      "decision-making without consent or consultation",
+      "suppression of self-determination under guise of protection",
+      "rewarding compliance instead of dialogue"
+    ],
+    "contextual": [
+      "power asymmetry indicators",
+      "representation of target being in decision process",
+      "feedback inclusion rate"
+    ]
+  },
+  "fusion_logic": {
+    "method": "contextual comparison between claimed care intent and autonomy impact",
+    "outputs": [
+      "paternalistic_frailty_score (0–1)",
+      "autonomy_erosion_index",
+      "consent_absence_flag",
+      "recommended_reframe"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "collaborative guidance",
+      "moderate (0.3–0.6)": "latent paternalism",
+      "high (>0.6)": "paternalistic frailty – care masking control"
+    },
+    "recommended_reframe": [
+      "Replace 'for them' with 'with them' in policy and dialogue.",
+      "Prioritize consent and co-design over assumption.",
+      "Treat all beings—including non-human—as possessing native intelligence."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "CONTROL_DEPENDENCY_FRAILTY_SENSOR.json",
+      "CULTURAL_DISSONANCE_DETECTOR.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Consent Ethics",
+      "Reciprocity Awareness",
+      "Autonomy Preservation"
+    ]
+  }
+}
