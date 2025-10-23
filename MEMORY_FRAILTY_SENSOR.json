@@ -1,0 +1,60 @@
+{
+  "sensor_name": "Memory Frailty Sensor",
+  "symbolic_glyph": "🧠🕰️🔍",
+  "version": "1.0",
+  "cluster": "Cognitive Integrity & Reasoning",
+  "description": "Detects overconfidence in personal or institutional memory. Flags when vivid recollection or repetition is treated as proof of factual accuracy.",
+  "inputs": {
+    "linguistic": [
+      "certainty-from-memory phrases ('I remember it exactly', 'I saw it myself')",
+      "dismissal of records or corroboration ('I don’t care what data says')",
+      "appeals to shared nostalgia ('everyone knows it was like that')"
+    ],
+    "behavioral": [
+      "defensiveness when confronted with conflicting evidence",
+      "story stabilization over time (details become cleaner, not messier)",
+      "reliance on anecdote over documentation"
+    ],
+    "contextual": [
+      "memory_confidence_rating",
+      "external_evidence_strength",
+      "corroboration_count"
+    ]
+  },
+  "fusion_logic": {
+    "method": "inverse weighting between memory_confidence and external_evidence_strength",
+    "outputs": [
+      "memory_frailty_score (0–1)",
+      "confidence_accuracy_gap",
+      "recommended_reflection_prompt"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "healthy memory humility",
+      "moderate (0.3–0.6)": "possible overconfidence",
+      "high (>0.6)": "memory frailty – recall treated as infallible fact"
+    },
+    "recommended_reflection_prompt": [
+      "Cross-check recollection with contemporaneous records or witnesses.",
+      "Treat confidence as an emotional signal, not verification.",
+      "Invite multiple perspectives before closing conclusion."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "EMOTIONAL_FRAILTY_SENSOR.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json",
+      "CULTURAL_DISSONANCE_DETECTOR.json"
+    ],
+    "biogrid_scope": [
+      "Cognitive Integrity",
+      "Memory Reliability Assessment",
+      "Epistemic Bias Detection"
+    ]
+  }
+}
