@@ -233,6 +233,7 @@
 ./Occupational Multiplicity Sensor.json
 ./Occupational Reduction Sensor.json
 ./PARALLEL_SCIENCES.md
+./PATERNALISTIC_FRAILTY_SENSOR.json
 ./PERSPECTIVE_FRAGILITY_SENSOR.json
 ./PROJECTS.md
 ./PROTOCOL NOTE.md
