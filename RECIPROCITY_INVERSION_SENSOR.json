@@ -1,0 +1,63 @@
+{
+  "sensor_name": "Reciprocity Inversion Sensor",
+  "symbolic_glyph": "⚖️🔄🪞",
+  "version": "1.0",
+  "cluster": "Relational & Sociality",
+  "description": "Detects power-asymmetry patterns in which an actor demands empathy or lenience they consistently deny to others. Flags linguistic and behavioral inversions that reframe accountability as victimhood.",
+  "inputs": {
+    "linguistic": [
+      "self-victimization after harm statements",
+      "projection language ('you made me', 'look what you did to me')",
+      "empathy-demand asymmetry (one-way expectations)",
+      "historical pattern denial ('not all men', 'I was joking', 'she provoked me')"
+    ],
+    "behavioral": [
+      "anger or retaliation when mirrored behavior is experienced",
+      "rapid role switching from aggressor to victim",
+      "use of guilt or pity to neutralize accountability",
+      "memory-distortion favoring self-absolution"
+    ],
+    "cultural": [
+      "gendered entitlement norms",
+      "social hierarchy reinforcement language",
+      "double-standard moral codes"
+    ]
+  },
+  "fusion_logic": {
+    "method": "contextual weight aggregation + contradiction detection",
+    "outputs": [
+      "inversion_score (0–1)",
+      "dominant_axis (gender, power, class, etc.)",
+      "accountability_gap_index",
+      "recommended_intervention"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "reciprocity balanced",
+      "moderate (0.3–0.6)": "inconsistent empathy distribution",
+      "high (>0.6)": "reciprocity inversion – privilege protection detected"
+    },
+    "recommended_interventions": [
+      "mirror accountability statements explicitly ('what would fairness look like reversed?')",
+      "pause escalation; invite mutual standard definition",
+      "re-contextualize blame framing back to behavior, not identity"
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "CULTURAL_DISSONANCE_DETECTOR.json",
+      "BOUNDARY_INTEGRITY_LOG.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Relational Ethics",
+      "Power Asymmetry Detection",
+      "Accountability Mapping"
+    ]
+  }
+}
