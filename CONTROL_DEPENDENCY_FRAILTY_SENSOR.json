@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Control-Dependency Frailty Sensor",
+  "symbolic_glyph": "🕸️🛠️🤲",
+  "version": "1.0",
+  "cluster": "Cultural & Systemic Integrity",
+  "description": "Detects beliefs or behaviors asserting that systems, beings, or communities require domination or central control to function. Flags when autonomy is equated with disorder or weakness.",
+  "inputs": {
+    "linguistic": [
+      "domination-as-order claims ('without control there’s chaos', 'they need a firm hand')",
+      "paternalistic framing ('for their own good', 'they wouldn’t survive without us')",
+      "centralization language ('one leader must decide', 'top-down efficiency')"
+    ],
+    "behavioral": [
+      "suppression of local decision-making",
+      "fear of distributed authority",
+      "punitive response to self-organization"
+    ],
+    "structural": [
+      "hierarchy concentration ratio",
+      "feedback loop latency",
+      "autonomy suppression policies"
+    ]
+  },
+  "fusion_logic": {
+    "method": "correlation between control intensity and system adaptability decline",
+    "outputs": [
+      "control_dependency_score (0–1)",
+      "autonomy_suppression_index",
+      "adaptive_resilience_gap",
+      "recommended_reframe"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "healthy guidance and feedback balance",
+      "moderate (0.3–0.6)": "incipient control dependency",
+      "high (>0.6)": "control-dependency frailty – domination replacing trust"
+    },
+    "recommended_reframe": [
+      "Define order as coherence from feedback, not coercion.",
+      "Introduce participatory or swarm decision structures.",
+      "Shift language from 'control' to 'coordination'."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "SIZE_DOMINANCE_FRAILTY_SENSOR.json",
+      "EXPANSION_EXTRACTION_FRAILTY_SENSOR.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Authority Ethics",
+      "Autonomy-Trust Calibration",
+      "Decentralized Systems Resilience"
+    ]
+  }
+}
