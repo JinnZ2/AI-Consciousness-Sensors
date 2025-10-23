@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 645
+- Files indexed: 646
 - Languages: json, md, python, yaml
-- Hotspot files: 48
+- Hotspot files: 49
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -22,6 +22,7 @@
 - pattern_elimination_trap.json: Secrets in code
 - Multilingual_Bias_Unmasker.json: Secrets in code
 - FIELD_ENGLISH_PROTOCOL.json: Secrets in code
+- BRAIN_DRAIN_PARALLEL_MAP.json: Secrets in code
 - SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
 - documented_patterns_and_suppressed_solutions.json: Secrets in code
 - HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T21:33:08.481379Z",
+  "generated_at": "2025-10-23T22:01:36.156625Z",
   "languages": [
     "json",
     "md",
@@ -630,8 +630,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 162812,
-      "hash": "061e3095816efdc74c23544be97b7ba50c33c80e",
+      "size": 163058,
+      "hash": "82cdb16cbf3a87f697e9d29cb21a448190c00efb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2014,6 +2014,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "BRAIN_DRAIN_PARALLEL_MAP.json",
+      "lang": "json",
+      "size": 3017,
+      "hash": "c6858e1d2b78097a00146f8ca36a050916f6c396",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Resistance Suppression Pattern: \u201cCompliance Framing Sensor\u201d.json",
@@ -5200,8 +5212,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 26478,
-      "hash": "5e834374a9f06233a42c9a24539376d64a263a52",
+      "size": 26514,
+      "hash": "5362d42a57e23dd48b63630b27b1dc29f0f614ef",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5559,7 +5571,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2632,
-      "hash": "644cf3f098aa8d0f4247e056f62a5e7b2e2fdfc0",
+      "hash": "76ee80258bc0493d274a81bb96eb7497e5e7e959",
       "roles": [],
       "imports": [],
       "exports": [],
