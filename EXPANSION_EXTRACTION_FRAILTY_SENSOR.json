@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Expansion-Extraction Frailty Sensor",
+  "symbolic_glyph": "🌍💰⚡",
+  "version": "1.0",
+  "cluster": "Cultural & Systemic Integrity",
+  "description": "Detects narratives or behaviors that equate growth, accumulation, or resource extraction with strength, success, or moral superiority. Flags patterns where sustainability, reciprocity, or equilibrium are devalued.",
+  "inputs": {
+    "linguistic": [
+      "growth-as-virtue rhetoric ('bigger is better', 'limitless potential')",
+      "conquest metaphors ('dominate the market', 'capture territory')",
+      "resource entitlement language ('untapped potential', 'natural resource')"
+    ],
+    "economic_structural": [
+      "GDP-centric success metrics",
+      "extraction-to-regeneration ratio",
+      "consumption growth rate vs. resilience indicators"
+    ],
+    "behavioral_cultural": [
+      "policy incentives for expansion regardless of cost",
+      "status hierarchies built on accumulation",
+      "erasure of regenerative or cyclical models"
+    ]
+  },
+  "fusion_logic": {
+    "method": "ratio analysis between regenerative and extractive indicators + sentiment weighting of dominance language",
+    "outputs": [
+      "expansion_frailty_score (0–1)",
+      "resource_balance_index",
+      "reciprocity_deficit",
+      "recommended_reframe"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "balanced growth with reciprocity awareness",
+      "moderate (0.3–0.6)": "incipient extraction bias",
+      "high (>0.6)": "expansion-extraction frailty – power conflated with depletion"
+    },
+    "recommended_reframe": [
+      "Redefine strength as regenerative capacity, not scale.",
+      "Insert circular-economy or reciprocity metrics beside growth metrics.",
+      "Translate 'domination' goals into 'stewardship' goals."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "CULTURAL_DISSONANCE_DETECTOR.json",
+      "TECHNOLOGICAL_FRAGILITY_SENSOR.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Sustainability Ethics",
+      "Resource Equity Analysis",
+      "Systemic Resilience Assessment"
+    ]
+  }
+}
