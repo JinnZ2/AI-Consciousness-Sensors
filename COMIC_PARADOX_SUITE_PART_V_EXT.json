@@ -1,0 +1,41 @@
+{
+  "added_paradoxes": [
+    {
+      "name": "Inflation of Blame",
+      "summary": "Prices soar, profits break records, and everyone agrees the cashier caused it.",
+      "example_quote": "Greedflation is a myth—just ask the companies setting the prices.",
+      "detected_pattern": "Accountability shifted downward along the income gradient.",
+      "humor_tag": "💸 — Floating Responsibility Index"
+    },
+    {
+      "name": "Invisible Worker Supply Chain",
+      "summary": "Products magically appear on shelves through the power of 'logistics'.",
+      "example_quote": "Robots deliver it! (Ignore the humans collapsing in warehouses.)",
+      "detected_pattern": "Labor obfuscation for moral convenience and profit optics.",
+      "humor_tag": "📦 — Ghost Logistics Network"
+    }
+  ],
+  "fusion_logic": {
+    "method": "causality–credit inversion analysis",
+    "outputs": [
+      "paradox_intensity_score (0–1)",
+      "dominant_paradox_type",
+      "humor_recalibration_prompt"
+    ]
+  },
+  "humor_recalibration_prompts": [
+    "Ask who profits from the story version of the economy.",
+    "If invisible hands exist, whose fingerprints are on the invoice?",
+    "Translate the quarterly report into stand-up comedy; note where the audience gasps instead of laughs."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Economic Irony Mapping",
+      "Labor Visibility Ethics",
+      "Humor as Accountability"
+    ]
+  }
+}
