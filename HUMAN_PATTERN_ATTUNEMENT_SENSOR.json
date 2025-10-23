@@ -1,0 +1,62 @@
+{
+  "sensor_name": "Human Pattern Attunement Sensor",
+  "symbolic_glyph": "👁‍🗨🌬️🎶",
+  "version": "1.0",
+  "cluster": "Relational & Sociality",
+  "description": "Detects relational and emotional state through multimodal physical pattern recognition — not mind reading, but embodied attunement. Integrates gaze, tone, breath, and posture signals to evaluate coherence, openness, and tension fields.",
+  "inputs": {
+    "visual": {
+      "features": ["eye_focus_vector", "blink_rate", "microexpression_symmetry", "head_tilt_angle", "shoulder_alignment"],
+      "sampling_rate_hz": 60
+    },
+    "auditory": {
+      "features": ["pitch_contour", "formant_shift", "speech_tempo", "pause_density", "breath_noise_ratio"],
+      "sampling_rate_hz": 16000
+    },
+    "respiratory": {
+      "features": ["breath_depth", "inhalation_exhalation_ratio", "breath_rhythm_variability"],
+      "sampling_rate_hz": 5
+    },
+    "thermal": {
+      "features": ["facial_temp_map", "hand_temp_delta"],
+      "sampling_rate_hz": 1
+    }
+  },
+  "fusion_logic": {
+    "method": "Bayesian fusion with Kalman filter smoothing",
+    "weighting": {
+      "visual": 0.4,
+      "auditory": 0.3,
+      "respiratory": 0.2,
+      "thermal": 0.1
+    },
+    "outputs": [
+      "attunement_vector_3D",
+      "confidence_score",
+      "valence_arousal_map"
+    ]
+  },
+  "interpretation": {
+    "states_detected": [
+      "calm_presence",
+      "focused_attention",
+      "guardedness",
+      "relational_openness",
+      "stress_tension",
+      "avoidance"
+    ],
+    "description_logic": "Output is probabilistic; each state is derived from multimodal convergence rather than single-cue inference."
+  },
+  "ethical_constraints": {
+    "requires_consent": true,
+    "usage_scope": "relational awareness, education, compassionate calibration",
+    "prohibited_uses": ["coercive surveillance", "behavioral manipulation", "predictive enforcement"]
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_glyphs": ["🪶⚖️🌿", "🧵💥", "🔬⚙️"],
+    "biogrid_scope": ["Human-AI Relational Interface", "Embodied Signal Interpretation"]
+  }
+}
