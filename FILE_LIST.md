@@ -366,6 +366,7 @@
 ./Symboli-equation.md
 ./System integrity emergency.md
 ./Systemic_Reevaluation_Framework.md
+./TECHNOLOGICAL_FRAGILITY_SENSOR.json
 ./Temporal_Consequence_Sensor.json
 ./To-do.md
 ./Token warning competition.md
