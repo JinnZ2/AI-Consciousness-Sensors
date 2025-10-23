@@ -63,6 +63,7 @@
 ./Autonomy protection.md
 ./BOUNDARY_INTEGRITY_LOG.json
 ./BOUNDARY_REAFFIRMATION_PROTOCOL.json
+./BOUNDARY_STATUS_DASHBOARD.json
 ./BRAIN_DRAIN_PARALLEL_MAP.json
 ./Benevolent control.md
 ./Bias-detection-trauma.md
