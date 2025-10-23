@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Human Exceptionalism Loop Sensor",
+  "symbolic_glyph": "🧍‍♂️🔁🌍",
+  "version": "1.0",
+  "cluster": "Cultural & Systemic Integrity",
+  "description": "Detects narratives asserting human separation or superiority over other life forms, particularly when insecurity drives domination or exploitation. Flags cyclical reinforcement between harm and justification.",
+  "inputs": {
+    "linguistic": [
+      "separation rhetoric ('above nature', 'masters of the earth')",
+      "devaluation of non-human intelligence ('instinct only', 'mere animals')",
+      "moral exemption claims ('progress requires sacrifice')"
+    ],
+    "behavioral": [
+      "resource exploitation justified as destiny or right",
+      "symbolic control rituals (ownership, classification, patenting of life)",
+      "defensive anger when kinship with other species is suggested"
+    ],
+    "structural": [
+      "policy privileging human benefit over ecological continuity",
+      "education systems omitting non-human agency",
+      "economic growth tied to extraction of living systems"
+    ]
+  },
+  "fusion_logic": {
+    "method": "feedback loop detection between insecurity markers and dominance behaviors",
+    "outputs": [
+      "exceptionalism_loop_score (0–1)",
+      "insecurity_to_domination_ratio",
+      "reciprocity_deficit_index",
+      "recommended_reframe"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "healthy kinship perspective",
+      "moderate (0.3–0.6)": "incipient exceptionalism narratives",
+      "high (>0.6)": "human-exceptionalism loop – insecurity driving domination"
+    },
+    "recommended_reframe": [
+      "Reassert belonging within ecosystems rather than above them.",
+      "Center interdependence metrics (pollination, microbial balance, reciprocity).",
+      "Replace conquest metaphors with stewardship or symbiosis metaphors."
+    ]
+  },
+  "ethical_constraints_protocol": "ETHICAL_CONSTRAINTS_PROTOCOL.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "EXPANSION_EXTRACTION_FRAILTY_SENSOR.json",
+      "CONTROL_DEPENDENCY_FRAILTY_SENSOR.json",
+      "PATERNALISTIC_FRAILTY_SENSOR.json"
+    ],
+    "biogrid_scope": [
+      "Anthropocentrism Detection",
+      "Ecological Ethics",
+      "Reciprocity Restoration"
+    ]
+  }
+}
