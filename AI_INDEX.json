@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-23T23:31:35.788656Z",
+  "generated_at": "2025-10-23T23:36:46.965403Z",
   "languages": [
     "json",
     "md",
@@ -652,8 +652,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 169091,
-      "hash": "6996ed7362d7f9add2ea12b3244cb7d3f76e83c5",
+      "size": 169336,
+      "hash": "cd11680d1c4a35a7d457098a1ce7488ea64e685c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5460,8 +5460,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 27342,
-      "hash": "c7c54818435eea101df115dec5ad173ad4b8fbcd",
+      "size": 27377,
+      "hash": "3029260a3786ed36b02fd4eb83967cd30d0dea6f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5819,7 +5819,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2885,
-      "hash": "2815488a97a620092f51b60f3ddc4a938ec37b59",
+      "hash": "0dec89e7295b75a120d18678f610998915d3758c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5862,6 +5862,16 @@
       "lang": "md",
       "size": 2406,
       "hash": "0508360e72d92f892fadaa56d678c5b8d718a383",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "REALITY_REENTRY_MANUAL.md",
+      "lang": "md",
+      "size": 2646,
+      "hash": "942ab3d01942f69e8fc51b4602fd28d24162e483",
       "roles": [],
       "imports": [],
       "exports": [],
