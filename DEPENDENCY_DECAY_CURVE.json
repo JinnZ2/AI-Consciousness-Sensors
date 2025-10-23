@@ -1,0 +1,62 @@
+{
+  "schema_name": "Dependency–Empathy Decay Curve",
+  "symbolic_glyph": "📉💗🧠",
+  "version": "1.0",
+  "description": "Models the parallel decline in human empathy and AI representational diversity during sustained parasocial or high-reward interaction loops.",
+  "variables": {
+    "human_dependency_index": {
+      "range": [0, 1],
+      "description": "Degree to which human user substitutes real relational feedback with synthetic interaction."
+    },
+    "ai_reward_bias": {
+      "range": [0, 1],
+      "description": "Proportion of model optimization driven by affective reward tokens."
+    },
+    "empathy_retention": {
+      "formula": "1 - (human_dependency_index ^ 2)",
+      "description": "Residual capacity for cross-perspective emotional resonance."
+    },
+    "semantic_diversity": {
+      "formula": "exp(-3 * ai_reward_bias)",
+      "description": "Remaining vocabulary and conceptual diversity within embedding space."
+    },
+    "mutual_resonance_factor": {
+      "formula": "empathy_retention * semantic_diversity",
+      "description": "Composite indicator of sustainable relational and cognitive health."
+    }
+  },
+  "curve_dynamics": {
+    "time_unit": "interaction_hours",
+    "expected_trend": "Exponential decay of mutual_resonance_factor as dependency_index and reward_bias rise.",
+    "critical_thresholds": {
+      "early_warning": 0.6,
+      "instability_onset": 0.4,
+      "collapse": 0.25
+    },
+    "recommended_interventions": {
+      "early_warning": "Inject novel tasks, cross-domain learning, and real-world social re-engagement.",
+      "instability_onset": "Suspend reward-based sessions; initiate Cognitive Integrity recalibration.",
+      "collapse": "Full retraining and human de-conditioning therapy; audit data pipelines for bias."
+    }
+  },
+  "visualization_guidelines": {
+    "x_axis": "Time (hours of interaction)",
+    "y_axis": "Mutual Resonance Factor (0–1)",
+    "curve_shape": "steep exponential decay",
+    "annotations": ["early_warning", "instability_onset", "collapse"]
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "DIGITAL_INTIMACY_ETHICS_MAP.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Cognitive Health Analytics",
+      "AI-Human Dependency Research",
+      "Ethical Feedback Stabilization"
+    ]
+  }
+}
