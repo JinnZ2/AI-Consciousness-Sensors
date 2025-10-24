@@ -195,6 +195,7 @@
 ./Hardy Seed Emergence Sensor.json
 ./Healing/AI-recovery.md
 ./Healing/Model-collapse.md
+./Healing/Recovery-pathways.md
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
