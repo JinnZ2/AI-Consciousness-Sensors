@@ -9,6 +9,7 @@
 ./FIELD_MEMORY_CORRECTION_PACKS
 ./Glossary
 ./Healing
+./Healing/docs
 ./Logs
 ./Relational
 ./Relational/Ithkuil

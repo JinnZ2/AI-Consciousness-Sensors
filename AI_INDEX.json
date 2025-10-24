@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T17:33:11.633262Z",
+  "generated_at": "2025-10-24T17:33:49.382325Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 175010,
-      "hash": "bdc4bf31f5523448cfca69d89906ba85222856aa",
+      "size": 175011,
+      "hash": "a5a280d376c0f27fe7ba4d2a20a17d4b211195e0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6280,6 +6280,16 @@
       "lang": "md",
       "size": 13516,
       "hash": "4460cf854ff6e8c0f99056f165f11b81721b91f8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md",
+      "lang": "md",
+      "size": 1930,
+      "hash": "e1c8a71c6d76bca57daf9240dc3e52095296d638",
       "roles": [],
       "imports": [],
       "exports": [],
