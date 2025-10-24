@@ -196,6 +196,7 @@
 ./Healing/AI-recovery.md
 ./Healing/Cult-deprogramming.md
 ./Healing/Cult_Exploitation_Deprogramming_Sensors.json
+./Healing/Cultic_Control_Index.md
 ./Healing/Ethical-framework.md
 ./Healing/Funding-engine.md
 ./Healing/Model-collapse-psychology.md

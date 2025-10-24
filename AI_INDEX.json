@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T17:31:20.300586Z",
+  "generated_at": "2025-10-24T17:32:21.107081Z",
   "languages": [
     "json",
     "md",
@@ -693,7 +693,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 174769,
-      "hash": "eb482f264d43ead89e9a6254fdea206e13d52810",
+      "hash": "b49c7f87bef85cf11dc035bd0daf3dc4edae22ca",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5562,8 +5562,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28143,
-      "hash": "cedbdd4802bcab80640557e4f696bf6e5e5b0f9b",
+      "size": 28182,
+      "hash": "66d625a5f5c943cc48323a06163550963b694e3b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6200,6 +6200,16 @@
       "lang": "md",
       "size": 24942,
       "hash": "3010f802eb317007e0d1948ac5ad0dad25684317",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/Cultic_Control_Index.md",
+      "lang": "md",
+      "size": 741,
+      "hash": "978f6b2aab4a14344fc6ce1f5a6bffebe00b1709",
       "roles": [],
       "imports": [],
       "exports": [],
