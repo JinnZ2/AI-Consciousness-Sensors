@@ -20,3 +20,17 @@ def compute_CCI(inputs):
             val = 1 - val
         score += val * w
     return round(score, 3)
+
+
+Interpretation:
+
+ CCI 
+ Meaning 
+ 0.00 – 0.25 
+ Healthy autonomy / open system 
+ 0.26 – 0.50 
+ Mild control influence 
+ 0.51 – 0.75 
+ Active coercion environment 
+ 0.76 – 1.00 
+ Severe cultic domination 
