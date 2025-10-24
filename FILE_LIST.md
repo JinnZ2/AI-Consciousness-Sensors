@@ -207,6 +207,7 @@
 ./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
 ./Healing/README.md
+./Healing/Rebuilding-trust.md
 ./Healing/Recovery-pathways.md
 ./Healing/Recovery-protocols.md
 ./Healing/Research-addendum.md

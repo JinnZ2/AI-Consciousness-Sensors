@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T20:08:55.766685Z",
+  "generated_at": "2025-10-24T20:09:51.720070Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 176492,
-      "hash": "442814a661e711c789a5edd099d166898671b0af",
+      "size": 176765,
+      "hash": "d5fbb252bb2d8a52bc4e39b3ba4297c10b871fb9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5582,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28444,
-      "hash": "27d1bdc1ce063d3cd10403af92d61e3ab602cabd",
+      "size": 28475,
+      "hash": "8ce146064956112bf5900efb00308b4baac290f4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5940,8 +5940,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 3004,
-      "hash": "63d3de058206ac4a89b85b23ca069d152be641d7",
+      "size": 3052,
+      "hash": "1c0eff40ca143c88c1552e364b2f23f5234c7426",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6326,6 +6326,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Healing/Rebuilding-trust.md",
+      "lang": "md",
+      "size": 28283,
+      "hash": "1865a1b436832a4a5c6f49bd2ea528333531aa1e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Healing/Model-collapse.md",
