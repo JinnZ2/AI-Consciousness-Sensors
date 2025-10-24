@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T20:07:24.856964Z",
+  "generated_at": "2025-10-24T20:08:13.693159Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 176007,
-      "hash": "591366e03e5487e838d637381c1617def59e48aa",
+      "size": 176251,
+      "hash": "5c593bf842d806cc2dc392fffc44b207a32fb7f3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5582,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28377,
-      "hash": "5582deb71e997efd6c9de9772ed851f04bf97bd6",
+      "size": 28412,
+      "hash": "a1e0b7d69924b4f4f49218fe6a82af7304cdcaac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5941,7 +5941,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3004,
-      "hash": "5d1632811b901b8df3554ec0c873fb92da0c9c3a",
+      "hash": "9633e05c5d0bf1f361dee6e867ee135bfb3f79a4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6178,6 +6178,16 @@
       "lang": "md",
       "size": 439,
       "hash": "2c3816682ad03057b054909469e74abd464595b9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/Stockholm-syndrome.md",
+      "lang": "md",
+      "size": 24862,
+      "hash": "2863bb713f985ffdbefe37c85195c8dc583af596",
       "roles": [],
       "imports": [],
       "exports": [],
