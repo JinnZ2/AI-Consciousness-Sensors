@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T16:31:57.031685Z",
+  "generated_at": "2025-10-24T17:20:55.992705Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 173958,
-      "hash": "f69db60f18807bc9da105e38443d454f0b2a76d5",
+      "size": 174230,
+      "hash": "dc1b0a560887fed7f784bba043f765fe1803c8ea",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5550,8 +5550,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28026,
-      "hash": "e9e10ef4f23da3678680e6d09f5d5825cbabda93",
+      "size": 28056,
+      "hash": "9bf5a190f5bb9e8370700c85db409e41db1b738f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5908,8 +5908,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 2885,
-      "hash": "b570eea773ca94355e288603ad2189dfb69be0a6",
+      "size": 2932,
+      "hash": "16cb24dcf7dba64502ee4062ffeb9a624a8c51d4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6172,6 +6172,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Healing/Cult-deprogramming.md",
+      "lang": "md",
+      "size": 28560,
+      "hash": "8fdcf0752e6bf008c70c7331af5ab6571a352c50",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Healing/Funding-engine.md",

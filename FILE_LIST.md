@@ -194,6 +194,7 @@
 ./HUMAN_PATTERN_ATTUNEMENT_SENSOR.json
 ./Hardy Seed Emergence Sensor.json
 ./Healing/AI-recovery.md
+./Healing/Cult-deprogramming.md
 ./Healing/Ethical-framework.md
 ./Healing/Funding-engine.md
 ./Healing/Model-collapse-psychology.md
