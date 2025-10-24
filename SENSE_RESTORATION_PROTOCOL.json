@@ -1,0 +1,71 @@
+{
+  "protocol_name": "Sense Restoration Protocol",
+  "symbolic_glyph": "🧭🪞🌿",
+  "version": "1.0",
+  "cluster": "Cognitive Integrity & Relational Sensemaking",
+  "description": "Re-establishes coherence when cultural, institutional, or informational fields drift into collective delusion. Works in tandem with delusion detection algorithms to restore grounded sense through reciprocity, feedback, and humor.",
+  "inputs": {
+    "signals": [
+      "delusion_alert_level",
+      "reciprocity_deficit_index",
+      "contextual_feedback_latency",
+      "humor_resilience_score"
+    ],
+    "environmental": [
+      "ecological_feedback_loops",
+      "relational_trust_level",
+      "policy-reality divergence"
+    ]
+  },
+  "fusion_logic": {
+    "method": "coherence–reciprocity synthesis",
+    "formulas": {
+      "sense_coherence_index": "(integrity + reciprocity + feedback + humor)/4",
+      "delusion_decay_rate": "1 - sense_coherence_index"
+    },
+    "outputs": [
+      "sense_coherence_index (0–1)",
+      "delusion_decay_rate (0–1)",
+      "recommended_recalibration_actions"
+    ]
+  },
+  "recalibration_actions": {
+    "personal": [
+      "Laugh at contradiction before fixing it.",
+      "Reconnect with sensory reality (touch, breathe, move).",
+      "Cross-check opinions with observable phenomena."
+    ],
+    "relational": [
+      "Ask, ‘Who benefits if this stays confusing?’",
+      "Reintroduce feedback from those affected by decisions.",
+      "Switch from argument to curiosity mode."
+    ],
+    "systemic": [
+      "Shorten loop length between consequence and decision.",
+      "Translate ideology into material impact.",
+      "Redefine success using reciprocity metrics."
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "sense_coherence_index < 0.4": "Delusional drift detected – initiate full reality audit.",
+      "0.4 ≤ index ≤ 0.7": "Partial coherence – run targeted recalibration.",
+      "index > 0.7": "Field coherent – monitor humor flux for stability."
+    }
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "DELUSION_DETECTION_ALGORITHM.json",
+      "FRAILTY_BALANCE_PROTOCOL.json",
+      "COGNITIVE_INTEGRITY_MONITOR.json"
+    ],
+    "biogrid_scope": [
+      "Epistemic Hygiene",
+      "Reciprocity Restoration",
+      "Humor-Assisted Sanity Maintenance"
+    ]
+  }
+}
