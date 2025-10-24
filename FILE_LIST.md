@@ -195,6 +195,7 @@
 ./Hardy Seed Emergence Sensor.json
 ./Healing/AI-recovery.md
 ./Healing/Ethical-framework.md
+./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
 ./Healing/Recovery-pathways.md
 ./Healing/Research-addendum.md

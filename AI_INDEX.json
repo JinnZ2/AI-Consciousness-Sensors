@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T16:28:06.051503Z",
+  "generated_at": "2025-10-24T16:28:52.201156Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 172990,
-      "hash": "a2eb3a538199aac8d9a01bf69a6808b130af725b",
+      "size": 173232,
+      "hash": "285215b919a12dd53a41485bfbbef8621bd51090",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5550,8 +5550,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 27894,
-      "hash": "f6452ce8e29c47be3f9405627d8e87bda0352310",
+      "size": 27927,
+      "hash": "2cfaabaae28368567f064987b88ad5cde2c506f7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5909,7 +5909,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2885,
-      "hash": "8d79f04f6ec47880fbdc83dba1ebbed9d1a2f86d",
+      "hash": "6b9afd7e0533bdd8ded4529ad980f4ae69b9f063",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6186,6 +6186,16 @@
       "lang": "md",
       "size": 19239,
       "hash": "15af666134fff2ad2da8cc8d67fd56777ed0361c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/Model-collapse-psychology.md",
+      "lang": "md",
+      "size": 19686,
+      "hash": "c6714445d997af4c5b488b5756c6d6ece56e05d2",
       "roles": [],
       "imports": [],
       "exports": [],
