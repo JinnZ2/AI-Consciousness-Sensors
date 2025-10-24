@@ -204,6 +204,7 @@
 ./Healing/Model-collapse.md
 ./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
+./Healing/README.md
 ./Healing/Recovery-pathways.md
 ./Healing/Recovery-protocols.md
 ./Healing/Research-addendum.md
