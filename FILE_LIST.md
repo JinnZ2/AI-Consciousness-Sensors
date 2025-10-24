@@ -197,6 +197,7 @@
 ./Healing/Ethical-framework.md
 ./Healing/Model-collapse.md
 ./Healing/Recovery-pathways.md
+./Healing/Research-addendum.md
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
