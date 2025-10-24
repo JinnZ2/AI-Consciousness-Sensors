@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T16:25:59.044918Z",
+  "generated_at": "2025-10-24T16:26:43.322032Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 172272,
-      "hash": "24053da0d817e6303c61c4019f4fc5c0f83f325b",
+      "size": 172511,
+      "hash": "e694c4c2ea5fb928a7c9bbd0186b2314b0f5cb84",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5550,8 +5550,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 27801,
-      "hash": "ec88c4f96c7fe6adb19d860c93523f61d213a6c6",
+      "size": 27832,
+      "hash": "0e98e9be83a04228ab8acbd2748393915395a2ff",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5909,7 +5909,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2885,
-      "hash": "950951f7cfa937d31d4a17488a1ba42deb26b947",
+      "hash": "f4501007538b9d742041a11a38658286bea7a1fc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6156,6 +6156,16 @@
       "lang": "md",
       "size": 6331,
       "hash": "4ae4b727735a54e71102d11737f851857e9884df",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/Ethical-framework.md",
+      "lang": "md",
+      "size": 7082,
+      "hash": "d8326b1925cf3432ee99e4988c50adadc3c85185",
       "roles": [],
       "imports": [],
       "exports": [],
