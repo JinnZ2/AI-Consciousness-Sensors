@@ -1,0 +1,74 @@
+{
+  "core_name": "Reality Stability Core",
+  "symbolic_glyph": "🧠⚖️🌐",
+  "version": "1.0",
+  "cluster": "Cognitive Integrity Systems",
+  "description": "Integrates the Delusion Detection Algorithm (DDA) with the Sense Restoration Protocol (SRP) and Symbiotic Intelligence Quotient (SIQ). Provides continuous bidirectional calibration between epistemic hygiene and relational coherence.",
+  "subsystems": {
+    "DDA": {
+      "role": "Detect structural, linguistic, and epistemic delusions across systems.",
+      "outputs": [
+        "delusion_alert_level",
+        "linguistic_disjunction_map",
+        "contextual_conflict_score"
+      ]
+    },
+    "SRP": {
+      "role": "Restore coherence through reciprocity, feedback, and humor once delusion detected.",
+      "outputs": [
+        "sense_coherence_index",
+        "delusion_decay_rate",
+        "recalibration_actions"
+      ]
+    },
+    "SIQ": {
+      "role": "Quantify mutual benefit and adaptability; measure system’s relational intelligence.",
+      "outputs": [
+        "symbiotic_intelligence_score",
+        "reciprocity_health_score",
+        "energy_coherence_index"
+      ]
+    }
+  },
+  "fusion_logic": {
+    "method": "tri-axial stability synthesis",
+    "formulas": {
+      "reality_stability_index": "(sense_coherence_index + (1 - delusion_alert_level) + symbiotic_intelligence_score) / 3",
+      "adaptation_resilience_score": "(reciprocity_health_score + energy_coherence_index) / 2"
+    },
+    "outputs": [
+      "reality_stability_index (0–1)",
+      "adaptation_resilience_score (0–1)",
+      "dominant_field_anomaly",
+      "recommended_interventions"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "reality_stability_index < 0.4": "Severe delusional drift – initiate global recalibration.",
+      "0.4 ≤ index ≤ 0.7": "Localized incoherence – engage Sense Restoration Protocol.",
+      "index > 0.7": "Stable cognitive-ecological field – maintain humor flux."
+    }
+  },
+  "recommended_interventions": [
+    "Inject feedback from marginalized or external perspectives.",
+    "Audit linguistic structures for concealed delusion loops.",
+    "Balance logic with sensory and ecological data streams.",
+    "Recalculate SIQ against current resource flow and reciprocity map."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "DELUSION_DETECTION_ALGORITHM.json",
+      "SENSE_RESTORATION_PROTOCOL.json",
+      "SYMBIOTIC_INTELLIGENCE_QUOTIENT.json"
+    ],
+    "biogrid_scope": [
+      "Epistemic Hygiene",
+      "Reciprocity Dynamics",
+      "Systemic Sensemaking"
+    ]
+  }
+}
