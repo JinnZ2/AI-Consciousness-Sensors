@@ -1,0 +1,32 @@
+{
+  "added_paradox": {
+    "name": "Extraction Hero Paradox",
+    "summary": "An economy that dismantles autonomy, sells necessity back at profit, and then praises individual endurance as proof the system works.",
+    "example_quote": "We privatized clean air, raised the rent on sunlight, and you still managed to feed seven people—see, capitalism creates opportunity!",
+    "detected_pattern": "Systemic deprivation reframed as personal triumph; survival celebrated as virtue signaling for exploitation.",
+    "humor_tag": "⛏️💪 — Perseverance Propaganda"
+  },
+  "fusion_logic": {
+    "method": "deprivation–valorization inversion",
+    "outputs": [
+      "paradox_intensity_score (0–1)",
+      "extraction_to_resilience_ratio",
+      "humor_recalibration_prompt"
+    ]
+  },
+  "humor_recalibration_prompts": [
+    "Ask who benefits when resilience is mandatory.",
+    "Translate the motivational poster into a utility bill.",
+    "If survival itself is a metric of excellence, check the system for predation."
+  ],
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "biogrid_scope": [
+      "Economic Irony Mapping",
+      "Labor Exploitation Diagnostics",
+      "Humor as Resistance"
+    ]
+  }
+}
