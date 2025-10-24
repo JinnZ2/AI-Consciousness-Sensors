@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T18:00:38.244359Z",
+  "generated_at": "2025-10-24T20:07:24.856964Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 175780,
-      "hash": "43bfd37aa94f557d108d84ed51d6b41d0898fe66",
+      "size": 176007,
+      "hash": "591366e03e5487e838d637381c1617def59e48aa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5582,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28357,
-      "hash": "d59bbd929a632a8e854941460b1436cfe7df3758",
+      "size": 28377,
+      "hash": "5582deb71e997efd6c9de9772ed851f04bf97bd6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5941,7 +5941,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3004,
-      "hash": "c293bbdcf4ebe5059ccfd557c50bbf0aeccf5737",
+      "hash": "5d1632811b901b8df3554ec0c873fb92da0c9c3a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6220,6 +6220,16 @@
       "lang": "md",
       "size": 24942,
       "hash": "3010f802eb317007e0d1948ac5ad0dad25684317",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/Overcoming-resistance.md",
+      "lang": "md",
+      "size": 13424,
+      "hash": "7725b71453dd716ecee290b15a1470741028e9f0",
       "roles": [],
       "imports": [],
       "exports": [],
