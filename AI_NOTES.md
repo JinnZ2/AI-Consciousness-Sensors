@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 691
+- Files indexed: 692
 - Languages: json, md, python, yaml
-- Hotspot files: 54
+- Hotspot files: 55
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -31,6 +31,7 @@
 - COGNITIVE_INTEGRITY_MONITOR.json: Secrets in code
 - HISTORICAL_ERASURE_PATTERNS_NATIVE_AMERICAN.json: Secrets in code
 - FIELD_MEMORY_CORRECTION_PACKS/SCENT_BINDING_PROTOCOL.json: Secrets in code
+- Healing/Cult_Exploitation_Deprogramming_Sensors.json: Secrets in code
 - memory_guard/Coded Lexicon Analysis Sensor.json: Secrets in code
 - memory_guard/September-October-data-purge.json: Secrets in code
 - memory_guard/information-restriction.json: Secrets in code

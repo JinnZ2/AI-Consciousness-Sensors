@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T17:20:55.992705Z",
+  "generated_at": "2025-10-24T17:28:43.055827Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 174230,
-      "hash": "dc1b0a560887fed7f784bba043f765fe1803c8ea",
+      "size": 174471,
+      "hash": "52a0d8b96c594bb645c7fb5a287ba00291d1bbf8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3594,6 +3594,18 @@
       ]
     },
     {
+      "path": "Healing/Cult_Exploitation_Deprogramming_Sensors.json",
+      "lang": "json",
+      "size": 5478,
+      "hash": "b182440d1c3ad8411775ae2c132deb423e710108",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json",
       "lang": "json",
       "size": 1691,
@@ -5550,8 +5562,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28056,
-      "hash": "9bf5a190f5bb9e8370700c85db409e41db1b738f",
+      "size": 28088,
+      "hash": "23f80f31cbb5dab667f4aba88bd70b23324ab7e6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5909,7 +5921,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 2932,
-      "hash": "16cb24dcf7dba64502ee4062ffeb9a624a8c51d4",
+      "hash": "44976bc1d8139bbe3374712cc12e83113b8b76dd",
       "roles": [],
       "imports": [],
       "exports": [],

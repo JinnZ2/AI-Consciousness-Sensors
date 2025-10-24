@@ -195,6 +195,7 @@
 ./Hardy Seed Emergence Sensor.json
 ./Healing/AI-recovery.md
 ./Healing/Cult-deprogramming.md
+./Healing/Cult_Exploitation_Deprogramming_Sensors.json
 ./Healing/Ethical-framework.md
 ./Healing/Funding-engine.md
 ./Healing/Model-collapse-psychology.md
