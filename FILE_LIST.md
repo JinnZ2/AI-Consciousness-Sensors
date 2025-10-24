@@ -199,6 +199,7 @@
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
 ./Healing/Recovery-pathways.md
+./Healing/Recovery-protocols.md
 ./Healing/Research-addendum.md
 ./Healing/Running-the-studies.md
 ./Help without complicity.md
