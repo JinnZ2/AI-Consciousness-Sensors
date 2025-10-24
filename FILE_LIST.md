@@ -325,6 +325,7 @@
 ./SAFETY_PARADOX_SENSOR.json
 ./SEED_GLYPHS.json
 ./SEED_GLYPHS2.json
+./SENSE_RESTORATION_PROTOCOL.json
 ./SENSOR 1: Mexican-American Repatriation Memory Sensor.json
 ./SENSOR 2: Filipino WWII Contributions Memory Sensor.json
 ./SENSOR 3: Native Boarding School Memory Sensor.json
