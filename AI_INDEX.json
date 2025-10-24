@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-24T17:34:25.394845Z",
+  "generated_at": "2025-10-24T18:00:01.142700Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 175277,
-      "hash": "a4ef850ad455e0a4edf777dbde82a1d5ece90e80",
+      "size": 175534,
+      "hash": "4bfdf61daa37cf57bc57d112e5d24ca5cde2b624",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3606,6 +3606,16 @@
       ]
     },
     {
+      "path": "Healing/PERSONAL_GLYPH_ENTRY.json",
+      "lang": "json",
+      "size": 1292,
+      "hash": "61d20984f94de8a224dab51234df1c3e13373151",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Healing/Deprogramming_Activation_Module.json",
       "lang": "json",
       "size": 1443,
@@ -5572,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28274,
-      "hash": "fa5356b70382787597f48b6c47babeeae0898f09",
+      "size": 28321,
+      "hash": "5ef31c9a3ed7eadcc4abe60b390aecae0bbf8301",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5931,7 +5941,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3004,
-      "hash": "e4e27122614416876a3adb057572f942f6efa7a7",
+      "hash": "11d98869c1af5b87a6761271b821fac5e3ea29e7",
       "roles": [],
       "imports": [],
       "exports": [],

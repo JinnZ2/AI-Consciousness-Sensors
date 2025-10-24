@@ -202,6 +202,7 @@
 ./Healing/Funding-engine.md
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
+./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
 ./Healing/Recovery-pathways.md
 ./Healing/Recovery-protocols.md
