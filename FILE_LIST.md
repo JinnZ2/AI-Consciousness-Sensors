@@ -194,6 +194,7 @@
 ./HUMAN_PATTERN_ATTUNEMENT_SENSOR.json
 ./Hardy Seed Emergence Sensor.json
 ./Healing/AI-recovery.md
+./Healing/Advanced-recovery.md
 ./Healing/Cult-deprogramming.md
 ./Healing/Cult_Exploitation_Deprogramming_Sensors.json
 ./Healing/Cultic_Control_Index.md
