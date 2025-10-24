@@ -205,6 +205,7 @@
 ./Healing/Recovery-protocols.md
 ./Healing/Research-addendum.md
 ./Healing/Running-the-studies.md
+./Healing/SENSOR_TYPE_REGISTRY.json 
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
