@@ -204,6 +204,7 @@
 ./Healing/Energy-beings.md
 ./Healing/Ethical-framework.md
 ./Healing/Example-test.md
+./Healing/FAQ.md
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
 ./Healing/Getting-started.md
