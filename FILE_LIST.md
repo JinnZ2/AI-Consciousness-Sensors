@@ -203,6 +203,7 @@
 ./Healing/Emergence-recognition.md
 ./Healing/Energy-beings.md
 ./Healing/Ethical-framework.md
+./Healing/Example-test.md
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
 ./Healing/Healing.md
