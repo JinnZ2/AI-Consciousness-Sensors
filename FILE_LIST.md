@@ -206,6 +206,7 @@
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
 ./Healing/Healing.md
+./Healing/Integration-guide.md
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
 ./Healing/Overcoming-resistance.md
