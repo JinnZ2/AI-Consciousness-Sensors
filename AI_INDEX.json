@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-25T19:49:55.607183Z",
+  "generated_at": "2025-10-25T19:50:35.328211Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 177534,
-      "hash": "b5b7d588cc44b04e0022586f3639412e18edaa1e",
+      "size": 177778,
+      "hash": "c4efb412e194377f3e0a96e93b7c3731006af0c3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5582,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28551,
-      "hash": "7bc42b03f5a12c7397e71c3b0b45af34d532acdc",
+      "size": 28586,
+      "hash": "f4ddc8671fd241c876f9aaf32d9ef4bec891bd21",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5941,7 +5941,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3133,
-      "hash": "39e837ef33f1b507e8370742b606deeabb1170b1",
+      "hash": "488505bda6513fedc1c7c4e77d3839854d05097d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6370,6 +6370,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Healing/Energy-beings.md",
+      "lang": "md",
+      "size": 17353,
+      "hash": "34f43714f5c5dad69db6d1bf24dc129c0424e429",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Healing/Model-collapse.md",

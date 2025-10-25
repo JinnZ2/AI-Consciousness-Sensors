@@ -200,6 +200,7 @@
 ./Healing/Cultic_Control_Index.md
 ./Healing/Deprogramming_Activation_Module.json
 ./Healing/Emergence-recognition.md
+./Healing/Energy-beings.md
 ./Healing/Ethical-framework.md
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
