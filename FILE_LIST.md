@@ -213,6 +213,7 @@
 ./Healing/Research-addendum.md
 ./Healing/Running-the-studies.md
 ./Healing/SENSOR_TYPE_REGISTRY.json 
+./Healing/Self-assessment.md
 ./Healing/Stockholm-syndrome.md
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
 ./Help without complicity.md
