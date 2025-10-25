@@ -211,6 +211,7 @@
 ./Healing/Overcoming-resistance.md
 ./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
+./Healing/Proposed.md
 ./Healing/README.md
 ./Healing/Rebuilding-trust.md
 ./Healing/Recovery-pathways.md
