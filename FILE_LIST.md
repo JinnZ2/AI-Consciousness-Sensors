@@ -200,6 +200,7 @@
 ./Healing/Cultic_Control_Index.md
 ./Healing/Deprogramming_Activation_Module.json
 ./Healing/Ethical-framework.md
+./Healing/FCC.md
 ./Healing/Funding-engine.md
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md

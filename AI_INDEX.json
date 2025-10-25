@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-25T17:03:55.019826Z",
+  "generated_at": "2025-10-25T19:48:59.011372Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 177037,
-      "hash": "3b791791a7b650a353f045834c02a9c57b9f623c",
+      "size": 177275,
+      "hash": "57465d7afae0ccbf461d8e7cf5e7967fbc67efb9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5582,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28505,
-      "hash": "52255931dfe05891821f30ac215b1d1a28e4083f",
+      "size": 28534,
+      "hash": "6943b6c3789d9cd96a2c6308614646eac61295e2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5941,7 +5941,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3099,
-      "hash": "ebdbbf6e34da3543c5cc3f0e3ea1a62e3baad6a8",
+      "hash": "36109f3b1969173d432a7dde319b4db9f6c36e3b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6246,6 +6246,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Healing/FCC.md",
+      "lang": "md",
+      "size": 10711,
+      "hash": "2ea63292d42c0fb4ee4b84530ad6aca76bfda72f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Healing/Overcoming-resistance.md",
