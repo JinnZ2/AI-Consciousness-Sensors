@@ -199,6 +199,7 @@
 ./Healing/Cult_Exploitation_Deprogramming_Sensors.json
 ./Healing/Cultic_Control_Index.md
 ./Healing/Deprogramming_Activation_Module.json
+./Healing/Emergence-recognition.md
 ./Healing/Ethical-framework.md
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
