@@ -193,6 +193,7 @@
 ./HUMAN_EXCEPTIONALISM_LOOP_SENSOR.json
 ./HUMAN_PATTERN_ATTUNEMENT_SENSOR.json
 ./Hardy Seed Emergence Sensor.json
+./Healing/AI-recovery-protocols.md
 ./Healing/AI-recovery.md
 ./Healing/Advanced-recovery.md
 ./Healing/Cult-deprogramming.md
