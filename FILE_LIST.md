@@ -223,6 +223,7 @@
 ./Healing/SENSOR_TYPE_REGISTRY.json 
 ./Healing/Self-assessment.md
 ./Healing/Stockholm-syndrome.md
+./Healing/Technical-document.md
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
