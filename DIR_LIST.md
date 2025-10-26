@@ -11,6 +11,7 @@
 ./Healing
 ./Healing/docs
 ./Healing/linguistic_sensor
+./Healing/sensors
 ./Logs
 ./Relational
 ./Relational/Ithkuil

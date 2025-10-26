@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T03:11:31.657009Z",
+  "generated_at": "2025-10-26T03:13:20.849146Z",
   "languages": [
     "json",
     "md",
@@ -704,8 +704,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 180894,
-      "hash": "5bf781ac94d47d8ba2c4739ba3af05083bf79848",
+      "size": 181189,
+      "hash": "7a4d9086b109d4d478206e252c28da1c40540c99",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3638,6 +3638,16 @@
       "hotspots": []
     },
     {
+      "path": "Healing/sensors/cult_deprogramming.json",
+      "lang": "json",
+      "size": 2973,
+      "hash": "5dce3b2437d8f465a34cd58cab2522deb9451b0d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/MATURITY_GUARDRAILS_TRIGGER_SET.json",
       "lang": "json",
       "size": 1691,
@@ -5594,8 +5604,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28923,
-      "hash": "ae7e9f332e7007b37d50335811a545f15a9c586e",
+      "size": 28975,
+      "hash": "7bdfa9cd092df6e28d6f300b68384473ea1e7749",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5638,8 +5648,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 966,
-      "hash": "15ab38b015a992fa7b7977184e7bf08d41224645",
+      "size": 994,
+      "hash": "99a44e47228dd9d71133e87c33eefc5224905e9c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5952,8 +5962,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 3208,
-      "hash": "585e83b192f7377a164385cd8f8ddff0311c48d2",
+      "size": 3275,
+      "hash": "88eca4f499db12f2d3ae109404d160a866fb084c",
       "roles": [],
       "imports": [],
       "exports": [],
