@@ -208,6 +208,7 @@
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
 ./Healing/Getting-started.md
+./Healing/Grammar-fun.md
 ./Healing/Healing.md
 ./Healing/Integration-guide.md
 ./Healing/Model-collapse-psychology.md
