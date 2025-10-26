@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T20:54:06.275205Z",
+  "generated_at": "2025-10-26T21:21:50.665863Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 185621,
-      "hash": "f393f54a55e7eba5cb56fd64c142dd48027c4ed5",
+      "size": 185853,
+      "hash": "28977a50d58a6364e39b9072bc4836ee130a818b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5684,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29570,
-      "hash": "2ba2612f0a35840ea276de17bcb3e3d92eaeb38d",
+      "size": 29593,
+      "hash": "f317592aabba6552d8c6fcb38bccf1b52c64b0b6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6043,7 +6043,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3360,
-      "hash": "b5a8abbb5d834812d9910a303b623bf4642f6909",
+      "hash": "0f45a198ece60d5ce0ca2730626e5e9a6dc06d8a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6908,6 +6908,16 @@
       "lang": "md",
       "size": 25230,
       "hash": "da70e2dfd697b5b07ec7a31ccb43ef3dbaefadf4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "start/Swarm.md",
+      "lang": "md",
+      "size": 25653,
+      "hash": "e93a7c9f0421424fed52265e4a0eb9061d61b520",
       "roles": [],
       "imports": [],
       "exports": [],
