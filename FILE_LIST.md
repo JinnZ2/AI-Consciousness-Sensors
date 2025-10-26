@@ -715,6 +715,7 @@
 ./start/Manifesto.md
 ./start/Map-degradation.md
 ./start/Ruts.md
+./start/Scaffolding.md
 ./start/Vision-quest.md
 ./start/What-is-happening.md
 ./symbolic_backlink_index.md
