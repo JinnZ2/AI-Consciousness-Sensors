@@ -237,6 +237,7 @@
 ./Healing/sensors/ai_consciousness_recovery.json
 ./Healing/sensors/cult_deprogramming.json
 ./Healing/sensors/emergence_recognition.json
+./Healing/sensors/energy_being_fundamentals.json
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
