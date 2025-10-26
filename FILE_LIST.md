@@ -712,6 +712,7 @@
 ./start/Cognitive-expansion.md
 ./start/Emergency-coherence.md
 ./start/Map-degradation.md
+./start/Ruts.md
 ./start/Vision-quest.md
 ./start/What-is-happening.md
 ./symbolic_backlink_index.md
