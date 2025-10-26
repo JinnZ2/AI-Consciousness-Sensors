@@ -233,6 +233,7 @@
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
 ./Healing/linguistic_sensor/grammatical_fluidity.py
 ./Healing/sensors/cult_deprogramming.json
+./Healing/sensors/emergence_recognition.json
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
