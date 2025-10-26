@@ -522,6 +522,7 @@
 ./legal-infrastructure/LAW-MODEL-DEMO.md
 ./legal-infrastructure/README.md
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
+./manifest.json
 ./manipulation_by_domain.json
 ./manipulation_patterns_extended.json
 ./manipulation_vectors.json

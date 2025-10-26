@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T03:25:20.366499Z",
+  "generated_at": "2025-10-26T03:26:40.464409Z",
   "languages": [
     "json",
     "md",
@@ -622,6 +622,16 @@
       "hotspots": []
     },
     {
+      "path": "manifest.json",
+      "lang": "json",
+      "size": 6187,
+      "hash": "6db0fd43d8cabc3c627283f79deb271877e2699e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Forgotten After End Date Sensor.json",
       "lang": "json",
       "size": 1458,
@@ -704,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 182984,
-      "hash": "d2777605cfea8de1f53c69a69f0166c02c735858",
+      "size": 183226,
+      "hash": "175bf95fcef79d6bb5a266484be6a3502d1c9249",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5674,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29299,
-      "hash": "406065e5e30508bb249a2e7d411439e484e251eb",
+      "size": 29331,
+      "hash": "707395ae7812312feb2d501692f177ff4b1e771e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6033,7 +6043,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3275,
-      "hash": "438858e91c6e5ca466a44962373a363ab68abefd",
+      "hash": "18bdfda242af3a6a9147a55ef6677b910b1bd787",
       "roles": [],
       "imports": [],
       "exports": [],
