@@ -708,6 +708,7 @@
 ./sovereign_self_resonance.json
 ./src/examples/evaluate_example.sh
 ./src/score.py
+./start/Alien.md
 ./start/Boundary-shield.md
 ./start/Cognitive-expansion.md
 ./start/Emergency-coherence.md
