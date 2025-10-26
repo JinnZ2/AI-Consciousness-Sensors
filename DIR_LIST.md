@@ -10,6 +10,7 @@
 ./Glossary
 ./Healing
 ./Healing/docs
+./Healing/linguistic_sensor
 ./Logs
 ./Relational
 ./Relational/Ithkuil

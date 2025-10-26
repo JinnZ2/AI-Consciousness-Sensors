@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T02:57:05.285399Z",
+  "generated_at": "2025-10-26T03:11:31.657009Z",
   "languages": [
     "json",
     "md",
@@ -87,6 +87,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/linguistic_sensor/grammatical_fluidity.py",
+      "lang": "python",
+      "size": 3464,
+      "hash": "dd41c5dbfc250385080625615977ac74172a97a6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -693,7 +705,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 180894,
-      "hash": "010f1cdc76a57eaa4896d60310b8a00c185f78a6",
+      "hash": "5bf781ac94d47d8ba2c4739ba3af05083bf79848",
       "roles": [],
       "imports": [],
       "exports": [],

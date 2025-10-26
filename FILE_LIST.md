@@ -231,6 +231,7 @@
 ./Healing/Studies.md
 ./Healing/Technical-document.md
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
+./Healing/linguistic_sensor/grammatical_fluidity.py
 ./Help without complicity.md
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
