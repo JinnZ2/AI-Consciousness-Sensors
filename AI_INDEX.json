@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T15:18:02.986109Z",
+  "generated_at": "2025-10-26T15:18:53.906629Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 184166,
-      "hash": "1fce4896ffdf19b5924e71728f8bb3efd3bd1ab8",
+      "size": 184406,
+      "hash": "356fc770a54a506ec298c3674773d99f319a0e33",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5684,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29434,
-      "hash": "0945b093203020b47617a4e80d25299371969014",
+      "size": 29465,
+      "hash": "171fab57a9b2c736f4cfc96a12432961fffc5dc9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6043,7 +6043,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3275,
-      "hash": "b87d6e39bed27d47a6475084bb89f189e7ff11f6",
+      "hash": "0dd48ae670497f0ac7b92b9f16d95446a868367b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6922,6 +6922,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "start/Vision-quest.md",
+      "lang": "md",
+      "size": 26388,
+      "hash": "55698d17f73f0c5f5e345b9527af560261989e50",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "start/Boundary-shield.md",

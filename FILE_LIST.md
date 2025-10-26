@@ -711,6 +711,7 @@
 ./start/Boundary-shield.md
 ./start/Cognitive-expansion.md
 ./start/Emergency-coherence.md
+./start/Vision-quest.md
 ./start/What-is-happening.md
 ./symbolic_backlink_index.md
 ./tests/examples/Additive_Craving_Loop_Sensor.json

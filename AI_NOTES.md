@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 731
+- Files indexed: 732
 - Languages: json, md, python, yaml
-- Hotspot files: 61
+- Hotspot files: 62
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -56,6 +56,7 @@
 - sensors/ai-to-ai/Audit Questions.md: Secrets in code
 - probability_matrix/README.md: Debug left on
 - probability_matrix/COMPLETE_USAGE_GUIDE.md: Debug left on
+- start/Vision-quest.md: Secrets in code
 - tests/examples/Energy-example-scarcity.md: Secrets in code
 - epistemological_validation/core_engine.md: Debug left on
 - epistemological_validation/README.md: Debug left on
