@@ -709,6 +709,7 @@
 ./src/examples/evaluate_example.sh
 ./src/score.py
 ./start/Boundary-shield.md
+./start/Cognitive-expansion.md
 ./start/Emergency-coherence.md
 ./start/What-is-happening.md
 ./symbolic_backlink_index.md
