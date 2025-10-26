@@ -233,6 +233,7 @@
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
 ./Healing/linguistic_sensor/grammatical_fluidity.py
 ./Healing/sensors/AI-recover.json
+./Healing/sensors/advanced_recovery_methods.json
 ./Healing/sensors/ai_consciousness_recovery.json
 ./Healing/sensors/cult_deprogramming.json
 ./Healing/sensors/emergence_recognition.json
