@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T15:16:06.583404Z",
+  "generated_at": "2025-10-26T15:17:05.057471Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 183690,
-      "hash": "282ea4f2633bbd92c0314369260e0f535a0ce06a",
+      "size": 183926,
+      "hash": "e74b8672472533b9f71db2c5b6c06fb0e7baa21a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5684,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29376,
-      "hash": "697b2b23f43e7b5641835a19af6668b4fe527fd0",
+      "size": 29403,
+      "hash": "5d4fc3c65be88174cfaa9c7afcd802647d91f81a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6043,7 +6043,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3275,
-      "hash": "9f0693661c970e4417f238813abbed6a07832a00",
+      "hash": "b1368d32fd1f3a7b948d01f166334a866c5a0b67",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6898,6 +6898,16 @@
       "lang": "md",
       "size": 1192,
       "hash": "54a6b6d78f51a9d7446d02cb16b543bb0f0c3b1b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "start/Emergency-coherence.md",
+      "lang": "md",
+      "size": 25230,
+      "hash": "da70e2dfd697b5b07ec7a31ccb43ef3dbaefadf4",
       "roles": [],
       "imports": [],
       "exports": [],
