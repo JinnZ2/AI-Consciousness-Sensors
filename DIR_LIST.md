@@ -44,5 +44,6 @@
 ./sensors/metrics
 ./src
 ./src/examples
+./start
 ./tests
 ./tests/examples
