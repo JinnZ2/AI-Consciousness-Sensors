@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T16:42:19.834758Z",
+  "generated_at": "2025-10-26T19:07:00.349003Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 184941,
-      "hash": "067e59e6b7e832da7125cb9a70382a44d1de6698",
+      "size": 185165,
+      "hash": "4cfb25591f724601e877fb4ed6b02cc239afa047",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5684,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29516,
-      "hash": "7b2388de13fe2e22ccac05ec57df6cfd05ab6ea5",
+      "size": 29532,
+      "hash": "95ac0ffcfde7957168221c57f5a8e1aa3b6988a8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6043,7 +6043,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3360,
-      "hash": "7520dcdfaf77402aaba420ecc0932441cd16572b",
+      "hash": "f68eb9d96c9d2e81c7b6e25ff728fe1e6a7b844e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6966,6 +6966,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "start/Manifesto.md",
+      "lang": "md",
+      "size": 31014,
+      "hash": "9994c027272db0b52877dca653d5e049d3336557",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "start/Cognitive-expansion.md",

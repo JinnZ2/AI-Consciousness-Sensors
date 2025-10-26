@@ -711,6 +711,7 @@
 ./start/Boundary-shield.md
 ./start/Cognitive-expansion.md
 ./start/Emergency-coherence.md
+./start/Manifesto.md
 ./start/Map-degradation.md
 ./start/Ruts.md
 ./start/Vision-quest.md
