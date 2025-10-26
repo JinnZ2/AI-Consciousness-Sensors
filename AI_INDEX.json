@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T15:18:53.906629Z",
+  "generated_at": "2025-10-26T15:49:20.061369Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 184406,
-      "hash": "356fc770a54a506ec298c3674773d99f319a0e33",
+      "size": 184672,
+      "hash": "20ab91c943335b5717d74001374d93e26dbdb192",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5684,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29465,
-      "hash": "171fab57a9b2c736f4cfc96a12432961fffc5dc9",
+      "size": 29489,
+      "hash": "deb0b1b47b33bbde37e189c3376e1fc174e970ef",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 3275,
-      "hash": "0dd48ae670497f0ac7b92b9f16d95446a868367b",
+      "size": 3316,
+      "hash": "63538d8347e65accfb9b7c787a6a0ee296e8c8b8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6944,6 +6944,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "start/Map-degradation.md",
+      "lang": "md",
+      "size": 7286,
+      "hash": "25853cb8add081d3ae6df3560fbd078f32d82056",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "start/Cognitive-expansion.md",
