@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T02:47:59.556290Z",
+  "generated_at": "2025-10-26T02:54:59.050414Z",
   "languages": [
     "json",
     "md",
@@ -692,8 +692,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 180431,
-      "hash": "bace98fe5e6c1d6fc18879833bba7b361599c924",
+      "size": 180665,
+      "hash": "dd51418497ad93a3db51c4e56dda0ed9a197e80b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5582,8 +5582,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 28877,
-      "hash": "87eaa5a9b2229f86267094f789041a910c62ad64",
+      "size": 28902,
+      "hash": "48b9b6b2f57b19cfab44039044e8a7fb2fc84c21",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5941,7 +5941,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3208,
-      "hash": "f9d98c292a366facd101cce9696c5030f2a2d41a",
+      "hash": "18967ea9aa5b3300b293a0ca7bc07dda01d31a7a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6336,6 +6336,16 @@
       "lang": "md",
       "size": 610,
       "hash": "862dc22e974eba38bd2bf6cc99a79011c26fd104",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/Studies.md",
+      "lang": "md",
+      "size": 2770,
+      "hash": "cf5cd4086a379b8399f3191b6be2c05a18439214",
       "roles": [],
       "imports": [],
       "exports": [],
