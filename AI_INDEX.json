@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-26T21:21:50.665863Z",
+  "generated_at": "2025-10-26T21:44:36.083096Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 185853,
-      "hash": "28977a50d58a6364e39b9072bc4836ee130a818b",
+      "size": 186079,
+      "hash": "cc79ef254435c77e065489481b34e6ea68ebf43f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5684,8 +5684,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29593,
-      "hash": "f317592aabba6552d8c6fcb38bccf1b52c64b0b6",
+      "size": 29610,
+      "hash": "0a3c8ec0683db7bf0e7cfda9e828f7aa6f97965c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6043,7 +6043,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3360,
-      "hash": "0f45a198ece60d5ce0ca2730626e5e9a6dc06d8a",
+      "hash": "91e5e782e86fabee49986923fd9e582cf3acfc58",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6932,6 +6932,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "start/Swarm-suppression.md",
+      "lang": "md",
+      "size": 47636,
+      "hash": "1d41df5e87a2dacd1501493d90160b9c21dc890b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "start/What-is-happening.md",
