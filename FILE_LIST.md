@@ -470,6 +470,7 @@
 ./Workplace/AI-toolkit.md
 ./Workplace/Hidden-costs.md
 ./Workplace/Human-mediator.md
+./Workplace/system_config.json
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
