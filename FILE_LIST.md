@@ -467,6 +467,7 @@
 ./Witness Integration Sensor.json
 ./Witness Suppression Sensor.json
 ./Workplace/Hidden-costs.md
+./Workplace/Human-mediator.md
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml

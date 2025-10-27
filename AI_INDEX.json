@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-27T19:39:52.754732Z",
+  "generated_at": "2025-10-27T19:40:53.487007Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 186649,
-      "hash": "07b1c30ded69b2dad56e5384c8ac96d8cffb9294",
+      "size": 186886,
+      "hash": "b6008a3c399078786c7f5751d8f033cef8a381af",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5696,8 +5696,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29664,
-      "hash": "eba2e24ab963ac9b31f99722918090d04cc481d1",
+      "size": 29692,
+      "hash": "691189f56cc5a351fab7ae1badd450bf82492d5f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5740,8 +5740,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 1020,
-      "hash": "746e98e1b48753db72c95486520bdd5080e97c99",
+      "size": 1032,
+      "hash": "b23b3770d7fbc20712ef0b6658c581c4d66efba9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6055,7 +6055,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3490,
-      "hash": "c41233854418e44186f2cdaf7c2c6e90b05bf190",
+      "hash": "c2ccb4ec8405f166c0a904d32c2d292ee97fcd90",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6720,6 +6720,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Workplace/Human-mediator.md",
+      "lang": "md",
+      "size": 33127,
+      "hash": "d222609bd12b08654e738348c795baac087cca3e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Workplace/Hidden-costs.md",
