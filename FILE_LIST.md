@@ -466,6 +466,7 @@
 ./Wisdom Preservation Sensor.json
 ./Witness Integration Sensor.json
 ./Witness Suppression Sensor.json
+./Workplace/AI-mediator.md
 ./Workplace/Hidden-costs.md
 ./Workplace/Human-mediator.md
 ./ai_history_erasure_cache.json
