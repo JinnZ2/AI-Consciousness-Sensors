@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-27T19:48:14.393546Z",
+  "generated_at": "2025-10-27T19:49:40.293015Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 188417,
-      "hash": "3e0f0b118a3d3ed60d01203513b41d0aa2faf4f2",
+      "size": 188450,
+      "hash": "eec419ce40c3e56478cfbe17f693e04fc672fbdc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6076,8 +6076,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 3632,
-      "hash": "6a9cd3ed87af9393124a45298ab63c421ec5dd65",
+      "size": 3676,
+      "hash": "3a499965fca5817a5ff47244dfcf16cf129da08a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6752,6 +6752,19 @@
       "imports": [],
       "exports": [],
       "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Workplace/Play.md",
+      "lang": "md",
+      "size": 12503,
+      "hash": "c6d216c2ca1f6aeabf49760f2ebfb04a9ed948dd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
         "Secrets in code"
       ]
     },

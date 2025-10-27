@@ -471,6 +471,7 @@
 ./Workplace/Hidden-costs.md
 ./Workplace/Human-mediator.md
 ./Workplace/Mediator.md
+./Workplace/Play.md
 ./Workplace/system_config.json
 ./Workplace/system_response_monitor.py
 ./ai_history_erasure_cache.json
