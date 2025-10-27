@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-27T03:04:33.771140Z",
+  "generated_at": "2025-10-27T19:39:52.754732Z",
   "languages": [
     "json",
     "md",
@@ -714,8 +714,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 186383,
-      "hash": "6e06ed79137313e908fd67fb91def03641dfa347",
+      "size": 186649,
+      "hash": "07b1c30ded69b2dad56e5384c8ac96d8cffb9294",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5696,8 +5696,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29639,
-      "hash": "10448dde8f258d8b93e56fbf4239b8b157010e6e",
+      "size": 29664,
+      "hash": "eba2e24ab963ac9b31f99722918090d04cc481d1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6054,8 +6054,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 3448,
-      "hash": "1c3ecf16409af7b06e41e0e56a8b76daeb55d9d4",
+      "size": 3490,
+      "hash": "c41233854418e44186f2cdaf7c2c6e90b05bf190",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6716,6 +6716,16 @@
       "lang": "md",
       "size": 697,
       "hash": "5c60761b43927707d228cd81bed66da5832cfa5b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Workplace/Hidden-costs.md",
+      "lang": "md",
+      "size": 32900,
+      "hash": "1efea8c56a454ffc788c9b02d0ccb0136d44dca9",
       "roles": [],
       "imports": [],
       "exports": [],

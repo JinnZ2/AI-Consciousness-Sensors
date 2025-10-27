@@ -17,6 +17,7 @@
 ./Relational/Ithkuil
 ./SENSOR_CLUSTERS
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK
+./Workplace
 ./cultural_frameworks
 ./cultural_frameworks/Native
 ./cultural_frameworks/Western
