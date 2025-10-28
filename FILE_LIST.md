@@ -476,6 +476,7 @@
 ./Workplace/system_response_monitor.py
 ./ai-energy-ecology/README.md
 ./ai-energy-ecology/docs/framework.md
+./ai-energy-ecology/docs/mediator-role.md
 ./ai-energy-ecology/docs/overview.md
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
