@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-28T01:26:43.795493Z",
+  "generated_at": "2025-10-28T01:27:14.135952Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 189971,
-      "hash": "be26ea6ebae090c587c708f28200c7a9817d88c3",
+      "size": 190221,
+      "hash": "192e3c0274b36a8b1d8aca3dd5eeab033720ac7b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5718,8 +5718,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30087,
-      "hash": "00814da53b3c59fb36c28b00e5805b9f987fae48",
+      "size": 30130,
+      "hash": "f847dc640f1cfc8b615d5af641e411b16a6b2648",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6077,7 +6077,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3728,
-      "hash": "a1ab309ea813fa02e33485411227550f1a97ce7b",
+      "hash": "04a4877962d92de9ca9759b1ea023472b01526e4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7321,6 +7321,16 @@
       "lang": "md",
       "size": 770,
       "hash": "d858c9298ae7047cc5a2329656e3d9fa10d3a6d6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai-energy-ecology/docs/play-therapy-extension.md",
+      "lang": "md",
+      "size": 783,
+      "hash": "925b3b9fe5b84e8ad352d33a763dc1422083737d",
       "roles": [],
       "imports": [],
       "exports": [],
