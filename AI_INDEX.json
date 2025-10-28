@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-28T01:24:21.939914Z",
+  "generated_at": "2025-10-28T01:24:58.232772Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 188975,
-      "hash": "143ce97c45b1cab63d07b6e4736e8c5424a36075",
+      "size": 189219,
+      "hash": "981532825a39de51f4f29ae9e213cceb360ac753",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5718,8 +5718,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 29919,
-      "hash": "38f737598d165235a56ede067d1281e2d7fa3bbb",
+      "size": 29956,
+      "hash": "d4d6beae69a0ed4118a1cbd0d621209444b3d09c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5762,8 +5762,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 1052,
-      "hash": "59ee4d5c4faac322bd4148334180e8969bc63d07",
+      "size": 1077,
+      "hash": "f9f2e0b7fdf24a638157c2022eb1332d2841b794",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6077,7 +6077,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3728,
-      "hash": "62150507e2401ccafb263792600f0dda3a52d4fc",
+      "hash": "d29e23c5a2cc159477397333e69160ebaafc6825",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7301,6 +7301,16 @@
       "lang": "md",
       "size": 1278,
       "hash": "39bd36e1e918bc12454be1d3d0b1a56da234c510",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai-energy-ecology/docs/framework.md",
+      "lang": "md",
+      "size": 964,
+      "hash": "7f5f8e8c5c2324ade98a07efadc19d3d2452043a",
       "roles": [],
       "imports": [],
       "exports": [],
