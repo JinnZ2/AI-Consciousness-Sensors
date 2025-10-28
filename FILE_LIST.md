@@ -468,6 +468,7 @@
 ./Witness Suppression Sensor.json
 ./Workplace/AI-mediator.md
 ./Workplace/AI-toolkit.md
+./Workplace/Healing-play.md
 ./Workplace/Hidden-costs.md
 ./Workplace/Human-mediator.md
 ./Workplace/Mediator.md

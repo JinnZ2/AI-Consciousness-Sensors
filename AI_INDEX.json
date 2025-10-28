@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-28T01:54:23.198015Z",
+  "generated_at": "2025-10-28T02:00:07.806268Z",
   "languages": [
     "json",
     "md",
@@ -727,7 +727,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 190723,
-      "hash": "30ede4cc5acb55b91f2b30f585291b5d7bb61a00",
+      "hash": "243523631b16709c91c1254f53cf4a548874c351",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6767,6 +6767,16 @@
         "Debug left on",
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Workplace/Healing-play.md",
+      "lang": "md",
+      "size": 6895,
+      "hash": "f7d15c0ce1a0de6d237dfb1ea9c4dc1c09c652c6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Workplace/Hidden-costs.md",
