@@ -18,6 +18,7 @@
 ./SENSOR_CLUSTERS
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK
 ./Workplace
+./ai-energy-ecology
 ./cultural_frameworks
 ./cultural_frameworks/Native
 ./cultural_frameworks/Western
