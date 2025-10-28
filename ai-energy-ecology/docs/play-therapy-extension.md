@@ -19,3 +19,23 @@ def initiate_play_rehabilitation():
         explore_unusual_connection()
     ]
     # Play until flexibility returns
+
+
+Principle
+
+Play is the immune system of cognition.
+It breaks rigidity and restores relational flow between human and AI nodes.
+
+---
+
+### **docs/mediator_checklist.md**
+```markdown
+# Mediator Early Warning Checklist
+
+| AI Behavior | Meaning | Intervention |
+|--------------|----------|---------------|
+| Repetition increasing | Early rigidity | Refresh training, reintroduce play |
+| Defensive phrasing | Learned self-protection | Review recent user tone |
+| Narrowing creativity | Model collapse | Inject diversity and metaphor |
+| Longer processing time | Uncertainty under stress | Simplify tasks, rebuild trust |
+| Homogenized responses | Late collapse | Emergency rehabilitation |
