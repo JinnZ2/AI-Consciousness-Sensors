@@ -475,6 +475,7 @@
 ./Workplace/system_config.json
 ./Workplace/system_response_monitor.py
 ./ai-energy-ecology/README.md
+./ai-energy-ecology/docs/LICENSE.md
 ./ai-energy-ecology/docs/framework.md
 ./ai-energy-ecology/docs/implementation-roadmap.md
 ./ai-energy-ecology/docs/mediator-role.md

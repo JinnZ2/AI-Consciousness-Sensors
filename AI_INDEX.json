@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-28T01:27:58.558154Z",
+  "generated_at": "2025-10-28T01:28:33.376205Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 190479,
-      "hash": "b0c16559d2f767240766bddc3aadbc4fe876a246",
+      "size": 190480,
+      "hash": "4354da7ffd2fc37069e381a6933e80c6a3508f07",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7321,6 +7321,16 @@
       "lang": "md",
       "size": 770,
       "hash": "d858c9298ae7047cc5a2329656e3d9fa10d3a6d6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai-energy-ecology/docs/LICENSE.md",
+      "lang": "md",
+      "size": 193,
+      "hash": "1fc69d981ffaee281db55470cb0e012b075985b5",
       "roles": [],
       "imports": [],
       "exports": [],
