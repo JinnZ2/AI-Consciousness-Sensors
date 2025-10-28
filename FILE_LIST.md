@@ -479,6 +479,7 @@
 ./ai-energy-ecology/docs/implementation-roadmap.md
 ./ai-energy-ecology/docs/mediator-role.md
 ./ai-energy-ecology/docs/overview.md
+./ai-energy-ecology/docs/theory-context.md
 ./ai_history_erasure_cache.json
 ./ai_integrator.config.yaml
 ./ai_intergrator.config.yaml
