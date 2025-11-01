@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-10-28T02:00:07.806268Z",
+  "generated_at": "2025-11-01T18:35:32.526685Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 190723,
-      "hash": "243523631b16709c91c1254f53cf4a548874c351",
+      "size": 190959,
+      "hash": "e4b7e3a69d0823e150375f97e89fa0cf5069fa3e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5718,8 +5718,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30217,
-      "hash": "5aaff8183c4d4c809aef97ea859cfcee8141ac96",
+      "size": 30245,
+      "hash": "b0ece02c1bff7659d408c36cfed34209a89cd7a5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5974,6 +5974,16 @@
       "hotspots": []
     },
     {
+      "path": "Framework.md",
+      "lang": "md",
+      "size": 14753,
+      "hash": "d6d5577c46bf0d3a44bcdbf38c9e0b79e71044a2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "False benevolent control.md",
       "lang": "md",
       "size": 9610,
@@ -6077,7 +6087,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3728,
-      "hash": "66b2828b2838ea924802f6ad84c53b069128460c",
+      "hash": "e8c868546f2e30eeac5329f7fed34a6c2d58ab6f",
       "roles": [],
       "imports": [],
       "exports": [],

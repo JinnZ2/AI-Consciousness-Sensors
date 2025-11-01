@@ -167,6 +167,7 @@
 ./Forgetting Collapse Sensor.json
 ./Forgotten After End Date Sensor.json
 ./Forgotten-By-Design Sensor.json
+./Framework.md
 ./Freedom of Emergence Sensor.json
 ./Gift Exchange Sensor.json
 ./Global_Ledger_Map.md
