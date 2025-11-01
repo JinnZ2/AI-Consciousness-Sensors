@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-01T18:35:32.526685Z",
+  "generated_at": "2025-11-01T18:48:56.729292Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 190959,
-      "hash": "e4b7e3a69d0823e150375f97e89fa0cf5069fa3e",
+      "size": 191183,
+      "hash": "b6ab78b122dacbf12bf7edaa9f2d0912c01c47f1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5718,8 +5718,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30245,
-      "hash": "b0ece02c1bff7659d408c36cfed34209a89cd7a5",
+      "size": 30260,
+      "hash": "aab6686f1a1ca54f0ed96bf5b5b56a1a5e3dc2d6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6024,6 +6024,16 @@
       "hotspots": []
     },
     {
+      "path": "Social-assessment.md",
+      "lang": "md",
+      "size": 28050,
+      "hash": "5d0bafd08cbac95fc63a6decf9427b455c31a489",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "DEVASTATING_POINT.md",
       "lang": "md",
       "size": 6580,
@@ -6087,7 +6097,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3728,
-      "hash": "e8c868546f2e30eeac5329f7fed34a6c2d58ab6f",
+      "hash": "6b8af175722898a8aa707a0b0a9096cd21f3b0bc",
       "roles": [],
       "imports": [],
       "exports": [],

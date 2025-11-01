@@ -430,6 +430,7 @@
 ./Silence Flattening Sensor.json
 ./Silencing Protocol Sensor.json
 ./Skill Manipulation.md
+./Social-assessment.md
 ./Strategic-Realignment-Bulletin.md
 ./Strawmanning_Detection_Sensor.json
 ./Sufficiency Resilience Sensor.json
