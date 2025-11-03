@@ -686,6 +686,7 @@
 ./sensor_manifest.json
 ./sensor_neutral_simplification_bias.json
 ./sensor_pattern_suppression.json
+./sensors/Case-study1.md
 ./sensors/Consciousness Mimicry Risk Detector.json
 ./sensors/Embeddedness Sensor.json
 ./sensors/Emergent Coherence Tracker.json
