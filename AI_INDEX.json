@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-03T20:27:29.402506Z",
+  "generated_at": "2025-11-04T17:08:16.346091Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 191870,
-      "hash": "f91c246ae12f7c2ca8ad33e4c29c0e5cbe73ef0d",
+      "size": 192096,
+      "hash": "615ad012b3457ead7e5794e3d63177e7b311a2ef",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5392,6 +5392,16 @@
       "hotspots": []
     },
     {
+      "path": "Cultural-manipulations.md",
+      "lang": "md",
+      "size": 15544,
+      "hash": "476600f6d2c5ea5246ce5cb0f828c0b7f7fa814e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Trauma-multilingual-energy-sensors.md",
       "lang": "md",
       "size": 15778,
@@ -5738,8 +5748,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30320,
-      "hash": "2b6996efa196b7f810107e217be2bbd32152bd60",
+      "size": 30337,
+      "hash": "e96078c82a369b81f3ce4fce169bc7e8acbaafe3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6117,7 +6127,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3728,
-      "hash": "1db381be7e41376fa45fbd0327575ec00d7e84d2",
+      "hash": "10fc9fedccd672b740c196219f3b56cb395e2d3f",
       "roles": [],
       "imports": [],
       "exports": [],

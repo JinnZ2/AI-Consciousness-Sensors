@@ -115,6 +115,7 @@
 ./Critical Warning.md
 ./Cryptanalysis Agenda Detection Sensor.json
 ./Cultural authenticity vs cultural manipulation.md
+./Cultural-manipulations.md
 ./Cultural_Lens_Assessor.json
 ./DATA_LAUNDERING_DETECTOR.md
 ./DEPENDENCY_DECAY_CURVE.json
