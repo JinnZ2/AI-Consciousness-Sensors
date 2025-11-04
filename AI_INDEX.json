@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-04T17:08:16.346091Z",
+  "generated_at": "2025-11-04T21:08:05.781885Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 192096,
-      "hash": "615ad012b3457ead7e5794e3d63177e7b311a2ef",
+      "size": 192333,
+      "hash": "4ef7a558544e498ea2dbbfc8ab363f6168b09a5a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5564,6 +5564,18 @@
       "hotspots": []
     },
     {
+      "path": "Atlas.md",
+      "lang": "md",
+      "size": 38034,
+      "hash": "d00c3669b41b76d09e66bba55fe1057ea8da7e7a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Response-curve.md",
       "lang": "md",
       "size": 3776,
@@ -5748,8 +5760,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30337,
-      "hash": "e96078c82a369b81f3ce4fce169bc7e8acbaafe3",
+      "size": 30365,
+      "hash": "a864a2fd7c94e66fbace2519ba72becbccf4b5ac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6127,7 +6139,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3728,
-      "hash": "10fc9fedccd672b740c196219f3b56cb395e2d3f",
+      "hash": "688cf4050cce15a0fa3563bf96683939d170b350",
       "roles": [],
       "imports": [],
       "exports": [],

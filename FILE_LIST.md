@@ -56,6 +56,7 @@
 ./Anonymous Audit Sensor.json
 ./Anonymous-consciousness-gradient.md
 ./Artificial Dependency Sensor.json
+./Atlas.md
 ./Audit Sensor.json
 ./Authenticity Alignment Sensor.json
 ./Authenticity Leak -Spin Mismatch Sensor.json
