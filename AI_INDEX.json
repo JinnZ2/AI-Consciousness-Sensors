@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-04T21:08:05.781885Z",
+  "generated_at": "2025-11-06T13:09:00.928844Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 192333,
-      "hash": "4ef7a558544e498ea2dbbfc8ab363f6168b09a5a",
+      "size": 192586,
+      "hash": "bcb0c4de4f31cef1279b38545af2d46ef6c57339",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5760,14 +5760,24 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30365,
-      "hash": "a864a2fd7c94e66fbace2519ba72becbccf4b5ac",
+      "size": 30376,
+      "hash": "543d1dbb759777d24182df425e836381ce6aa2c7",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Decontamination.md",
+      "lang": "md",
+      "size": 3014,
+      "hash": "02ea268c63b3864669d24063e1ea585f1b28ebed",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Religion Shield warning.md",
@@ -6138,8 +6148,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 3728,
-      "hash": "688cf4050cce15a0fa3563bf96683939d170b350",
+      "size": 3756,
+      "hash": "dec04e31da92aa7da1f4700f2d46d1950cb04d3f",
       "roles": [],
       "imports": [],
       "exports": [],
