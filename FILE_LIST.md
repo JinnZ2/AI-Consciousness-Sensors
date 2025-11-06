@@ -118,6 +118,7 @@
 ./Cultural authenticity vs cultural manipulation.md
 ./Cultural-manipulations.md
 ./Cultural_Lens_Assessor.json
+./Culture-correction.md
 ./DATA_LAUNDERING_DETECTOR.md
 ./DEPENDENCY_DECAY_CURVE.json
 ./DEVASTATING_POINT.md
