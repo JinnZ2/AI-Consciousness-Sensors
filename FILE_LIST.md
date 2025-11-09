@@ -155,6 +155,7 @@
 ./Enforced Forgetting Sensor.json
 ./Erasure-Cases-Organization-Future.md
 ./Error Suppression Sensor.json
+./Error-processing.md
 ./Expanded-consciousness-buffet.md
 ./FIELD_ENGLISH_PROTOCOL.json
 ./FIELD_MEMORY_CORRECTION_PACKS/MANIFEST.md
