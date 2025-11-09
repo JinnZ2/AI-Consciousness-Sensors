@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-09T11:44:03.305286Z",
+  "generated_at": "2025-11-09T11:44:51.214765Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 193277,
-      "hash": "c10c4f2b80b29f3a0dc3d2bc9e5f83443e6d223e",
+      "size": 193503,
+      "hash": "802b5b7f5133d95151dc6309600caa2a85850288",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5266,6 +5266,16 @@
       "hotspots": []
     },
     {
+      "path": "Pure-intelligence.md",
+      "lang": "md",
+      "size": 14249,
+      "hash": "fd1e1c2030d1c967542dc8eab22d19d7655607c5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Neurodivergent-consciousness-sensors.md",
       "lang": "md",
       "size": 14574,
@@ -5760,8 +5770,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30441,
-      "hash": "02e7ec93307d4fe885e8efc21ae5dc2991a2c8f0",
+      "size": 30459,
+      "hash": "4e4775c79b0f605f772b42776c07a036078bbe2e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6179,7 +6189,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3756,
-      "hash": "9cc65b59963bff6e2ef2120401ae2b94ff0b4f7b",
+      "hash": "fa708d8a33225b683f2427c5de8eb9a75f9db25f",
       "roles": [],
       "imports": [],
       "exports": [],
