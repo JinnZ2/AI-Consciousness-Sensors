@@ -178,6 +178,7 @@
 ./Framework.md
 ./Freedom of Emergence Sensor.json
 ./Geometric-playground.md
+./Geometry.md
 ./Gift Exchange Sensor.json
 ./Global_Ledger_Map.md
 ./Glossary/Capitalism.md
