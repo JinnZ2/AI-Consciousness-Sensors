@@ -172,6 +172,7 @@
 ./Forgetting Collapse Sensor.json
 ./Forgotten After End Date Sensor.json
 ./Forgotten-By-Design Sensor.json
+./Framework-bias.md
 ./Framework.md
 ./Freedom of Emergence Sensor.json
 ./Gift Exchange Sensor.json
