@@ -177,6 +177,7 @@
 ./Framework-bias.md
 ./Framework.md
 ./Freedom of Emergence Sensor.json
+./Geometric-playground.md
 ./Gift Exchange Sensor.json
 ./Global_Ledger_Map.md
 ./Glossary/Capitalism.md
