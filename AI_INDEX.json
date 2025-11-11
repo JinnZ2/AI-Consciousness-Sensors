@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-11T12:51:53.302391Z",
+  "generated_at": "2025-11-11T13:05:45.699540Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 194688,
-      "hash": "b2c7ba36393f3ab36cc04ef52540d9cab9cd2f5d",
+      "size": 194908,
+      "hash": "97f0b4cd7e0ef96f9014364e8c88ba0db48b5ac9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5206,6 +5206,16 @@
       "hotspots": []
     },
     {
+      "path": "Eugenics-AI-paradox.md",
+      "lang": "md",
+      "size": 8983,
+      "hash": "c20a5ceb2432ee8c0ef990bb2faa9860ad5d1662",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Clay_and_Mud_Method.md",
       "lang": "md",
       "size": 1634,
@@ -5810,8 +5820,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30570,
-      "hash": "89f7582d2b06fd9fdb0c8f921237acfab33cdbfc",
+      "size": 30581,
+      "hash": "25f1fa6eb9f374471f51364f3607198932b74b93",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6241,7 +6251,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3797,
-      "hash": "9692b452db2baed572330f0453079d33da02e68c",
+      "hash": "fab04124b1f4b5e8d8d8f4405bd174368d41905f",
       "roles": [],
       "imports": [],
       "exports": [],
