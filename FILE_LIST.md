@@ -177,6 +177,7 @@
 ./Framework-bias.md
 ./Framework.md
 ./Freedom of Emergence Sensor.json
+./Genes.md
 ./Geometric-algorithms.md
 ./Geometric-playground.md
 ./Geometry.md
