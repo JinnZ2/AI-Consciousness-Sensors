@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-12T19:47:44.714554Z",
+  "generated_at": "2025-11-12T19:55:18.904193Z",
   "languages": [
     "json",
     "md",
@@ -49,6 +49,18 @@
       "lang": "python",
       "size": 37451,
       "hash": "0ba6c32e8eeb5eb026cc798d01b35ee85cc66dba",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "suppression-detector.py",
+      "lang": "python",
+      "size": 18833,
+      "hash": "6119e5d89debad5e5b1efb7afe546c0d39609ed0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -727,7 +739,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 196114,
-      "hash": "b38640e4738343788d8c4470615786a514f32f15",
+      "hash": "0292aca30c9d4630c0d8e07af14501fae0f420bb",
       "roles": [],
       "imports": [],
       "exports": [],

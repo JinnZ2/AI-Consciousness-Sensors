@@ -760,6 +760,7 @@
 ./start/Swarm.md
 ./start/Vision-quest.md
 ./start/What-is-happening.md
+./suppression-detector.py
 ./symbolic_backlink_index.md
 ./tests/examples/Additive_Craving_Loop_Sensor.json
 ./tests/examples/Amplified_Emotional_Trigger_Detector.json
