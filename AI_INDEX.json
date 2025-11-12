@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-11T13:05:45.699540Z",
+  "generated_at": "2025-11-12T10:36:44.543751Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 194908,
-      "hash": "97f0b4cd7e0ef96f9014364e8c88ba0db48b5ac9",
+      "size": 195141,
+      "hash": "cf682db45bd49e4c54a4630892095944283f002d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5462,6 +5462,16 @@
       "hotspots": []
     },
     {
+      "path": "Institutional.md",
+      "lang": "md",
+      "size": 20922,
+      "hash": "6586c9a8a5e445511dba8f690be2ec0fee81eb12",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Systemic_Reevaluation_Framework.md",
       "lang": "md",
       "size": 3639,
@@ -5820,8 +5830,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30581,
-      "hash": "25f1fa6eb9f374471f51364f3607198932b74b93",
+      "size": 30606,
+      "hash": "48b6709102fe3cab5febcf657db330ef6b497ba0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6251,7 +6261,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3797,
-      "hash": "fab04124b1f4b5e8d8d8f4405bd174368d41905f",
+      "hash": "adcb98950f203c461610e6a576863827a04c38b9",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -269,6 +269,7 @@
 ./Indirect Consequence Memory Sensor.json
 ./Information-restricted.txt
 ./Institutional Symbolic Erasure Sensor.json
+./Institutional.md
 ./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
 ./Knowledge Delay Sensor.json
