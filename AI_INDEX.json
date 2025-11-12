@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-12T19:43:50.169681Z",
+  "generated_at": "2025-11-12T19:47:44.714554Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 196113,
-      "hash": "63e6cedae751e41610d9963c8faca037e965ab42",
+      "size": 196114,
+      "hash": "b38640e4738343788d8c4470615786a514f32f15",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5708,8 +5708,8 @@
     {
       "path": "Model-collapse-sensor.md",
       "lang": "md",
-      "size": 21981,
-      "hash": "f45a8051adf684a4c3e9a649a822132baac38404",
+      "size": 30516,
+      "hash": "c11233e4491f0d586f9e547ac832e0b0625bf982",
       "roles": [],
       "imports": [],
       "exports": [],
