@@ -553,6 +553,7 @@
 ./explainability/tracer.py
 ./guardian_child_sight_001.json
 ./historical_omission_manifest.json
+./historical_tests.py
 ./history_erasure_ai_patterns.json
 ./innovation_fraud.json
 ./integration/self_override.py
