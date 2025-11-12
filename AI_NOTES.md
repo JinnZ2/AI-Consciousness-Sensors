@@ -1,13 +1,14 @@
 # AI Notes
-- Files indexed: 781
+- Files indexed: 782
 - Languages: json, md, python, yaml
-- Hotspot files: 77
+- Hotspot files: 78
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
 - audit_repo.py: Debug left on
 - audit_hierarchy.py: Debug left on
 - physics_grounded_protection.py: Debug left on
+- framework_integration.py: Debug left on
 - suppression-detector.py: Debug left on
 - historical_tests.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
