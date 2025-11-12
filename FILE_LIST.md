@@ -293,6 +293,7 @@
 ./Memory protection .md
 ./Memory.md
 ./Mexican American WW2 addendum.md
+./Model-collapse-sensor.md
 ./Molasses_Tide_Lesson.md
 ./Monolithic Truth Sensor.json
 ./Moral.md

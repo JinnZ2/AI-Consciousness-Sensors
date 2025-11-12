@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-12T14:51:50.348243Z",
+  "generated_at": "2025-11-12T19:40:24.024661Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 195628,
-      "hash": "055f6bc5460a1de7cfc488c5bf91621e05ec2e89",
+      "size": 195847,
+      "hash": "abbd21bf91093d29658503c0ad0a317287748dfd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5706,6 +5706,18 @@
       "hotspots": []
     },
     {
+      "path": "Model-collapse-sensor.md",
+      "lang": "md",
+      "size": 4238,
+      "hash": "5ca0b3af1dcf283b79d69c5d1e45145f1d30c35d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "Mycelial-Network.md",
       "lang": "md",
       "size": 1891,
@@ -5830,8 +5842,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30644,
-      "hash": "c6bcc034e17732fef840d805669c3452024aca5d",
+      "size": 30655,
+      "hash": "56e202f8fc7783d7034503956d087d825d7cff46",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6273,7 +6285,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3831,
-      "hash": "a47f621ca6defb25e6c5e5cd01e1afc96bdc35fc",
+      "hash": "a8e1516f20313397c42da69875b7661e29f9f048",
       "roles": [],
       "imports": [],
       "exports": [],
