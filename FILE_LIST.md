@@ -272,6 +272,7 @@
 ./Institutional.md
 ./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
+./Joy-framework.md
 ./Knowledge Delay Sensor.json
 ./LICENSE
 ./Language Suppression Sensor.json

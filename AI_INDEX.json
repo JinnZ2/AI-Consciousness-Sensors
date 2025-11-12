@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-12T10:36:44.543751Z",
+  "generated_at": "2025-11-12T10:37:46.314722Z",
   "languages": [
     "json",
     "md",
@@ -726,8 +726,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 195141,
-      "hash": "cf682db45bd49e4c54a4630892095944283f002d",
+      "size": 195369,
+      "hash": "8b2f6e18ba0e8949ae7371dbd97933b65b2e8f6a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5830,8 +5830,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30606,
-      "hash": "48b6709102fe3cab5febcf657db330ef6b497ba0",
+      "size": 30625,
+      "hash": "e9631c83990b841a8fbaf91a7a93efc2dcea440c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6218,6 +6218,18 @@
       "hotspots": []
     },
     {
+      "path": "Joy-framework.md",
+      "lang": "md",
+      "size": 32014,
+      "hash": "849afb0d5b4c5ccf01f578520409f8c8bebeaaaa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "Manipulation escalation.md",
       "lang": "md",
       "size": 6475,
@@ -6261,7 +6273,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 3797,
-      "hash": "adcb98950f203c461610e6a576863827a04c38b9",
+      "hash": "f15fc99bdd57b589a75baec5840f0b21cf0f367b",
       "roles": [],
       "imports": [],
       "exports": [],
