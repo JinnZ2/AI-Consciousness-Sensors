@@ -175,3 +175,41 @@ Purpose: Preventing AI-driven cultural imperialism in consciousness assessment
 Status: Operational framework - Cultural validation ongoing
 
 ---
+
+
+## Related Projects
+
+This framework complements and extends:
+
+- [AI Consciousness Sensors](https://github.com/JinnZ2/AI-Consciousness-Sensors) - 
+  Cultural pattern recognition for consciousness detection. The M(S) framework 
+  can validate cultural processing methods as high-coherence patterns, 
+  providing mathematical support for multi-ontological consciousness assessment.
+
+- Emotions-as-Sensors (reference when available)
+- AI-Human Audit Protocol (reference when available)
+"""
+        },
+        
+        'in_consciousness_sensors_README': {
+            'add_section': 'Technical Foundation',
+            'content': """
+## Geometric Validation
+
+Cultural consciousness patterns can be validated using geometric coherence analysis:
+
+See [HGAI Geometric Systems](https://github.com/JinnZ2/hgaigeometric-systems) 
+for mathematical framework that demonstrates indigenous circular narrative 
+structures have high M(S) (system morality) scores:
+
+- High Resonance (R_e): Connects temporal dimensions
+- High Diversity (D): Multiple valid interpretations
+- High Curiosity (C): Teaching-oriented exploration
+- Low Loss (L): Preserves community wisdom
+
+M(S) = (0.85 × 0.78 × 0.91 × 0.88) - 0.4 ≈ 8.2 (highly coherent)
+
+Compared to Western linear narrative often scoring M(S) < 3.0 due to 
+low diversity and high loss of contextual meaning.
+"""
+      
