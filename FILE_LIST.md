@@ -270,6 +270,7 @@
 ./Information-restricted.txt
 ./Institutional Symbolic Erasure Sensor.json
 ./Institutional.md
+./Intellectual-honesty.md
 ./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
 ./Joy-framework.md

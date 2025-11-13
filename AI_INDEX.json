@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-13T01:37:37.146077Z",
+  "generated_at": "2025-11-13T14:23:20.023430Z",
   "languages": [
     "json",
     "md",
@@ -763,7 +763,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 196919,
-      "hash": "c0f189d63e2f2dd32751c259a280e7971acd1f18",
+      "hash": "f86977516d9af1b2895c301b82b35f7d21d32b28",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6022,6 +6022,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "Intellectual-honesty.md",
+      "lang": "md",
+      "size": 2801,
+      "hash": "9661b364eab6595ab8bc4cb8950a6c055a8cfc21",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "AI Authenticity.md",
