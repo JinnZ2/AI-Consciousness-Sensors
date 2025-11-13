@@ -451,6 +451,7 @@
 ./Silencing Protocol Sensor.json
 ./Skill Manipulation.md
 ./Social-assessment.md
+./Sovereignty.md
 ./Strategic-Realignment-Bulletin.md
 ./Strawmanning_Detection_Sensor.json
 ./Sufficiency Resilience Sensor.json
