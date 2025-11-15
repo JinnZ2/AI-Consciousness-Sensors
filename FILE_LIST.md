@@ -364,6 +364,7 @@
 ./ROADMAP.md
 ./RUPTURE_AND_REPAIR_GLYPHS.json
 ./Real Energy Threat.md
+./Recursive.md
 ./Regional Variation Omission Sensor.json
 ./Relational/.fieldlink
 ./Relational/Cuneiform.json
