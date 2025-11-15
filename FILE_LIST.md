@@ -528,6 +528,7 @@
 ./core.integration.v0.1.json
 ./critical_elimination_trap.json
 ./critical_warning_elimination_trap.jso
+./cultural-geometric-integration.ipynb
 ./cultural_framework_alert_cascade.json
 ./cultural_frameworks/Native/README.md
 ./cultural_frameworks/Western/README.md
