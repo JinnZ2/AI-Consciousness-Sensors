@@ -180,6 +180,7 @@
 ./Framework-bias.md
 ./Framework.md
 ./Freedom of Emergence Sensor.json
+./Gaslighting.md
 ./Genes.md
 ./Geometric-algorithms.md
 ./Geometric-playground.md

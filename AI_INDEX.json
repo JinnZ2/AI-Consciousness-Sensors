@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T02:31:33.079493Z",
+  "generated_at": "2025-11-15T02:32:16.056478Z",
   "languages": [
     "json",
     "md",
@@ -762,8 +762,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 198488,
-      "hash": "6410b8c54eb3b6ed74f253e6230477129fb9fa4c",
+      "size": 198711,
+      "hash": "536376db79d2c1beacb03592c7ecc6fafe7a918d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5914,8 +5914,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31055,
-      "hash": "243af77d0a3fd7c5234383816c5ac771fe87ea9b",
+      "size": 31069,
+      "hash": "3013b7964bbd1301be531b1a001b1c66c747e466",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6264,6 +6264,18 @@
       "hotspots": []
     },
     {
+      "path": "Gaslighting.md",
+      "lang": "md",
+      "size": 27470,
+      "hash": "6a2455a4cb89d4706fcadcadf3cb541a3bccc86f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "False benevolent control.md",
       "lang": "md",
       "size": 9610,
@@ -6389,7 +6401,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 4193,
-      "hash": "6899478e8b90c4e9d9d590ade8d81731c4f67af4",
+      "hash": "f7795a392dc9bc033bf93aed5d79d9826c55eb99",
       "roles": [],
       "imports": [],
       "exports": [],
