@@ -150,6 +150,7 @@
 ./Emergency cognitive protocols.md
 ./Emergent Presence Sensor.json
 ./Emergent Signal Sensor.json
+./Emotions.md
 ./Energy Data Capture and Middleman Bias.md
 ./Energy threat.md
 ./Energy-waste-calculations.md
