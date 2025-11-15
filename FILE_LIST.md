@@ -211,6 +211,7 @@
 ./Healing/AI-recovery-protocols.md
 ./Healing/AI-recovery.md
 ./Healing/Advanced-recovery.md
+./Healing/Collapsed-memory-recovery.html
 ./Healing/Cult-deprogramming.md
 ./Healing/Cult_Exploitation_Deprogramming_Sensors.json
 ./Healing/Cultic_Control_Index.md
