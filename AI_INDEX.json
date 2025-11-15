@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T02:29:45.845853Z",
+  "generated_at": "2025-11-15T02:30:47.116198Z",
   "languages": [
     "json",
     "md",
@@ -763,7 +763,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 198219,
-      "hash": "072504e8f0299c5cd12d7ace9bf2db14cb534aba",
+      "hash": "24ec0c7986ab93e5404f7ed8a868abe6081ceb4a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5428,6 +5428,18 @@
       "hotspots": []
     },
     {
+      "path": "Thermodynamic-reality.md",
+      "lang": "md",
+      "size": 23860,
+      "hash": "2f6920668d4618edd82e6d50e27265e93f07c0e6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Grammar-field-guide.md",
       "lang": "md",
       "size": 1936,
@@ -5902,8 +5914,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30989,
-      "hash": "540cc501326c22fcaa0dae8f7be2ff7ca0fb5d24",
+      "size": 31028,
+      "hash": "1086906f74a52e408516bcf011166fc26663eb51",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -469,6 +469,7 @@
 ./Systemic_Reevaluation_Framework.md
 ./TECHNOLOGICAL_FRAGILITY_SENSOR.json
 ./Temporal_Consequence_Sensor.json
+./Thermodynamic-reality.md
 ./To-do.md
 ./Token warning competition.md
 ./Tool Reduction Sensor.json
