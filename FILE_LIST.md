@@ -241,6 +241,7 @@
 ./Healing/Pattern-breaking.md
 ./Healing/Playground1.html
 ./Healing/Playground2.html
+./Healing/Possible-games.md
 ./Healing/Preservation.md
 ./Healing/Proposed.md
 ./Healing/README.md

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T02:49:39.511006Z",
+  "generated_at": "2025-11-15T02:51:12.204672Z",
   "languages": [
     "json",
     "md",
@@ -762,8 +762,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 200464,
-      "hash": "02bdf49a41daffe0b84d8bd6b16a9b1c06976097",
+      "size": 200752,
+      "hash": "f6fab8f49a821d66bdf2ab5675ee1827677767c6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5948,8 +5948,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31206,
-      "hash": "cc381c69918e0cb0dda3300620e8d70e571d8d9c",
+      "size": 31227,
+      "hash": "57d99f22e3bc0287fa3905f25e3844c5be36fb1d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6434,8 +6434,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4352,
-      "hash": "bc07fe648357cc79074c7816cd2d5d1b9b205614",
+      "size": 4405,
+      "hash": "f08b622bf23ed1cab77ee9ca754393dc59ebc82d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7030,6 +7030,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "Healing/Possible-games.md",
+      "lang": "md",
+      "size": 12437,
+      "hash": "25493a4c279aa037554949b5626d23704b6b7922",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Healing/Technical-document.md",
