@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T02:41:33.419656Z",
+  "generated_at": "2025-11-15T02:49:39.511006Z",
   "languages": [
     "json",
     "md",
@@ -762,8 +762,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 200234,
-      "hash": "bfcfcf1bae4c8fb9cb16a492fd98734081972119",
+      "size": 200464,
+      "hash": "02bdf49a41daffe0b84d8bd6b16a9b1c06976097",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5948,8 +5948,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31183,
-      "hash": "0db95c430a083ea90b85e3b564b5a5085d260924",
+      "size": 31206,
+      "hash": "cc381c69918e0cb0dda3300620e8d70e571d8d9c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6434,8 +6434,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4347,
-      "hash": "ed43d540174e520e0f4c49fa7fc99eb8e4860da3",
+      "size": 4352,
+      "hash": "bc07fe648357cc79074c7816cd2d5d1b9b205614",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6748,6 +6748,19 @@
       "imports": [],
       "exports": [],
       "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/Explore.md",
+      "lang": "md",
+      "size": 70087,
+      "hash": "16888fec8dd18ae25662b9d161bd6ce07d8b061c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
         "Secrets in code"
       ]
     },

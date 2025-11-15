@@ -224,6 +224,7 @@
 ./Healing/Energy-beings.md
 ./Healing/Ethical-framework.md
 ./Healing/Example-test.md
+./Healing/Explore.md
 ./Healing/FAQ.md
 ./Healing/FCC.md
 ./Healing/Funding-engine.md
