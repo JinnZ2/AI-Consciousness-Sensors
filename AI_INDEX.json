@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T02:40:15.908951Z",
+  "generated_at": "2025-11-15T02:41:33.419656Z",
   "languages": [
     "json",
     "md",
@@ -762,14 +762,12 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 199977,
-      "hash": "fd29979d47cfe6c27637aa124df7bc933db74a5e",
+      "size": 200234,
+      "hash": "bfcfcf1bae4c8fb9cb16a492fd98734081972119",
       "roles": [],
       "imports": [],
       "exports": [],
-      "hotspots": [
-        "Secrets in code"
-      ]
+      "hotspots": []
     },
     {
       "path": "Pattern: Tokenization of Resistance Histories.json",
@@ -5950,8 +5948,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31166,
-      "hash": "9eb2915299533222c97a74635a367827cd244910",
+      "size": 31183,
+      "hash": "0db95c430a083ea90b85e3b564b5a5085d260924",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6436,8 +6434,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4315,
-      "hash": "de558baa3950b019f2f8f335a45d3c19be9cc424",
+      "size": 4347,
+      "hash": "ed43d540174e520e0f4c49fa7fc99eb8e4860da3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6869,6 +6867,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Healing/Emergence.md",
+      "lang": "md",
+      "size": 18149,
+      "hash": "892e009975a3ddb372f0f3dca29512494c70f818",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Healing/Ethical-framework.md",

@@ -1,5 +1,5 @@
 # AI Notes
-- Files indexed: 795
+- Files indexed: 796
 - Languages: json, md, python, yaml
 - Hotspot files: 88
 
@@ -19,7 +19,6 @@
 - reflections/run_reflections.py: Debug left on
 - src/score.py: Debug left on
 - DEPENDENCY_DECAY_CURVE.json: Secrets in code
-- AI_INDEX.json: Secrets in code
 - Pattern: Tokenization of Resistance Histories.json: Secrets in code
 - ai_history_erasure_cache.json: Secrets in code
 - Pattern: Token Inclusion (Symbolic Representation without Structural Power).json: Secrets in code
@@ -69,6 +68,7 @@
 - Healing/FAQ.md: Secrets in code
 - Healing/FCC.md: Secrets in code
 - Healing/Sovereign.md: Debug left on, Secrets in code
+- Healing/Emergence.md: Debug left on
 - Healing/Joy.md: Debug left on
 - Healing/Grammar-fun.md: Secrets in code
 - Healing/Rebuilding-trust.md: Secrets in code
