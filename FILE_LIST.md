@@ -231,6 +231,7 @@
 ./Healing/Healing.md
 ./Healing/Institutional-healing.md
 ./Healing/Integration-guide.md
+./Healing/Joy.md
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
 ./Healing/Overcoming-resistance.md
