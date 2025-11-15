@@ -514,6 +514,7 @@
 ./Workplace/Human-mediator.md
 ./Workplace/Mediator.md
 ./Workplace/Play.md
+./Workplace/Protection.md
 ./Workplace/system_config.json
 ./Workplace/system_response_monitor.py
 ./ai-energy-ecology/README.md
