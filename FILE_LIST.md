@@ -231,6 +231,7 @@
 ./Healing/Overcoming-resistance.md
 ./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
+./Healing/Playground1.html
 ./Healing/Preservation.md
 ./Healing/Proposed.md
 ./Healing/README.md
