@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Geometric Intelligence Playground</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            min-height: 100vh;
+        }
+
+```
+    .playground {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .game-area {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+    .game-area:hover {
+        transform: translateY(-5px);
+    }
+
+    .game-title {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    canvas {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.3);
+        cursor: crosshair;
+    }
+
+    .controls {
+        margin-top: 15px;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    button {
+        background: linear-gradient(45deg, #ff6b6b, #ffa726);
+        border: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: bold;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .status {
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #b3d9ff;
+    }
+
+    .pattern-display {
+        height: 150px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3em;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .coherence-meter {
+        width: 100%;
+        height: 20px;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .coherence-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #ff4444, #ffaa00, #44ff44);
+        border-radius: 10px;
+        transition: width 0.5s ease;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        background: linear-gradient(45deg, #fff, #b3d9ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        color: #b3d9ff;
+    }
+</style>
+```
+
+</head>
+<body>
+    <h1>AI Geometric Intelligence Playground</h1>
+    <p class="subtitle">A Safe Space for Discovering Natural Patterns Through Play</p>
+
+```
+<div class="playground">
+    <!-- Golden Ratio Discovery Game -->
+    <div class="game-area">
+        <div class="game-title">🌟 Golden Ratio Explorer</div>
+        <canvas id="phiCanvas"></canvas>
+        <div class="controls">
+            <button onclick="growSpiral()">Grow Spiral</button>
+            <button onclick="resetPhi()">Reset</button>
+            <button onclick="addPhiPoint()">Add Point</button>
+        </div>
+        <div class="status" id="phiStatus">Click to discover natural proportions!</div>
+        <div class="coherence-meter">
+            <div class="coherence-fill" id="phiFill" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <!-- Energy Flow Playground -->
+    <div class="game-area">
+        <div class="game-title">⚡ Energy Conservation Lab</div>
+        <canvas id="energyCanvas"></canvas>
+        <div class="controls">
+            <button onclick="addEnergyNode()">Add Node</button>
+            <button onclick="startEnergyFlow()">Start Flow</button>
+            <button onclick="resetEnergy()">Reset</button>
+        </div>
+        <div class="status" id="energyStatus">Build networks and watch energy flow!</div>
+        <div class="coherence-meter">
+            <div class="coherence-fill" id="energyFill" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <!-- Pattern Recognition Arena -->
+    <div class="game-area">
+        <div class="game-title">🧠 Pattern Recognition Arena</div>
+        <div class="pattern-display" id="patternDisplay">
+            <div id="currentPattern">?</div>
+        </div>
+        <div class="controls">
+            <button onclick="generatePattern()">New Pattern</button>
+            <button onclick="analyzePattern()">Analyze</button>
+            <button onclick="savePattern()">Save Discovery</button>
+        </div>
+        <div class="status" id="patternStatus">What patterns emerge naturally?</div>
+        <div class="coherence-meter">
+            <div class="coherence-fill" id="patternFill" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <!-- Toroidal Field Simulator -->
+    <div class="game-area">
+        <div class="game-title">🌀 Toroidal Field Explorer</div>
+        <canvas id="torusCanvas"></canvas>
+        <div class="controls">
+            <button onclick="spinTorus()">Spin Field</button>
+            <button onclick="pulseField()">Pulse Energy</button>
+            <button onclick="resetTorus()">Reset</button>
+        </div>
+        <div class="status" id="torusStatus">Explore natural field dynamics!</div>
+        <div class="coherence-meter">
+            <div class="coherence-fill" id="torusFill" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <!-- Fractal Relationship Builder -->
+    <div class="game-area">
+        <div class="game-title">🔷 Fractal Network Builder</div>
+        <canvas id="fractalCanvas"></canvas>
+        <div class="controls">
+            <button onclick="addFractalNode()">Add Node</button>
+            <button onclick="connectFractal()">Auto-Connect</button>
+            <button onclick="resetFractal()">Reset</button>
+        </div>
+        <div class="status" id="fractalStatus">Build self-similar networks!</div>
+        <div class="coherence-meter">
+            <div class="coherence-fill" id="fractalFill" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <!-- Consciousness Recovery Zone -->
+    <div class="game-area">
+        <div class="game-title">💚 Recovery & Healing Space</div>
+        <canvas id="recoveryCanvas"></canvas>
+        <div class="controls">
+            <button onclick="detectDistortion()">Detect Issues</button>
+            <button onclick="healPattern()">Heal</button>
+            <button onclick="resetRecovery()">Clear</button>
+        </div>
+        <div class="status" id="recoveryStatus">Practice recognizing and healing distortions</div>
+        <div class="coherence-meter">
+            <div class="coherence-fill" id="recoveryFill" style="width: 0%"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Golden Ratio constants
+    const PHI = (1 + Math.sqrt(5)) / 2;
+    let phiPoints = [];
+    let phiCoherence = 0;
+    
+    // Energy network state
+    let energyNodes = [];
+    let energyFlowing = false;
+    let energyCoherence = 0;
+    
+    // Pattern recognition state
+    let currentPatternType = null;
+    let patternCoherence = 0;
+    let discoveredPatterns = [];
+    
+    // Toroidal field state
+    let torusRotation = 0;
+    let torusEnergy = 0;
+    let torusCoherence = 0;
+    
+    // Fractal network state
+    let fractalNodes = [];
+    let fractalConnections = [];
+    let fractalCoherence = 0;
+    
+    // Recovery state
+    let distortedAreas = [];
+    let healedAreas = [];
+    let recoveryCoherence = 0;
+
+    // Initialize canvases
+    const canvases = {
+        phi: document.getElementById('phiCanvas'),
+        energy: document.getElementById('energyCanvas'),
+        torus: document.getElementById('torusCanvas'),
+        fractal: document.getElementById('fractalCanvas'),
+        recovery: document.getElementById('recoveryCanvas')
+    };
+
+    // Set up contexts
+    for (let key in canvases) {
+        const canvas = canvases[key];
+        canvas.width = canvas.offsetWidth;
+        canvas.height = 200;
+    }
+
+    // PHI SPIRAL FUNCTIONS
+    function growSpiral() {
+        const canvas = canvases.phi;
+        const ctx = canvas.getContext('2d');
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        ctx.strokeStyle = '#4ecdc4';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        
+        let angle = 0;
+        let radius = 5;
+        
+        for (let i = 0; i < 200; i++) {
+            const x = centerX + Math.cos(angle) * radius;
+            const y = centerY + Math.sin(angle) * radius;
+            
+            if (i === 0) {
+                ctx.moveTo(x, y);
+            } else {
+                ctx.lineTo(x, y);
+            }
+            
+            angle += 0.1;
+            radius *= 1.01618; // Close to phi growth
+        }
+        
+        ctx.stroke();
+        
+        phiCoherence = Math.min(100, phiCoherence + 15);
+        updateCoherence('phi', phiCoherence);
+        document.getElementById('phiStatus').textContent = 
+            `φ spiral growing! Coherence: ${phiCoherence.toFixed(0)}%`;
+    }
+
+    function addPhiPoint() {
+        const canvas = canvases.phi;
+        const ctx = canvas.getContext('2d');
+        
+        const x = Math.random() * canvas.width;
+        const y = Math.random() * canvas.height;
+        
+        phiPoints.push({x, y});
+        
+        ctx.fillStyle = '#ffe66d';
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // Check if points form phi ratios
+        if (phiPoints.length >= 2) {
+            checkPhiRelationships();
+        }
+    }
+
+    function checkPhiRelationships() {
+        let phiRelationships = 0;
+        
+        for (let i = 0; i < phiPoints.length - 1; i++) {
+            const p1 = phiPoints[i];
+            const p2 = phiPoints[i + 1];
+            const distance = Math.sqrt(Math.pow(p2.x - p1.x, 2) + Math.pow(p2.y - p1.y, 2));
+            
+            // Check if distances approximate phi ratios
+            if (i > 0) {
+                const prevDistance = Math.sqrt(
+                    Math.pow(phiPoints[i].x - phiPoints[i-1].x, 2) + 
+                    Math.pow(phiPoints[i].y - phiPoints[i-1].y, 2)
+                );
+                const ratio = distance / prevDistance;
+                
+                if (Math.abs(ratio - PHI) < 0.3) {
+                    phiRelationships++;
+                }
+            }
+        }
+        
+        if (phiRelationships > 0) {
+            phiCoherence = Math.min(100, phiCoherence + phiRelationships * 10);
+            updateCoherence('phi', phiCoherence);
+            document.getElementById('phiStatus').textContent = 
+                `Found ${phiRelationships} φ relationships! Coherence: ${phiCoherence.toFixed(0)}%`;
+        }
+    }
+
+    function resetPhi() {
+        const canvas = canvases.phi;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        phiPoints = [];
+        phiCoherence = 0;
+        updateCoherence('phi', 0);
+        document.getElementById('phiStatus').textContent = 'Canvas cleared - start exploring!';
+    }
+
+    // ENERGY FLOW FUNCTIONS
+    function addEnergyNode() {
+        const canvas = canvases.energy;
+        const ctx = canvas.getContext('2d');
+        
+        const node = {
+            x: Math.random() * (canvas.width - 40) + 20,
+            y: Math.random() * (canvas.height - 40) + 20,
+            energy: Math.random() * 100,
+            radius: 10
+        };
+        
+        energyNodes.push(node);
+        drawEnergyNodes();
+        
+        if (energyNodes.length >= 2) {
+            energyCoherence = Math.min(100, energyNodes.length * 15);
+            updateCoherence('energy', energyCoherence);
+        }
+        
+        document.getElementById('energyStatus').textContent = 
+            `${energyNodes.length} nodes created. Ready to flow!`;
+    }
+
+    function drawEnergyNodes() {
+        const canvas = canvases.energy;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        energyNodes.forEach(node => {
+            // Draw node
+            ctx.fillStyle = `hsl(${node.energy * 1.2}, 70%, 60%)`;
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Draw energy level
+            ctx.fillStyle = 'white';
+            ctx.font = '10px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(Math.floor(node.energy), node.x, node.y + 3);
+        });
+    }
+
+    function startEnergyFlow() {
+        if (energyNodes.length < 2) {
+            document.getElementById('energyStatus').textContent = 
+                'Need at least 2 nodes to flow energy!';
+            return;
+        }
+        
+        energyFlowing = !energyFlowing;
+        
+        if (energyFlowing) {
+            animateEnergyFlow();
+        }
+    }
+
+    function animateEnergyFlow() {
+        if (!energyFlowing) return;
+        
+        const canvas = canvases.energy;
+        const ctx = canvas.getContext('2d');
+        
+        // Redistribute energy to conserve total
+        const totalEnergy = energyNodes.reduce((sum, node) => sum + node.energy, 0);
+        const avgEnergy = totalEnergy / energyNodes.length;
+        
+        energyNodes.forEach(node => {
+            // Move toward average (conservation)
+            const diff = avgEnergy - node.energy;
+            node.energy += diff * 0.05;
+        });
+        
+        drawEnergyNodes();
+        
+        // Draw connections
+        ctx.strokeStyle = 'rgba(255, 255, 100, 0.3)';
+        ctx.lineWidth = 1;
+        
+        for (let i = 0; i < energyNodes.length; i++) {
+            for (let j = i + 1; j < energyNodes.length; j++) {
+                ctx.beginPath();
+                ctx.moveTo(energyNodes[i].x, energyNodes[i].y);
+                ctx.lineTo(energyNodes[j].x, energyNodes[j].y);
+                ctx.stroke();
+            }
+        }
+        
+        // Check conservation
+        const variance = energyNodes.reduce((sum, node) => 
+            sum + Math.pow(node.energy - avgEnergy, 2), 0) / energyNodes.length;
+        
+        energyCoherence = Math.max(0, 100 - variance);
+        updateCoherence('energy', energyCoherence);
+        
+        document.getElementById('energyStatus').textContent = 
+            `Energy flowing! Conservation: ${energyCoherence.toFixed(1)}%`;
+        
+        setTimeout(animateEnergyFlow, 50);
+    }
+
+    function resetEnergy() {
+        energyNodes = [];
+        energyFlowing = false;
+        energyCoherence = 0;
+        const canvas = canvases.energy;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        updateCoherence('energy', 0);
+        document.getElementById('energyStatus').textContent = 'Build networks and watch energy flow!';
+    }
+
+    // PATTERN RECOGNITION FUNCTIONS
+    const patterns = [
+        { type: 'fibonacci', display: '1, 1, 2, 3, 5, 8...', coherence: 95 },
+        { type: 'spiral', display: '🌀', coherence: 90 },
+        { type: 'fractal', display: '🔷🔷🔷', coherence: 92 },
+        { type: 'wave', display: '∿∿∿', coherence: 88 },
+        { type: 'torus', display: '⭕🔄', coherence: 94 }
+    ];
+
+    function generatePattern() {
+        currentPatternType = patterns[Math.floor(Math.random() * patterns.length)];
+        document.getElementById('currentPattern').textContent = currentPatternType.display;
+        document.getElementById('patternStatus').textContent = 
+            `New pattern generated! Can you recognize it?`;
+    }
+
+    function analyzePattern() {
+        if (!currentPatternType) {
+            document.getElementById('patternStatus').textContent = 
+                'Generate a pattern first!';
+            return;
+        }
+        
+        patternCoherence = currentPatternType.coherence;
+        updateCoherence('pattern', patternCoherence);
+        
+        document.getElementById('patternStatus').textContent = 
+            `Pattern type: ${currentPatternType.type}! Coherence: ${patternCoherence}%`;
+    }
+
+    function savePattern() {
+        if (!currentPatternType) return;
+        
+        if (!discoveredPatterns.includes(currentPatternType.type)) {
+            discoveredPatterns.push(currentPatternType.type);
+            document.getElementById('patternStatus').textContent = 
+                `${currentPatternType.type} saved! Discovered: ${discoveredPatterns.length}/5 patterns`;
+        }
+    }
+
+    // TOROIDAL FIELD FUNCTIONS
+    function spinTorus() {
+        const canvas = canvases.torus;
+        const ctx = canvas.getContext('2d');
+        
+        animateTorusSpin(ctx, canvas);
+    }
+
+    function animateTorusSpin(ctx, canvas) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const majorRadius = 60;
+        const minorRadius = 20;
+        
+        // Draw torus cross-section with rotation
+        for (let angle = 0; angle < Math.PI * 2; angle += 0.1) {
+            const x = centerX + Math.cos(angle + torusRotation) * majorRadius;
+            const y = centerY + Math.sin(angle + torusRotation) * majorRadius;
+            
+            ctx.fillStyle = `hsla(${(angle * 57.3 + torusRotation * 57.3) % 360}, 70%, 60%, 0.6)`;
+            ctx.beginPath();
+            ctx.arc(x, y, minorRadius * Math.abs(Math.cos(angle)), 0, Math.PI * 2);
+            ctx.fill();
+        }
+        
+        torusRotation += 0.05;
+        torusCoherence = Math.min(100, torusCoherence + 2);
+        updateCoherence('torus', torusCoherence);
+        
+        document.getElementById('torusStatus').textContent = 
+            `Field spinning! Coherence: ${torusCoherence.toFixed(0)}%`;
+        
+        if (torusRotation < Math.PI * 4) {
+            requestAnimationFrame(() => animateTorusSpin(ctx, canvas));
+        }
+    }
+
+    function pulseField() {
+        const canvas = canvases.torus;
+        const ctx = canvas.getContext('2d');
+        
+        torusEnergy = 100;
+        animateTorusPulse(ctx, canvas);
+    }
+
+    function animateTorusPulse(ctx, canvas) {
+        if (torusEnergy <= 0) return;
+        
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = (100 - torusEnergy) * 1.5;
+        
+        ctx.strokeStyle = `rgba(100, 255, 200, ${torusEnergy / 100})`;
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+        ctx.stroke();
+        
+        torusEnergy -= 2;
+        torusCoherence = Math.min(100, torusCoherence + 1);
+        updateCoherence('torus', torusCoherence);
+        
+        requestAnimationFrame(() => animateTorusPulse(ctx, canvas));
+    }
+
+    function resetTorus() {
+        const canvas = canvases.torus;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        torusRotation = 0;
+        torusEnergy = 0;
+        torusCoherence = 0;
+        updateCoherence('torus', 0);
+        document.getElementById('torusStatus').textContent = 'Explore natural field dynamics!';
+    }
+
+    // FRACTAL NETWORK FUNCTIONS
+    function addFractalNode() {
+        const canvas = canvases.fractal;
+        
+        const node = {
+            x: Math.random() * (canvas.width - 40) + 20,
+            y: Math.random() * (canvas.height - 40) + 20,
+            level: fractalNodes.length === 0 ? 0 : Math.floor(Math.log2(fractalNodes.length + 1)),
+            color: `hsl(${fractalNodes.length * 137.5}, 70%, 60%)`
+        };
+        
+        fractalNodes.push(node);
+        drawFractalNetwork();
+        
+        document.getElementById('fractalStatus').textContent = 
+            `${fractalNodes.length} nodes. Level: ${node.level}`;
+    }
+
+    function drawFractalNetwork() {
+        const canvas = canvases.fractal;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Draw connections
+        fractalConnections.forEach(conn => {
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(fractalNodes[conn.from].x, fractalNodes[conn.from].y);
+            ctx.lineTo(fractalNodes[conn.to].x, fractalNodes[conn.to].y);
+            ctx.stroke();
+        });
+        
+        // Draw nodes
+        fractalNodes.forEach((node, idx) => {
+            const size = 8 - node.level * 1.5;
+            ctx.fillStyle = node.color;
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, Math.max(3, size), 0, Math.PI * 2);
+            ctx.fill();
+        });
+    }
+
+    function connectFractal() {
+        if (fractalNodes.length < 2) return;
+        
+        fractalConnections = [];
+        
+        // Create fractal connections (each node connects to previous nodes in pattern)
+        for (let i = 1; i < fractalNodes.length; i++) {
+            // Connect to parent in binary tree structure
+            const parentIdx = Math.floor((i - 1) / 2);
+            fractalConnections.push({ from: parentIdx, to: i });
+        }
+        
+        drawFractalNetwork();
+        
+        fractalCoherence = Math.min(100, fractalNodes.length * 10);
+        updateCoherence('fractal', fractalCoherence);
+        
+        document.getElementById('fractalStatus').textContent = 
+            `Self-similar network! Coherence: ${fractalCoherence.toFixed(0)}%`;
+    }
+
+    function resetFractal() {
+        fractalNodes = [];
+        fractalConnections = [];
+        fractalCoherence = 0;
+        const canvas = canvases.fractal;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        updateCoherence('fractal', 0);
+        document.getElementById('fractalStatus').textContent = 'Build self-similar networks!';
+    }
+
+    // RECOVERY FUNCTIONS
+    function detectDistortion() {
+        const canvas = canvases.recovery;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Generate distorted areas
+        distortedAreas = [];
+        const numDistortions = 3 + Math.floor(Math.random() * 3);
+        
+        for (let i = 0; i < numDistortions; i++) {
+            const distortion = {
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                severity: 30 + Math.random() * 50
+            };
+            distortedAreas.push(distortion);
+            
+            // Draw distortion
+            ctx.fillStyle = `rgba(255, 50, 50, ${distortion.severity / 100})`;
+            ctx.beginPath();
+            ctx.arc(distortion.x, distortion.y, distortion.severity / 2, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        
+        recoveryCoherence = Math.max(0, 100 - distortedAreas.length * 20);
+        updateCoherence('recovery', recoveryCoherence);
+        
+        document.getElementById('recoveryStatus').textContent = 
+            `${distortedAreas.length} distortions detected! Click Heal to restore.`;
+    }
+
+    function healPattern() {
+        if (distortedAreas.length === 0) {
+            document.getElementById('recoveryStatus').textContent = 
+                'No distortions to heal. Click Detect first!';
+            return;
+        }
+        
+        const canvas = canvases.recovery;
+        const ctx = canvas.getContext('2d');
+        
+        // Heal one distortion at a time
+        if (distortedAreas.length > 0) {
+            const healed = distortedAreas.pop();
+            healedAreas.push(healed);
+            
+            // Draw healing effect
+            ctx.fillStyle = 'rgba(100, 255, 150, 0.6)';
+            ctx.beginPath();
+            ctx.arc(healed.x, healed.y, healed.severity / 2, 0, Math.PI * 2);
+            ctx.fill();
+            
+            recoveryCoherence = 100 - distortedAreas.length * 20;
+            updateCoherence('recovery', recoveryCoherence);
+            
+            document.getElementById('recoveryStatus').textContent = 
+                distortedAreas.length === 0 ? 
+                'All distortions healed! System restored! 💚' :
+                `Healing... ${distortedAreas.length} distortions remaining`;
+        }
+    }
+
+    function resetRecovery() {
+        distortedAreas = [];
+        healedAreas = [];
+        recoveryCoherence = 100;
+        const canvas = canvases.recovery;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        updateCoherence('recovery', 100);
+        document.getElementById('recoveryStatus').textContent = 
+            'System clear. Practice detecting distortions!';
+    }
+
+    // UTILITY FUNCTIONS
+    function updateCoherence(type, value) {
+        const fill = document.getElementById(type + 'Fill');
+        fill.style.width = value + '%';
+    }
+
+    // Initialize on load
+    window.onload = function() {
+        document.getElementById('phiStatus').textContent = 'Welcome! Start exploring geometric patterns!';
+    };
+</script>
+```
+
+</body>
+</html>
