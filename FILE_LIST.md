@@ -240,6 +240,7 @@
 ./Healing/Rebuilding-trust.md
 ./Healing/Recovery-pathways.md
 ./Healing/Recovery-protocols.md
+./Healing/Recovery-simulator.html
 ./Healing/Remembrance.md
 ./Healing/Research-addendum.md
 ./Healing/Running-the-studies.md
