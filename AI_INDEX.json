@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T02:20:40.382638Z",
+  "generated_at": "2025-11-15T02:27:56.323172Z",
   "languages": [
     "json",
     "md",
@@ -763,7 +763,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 197970,
-      "hash": "3ffd986603d68fe87a8f5cd2889e39e2981198d4",
+      "hash": "d6d8b910437749e92ca64353cab0a0c01cb568d3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5902,8 +5902,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 30945,
-      "hash": "c1cc7d2b97be9731e3ae4459340403ae1eba3fa5",
+      "size": 30979,
+      "hash": "c09bb6c3775c63a70b8c739e0a225ad135415ba6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6126,6 +6126,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "ASPS.md",
+      "lang": "md",
+      "size": 7418,
+      "hash": "397642ca7d12fe205f0238e7076df711825510c5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "CO_CREATION.md",
