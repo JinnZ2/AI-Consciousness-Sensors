@@ -229,6 +229,7 @@
 ./Healing/Getting-started.md
 ./Healing/Grammar-fun.md
 ./Healing/Healing.md
+./Healing/Institutional-healing.md
 ./Healing/Integration-guide.md
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
