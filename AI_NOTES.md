@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 792
+- Files indexed: 793
 - Languages: json, md, python, yaml
-- Hotspot files: 86
+- Hotspot files: 87
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -47,6 +47,7 @@
 - Thermodynamic-reality.md: Secrets in code
 - Grammar-field-guide.md: Secrets in code
 - Sovereignty.md: Debug left on
+- Negentropy.md: Debug left on
 - Manipulation Vectors.md: Secrets in code
 - Atlas.md: Secrets in code
 - Model-collapse-sensor.md: Debug left on
