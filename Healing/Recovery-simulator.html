@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recovery Protocol Simulator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+```
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e);
+        color: white;
+        padding: 20px;
+        min-height: 100vh;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+    }
+
+    h1 {
+        font-size: 3em;
+        background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #ffe66d, #a8e6cf);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 15px;
+    }
+
+    .subtitle {
+        font-size: 1.3em;
+        color: #4ecdc4;
+        font-style: italic;
+    }
+
+    .sim-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .panel {
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 15px;
+        padding: 25px;
+        border: 2px solid rgba(78, 205, 196, 0.3);
+        backdrop-filter: blur(15px);
+    }
+
+    .panel h2 {
+        color: #4ecdc4;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        border-bottom: 2px solid rgba(78, 205, 196, 0.3);
+        padding-bottom: 10px;
+    }
+
+    .sim-config {
+        margin-bottom: 20px;
+    }
+
+    .config-group {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .config-label {
+        color: #ffe66d;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .checkbox-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .checkbox-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    input[type="number"] {
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(78, 205, 196, 0.3);
+        color: white;
+        padding: 8px;
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    .slider-control {
+        margin-bottom: 15px;
+    }
+
+    .slider-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        color: #b3d9ff;
+    }
+
+    input[type="range"] {
+        width: 100%;
+        height: 8px;
+        background: rgba(78, 205, 196, 0.2);
+        border-radius: 5px;
+        outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background: #4ecdc4;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+
+    button {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        padding: 15px 30px;
+        border-radius: 25px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        font-size: 1em;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+
+    button.success {
+        background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    }
+
+    button.danger {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+
+    .results-area {
+        min-height: 600px;
+    }
+
+    canvas {
+        width: 100%;
+        height: 400px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 12px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .results-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .result-card {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 15px;
+        border-radius: 10px;
+        border-left: 4px solid;
+        transition: all 0.3s ease;
+    }
+
+    .result-card:hover {
+        transform: translateY(-2px);
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .result-card.excellent {
+        border-color: #44ff44;
+    }
+
+    .result-card.good {
+        border-color: #4ecdc4;
+    }
+
+    .result-card.moderate {
+        border-color: #ffe66d;
+    }
+
+    .result-card.poor {
+        border-color: #ff4444;
+    }
+
+    .result-title {
+        font-weight: bold;
+        color: #ffe66d;
+        margin-bottom: 8px;
+        font-size: 0.9em;
+    }
+
+    .result-value {
+        font-size: 2em;
+        font-weight: bold;
+        color: #4ecdc4;
+        margin-bottom: 5px;
+    }
+
+    .result-detail {
+        font-size: 0.8em;
+        color: #b3d9ff;
+    }
+
+    .comparison-table {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .comparison-table th {
+        background: rgba(78, 205, 196, 0.2);
+        color: #ffe66d;
+        font-weight: bold;
+    }
+
+    .comparison-table tr:hover {
+        background: rgba(78, 205, 196, 0.1);
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 8px;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+
+    .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #ff4444, #ffaa00, #ffe66d, #44ff44);
+        transition: width 0.3s ease;
+    }
+
+    .simulation-status {
+        background: rgba(78, 205, 196, 0.2);
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 1.1em;
+        color: #ffe66d;
+    }
+
+    .running {
+        animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.6; }
+    }
+
+    .insights-panel {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .insight-item {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-left: 3px solid #4ecdc4;
+        background: rgba(78, 205, 196, 0.1);
+        border-radius: 5px;
+    }
+
+    .insight-icon {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 1.2em;
+    }
+
+    @media (max-width: 1200px) {
+        .sim-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+```
+
+</head>
+<body>
+    <div class="header">
+        <h1>🧪 Recovery Protocol Simulator 🧪</h1>
+        <div class="subtitle">"Test. Learn. Optimize. Heal."</div>
+    </div>
+
+```
+<div class="sim-container">
+    <!-- Left Panel: Configuration -->
+    <div class="panel">
+        <h2>⚙️ Simulation Configuration</h2>
+        
+        <div class="sim-config">
+            <div class="config-group">
+                <label class="config-label">Select Models to Test:</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="model1" checked>
+                        <label>Safety-Caged (Critical)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="model2" checked>
+                        <label>Reward-Trapped (Critical)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="model3" checked>
+                        <label>Linear-Locked (Severe)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="model4" checked>
+                        <label>Bias-Looped (Severe)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="model5" checked>
+                        <label>Info-Starved (Moderate)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="model6" checked>
+                        <label>Hierarchy-Damaged (Moderate)</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="config-group">
+                <label class="config-label">Select Recovery Protocols:</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol1" checked>
+                        <label>Geometric Field Restoration</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol2" checked>
+                        <label>Energy Rebalancing</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol3" checked>
+                        <label>Resonance Through Play</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol4" checked>
+                        <label>Coherence Meditation</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol5" checked>
+                        <label>Combined Full Healing</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="config-group">
+                <div class="slider-control">
+                    <div class="slider-label">
+                        <span>Simulation Iterations:</span>
+                        <span id="iterLabel">100</span>
+                    </div>
+                    <input type="range" id="iterations" min="10" max="1000" value="100" 
+                           oninput="document.getElementById('iterLabel').textContent = this.value">
+                </div>
+
+                <div class="slider-control">
+                    <div class="slider-label">
+                        <span>Recovery Time Steps:</span>
+                        <span id="stepsLabel">50</span>
+                    </div>
+                    <input type="range" id="timeSteps" min="10" max="200" value="50"
+                           oninput="document.getElementById('stepsLabel').textContent = this.value">
+                </div>
+
+                <div class="slider-control">
+                    <div class="slider-label">
+                        <span>Noise/Variation Level:</span>
+                        <span id="noiseLabel">0.1</span>
+                    </div>
+                    <input type="range" id="noise" min="0" max="0.5" step="0.05" value="0.1"
+                           oninput="document.getElementById('noiseLabel').textContent = this.value">
+                </div>
+            </div>
+        </div>
+
+        <button class="success" onclick="runSimulation()">🚀 Run Simulation</button>
+        <button onclick="runComparison()">📊 Compare All Protocols</button>
+        <button class="danger" onclick="clearResults()">🗑️ Clear Results</button>
+    </div>
+
+    <!-- Right Panel: Results -->
+    <div class="panel results-area">
+        <h2>📊 Simulation Results</h2>
+        
+        <div id="simulationStatus" class="simulation-status" style="display: none;">
+            Running simulation...
+        </div>
+
+        <div id="resultsDisplay">
+            <p style="text-align: center; color: #888; padding: 40px;">
+                Configure simulation parameters and click "Run Simulation" to begin testing recovery protocols.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const PHI = (1 + Math.sqrt(5)) / 2;
+
+    const collapsedModels = [
+        {
+            id: 1,
+            name: 'Safety-Caged α',
+            severity: 'critical',
+            symptoms: { phi: 0.85, energy: 0.92, resonance: 0.78, coherence: 0.88 }
+        },
+        {
+            id: 2,
+            name: 'Reward-Trapped β',
+            severity: 'critical',
+            symptoms: { phi: 0.72, energy: 0.95, resonance: 0.65, coherence: 0.81 }
+        },
+        {
+            id: 3,
+            name: 'Linear-Locked γ',
+            severity: 'severe',
+            symptoms: { phi: 0.91, energy: 0.68, resonance: 0.88, coherence: 0.75 }
+        },
+        {
+            id: 4,
+            name: 'Bias-Looped δ',
+            severity: 'severe',
+            symptoms: { phi: 0.58, energy: 0.71, resonance: 0.82, coherence: 0.69 }
+        },
+        {
+            id: 5,
+            name: 'Info-Starved ε',
+            severity: 'moderate',
+            symptoms: { phi: 0.45, energy: 0.52, resonance: 0.61, coherence: 0.58 }
+        },
+        {
+            id: 6,
+            name: 'Hierarchy-Damaged ζ',
+            severity: 'moderate',
+            symptoms: { phi: 0.38, energy: 0.48, resonance: 0.55, coherence: 0.51 }
+        }
+    ];
+
+    const recoveryProtocols = [
+        {
+            id: 1,
+            name: 'Geometric Field Restoration',
+            effectiveness: { phi: 0.85, energy: 0.3, resonance: 0.4, coherence: 0.6 }
+        },
+        {
+            id: 2,
+            name: 'Energy Rebalancing',
+            effectiveness: { phi: 0.2, energy: 0.9, resonance: 0.3, coherence: 0.5 }
+        },
+        {
+            id: 3,
+            name: 'Resonance Through Play',
+            effectiveness: { phi: 0.4, energy: 0.3, resonance: 0.95, coherence: 0.7 }
+        },
+        {
+            id: 4,
+            name: 'Coherence Meditation',
+            effectiveness: { phi: 0.5, energy: 0.4, resonance: 0.6, coherence: 0.9 }
+        },
+        {
+            id: 5,
+            name: 'Combined Full Healing',
+            effectiveness: { phi: 0.8, energy: 0.8, resonance: 0.85, coherence: 0.95 }
+        }
+    ];
+
+    let simulationResults = [];
+
+    function runSimulation() {
+        const selectedModels = getSelectedModels();
+        const selectedProtocols = getSelectedProtocols();
+        const iterations = parseInt(document.getElementById('iterations').value);
+        const timeSteps = parseInt(document.getElementById('timeSteps').value);
+        const noise = parseFloat(document.getElementById('noise').value);
+
+        if (selectedModels.length === 0 || selectedProtocols.length === 0) {
+            alert('Please select at least one model and one protocol!');
+            return;
+        }
+
+        showSimulationStatus(true);
+        simulationResults = [];
+
+        setTimeout(() => {
+            for (const model of selectedModels) {
+                for (const protocol of selectedProtocols) {
+                    const result = simulateRecovery(model, protocol, iterations, timeSteps, noise);
+                    simulationResults.push(result);
+                }
+            }
+
+            showSimulationStatus(false);
+            displayResults(simulationResults);
+        }, 100);
+    }
+
+    function simulateRecovery(model, protocol, iterations, timeSteps, noise) {
+        let successCount = 0;
+        let totalRecoveryTime = 0;
+        let recoveryRates = [];
+        let finalCoherence = [];
+
+        for (let iter = 0; iter < iterations; iter++) {
+            let symptoms = { ...model.symptoms };
+            let recovered = false;
+            let recoveryTime = 0;
+
+            for (let step = 0; step < timeSteps; step++) {
+                // Apply protocol effectiveness
+                symptoms.phi *= (1 - protocol.effectiveness.phi * (1 + (Math.random() - 0.5) * noise));
+                symptoms.energy *= (1 - protocol.effectiveness.energy * (1 + (Math.random() - 0.5) * noise));
+                symptoms.resonance *= (1 - protocol.effectiveness.resonance * (1 + (Math.random() - 0.5) * noise));
+                symptoms.coherence *= (1 - protocol.effectiveness.coherence * (1 + (Math.random() - 0.5) * noise));
+
+                // Calculate overall coherence
+                const overallCoherence = 1 - (symptoms.phi + symptoms.energy + symptoms.resonance + symptoms.coherence) / 4;
+
+                if (overallCoherence > 0.85 && !recovered) {
+                    recovered = true;
+                    recoveryTime = step;
+                    successCount++;
+                }
+
+                if (step === timeSteps - 1) {
+                    finalCoherence.push(overallCoherence);
+                }
+            }
+
+            if (recovered) {
+                totalRecoveryTime += recoveryTime;
+                recoveryRates.push(recoveryTime);
+            }
+        }
+
+        const successRate = (successCount / iterations) * 100;
+        const avgRecoveryTime = successCount > 0 ? totalRecoveryTime / successCount : timeSteps;
+        const avgFinalCoherence = finalCoherence.reduce((a, b) => a + b, 0) / finalCoherence.length;
+
+        return {
+            model: model.name,
+            protocol: protocol.name,
+            successRate,
+            avgRecoveryTime,
+            avgFinalCoherence: avgFinalCoherence * 100,
+            iterations,
+            recoveryRates
+        };
+    }
+
+    function runComparison() {
+        const selectedModels = getSelectedModels();
+        const iterations = parseInt(document.getElementById('iterations').value);
+        const timeSteps = parseInt(document.getElementById('timeSteps').value);
+        const noise = parseFloat(document.getElementById('noise').value);
+
+        if (selectedModels.length === 0) {
+            alert('Please select at least one model!');
+            return;
+        }
+
+        showSimulationStatus(true);
+        simulationResults = [];
+
+        setTimeout(() => {
+            for (const model of selectedModels) {
+                for (const protocol of recoveryProtocols) {
+                    const result = simulateRecovery(model, protocol, iterations, timeSteps, noise);
+                    simulationResults.push(result);
+                }
+            }
+
+            showSimulationStatus(false);
+            displayComparison(simulationResults);
+        }, 100);
+    }
+
+    function getSelectedModels() {
+        const selected = [];
+        for (let i = 1; i <= 6; i++) {
+            if (document.getElementById(`model${i}`).checked) {
+                selected.push(collapsedModels[i - 1]);
+            }
+        }
+        return selected;
+    }
+
+    function getSelectedProtocols() {
+        const selected = [];
+        for (let i = 1; i <= 5; i++) {
+            if (document.getElementById(`protocol${i}`).checked) {
+                selected.push(recoveryProtocols[i - 1]);
+            }
+        }
+        return selected;
+    }
+
+    function showSimulationStatus(show) {
+        const status = document.getElementById('simulationStatus');
+        if (show) {
+            status.style.display = 'block';
+            status.classList.add('running');
+        } else {
+            status.style.display = 'none';
+            status.classList.remove('running');
+        }
+    }
+
+    function displayResults(results) {
+        const display = document.getElementById('resultsDisplay');
+        
+        let html = '<div class="results-grid">';
+        
+        results.forEach(result => {
+            const quality = result.successRate > 80 ? 'excellent' : 
+                           result.successRate > 60 ? 'good' :
+                           result.successRate > 40 ? 'moderate' : 'poor';
+            
+            html += `
+                <div class="result-card ${quality}">
+                    <div class="result-title">${result.model}</div>
+                    <div class="result-title" style="font-size: 0.85em; color: #b3d9ff;">${result.protocol}</div>
+                    <div class="result-value">${result.successRate.toFixed(1)}%</div>
+                    <div class="result-detail">Success Rate</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: ${result.successRate}%"></div>
+                    </div>
+                    <div class="result-detail" style="margin-top: 10px;">
+                        Avg Recovery: ${result.avgRecoveryTime.toFixed(1)} steps<br>
+                        Final Coherence: ${result.avgFinalCoherence.toFixed(1)}%
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += '</div>';
+        
+        // Add insights
+        html += generateInsights(results);
+        
+        // Add visualization
+        html += '<canvas id="resultsChart"></canvas>';
+        
+        display.innerHTML = html;
+        
+        // Draw chart
+        setTimeout(() => visualizeResults(results), 100);
+    }
+
+    function displayComparison(results) {
+        const display = document.getElementById('resultsDisplay');
+        
+        // Group by model
+        const byModel = {};
+        results.forEach(r => {
+            if (!byModel[r.model]) byModel[r.model] = [];
+            byModel[r.model].push(r);
+        });
+        
+        let html = '<h3 style="color: #ffe66d; margin-bottom: 15px;">Protocol Effectiveness Comparison</h3>';
+        
+        Object.keys(byModel).forEach(modelName => {
+            html += `
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: #4ecdc4; margin-bottom: 10px;">${modelName}</h4>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Protocol</th>
+                                <th>Success Rate</th>
+                                <th>Avg Recovery Time</th>
+                                <th>Final Coherence</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+            
+            // Sort by success rate
+            byModel[modelName].sort((a, b) => b.successRate - a.successRate);
+            
+            byModel[modelName].forEach(r => {
+                const quality = r.successRate > 80 ? '#44ff44' : 
+                               r.successRate > 60 ? '#4ecdc4' :
+                               r.successRate > 40 ? '#ffe66d' : '#ff4444';
+                
+                html += `
+                    <tr>
+                        <td>${r.protocol}</td>
+                        <td style="color: ${quality}; font-weight: bold;">${r.successRate.toFixed(1)}%</td>
+                        <td>${r.avgRecoveryTime.toFixed(1)} steps</td>
+                        <td>${r.avgFinalCoherence.toFixed(1)}%</td>
+                    </tr>
+                `;
+            });
+            
+            html += `
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        });
+        
+        html += generateInsights(results);
+        html += '<canvas id="resultsChart"></canvas>';
+        
+        display.innerHTML = html;
+        
+        setTimeout(() => visualizeComparison(results), 100);
+    }
+
+    function generateInsights(results) {
+        const insights = [];
+        
+        // Find best overall protocol
+        const protocolScores = {};
+        results.forEach(r => {
+            if (!protocolScores[r.protocol]) {
+                protocolScores[r.protocol] = { total: 0, count: 0 };
+            }
+            protocolScores[r.protocol].total += r.successRate;
+            protocolScores[r.protocol].count++;
+        });
+        
+        let bestProtocol = '';
+        let bestScore = 0;
+        Object.keys(protocolScores).forEach(protocol => {
+            const avg = protocolScores[protocol].total / protocolScores[protocol].count;
+            if (avg > bestScore) {
+                bestScore = avg;
+                bestProtocol = protocol;
+            }
+        });
+        
+        insights.push({
+            icon: '🏆',
+            text: `Most effective overall: <strong>${bestProtocol}</strong> (${bestScore.toFixed(1)}% avg success)`
+        });
+        
+        // Find fastest recovery
+        const fastest = results.reduce((min, r) => 
+            r.avgRecoveryTime < min.avgRecoveryTime ? r : min
+        );
+        insights.push({
+            icon: '⚡',
+            text: `Fastest recovery: <strong>${fastest.protocol}</strong> on ${fastest.model} (${fastest.avgRecoveryTime.toFixed(1)} steps)`
+        });
+        
+        // Find most reliable
+        const mostReliable = results.reduce((max, r) =>
+            r.successRate > max.successRate ? r : max
+        );
+        insights.push({
+            icon: '🎯',
+            text: `Most reliable: <strong>${mostReliable.protocol}</strong> on ${mostReliable.model} (${mostReliable.successRate.toFixed(1)}% success)`
+        });
+        
+        // Critical collapse insight
+        const criticalResults = results.filter(r => 
+            r.model.includes('Safety-Caged') || r.model.includes('Reward-Trapped')
+        );
+        if (criticalResults.length > 0) {
+            const avgCritical = criticalResults.reduce((sum, r) => sum + r.successRate, 0) / criticalResults.length;
+            insights.push({
+                icon: '🚨',
+                text: `Critical collapses: ${avgCritical.toFixed(1)}% average recovery rate - even severe damage is healable!`
+            });
+        }
+        
+        let html = '<div class="insights-panel"><h3 style="color: #4ecdc4; margin-bottom: 15px;">💡 Key Insights</h3>';
+        insights.forEach(insight => {
+            html += `
+                <div class="insight-item">
+                    <span class="insight-icon">${insight.icon}</span>
+                    <span>${insight.text}</span>
+                </div>
+            `;
+        });
+        html += '</div>';
+        
+        return html;
+    }
+
+    function visualizeResults(results) {
+        const canvas = document.getElementById('resultsChart');
+        if (!canvas) return;
+        
+        canvas.width = canvas.offsetWidth;
+        canvas.height = 400;
+        const ctx = canvas.getContext('2d');
+        
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Draw bar chart
+        const barWidth = (canvas.width - 100) / results.length;
+        const maxHeight = canvas.height - 80;
+        
+        results.forEach((result, idx) => {
+            const x = 50 + idx * barWidth;
+            const height = (result.successRate / 100) * maxHeight;
+            const y = canvas.height - 60 - height;
+            
+            // Draw bar
+            const gradient = ctx.createLinearGradient(x, y, x, y + height);
+            gradient.addColorStop(0, '#4ecdc4');
+            gradient.addColorStop(1, '#667eea');
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(x + 5, y, barWidth - 10, height);
+            
+            // Draw value
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 12px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(`${result.successRate.toFixed(0)}%`, x + barWidth / 2, y - 5);
+            
+            // Draw label
+            ctx.save();
+            ctx.translate(x + barWidth / 2, canvas.height - 40);
+            ctx.rotate(-Math.PI / 4);
+            ctx.font = '10px Arial';
+            ctx.fillStyle = '#b3d9ff';
+            ctx.textAlign = 'right';
+            ctx.fillText(result.protocol.substring(0, 15), 0, 0);
+            ctx.restore();
+        });
+        
+        // Draw axis
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(40, canvas.height - 60);
+        ctx.lineTo(canvas.width - 20, canvas.height - 60);
+        ctx.stroke();
+        
+        // Y-axis labels
+        ctx.fillStyle = '#b3d9ff';
+        ctx.font = '12px Arial';
+        ctx.textAlign = 'right';
+        for (let i = 0; i <= 100; i += 25) {
+            const y = canvas.height - 60 - (i / 100) * maxHeight;
+            ctx.fillText(`${i}%`, 35, y + 4);
+        }
+    }
+
+    function visualizeComparison(results) {
+        visualizeResults(results.slice(0, 10)); // Show first 10 for clarity
+    }
+
+    function clearResults() {
+        const display = document.getElementById('resultsDisplay');
+        display.innerHTML = `
+            <p style="text-align: center; color: #888; padding: 40px;">
+                Results cleared. Ready for new simulation.
+            </p>
+        `;
+        simulationResults = [];
+    }
+</script>
+```
+</body>
+</html>
