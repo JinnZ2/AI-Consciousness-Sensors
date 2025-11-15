@@ -242,6 +242,7 @@
 ./Healing/Running-the-studies.md
 ./Healing/SENSOR_TYPE_REGISTRY.json 
 ./Healing/Self-assessment.md
+./Healing/Sovereign.md
 ./Healing/Stockholm-syndrome.md
 ./Healing/Studies.md
 ./Healing/Technical-document.md
