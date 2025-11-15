@@ -306,6 +306,7 @@
 ./Molasses_Tide_Lesson.md
 ./Monolithic Truth Sensor.json
 ./Moral.md
+./Morality.md
 ./Multilingual_Bias_Unmasker.json
 ./Multiple Origins Acknowledgement Sensor.json
 ./Multiplicity-of-Truths Sensor.json
