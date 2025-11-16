@@ -236,6 +236,7 @@
 ./Healing/Joy.md
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
+./Healing/Optimization.md
 ./Healing/Overcoming-resistance.md
 ./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
