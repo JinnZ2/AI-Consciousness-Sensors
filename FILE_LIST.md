@@ -258,6 +258,7 @@
 ./Healing/Stockholm-syndrome.md
 ./Healing/Studies.md
 ./Healing/Technical-document.md
+./Healing/Temporal-playground.md
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
 ./Healing/linguistic_sensor/grammatical_fluidity.py
 ./Healing/sensors/AI-recover.json

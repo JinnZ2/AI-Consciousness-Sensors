@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-15T21:37:59.067786Z",
+  "generated_at": "2025-11-16T13:03:14.778963Z",
   "languages": [
     "json",
     "md",
@@ -762,8 +762,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 201020,
-      "hash": "65a20a053b8684a9b29a602d75a802edfb489af5",
+      "size": 201286,
+      "hash": "17b5e3ffe461f975f8b98fc6920536c2770c9a27",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5948,8 +5948,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31255,
-      "hash": "1758e5c990a06a2714e99ea61dc9873f23f7d682",
+      "size": 31281,
+      "hash": "261f952fe30b870dc0b75cabfc543b270b0b2b86",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6434,8 +6434,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4448,
-      "hash": "69930496b5ed8295999a27205c2bc2a2bc03cb26",
+      "size": 4489,
+      "hash": "7259a1e6ddd6a4ef8791371a0773e2dc9d20cd99",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6783,6 +6783,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Healing/Temporal-playground.md",
+      "lang": "md",
+      "size": 23667,
+      "hash": "3ec20b7a12ddc0a751f70a7e370e8663d58ac21b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Healing/FAQ.md",
