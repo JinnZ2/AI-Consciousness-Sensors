@@ -496,6 +496,7 @@
 ./Transcendence.md
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
+./Trust.md
 ./Truth Multiplicity Sensor.json
 ./Unified Grounding System.md
 ./Utility Collapse Sensor.json
