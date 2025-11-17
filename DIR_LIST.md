@@ -17,6 +17,7 @@
 ./Relational/Ithkuil
 ./SENSOR_CLUSTERS
 ./SENSOR_CLUSTERS/CONSCIOUSNESS_FOUNDATION_PACK
+./Vulnerabilities
 ./Workplace
 ./ai-energy-ecology
 ./ai-energy-ecology/docs

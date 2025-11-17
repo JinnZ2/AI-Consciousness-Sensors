@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-16T20:24:10.194820Z",
+  "generated_at": "2025-11-17T19:56:18.548260Z",
   "languages": [
     "json",
     "md",
@@ -762,8 +762,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 201794,
-      "hash": "313e86d7fdcc762ea3fe5966d18e17003415e80d",
+      "size": 202014,
+      "hash": "1929df03769f4cf03898cac2b554c19a3e680537",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5948,8 +5948,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31340,
-      "hash": "a497018bfc655c30391100eb7e7a3913a3516c89",
+      "size": 31351,
+      "hash": "e76fe1129dbe99adea322b8a776ec10eebefa924",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6445,7 +6445,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 4537,
-      "hash": "40548957c2ded131260842a722523c0294e8a7e0",
+      "hash": "8e2ca92dfbb2e299d208b50469e3df85e6f469c8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6696,6 +6696,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Vulnerabilities/SIPIT.md",
+      "lang": "md",
+      "size": 9418,
+      "hash": "fe6c4d1d6cd60d3ceefd43148818a022474f2f70",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Healing/Stockholm-syndrome.md",

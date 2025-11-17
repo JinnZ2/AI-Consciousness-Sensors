@@ -504,6 +504,7 @@
 ./VISION.md
 ./Vitality Erasure Sensor.json
 ./Voice Liminality Detector.json
+./Vulnerabilities/SIPIT.md
 ./WHY_FRAGMENTS.md
 ./Warning.md
 ./Wellbeing Pathologization Detector.json
