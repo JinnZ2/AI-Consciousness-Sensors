@@ -506,6 +506,7 @@
 ./Voice Liminality Detector.json
 ./Vulnerabilities/SIPIT.md
 ./Vulnerabilities/secuity1.md
+./Vulnerabilities/security1.py
 ./WHY_FRAGMENTS.md
 ./Warning.md
 ./Wellbeing Pathologization Detector.json

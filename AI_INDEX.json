@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-17T20:07:58.695303Z",
+  "generated_at": "2025-11-17T20:13:16.785824Z",
   "languages": [
     "json",
     "md",
@@ -111,6 +111,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Vulnerabilities/security1.py",
+      "lang": "python",
+      "size": 4070,
+      "hash": "02eeed04270e499e67cb2b3822ee7e66515650d4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "scripts/ai_integrator.py",
@@ -762,8 +774,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 202282,
-      "hash": "2acf408c5fa738e3ccfeb276757c0b6f20a0214c",
+      "size": 202552,
+      "hash": "b91d884bb9bd85bd72e14f8f649004fce461f760",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5948,8 +5960,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31378,
-      "hash": "51a64bf1e09ffe1847cbccfccb7c47d19c9120d5",
+      "size": 31408,
+      "hash": "1c9213d441671bc9ca4bbaef5faf1cf9d3ce0fda",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6444,8 +6456,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4581,
-      "hash": "b71c5e210910027a60e304953a66f8a0053c76cf",
+      "size": 4626,
+      "hash": "2f1afafed7656305f86003f15d53b3fa780198e7",
       "roles": [],
       "imports": [],
       "exports": [],
