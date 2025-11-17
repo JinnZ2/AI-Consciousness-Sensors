@@ -505,6 +505,7 @@
 ./Vitality Erasure Sensor.json
 ./Voice Liminality Detector.json
 ./Vulnerabilities/SIPIT.md
+./Vulnerabilities/closed_loop_defense.md
 ./Vulnerabilities/secuity1.md
 ./Vulnerabilities/security1.py
 ./WHY_FRAGMENTS.md

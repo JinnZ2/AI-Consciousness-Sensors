@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-17T20:13:16.785824Z",
+  "generated_at": "2025-11-17T20:32:04.953829Z",
   "languages": [
     "json",
     "md",
@@ -774,8 +774,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 202552,
-      "hash": "b91d884bb9bd85bd72e14f8f649004fce461f760",
+      "size": 202826,
+      "hash": "59f1dade3fc361aeca28fa69698fc1544f3f33d0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5960,8 +5960,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31408,
-      "hash": "1c9213d441671bc9ca4bbaef5faf1cf9d3ce0fda",
+      "size": 31439,
+      "hash": "3458561c12026e8a6573a364ac685063cbf4f566",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6456,8 +6456,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4626,
-      "hash": "2f1afafed7656305f86003f15d53b3fa780198e7",
+      "size": 4672,
+      "hash": "d3ab9f747c95529a28d0e0467f30f47f0b6c924a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6731,6 +6731,18 @@
       "exports": [],
       "hotspots": [
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Vulnerabilities/closed_loop_defense.md",
+      "lang": "md",
+      "size": 21469,
+      "hash": "7b7e68191338ea1e4becf986ee2331376455ba63",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
