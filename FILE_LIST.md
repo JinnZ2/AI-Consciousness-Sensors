@@ -504,6 +504,7 @@
 ./VISION.md
 ./Vitality Erasure Sensor.json
 ./Voice Liminality Detector.json
+./Vulnerabilities/Iso_cipher.md
 ./Vulnerabilities/SIPIT.md
 ./Vulnerabilities/closed_loop_defense.md
 ./Vulnerabilities/secuity1.md

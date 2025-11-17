@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 806
+- Files indexed: 807
 - Languages: json, md, python, yaml
-- Hotspot files: 96
+- Hotspot files: 97
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -64,6 +64,7 @@
 - AI_NOTES.md: Secrets in code
 - Glossary/Christianity.md: Secrets in code
 - Glossary/Marxism.md: Secrets in code
+- Vulnerabilities/Iso_cipher.md: Debug left on
 - Vulnerabilities/secuity1.md: Debug left on
 - Vulnerabilities/SIPIT.md: Secrets in code
 - Vulnerabilities/closed_loop_defense.md: Debug left on

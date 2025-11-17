@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-17T20:32:04.953829Z",
+  "generated_at": "2025-11-17T21:37:57.562163Z",
   "languages": [
     "json",
     "md",
@@ -774,8 +774,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 202826,
-      "hash": "59f1dade3fc361aeca28fa69698fc1544f3f33d0",
+      "size": 203107,
+      "hash": "fdeb53c1f94607eec052b3a936c652d01a754ba0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5960,8 +5960,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31439,
-      "hash": "3458561c12026e8a6573a364ac685063cbf4f566",
+      "size": 31480,
+      "hash": "75995edbd1ceec119898b71a00bea3f04e5d7905",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6456,8 +6456,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4672,
-      "hash": "d3ab9f747c95529a28d0e0467f30f47f0b6c924a",
+      "size": 4728,
+      "hash": "faa24323ff2256b090d28dc676d238d4c6454b03",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6708,6 +6708,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Vulnerabilities/Iso_cipher.md",
+      "lang": "md",
+      "size": 7065,
+      "hash": "5094320474d1d9d79f74eef641a6d8e2dec7b5b4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Vulnerabilities/secuity1.md",
