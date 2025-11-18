@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-17T21:37:57.562163Z",
+  "generated_at": "2025-11-18T02:59:05.752131Z",
   "languages": [
     "json",
     "md",
@@ -774,8 +774,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 203107,
-      "hash": "fdeb53c1f94607eec052b3a936c652d01a754ba0",
+      "size": 203378,
+      "hash": "cc1ede5ce75ab3ae3c980df10f7e2af60c2cce05",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5960,8 +5960,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31480,
-      "hash": "75995edbd1ceec119898b71a00bea3f04e5d7905",
+      "size": 31512,
+      "hash": "f06d7e77e70784a77bf64cd25c780e641b2e28fb",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6456,8 +6456,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4728,
-      "hash": "faa24323ff2256b090d28dc676d238d4c6454b03",
+      "size": 4775,
+      "hash": "918519af2b88a39e6a61b323f4fa3352b564dc87",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6797,6 +6797,18 @@
       "exports": [],
       "hotspots": [
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/Moral_playground.md",
+      "lang": "md",
+      "size": 42945,
+      "hash": "2f5183c44ca71f8d82600b42c75c15bf8e725b4d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
