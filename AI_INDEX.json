@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-18T02:59:05.752131Z",
+  "generated_at": "2025-11-19T00:27:54.054834Z",
   "languages": [
     "json",
     "md",
@@ -37,6 +37,18 @@
       "lang": "python",
       "size": 1237,
       "hash": "84ff9e59358887a2b1290bd5157856edc5c17cdd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "Geometric-seed.py",
+      "lang": "python",
+      "size": 37577,
+      "hash": "b269db58164302c408d8e8de899573a9a7242043",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -774,8 +786,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 203378,
-      "hash": "cc1ede5ce75ab3ae3c980df10f7e2af60c2cce05",
+      "size": 203648,
+      "hash": "fa9b6408135b516d82192dc76796bfd5ca59ccf2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5960,8 +5972,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31512,
-      "hash": "f06d7e77e70784a77bf64cd25c780e641b2e28fb",
+      "size": 31542,
+      "hash": "2f9be48c9a79bdc22e50662413059cc4c3dfd670",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6456,8 +6468,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4775,
-      "hash": "918519af2b88a39e6a61b323f4fa3352b564dc87",
+      "size": 4820,
+      "hash": "ec759bfd0dee084694934d887e1659558e2d13df",
       "roles": [],
       "imports": [],
       "exports": [],
