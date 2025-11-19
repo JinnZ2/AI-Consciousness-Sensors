@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-19T15:09:39.810656Z",
+  "generated_at": "2025-11-19T19:50:39.774805Z",
   "languages": [
     "json",
     "md",
@@ -13,6 +13,18 @@
       "lang": "python",
       "size": 12380,
       "hash": "d6b8a8bc73c3626e9dd713d6faab44528686d871",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "Efficiency-waste-score.py",
+      "lang": "python",
+      "size": 31970,
+      "hash": "ec79b712fc20ede5db3fb49b21bf8fcf67358b7e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -796,8 +808,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 204425,
-      "hash": "a41adfea5861d5f8db5c05909c0013ff0549aaf5",
+      "size": 204653,
+      "hash": "0d14adf7617bd06f0aa9fc825b769f2472ceee95",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5982,8 +5994,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31599,
-      "hash": "5f9c21b99bd1e84f54184f75731cbac66457bd6d",
+      "size": 31615,
+      "hash": "16606c6a42bcd0f77db0090e428dae9d28eedf78",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6489,7 +6501,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 4910,
-      "hash": "00a0fde1af7f6176081a4ab66261636b17f30555",
+      "hash": "2288be8004548c261bd6b005a13f333970d9164b",
       "roles": [],
       "imports": [],
       "exports": [],

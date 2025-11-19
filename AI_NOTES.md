@@ -1,10 +1,11 @@
 # AI Notes
-- Files indexed: 812
+- Files indexed: 813
 - Languages: json, md, python, yaml
-- Hotspot files: 100
+- Hotspot files: 101
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
+- Efficiency-waste-score.py: Debug left on
 - audit_repo.py: Debug left on
 - audit_hierarchy.py: Debug left on
 - Geometric-seed.py: Debug left on

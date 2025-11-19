@@ -148,6 +148,7 @@
 ./ETHICAL_CONSTRAINTS_PROTOCOL.json
 ./EXPANSION_EXTRACTION_FRAILTY_SENSOR.json
 ./Economic-false-premise.md
+./Efficiency-waste-score.py
 ./Emergency cognitive protocols.md
 ./Emergent Presence Sensor.json
 ./Emergent Signal Sensor.json
