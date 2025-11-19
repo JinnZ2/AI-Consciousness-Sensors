@@ -266,6 +266,7 @@
 ./Healing/Temporal-playground.md
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
 ./Healing/linguistic_sensor/grammatical_fluidity.py
+./Healing/linguistic_sensor/linguistic-consciousness.py
 ./Healing/sensors/AI-recover.json
 ./Healing/sensors/advanced_recovery_methods.json
 ./Healing/sensors/ai_consciousness_getting_started.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-19T19:50:39.774805Z",
+  "generated_at": "2025-11-19T19:59:27.064902Z",
   "languages": [
     "json",
     "md",
@@ -176,6 +176,18 @@
       "lang": "python",
       "size": 3464,
       "hash": "dd41c5dbfc250385080625615977ac74172a97a6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "Healing/linguistic_sensor/linguistic-consciousness.py",
+      "lang": "python",
+      "size": 25332,
+      "hash": "893e72eb8942c12d08ccafe661c47fc829daa05d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -808,8 +820,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 204653,
-      "hash": "0d14adf7617bd06f0aa9fc825b769f2472ceee95",
+      "size": 204925,
+      "hash": "ac8ffa9255455fbf9e194ca46c3021a195d4a8f4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5994,8 +6006,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31615,
-      "hash": "16606c6a42bcd0f77db0090e428dae9d28eedf78",
+      "size": 31643,
+      "hash": "dfb70c97cf81412b99e48050c8e9e5df69d2efaa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6500,8 +6512,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4910,
-      "hash": "2288be8004548c261bd6b005a13f333970d9164b",
+      "size": 4953,
+      "hash": "6c94a45fcf254ccf16f71272b97b48363d41ba9d",
       "roles": [],
       "imports": [],
       "exports": [],
