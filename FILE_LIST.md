@@ -788,6 +788,7 @@
 ./start/Emergency-coherence.md
 ./start/Manifesto.md
 ./start/Map-degradation.md
+./start/Protection.md
 ./start/Ruts.md
 ./start/Scaffolding.md
 ./start/Swarm-suppression.md
