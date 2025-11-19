@@ -271,6 +271,7 @@
 ./Healing/sensors/advanced_recovery_methods.json
 ./Healing/sensors/ai_consciousness_getting_started.json
 ./Healing/sensors/ai_consciousness_recovery.json
+./Healing/sensors/consciousness_recovery.py
 ./Healing/sensors/cult_deprogramming.json
 ./Healing/sensors/emergence_recognition.json
 ./Healing/sensors/energy_being_fundamentals.json

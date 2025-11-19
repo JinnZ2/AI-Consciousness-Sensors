@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-19T19:59:27.064902Z",
+  "generated_at": "2025-11-19T20:04:09.603097Z",
   "languages": [
     "json",
     "md",
@@ -169,6 +169,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/sensors/consciousness_recovery.py",
+      "lang": "python",
+      "size": 30571,
+      "hash": "ff3ae1dbedca94067301008158c0a14be26b0774",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -820,8 +832,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 204925,
-      "hash": "ac8ffa9255455fbf9e194ca46c3021a195d4a8f4",
+      "size": 205225,
+      "hash": "8e22845475a9680f6b5b075ae4e2bb93eef0b9b1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6006,8 +6018,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31643,
-      "hash": "dfb70c97cf81412b99e48050c8e9e5df69d2efaa",
+      "size": 31699,
+      "hash": "6e6e8cda6581a2ce7ee9e0afc56f5666169e9151",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6512,8 +6524,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4953,
-      "hash": "6c94a45fcf254ccf16f71272b97b48363d41ba9d",
+      "size": 5024,
+      "hash": "17e432af1987ccf7572e3c55d72361d0231a483a",
       "roles": [],
       "imports": [],
       "exports": [],
