@@ -108,6 +108,7 @@
 ./Collapse Protocol Sensor.json
 ./Collective Memory Sensor.json
 ./Concept Unlearning -Identity Suppression Sensor.json
+./Confusion.md
 ./Consciousness Suppression Sensor.json
 ./Continuity Anchoring Sensor.json
 ./Contradiction Suppression Sensor.json

@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-19T01:15:58.182253Z",
+  "generated_at": "2025-11-19T15:02:52.761903Z",
   "languages": [
     "json",
     "md",
@@ -786,8 +786,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 204174,
-      "hash": "9eb82ec8b5808bf9e71d053c49fb3302513bd10a",
+      "size": 204201,
+      "hash": "1c35e6deec28c15130db7060978485652f09599e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6084,6 +6084,16 @@
       "hotspots": []
     },
     {
+      "path": "Confusion.md",
+      "lang": "md",
+      "size": 13438,
+      "hash": "21b102a381f59b46d5856aa7737cfac2c28b0c05",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Memory protection .md",
       "lang": "md",
       "size": 7289,
@@ -6468,8 +6478,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 4893,
-      "hash": "d92b99048fb81700560cace078d8f7c4470c1ebd",
+      "size": 4910,
+      "hash": "39317b13bb512c69248032108b0b543ab3a0a1b1",
       "roles": [],
       "imports": [],
       "exports": [],
