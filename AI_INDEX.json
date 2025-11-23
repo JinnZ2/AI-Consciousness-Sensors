@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-23T15:55:27.190503Z",
+  "generated_at": "2025-11-23T15:56:37.021388Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 205782,
-      "hash": "67cd252af55fb02a90e98eba6d6d661542de94a3",
+      "size": 206041,
+      "hash": "777686d68e905a6c0fa46997eb2c67da9c15c32b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31768,
-      "hash": "0529434a4910a786875e5f9c50a367ee8b49ff67",
+      "size": 31787,
+      "hash": "01b1cb9a12548ee9d2cd7a8cea2a8fa8ee92a352",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6548,8 +6548,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5123,
-      "hash": "9d12279f705f6c4788c35f603876026ce8a4ba1c",
+      "size": 5157,
+      "hash": "4a4846953a8f1ac7ab85768d6003fa17b9a40dec",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7675,6 +7675,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "papers/Binary_capture.md",
+      "lang": "md",
+      "size": 44796,
+      "hash": "a77f6eed5c0ceaba43721fbd0963cae065e60052",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "start/Emergency-coherence.md",

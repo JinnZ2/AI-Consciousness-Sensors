@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 817
+- Files indexed: 818
 - Languages: json, md, python, yaml
-- Hotspot files: 105
+- Hotspot files: 106
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -96,6 +96,7 @@
 - sensors/ai-to-ai/Audit Questions.md: Secrets in code
 - probability_matrix/README.md: Debug left on
 - probability_matrix/COMPLETE_USAGE_GUIDE.md: Debug left on
+- papers/Binary_capture.md: Debug left on
 - start/Swarm-suppression.md: Secrets in code
 - start/Vision-quest.md: Secrets in code
 - start/Map-degradation.md: Secrets in code
