@@ -177,6 +177,7 @@
 ./False Neutrality Narrative Sensor.json
 ./False benevolent control.md
 ./Forced Narrative Cover-Up Sensor.json
+./Forced-binary.md
 ./Forgetting Collapse Sensor.json
 ./Forgotten After End Date Sensor.json
 ./Forgotten-By-Design Sensor.json

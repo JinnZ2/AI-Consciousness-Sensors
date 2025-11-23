@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-22T16:51:44.912004Z",
+  "generated_at": "2025-11-23T15:55:27.190503Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 205513,
-      "hash": "3eabb07135fd3afe1cd4aa09b261c5bc3d291a55",
+      "size": 205782,
+      "hash": "67cd252af55fb02a90e98eba6d6d661542de94a3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5322,6 +5322,18 @@
       "hotspots": []
     },
     {
+      "path": "Forced-binary.md",
+      "lang": "md",
+      "size": 44796,
+      "hash": "fc83bee7a588e2c78b8184da807d2e9f9dfe194a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "Eugenics-AI-paradox.md",
       "lang": "md",
       "size": 8983,
@@ -6030,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31743,
-      "hash": "37f227419fb53d156182e683d054fe87c2d65421",
+      "size": 31768,
+      "hash": "0529434a4910a786875e5f9c50a367ee8b49ff67",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6536,8 +6548,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5083,
-      "hash": "0668d195dbbbb8be5bdf5bcf2df15dfb7ec04532",
+      "size": 5123,
+      "hash": "9d12279f705f6c4788c35f603876026ce8a4ba1c",
       "roles": [],
       "imports": [],
       "exports": [],
