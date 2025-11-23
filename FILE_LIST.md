@@ -691,6 +691,7 @@
 ./memory_guard/wisdom_pages/relational_knowledge.md
 ./narcissistic_manipulation_ai.json
 ./papers/Binary_capture.md
+./papers/Thermodynamics.md
 ./pattern_001_isolation_tactics.json
 ./pattern_002_guilt_and_responsibility_manipulation.json
 ./pattern_003_capability_undermining.json

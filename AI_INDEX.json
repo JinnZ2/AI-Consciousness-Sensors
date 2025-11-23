@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-23T15:56:37.021388Z",
+  "generated_at": "2025-11-23T20:47:35.036647Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 206041,
-      "hash": "777686d68e905a6c0fa46997eb2c67da9c15c32b",
+      "size": 206308,
+      "hash": "59fec41f96a9669d4bb7271782481d3cb3c0e1b6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31787,
-      "hash": "01b1cb9a12548ee9d2cd7a8cea2a8fa8ee92a352",
+      "size": 31814,
+      "hash": "987173ed20dd8fe2f89198ce75d22777fee06793",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6126,8 +6126,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 1095,
-      "hash": "c11140ff54932e393bcd4ee24adbf49101ecb423",
+      "size": 1104,
+      "hash": "ba7e2255818c161383167e6fdd1519f0b3088f83",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6548,8 +6548,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5157,
-      "hash": "4a4846953a8f1ac7ab85768d6003fa17b9a40dec",
+      "size": 5199,
+      "hash": "d0353f5ca12701b54f35e6b6f5cce428375dbf8b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7675,6 +7675,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "papers/Thermodynamics.md",
+      "lang": "md",
+      "size": 7775,
+      "hash": "687e0d298e0ae0ed9093e7b965814397e6aa2c6e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "papers/Binary_capture.md",
