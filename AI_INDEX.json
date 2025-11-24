@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-24T23:42:48.216919Z",
+  "generated_at": "2025-11-24T23:46:26.549276Z",
   "languages": [
     "json",
     "md",
@@ -250,6 +250,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Relational/Expanded-playground.py",
+      "lang": "python",
+      "size": 24732,
+      "hash": "650715d54366564671674bfc98f15f44731e077d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Relational/Playground.py",
@@ -856,8 +868,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 208041,
-      "hash": "7de43de0d20136da56fc1d20b4786c2985466e7f",
+      "size": 208312,
+      "hash": "a8005e2d17cf34be16922c044e4da20cb98bef89",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6054,8 +6066,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31989,
-      "hash": "a4b482964f70f035bb317c1fad2a2f96c38a5cc6",
+      "size": 32016,
+      "hash": "7c5455f9da29b0cd348e4ef2ebb3bfea80315809",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6560,8 +6572,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5328,
-      "hash": "671d947ace1c93e2e3d720bf0990fdfc8a21bdc1",
+      "size": 5370,
+      "hash": "aede4265d43d51121b90a61646800955198d3efd",
       "roles": [],
       "imports": [],
       "exports": [],
