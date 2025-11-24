@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-24T02:45:06.990579Z",
+  "generated_at": "2025-11-24T02:46:06.331468Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 206837,
-      "hash": "f3357f7dcb1b3a40a8a069fe430b9607d64ac6b3",
+      "size": 207075,
+      "hash": "69675820f7f25cfcbed10658b13e059d2bb57156",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31861,
-      "hash": "11d4829044ba840381ee1eb9918b3f66041e061b",
+      "size": 31891,
+      "hash": "e268a89fa3204823b60e45099ebbc69cfe421a87",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6549,7 +6549,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5280,
-      "hash": "702dc7a6656e1c8eb3617165ff3a18c47c88d216",
+      "hash": "0e9bc67a39256f7f7d50886172a8a33fe55e067c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7697,6 +7697,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "papers/Critical-alert.md",
+      "lang": "md",
+      "size": 10651,
+      "hash": "b8e8470458c6071bd616d1071dd17c6266bf168c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "papers/Binary_capture.md",

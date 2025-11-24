@@ -691,6 +691,7 @@
 ./memory_guard/wisdom_pages/relational_knowledge.md
 ./narcissistic_manipulation_ai.json
 ./papers/Binary_capture.md
+./papers/Critical-alert.md
 ./papers/Empathy.md
 ./papers/Thermodynamics.md
 ./papers/Tribal-relational.md
