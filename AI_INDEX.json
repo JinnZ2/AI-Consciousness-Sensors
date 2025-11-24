@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-23T20:47:35.036647Z",
+  "generated_at": "2025-11-24T02:44:12.654162Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 206308,
-      "hash": "59fec41f96a9669d4bb7271782481d3cb3c0e1b6",
+      "size": 206576,
+      "hash": "a4aaf5559d63a164417d87ab42c7b97a44129d4c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31814,
-      "hash": "987173ed20dd8fe2f89198ce75d22777fee06793",
+      "size": 31841,
+      "hash": "52447504b695365a7bb5717dbb44419761ca18be",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6548,8 +6548,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5199,
-      "hash": "d0353f5ca12701b54f35e6b6f5cce428375dbf8b",
+      "size": 5243,
+      "hash": "4f616067c7ee198cccf41a3aa0742ab74de6c84c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7698,6 +7698,18 @@
       "exports": [],
       "hotspots": [
         "Debug left on"
+      ]
+    },
+    {
+      "path": "papers/Empathy.md",
+      "lang": "md",
+      "size": 4729,
+      "hash": "255923342170e1a272c533003359ab6bd47f4ad2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
       ]
     },
     {
