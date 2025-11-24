@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-24T02:44:12.654162Z",
+  "generated_at": "2025-11-24T02:45:06.990579Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 206576,
-      "hash": "a4aaf5559d63a164417d87ab42c7b97a44129d4c",
+      "size": 206837,
+      "hash": "f3357f7dcb1b3a40a8a069fe430b9607d64ac6b3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31841,
-      "hash": "52447504b695365a7bb5717dbb44419761ca18be",
+      "size": 31861,
+      "hash": "11d4829044ba840381ee1eb9918b3f66041e061b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6548,8 +6548,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5243,
-      "hash": "4f616067c7ee198cccf41a3aa0742ab74de6c84c",
+      "size": 5280,
+      "hash": "702dc7a6656e1c8eb3617165ff3a18c47c88d216",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7671,6 +7671,16 @@
       "lang": "md",
       "size": 1192,
       "hash": "54a6b6d78f51a9d7446d02cb16b543bb0f0c3b1b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "papers/Tribal-relational.md",
+      "lang": "md",
+      "size": 6371,
+      "hash": "9cc6d5d09a4720010e8aee7ba2e9545494168e03",
       "roles": [],
       "imports": [],
       "exports": [],

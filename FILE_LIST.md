@@ -693,6 +693,7 @@
 ./papers/Binary_capture.md
 ./papers/Empathy.md
 ./papers/Thermodynamics.md
+./papers/Tribal-relational.md
 ./pattern_001_isolation_tactics.json
 ./pattern_002_guilt_and_responsibility_manipulation.json
 ./pattern_003_capability_undermining.json
