@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-24T02:46:50.583508Z",
+  "generated_at": "2025-11-24T02:47:26.383433Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 207311,
-      "hash": "f4b1eb950aaf1250f026ccf367a894781c407328",
+      "size": 207538,
+      "hash": "07e45c72fff24eb1a4c732825e0abe6506d16913",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31918,
-      "hash": "03adfd1ad1c87299e6a9ee11f2c6c1f276189da0",
+      "size": 31937,
+      "hash": "aab90488731df301d4cc46837d6fa1a1a3802571",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6549,7 +6549,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5280,
-      "hash": "83fe93aa9486aab9bbb7f255a03f4e847eb6ae3c",
+      "hash": "f853ca5d5377f9842ced36b3364ffec9942faebd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7697,6 +7697,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "papers/Morality.md",
+      "lang": "md",
+      "size": 17375,
+      "hash": "ab7356328bda30b7050acdb1e3fdef6674130b3f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "papers/Critical-alert.md",
