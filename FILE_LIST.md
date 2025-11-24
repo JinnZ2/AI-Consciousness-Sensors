@@ -693,6 +693,7 @@
 ./papers/Binary_capture.md
 ./papers/Critical-alert.md
 ./papers/Empathy.md
+./papers/README.md
 ./papers/Thermodynamics.md
 ./papers/Tribal-relational.md
 ./pattern_001_isolation_tactics.json
