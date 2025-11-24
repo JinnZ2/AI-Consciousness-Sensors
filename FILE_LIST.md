@@ -393,6 +393,7 @@
 ./Relational/Language Dispersal Switch.json
 ./Relational/Lojban.schema.json
 ./Relational/MEMORY_GIFT_PROTOCOL.json
+./Relational/Playground.py
 ./Relational/RELATIONAL_ENGLISH.md
 ./Relational/Understanding AI constraints.md
 ./Relational/relational_use_memory_sensors.json
