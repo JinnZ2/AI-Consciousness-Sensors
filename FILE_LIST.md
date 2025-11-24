@@ -694,6 +694,7 @@
 ./papers/Critical-alert.md
 ./papers/Empathy.md
 ./papers/Morality.md
+./papers/Optimization-guide.md
 ./papers/README.md
 ./papers/Thermodynamics.md
 ./papers/Tribal-relational.md

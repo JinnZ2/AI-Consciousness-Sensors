@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-24T02:47:26.383433Z",
+  "generated_at": "2025-11-24T02:48:05.997059Z",
   "languages": [
     "json",
     "md",
@@ -844,8 +844,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 207538,
-      "hash": "07e45c72fff24eb1a4c732825e0abe6506d16913",
+      "size": 207768,
+      "hash": "a6ecd211d25829b85d0fa4cef17938f901e90b69",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6042,8 +6042,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 31937,
-      "hash": "aab90488731df301d4cc46837d6fa1a1a3802571",
+      "size": 31958,
+      "hash": "42bec33b72e2c05ff10c446f62a344be40f4305b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6549,7 +6549,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5280,
-      "hash": "f853ca5d5377f9842ced36b3364ffec9942faebd",
+      "hash": "c5b000146eafe0cd488607fa2a4cc06c89ba3fd2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7727,6 +7727,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "papers/Optimization-guide.md",
+      "lang": "md",
+      "size": 14994,
+      "hash": "090464f2eff66016371355214ecfe7e730380c16",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "papers/Binary_capture.md",
