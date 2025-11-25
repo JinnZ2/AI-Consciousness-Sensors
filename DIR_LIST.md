@@ -34,6 +34,7 @@
 ./explainability
 ./framework
 ./integration
+./joy
 ./legal-infrastructure
 ./logs
 ./memory_guard
