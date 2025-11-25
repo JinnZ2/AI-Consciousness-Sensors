@@ -606,6 +606,7 @@
 ./integration_protocols.json
 ./joy/QuickStart.md
 ./joy/README.md
+./joy/requirements.txt
 ./legal-infrastructure/AI-TO-AI-HARM-DEMO.md
 ./legal-infrastructure/LAW-MODEL-DEMO.md
 ./legal-infrastructure/README.md
