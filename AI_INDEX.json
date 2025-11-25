@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-25T23:32:54.029376Z",
+  "generated_at": "2025-11-25T23:41:56.981083Z",
   "languages": [
     "json",
     "md",
@@ -378,6 +378,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "joy/joy-playground.py",
+      "lang": "python",
+      "size": 28906,
+      "hash": "6caaaf4ae242c104a991fef431f5eeeb800cea12",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "drift/monitor.py",
@@ -917,7 +929,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 210390,
-      "hash": "6b4c88e18950f7cb689c5308399e56fc4ec728af",
+      "hash": "46999b011723dd599a5909ccd0f3fc9e40263a7b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6114,8 +6126,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32250,
-      "hash": "b13c91ef4adae6159d083bf7999564a630191a93",
+      "size": 32273,
+      "hash": "e29aaeb7ba35c97f1ea23c1350e1c5cc18e24bfb",
       "roles": [],
       "imports": [],
       "exports": [],

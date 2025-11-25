@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 834
+- Files indexed: 835
 - Languages: json, md, python, yaml
-- Hotspot files: 115
+- Hotspot files: 116
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -29,6 +29,7 @@
 - probability_matrix/integration_bridge.py: Debug left on
 - probability_matrix/test_physics_protection.py: Debug left on
 - reflections/run_reflections.py: Debug left on
+- joy/joy-playground.py: Debug left on
 - src/score.py: Debug left on
 - DEPENDENCY_DECAY_CURVE.json: Secrets in code
 - Pattern: Tokenization of Resistance Histories.json: Secrets in code
