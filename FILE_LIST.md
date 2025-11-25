@@ -592,6 +592,8 @@
 ./ethics/privacy.py
 ./explainability/tracer.py
 ./framework/Agency.md
+./framework/epistemic-playground.py
+./framework/ontological-playground.py
 ./framework/philosophical-sandbox.py
 ./framework/philosophical.py
 ./framework_integration.py

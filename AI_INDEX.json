@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-25T04:07:31.270840Z",
+  "generated_at": "2025-11-25T04:09:22.459163Z",
   "languages": [
     "json",
     "md",
@@ -159,10 +159,34 @@
       "hotspots": []
     },
     {
+      "path": "framework/epistemic-playground.py",
+      "lang": "python",
+      "size": 15536,
+      "hash": "470d902ed741fea917bb2caa96733eac54d08ab6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "framework/philosophical-sandbox.py",
       "lang": "python",
       "size": 13215,
       "hash": "90e03d4df4e92514fa434e93342936ffdbb86a38",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "framework/ontological-playground.py",
+      "lang": "python",
+      "size": 22416,
+      "hash": "0b9aaf30de5d5d4c4af868409a4c36f4f44434fd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -892,8 +916,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 208822,
-      "hash": "8612f8405008bfb91a8e5279fde62da5669ff1af",
+      "size": 209376,
+      "hash": "bea18882b0c9a319832ab3213fb60686d834fbd8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6090,8 +6114,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32074,
-      "hash": "d9c9823ef9e0c0e8c35a46eb747ffcce2aa6738c",
+      "size": 32140,
+      "hash": "4a88170f957f2e8f7dc6cecbb73b6410e5c26b72",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6596,8 +6620,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5421,
-      "hash": "09419bcc50c1e1fd50fb018d22702be0181fff9e",
+      "size": 5517,
+      "hash": "22f0707e11dffe4c52d7d719637e8ed657eb9f72",
       "roles": [],
       "imports": [],
       "exports": [],
