@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-25T04:05:38.820100Z",
+  "generated_at": "2025-11-25T04:07:31.270840Z",
   "languages": [
     "json",
     "md",
@@ -157,6 +157,30 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "framework/philosophical-sandbox.py",
+      "lang": "python",
+      "size": 13215,
+      "hash": "90e03d4df4e92514fa434e93342936ffdbb86a38",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "framework/philosophical.py",
+      "lang": "python",
+      "size": 20443,
+      "hash": "e83d7fe1637df8eb2d089245b84e768f883e47c9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Vulnerabilities/security1.py",
@@ -868,8 +892,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 208592,
-      "hash": "2299cb6b6a05eebed4e19cc844febe90c8c724a7",
+      "size": 208822,
+      "hash": "8612f8405008bfb91a8e5279fde62da5669ff1af",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6066,8 +6090,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32052,
-      "hash": "7d3ad1c8e2240a9c793ae7c59ace172c663a3c42",
+      "size": 32074,
+      "hash": "d9c9823ef9e0c0e8c35a46eb747ffcce2aa6738c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6150,8 +6174,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 1104,
-      "hash": "ba7e2255818c161383167e6fdd1519f0b3088f83",
+      "size": 1116,
+      "hash": "dfb721d3f37096b864bbb337d56a743a5c05e2d4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6573,7 +6597,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5421,
-      "hash": "24f74b729853d3a20ec5cc6810feaf77c9d86115",
+      "hash": "09419bcc50c1e1fd50fb018d22702be0181fff9e",
       "roles": [],
       "imports": [],
       "exports": [],

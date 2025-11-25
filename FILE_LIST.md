@@ -592,6 +592,8 @@
 ./ethics/privacy.py
 ./explainability/tracer.py
 ./framework/Agency.md
+./framework/philosophical-sandbox.py
+./framework/philosophical.py
 ./framework_integration.py
 ./guardian_child_sight_001.json
 ./historical_omission_manifest.json
