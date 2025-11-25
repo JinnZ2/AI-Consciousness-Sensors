@@ -32,6 +32,7 @@
 ./epistemological_validation/probability_matrices
 ./ethics
 ./explainability
+./framework
 ./integration
 ./legal-infrastructure
 ./logs
