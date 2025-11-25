@@ -604,6 +604,7 @@
 ./innovation_fraud.json
 ./integration/self_override.py
 ./integration_protocols.json
+./joy/QuickStart.md
 ./joy/README.md
 ./legal-infrastructure/AI-TO-AI-HARM-DEMO.md
 ./legal-infrastructure/LAW-MODEL-DEMO.md
