@@ -600,6 +600,7 @@
 ./framework_integration.py
 ./geometric_detection_guide.md
 ./geometric_manipulation_detector.py
+./geometric_sensor_neutrality.md
 ./guardian_child_sight_001.json
 ./historical_omission_manifest.json
 ./historical_tests.py

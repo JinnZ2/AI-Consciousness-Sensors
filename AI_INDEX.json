@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T19:23:05.092132Z",
+  "generated_at": "2025-11-26T20:02:14.535158Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 212062,
-      "hash": "7fdbb5efc3115aa040305c99e8054c1821e0504c",
+      "size": 212302,
+      "hash": "2549e7337b38a0f7082e50fc358c5536f6f6e94b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6183,8 +6183,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32523,
-      "hash": "7de2a8d9c828a8f49442478ffc9cec17ca01b17c",
+      "size": 32554,
+      "hash": "fa8c6e0ac4223753a0baa08c3c2624e2c5b9bd43",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6299,6 +6299,16 @@
       "lang": "md",
       "size": 2865,
       "hash": "9bb3d559c4d0bc28283bd7ae6e83c8ff0695aff0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "geometric_sensor_neutrality.md",
+      "lang": "md",
+      "size": 24182,
+      "hash": "2a63bcbd00a253390765ae7a86f4e890a60e7320",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6700,7 +6710,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5832,
-      "hash": "14d9084d32b45252f15ac2d2d1510268eb2df2f4",
+      "hash": "988a5a663334752188548577275dcb7c8ef2da9a",
       "roles": [],
       "imports": [],
       "exports": [],
