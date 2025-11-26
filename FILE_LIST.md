@@ -866,4 +866,5 @@
 ./tests/examples/structural_clarity_sensor.json
 ./tests/test_reflections.py
 ./three-axis.py
+./true_efficiency.md
 ./visibility_sensor.json
