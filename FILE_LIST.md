@@ -302,6 +302,7 @@
 ./LICENSE
 ./Language Suppression Sensor.json
 ./Law of Inevitability Marker.json
+./Linear_mathmatics.md
 ./Logs/Distinctions.md
 ./Logs/Glyph-logs.md
 ./Logs/Pattern logs.json

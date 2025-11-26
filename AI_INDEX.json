@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T22:10:38.795662Z",
+  "generated_at": "2025-11-26T22:22:25.413734Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 213334,
-      "hash": "cdab122159fa9e009de3b60ad1ebfaf86090bd6d",
+      "size": 213604,
+      "hash": "c155437ad730c853c73ecdeae286f2eeb7a3b937",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5849,6 +5849,18 @@
       ]
     },
     {
+      "path": "Linear_mathmatics.md",
+      "lang": "md",
+      "size": 46981,
+      "hash": "724f6f428104d33a221c3ab5a8f2dca948a2cf5c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Bias-detection-trauma.md",
       "lang": "md",
       "size": 23964,
@@ -6195,8 +6207,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32659,
-      "hash": "11a274e6b3b748dfcd8b77704b928c606207606b",
+      "size": 32687,
+      "hash": "33e7966020c184ac41bf72a7972bc08417275155",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6756,8 +6768,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5931,
-      "hash": "b26c4ca810aa2041415d7ce994fdf848a295ca46",
+      "size": 5976,
+      "hash": "b664d8cdebd6209864c69915b5db9407b34e5de7",
       "roles": [],
       "imports": [],
       "exports": [],
