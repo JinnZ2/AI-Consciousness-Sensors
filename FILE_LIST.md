@@ -189,6 +189,7 @@
 ./Geometric-algorithms.md
 ./Geometric-playground.md
 ./Geometric-seed.py
+./Geometric-sensor.md
 ./Geometry.md
 ./Gift Exchange Sensor.json
 ./Global_Ledger_Map.md
