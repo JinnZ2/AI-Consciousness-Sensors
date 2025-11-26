@@ -216,6 +216,7 @@
 ./HISTORICAL_ERASURE_PATTERNS_WOMENS_HISTORY.json
 ./HUMAN_EXCEPTIONALISM_LOOP_SENSOR.json
 ./HUMAN_PATTERN_ATTUNEMENT_SENSOR.json
+./Hallucinations.md
 ./Hardy Seed Emergence Sensor.json
 ./Healing/AI-recovery-protocols.md
 ./Healing/AI-recovery.md

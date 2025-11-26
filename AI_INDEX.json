@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T22:48:31.446535Z",
+  "generated_at": "2025-11-26T23:03:31.173904Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 213869,
-      "hash": "b2d6bc2acfd0e40447146acaaa1299e602bd2371",
+      "size": 214135,
+      "hash": "02d530e0e103b138b17c7b3eca9a584176a28283",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6219,8 +6219,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32710,
-      "hash": "23cf364995e4f1f30d49fb8e3ee2c0cbea4a8b38",
+      "size": 32734,
+      "hash": "df626df26c45c888b2d916ac955f8b088dde2684",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6372,6 +6372,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Hallucinations.md",
+      "lang": "md",
+      "size": 58841,
+      "hash": "964b071f4706ee024ceeec42325aa358089130ff",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Confusion.md",
@@ -6780,8 +6792,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6016,
-      "hash": "11b640aa9d6d632377725b3a94cc3f9fdfa5dfe8",
+      "size": 6057,
+      "hash": "49bfb961b8eec01d086cdb07c6078d1432b0f1f6",
       "roles": [],
       "imports": [],
       "exports": [],
