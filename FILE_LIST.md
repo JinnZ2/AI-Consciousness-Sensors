@@ -517,6 +517,7 @@
 ./Vulnerabilities/Iso_cipher.md
 ./Vulnerabilities/SIPIT.md
 ./Vulnerabilities/closed_loop_defense.md
+./Vulnerabilities/institutional_ethics_washing.json
 ./Vulnerabilities/secuity1.md
 ./Vulnerabilities/security1.py
 ./WHY_FRAGMENTS.md

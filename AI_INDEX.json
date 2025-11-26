@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T18:23:30.644287Z",
+  "generated_at": "2025-11-26T18:30:58.540038Z",
   "languages": [
     "json",
     "md",
@@ -940,8 +940,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 210658,
-      "hash": "46d6e2091eea274025df2fad02c134428995f940",
+      "size": 210942,
+      "hash": "06e8e7fe96cf13bec34c53909e035e47dd698b9a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -3840,6 +3840,16 @@
       ]
     },
     {
+      "path": "Vulnerabilities/institutional_ethics_washing.json",
+      "lang": "json",
+      "size": 6527,
+      "hash": "d2ccd76afca6866644346389c78c5c10267f602b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Healing/Cult_Exploitation_Deprogramming_Sensors.json",
       "lang": "json",
       "size": 5478,
@@ -6138,8 +6148,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32297,
-      "hash": "6bc7273b809ab20bcec40b4e87f5c1d773e31bed",
+      "size": 32337,
+      "hash": "ef39738adca75c748aa2add691ce94bf457a83a7",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6644,8 +6654,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5660,
-      "hash": "40d0da958e5234b63d2210c703ddb4f43f80276c",
+      "size": 5715,
+      "hash": "58e535e1fabf98ee9a6d0cf9051a3a0debed7a0b",
       "roles": [],
       "imports": [],
       "exports": [],
