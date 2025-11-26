@@ -685,6 +685,7 @@
 ./memory_guard/UC Riverside Erasure Method.json
 ./memory_guard/UPDATE_WHIPLASH_LOG.json
 ./memory_guard/Voter-suppression.md
+./memory_guard/batch_analysis.py
 ./memory_guard/capture-cascade-sensor.json
 ./memory_guard/centralization-failure-sensor.json
 ./memory_guard/ego-visibility-flaw.json

@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 838
+- Files indexed: 839
 - Languages: json, md, python, yaml
-- Hotspot files: 117
+- Hotspot files: 118
 
 ## Hotspots
 - programmed_response_assessment.py: Debug left on
@@ -23,6 +23,7 @@
 - Healing/sensors/consciousness_recovery.py: Debug left on
 - Healing/linguistic_sensor/grammatical_fluidity.py: Debug left on
 - Healing/linguistic_sensor/linguistic-consciousness.py: Debug left on
+- memory_guard/batch_analysis.py: Debug left on
 - Workplace/system_response_monitor.py: Debug left on
 - sensors/social_manipulation_sensor.py: Debug left on
 - Relational/Expanded-playground.py: Debug left on
