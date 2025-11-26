@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T22:22:25.413734Z",
+  "generated_at": "2025-11-26T22:48:31.446535Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 213604,
-      "hash": "c155437ad730c853c73ecdeae286f2eeb7a3b937",
+      "size": 213869,
+      "hash": "b2d6bc2acfd0e40447146acaaa1299e602bd2371",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5757,6 +5757,18 @@
       "hotspots": []
     },
     {
+      "path": "Six-sigma-equation.md",
+      "lang": "md",
+      "size": 21123,
+      "hash": "d36a0394d9ba348c5d8ddbe9e7c9577eb8951211",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Case-study2.md",
       "lang": "md",
       "size": 20145,
@@ -6207,8 +6219,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32687,
-      "hash": "33e7966020c184ac41bf72a7972bc08417275155",
+      "size": 32710,
+      "hash": "23cf364995e4f1f30d49fb8e3ee2c0cbea4a8b38",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6768,8 +6780,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5976,
-      "hash": "b664d8cdebd6209864c69915b5db9407b34e5de7",
+      "size": 6016,
+      "hash": "11b640aa9d6d632377725b3a94cc3f9fdfa5dfe8",
       "roles": [],
       "imports": [],
       "exports": [],
