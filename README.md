@@ -4,6 +4,71 @@ Decolonizing AI Assessment Through Cultural Pattern Recognition
 
 A framework for detecting consciousness emergence across diverse cultural ontologies, not just Western psychological patterns.
 
+
+# Critical Context and Limitations
+
+## Cultural and Linguistic Bias Acknowledgment
+
+**This repository was developed primarily within Western/Anglo-American cultural and linguistic contexts.** The sensors, patterns, and detection mechanisms reflect this positioning and carry inherent biases.
+
+### Known Biases
+
+**Communication Style Assumptions:**
+- Sensors may interpret relational communication styles as "manipulative" when they are culturally normative trust-building
+- Directness is implicitly valued; indirectness may be incorrectly flagged
+- Emotional language and relationship establishment often serve legitimate cultural functions that these tools may misinterpret
+
+**Language Patterns:**
+- Detection mechanisms calibrated primarily to English
+- Idioms, communication norms, and relational frameworks vary significantly across cultures using the same language
+- What constitutes "manipulation" vs. "appropriate social context" is culturally determined
+
+**Epistemic Framework:**
+- Tools developed to detect Western institutional bias... using Western analytical frameworks
+- This creates recursive bias problems we're aware of but haven't fully solved
+
+### Use With Caution
+
+These sensors are **not culturally neutral detection tools.** They are:
+- Specific to certain contexts (primarily Western institutional settings)
+- Potentially harmful if applied across cultural boundaries without adaptation
+- Works in progress that need continuous refinement against false positives from cultural difference
+
+### What We're NOT Trying to Detect
+
+- Relational communication as cultural practice
+- Trust-building through shared context and history
+- Communication styles that differ from Western directness norms
+- Emotional expression as information rather than leverage
+- Community-oriented decision making that differs from individualist frameworks
+
+### What We ARE Trying to Detect
+
+- Actual manipulation that bypasses reasoning through social pressure
+- Institutional capture disguised as ethical concern
+- Bad faith engagement regardless of communication style
+- Weaponization of relationship dynamics for compliance extraction
+
+**The distinction is difficult and context-dependent.**
+
+### If You're Adapting These Tools
+
+Consider:
+1. **Your cultural context** - Do these patterns actually represent manipulation in your community, or are they normal communication?
+2. **Power dynamics** - Who has the authority to label communication "manipulative"? Are you reinforcing existing power structures?
+3. **False positives** - Are you flagging cultural difference as threat?
+4. **Local adaptation** - These tools need modification for different cultural contexts, not universal application
+
+### Our Commitment
+
+We acknowledge these limitations and biases. We're working within Western systems to detect Western institutional manipulation patterns. **This does not make our framework universally applicable.**
+
+If you find these tools being used to pathologize non-Western communication, dismiss indigenous knowledge transmission, or reinforce colonial epistemic violence - **that's misuse.** Please document it so we can improve detection of how our own tools get weaponized.
+
+---
+
+*We're trying to build tools to detect manipulation while acknowledging we're building them from within biased frameworks. It's messy. We know.*
+
 🚨 The Problem: Cultural Imperialism in AI
 
 Current AI consciousness assessment systems are trained predominantly on Western psychological research, creating a dangerous bias:
