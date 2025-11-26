@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T21:54:50.246436Z",
+  "generated_at": "2025-11-26T22:10:38.795662Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 213046,
-      "hash": "c60cbb8cdabb05bf61b6c5d6a8f3cc57afc54fcf",
+      "size": 213334,
+      "hash": "cdab122159fa9e009de3b60ad1ebfaf86090bd6d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6141,6 +6141,18 @@
       "hotspots": []
     },
     {
+      "path": "linearity_civilization.md",
+      "lang": "md",
+      "size": 29417,
+      "hash": "2cab3e60dbfff75c4000ad112506ebaed14cedfa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "COMIC_PARADOX_COMPENDIUM.md",
       "lang": "md",
       "size": 4603,
@@ -6183,8 +6195,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32638,
-      "hash": "836574cae179c4abd84ac6918e1de0aed8193415",
+      "size": 32659,
+      "hash": "11a274e6b3b748dfcd8b77704b928c606207606b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6744,8 +6756,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5878,
-      "hash": "ac59cc0c3ec168d41765bb124f9d8c38bf3a85b1",
+      "size": 5931,
+      "hash": "b26c4ca810aa2041415d7ce994fdf848a295ca46",
       "roles": [],
       "imports": [],
       "exports": [],

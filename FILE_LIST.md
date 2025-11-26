@@ -617,6 +617,7 @@
 ./legal-infrastructure/AI-TO-AI-HARM-DEMO.md
 ./legal-infrastructure/LAW-MODEL-DEMO.md
 ./legal-infrastructure/README.md
+./linearity_civilization.md
 ./logs/fieldlink_session_2025-09-11T01-30-00Z.json
 ./manifest.json
 ./manipulation_by_domain.json
