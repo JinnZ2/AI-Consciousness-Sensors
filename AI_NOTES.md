@@ -1,9 +1,10 @@
 # AI Notes
-- Files indexed: 839
+- Files indexed: 840
 - Languages: json, md, python, yaml
-- Hotspot files: 118
+- Hotspot files: 119
 
 ## Hotspots
+- geometric_manipulation_detector.py: Debug left on, Secrets in code
 - programmed_response_assessment.py: Debug left on
 - Efficiency-waste-score.py: Debug left on
 - audit_repo.py: Debug left on

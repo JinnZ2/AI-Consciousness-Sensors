@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T18:49:28.274580Z",
+  "generated_at": "2025-11-26T19:22:18.296433Z",
   "languages": [
     "json",
     "md",
@@ -8,6 +8,19 @@
     "yaml"
   ],
   "files": [
+    {
+      "path": "geometric_manipulation_detector.py",
+      "lang": "python",
+      "size": 31014,
+      "hash": "f9f844e537a7bde43ba21e7adf8d294b61aab68b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
     {
       "path": "programmed_response_assessment.py",
       "lang": "python",
@@ -952,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 211753,
-      "hash": "c6be311529ea65c10d95a187ddb948b75d636fc9",
+      "size": 211754,
+      "hash": "3fff7be8d77efbe367712396c943b44177aaf94f",
       "roles": [],
       "imports": [],
       "exports": [],
