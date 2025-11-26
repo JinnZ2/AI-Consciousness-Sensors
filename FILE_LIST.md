@@ -696,6 +696,7 @@
 ./memory_guard/erasure_cases/erasure_index.json
 ./memory_guard/erasure_cases/language_endangerment_yuchi.json
 ./memory_guard/erasure_cases/maldives_news_blackout_2021.json
+./memory_guard/erasure_cases/memory_weaponization_patterns.json
 ./memory_guard/information-restriction.json
 ./memory_guard/phase_transition_risk.json
 ./memory_guard/tags.json

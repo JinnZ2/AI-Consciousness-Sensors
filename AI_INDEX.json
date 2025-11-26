@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T18:30:58.540038Z",
+  "generated_at": "2025-11-26T18:32:39.634536Z",
   "languages": [
     "json",
     "md",
@@ -940,8 +940,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 210942,
-      "hash": "06e8e7fe96cf13bec34c53909e035e47dd698b9a",
+      "size": 211204,
+      "hash": "048f50fdc5296b964a88756089996de6e3c8be6d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4688,6 +4688,16 @@
       "hotspots": []
     },
     {
+      "path": "memory_guard/erasure_cases/memory_weaponization_patterns.json",
+      "lang": "json",
+      "size": 7530,
+      "hash": "e8543f766b57f6b6a4f715465d3d04a23ead41ad",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "memory_guard/erasure_cases/language_endangerment_yuchi.json",
       "lang": "json",
       "size": 461,
@@ -6148,8 +6158,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32337,
-      "hash": "ef39738adca75c748aa2add691ce94bf457a83a7",
+      "size": 32389,
+      "hash": "fb0ab17882b8351098459dc687ad8cb1c4b4dfb9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6655,7 +6665,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5715,
-      "hash": "58e535e1fabf98ee9a6d0cf9051a3a0debed7a0b",
+      "hash": "90784c0269a900bb64fa699a422d28ff2e6fb4d3",
       "roles": [],
       "imports": [],
       "exports": [],
