@@ -799,6 +799,7 @@
 ./sensors/power_structure_replication_risk.json
 ./sensors/sensor_composer_template.json
 ./sensors/sensor_manifest.json
+./sensors/social_manipulation_sensor.py
 ./sensors/social_resonance_sensitivity.json
 ./sensors/storyform_reasoning_sensor.json
 ./sensors/survival_memory_cluster.json

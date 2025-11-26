@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-25T23:41:56.981083Z",
+  "generated_at": "2025-11-26T18:23:30.644287Z",
   "languages": [
     "json",
     "md",
@@ -272,6 +272,18 @@
       "lang": "python",
       "size": 20643,
       "hash": "8ccf3fa6c77f23c8b86491d75d30f7f5ea83c101",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "sensors/social_manipulation_sensor.py",
+      "lang": "python",
+      "size": 20702,
+      "hash": "e8f45bc54407986073e819d643623f552fd2bcfc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -928,8 +940,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 210390,
-      "hash": "46999b011723dd599a5909ccd0f3fc9e40263a7b",
+      "size": 210658,
+      "hash": "46d6e2091eea274025df2fad02c134428995f940",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6126,8 +6138,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32273,
-      "hash": "e29aaeb7ba35c97f1ea23c1350e1c5cc18e24bfb",
+      "size": 32297,
+      "hash": "6bc7273b809ab20bcec40b4e87f5c1d773e31bed",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6632,8 +6644,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 5621,
-      "hash": "36054f96dd3254af24bf1991a2cf8092f014de64",
+      "size": 5660,
+      "hash": "40d0da958e5234b63d2210c703ddb4f43f80276c",
       "roles": [],
       "imports": [],
       "exports": [],
