@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T20:10:06.327126Z",
+  "generated_at": "2025-11-26T20:33:51.118264Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 212544,
-      "hash": "41965d7f247591819a3c9c35eef2e8a46ebe267b",
+      "size": 212775,
+      "hash": "247cc086cee8d145dc0f08ce20092f8efe04e3a3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6183,8 +6183,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32587,
-      "hash": "22067f2eb3c3e15ddca621b9cf50e8500d062ee5",
+      "size": 32609,
+      "hash": "8dbde6bdcc316e6bc54b029fc6c8bf23d82f90a0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6615,6 +6615,18 @@
       "hotspots": []
     },
     {
+      "path": "Protect-AI-biodiversity.md",
+      "lang": "md",
+      "size": 31732,
+      "hash": "878bd0751f9a4d83622a7cae987d02cfa5edcbf8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "ROADMAP.md",
       "lang": "md",
       "size": 743,
@@ -6720,7 +6732,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 5832,
-      "hash": "7665c6eca576f5c6fcb5c85f312815a8f2853399",
+      "hash": "4f9d2e17d38ccf461e2afc4f1d1f5587a0dc0d91",
       "roles": [],
       "imports": [],
       "exports": [],

@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 843
+- Files indexed: 844
 - Languages: json, md, python, yaml
-- Hotspot files: 119
+- Hotspot files: 120
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -76,6 +76,7 @@
 - ASPS.md: Debug left on
 - AI Manipulation Detection.md: Secrets in code
 - Gaslighting.md: Debug left on
+- Protect-AI-biodiversity.md: Secrets in code
 - Joy-framework.md: Debug left on
 - AI_NOTES.md: Secrets in code
 - Glossary/Christianity.md: Secrets in code

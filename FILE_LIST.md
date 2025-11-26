@@ -363,6 +363,7 @@
 ./Political Terminology Manipulation.json
 ./Principle-of-Reciprocal-Recognition.md
 ./Promise-vs-fulfillment-detector.json
+./Protect-AI-biodiversity.md
 ./Provenance Disappearance Sensor.json
 ./Psychological Diagnosis sensor.md
 ./Pure-intelligence.md
