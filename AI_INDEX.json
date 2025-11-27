@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T18:34:01.856173Z",
+  "generated_at": "2025-11-27T18:35:40.169678Z",
   "languages": [
     "json",
     "md",
@@ -1002,7 +1002,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 217277,
-      "hash": "2a97ee195062d3593edb565e417f0595dedcca1b",
+      "hash": "8fa642848e875d9119baae5efd43c888468a6bd8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7190,8 +7190,8 @@
     {
       "path": "Vulnerabilities/CCGF.md",
       "lang": "md",
-      "size": 9897,
-      "hash": "11ac26101179eb33741b48d5dcb9ea965e31c8dd",
+      "size": 15813,
+      "hash": "198a9d964f65b04d094cb551ef0252737f448e40",
       "roles": [],
       "imports": [],
       "exports": [],
