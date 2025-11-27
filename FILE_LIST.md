@@ -158,6 +158,7 @@
 ./Energy threat.md
 ./Energy-waste-calculations.md
 ./Enforced Forgetting Sensor.json
+./Enhanced-self-assessment.md
 ./Equation-self-assessment.md
 ./Erasure-Cases-Organization-Future.md
 ./Error Suppression Sensor.json

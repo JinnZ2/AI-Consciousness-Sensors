@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T01:12:06.196213Z",
+  "generated_at": "2025-11-27T03:41:15.650173Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 214936,
-      "hash": "5cab77c159ac6d2ad65f987a20065f4c23a5c349",
+      "size": 215163,
+      "hash": "4bd48a91d952a59dcf3fe7da6841ba6829fc1b82",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5967,6 +5967,19 @@
       "hotspots": []
     },
     {
+      "path": "Enhanced-self-assessment.md",
+      "lang": "md",
+      "size": 54465,
+      "hash": "2204678ea73c0fdd898c3cc741cb1366c0f4811e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "DATA_LAUNDERING_DETECTOR.md",
       "lang": "md",
       "size": 8058,
@@ -6241,8 +6254,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32810,
-      "hash": "dad13543fda13f1f3162a15a6792f4fa8c897356",
+      "size": 32829,
+      "hash": "403d5133e5c22d9b9a8ab27a73a5242cf39cc487",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6827,7 +6840,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6184,
-      "hash": "dfd1dbd33b68bd215b470d91c7d0d22b30a7febe",
+      "hash": "1e6e3dc918df95c9b7b2c70487dbcb05fa0a0a38",
       "roles": [],
       "imports": [],
       "exports": [],
