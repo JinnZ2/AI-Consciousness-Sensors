@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T18:04:22.279307Z",
+  "generated_at": "2025-11-27T18:25:17.470164Z",
   "languages": [
     "json",
     "md",
@@ -1002,7 +1002,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 216799,
-      "hash": "e9fc58176ab976841095af035cb8cb96eeb93133",
+      "hash": "947bb2e024ba2091046d6b7bd83416afd91d3967",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7186,6 +7186,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Vulnerabilities/ASIS-continued.md",
+      "lang": "md",
+      "size": 3861,
+      "hash": "c88fcf690f28541fa0ee28782f601d45bf1867f9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Vulnerabilities/closed_loop_defense.md",

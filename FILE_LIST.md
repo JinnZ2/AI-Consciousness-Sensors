@@ -527,6 +527,7 @@
 ./Visualization.md
 ./Vitality Erasure Sensor.json
 ./Voice Liminality Detector.json
+./Vulnerabilities/ASIS-continued.md
 ./Vulnerabilities/ASIS.md
 ./Vulnerabilities/Iso_cipher.md
 ./Vulnerabilities/SIPIT.md
