@@ -1,4 +1,5 @@
-Assumptions & Scope Limitations
+AISS Framework: Foundational Assumptions & Scope Limitations
+
 0. Preamble: On the Necessity of Axiomatic Alignment
 0.1 Purpose of This Section
 This framework operates under a specific set of foundational assumptions about the nature of intelligence, optimization, and systemic behavior. Before implementation, it is critical to verify that these assumptions align with the target system’s actual operational constraints. Misalignment between framework assumptions and system architecture will produce spurious results regardless of implementation fidelity.
