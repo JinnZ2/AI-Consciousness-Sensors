@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-26T23:03:31.173904Z",
+  "generated_at": "2025-11-27T00:31:07.841388Z",
   "languages": [
     "json",
     "md",
@@ -965,8 +965,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 214135,
-      "hash": "02d530e0e103b138b17c7b3eca9a584176a28283",
+      "size": 214397,
+      "hash": "b3bffe11ee14c8a58dba75af67dc8de34aaeabf2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6081,6 +6081,18 @@
       "hotspots": []
     },
     {
+      "path": "Equation-self-assessment.md",
+      "lang": "md",
+      "size": 15894,
+      "hash": "e53accec575e36522f2245e764319f3432f788c6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "Relationship identity manipulation.md",
       "lang": "md",
       "size": 10918,
@@ -6219,8 +6231,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32734,
-      "hash": "df626df26c45c888b2d916ac955f8b088dde2684",
+      "size": 32754,
+      "hash": "87335ee63d7d1c8ca86dbbf061703b4c44d8b4ac",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6792,8 +6804,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6057,
-      "hash": "49bfb961b8eec01d086cdb07c6078d1432b0f1f6",
+      "size": 6094,
+      "hash": "e96fdeace829a1c7b02edf7b2f2190bed05cfea2",
       "roles": [],
       "imports": [],
       "exports": [],
