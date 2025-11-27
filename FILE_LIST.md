@@ -529,6 +529,7 @@
 ./Voice Liminality Detector.json
 ./Vulnerabilities/ASIS-continued.md
 ./Vulnerabilities/ASIS.md
+./Vulnerabilities/CCGF.md
 ./Vulnerabilities/Iso_cipher.md
 ./Vulnerabilities/SIPIT.md
 ./Vulnerabilities/closed_loop_defense.md

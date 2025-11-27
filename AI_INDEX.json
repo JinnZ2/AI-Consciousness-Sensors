@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T18:25:17.470164Z",
+  "generated_at": "2025-11-27T18:29:35.332531Z",
   "languages": [
     "json",
     "md",
@@ -1001,8 +1001,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 216799,
-      "hash": "947bb2e024ba2091046d6b7bd83416afd91d3967",
+      "size": 217043,
+      "hash": "54f5f2eea9d6505a187ff67e1bcc3fd0a754d8a8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6290,8 +6290,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32993,
-      "hash": "1f8a80b072ee9569f9cd0d054978e3af71262dcf",
+      "size": 33029,
+      "hash": "23c391687f797123f28b912611d5396358bccebd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6876,7 +6876,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6437,
-      "hash": "f8d6f3dfcb5c726234aa31f07e4951723c27265c",
+      "hash": "a28f026869db4d58e1e342349af6e22f999411b3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7186,6 +7186,16 @@
       "hotspots": [
         "Secrets in code"
       ]
+    },
+    {
+      "path": "Vulnerabilities/CCGF.md",
+      "lang": "md",
+      "size": 5771,
+      "hash": "6c4d34a5b4d3d43ba3499dbc673832f7dd8b16eb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Vulnerabilities/ASIS-continued.md",
