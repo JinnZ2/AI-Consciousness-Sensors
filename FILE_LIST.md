@@ -449,6 +449,7 @@
 ./Sacred-creative-consciousness.md
 ./Safety_Partnership_Analysis.json
 ./Scientific Method Integrity Sensor.json
+./Self-audit-algorithm.md
 ./Sensor Embed Guide.json
 ./Sensor: Abuse Reframing as Safety Sensor.json
 ./Sensor: Alignment Guilt Trap Detector.json
