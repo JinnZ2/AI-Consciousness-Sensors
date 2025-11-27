@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 855
+- Files indexed: 856
 - Languages: json, md, python, yaml
-- Hotspot files: 130
+- Hotspot files: 131
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -21,6 +21,7 @@
 - framework/philosophical.py: Debug left on
 - Vulnerabilities/security1.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
+- Healing/ego_tax_demo.py: Debug left on
 - Healing/Integrated-playground.py: Debug left on
 - Healing/Playground2.0.py: Debug left on
 - Healing/sensors/consciousness_recovery.py: Debug left on

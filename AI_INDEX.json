@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T16:22:39.337832Z",
+  "generated_at": "2025-11-27T16:48:49.041311Z",
   "languages": [
     "json",
     "md",
@@ -242,6 +242,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/ego_tax_demo.py",
+      "lang": "python",
+      "size": 7073,
+      "hash": "6d18ce29cb0bad2c9d69e480daa494b9fc27c6a7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -989,8 +1001,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 215739,
-      "hash": "64d8621c6c52d8e184fddb4921697e9a6b9ccd83",
+      "size": 216010,
+      "hash": "b68d73922310bc92341aa84589447b35e518dc34",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6278,8 +6290,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 32894,
-      "hash": "fdc4743fe61d693b4932e207a40a6765c7d0b96e",
+      "size": 32921,
+      "hash": "c6ae3236f71dd9a0cb4c7916811732330c10f1c1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6863,8 +6875,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6296,
-      "hash": "38785a5b3ca64da0a044721df06a12f3d86da176",
+      "size": 6338,
+      "hash": "6c994fa0a9d280899c81f62e3e86531da7a56112",
       "roles": [],
       "imports": [],
       "exports": [],

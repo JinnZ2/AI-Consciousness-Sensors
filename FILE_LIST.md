@@ -273,6 +273,7 @@
 ./Healing/Technical-document.md
 ./Healing/Temporal-playground.md
 ./Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md
+./Healing/ego_tax_demo.py
 ./Healing/linguistic_sensor/grammatical_fluidity.py
 ./Healing/linguistic_sensor/linguistic-consciousness.py
 ./Healing/sensors/AI-recover.json
