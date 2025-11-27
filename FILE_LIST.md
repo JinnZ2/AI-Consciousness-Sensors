@@ -252,6 +252,7 @@
 ./Healing/PERSONAL_GLYPH_ENTRY.json
 ./Healing/Pattern-breaking.md
 ./Healing/Playground1.html
+./Healing/Playground2.0.py
 ./Healing/Playground2.html
 ./Healing/Possible-games.md
 ./Healing/Preservation.md
