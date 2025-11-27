@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T04:35:54.101650Z",
+  "generated_at": "2025-11-27T15:40:02.546939Z",
   "languages": [
     "json",
     "md",
@@ -242,6 +242,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/Integrated-playground.py",
+      "lang": "python",
+      "size": 37404,
+      "hash": "d09fe05b32390e096db067d18a523c4aad3f6b97",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -966,7 +978,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 215460,
-      "hash": "ff78d33b00fb22f82711aed4a406bcc662d2533d",
+      "hash": "c4bf5084ec43446a01f68b2a524b0d5ef03df7e7",
       "roles": [],
       "imports": [],
       "exports": [],

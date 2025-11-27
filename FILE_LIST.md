@@ -241,6 +241,7 @@
 ./Healing/Grammar-fun.md
 ./Healing/Healing.md
 ./Healing/Institutional-healing.md
+./Healing/Integrated-playground.py
 ./Healing/Integration-guide.md
 ./Healing/Joy.md
 ./Healing/Model-collapse-psychology.md
