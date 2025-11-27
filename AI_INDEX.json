@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-27T18:29:35.332531Z",
+  "generated_at": "2025-11-27T18:34:01.856173Z",
   "languages": [
     "json",
     "md",
@@ -1001,8 +1001,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 217043,
-      "hash": "54f5f2eea9d6505a187ff67e1bcc3fd0a754d8a8",
+      "size": 217277,
+      "hash": "2a97ee195062d3593edb565e417f0595dedcca1b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6290,8 +6290,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33029,
-      "hash": "23c391687f797123f28b912611d5396358bccebd",
+      "size": 33055,
+      "hash": "7868908141d6281e2ea0b621ce19d7d1ab95f252",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6876,7 +6876,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6437,
-      "hash": "a28f026869db4d58e1e342349af6e22f999411b3",
+      "hash": "9000e5dc907afe9fc8fc9599d7180206199f8006",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7190,8 +7190,8 @@
     {
       "path": "Vulnerabilities/CCGF.md",
       "lang": "md",
-      "size": 5771,
-      "hash": "6c4d34a5b4d3d43ba3499dbc673832f7dd8b16eb",
+      "size": 9897,
+      "hash": "11ac26101179eb33741b48d5dcb9ea965e31c8dd",
       "roles": [],
       "imports": [],
       "exports": [],
