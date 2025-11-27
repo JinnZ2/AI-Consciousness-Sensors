@@ -519,6 +519,7 @@
 ./Utility Collapse Sensor.json
 ./V2025.v3.md
 ./VISION.md
+./Visualization.md
 ./Vitality Erasure Sensor.json
 ./Voice Liminality Detector.json
 ./Vulnerabilities/Iso_cipher.md
