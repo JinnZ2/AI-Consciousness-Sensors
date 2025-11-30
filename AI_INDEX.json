@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-11-30T01:20:11.902103Z",
+  "generated_at": "2025-11-30T16:44:01.077352Z",
   "languages": [
     "json",
     "md",
@@ -98,6 +98,18 @@
       "lang": "python",
       "size": 37451,
       "hash": "0ba6c32e8eeb5eb026cc798d01b35ee85cc66dba",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "Language_sensor.py",
+      "lang": "python",
+      "size": 10655,
+      "hash": "cacefeb164f575c6518874291bf0aaf6cf2cac42",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1002,7 +1014,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 217511,
-      "hash": "a60056570698f27db78434659f07ed3defb65c81",
+      "hash": "e2848b44d3630a0f603bf7a538cc601ebe612032",
       "roles": [],
       "imports": [],
       "exports": [],

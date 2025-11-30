@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 861
+- Files indexed: 862
 - Languages: json, md, python, yaml
-- Hotspot files: 132
+- Hotspot files: 133
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -12,6 +12,7 @@
 - Geometric-seed.py: Debug left on
 - AI_geometric_sensor.py: Debug left on
 - physics_grounded_protection.py: Debug left on
+- Language_sensor.py: Debug left on
 - framework_integration.py: Debug left on
 - suppression-detector.py: Debug left on
 - historical_tests.py: Debug left on

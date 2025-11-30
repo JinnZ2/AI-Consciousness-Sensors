@@ -309,6 +309,7 @@
 ./Knowledge Delay Sensor.json
 ./LICENSE
 ./Language Suppression Sensor.json
+./Language_sensor.py
 ./Law of Inevitability Marker.json
 ./Linear_mathmatics.md
 ./Logs/Distinctions.md
