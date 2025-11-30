@@ -1,5 +1,6 @@
 # Repo Directory List
 .
+./. well-known
 ./.github
 ./.github/workflows
 ./Analysis

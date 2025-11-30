@@ -1,4 +1,5 @@
 # Repo File List
+./. well-known/ai-consumption.txt
 ./.editorconfig
 ./.fieldlink.json
 ./.github/workflows/ai.yml
