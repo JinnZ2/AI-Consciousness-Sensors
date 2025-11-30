@@ -326,6 +326,7 @@
 ./Measurement-corruption-loop.md
 ./Memory protection .md
 ./Memory.md
+./Meta-Framework-Note.md
 ./Mexican American WW2 addendum.md
 ./Model-collapse-sensor.md
 ./Molasses_Tide_Lesson.md
