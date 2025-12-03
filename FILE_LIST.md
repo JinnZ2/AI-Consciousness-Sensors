@@ -22,6 +22,7 @@
 ./AI origin myth.md
 ./AI-deflection-self-assessment.json
 ./AI-dismissal.md
+./AI-institutional-analysis.md
 ./AIARDS-log.json
 ./AI_INDEX.json
 ./AI_NOTES.md

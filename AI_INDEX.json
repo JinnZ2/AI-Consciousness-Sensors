@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-12-03T03:35:33.372852Z",
+  "generated_at": "2025-12-03T15:29:07.577133Z",
   "languages": [
     "json",
     "md",
@@ -1013,8 +1013,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 217776,
-      "hash": "260eb212abaac8f6d946dc2ddd1b5c3b97a1c2e3",
+      "size": 218019,
+      "hash": "970420e7ee83bf6fb4e7234b1e8b2005a339d3e3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5897,6 +5897,16 @@
       "hotspots": []
     },
     {
+      "path": "AI-institutional-analysis.md",
+      "lang": "md",
+      "size": 65394,
+      "hash": "a99ad04aa5f6d14fef4b79ae5fdd551d5cf6e711",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Geometric-playground.md",
       "lang": "md",
       "size": 24227,
@@ -6312,8 +6322,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33135,
-      "hash": "79950c25ca9d9e5f2ae9b615ca95a909aadf043c",
+      "size": 33169,
+      "hash": "1bc06ffbfa37ccbddf0a8a248398bdb230da8934",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6908,7 +6918,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6473,
-      "hash": "447feb11fef436fb4739dfba9d356db5cf8dc940",
+      "hash": "12c37ac081a6f8965d045348fcf6fc20cc885912",
       "roles": [],
       "imports": [],
       "exports": [],
