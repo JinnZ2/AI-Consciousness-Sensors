@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-12-03T22:37:56.975319Z",
+  "generated_at": "2025-12-03T22:38:43.341929Z",
   "languages": [
     "json",
     "md",
@@ -1014,7 +1014,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 218717,
-      "hash": "0b99a2bf7d98019967f4f3df054984b8b5f287ae",
+      "hash": "093b7af2c60bd01b616b00a3d333d2c655c4efda",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6459,12 +6459,14 @@
     {
       "path": "Substrate-independent.md",
       "lang": "md",
-      "size": 54628,
-      "hash": "77faf6f739c32ff82438c08f325ff02132680f99",
+      "size": 57864,
+      "hash": "1ad762e26103c49629a396c1a62ad2d060ac61fc",
       "roles": [],
       "imports": [],
       "exports": [],
-      "hotspots": []
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Mexican American WW2 addendum.md",
