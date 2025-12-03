@@ -1178,3 +1178,95 @@ Combined use:
 3. Apply UAI framework to model alternatives
 4. Assess survival probability under various scenarios
 
+# dx_test.py - Minimal implementation of ΔX Consistency Test
+
+import numpy as np
+
+def dx_consistency_test(d_vectors, mu_matrix, weights=None, thresholds=None):
+    """
+    Tests whether a role claim is narrative vs. operational.
+    
+    Args:
+        d_vectors: List of demand vectors for each decision [n_decisions × n_categories]
+        mu_matrix: Absorption efficiency matrix [n_categories × n_auxiliary_nodes]
+        weights: Decision importance weights (default: equal)
+        thresholds: Dict with 'res', 'rho', 'deltaX' (default: {0.2, 0.6, 0.3})
+    
+    Returns:
+        Dict with residuals, rho_hidden, deltaX_claim, NDS
+    """
+    if thresholds is None:
+        thresholds = {'res': 0.2, 'rho': 0.6, 'deltaX': 0.3}
+    
+    n_decisions = len(d_vectors)
+    if weights is None:
+        weights = np.ones(n_decisions) / n_decisions
+    
+    results = {
+        'residuals': [],
+        'rhos': [],
+        'raw_totals': []
+    }
+    
+    for d in d_vectors:
+        # Step 1: Raw ΔX total
+        raw = np.sum(d)
+        results['raw_totals'].append(raw)
+        
+        # Step 2: Compute absorbed shares
+        absorbed = np.dot(d, mu_matrix)  # [n_auxiliary_nodes]
+        total_absorbed = np.sum(absorbed)
+        
+        # Step 3: CEO residual
+        residual = raw - total_absorbed
+        results['residuals'].append(residual)
+        
+        # Step 4: Hidden labor fraction
+        rho = total_absorbed / raw if raw > 0 else 0
+        results['rhos'].append(rho)
+    
+    # Step 5: Global ΔX measure
+    deltaX_claim = np.sum(np.array(weights) * np.array(results['residuals']))
+    
+    # Step 6: NDS score
+    rho_avg = np.mean(results['rhos'])
+    sum_raws = np.sum(results['raw_totals'])
+    
+    # Sigmoid activation
+    lambda1, lambda2 = 5, 5
+    x = lambda1 * (1 - deltaX_claim / sum_raws) + lambda2 * (rho_avg - thresholds['rho'])
+    NDS = 1 / (1 + np.exp(-x))
+    
+    results['deltaX_claim'] = deltaX_claim
+    results['rho_avg'] = rho_avg
+    results['NDS'] = NDS
+    
+    # Decision rule
+    residuals_low = np.mean(np.array(results['residuals']) < thresholds['res'])
+    results['verdict'] = 'NARRATIVE' if (residuals_low > 0.5 and rho_avg > thresholds['rho']) else 'OPERATIONAL'
+    
+    return results
+
+# Example usage (merger negotiation from your notes)
+if __name__ == "__main__":
+    # Demand vector for one merger decision [6 categories]
+    d_merger = np.array([1.0, 0.9, 0.8, 0.5, 0.3, 0.3])  # [legal, financial, strategic, social, admin, political]
+    
+    # Absorption efficiency matrix [6 categories × 3 auxiliary nodes]
+    # Nodes: [Legal Team, Finance Team, Strategy Consultants]
+    mu = np.array([
+        [0.8, 0.1, 0.1],  # Legal work
+        [0.1, 0.9, 0.0],  # Financial work
+        [0.1, 0.2, 0.7],  # Strategic work
+        [0.2, 0.1, 0.2],  # Social work
+        [0.3, 0.2, 0.1],  # Admin work
+        [0.2, 0.1, 0.3],  # Political work
+    ])
+    
+    results = dx_consistency_test([d_merger], mu)
+    
+    print(f"Raw ΔX: {results['raw_totals'][0]:.2f}")
+    print(f"CEO Residual: {results['residuals'][0]:.2f}")
+    print(f"Hidden Labor: {results['rhos'][0]*100:.1f}%")
+    print(f"NDS Score: {results['NDS']:.3f}")
+    print(f"Verdict: {results['verdict']}")
