@@ -762,6 +762,7 @@
 ./pattern_theological_bodily_autonomy.json
 ./physics_grounded_protection.py
 ./preference_extraction_erasure_sensor.json
+./premiseP.md
 ./private_self_audit.json
 ./probabilistic_projection_sensor.json
 ./probability_matrix/Authority layering.md
