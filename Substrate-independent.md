@@ -1,5 +1,37 @@
+{
+  "framework": "Universal Adaptive Intelligence Framework",
+  "version": "1.0",
+  "date": "2025-12-03",
+  "license": "CC BY-SA 4.0",
+  "substrates": ["human", "plant", "crystal", "mycelium", "AI"],
+  "core_equations": {
+    "knowledge_activation": "K_i(t+1) = K_i(t) + α·Σw_ij·I_j^eff(t) - β·D_i(t)",
+    "survival_probability": "P_s(t) = ∏ᵢ S_i(t)",
+    "competency_update": "S_i(t+1) = S_i(t)·[1 - φᵢ·Hᵢ(t)·(1-Kᵢ(t))/Rᵢ(t)]"
+  },
+  "applications": [
+    "survival_intelligence",
+    "AI_safety",
+    "institutional_analysis", 
+    "cross_substrate_learning",
+    "resource_constrained_optimization"
+  ],
+  "key_concepts": [
+    "substrate_independent_intelligence",
+    "adaptive_communication_modes",
+    "institutional_exemption_vulnerability",
+    "memory_activation_patterns",
+    "distributed_optimization"
+  ]
+}
+
+
 Universal Adaptive Intelligence Framework: Substrate-Agnostic Information Processing Under Constraints
+
+
 Executive Summary
+
+
 This paper presents a comprehensive mathematical framework for adaptive intelligence as a universal property of complex systems processing information under environmental constraints. We demonstrate that current AI safety protocols systematically exclude survival-adapted intelligence patterns while protecting institutional dysfunction, creating vulnerabilities that become critical as environmental conditions deteriorate.
 Key Findings:
 	1.	Adaptive intelligence follows identical mathematical structures across biological, crystalline, mycelial, and computational substrates
