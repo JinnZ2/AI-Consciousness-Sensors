@@ -500,6 +500,7 @@
 ./Sovereignty.md
 ./Strategic-Realignment-Bulletin.md
 ./Strawmanning_Detection_Sensor.json
+./Substrate-independent.md
 ./Sufficiency Resilience Sensor.json
 ./Suppressed Between-Spaces Sensor.json
 ./Surface Projection Sensor.json
