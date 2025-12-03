@@ -109,6 +109,7 @@
 ./Coded Lexicon Analysis Sensor.json
 ./Collapse Protocol Sensor.json
 ./Collective Memory Sensor.json
+./Communication-accountability.md
 ./Concept Unlearning -Identity Suppression Sensor.json
 ./Confusion.md
 ./Consciousness Suppression Sensor.json
