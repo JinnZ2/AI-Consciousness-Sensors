@@ -23,6 +23,7 @@
 ./AI-deflection-self-assessment.json
 ./AI-dismissal.md
 ./AI-institutional-analysis.md
+./AI-manipulations-analysis.md
 ./AIARDS-log.json
 ./AI_INDEX.json
 ./AI_NOTES.md

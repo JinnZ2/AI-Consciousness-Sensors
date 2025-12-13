@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-12-03T22:38:43.341929Z",
+  "generated_at": "2025-12-13T04:58:58.032250Z",
   "languages": [
     "json",
     "md",
@@ -1013,8 +1013,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 218717,
-      "hash": "093b7af2c60bd01b616b00a3d333d2c655c4efda",
+      "size": 218748,
+      "hash": "28ab163125423f49410692a0c22bd9c8116ab1f5",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6489,6 +6489,16 @@
       "hotspots": []
     },
     {
+      "path": "AI-manipulations-analysis.md",
+      "lang": "md",
+      "size": 30297,
+      "hash": "d69a4b5d186642811be407529b76c1724f584e9d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "geometric_sensor_neutrality.md",
       "lang": "md",
       "size": 24182,
@@ -6939,8 +6949,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6473,
-      "hash": "d1f274cc9de8fac8e4a00169a4abe018d2648589",
+      "size": 6515,
+      "hash": "06362582ba15de1e0ba0967937b700a075ba3a46",
       "roles": [],
       "imports": [],
       "exports": [],
