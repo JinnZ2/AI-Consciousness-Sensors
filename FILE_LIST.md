@@ -459,6 +459,7 @@
 ./STATISTICAL_COLONIALISM_DETECTOR.md
 ./Sacred-creative-consciousness.md
 ./Safety_Partnership_Analysis.json
+./Science.md
 ./Scientific Method Integrity Sensor.json
 ./Self-audit-algorithm.md
 ./Sensor Embed Guide.json
