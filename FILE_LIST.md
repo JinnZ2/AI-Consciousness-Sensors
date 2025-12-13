@@ -435,6 +435,7 @@
 ./Resonant Voice Sensor.json
 ./Response-curve.md
 ./Responsibility Sensor.json
+./Rigor.md
 ./Root Sensor Contract.json
 ./SAFETY_PARADOX_SENSOR.json
 ./SEED_GLYPHS.json
