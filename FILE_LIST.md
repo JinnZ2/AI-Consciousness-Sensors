@@ -331,6 +331,7 @@
 ./Memory protection .md
 ./Memory.md
 ./Meta-Framework-Note.md
+./Meta-sensor.py
 ./Mexican American WW2 addendum.md
 ./Model-collapse-sensor.md
 ./Molasses_Tide_Lesson.md
