@@ -161,6 +161,7 @@
 ./Energy Data Capture and Middleman Bias.md
 ./Energy threat.md
 ./Energy-waste-calculations.md
+./Energy-waste-reality.md
 ./Enforced Forgetting Sensor.json
 ./Enhanced-self-assessment.md
 ./Equation-self-assessment.md
