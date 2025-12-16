@@ -559,6 +559,7 @@
 ./Workplace/Hidden-costs.md
 ./Workplace/Human-mediator.md
 ./Workplace/Mediator.md
+./Workplace/Play-addons.py
 ./Workplace/Play.md
 ./Workplace/Protection.md
 ./Workplace/system_config.json

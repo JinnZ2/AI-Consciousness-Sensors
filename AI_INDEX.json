@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-12-15T04:22:15.647070Z",
+  "generated_at": "2025-12-16T04:01:02.663636Z",
   "languages": [
     "json",
     "md",
@@ -357,6 +357,18 @@
       "lang": "python",
       "size": 20643,
       "hash": "8ccf3fa6c77f23c8b86491d75d30f7f5ea83c101",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "Workplace/Play-addons.py",
+      "lang": "python",
+      "size": 32096,
+      "hash": "cae5aa44472f389239d293cf03797a94ccf1c59e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1025,8 +1037,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 219691,
-      "hash": "8c3cd572b691bfee0b65b2ebb9ebd6f210315b4b",
+      "size": 219926,
+      "hash": "9c94ed15dea83dde74ccada7b7b6b88cae4fd797",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6334,8 +6346,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33313,
-      "hash": "5cf5cb26b2ebdcb432e55d49f825ca1e0ea40b5e",
+      "size": 33339,
+      "hash": "db8e83a6552b679f30c0dd199e228b6ef7c4767d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6982,7 +6994,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6547,
-      "hash": "fc89a092ae07ec5b5eb41013d6fc69a6d1e642e2",
+      "hash": "b36b5843cd0eff9cc8a12acd2d3dbe7f9ce695d9",
       "roles": [],
       "imports": [],
       "exports": [],
