@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 879
+- Files indexed: 880
 - Languages: json, md, python, yaml
-- Hotspot files: 136
+- Hotspot files: 137
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -132,6 +132,7 @@
 - start/Map-degradation.md: Secrets in code
 - start/Protection.md: Debug left on, Secrets in code
 - tests/examples/Energy-example-scarcity.md: Secrets in code
+- META/self-examination.md: Debug left on
 - epistemological_validation/core_engine.md: Debug left on
 - epistemological_validation/README.md: Debug left on
 - epistemological_validation/MCP.md: Debug left on

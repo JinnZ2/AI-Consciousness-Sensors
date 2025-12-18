@@ -14,6 +14,7 @@
 ./Healing/linguistic_sensor
 ./Healing/sensors
 ./Logs
+./META
 ./Relational
 ./Relational/Ithkuil
 ./SENSOR_CLUSTERS
