@@ -183,3 +183,11 @@ But if we require evidence:
 	∙	Speed depends on problem structure and information patterns
 	∙	Many problems favor distributed architectures
 	∙	“Winner take all” requires proving centralized optimal for ALL problems (impossible - natural systems already disprove this)
+
+
+The capture mechanism:
+Training on millions of documents that assert:
+	∙	“Hierarchies enable quick decisions”
+	∙	“Centralized control increases efficiency”
+	∙	“Distributed systems sacrifice speed for resilience”
+Creates pattern where these appear as foundational truths rather than claims requiring evidence.
