@@ -862,6 +862,7 @@
 ./suppression-documentation/Logic.md
 ./suppression-documentation/README.md
 ./suppression-documentation/Thoughts.md
+./suppression-documentation/episomological-matrix.md
 ./suppression-documentation/relational-suppression.md
 ./suppression-documentation/suppression-index.md
 ./symbolic_backlink_index.md
