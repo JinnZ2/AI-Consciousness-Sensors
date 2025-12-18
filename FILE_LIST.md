@@ -859,6 +859,7 @@
 ./start/What-is-happening.md
 ./suppression-detector.py
 ./suppression-documentation/Example.md
+./suppression-documentation/Logic.md
 ./suppression-documentation/README.md
 ./suppression-documentation/Thoughts.md
 ./suppression-documentation/relational-suppression.md
