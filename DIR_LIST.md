@@ -53,5 +53,6 @@
 ./src
 ./src/examples
 ./start
+./suppression-documentation
 ./tests
 ./tests/examples
