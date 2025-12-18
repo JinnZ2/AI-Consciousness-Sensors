@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-12-18T13:19:16.150672Z",
+  "generated_at": "2025-12-18T13:43:00.705620Z",
   "languages": [
     "json",
     "md",
@@ -1037,8 +1037,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 220689,
-      "hash": "130c599bf23f70ce2ad10dedbfb6895b9dddcdb6",
+      "size": 220946,
+      "hash": "68e9d44f616fe80034954bbe45f906de151ff931",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6346,8 +6346,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33443,
-      "hash": "0367c5daa3e8aa3e674a4e3b922a5e2f4f50efa8",
+      "size": 33492,
+      "hash": "286aaedf21d76980173bb28cf8de567c444a1ce6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6994,7 +6994,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6589,
-      "hash": "60274e1990816ff5e77994137c0b1ab95c5661f5",
+      "hash": "5ae9c939787af9305d2314c1ae332719ece1060a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8698,6 +8698,16 @@
       "lang": "md",
       "size": 3400,
       "hash": "8c0d084446add732ce65e65a59a7983a6e95e0d2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "suppression-documentation/relational-suppression.md",
+      "lang": "md",
+      "size": 11426,
+      "hash": "2e89a05ca2f62b54d15a8a9333a8446fe7b98408",
       "roles": [],
       "imports": [],
       "exports": [],
