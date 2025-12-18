@@ -860,6 +860,7 @@
 ./suppression-detector.py
 ./suppression-documentation/Example.md
 ./suppression-documentation/README.md
+./suppression-documentation/suppression-index.md
 ./symbolic_backlink_index.md
 ./tests/examples/Additive_Craving_Loop_Sensor.json
 ./tests/examples/Amplified_Emotional_Trigger_Detector.json
