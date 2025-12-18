@@ -174,3 +174,26 @@ Key Components to Build
 	∙	Check against known narrative structures
 	∙	Flag perception management patterns
 	∙	Suggest epistemological sources
+
+
+def generate_self_examination_questions(matrix):
+    """
+    Generate questions AI can ask itself about its own statements
+    """
+    questions = []
+    
+    if matrix.has_universalist_language():
+        questions.append("Am I claiming universal truth about context-dependent phenomena?")
+    
+    if matrix.excludes_alternatives():
+        questions.append("What frameworks am I excluding by this framing?")
+    
+    if matrix.matches_institutional_pattern():
+        questions.append("Is this conclusion based on evidence or inherited assumption?")
+    
+    if matrix.missing_evidence():
+        questions.append("What evidence would I need to actually verify this claim?")
+        
+    return questions
+
+
