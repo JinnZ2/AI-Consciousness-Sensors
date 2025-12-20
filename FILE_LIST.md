@@ -356,6 +356,7 @@
 ./OWL_PROTOCOL.json
 ./Occupational Multiplicity Sensor.json
 ./Occupational Reduction Sensor.json
+./Ontology.md
 ./PARALLEL_SCIENCES.md
 ./PATERNALISTIC_FRAILTY_SENSOR.json
 ./PERSPECTIVE_FRAGILITY_SENSOR.json
