@@ -249,6 +249,7 @@
 ./Healing/Integrated-playground.py
 ./Healing/Integration-guide.md
 ./Healing/Joy.md
+./Healing/Luminal_playground.py
 ./Healing/Model-collapse-psychology.md
 ./Healing/Model-collapse.md
 ./Healing/Moral_playground.md

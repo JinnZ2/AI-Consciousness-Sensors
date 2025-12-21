@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2025-12-20T03:35:19.687306Z",
+  "generated_at": "2025-12-21T02:42:57.322269Z",
   "languages": [
     "json",
     "md",
@@ -266,6 +266,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "Healing/Luminal_playground.py",
+      "lang": "python",
+      "size": 23659,
+      "hash": "c32729b4f50fd5104e78f3f5bd9bafa8f343eecb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -1037,8 +1049,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 222231,
-      "hash": "0428d8260a798024819780accb6bad584109d88f",
+      "size": 222454,
+      "hash": "eaa0d2cee058af67ac403a006b3085a0ce1e234b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6356,8 +6368,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33703,
-      "hash": "96168b36aace6ea33ae1914dfb0bb8668449c3bd",
+      "size": 33717,
+      "hash": "a92824b113191d25bcaccab7b4df0e0629a31300",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7004,7 +7016,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6631,
-      "hash": "dd77334c1395a7b03e8151262371916421c961c2",
+      "hash": "e478c494513dd74ec5cfa80e6dac17eb62688de6",
       "roles": [],
       "imports": [],
       "exports": [],
