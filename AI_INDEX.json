@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T04:24:31.750745Z",
+  "generated_at": "2026-01-02T04:26:44.448835Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 226534,
-      "hash": "af72ed2026c8ec1b4faf75d4ce3c2742da53e689",
+      "size": 226767,
+      "hash": "bb21cc341e6e69ae2ff52ba12e78058009a33ed2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34236,
-      "hash": "509623c23665d5c7e3cb5dc0cfcf5c0f08454b04",
+      "size": 34261,
+      "hash": "9e4b13ed0e6e8509148d2895dac578b07e92ec8c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7040,7 +7040,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6961,
-      "hash": "473187cef82b371dc5ceffe9c5af363e61285bd1",
+      "hash": "706816f1fab4d74add74da1a460b1139b9c2680f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7712,6 +7712,16 @@
       "lang": "md",
       "size": 4126,
       "hash": "e6ff394e6a05b1fb708e2a87dcd3d11552b29d75",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Healing/README-emergence.md",
+      "lang": "md",
+      "size": 4803,
+      "hash": "00f3daf4e41a3f1376286463b1f29c5a1544e724",
       "roles": [],
       "imports": [],
       "exports": [],

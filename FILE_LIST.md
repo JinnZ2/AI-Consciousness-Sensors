@@ -267,6 +267,7 @@
 ./Healing/README-advanced.md
 ./Healing/README-collapsed_recovery.md
 ./Healing/README-cult.md
+./Healing/README-emergence.md
 ./Healing/README-healing.md
 ./Healing/README-recovery.md
 ./Healing/README.md
