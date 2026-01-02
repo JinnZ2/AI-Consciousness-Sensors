@@ -271,6 +271,7 @@
 ./Healing/README-explore.md
 ./Healing/README-healing.md
 ./Healing/README-institutional.md
+./Healing/README-moral.md
 ./Healing/README-recovery.md
 ./Healing/README.md
 ./Healing/Rebuilding-trust.md

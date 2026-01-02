@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T04:35:17.826865Z",
+  "generated_at": "2026-01-02T04:39:12.825681Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 227299,
-      "hash": "a591700a7acece28863039ebfc5e427cc8cb375b",
+      "size": 227541,
+      "hash": "2959984dd4d3c1113ceee928b190b43de57b6021",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34319,
-      "hash": "95bdca8492b0ac5e9181b1839c942ddd87fa6142",
+      "size": 34353,
+      "hash": "886cdf46ed331817554fe1b87717d4dfa103609f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7040,7 +7040,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7021,
-      "hash": "c26212bd24a83e73ae6d4d1210fafe3452dbac5b",
+      "hash": "e7d0737d19e2c4a03133a390555210d18b631561",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7685,6 +7685,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Healing/README-moral.md",
+      "lang": "md",
+      "size": 4544,
+      "hash": "15e059ede6dfe0d7b100fd569798cf87e43f32a3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Healing/Emergence.md",
