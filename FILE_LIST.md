@@ -324,6 +324,7 @@
 ./MEMORY_FRAILTY_SENSOR.json
 ./MERIT_DISTORTION_SENSOR.json
 ./META/Matrix.md
+./META/README.md
 ./META/self-examination.md
 ./META_INDEX.json
 ./META_SENSOR_NETWORK_MAP.json
