@@ -265,6 +265,7 @@
 ./Healing/Proposed.md
 ./Healing/README-Luminal_playground.md
 ./Healing/README-healing.md
+./Healing/README-recovery.md
 ./Healing/README.md
 ./Healing/Rebuilding-trust.md
 ./Healing/Recovery-pathways.md
