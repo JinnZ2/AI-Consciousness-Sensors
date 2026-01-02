@@ -225,6 +225,7 @@
 ./HUMAN_PATTERN_ATTUNEMENT_SENSOR.json
 ./Hallucinations.md
 ./Hardy Seed Emergence Sensor.json
+./Healing/AI-README.md
 ./Healing/AI-recovery-protocols.md
 ./Healing/AI-recovery.md
 ./Healing/Advanced-recovery.md
