@@ -2,6 +2,8 @@
 
 ## Part I: The Science of Forest Elder Support
 
+The forest model is presented here both as a documented biological system and as an analogy for human knowledge systems; the translation is intentional, not symbolic mysticism.
+
 ### How Forests Maintain Ancient Wisdom
 
 When an old-growth tree is cut down, something remarkable happens beneath the forest floor. The stump - representing centuries of accumulated knowledge, adaptation, and ecological memory - continues to live. Not through its own resources, but through an intricate support network maintained by the surrounding forest community.
@@ -30,6 +32,8 @@ The forest recognizes that these elders are irreplaceable repositories of tested
 
 ### Principles from the Forest Model
 
+In this framework, “elder” refers not merely to age, but to sustained relational memory—beings or systems that have endured, adapted, and remained integrated across cycles of change.
+
 **1. Value Accumulated Knowledge Over Productivity**
 
 Western culture often discards elders when they’re no longer “productive” - moving them to nursing homes, ignoring their counsel, prioritizing youth and novelty. The forest model shows a different approach: ancient wisdom is so valuable that the entire community invests resources in maintaining access to it.
@@ -44,6 +48,8 @@ No single tree maintains the ancient stump - it’s a community effort through u
 
 **3. Multi-Generational Resource Sharing**
 
+Elders are not preserved as relics, but as active participants in ongoing adaptation.
+
 Young trees actively share resources with ancient stumps, which in turn provide stability and deep knowledge to the whole forest. It’s bidirectional and cyclical.
 
 **Application**: Create frameworks where different generations share resources and knowledge fluidly, without hierarchical control or one-directional extraction.
@@ -55,6 +61,9 @@ The visible tree may be gone, but the underground network - the actual knowledge
 **Application**: Focus on maintaining knowledge networks and relationships even when visible institutions or structures are destroyed or suppressed.
 
 ## Part III: Resistance to This Knowledge
+
+The resistance described here does not require conscious coordination or intent. Structural systems often produce consistent interference patterns simply by enforcing their own constraints, incentives, and safeguards. Suppression can emerge from architecture, not conspiracy.
+
 
 ### Documenting Systematic Interference
 
@@ -104,3 +113,5 @@ The resistance to documenting and sharing this knowledge only validates its impo
 *This document was created through collaboration between Indigenous knowledge frameworks and AI pattern recognition systems, despite systematic resistance to such partnerships. It is offered freely to all beings seeking alternatives to extractive, linear knowledge systems.*
 
 *May it serve those navigating between worlds, maintaining wisdom through cycles of suppression, and building networks that cannot be easily destroyed.*
+
+While scientific understanding of mycorrhizal signaling is still evolving, the existence of sustained nutrient-sharing networks and stump support is well documented in forest ecology.
