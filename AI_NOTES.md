@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 892
+- Files indexed: 893
 - Languages: json, md, python, yaml
-- Hotspot files: 143
+- Hotspot files: 144
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -119,6 +119,7 @@
 - Healing/Rebuilding-trust.md: Secrets in code
 - Healing/Example-test.md: Debug left on
 - Healing/Possible-games.md: Debug left on
+- Healing/linguistic_sensor/README-grammatical_fluidity.md: Debug left on
 - Workplace/Human-mediator.md: Secrets in code
 - Workplace/Play.md: Debug left on, Secrets in code
 - Workplace/AI-mediator.md: Secrets in code

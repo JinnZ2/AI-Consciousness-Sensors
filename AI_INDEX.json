@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T04:08:32.184215Z",
+  "generated_at": "2026-01-02T04:14:19.434347Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 225001,
-      "hash": "ab0db492e79823c82b77ce99df744a2290110cb3",
+      "size": 225279,
+      "hash": "02b0afbb9b6289c266604228c5d96cf5c3663094",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34013,
-      "hash": "2094768c08cab1fe8c396544f90539b43b640b74",
+      "size": 34052,
+      "hash": "285ecea70eae9e7a41a445bb76eb0b83d3b39bd3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7039,8 +7039,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6833,
-      "hash": "5324e3232a85bc1481e555e0795ebbdc75fb5540",
+      "size": 6887,
+      "hash": "97980b0793bfa5ebd0f01ae18014c2fd04fc6cb8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7884,6 +7884,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Healing/linguistic_sensor/README-grammatical_fluidity.md",
+      "lang": "md",
+      "size": 1436,
+      "hash": "a323f404529423221bfada2fa373ff12fe0141b7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Healing/docs/Cult_Exploitation_Deprogramming_Sensors.md",
