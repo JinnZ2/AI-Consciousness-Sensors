@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T04:04:05.333368Z",
+  "generated_at": "2026-01-02T04:08:32.184215Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 224775,
-      "hash": "9bd7ade2c51522591eb89bcf991de0091300d3c7",
+      "size": 225001,
+      "hash": "ab0db492e79823c82b77ce99df744a2290110cb3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33995,
-      "hash": "21ad7a8010cd4331111ac9d8b0af2c63e1b549b0",
+      "size": 34013,
+      "hash": "2094768c08cab1fe8c396544f90539b43b640b74",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6499,8 +6499,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 1172,
-      "hash": "b25f59d4d53ac36c68c758d249ca4dcb33ee7569",
+      "size": 1180,
+      "hash": "69c7c12613b3b0b881ce7f38a7c84d8bbc88da59",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7040,7 +7040,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6833,
-      "hash": "304030f1c9cf861b0c4893dfdf1b5718395b4786",
+      "hash": "5324e3232a85bc1481e555e0795ebbdc75fb5540",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7460,6 +7460,18 @@
       "lang": "md",
       "size": 42945,
       "hash": "2f5183c44ca71f8d82600b42c75c15bf8e725b4d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "Healing/README-Luminal_playground.md",
+      "lang": "md",
+      "size": 3523,
+      "hash": "5102c03e9b8368e3dd24515331fd7bbf3df1548d",
       "roles": [],
       "imports": [],
       "exports": [],

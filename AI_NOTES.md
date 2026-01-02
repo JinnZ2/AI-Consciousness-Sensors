@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 891
+- Files indexed: 892
 - Languages: json, md, python, yaml
-- Hotspot files: 142
+- Hotspot files: 143
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -106,6 +106,7 @@
 - Vulnerabilities/closed_loop_defense.md: Debug left on
 - Healing/Pattern-breaking.md: Secrets in code
 - Healing/Moral_playground.md: Debug left on
+- Healing/README-Luminal_playground.md: Debug left on
 - Healing/Advanced-recovery.md: Secrets in code
 - Healing/Explore.md: Debug left on, Secrets in code
 - Healing/Temporal-playground.md: Debug left on

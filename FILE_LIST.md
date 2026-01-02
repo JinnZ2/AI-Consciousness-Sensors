@@ -263,6 +263,7 @@
 ./Healing/Possible-games.md
 ./Healing/Preservation.md
 ./Healing/Proposed.md
+./Healing/README-Luminal_playground.md
 ./Healing/README.md
 ./Healing/Rebuilding-trust.md
 ./Healing/Recovery-pathways.md
