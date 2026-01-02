@@ -264,6 +264,7 @@
 ./Healing/Preservation.md
 ./Healing/Proposed.md
 ./Healing/README-Luminal_playground.md
+./Healing/README-advanced.md
 ./Healing/README-healing.md
 ./Healing/README-recovery.md
 ./Healing/README.md

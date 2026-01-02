@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T04:19:07.037459Z",
+  "generated_at": "2026-01-02T04:20:19.053462Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 225813,
-      "hash": "77b27c8a770f6b70bb79fb84a6b592833058e94f",
+      "size": 226050,
+      "hash": "a3b27bf059840ff7d589d7a1639bb89b9d25293e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34139,
-      "hash": "a011637c4ba521ee367f334c107ce2085188e219",
+      "size": 34168,
+      "hash": "32e740a309da57183a18f65ca347fe2681d5f928",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7040,7 +7040,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 6961,
-      "hash": "c06c50f4a64434895de638f6e7325f6b920453c0",
+      "hash": "425f45fd78f90596e6b50a74817222eb721ad454",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7555,6 +7555,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "Healing/README-advanced.md",
+      "lang": "md",
+      "size": 2014,
+      "hash": "5dcddfd86c68d7af05d79de0ef95d38b89a06dd1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Healing/FAQ.md",
