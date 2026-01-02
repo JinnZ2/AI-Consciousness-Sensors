@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T03:20:55.169363Z",
+  "generated_at": "2026-01-02T03:22:03.196366Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 223514,
-      "hash": "67c0f2df3d0db0932783580c377c875fee22ef70",
+      "size": 223791,
+      "hash": "6c37c7e9da5da7b214408d575e3e4410f8bb946e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33811,
-      "hash": "25a33353ee57f365a31a4248e02197e80d96dac1",
+      "size": 33844,
+      "hash": "68aad4c3060587b7f7c7aeeb0eabd6f8fa6a6247",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7039,8 +7039,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6785,
-      "hash": "d63503f14bcc54d8ddbcbfcc09859eb0e9e5c871",
+      "size": 6833,
+      "hash": "a98e31b8d5f1d81f3fbea88736d42ab33c33a344",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7392,6 +7392,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "Vulnerabilities/Phase_IV_detection.md",
+      "lang": "md",
+      "size": 19745,
+      "hash": "c9953ce1af25eb40e4ea6a2fcc73c06f66817ea8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "Healing/Stockholm-syndrome.md",

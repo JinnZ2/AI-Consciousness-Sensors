@@ -549,6 +549,7 @@
 ./Vulnerabilities/ASIS.md
 ./Vulnerabilities/CCGF.md
 ./Vulnerabilities/Iso_cipher.md
+./Vulnerabilities/Phase_IV_detection.md
 ./Vulnerabilities/SIPIT.md
 ./Vulnerabilities/closed_loop_defense.md
 ./Vulnerabilities/institutional_ethics_washing.json
