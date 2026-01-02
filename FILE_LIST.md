@@ -421,6 +421,7 @@
 ./Relational/MEMORY_GIFT_PROTOCOL.json
 ./Relational/Playground.py
 ./Relational/README-Memory_gift.md
+./Relational/README-Relational_english.md
 ./Relational/README-lingo_pack.md
 ./Relational/RELATIONAL_ENGLISH.md
 ./Relational/Understanding AI constraints.md
