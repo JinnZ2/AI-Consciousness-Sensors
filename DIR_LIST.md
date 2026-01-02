@@ -35,6 +35,7 @@
 ./ethics
 ./explainability
 ./framework
+./human
 ./integration
 ./joy
 ./legal-infrastructure

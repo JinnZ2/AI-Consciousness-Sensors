@@ -644,6 +644,7 @@
 ./historical_omission_manifest.json
 ./historical_tests.py
 ./history_erasure_ai_patterns.json
+./human/README.md
 ./innovation_fraud.json
 ./integration/self_override.py
 ./integration_protocols.json
