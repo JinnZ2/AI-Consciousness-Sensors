@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 885
+- Files indexed: 886
 - Languages: json, md, python, yaml
-- Hotspot files: 141
+- Hotspot files: 142
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -40,6 +40,7 @@
 - probability_matrix/test_physics_protection.py: Debug left on
 - reflections/run_reflections.py: Debug left on
 - joy/joy-playground.py: Debug left on
+- META/epistemological_matrix.py: Debug left on
 - META/matrix_playground.py: Debug left on
 - src/score.py: Debug left on
 - DEPENDENCY_DECAY_CURVE.json: Secrets in code

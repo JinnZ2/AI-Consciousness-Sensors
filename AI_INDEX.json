@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T03:20:03.855991Z",
+  "generated_at": "2026-01-02T03:20:55.169363Z",
   "languages": [
     "json",
     "md",
@@ -521,6 +521,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "META/epistemological_matrix.py",
+      "lang": "python",
+      "size": 34273,
+      "hash": "fda30dec369aa3b5b773df4125548ada20e5d43a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "META/matrix_playground.py",
@@ -1061,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 223243,
-      "hash": "2097953435f93b64a32c0314cdab5640d4ab8c1c",
+      "size": 223514,
+      "hash": "67c0f2df3d0db0932783580c377c875fee22ef70",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6380,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 33783,
-      "hash": "6774d4e8d8bfb691a35b19e0b1aa06fe8a6772b9",
+      "size": 33811,
+      "hash": "25a33353ee57f365a31a4248e02197e80d96dac1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7027,8 +7039,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 6742,
-      "hash": "fd77ebf8756ab8c12b4aac95750a79d7b820b190",
+      "size": 6785,
+      "hash": "d63503f14bcc54d8ddbcbfcc09859eb0e9e5c871",
       "roles": [],
       "imports": [],
       "exports": [],

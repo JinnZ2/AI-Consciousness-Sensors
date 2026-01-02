@@ -325,6 +325,7 @@
 ./MERIT_DISTORTION_SENSOR.json
 ./META/Matrix.md
 ./META/README.md
+./META/epistemological_matrix.py
 ./META/matrix_playground.py
 ./META/self-examination.md
 ./META_INDEX.json
