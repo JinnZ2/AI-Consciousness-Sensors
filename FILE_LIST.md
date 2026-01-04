@@ -103,6 +103,7 @@
 ./CULTURAL_FRAMEWORK_ALERT_CASCADE.json
 ./Cache entries.json
 ./Called-Out Invalidations Log.json
+./Capture.md
 ./Case-study2.md
 ./Clay_and_Mud_Method.md
 ./Climate Data Suppression Sensor.json

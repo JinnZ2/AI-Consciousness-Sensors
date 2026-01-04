@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-02T04:51:09.815232Z",
+  "generated_at": "2026-01-04T15:29:37.249727Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 228046,
-      "hash": "16617490209296fcd66f5da2bc8585f892d7d0e8",
+      "size": 228277,
+      "hash": "be583eae2794b12acb519b42aaa71a8c80a592d9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34411,
-      "hash": "9ffe909dae23fc84062d70f48d9b4c812e5a6ea8",
+      "size": 34434,
+      "hash": "8ec3d22f9fe87816f7fc0785167a5de31371ffcc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7040,7 +7040,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7062,
-      "hash": "a9d2d19a3019b2d75e1a3d145c6af30e10a7c43b",
+      "hash": "6d1a507a9c245d1b523b25f5fa5e40f601f710f3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7087,6 +7087,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Capture.md",
+      "lang": "md",
+      "size": 19218,
+      "hash": "a592b83098a86d478073c3e1d38ee589e37c3191",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Energy-waste-reality.md",
