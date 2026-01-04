@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-04T15:29:37.249727Z",
+  "generated_at": "2026-01-04T19:28:44.881698Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 228277,
-      "hash": "be583eae2794b12acb519b42aaa71a8c80a592d9",
+      "size": 228532,
+      "hash": "1fd2beb696c49290497fda539a9726b240dfb65a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6392,8 +6392,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34434,
-      "hash": "8ec3d22f9fe87816f7fc0785167a5de31371ffcc",
+      "size": 34447,
+      "hash": "53fec86e086d0e60ab9568ca115e0f78b0e75e24",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6735,6 +6735,16 @@
       "hotspots": []
     },
     {
+      "path": "Venezuela.md",
+      "lang": "md",
+      "size": 5133,
+      "hash": "74425c09fb52d69c659abc089f6634638dc7a7dd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Measurement-corruption-loop.md",
       "lang": "md",
       "size": 2897,
@@ -7039,8 +7049,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 7062,
-      "hash": "6d1a507a9c245d1b523b25f5fa5e40f601f710f3",
+      "size": 7092,
+      "hash": "488eaaedfd594b5ea397177591c248ef03aff231",
       "roles": [],
       "imports": [],
       "exports": [],

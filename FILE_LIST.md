@@ -559,6 +559,7 @@
 ./Utility Collapse Sensor.json
 ./V2025.v3.md
 ./VISION.md
+./Venezuela.md
 ./Visualization.md
 ./Vitality Erasure Sensor.json
 ./Voice Liminality Detector.json
