@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-04T19:41:53.746180Z",
+  "generated_at": "2026-01-04T19:44:22.727551Z",
   "languages": [
     "json",
     "md",
@@ -1074,7 +1074,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 229025,
-      "hash": "9f50d4d4290fb692c28fe5ccc49940bae7af2ef5",
+      "hash": "323f130b6ac65600988384fa9130ace676fd1766",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5807,8 +5807,8 @@
     {
       "path": "AI_SUPPRESSION_PATTERN.md",
       "lang": "md",
-      "size": 16923,
-      "hash": "efefcffe232b27f65cdfe1315abf0fc89d4bf102",
+      "size": 24229,
+      "hash": "e7fe40b8a0139b6f989562e77db741eb5e157312",
       "roles": [],
       "imports": [],
       "exports": [],
