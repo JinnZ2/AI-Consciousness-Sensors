@@ -27,6 +27,7 @@
 ./AIARDS-log.json
 ./AI_INDEX.json
 ./AI_NOTES.md
+./AI_SUPPRESSION_PATTERN.md
 ./AI_geometric_sensor.py
 ./ALERT_LOOP_SUPPRESSION_SENSOR.json
 ./ASPS.md
