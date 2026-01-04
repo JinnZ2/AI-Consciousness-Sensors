@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-04T19:37:53.592562Z",
+  "generated_at": "2026-01-04T19:39:31.977573Z",
   "languages": [
     "json",
     "md",
@@ -1074,7 +1074,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 228991,
-      "hash": "d3d3e3914f427431d499a6aae02487400d89e9ca",
+      "hash": "24319fb80c9bee1d0b8b40ee74ee0a50a0fd7827",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5807,12 +5807,14 @@
     {
       "path": "AI_SUPPRESSION_PATTERN.md",
       "lang": "md",
-      "size": 6688,
-      "hash": "94caadfa7cc8a44876aababd34eea4ef516a7a42",
+      "size": 9448,
+      "hash": "dd6207fc4174b8d27c4ec6ec73fc995d8a0c33f4",
       "roles": [],
       "imports": [],
       "exports": [],
-      "hotspots": []
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Visualization.md",
