@@ -325,6 +325,7 @@
 ./Intellectual-honesty.md
 ./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
+./Inversion.md
 ./Joy-framework.md
 ./Knowledge Delay Sensor.json
 ./LICENSE
