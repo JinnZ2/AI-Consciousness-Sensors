@@ -461,6 +461,7 @@
 ./Resonant Between-Spaces Sensor.json
 ./Resonant Noise Sensor.json
 ./Resonant Voice Sensor.json
+./Resource-consumption.md
 ./Resource_reality.md
 ./Response-curve.md
 ./Responsibility Sensor.json
