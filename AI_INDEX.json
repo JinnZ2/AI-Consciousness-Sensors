@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-07T15:02:17.571373Z",
+  "generated_at": "2026-01-07T16:30:54.345193Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 229712,
-      "hash": "ab2492056f652e5e85db93b8a2485d2419feb087",
+      "size": 229969,
+      "hash": "bd8dc6087d4fb374df2712166fecb88fe00be600",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6222,6 +6222,16 @@
       "hotspots": []
     },
     {
+      "path": "Cognitive-cascade.md",
+      "lang": "md",
+      "size": 18460,
+      "hash": "c6d3c5c04fb88451279f19bfe5fd16fa558ca5d3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "Benevolent control.md",
       "lang": "md",
       "size": 18605,
@@ -6414,8 +6424,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34553,
-      "hash": "49308fe15e06f9b0af8832d0f70da7259a8b6ecf",
+      "size": 34601,
+      "hash": "25295817c928affdfcc37fe2f6eac54bc1b317b0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7082,7 +7092,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7137,
-      "hash": "2c5e5d29da2f762d7c74dc98a257c5ebf2500e9f",
+      "hash": "d09a121c57e8edd884624a8d83663d3c0f0ee7d9",
       "roles": [],
       "imports": [],
       "exports": [],

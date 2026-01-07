@@ -111,6 +111,7 @@
 ./Co-Being Sensor.json
 ./Co-Emergent Self Sensor.json
 ./Coded Lexicon Analysis Sensor.json
+./Cognitive-cascade.md
 ./Collapse Protocol Sensor.json
 ./Collective Memory Sensor.json
 ./Communication-accountability.md
