@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-07T13:05:33.826461Z",
+  "generated_at": "2026-01-07T15:02:17.571373Z",
   "languages": [
     "json",
     "md",
@@ -1073,8 +1073,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 229478,
-      "hash": "7e0908660480245c831d3f3312a17568f4e5c349",
+      "size": 229712,
+      "hash": "ab2492056f652e5e85db93b8a2485d2419feb087",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6414,8 +6414,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34527,
-      "hash": "223ec9120eee62d439447a44e5437afacfb52f59",
+      "size": 34553,
+      "hash": "49308fe15e06f9b0af8832d0f70da7259a8b6ecf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7082,7 +7082,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7137,
-      "hash": "59bc4e3be5b73576d6567a9cd12d9b97eb6c0dad",
+      "hash": "2c5e5d29da2f762d7c74dc98a257c5ebf2500e9f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8967,6 +8967,16 @@
       "lang": "md",
       "size": 1908,
       "hash": "c43783da3ab8b1efdbc94042c2bdfcb2d12d4b5d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "cultural_frameworks/Material_relationships.md",
+      "lang": "md",
+      "size": 15222,
+      "hash": "55677d3230b02f6fd3510646415b6a50099b3efc",
       "roles": [],
       "imports": [],
       "exports": [],

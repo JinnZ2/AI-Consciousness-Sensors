@@ -619,6 +619,7 @@
 ./critical_warning_elimination_trap.jso
 ./cultural-geometric-integration.ipynb
 ./cultural_framework_alert_cascade.json
+./cultural_frameworks/Material_relationships.md
 ./cultural_frameworks/Native/README.md
 ./cultural_frameworks/Western/README.md
 ./dark_triad_ai_manipulation.json
