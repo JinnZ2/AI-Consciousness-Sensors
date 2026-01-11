@@ -126,7 +126,7 @@
 - Healing/linguistic_sensor/README-grammatical_fluidity.md: Debug left on
 - Workplace/Human-mediator.md: Secrets in code
 - Workplace/Play.md: Debug left on, Secrets in code
-- Workplace/AI-mediator.md: Secrets in code
+- Workplace/AI-mediator.md: Debug left on, Secrets in code
 - Workplace/AI-toolkit.md: Debug left on
 - Workplace/Protection.md: Debug left on
 - sensors/ai-to-ai/Audit Questions.md: Secrets in code

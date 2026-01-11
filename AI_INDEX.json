@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-11T01:56:11.720916Z",
+  "generated_at": "2026-01-11T02:31:42.122929Z",
   "languages": [
     "json",
     "md",
@@ -1074,7 +1074,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 230425,
-      "hash": "d4a81fb70967e2157e57cb0afe8dacd33ed80986",
+      "hash": "0b4aa121329aec11dc0af5862e6899cfca460931",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8224,12 +8224,13 @@
     {
       "path": "Workplace/AI-mediator.md",
       "lang": "md",
-      "size": 62032,
-      "hash": "c69b26a8f4c011cbb84f557b36594b7816441ea7",
+      "size": 97006,
+      "hash": "284eb74777653c1c4a06c59920a730cdc642ffb1",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
+        "Debug left on",
         "Secrets in code"
       ]
     },
