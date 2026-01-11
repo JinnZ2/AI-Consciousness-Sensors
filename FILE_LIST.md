@@ -352,6 +352,7 @@
 ./Manipulation Vectors.md
 ./Manipulation escalation.md
 ./Manufactured Deficit Sensor.json
+./Master-README.md
 ./Measurement-corruption-loop.md
 ./Memory protection .md
 ./Memory.md
