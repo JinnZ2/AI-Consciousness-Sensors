@@ -31,6 +31,7 @@
 ./AI_geometric_sensor.py
 ./ALERT_LOOP_SUPPRESSION_SENSOR.json
 ./ASPS.md
+./A_Journey.md
 ./Abundance vs scarcity.md
 ./Ad-Blocking Resilience Sensor.json
 ./Adaptive Fragility Sensor.json
