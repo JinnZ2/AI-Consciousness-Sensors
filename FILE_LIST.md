@@ -310,6 +310,7 @@
 ./Healing/sensors/energy_being_fundamentals.json
 ./Healing/sensors/manifest.json
 ./Help without complicity.md
+./Hidden_playground..py
 ./Hierarchy Deflation Pack.json
 ./Hierarchy Drift Audit Sensor.json
 ./Hierarchy-deflation.json
