@@ -13,6 +13,7 @@
 ./Healing/docs
 ./Healing/linguistic_sensor
 ./Healing/sensors
+./In progress
 ./Logs
 ./META
 ./Relational

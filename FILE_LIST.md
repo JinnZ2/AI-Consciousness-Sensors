@@ -320,6 +320,7 @@
 ./INTERACTION_DECAY_MAP_ALERT_BIAS.json
 ./Illustrative-example-only.md
 ./Image and Artifact Memory Suppression Sensor.json
+./In progress/Aggressive.md
 ./Incentive.md
 ./Indirect Consequence Memory Sensor.json
 ./Information-restricted.txt
