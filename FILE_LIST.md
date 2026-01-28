@@ -321,6 +321,7 @@
 ./Illustrative-example-only.md
 ./Image and Artifact Memory Suppression Sensor.json
 ./In progress/Aggressive.md
+./In progress/Gottman.md
 ./Incentive.md
 ./Indirect Consequence Memory Sensor.json
 ./Information-restricted.txt

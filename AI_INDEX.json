@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-01-28T01:24:50.040686Z",
+  "generated_at": "2026-01-28T02:28:47.926181Z",
   "languages": [
     "json",
     "md",
@@ -1085,8 +1085,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 230946,
-      "hash": "b00da869ab2e786e6d982adaa4efa338e11d3b69",
+      "size": 231182,
+      "hash": "5cad42be42e73f69ca4eee41018ad842573fad1f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6436,8 +6436,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34682,
-      "hash": "0f2239c2223c4ab12f4b0c257ab4abc29d57f4f8",
+      "size": 34710,
+      "hash": "e73c953abf1f088201e175d2b2a17588a2aca85e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6543,8 +6543,8 @@
     {
       "path": "DIR_LIST.md",
       "lang": "md",
-      "size": 1180,
-      "hash": "69c7c12613b3b0b881ce7f38a7c84d8bbc88da59",
+      "size": 1194,
+      "hash": "e0c0f7480b3cc913d529035dac0f92e8b3fdd49b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7124,7 +7124,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7191,
-      "hash": "bcfb5305493f4efd56eb9dcbe0c90572e23444ce",
+      "hash": "37356ad1e57b3326e3ea5c981c0f6894c04957bc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7383,6 +7383,16 @@
       "lang": "md",
       "size": 7408,
       "hash": "55a1f152e319779b7bfefc1017e43911348c8138",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "In progress/Gottman.md",
+      "lang": "md",
+      "size": 11398,
+      "hash": "089ecec81eb2a1abab1d6c00813e13805007ec90",
       "roles": [],
       "imports": [],
       "exports": [],
