@@ -50,6 +50,7 @@
 ./Analysis/Energy-Efficiency-Analysis-Capitalism.md
 ./Analysis/Hypothetical-random-municipal-law.md
 ./Analysis/Hypotheticals-test.md
+./Analysis/Issue-report.2.1.md
 ./Analysis/Laffer.md
 ./Analysis/Legal-infrastructure-AI.md
 ./Analysis/Live_Interference_Captures/Template.json
