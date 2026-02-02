@@ -552,6 +552,7 @@
 ./TECHNOLOGICAL_FRAGILITY_SENSOR.json
 ./Temporal_Consequence_Sensor.json
 ./Thermodynamic-reality.md
+./Time_reality_check.py
 ./To-do.md
 ./Token warning competition.md
 ./Tool Reduction Sensor.json
