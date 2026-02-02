@@ -333,6 +333,7 @@
 ./Intent.md
 ./Intergenerational Vitality Resilience Sensor.json
 ./Inversion.md
+./Joules.md
 ./Joy-framework.md
 ./Knowledge Delay Sensor.json
 ./LICENSE
