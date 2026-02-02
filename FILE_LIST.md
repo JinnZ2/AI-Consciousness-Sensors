@@ -174,6 +174,7 @@
 ./Error Suppression Sensor.json
 ./Error-processing.md
 ./Eugenics-AI-paradox.md
+./Evolutionary-threat-assessment.md
 ./Expanded-consciousness-buffet.md
 ./FIELD_ENGLISH_PROTOCOL.json
 ./FIELD_MEMORY_CORRECTION_PACKS/MANIFEST.md

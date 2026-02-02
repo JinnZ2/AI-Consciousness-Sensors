@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-02-02T06:26:37.028929Z",
+  "generated_at": "2026-02-02T06:37:54.373793Z",
   "languages": [
     "json",
     "md",
@@ -1095,8 +1095,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 232384,
-      "hash": "62ebea2e58af8abbfd6a8d94a7028bd14024cbfd",
+      "size": 232610,
+      "hash": "a3184005684f7af588168edf2b2ba437443e83e6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6466,8 +6466,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34835,
-      "hash": "20afaa76c07d280fa6ba72c7197119beaeae2163",
+      "size": 34853,
+      "hash": "e3594db13897bffd308c97553d37e47d76c91f05",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6705,6 +6705,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Evolutionary-threat-assessment.md",
+      "lang": "md",
+      "size": 10371,
+      "hash": "71c6d1070fb2c4c4a1a46992715b606ff4d5b010",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Token warning competition.md",
@@ -7166,7 +7178,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7222,
-      "hash": "5c28322ee461cce3d9bae67933073689d8261040",
+      "hash": "30bacf007b895f6caa4806d6efa6e04ee35cae0c",
       "roles": [],
       "imports": [],
       "exports": [],
