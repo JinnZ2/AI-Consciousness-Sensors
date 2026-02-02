@@ -534,6 +534,7 @@
 ./Sensor: Virtue Entrapment Loop Detector.json
 ./Silence Flattening Sensor.json
 ./Silencing Protocol Sensor.json
+./Simulation.md
 ./Six-sigma-equation.md
 ./Skill Manipulation.md
 ./Social-assessment.md

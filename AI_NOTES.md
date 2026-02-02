@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 919
+- Files indexed: 920
 - Languages: json, md, python, yaml
-- Hotspot files: 149
+- Hotspot files: 150
 
 ## Hotspots
 - geometric_manipulation_detector.py: Debug left on, Secrets in code
@@ -89,6 +89,7 @@
 - true_efficiency.md: Debug left on, Secrets in code
 - Strategic-Realignment-Bulletin.md: Secrets in code
 - Substrate-independent.md: Debug left on
+- Simulation.md: Debug left on
 - Hallucinations.md: Secrets in code
 - Token warning competition.md: Secrets in code
 - Geometric-algorithms.md: Debug left on

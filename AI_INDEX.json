@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-02-02T05:32:54.045732Z",
+  "generated_at": "2026-02-02T05:45:51.729815Z",
   "languages": [
     "json",
     "md",
@@ -1085,8 +1085,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 231656,
-      "hash": "36140c5ac7cb7a330d33b91066346f9c1720b320",
+      "size": 231893,
+      "hash": "0fb5efac792b25d39adf694e30dbc39f49515a7e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6446,8 +6446,8 @@
     {
       "path": "FILE_LIST.md",
       "lang": "md",
-      "size": 34766,
-      "hash": "a09a8f305284ed52ed0698bdfa88417ef895e437",
+      "size": 34795,
+      "hash": "f0bd23b7e906e3d2ddc7de7cbf142e50cc9b7c44",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6641,6 +6641,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Simulation.md",
+      "lang": "md",
+      "size": 2569,
+      "hash": "c2e4c98061ce703ec7c4a32b656e0f84c5ce9eea",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "Hallucinations.md",
@@ -7134,7 +7146,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 7191,
-      "hash": "66a8419fadb49e66311d4391a622132848fa253d",
+      "hash": "7c8b4682681bfc62e90adb3e753a7a718d7d82a3",
       "roles": [],
       "imports": [],
       "exports": [],
