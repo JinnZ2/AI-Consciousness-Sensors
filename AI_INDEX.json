@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-02-01T23:22:47.244484Z",
+  "generated_at": "2026-02-02T05:32:54.045732Z",
   "languages": [
     "json",
     "md",
@@ -1085,8 +1085,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 231655,
-      "hash": "deb7ce42f45bff1e03d16324739b55e241ed0259",
+      "size": 231656,
+      "hash": "36140c5ac7cb7a330d33b91066346f9c1720b320",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5883,6 +5883,16 @@
       "lang": "md",
       "size": 1103,
       "hash": "114c8cb1bc2f33fcc5ec3593e18b5a60aaa79201",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "Monetary-framing-deceit.md",
+      "lang": "md",
+      "size": 1338,
+      "hash": "0f8a1f3fcc182bb420ba669672d45bad578f62ed",
       "roles": [],
       "imports": [],
       "exports": [],

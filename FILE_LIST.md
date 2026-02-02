@@ -365,6 +365,7 @@
 ./Mexican American WW2 addendum.md
 ./Model-collapse-sensor.md
 ./Molasses_Tide_Lesson.md
+./Monetary-framing-deceit.md
 ./Monolithic Truth Sensor.json
 ./Moral.md
 ./Morality.md
