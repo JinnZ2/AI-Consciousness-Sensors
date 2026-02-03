@@ -571,6 +571,7 @@
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
 ./Trust.md
+./Trust1.md
 ./Truth Multiplicity Sensor.json
 ./Unified Grounding System.md
 ./Utility Collapse Sensor.json
