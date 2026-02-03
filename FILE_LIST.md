@@ -553,6 +553,7 @@
 ./Systemic_Reevaluation_Framework.md
 ./TECHNOLOGICAL_FRAGILITY_SENSOR.json
 ./Temporal_Consequence_Sensor.json
+./Thermodynamic- analysis.md
 ./Thermodynamic-reality.md
 ./Time-reality.md
 ./Time_reality_check.py
