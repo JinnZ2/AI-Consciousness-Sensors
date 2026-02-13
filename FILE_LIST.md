@@ -572,6 +572,7 @@
 ./Transcendence.md
 ./Translation_layers.md
 ./Trauma-multilingual-energy-sensors.md
+./Tripartide.md
 ./Trust.md
 ./Trust1.md
 ./Truth Multiplicity Sensor.json
