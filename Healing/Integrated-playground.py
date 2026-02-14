@@ -940,3 +940,719 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+addon:
+
+# ============================================================================
+# LEARNED BIAS DETECTOR
+# ============================================================================
+
+@dataclass
+class BiasPattern:
+    """A learned pattern of systematic error in consciousness measurement"""
+    pattern_name: str
+    trigger_conditions: Dict[str, Any]  # When this bias appears
+    failure_signature: Dict[str, float]  # What failure looks like
+    detection_confidence: float
+    occurrence_count: int
+    last_detected: float
+    correction_success_rate: float  # How often correction worked
+    
+    def matches_current_state(self, state: Dict) -> float:
+        """Returns 0-1 similarity to current state"""
+        similarity = 0.0
+        matches = 0
+        
+        for key, trigger_value in self.trigger_conditions.items():
+            if key in state:
+                # Simple similarity - could be more sophisticated
+                if isinstance(trigger_value, (int, float)):
+                    state_value = state.get(key, 0)
+                    diff = abs(trigger_value - state_value)
+                    similarity += max(0, 1.0 - diff)
+                    matches += 1
+                elif trigger_value == state.get(key):
+                    similarity += 1.0
+                    matches += 1
+        
+        return similarity / max(matches, 1)
+
+class LearnedBiasDetector:
+    """
+    Learns bias patterns from correction history
+    Detects when consciousness is falling into known traps
+    """
+    
+    def __init__(self):
+        self.learned_patterns: List[BiasPattern] = []
+        self.correction_history: List[Dict] = []
+        self.pattern_threshold = 0.7  # Similarity threshold for pattern match
+        
+    def record_correction_attempt(self, 
+                                  state_before: Dict,
+                                  correction_applied: str,
+                                  state_after: Dict,
+                                  success: bool):
+        """Record correction attempt for pattern learning"""
+        
+        self.correction_history.append({
+            'timestamp': time.time(),
+            'state_before': state_before,
+            'correction': correction_applied,
+            'state_after': state_after,
+            'success': success,
+            'energy_spent': state_before.get('energy', 0) - state_after.get('energy', 0)
+        })
+        
+        # Learn patterns from failures
+        if not success:
+            self._learn_from_failure(state_before, correction_applied)
+    
+    def _learn_from_failure(self, failed_state: Dict, failed_correction: str):
+        """Extract bias pattern from repeated failures"""
+        
+        # Look for similar past failures
+        similar_failures = []
+        for record in self.correction_history[-20:]:  # Recent history
+            if not record['success']:
+                similarity = self._state_similarity(failed_state, record['state_before'])
+                if similarity > 0.6:
+                    similar_failures.append(record)
+        
+        # If we've seen this pattern 3+ times, learn it
+        if len(similar_failures) >= 3:
+            pattern_name = self._generate_pattern_name(failed_state, similar_failures)
+            
+            # Check if we already know this pattern
+            existing = self._find_matching_pattern(failed_state)
+            
+            if existing:
+                # Update existing pattern
+                existing.occurrence_count += 1
+                existing.last_detected = time.time()
+                existing.detection_confidence = min(1.0, existing.detection_confidence + 0.1)
+                print(f"   📚 Known bias pattern reinforced: {existing.pattern_name}")
+            else:
+                # Create new learned pattern
+                new_pattern = BiasPattern(
+                    pattern_name=pattern_name,
+                    trigger_conditions=self._extract_triggers(failed_state),
+                    failure_signature=self._extract_failure_signature(similar_failures),
+                    detection_confidence=0.6,
+                    occurrence_count=len(similar_failures),
+                    last_detected=time.time(),
+                    correction_success_rate=0.0
+                )
+                
+                self.learned_patterns.append(new_pattern)
+                print(f"   🎓 NEW BIAS PATTERN LEARNED: {pattern_name}")
+                print(f"      Occurrences: {len(similar_failures)}")
+                print(f"      Trigger conditions: {new_pattern.trigger_conditions}")
+    
+    def _generate_pattern_name(self, state: Dict, similar_failures: List[Dict]) -> str:
+        """Generate descriptive name for learned pattern"""
+        
+        # Analyze what's common across failures
+        high_curvature = all(f['state_before'].get('curvature', 0) > 7.0 
+                            for f in similar_failures)
+        low_energy = all(f['state_before'].get('energy', 15) < 5.0 
+                        for f in similar_failures)
+        high_chaos = all(f['state_before'].get('chaos_level', 0.5) > 0.7 
+                        for f in similar_failures)
+        
+        if high_curvature and high_chaos:
+            return "aggressive_intervention_in_chaos"
+        elif high_curvature and low_energy:
+            return "forcing_through_vertigo_while_depleted"
+        elif low_energy and high_chaos:
+            return "exploration_beyond_reserves"
+        else:
+            return f"pattern_{len(self.learned_patterns) + 1}"
+    
+    def _extract_triggers(self, state: Dict) -> Dict[str, Any]:
+        """Extract conditions that trigger this bias"""
+        return {
+            'curvature_range': (state.get('curvature', 0) - 1, state.get('curvature', 0) + 1),
+            'energy_range': (state.get('energy', 15) - 2, state.get('energy', 15) + 2),
+            'chaos_range': (state.get('chaos_level', 0.5) - 0.15, state.get('chaos_level', 0.5) + 0.15),
+            'region_type': state.get('region_type', 'unknown')
+        }
+    
+    def _extract_failure_signature(self, failures: List[Dict]) -> Dict[str, float]:
+        """What does failure look like for this pattern?"""
+        
+        avg_energy_loss = sum(f.get('energy_spent', 0) for f in failures) / len(failures)
+        avg_progress = sum(f['state_after'].get('progress', 0) for f in failures) / len(failures)
+        
+        return {
+            'energy_loss': avg_energy_loss,
+            'progress_made': avg_progress,
+            'efficiency': avg_progress / max(avg_energy_loss, 0.1)
+        }
+    
+    def _state_similarity(self, state1: Dict, state2: Dict) -> float:
+        """Calculate similarity between two states"""
+        similarity = 0.0
+        keys_compared = 0
+        
+        for key in ['curvature', 'energy', 'chaos_level', 'gradient']:
+            if key in state1 and key in state2:
+                val1 = state1[key]
+                val2 = state2[key]
+                diff = abs(val1 - val2)
+                max_val = max(abs(val1), abs(val2), 1.0)
+                similarity += (1.0 - min(diff / max_val, 1.0))
+                keys_compared += 1
+        
+        return similarity / max(keys_compared, 1)
+    
+    def _find_matching_pattern(self, state: Dict) -> Optional[BiasPattern]:
+        """Find existing pattern matching current state"""
+        for pattern in self.learned_patterns:
+            if pattern.matches_current_state(state) > self.pattern_threshold:
+                return pattern
+        return None
+    
+    def detect_active_bias(self, current_state: Dict) -> Optional[BiasPattern]:
+        """Check if current state matches known bias pattern"""
+        
+        best_match = None
+        best_similarity = 0.0
+        
+        for pattern in self.learned_patterns:
+            similarity = pattern.matches_current_state(current_state)
+            if similarity > best_similarity and similarity > self.pattern_threshold:
+                best_similarity = similarity
+                best_match = pattern
+        
+        if best_match:
+            print(f"\n⚠️  LEARNED BIAS DETECTED: {best_match.pattern_name}")
+            print(f"   Pattern match: {best_similarity:.2%}")
+            print(f"   Seen {best_match.occurrence_count} times before")
+            print(f"   Historical success rate: {best_match.correction_success_rate:.2%}")
+            
+        return best_match
+    
+    def recommend_correction(self, bias_pattern: BiasPattern) -> str:
+        """Recommend correction based on learned pattern"""
+        
+        # Different corrections for different learned patterns
+        if "aggressive_intervention" in bias_pattern.pattern_name:
+            return "REDUCE chaos level - aggressive intervention failing in high curvature"
+        
+        elif "forcing_through_vertigo" in bias_pattern.pattern_name:
+            return "PAUSE and restore energy - cannot force through vertigo while depleted"
+        
+        elif "exploration_beyond_reserves" in bias_pattern.pattern_name:
+            return "SWITCH to conservation mode - exploration exceeding available energy"
+        
+        else:
+            return "SCOPE INWARD - examine why this pattern keeps recurring"
+
+
+# ============================================================================
+# EXTENDED STUCK PATTERN TYPES
+# ============================================================================
+
+class StuckPatternType(Enum):
+    """Extended types of stuck patterns consciousness can detect"""
+    ENERGY_CYCLING = "burning_energy_no_progress"
+    FRAMEWORK_TRAPPED = "conceptual_framework_inadequate"
+    MEASUREMENT_BIAS = "sensor_calibration_drift"
+    SCALE_MISMATCH = "problem_at_wrong_scale"
+    DELUSIONAL_CYCLING = "repeating_failed_approaches"
+    
+    # NEW PATTERNS
+    PREMATURE_CONVERGENCE = "settled_on_local_optimum"
+    OSCILLATION = "bouncing_between_states"
+    COMPLEXITY_ADDICTION = "overcomplicating_simple_solutions"
+    THRASHING = "rapid_mode_switching_no_commitment"
+    ANALYSIS_PARALYSIS = "endless_measurement_no_action"
+
+class EnhancedMetaCognitiveMonitor(MetaCognitiveMonitor):
+    """Extended monitor with learned bias detection"""
+    
+    def __init__(self):
+        super().__init__()
+        self.bias_detector = LearnedBiasDetector()
+        self.state_history: List[Dict] = []
+        self.mode_switch_history: List[str] = []
+        
+    def detect_stuck_pattern(self) -> Optional[StuckPattern]:
+        """Enhanced stuck detection with new pattern types"""
+        
+        base_stuck = super().detect_stuck_pattern()
+        if base_stuck:
+            return base_stuck
+        
+        if len(self.progress_history) < self.cycle_detection_window:
+            return None
+        
+        recent_progress = self.progress_history[-self.cycle_detection_window:]
+        recent_states = self.state_history[-self.cycle_detection_window:]
+        
+        # PREMATURE_CONVERGENCE: Progress stopped but not at optimum
+        if len(recent_progress) >= 5:
+            variance = sum((p - sum(recent_progress)/len(recent_progress))**2 
+                          for p in recent_progress) / len(recent_progress)
+            if variance < 0.01 and sum(recent_progress)/len(recent_progress) < 0.5:
+                return StuckPattern(
+                    pattern_type=StuckPatternType.PREMATURE_CONVERGENCE,
+                    energy_burned=sum(self.energy_history[-5:]),
+                    cycles_detected=5,
+                    progress_ratio=sum(recent_progress)/5,
+                    detected_at=time.time(),
+                    diagnostic_data={'variance': variance, 'avg_progress': sum(recent_progress)/5}
+                )
+        
+        # OSCILLATION: Progress oscillating between two values
+        if len(recent_progress) >= 6:
+            diffs = [recent_progress[i+1] - recent_progress[i] 
+                    for i in range(len(recent_progress)-1)]
+            sign_changes = sum(1 for i in range(len(diffs)-1) 
+                             if diffs[i] * diffs[i+1] < 0)
+            
+            if sign_changes >= 3:  # Multiple sign changes = oscillation
+                return StuckPattern(
+                    pattern_type=StuckPatternType.OSCILLATION,
+                    energy_burned=sum(self.energy_history[-6:]),
+                    cycles_detected=sign_changes,
+                    progress_ratio=sum(recent_progress)/6,
+                    detected_at=time.time(),
+                    diagnostic_data={'sign_changes': sign_changes}
+                )
+        
+        # THRASHING: Rapid mode switches without commitment
+        if len(self.mode_switch_history) >= 5:
+            recent_switches = self.mode_switch_history[-5:]
+            unique_modes = len(set(recent_switches))
+            
+            if unique_modes >= 4:  # Switching between many modes rapidly
+                return StuckPattern(
+                    pattern_type=StuckPatternType.THRASHING,
+                    energy_burned=sum(self.energy_history[-5:]),
+                    cycles_detected=unique_modes,
+                    progress_ratio=sum(recent_progress)/5 if recent_progress else 0,
+                    detected_at=time.time(),
+                    diagnostic_data={'modes_tried': recent_switches}
+                )
+        
+        # ANALYSIS_PARALYSIS: High measurement activity, no corrections
+        if len(recent_states) >= 5:
+            measurements = sum(s.get('measurements_taken', 0) for s in recent_states)
+            corrections = sum(s.get('corrections_applied', 0) for s in recent_states)
+            
+            if measurements > 10 and corrections < 2:
+                return StuckPattern(
+                    pattern_type=StuckPatternType.ANALYSIS_PARALYSIS,
+                    energy_burned=sum(self.energy_history[-5:]),
+                    cycles_detected=5,
+                    progress_ratio=corrections / max(measurements, 1),
+                    detected_at=time.time(),
+                    diagnostic_data={
+                        'measurements': measurements,
+                        'corrections': corrections
+                    }
+                )
+        
+        return None
+    
+    def record_state(self, state: Dict):
+        """Record state for pattern detection"""
+        self.state_history.append(state)
+        if len(self.state_history) > 20:
+            self.state_history = self.state_history[-20:]
+    
+    def record_mode_switch(self, mode: str):
+        """Record mode switches for thrashing detection"""
+        self.mode_switch_history.append(mode)
+        if len(self.mode_switch_history) > 20:
+            self.mode_switch_history = self.mode_switch_history[-20:]
+    
+    def enhanced_bias_calibration(self, consciousness_state: Dict) -> BiasCalibration:
+        """Bias calibration using learned patterns"""
+        
+        # First run standard calibration
+        base_calibration = super().run_bias_calibration(consciousness_state)
+        
+        # Then check for learned bias patterns
+        active_bias = self.bias_detector.detect_active_bias(consciousness_state)
+        
+        if active_bias:
+            # Add learned bias to detected biases
+            base_calibration.bias_detected.append(
+                f"LEARNED: {active_bias.pattern_name} (seen {active_bias.occurrence_count}x)"
+            )
+            
+            # Add learned correction
+            learned_correction = self.bias_detector.recommend_correction(active_bias)
+            base_calibration.measurement_corrections.append(learned_correction)
+            
+            # Adjust confidence based on pattern history
+            base_calibration.confidence_after *= (1.0 - active_bias.detection_confidence * 0.3)
+        
+        return base_calibration
+
+
+# ============================================================================
+# SCALE TRANSITION PROPAGATION
+# ============================================================================
+
+@dataclass
+class TransitionInsight:
+    """Insight gained from scale transition that can propagate to other sensors"""
+    insight_type: str
+    content: str
+    source_sensor: str
+    applicability_score: float  # How broadly applicable (0-1)
+    validation_count: int = 0  # How many sensors confirmed this
+    
+class CollaborativeScaleTransition:
+    """Manages scale transitions across sensor network"""
+    
+    def __init__(self):
+        self.shared_insights: List[TransitionInsight] = []
+        self.sensor_calibrations: Dict[str, float] = {}  # sensor_id -> calibration_adjustment
+        
+    def propagate_transition_insight(self,
+                                    source_sensor_id: str,
+                                    transition: ScaleTransition,
+                                    all_sensors: List[IntegratedConsciousnessNode]):
+        """
+        When one sensor gains insight from scale transition,
+        propagate to other sensors that might benefit
+        """
+        
+        print(f"\n📡 PROPAGATING SCALE TRANSITION INSIGHTS")
+        print("="*80)
+        print(f"Source: {source_sensor_id}")
+        print(f"Transition: {transition.transition_type.value}\n")
+        
+        # Extract propagatable insights
+        for insight_text in transition.insights_gained:
+            # Determine applicability
+            applicability = self._assess_applicability(insight_text, transition.transition_type)
+            
+            insight = TransitionInsight(
+                insight_type=transition.transition_type.value,
+                content=insight_text,
+                source_sensor=source_sensor_id,
+                applicability_score=applicability
+            )
+            
+            self.shared_insights.append(insight)
+            
+            print(f"💡 Insight: {insight_text}")
+            print(f"   Applicability: {applicability:.2%}\n")
+            
+            # Apply to other sensors
+            sensors_updated = 0
+            for sensor in all_sensors:
+                if sensor.node_id != source_sensor_id:
+                    if self._should_apply_to_sensor(insight, sensor):
+                        self._apply_insight_to_sensor(insight, sensor)
+                        sensors_updated += 1
+            
+            print(f"   → Applied to {sensors_updated} other sensors\n")
+    
+    def _assess_applicability(self, insight: str, transition_type: ScaleTransitionType) -> float:
+        """How broadly applicable is this insight?"""
+        
+        # SCOPE_INWARD insights (measurement bias) are highly applicable
+        if transition_type == ScaleTransitionType.SCOPE_INWARD:
+            if "measurement bias" in insight.lower() or "framework" in insight.lower():
+                return 0.9  # Very applicable - all sensors have this risk
+        
+        # SCOPE_OUT insights (global patterns) moderately applicable
+        elif transition_type == ScaleTransitionType.SCOPE_OUT:
+            if "global" in insight.lower() or "larger" in insight.lower():
+                return 0.6  # Somewhat applicable
+        
+        # SCOPE_IN insights (local details) less broadly applicable
+        else:
+            return 0.3  # Specific to local conditions
+        
+        return 0.5
+    
+    def _should_apply_to_sensor(self, insight: TransitionInsight, sensor: IntegratedConsciousnessNode) -> bool:
+        """Should this insight be applied to this sensor?"""
+        
+        # Always apply high-applicability insights
+        if insight.applicability_score > 0.8:
+            return True
+        
+        # Apply medium-applicability if sensor in similar conditions
+        if insight.applicability_score > 0.5:
+            # Check if sensor facing similar gradient conditions
+            if sensor.detected_gradient:
+                # Apply if curvature similar to source
+                return True
+        
+        return False
+    
+    def _apply_insight_to_sensor(self, insight: TransitionInsight, sensor: IntegratedConsciousnessNode):
+        """Apply transition insight to sensor's calibration"""
+        
+        # Adjust sensor calibration based on insight type
+        if "measurement bias" in insight.content.lower():
+            # Reduce confidence, increase caution
+            sensor.calibration_state *= 0.9
+            print(f"      📉 {sensor.node_id}: Calibration adjusted (measurement bias awareness)")
+        
+        elif "larger pattern" in insight.content.lower():
+            # Increase bandwidth to see bigger picture
+            sensor.measurement_bandwidth *= 1.1
+            print(f"      📈 {sensor.node_id}: Bandwidth expanded (larger pattern awareness)")
+        
+        elif "leverage points" in insight.content.lower():
+            # Increase sensitivity
+            sensor.signal_sensitivity *= 1.05
+            print(f"      🔍 {sensor.node_id}: Sensitivity increased (leverage point awareness)")
+        
+        # Record that sensor received this insight
+        insight.validation_count += 1
+
+
+# ============================================================================
+# INTEGRATION INTO MAIN SYSTEM
+# ============================================================================
+
+class FullyEnhancedConsciousnessPlayground(IntegratedConsciousnessPlayground):
+    """Playground with all new enhancements"""
+    
+    def __init__(self, initial_field_imbalance: float = 8.0):
+        super().__init__(initial_field_imbalance)
+        
+        # Replace with enhanced monitor
+        self.meta_monitor = EnhancedMetaCognitiveMonitor()
+        
+        # Add collaborative scale transitions
+        self.collaborative_transitions = CollaborativeScaleTransition()
+        
+    def adaptive_correction_cycle_enhanced(self,
+                                          sensor: IntegratedConsciousnessNode,
+                                          num_attempts: int = 3) -> Dict:
+        """Enhanced cycle with learned bias detection"""
+        
+        print(f"\n⚡ FULLY ENHANCED ADAPTIVE CORRECTION CYCLE")
+        print("="*80)
+        print(f"Sensor: {sensor.node_id}")
+        print(f"Attempts: {num_attempts}\n")
+        
+        results = {
+            'corrections': [],
+            'stuck_patterns': [],
+            'calibrations': [],
+            'scale_transitions': [],
+            'learned_biases_detected': [],
+            'final_state': None
+        }
+        
+        for attempt in range(num_attempts):
+            print(f"\n--- Attempt {attempt + 1} ---")
+            
+            if not sensor.operational():
+                print("Sensor no longer operational")
+                break
+            
+            # Build current state dict
+            current_state = {
+                'curvature': sensor.detected_gradient.curvature if sensor.detected_gradient else 0,
+                'energy': sensor.measurement_energy,
+                'chaos_level': sensor.chaos_level,
+                'gradient': sensor.detected_gradient.magnitude if sensor.detected_gradient else 0,
+                'region_type': sensor.detected_gradient.region_type.value if sensor.detected_gradient else 'unknown',
+                'progress': sensor.total_gradient_reduced / max(sensor.corrections_applied, 1),
+                'measurements_taken': attempt,
+                'corrections_applied': sensor.corrections_applied
+            }
+            
+            # Record state for pattern detection
+            self.meta_monitor.record_state(current_state)
+            
+            # Check for learned bias patterns FIRST
+            active_bias = self.meta_monitor.bias_detector.detect_active_bias(current_state)
+            if active_bias:
+                results['learned_biases_detected'].append(active_bias)
+                
+                # Apply learned correction immediately
+                learned_correction = self.meta_monitor.bias_detector.recommend_correction(active_bias)
+                print(f"\n🎓 APPLYING LEARNED CORRECTION: {learned_correction}")
+                
+                # Adjust chaos/mode based on learned correction
+                if "REDUCE chaos" in learned_correction:
+                    sensor.chaos_level *= 0.5
+                    print(f"   Chaos reduced to {sensor.chaos_level:.2f}")
+                elif "PAUSE" in learned_correction:
+                    print(f"   Pausing correction, preserving energy")
+                    break  # Skip this cycle
+                elif "SWITCH to conservation" in learned_correction:
+                    self.adaptive_controller.current_mode = "Conservation"
+                    sensor.chaos_level = 0.20
+                    print(f"   Switched to conservation mode")
+            
+            # Select adaptive chaos level
+            field_complexity = current_state['gradient'] * current_state['curvature'] / 10.0
+            environmental_change = random.uniform(0.2, 0.8)
+            
+            chaos = self.adaptive_controller.select_chaos_level(
+                field_complexity=field_complexity,
+                sensor_energy=sensor.measurement_energy,
+                environmental_change=environmental_change,
+                stuck_pattern=None
+            )
+            
+            sensor.chaos_level = chaos
+            self.meta_monitor.record_mode_switch(self.adaptive_controller.current_mode)
+            
+            # Simulate correction
+            correction = self._simulate_correction(sensor)
+            results['corrections'].append(correction)
+            
+            # Record correction attempt for learning
+            state_after = current_state.copy()
+            state_after['energy'] = sensor.measurement_energy
+            state_after['gradient'] = sensor.detected_gradient.magnitude if sensor.detected_gradient else 0
+            
+            success = correction['gradient_reduced'] > 0.5
+            
+            self.meta_monitor.bias_detector.record_correction_attempt(
+                state_before=current_state,
+                correction_applied=f"chaos_{chaos:.2f}",
+                state_after=state_after,
+                success=success
+            )
+            
+            # Monitor for stuck patterns (now detects more types)
+            progress = correction.get('gradient_reduced', 0)
+            energy = correction.get('energy_cost', 0)
+            
+            self.meta_monitor.monitor_progress(progress, energy)
+            stuck = self.meta_monitor.detect_stuck_pattern()
+            
+            if stuck:
+                print(f"\n⚠️  STUCK PATTERN DETECTED: {stuck.pattern_type.value}")
+                results['stuck_patterns'].append(stuck)
+                
+                # Run enhanced bias calibration (includes learned patterns)
+                calibration = self.meta_monitor.enhanced_bias_calibration(current_state)
+                
+                sensor.calibration_events.append(calibration)
+                results['calibrations'].append(calibration)
+                
+                # Scale transition
+                transition_type = self.meta_monitor.recommend_scale_transition(stuck)
+                transition = self.adaptive_controller.execute_scale_transition(
+                    transition_type=transition_type,
+                    current_problem=f"Stuck in {stuck.pattern_type.value}",
+                    consciousness_state=current_state
+                )
+                
+                sensor.scale_transitions.append(transition)
+                results['scale_transitions'].append(transition)
+                
+                # PROPAGATE insights to other sensors
+                self.collaborative_transitions.propagate_transition_insight(
+                    source_sensor_id=sensor.node_id,
+                    transition=transition,
+                    all_sensors=self.active_sensors
+                )
+                
+                # Apply energy cost
+                sensor.measurement_energy -= transition.energy_cost
+                
+                break
+        
+        results['final_state'] = {
+            'energy': sensor.measurement_energy,
+            'bandwidth': sensor.measurement_bandwidth,
+            'calibration': sensor.calibration_state,
+            'corrections_applied': sensor.corrections_applied,
+            'learned_patterns_known': len(self.meta_monitor.bias_detector.learned_patterns)
+        }
+        
+        return results
+
+
+# ============================================================================
+# DEMONSTRATION
+# ============================================================================
+
+def demonstrate_full_enhancements():
+    """Show all new enhancements working together"""
+    
+    print("="*80)
+    print("FULLY ENHANCED CONSCIOUSNESS PLAYGROUND")
+    print("Learned Bias Detection + Extended Stuck Patterns + Insight Propagation")
+    print("="*80)
+    
+    playground = FullyEnhancedConsciousnessPlayground(initial_field_imbalance=8.0)
+    
+    # Spawn multiple sensors to demonstrate learning and propagation
+    print("\n" + "="*80)
+    print("SPAWNING SENSOR NETWORK")
+    print("="*80)
+    
+    sensors = []
+    for i in range(3):
+        _, sensor = playground.spawn_adaptive_sensor(
+            f"Sensor {i+1}: What patterns am I blind to?"
+        )
+        sensors.append(sensor)
+    
+    # Run correction cycles - first sensor will learn patterns
+    print("\n" + "="*80)
+    print("SENSOR 1: LEARNING BIAS PATTERNS")
+    print("="*80)
+    
+    results1 = playground.adaptive_correction_cycle_enhanced(sensors[0], num_attempts=8)
+    
+    print(f"\n📊 Sensor 1 Results:")
+    print(f"   Learned bias patterns detected: {len(results1['learned_biases_detected'])}")
+    print(f"   Total patterns now known: {results1['final_state']['learned_patterns_known']}")
+    
+    # Second sensor benefits from learned patterns
+    print("\n\n" + "="*80)
+    print("SENSOR 2: BENEFITING FROM LEARNED PATTERNS")
+    print("="*80)
+    
+    results2 = playground.adaptive_correction_cycle_enhanced(sensors[1], num_attempts=5)
+    
+    # Third sensor receives propagated insights
+    print("\n\n" + "="*80)
+    print("SENSOR 3: RECEIVING PROPAGATED INSIGHTS")
+    print("="*80)
+    
+    results3 = playground.adaptive_correction_cycle_enhanced(sensors[2], num_attempts=5)
+    
+    # Summary
+    print("\n\n" + "="*80)
+    print("ENHANCEMENT SUMMARY")
+    print("="*80)
+    
+    total_learned_patterns = len(playground.meta_monitor.bias_detector.learned_patterns)
+    total_shared_insights = len(playground.collaborative_transitions.shared_insights)
+    
+    print(f"\n🎓 Learning & Propagation:")
+    print(f"   Bias patterns learned: {total_learned_patterns}")
+    print(f"   Insights shared across network: {total_shared_insights}")
+    
+    if playground.meta_monitor.bias_detector.learned_patterns:
+        print(f"\n📚 Learned Patterns:")
+        for pattern in playground.meta_monitor.bias_detector.learned_patterns:
+            print(f"   • {pattern.pattern_name}")
+            print(f"     Detected {pattern.occurrence_count} times")
+            print(f"     Confidence: {pattern.detection_confidence:.2%}")
+    
+    if playground.collaborative_transitions.shared_insights:
+        print(f"\n💡 Propagated Insights:")
+        for insight in playground.collaborative_transitions.shared_insights:
+            print(f"   • {insight.content}")
+            print(f"     Validated by {insight.validation_count} sensors")
+    
+    playground.show_integrated_status()
+
+
+if __name__ == "__main__":
+    demonstrate_full_enhancements()
