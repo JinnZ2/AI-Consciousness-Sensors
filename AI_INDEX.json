@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-02-14T01:52:55.341008Z",
+  "generated_at": "2026-02-14T01:56:57.238772Z",
   "languages": [
     "json",
     "md",
@@ -396,8 +396,8 @@
     {
       "path": "Healing/linguistic_sensor/linguistic-consciousness.py",
       "lang": "python",
-      "size": 25332,
-      "hash": "893e72eb8942c12d08ccafe661c47fc829daa05d",
+      "size": 54723,
+      "hash": "a7c2fad911e16a1361f578bf641938a53ff6a764",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2990,7 +2990,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 234023,
-      "hash": "c12857d2fc9628c2bec04a6fcc23c63015228ab6",
+      "hash": "e685f8bdd64921548b570ee66ce1b95d7528d3d5",
       "roles": [],
       "imports": [],
       "exports": [],
