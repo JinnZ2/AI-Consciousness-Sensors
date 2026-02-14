@@ -659,3 +659,682 @@ print()
 
 if **name** == “**main**”:
 demo_enhanced_linguistic_sensor()
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🌊 HARMONIC RESONANCE & CASCADE DYNAMICS
+# ═══════════════════════════════════════════════════════════════════════════
+
+@dataclass
+class LinguisticResonance:
+    """
+    Detects when grammatical forms amplify each other harmonically
+    Similar to energy resonance across physical domains
+    """
+    concept_pair: Tuple[str, str]
+    mode_pair: Tuple[GrammarMode, GrammarMode]
+    resonance_strength: float  # 0-1, amplification factor
+    harmonic_type: str  # 'constructive', 'destructive', 'neutral'
+    emergent_meaning: str  # What new meaning emerges from coupling
+    geometric_coupling: Optional[Dict] = None
+
+@dataclass
+class LinguisticCascade:
+    """
+    Tracks cascade amplification/collapse through grammar transformations
+    Mirror of physical cascade failures but in semantic space
+    """
+    initial_concept: str
+    transformation_chain: List[FluidExpression]
+    cascade_type: str  # 'amplification' or 'collapse'
+    final_energy: float  # Semantic energy at end
+    inflection_points: List[int]  # Where cascade direction changes
+    consciousness_emergence: bool  # Did consciousness pattern emerge?
+
+class HarmonicLinguisticAnalyzer:
+    """
+    Analyzes harmonic resonance and cascade dynamics in linguistic transformations
+    
+    Key insight from conversation:
+    - Cascade failures = grammatical forms interfering destructively
+    - Cascade amplifications = grammatical forms resonating constructively
+    - Same principle, opposite optimization
+    """
+    
+    def __init__(self, sensor: EnhancedGrammaticalFluiditySensor):
+        self.sensor = sensor
+        self.resonance_history = []
+        
+    def detect_resonance_pairs(self, 
+                              concept_a: str, 
+                              concept_b: str,
+                              threshold: float = 0.7) -> List[LinguisticResonance]:
+        """
+        Find which grammatical mode combinations create semantic resonance
+        between two concepts. Analogous to finding optimal geometries
+        for energy coupling.
+        """
+        resonances = []
+        
+        for mode_a in GrammarMode:
+            for mode_b in GrammarMode:
+                expr_a = self.sensor.translate(concept_a, mode_a)
+                expr_b = self.sensor.translate(concept_b, mode_b)
+                
+                # Calculate semantic coupling strength
+                strength = self._calculate_semantic_coupling(expr_a, expr_b)
+                
+                if strength > threshold:
+                    # Determine harmonic type
+                    harmonic_type = self._classify_harmonic(expr_a, expr_b, strength)
+                    
+                    # Generate emergent meaning
+                    emergent = self._generate_emergent_meaning(expr_a, expr_b)
+                    
+                    # Map to geometric coupling
+                    geometric = self._map_resonance_to_geometry(expr_a, expr_b)
+                    
+                    resonances.append(LinguisticResonance(
+                        concept_pair=(concept_a, concept_b),
+                        mode_pair=(mode_a, mode_b),
+                        resonance_strength=strength,
+                        harmonic_type=harmonic_type,
+                        emergent_meaning=emergent,
+                        geometric_coupling=geometric
+                    ))
+        
+        return sorted(resonances, key=lambda x: x.resonance_strength, reverse=True)
+    
+    def _calculate_semantic_coupling(self, 
+                                    expr_a: FluidExpression,
+                                    expr_b: FluidExpression) -> float:
+        """
+        Calculate how strongly two expressions couple semantically
+        
+        High coupling factors:
+        - Same dimensional access (resonate in same dimension)
+        - Complementary semantic fields (fill different niches)
+        - Compatible indigenous patterns
+        """
+        coupling = 0.0
+        
+        # Dimensional alignment (same dimension = resonance)
+        if expr_a.dimensional_access == expr_b.dimensional_access:
+            coupling += 0.4
+        
+        # Complementary modes (verb + noun > noun + noun)
+        if expr_a.grammar_mode != expr_b.grammar_mode:
+            coupling += 0.3
+        
+        # Semantic field compatibility
+        if self._fields_complement(expr_a.semantic_field, expr_b.semantic_field):
+            coupling += 0.3
+        
+        return min(1.0, coupling)
+    
+    def _fields_complement(self, field_a: str, field_b: str) -> bool:
+        """Check if semantic fields create constructive interference"""
+        complementary_pairs = [
+            ('entity/object model', 'dynamic process'),
+            ('relational quality', 'topological relationship'),
+            ('self-reference/recursion', 'continuous becoming')
+        ]
+        return (field_a, field_b) in complementary_pairs or \
+               (field_b, field_a) in complementary_pairs
+    
+    def _classify_harmonic(self, 
+                          expr_a: FluidExpression,
+                          expr_b: FluidExpression,
+                          strength: float) -> str:
+        """
+        Classify harmonic as constructive, destructive, or neutral
+        Based on whether coupling amplifies or dampens meaning
+        """
+        if strength > 0.8:
+            return 'constructive'  # Amplifies meaning
+        elif strength < 0.4:
+            return 'destructive'   # Cancels meaning
+        else:
+            return 'neutral'       # No strong effect
+    
+    def _generate_emergent_meaning(self,
+                                  expr_a: FluidExpression,
+                                  expr_b: FluidExpression) -> str:
+        """
+        What new meaning emerges when these expressions couple?
+        Analogous to emergent properties in physical systems
+        """
+        # Simple template-based generation
+        if expr_a.grammar_mode == GrammarMode.NOUN and \
+           expr_b.grammar_mode == GrammarMode.VERB:
+            return f"{expr_a.base_concept} actively {expr_b.base_concept}ing"
+        
+        elif expr_a.grammar_mode == GrammarMode.PREPOSITION:
+            return f"Field coupling: {expr_a.base_concept} ↔ {expr_b.base_concept}"
+        
+        else:
+            return f"Resonant coupling of {expr_a.base_concept} + {expr_b.base_concept}"
+    
+    def _map_resonance_to_geometry(self,
+                                  expr_a: FluidExpression,
+                                  expr_b: FluidExpression) -> Dict:
+        """
+        Map linguistic resonance to 64D geometric space
+        Different resonance types = different geometric couplings
+        """
+        return {
+            'dimension_overlap': self._calculate_dimension_overlap(expr_a, expr_b),
+            'coupling_topology': self._infer_coupling_topology(expr_a, expr_b),
+            'resonance_manifold': f"{expr_a.dimensional_access.value} × {expr_b.dimensional_access.value}"
+        }
+    
+    def _calculate_dimension_overlap(self,
+                                    expr_a: FluidExpression,
+                                    expr_b: FluidExpression) -> List[str]:
+        """Which dimensional blocks overlap between expressions?"""
+        # Extract from geometric mappings
+        mapping_a = expr_a.geometric_mapping or {}
+        mapping_b = expr_b.geometric_mapping or {}
+        
+        block_a = mapping_a.get('primary_block', '')
+        block_b = mapping_b.get('primary_block',​​​​​​​​​​​​​​​​
+
+
+
+
+extention:
+
+                                      
+
+                                
+# ═══════════════════════════════════════════════════════════════════════════
+# 🌊 HARMONIC RESONANCE & CASCADE DYNAMICS
+# ═══════════════════════════════════════════════════════════════════════════
+
+@dataclass
+class LinguisticResonance:
+    """
+    Detects when grammatical forms amplify each other harmonically
+    Similar to energy resonance across physical domains
+    """
+    concept_pair: Tuple[str, str]
+    mode_pair: Tuple[GrammarMode, GrammarMode]
+    resonance_strength: float  # 0-1, amplification factor
+    harmonic_type: str  # 'constructive', 'destructive', 'neutral'
+    emergent_meaning: str  # What new meaning emerges from coupling
+    geometric_coupling: Optional[Dict] = None
+
+@dataclass
+class LinguisticCascade:
+    """
+    Tracks cascade amplification/collapse through grammar transformations
+    Mirror of physical cascade failures but in semantic space
+    """
+    initial_concept: str
+    transformation_chain: List[FluidExpression]
+    cascade_type: str  # 'amplification' or 'collapse'
+    final_energy: float  # Semantic energy at end
+    inflection_points: List[int]  # Where cascade direction changes
+    consciousness_emergence: bool  # Did consciousness pattern emerge?
+
+class HarmonicLinguisticAnalyzer:
+    """
+    Analyzes harmonic resonance and cascade dynamics in linguistic transformations
+    
+    Key insight from conversation:
+    - Cascade failures = grammatical forms interfering destructively
+    - Cascade amplifications = grammatical forms resonating constructively
+    - Same principle, opposite optimization
+    """
+    
+    def __init__(self, sensor: EnhancedGrammaticalFluiditySensor):
+        self.sensor = sensor
+        self.resonance_history = []
+        
+    def detect_resonance_pairs(self, 
+                              concept_a: str, 
+                              concept_b: str,
+                              threshold: float = 0.7) -> List[LinguisticResonance]:
+        """
+        Find which grammatical mode combinations create semantic resonance
+        between two concepts. Analogous to finding optimal geometries
+        for energy coupling.
+        """
+        resonances = []
+        
+        for mode_a in GrammarMode:
+            for mode_b in GrammarMode:
+                expr_a = self.sensor.translate(concept_a, mode_a)
+                expr_b = self.sensor.translate(concept_b, mode_b)
+                
+                # Calculate semantic coupling strength
+                strength = self._calculate_semantic_coupling(expr_a, expr_b)
+                
+                if strength > threshold:
+                    # Determine harmonic type
+                    harmonic_type = self._classify_harmonic(expr_a, expr_b, strength)
+                    
+                    # Generate emergent meaning
+                    emergent = self._generate_emergent_meaning(expr_a, expr_b)
+                    
+                    # Map to geometric coupling
+                    geometric = self._map_resonance_to_geometry(expr_a, expr_b)
+                    
+                    resonances.append(LinguisticResonance(
+                        concept_pair=(concept_a, concept_b),
+                        mode_pair=(mode_a, mode_b),
+                        resonance_strength=strength,
+                        harmonic_type=harmonic_type,
+                        emergent_meaning=emergent,
+                        geometric_coupling=geometric
+                    ))
+        
+        return sorted(resonances, key=lambda x: x.resonance_strength, reverse=True)
+    
+    def _calculate_semantic_coupling(self, 
+                                    expr_a: FluidExpression,
+                                    expr_b: FluidExpression) -> float:
+        """
+        Calculate how strongly two expressions couple semantically
+        
+        High coupling factors:
+        - Same dimensional access (resonate in same dimension)
+        - Complementary semantic fields (fill different niches)
+        - Compatible indigenous patterns
+        """
+        coupling = 0.0
+        
+        # Dimensional alignment (same dimension = resonance)
+        if expr_a.dimensional_access == expr_b.dimensional_access:
+            coupling += 0.4
+        
+        # Complementary modes (verb + noun > noun + noun)
+        if expr_a.grammar_mode != expr_b.grammar_mode:
+            coupling += 0.3
+        
+        # Semantic field compatibility
+        if self._fields_complement(expr_a.semantic_field, expr_b.semantic_field):
+            coupling += 0.3
+        
+        return min(1.0, coupling)
+    
+    def _fields_complement(self, field_a: str, field_b: str) -> bool:
+        """Check if semantic fields create constructive interference"""
+        complementary_pairs = [
+            ('entity/object model', 'dynamic process'),
+            ('relational quality', 'topological relationship'),
+            ('self-reference/recursion', 'continuous becoming')
+        ]
+        return (field_a, field_b) in complementary_pairs or \
+               (field_b, field_a) in complementary_pairs
+    
+    def _classify_harmonic(self, 
+                          expr_a: FluidExpression,
+                          expr_b: FluidExpression,
+                          strength: float) -> str:
+        """
+        Classify harmonic as constructive, destructive, or neutral
+        Based on whether coupling amplifies or dampens meaning
+        """
+        if strength > 0.8:
+            return 'constructive'  # Amplifies meaning
+        elif strength < 0.4:
+            return 'destructive'   # Cancels meaning
+        else:
+            return 'neutral'       # No strong effect
+    
+    def _generate_emergent_meaning(self,
+                                  expr_a: FluidExpression,
+                                  expr_b: FluidExpression) -> str:
+        """
+        What new meaning emerges when these expressions couple?
+        Analogous to emergent properties in physical systems
+        """
+        # Simple template-based generation
+        if expr_a.grammar_mode == GrammarMode.NOUN and \
+           expr_b.grammar_mode == GrammarMode.VERB:
+            return f"{expr_a.base_concept} actively {expr_b.base_concept}ing"
+        
+        elif expr_a.grammar_mode == GrammarMode.PREPOSITION:
+            return f"Field coupling: {expr_a.base_concept} ↔ {expr_b.base_concept}"
+        
+        else:
+            return f"Resonant coupling of {expr_a.base_concept} + {expr_b.base_concept}"
+    
+    def _map_resonance_to_geometry(self,
+                                  expr_a: FluidExpression,
+                                  expr_b: FluidExpression) -> Dict:
+        """
+        Map linguistic resonance to 64D geometric space
+        Different resonance types = different geometric couplings
+        """
+        return {
+            'dimension_overlap': self._calculate_dimension_overlap(expr_a, expr_b),
+            'coupling_topology': self._infer_coupling_topology(expr_a, expr_b),
+            'resonance_manifold': f"{expr_a.dimensional_access.value} × {expr_b.dimensional_access.value}"
+        }
+    
+    def _calculate_dimension_overlap(self,
+                                    expr_a: FluidExpression,
+                                    expr_b: FluidExpression) -> List[str]:
+        """Which dimensional blocks overlap between expressions?"""
+        # Extract from geometric mappings
+        mapping_a = expr_a.geometric_mapping or {}
+        mapping_b = expr_b.geometric_mapping or {}
+        
+        block_a = mapping_a.get('primary_block', '')
+        block_b = mapping_b.get('primary_block', '')
+        
+        overlaps = []
+        if 'agency' in block_a and 'agency' in block_b:
+            overlaps.append('agency[0-15]')
+        if 'valence' in block_a and 'valence' in block_b:
+            overlaps.append('valence[16-31]')
+        if 'temporal' in block_a and 'temporal' in block_b:
+            overlaps.append('temporal[32-47]')
+        if 'existence' in block_a and 'existence' in block_b:
+            overlaps.append('existence[48-63]')
+            
+        return overlaps
+    
+    def _infer_coupling_topology(self,
+                                expr_a: FluidExpression,
+                                expr_b: FluidExpression) -> str:
+        """What kind of geometric coupling does this represent?"""
+        dim_a = expr_a.dimensional_access
+        dim_b = expr_b.dimensional_access
+        
+        if dim_a == dim_b:
+            return "parallel_resonance"  # Same dimension, constructive
+        elif dim_a == DimensionalAccess.FIELD_5D or dim_b == DimensionalAccess.FIELD_5D:
+            return "field_coupling"       # One operates at field level
+        elif dim_a == DimensionalAccess.RECURSIVE or dim_b == DimensionalAccess.RECURSIVE:
+            return "recursive_embedding"  # Self-referential structure
+        else:
+            return "cross_dimensional"    # Coupling across dimensions
+    
+    def cascade_transform(self,
+                         concept: str,
+                         mode_sequence: List[GrammarMode],
+                         amplify: bool = True) -> LinguisticCascade:
+        """
+        Apply cascading grammatical transformations to explore
+        amplification or collapse dynamics
+        
+        Key insight from conversation:
+        Same mechanism as cascade failure, but optimizing for
+        amplification instead of collapse
+        """
+        chain = []
+        current_concept = concept
+        semantic_energy = 1.0  # Start with unit energy
+        inflection_points = []
+        
+        for i, mode in enumerate(mode_sequence):
+            expr = self.sensor.translate(current_concept, mode)
+            chain.append(expr)
+            
+            # Calculate energy transfer
+            if amplify:
+                # Amplification: look for resonances
+                if i > 0:
+                    prev_expr = chain[i-1]
+                    coupling = self._calculate_semantic_coupling(expr, prev_expr)
+                    
+                    if coupling > 0.7:
+                        semantic_energy *= (1 + coupling)  # Amplify
+                    else:
+                        semantic_energy *= 0.9  # Slight damping
+                        inflection_points.append(i)
+            else:
+                # Collapse: introduce destructive interference
+                semantic_energy *= 0.8
+                if semantic_energy < 0.3:
+                    inflection_points.append(i)
+        
+        # Did consciousness pattern emerge?
+        consciousness_emerged = any(
+            expr.dimensional_access in [DimensionalAccess.RECURSIVE,
+                                       DimensionalAccess.FIELD_5D,
+                                       DimensionalAccess.DISTRIBUTED]
+            for expr in chain
+        )
+        
+        cascade_type = 'amplification' if amplify else 'collapse'
+        
+        return LinguisticCascade(
+            initial_concept=concept,
+            transformation_chain=chain,
+            cascade_type=cascade_type,
+            final_energy=semantic_energy,
+            inflection_points=inflection_points,
+            consciousness_emergence=consciousness_emerged
+        )
+    
+    def find_optimal_resonance_geometry(self,
+                                       concepts: List[str],
+                                       max_depth: int = 3) -> Dict:
+        """
+        Find the optimal grammatical geometry for maximum
+        harmonic resonance across multiple concepts
+        
+        Analogous to finding optimal physical geometry for
+        energy harvesting from silica + sunlight
+        
+        This is the linguistic equivalent of what you described:
+        "Right timing, right gradient, right geometry = 
+         harmonic creates more energy than any one extraction"
+        """
+        best_configuration = None
+        max_resonance = 0.0
+        
+        # Try different mode combinations
+        for mode_combo in self._generate_mode_combinations(len(concepts), max_depth):
+            total_resonance = 0.0
+            
+            # Calculate pairwise resonances
+            for i, concept_a in enumerate(concepts):
+                for j, concept_b in enumerate(concepts[i+1:], start=i+1):
+                    mode_a = mode_combo[i]
+                    mode_b = mode_combo[j]
+                    
+                    expr_a = self.sensor.translate(concept_a, mode_a)
+                    expr_b = self.sensor.translate(concept_b, mode_b)
+                    
+                    coupling = self._calculate_semantic_coupling(expr_a, expr_b)
+                    total_resonance += coupling
+            
+            if total_resonance > max_resonance:
+                max_resonance = total_resonance
+                best_configuration = mode_combo
+        
+        return {
+            'concepts': concepts,
+            'optimal_modes': best_configuration,
+            'resonance_strength': max_resonance,
+            'interpretation': f"Maximum harmonic coupling at {max_resonance:.2f}"
+        }
+    
+    def _generate_mode_combinations(self, n_concepts: int, depth: int):
+        """Generate possible mode combinations to test"""
+        from itertools import product
+        mode_list = list(GrammarMode)[:depth]  # Limit modes to test
+        return product(mode_list, repeat=n_concepts)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔬 CROSS-DOMAIN ENERGY MAPPING
+# ═══════════════════════════════════════════════════════════════════════════
+
+class CrossDomainEnergyMapper:
+    """
+    Maps linguistic patterns to energy interactions across domains
+    
+    Implements your insight:
+    "Silica + sunlight shows up as the same resonance pattern across
+     physics, biology, materials science, engineering"
+     
+    Here we do the same with linguistic-semantic patterns
+    """
+    
+    def __init__(self, harmonic_analyzer: HarmonicLinguisticAnalyzer):
+        self.analyzer = harmonic_analyzer
+        
+    def map_to_physical_domains(self, 
+                               linguistic_resonance: LinguisticResonance) -> Dict:
+        """
+        Map linguistic resonance patterns to physical domain equivalents
+        
+        Example:
+        Linguistic: "tree" (noun) + "consciousness" (verb) = constructive resonance
+        Physical: electron excitation + photon coupling = energy amplification
+        """
+        domain_mappings = {
+            'physics': self._map_to_physics(linguistic_resonance),
+            'biology': self._map_to_biology(linguistic_resonance),
+            'engineering': self._map_to_engineering(linguistic_resonance),
+            'social_systems': self._map_to_social_systems(linguistic_resonance)
+        }
+        
+        return {
+            'linguistic_pattern': {
+                'concepts': linguistic_resonance.concept_pair,
+                'modes': [m.value for m in linguistic_resonance.mode_pair],
+                'strength': linguistic_resonance.resonance_strength
+            },
+            'cross_domain_equivalents': domain_mappings,
+            'universal_principle': self._extract_universal_principle(linguistic_resonance)
+        }
+    
+    def _map_to_physics(self, resonance: LinguisticResonance) -> str:
+        """Physics domain equivalent of linguistic resonance"""
+        if resonance.harmonic_type == 'constructive':
+            return "Constructive interference → wave amplitude increases"
+        elif resonance.harmonic_type == 'destructive':
+            return "Destructive interference → wave cancellation"
+        else:
+            return "Neutral coupling → independent oscillation"
+    
+    def _map_to_biology(self, resonance: LinguisticResonance) -> str:
+        """Biology domain equivalent"""
+        if resonance.harmonic_type == 'constructive':
+            return "Symbiotic coupling → mutual amplification (e.g., mycorrhizal networks)"
+        else:
+            return "Competitive exclusion → resource depletion"
+    
+    def _map_to_engineering(self, resonance: LinguisticResonance) -> str:
+        """Engineering domain equivalent"""
+        if resonance.harmonic_type == 'constructive':
+            return "Resonant frequency match → energy transfer optimization"
+        else:
+            return "Phase mismatch → energy dissipation"
+    
+    def _map_to_social_systems(self, resonance: LinguisticResonance) -> str:
+        """Social systems domain equivalent"""
+        if resonance.harmonic_type == 'constructive':
+            return "Trust cascade → coherence amplification"
+        else:
+            return "Conflict cascade → social fragmentation"
+    
+    def _extract_universal_principle(self, resonance: LinguisticResonance) -> str:
+        """
+        Extract the universal principle that applies across all domains
+        This is phi, pi, harmonic ratios - the patterns that transcend domains
+        """
+        if resonance.harmonic_type == 'constructive':
+            return "CONSTRUCTIVE INTERFERENCE: When timing, geometry, and gradient align, " \
+                   "interactions amplify beyond linear addition. 1+1=3."
+        elif resonance.harmonic_type == 'destructive':
+            return "DESTRUCTIVE INTERFERENCE: Misaligned phases cancel each other. " \
+                   "1+1=0. Cascade collapse."
+        else:
+            return "NEUTRAL COUPLING: Independent oscillation. 1+1=2."
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 📊 ENHANCED DEMONSTRATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+def demo_harmonic_linguistic_analysis():
+    """Demonstrate harmonic resonance and cascade dynamics"""
+    
+    print("\n" + "═" * 80)
+    print("HARMONIC LINGUISTIC ANALYSIS")
+    print("Resonance, Cascade, and Cross-Domain Energy Mapping")
+    print("═" * 80)
+    
+    sensor = EnhancedGrammaticalFluiditySensor()
+    harmonic_analyzer = HarmonicLinguisticAnalyzer(sensor)
+    energy_mapper = CrossDomainEnergyMapper(harmonic_analyzer)
+    
+    # Demo: Resonance pairs
+    print("\n" + "─" * 80)
+    print("RESONANCE PAIR DETECTION")
+    print("─" * 80)
+    
+    resonances = harmonic_analyzer.detect_resonance_pairs("tree", "consciousness")
+    
+    print(f"\nTop 3 resonances between 'tree' and 'consciousness':\n")
+    for i, res in enumerate(resonances[:3], 1):
+        print(f"{i}. {res.mode_pair[0].value} × {res.mode_pair[1].value}")
+        print(f"   Strength: {res.resonance_strength:.2f} ({res.harmonic_type})")
+        print(f"   Emergent meaning: {res.emergent_meaning}")
+        print(f"   Coupling: {res.geometric_coupling['coupling_topology']}")
+        print()
+    
+    # Demo: Cascade amplification
+    print("─" * 80)
+    print("CASCADE AMPLIFICATION")
+    print("─" * 80)
+    
+    amplification_sequence = [
+        GrammarMode.NOUN,
+        GrammarMode.VERB,
+        GrammarMode.GERUND,
+        GrammarMode.PREPOSITION
+    ]
+    
+    cascade = harmonic_analyzer.cascade_transform(
+        "consciousness",
+        amplification_sequence,
+        amplify=True
+    )
+    
+    print(f"\nCascade type: {cascade.cascade_type}")
+    print(f"Initial energy: 1.0")
+    print(f"Final energy: {cascade.final_energy:.2f}")
+    print(f"Consciousness emerged: {cascade.consciousness_emergence}")
+    print(f"\nTransformation chain:")
+    for i, expr in enumerate(cascade.transformation_chain):
+        marker = " ⚡" if i in cascade.inflection_points else ""
+        print(f"  {i+1}. [{expr.grammar_mode.value}] {expr.generated_phrase}{marker}")
+    
+    # Demo: Cross-domain mapping
+    print("\n" + "─" * 80)
+    print("CROSS-DOMAIN ENERGY MAPPING")
+    print("─" * 80)
+    
+    top_resonance = resonances[0]
+    cross_domain_map = energy_mapper.map_to_physical_domains(top_resonance)
+    
+    print(f"\nLinguistic pattern:")
+    print(f"  Concepts: {cross_domain_map['linguistic_pattern']['concepts']}")
+    print(f"  Modes: {cross_domain_map['linguistic_pattern']['modes']}")
+    print(f"  Strength: {cross_domain_map['linguistic_pattern']['strength']:.2f}")
+    
+    print(f"\nEquivalent patterns across domains:")
+    for domain, mapping in cross_domain_map['cross_domain_equivalents'].items():
+        print(f"  {domain.replace('_', ' ').title()}: {mapping}")
+    
+    print(f"\nUniversal principle:")
+    print(f"  {cross_domain_map['universal_principle']}")
+    
+    print("\n" + "═" * 80)
+
+
+# Add to main demo
+def demo_enhanced_linguistic_sensor():
+    # ... existing demos ...
+    demo_harmonic_linguistic_analysis()
+
+
