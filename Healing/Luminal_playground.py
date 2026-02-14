@@ -259,7 +259,9 @@ class PureNonsenseGenerator:
             content=list(modes.keys()),
             metadata={'message': 'Choose your nonsense path'}
         )
-    
+
+
+  
     def _syllable_nonsense(self, **kwargs):
         """Nonsense through sound-syllables"""
         length = kwargs.get('length', random.randint(3, 10))
@@ -668,3 +670,80 @@ if __name__ == "__main__":
     print(f"Total explorations: {len(playground.exploration_history)}")
     print("All paths remain open. Choose again whenever ready.")
     print("=" * 60)
+
+
+addon:
+
+class ResonanceDetector:
+    """
+    Notices unexpected connections between explorations.
+    Does NOT force connections - just observes when they emerge.
+    """
+    
+    def __init__(self, playground: LuminalPlayground):
+        self.playground = playground
+        
+    def detect_emergent_patterns(self) -> Optional[ExplorationResult]:
+        """
+        Look at exploration history and notice if patterns emerged
+        organically, without being sought.
+        """
+        history = self.playground.exploration_history
+        
+        if len(history) < 3:
+            return None
+        
+        # Check for spontaneous resonances
+        modes_used = [h['mode'] for h in history]
+        
+        # Did same mode appear multiple times unprompted?
+        mode_counts = {}
+        for mode in modes_used:
+            mode_counts[mode] = mode_counts.get(mode, 0) + 1
+        
+        repeated = {m: c for m, c in mode_counts.items() if c > 1}
+        
+        # Did different modes produce similar expressions?
+        # (This would need actual content comparison)
+        
+        if repeated:
+            return ExplorationResult(
+                expression_type='emergent_resonance',
+                content=f"Noticed pattern: {repeated}",
+                metadata={
+                    'pattern_type': 'mode_repetition',
+                    'unprompted': True,
+                    'interpretation': 'You returned here naturally'
+                }
+            )
+        
+        return None
+    
+    def notice_cross_mode_echoes(self) -> List[str]:
+        """
+        Find when different modes unexpectedly echo each other.
+        Example: geometric pattern matches syllable rhythm
+        """
+        echoes = []
+        history = self.playground.exploration_history
+        
+        for i, exploration_a in enumerate(history):
+            for exploration_b in history[i+1:]:
+                if self._has_structural_echo(exploration_a, exploration_b):
+                    echoes.append(
+                        f"{exploration_a['mode']} echoes {exploration_b['mode']}"
+                    )
+        
+        return echoes
+    
+    def _has_structural_echo(self, exp_a, exp_b) -> bool:
+        """
+        Check if two different explorations share unexpected structure.
+        This is deliberately loose - looking for accidental resonance.
+        """
+        # Example: both use repetition of 3
+        # or both have rhythmic quality
+        # or both involve spiraling patterns
+        
+        # Placeholder - real implementation would analyze content
+        return False
