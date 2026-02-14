@@ -97,3 +97,45 @@ if __name__ == "__main__":
     fluid_output = "Complexity naturally consciousnesses into coherent patterns"
     print("\nFlattened → Fluid:")
     print(f"{base_input}  →  {fluid_output}")
+
+
+
+def detect_resonance_pairs(self, concept_a: str, concept_b: str) -> Dict[str, float]:
+    """
+    Finds which grammatical mode combinations create 
+    semantic resonance between two concepts.
+    """
+    resonances = {}
+    
+    for mode_a in self.grammar_modes:
+        for mode_b in self.grammar_modes:
+            expr_a = self.translate(concept_a, mode_a)
+            expr_b = self.translate(concept_b, mode_b)
+            
+            # Semantic similarity score (placeholder for actual embedding comparison)
+            similarity = self._semantic_distance(expr_a.generated_phrase, 
+                                                 expr_b.generated_phrase)
+            
+            if similarity > 0.7:  # Threshold for resonance
+                resonances[f"{mode_a}×{mode_b}"] = similarity
+                
+    return resonances
+
+def cascade_transform(self, concept: str, depth: int = 3) -> List[str]:
+    """
+    Applies cascading grammatical transformations to explore
+    how meaning evolves through mode shifts.
+    """
+    current = concept
+    chain = [current]
+    
+    for _ in range(depth):
+        # Pick mode that maximizes semantic expansion
+        next_mode = self._select_expansion_mode(current)
+        transformed = self.translate(current, next_mode)
+        chain.append(transformed.generated_phrase)
+        current = transformed.base_concept
+        
+    return chain
+
+
