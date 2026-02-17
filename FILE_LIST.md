@@ -535,6 +535,7 @@
 ./Sensor: Thought-Terminating Language Detector.json
 ./Sensor: Virtue Entrapment Loop Detector.json
 ./Signal-distortion.md
+./Signal-distortion2.md
 ./Silence Flattening Sensor.json
 ./Silencing Protocol Sensor.json
 ./Simulation.md

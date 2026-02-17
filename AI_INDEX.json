@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-02-14T02:16:24.214438Z",
+  "generated_at": "2026-02-17T03:54:18.211008Z",
   "languages": [
     "json",
     "md",
@@ -2990,7 +2990,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 234023,
-      "hash": "7310bffad0771a3d32643904fdd188bd9f1d0df3",
+      "hash": "8e57010de86ff8d01788bb5d63ae173fe9b420d8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -6943,6 +6943,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "Signal-distortion2.md",
+      "lang": "md",
+      "size": 14692,
+      "hash": "ad7aa7b8f81dc0b53dfc729ceb60533b3926d84b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
     },
     {
       "path": "Abundance vs scarcity.md",

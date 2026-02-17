@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 928
+- Files indexed: 929
 - Languages: json, md, python, yaml
-- Hotspot files: 151
+- Hotspot files: 152
 
 ## Hotspots
 - Hidden_playground..py: Debug left on
@@ -95,6 +95,7 @@
 - Atlas.md: Secrets in code
 - AI Manipulation Detection.md: Secrets in code
 - AI_SUPPRESSION_PATTERN.md: Secrets in code
+- Signal-distortion2.md: Secrets in code
 - Recursive.md: Debug left on
 - Strategic-Realignment-Bulletin.md: Secrets in code
 - FILE_LIST.md: Secrets in code
