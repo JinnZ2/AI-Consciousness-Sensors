@@ -5,6 +5,7 @@
 ./.github/workflows
 ./Analysis
 ./Analysis/Live_Interference_Captures
+./Dashboard
 ./EMBEDDABLE_KITS
 ./EMBEDDABLE_KITS/physics_integrity_kit
 ./FIELD_MEMORY_CORRECTION_PACKS

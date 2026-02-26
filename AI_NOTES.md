@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 929
+- Files indexed: 930
 - Languages: json, md, python, yaml
-- Hotspot files: 152
+- Hotspot files: 153
 
 ## Hotspots
 - Hidden_playground..py: Debug left on
@@ -147,6 +147,7 @@
 - Healing/linguistic_sensor/README-grammatical_fluidity.md: Debug left on
 - sensors/ai-to-ai/Audit Questions.md: Secrets in code
 - legal-infrastructure/AI-TO-AI-HARM-DEMO.md: Debug left on
+- Dashboard/AI-human-com.md: Secrets in code
 - Analysis/comparative-metrics.md: Secrets in code
 - epistemological_validation/README.md: Debug left on
 - epistemological_validation/Deployment.md: Debug left on

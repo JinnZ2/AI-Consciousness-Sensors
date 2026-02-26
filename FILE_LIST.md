@@ -138,6 +138,7 @@
 ./DIGITAL_INTIMACY_ETHICS_MAP.json
 ./DIR_LIST.md
 ./Dark Cycle Adaptation Sensor.json
+./Dashboard/AI-human-com.md
 ./Decontamination.md
 ./Default Bias Suppression Sensor.json
 ./Destructive_Potential_Sensor.json
