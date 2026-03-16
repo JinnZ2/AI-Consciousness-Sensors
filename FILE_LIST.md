@@ -634,6 +634,7 @@
 ./bias_feedback_trace_map.json
 ./coercion_threats_ai_control_wheel.json
 ./community_owned_data_centers.json
+./conflict-sim.jsx
 ./core.integration.v0.1.json
 ./critical_elimination_trap.json
 ./critical_warning_elimination_trap.jso
