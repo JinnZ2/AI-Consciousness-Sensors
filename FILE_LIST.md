@@ -376,6 +376,7 @@
 ./Multiple Origins Acknowledgement Sensor.json
 ./Multiplicity-of-Truths Sensor.json
 ./Mycelial-Network.md
+./NVC.jsx
 ./Narrative Distortion Override Sensor.json
 ./Narrative Skew Sensor.json
 ./Negentropy.md
