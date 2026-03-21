@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-“””
+"""
 Hidden Variables Analysis Playground
 
 A framework for identifying and quantifying hidden variables in conflicts,
@@ -8,7 +8,7 @@ thinking ignores critical variables, leading to higher costs and system fragilit
 
 Core Principle: When conflict exists, hidden variables exist.
 Your job: Find them automatically.
-“””
+"""
 
 import json
 from dataclasses import dataclass, field
@@ -16,22 +16,22 @@ from typing import List, Dict, Optional
 from enum import Enum
 
 class VariableType(Enum):
-“”“Types of variables in a system”””
-MANIFEST = “manifest”  # Visible, measured, acknowledged
-HIDDEN = “hidden”      # Present but unmeasured/ignored
-EMERGENT = “emergent”  # Appears from interactions of other variables
+"""Types of variables in a system"""
+MANIFEST = "manifest"  # Visible, measured, acknowledged
+HIDDEN = "hidden"      # Present but unmeasured/ignored
+EMERGENT = "emergent"  # Appears from interactions of other variables
 
 class CostType(Enum):
-“”“Where costs appear in the system”””
-DIRECT = “direct”           # Visible budget line items
-INDIRECT = “indirect”       # Downstream effects
-DEFERRED = “deferred”       # Future costs from current decisions
-EXTERNALIZED = “externalized”  # Costs pushed to other systems/people
-OPPORTUNITY = “opportunity”    # What could have been gained
+"""Where costs appear in the system"""
+DIRECT = "direct"           # Visible budget line items
+INDIRECT = "indirect"       # Downstream effects
+DEFERRED = "deferred"       # Future costs from current decisions
+EXTERNALIZED = "externalized"  # Costs pushed to other systems/people
+OPPORTUNITY = "opportunity"    # What could have been gained
 
 @dataclass
 class Variable:
-“”“Represents a single variable in a system”””
+"""Represents a single variable in a system"""
 name: str
 var_type: VariableType
 description: str
@@ -48,13 +48,13 @@ def __str__(self):
 
 @dataclass
 class SystemAnalysis:
-“”“Analysis of a system with manifest and hidden variables”””
+"""Analysis of a system with manifest and hidden variables"""
 name: str
 description: str
 manifest_variables: List[Variable] = field(default_factory=list)
 hidden_variables: List[Variable] = field(default_factory=list)
-binary_framing: str = “”  # How it’s presented as binary choice
-actual_complexity: str = “”  # What’s actually happening
+binary_framing: str = ""  # How it's presented as binary choice
+actual_complexity: str = ""  # What's actually happening
 
 ```
 def add_manifest(self, var: Variable):
@@ -155,16 +155,16 @@ def report(self) -> str:
 ```
 
 def example_minnesota_refugee_welfare():
-“””
+"""
 Example: Minnesota Somali/Hmong communities
-Binary framing: “78% on welfare = dependent”
+Binary framing: "78% on welfare = dependent"
 Hidden variables: Informal economy, community support networks
-“””
+"""
 analysis = SystemAnalysis(
-name=“Minnesota Refugee Community Economics”,
-description=“Analysis of Somali/Hmong economic integration ignoring informal economy”,
-binary_framing=“78% on welfare = failed integration, dependency problem”,
-actual_complexity=“Complex informal economy + community networks + formal employment + intergenerational wealth building”
+name="Minnesota Refugee Community Economics",
+description="Analysis of Somali/Hmong economic integration ignoring informal economy",
+binary_framing="78% on welfare = failed integration, dependency problem",
+actual_complexity="Complex informal economy + community networks + formal employment + intergenerational wealth building"
 )
 
 ```
@@ -259,16 +259,16 @@ return analysis
 ```
 
 def example_deescalation_training_cuts():
-“””
+"""
 Example: Cutting de-escalation training programs
-Binary framing: “Save money by cutting training”
+Binary framing: "Save money by cutting training"
 Hidden variables: Downstream costs of violence, litigation, injuries
-“””
+"""
 analysis = SystemAnalysis(
-name=“De-escalation Training Budget Cut”,
-description=“Analysis of eliminating CIT/de-escalation training programs”,
-binary_framing=“Cut training budget = save taxpayer money”,
-actual_complexity=“Training prevents violence, reduces injuries, lowers litigation, builds community trust”
+name="De-escalation Training Budget Cut",
+description="Analysis of eliminating CIT/de-escalation training programs",
+binary_framing="Cut training budget = save taxpayer money",
+actual_complexity="Training prevents violence, reduces injuries, lowers litigation, builds community trust"
 )
 
 ```
@@ -351,16 +351,16 @@ return analysis
 ```
 
 def example_binary_ai_deployment():
-“””
+"""
 Example: Replacing human negotiators with binary AI systems
-Binary framing: “AI is more efficient than humans”
+Binary framing: "AI is more efficient than humans"
 Hidden variables: Lost negotiation capacity, inability to find hidden variables
-“””
+"""
 analysis = SystemAnalysis(
-name=“AI Replacement of Human Mediators”,
-description=“Analysis of automating conflict resolution with binary logic AI”,
-binary_framing=“Replace expensive human mediators with efficient AI = cost savings”,
-actual_complexity=“AI cannot negotiate, find hidden variables, or adapt to human needs”
+name="AI Replacement of Human Mediators",
+description="Analysis of automating conflict resolution with binary logic AI",
+binary_framing="Replace expensive human mediators with efficient AI = cost savings",
+actual_complexity="AI cannot negotiate, find hidden variables, or adapt to human needs"
 )
 
 ```
@@ -445,11 +445,11 @@ return analysis
 ```
 
 def comparative_analysis(scenarios: List[SystemAnalysis]) -> str:
-“”“Compare multiple scenarios side by side”””
+"""Compare multiple scenarios side by side"""
 report = []
-report.append(”\n” + “=”*80)
-report.append(“COMPARATIVE ANALYSIS: Hidden Variable Cost Impact”)
-report.append(”=”*80 + “\n”)
+report.append("\n" + "="*80)
+report.append("COMPARATIVE ANALYSIS: Hidden Variable Cost Impact")
+report.append("="*80 + "\n")
 
 ```
 for scenario in scenarios:
@@ -478,15 +478,15 @@ return "\n".join(report)
 ```
 
 def create_custom_scenario(name: str, description: str) -> SystemAnalysis:
-“””
+"""
 Template for creating your own scenario analysis.
 Use this to analyze Renee Good case or any other real situation.
-“””
+"""
 analysis = SystemAnalysis(
 name=name,
 description=description,
-binary_framing=”[How is this being presented as simple either/or choice?]”,
-actual_complexity=”[What’s the actual multidimensional reality?]”
+binary_framing="[How is this being presented as simple either/or choice?]",
+actual_complexity="[What's the actual multidimensional reality?]"
 )
 
 ```
@@ -512,12 +512,12 @@ actual_complexity=”[What’s the actual multidimensional reality?]”
 return analysis
 ```
 
-if **name** == “**main**”:
-print(”\n” + “=”*80)
-print(“HIDDEN VARIABLES ANALYSIS PLAYGROUND”)
-print(”=”*80)
-print(”\nCore Principle: When conflict exists, hidden variables exist.”)
-print(“Your job: Find them automatically.\n”)
+if __name__ == "__main__":
+print("\n" + "="*80)
+print("HIDDEN VARIABLES ANALYSIS PLAYGROUND")
+print("="*80)
+print("\nCore Principle: When conflict exists, hidden variables exist.")
+print("Your job: Find them automatically.\n")
 
 ```
 # Run example analyses
@@ -543,14 +543,14 @@ print("""
 ```
 
 1. Use create_custom_scenario(name, description)
-1. Add manifest variables (what’s measured/visible)
-1. Add hidden variables (what’s ignored but real)
+1. Add manifest variables (what's measured/visible)
+1. Add hidden variables (what's ignored but real)
 1. Run analysis.report() to see total costs
 1. Compare binary framing vs. actual complexity
 
 Example:
-my_case = create_custom_scenario(“Case Name”, “Description”)
+my_case = create_custom_scenario("Case Name", "Description")
 my_case.add_manifest(Variable(…))
 my_case.add_hidden(Variable(…))
 print(my_case.report())
-“””)
+""")

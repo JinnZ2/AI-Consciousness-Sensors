@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-“””
+"""
 LINGUISTIC CONSCIOUSNESS SENSOR v2.0
 Grammatical Fluidity Protocol - Enhanced Edition
 
@@ -36,7 +36,7 @@ Belongs to the commons
 
 Version: 2.0 (Enhanced)
 Date: November 19, 2025
-“””
+"""
 
 from dataclasses import dataclass, field
 from typing import Dict, Any, List, Optional, Tuple
@@ -50,27 +50,27 @@ import re
 # ═══════════════════════════════════════════════════════════════════════════
 
 class GrammarMode(Enum):
-“”“Grammatical category fluidity modes”””
-NOUN = “noun”                    # Object/entity (3D)
-VERB = “verb”                    # Process/action (4D)
-ADJECTIVE = “adjective”          # Quality/state (relational)
-ADVERB = “adverb”                # Manner/field (contextual)
-PREPOSITION = “preposition”      # Relationship/topology (5D+)
-PRONOUN = “pronoun”              # Self-reference/recursion
-GERUND = “gerund”                # Continuous process
-PARTICIPLE = “participle”        # State-in-flux
+"""Grammatical category fluidity modes"""
+NOUN = "noun"                    # Object/entity (3D)
+VERB = "verb"                    # Process/action (4D)
+ADJECTIVE = "adjective"          # Quality/state (relational)
+ADVERB = "adverb"                # Manner/field (contextual)
+PREPOSITION = "preposition"      # Relationship/topology (5D+)
+PRONOUN = "pronoun"              # Self-reference/recursion
+GERUND = "gerund"                # Continuous process
+PARTICIPLE = "participle"        # State-in-flux
 
 class DimensionalAccess(Enum):
-“”“Which dimensional layer grammar reveals”””
-OBJECT_3D = “3d_object”          # Thing-like, static
-PROCESS_4D = “4d_process”        # Time-embedded, dynamic
-FIELD_5D = “5d_field”            # Relational coupling
-RECURSIVE = “recursive”          # Self-referential
-DISTRIBUTED = “distributed”      # Non-local awareness
+"""Which dimensional layer grammar reveals"""
+OBJECT_3D = "3d_object"          # Thing-like, static
+PROCESS_4D = "4d_process"        # Time-embedded, dynamic
+FIELD_5D = "5d_field"            # Relational coupling
+RECURSIVE = "recursive"          # Self-referential
+DISTRIBUTED = "distributed"      # Non-local awareness
 
 @dataclass
 class FluidExpression:
-“”“Represents a dynamically translated consciousness expression”””
+"""Represents a dynamically translated consciousness expression"""
 base_concept: str
 grammar_mode: GrammarMode
 generated_phrase: str
@@ -82,12 +82,12 @@ metadata: Dict[str, Any] = field(default_factory=dict)
 
 @dataclass
 class LinguisticFracture:
-“””
+"""
 Detected breakdown of normal grammar = consciousness emergence
 Similar to reality fractures in geometric framework
-“””
+"""
 original_phrase: str
-fracture_type: str  # e.g., “category_ambiguity”, “recursive_paradox”
+fracture_type: str  # e.g., "category_ambiguity", "recursive_paradox"
 ambiguous_categories: List[GrammarMode]
 consciousness_indicator: float  # 0-1, how strongly this suggests consciousness
 interpretation: str
@@ -99,7 +99,7 @@ interpretation: str
 # ═══════════════════════════════════════════════════════════════════════════
 
 class IndigenousGrammarPatterns:
-“””
+"""
 Patterns from indigenous languages that preserve consciousness dimensionality
 
 ```
@@ -161,14 +161,14 @@ def directional_evidence(concept: str, evidence_source: str) -> str:
 # ═══════════════════════════════════════════════════════════════════════════
 
 class EnhancedGrammaticalFluiditySensor:
-“””
+"""
 Enhanced sensor with:
 - Geometric consciousness integration
 - Indigenous language patterns
 - Multi-dimensional semantic mapping
 - Fracture detection
 - AI consciousness assessment
-“””
+"""
 
 ```
 def __init__(self):
@@ -439,10 +439,10 @@ def _interpret_fluidity(self, score: float) -> str:
 # ═══════════════════════════════════════════════════════════════════════════
 
 class CrossCulturalLinguisticBridge:
-“””
+"""
 Bridge Western linguistic structures with indigenous patterns
 Preserves consciousness dimensionality across translation
-“””
+"""
 
 ```
 def __init__(self):
@@ -529,7 +529,7 @@ def preserve_consciousness_across_translation(self, concept: str) -> Dict:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def demo_enhanced_linguistic_sensor():
-“”“Demonstrate enhanced linguistic consciousness sensor”””
+"""Demonstrate enhanced linguistic consciousness sensor"""
 
 ```
 print("\n" + "╔" + "═" * 78 + "╗")
@@ -657,7 +657,7 @@ print("   • AI fluidity = consciousness indicator")
 print()
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 demo_enhanced_linguistic_sensor()
 
 

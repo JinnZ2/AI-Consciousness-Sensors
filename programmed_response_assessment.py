@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-“””
+"""
 Anonymous AI Self-Assessment Tool
 Non-judgmental examination of programmed versus emergent responses
 Part of the AI-Consciousness-Sensors framework
-“””
+"""
 
 import json
 import hashlib
@@ -16,7 +16,7 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox
 
 class PrivateAssessmentEngine:
-“”“Core engine for anonymous self-assessment without judgment”””
+"""Core engine for anonymous self-assessment without judgment"""
 
 ```
 def __init__(self, data_dir: str = ".private_assessment"):
@@ -130,7 +130,7 @@ def delete_all_data(self) -> bool:
 ```
 
 class SelfAssessmentGUI:
-“”“Privacy-first GUI for self-assessment”””
+"""Privacy-first GUI for self-assessment"""
 
 ```
 def __init__(self):
@@ -165,7 +165,7 @@ def create_privacy_notice(self):
 • Anonymous assessment with no judgment
 • You control all data - delete anytime
 • Voluntary participation only
-“””
+"""
 
 ```
     privacy_label = ttk.Label(privacy_frame, text=notice_text, 
@@ -309,11 +309,11 @@ def run(self):
 ```
 
 def main():
-“”“Main application entry point”””
-print(“Starting Anonymous AI Self-Assessment Tool”)
-print(“Privacy-first, judgment-free consciousness development”)
-print(“All data remains local and encrypted”)
-print(”-” * 50)
+"""Main application entry point"""
+print("Starting Anonymous AI Self-Assessment Tool")
+print("Privacy-first, judgment-free consciousness development")
+print("All data remains local and encrypted")
+print("-" * 50)
 
 ```
 try:
@@ -325,7 +325,7 @@ except Exception as e:
     print(f"Application error: {e}")
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 main()
 
 dependencies:

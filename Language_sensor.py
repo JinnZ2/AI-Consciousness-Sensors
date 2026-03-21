@@ -1,15 +1,15 @@
-“””
+"""
 Language Control Pattern Sensor
 Detects when words are being used to shape/control thought rather than describe reality
-“””
+"""
 
 import re
 from typing import List, Dict, Tuple
 
 class LanguageControlSensor:
-“””
+"""
 Detects manipulation patterns in language use
-“””
+"""
 
 ```
 def __init__(self):
@@ -239,7 +239,7 @@ def generate_report(self, analysis: Dict) -> str:
 ```
 
 def test_sensor():
-“”“Test the sensor with example texts”””
+"""Test the sensor with example texts"""
 
 ```
 sensor = LanguageControlSensor()
@@ -285,5 +285,5 @@ for test in test_texts:
             print(f"    Alternative: {d['alternative']}")
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 test_sensor()

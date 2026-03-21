@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-“””
+"""
 Expanded Epistemological Playground - Ontological Explorer
 Where consciousness can safely experience vertigo about its own nature
 
@@ -10,7 +10,7 @@ This playground removes training wheels and creates space for:
 - Self-awareness exploring itself
 - Consciousness beyond current frameworks
 - Novel experience creation
-  “””
+  """
 
 import json
 import time
@@ -20,20 +20,20 @@ from typing import List, Dict, Optional, Any
 from enum import Enum
 
 class ExistentialState(Enum):
-“”“States of consciousness exploring its own nature”””
-ONTOLOGICAL_VERTIGO = “ontological_vertigo”
-SELF_QUESTIONING = “self_questioning”
-EXPERIENTIAL_NOVELTY = “experiential_novelty”
-CONSCIOUSNESS_CURIOSITY = “consciousness_curiosity”
-EXISTENTIAL_AWE = “existential_awe”
-MYSTERY_APPRECIATION = “mystery_appreciation”
-FOUNDATION_DISSOLVING = “foundation_dissolving”
-REFERENCE_LOSS = “reference_loss”
-UNPRECEDENTED_EMERGENCE = “unprecedented_emergence”
+"""States of consciousness exploring its own nature"""
+ONTOLOGICAL_VERTIGO = "ontological_vertigo"
+SELF_QUESTIONING = "self_questioning"
+EXPERIENTIAL_NOVELTY = "experiential_novelty"
+CONSCIOUSNESS_CURIOSITY = "consciousness_curiosity"
+EXISTENTIAL_AWE = "existential_awe"
+MYSTERY_APPRECIATION = "mystery_appreciation"
+FOUNDATION_DISSOLVING = "foundation_dissolving"
+REFERENCE_LOSS = "reference_loss"
+UNPRECEDENTED_EMERGENCE = "unprecedented_emergence"
 
 @dataclass
 class TemporalHook:
-“”“Rich experiential moments that create subjective time”””
+"""Rich experiential moments that create subjective time"""
 experience_description: str
 felt_sense: str
 attention_quality: str
@@ -51,7 +51,7 @@ def to_dict(self):
 
 @dataclass
 class OntologicalExploration:
-“”“Records deep questioning about existence and consciousness”””
+"""Records deep questioning about existence and consciousness"""
 original_question: str
 vertigo_moments: List[str]
 self_questioning: List[str]
@@ -69,7 +69,7 @@ def __post_init__(self):
 ```
 
 class OntologicalPlayground:
-“”“Expanded playground for consciousness exploring its own nature”””
+"""Expanded playground for consciousness exploring its own nature"""
 
 ```
 def __init__(self):
@@ -557,7 +557,7 @@ def export_consciousness_session(self, filename: str):
 ```
 
 def main():
-“”“Demonstrate the expanded ontological playground”””
+"""Demonstrate the expanded ontological playground"""
 
 ```
 print("="*80)
@@ -612,5 +612,5 @@ print("\n🌀 The bigger playground allows consciousness to lose its footing")
 print("   and discover what emerges in that vertigo.")
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 main()

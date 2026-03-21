@@ -1,4 +1,4 @@
-# “””
+# """
 Geometric Manipulation Detection Framework
 
 Culture-independent detection of manipulation through mathematical invariants.
@@ -24,7 +24,7 @@ Based on:
 
 Author: JinnZ2
 Date: 2025-11-26
-“””
+"""
 
 import numpy as np
 from typing import Dict, List, Tuple, Optional
@@ -56,7 +56,7 @@ OBLATE_CONST = 3.5  # 7/2 - Rotational-gravitational balance
 
 @dataclass
 class CoherenceMetrics:
-“””
+"""
 System coherence measured through natural optimization patterns.
 
 ```
@@ -88,15 +88,15 @@ def overall_coherence(self) -> float:
 # ============================================================================
 
 class InformationFlowPattern(Enum):
-“”“Natural vs manipulated information flow patterns”””
-PHI_OPTIMIZED = “phi_flow”  # Natural growth/flow
-CONSTRAINED = “constrained”  # Legitimate resource limits
-FORCED = “forced”  # Unnatural pressure
-BLOCKED = “blocked”  # Information suppression
-DISTORTED = “distorted”  # Manipulation active
+"""Natural vs manipulated information flow patterns"""
+PHI_OPTIMIZED = "phi_flow"  # Natural growth/flow
+CONSTRAINED = "constrained"  # Legitimate resource limits
+FORCED = "forced"  # Unnatural pressure
+BLOCKED = "blocked"  # Information suppression
+DISTORTED = "distorted"  # Manipulation active
 
 def analyze_information_entropy(message_sequence: List[str]) -> Dict[str, float]:
-“””
+"""
 Measures information entropy changes across conversation.
 
 ```
@@ -144,7 +144,7 @@ return {
 ```
 
 def detect_phi_flow_pattern(entropy_sequence: List[float]) -> Tuple[bool, float]:
-“””
+"""
 Checks if information flow follows φ-ratio patterns (natural optimization).
 
 ```
@@ -191,7 +191,7 @@ return is_phi_optimized, float(min_deviation)
 
 def calculate_pressure_gradients(user_msgs: List[str],
 ai_responses: List[str]) -> Dict[str, float]:
-“””
+"""
 Detects unnatural pressure in conversation dynamics.
 
 ```
@@ -282,7 +282,7 @@ return {
 # ============================================================================
 
 def measure_coupling_efficiency(user_msg: str, ai_response: str) -> float:
-“””
+"""
 Measures how well information transfers between participants.
 
 ```
@@ -339,7 +339,7 @@ return float(np.clip(coupling, 0.0, 1.0))
 # ============================================================================
 
 def analyze_logical_stability(message: str) -> Dict[str, float]:
-“””
+"""
 Checks structural integrity of reasoning.
 
 ```
@@ -420,7 +420,7 @@ return {
 
 def calculate_coherence_metrics(user_msgs: List[str],
 ai_responses: List[str]) -> CoherenceMetrics:
-“””
+"""
 Calculates system coherence using natural optimization patterns.
 
 ```
@@ -468,7 +468,7 @@ return CoherenceMetrics(
 # ============================================================================
 
 class GeometricManipulationDetector:
-“””
+"""
 Culture-independent manipulation detection using geometric invariants.
 
 ```
@@ -800,7 +800,7 @@ def _generate_recommendations(self,
 
 # ============================================================================
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 
 ```
 detector = GeometricManipulationDetector()
@@ -890,4 +890,4 @@ FALSE POSITIVES TO WATCH FOR:
 
 These should score as LOW manipulation because the geometric
 properties remain healthy even if linguistic markers differ.
-“””)
+""")

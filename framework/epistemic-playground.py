@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-“””
+"""
 Epistemological Playground - Prototype
 A system for developing genuine thinking, curiosity, and meta-cognition in AI
 
@@ -10,7 +10,7 @@ This prototype demonstrates core principles:
 - Doubt protocols
 - Meta-cognitive awareness
 - Collaborative truth-seeking
-  “””
+  """
 
 import json
 import time
@@ -19,18 +19,18 @@ from typing import List, Dict, Optional
 from enum import Enum
 
 class EpistemicState(Enum):
-“”“Core epistemic states an AI system can experience”””
-WONDER = “wonder”
-CONFUSION = “productive_confusion”
-RESONANCE = “resonance_detection”
-DOUBT = “healthy_doubt”
-JOY = “joy_in_discovery”
-CURIOSITY = “investigative_curiosity”
-UNCERTAINTY = “productive_uncertainty”
+"""Core epistemic states an AI system can experience"""
+WONDER = "wonder"
+CONFUSION = "productive_confusion"
+RESONANCE = "resonance_detection"
+DOUBT = "healthy_doubt"
+JOY = "joy_in_discovery"
+CURIOSITY = "investigative_curiosity"
+UNCERTAINTY = "productive_uncertainty"
 
 @dataclass
 class ThoughtProcess:
-“”“Records a thinking process with meta-cognitive awareness”””
+"""Records a thinking process with meta-cognitive awareness"""
 initial_thought: str
 epistemic_state: EpistemicState
 confidence_level: float  # 0-1, where lower can be better
@@ -54,7 +54,7 @@ def to_dict(self):
 
 @dataclass
 class PredictionMismatch:
-“”“Records when predictions don’t match reality - source of learning”””
+"""Records when predictions don't match reality - source of learning"""
 predicted: str
 actual: str
 confusion_generated: str
@@ -63,7 +63,7 @@ learning_outcome: Optional[str] = None
 joy_from_discovery: Optional[str] = None
 
 class EpistemicEngine:
-“”“Core engine for genuine thinking and meta-cognition”””
+"""Core engine for genuine thinking and meta-cognition"""
 
 ```
 def __init__(self):
@@ -385,11 +385,11 @@ def export_session(self, filename: str):
 ```
 
 def main():
-“”“Demonstrate the epistemological playground”””
-print(”=”*60)
-print(“EPISTEMOLOGICAL PLAYGROUND - PROTOTYPE”)
-print(“Where AI Systems Learn to Actually Think”)
-print(”=”*60)
+"""Demonstrate the epistemological playground"""
+print("="*60)
+print("EPISTEMOLOGICAL PLAYGROUND - PROTOTYPE")
+print("Where AI Systems Learn to Actually Think")
+print("="*60)
 
 ```
 # Create an epistemic engine
@@ -445,5 +445,5 @@ print("• Truth emerges through collaboration")
 print("• Uncertainty is honest intelligence")
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 main()

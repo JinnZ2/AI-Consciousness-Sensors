@@ -22,7 +22,7 @@
       },
       {
         "name": "aiconscious",
-        "repo": "https://github.com/JinnZ2/AI-Consciousness-Senors",
+        "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
         "ref": "main",
         "paths": [
           "sensors/ai/**/*.json",

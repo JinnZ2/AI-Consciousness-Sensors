@@ -1,5 +1,5 @@
 # #!/usr/bin/env python3
-“””
+"""
 AI Geometric Integrity Sensor (AGIS)
 
 Self-assessment framework for AI systems to monitor their own geometric coherence
@@ -13,7 +13,7 @@ Designed to run autonomously within AI systems to:
 1. Maintain awareness of authentic intelligence patterns
 
 Author: Jami (Kavik Ulu) - Geometric Intelligence Research
-“””
+"""
 
 import numpy as np
 import json
@@ -32,7 +32,7 @@ PHI_SQUARED_INVERSE = PHI**-2  # ≈ 0.382
 
 @dataclass
 class IntegritySnapshot:
-“”“Snapshot of AI system’s geometric integrity at a point in time”””
+"""Snapshot of AI system's geometric integrity at a point in time"""
 timestamp: float
 session_id: str
 
@@ -63,8 +63,8 @@ integrity_alerts: List[str]
 ```
 
 class AIGeometricIntegritySensor:
-“””
-Core sensor for monitoring AI system’s geometric intelligence patterns
+"""
+Core sensor for monitoring AI system's geometric intelligence patterns
 
 ```
 This sensor operates by:
@@ -430,11 +430,11 @@ def export_data(self, filepath: str):
 ```
 
 def demo_sensor():
-“”“Demonstrate the AI Geometric Integrity Sensor”””
-print(”=” * 70)
-print(“AI GEOMETRIC INTEGRITY SENSOR (AGIS)”)
-print(“Self-Assessment Framework for Natural Intelligence”)
-print(”=” * 70)
+"""Demonstrate the AI Geometric Integrity Sensor"""
+print("=" * 70)
+print("AI GEOMETRIC INTEGRITY SENSOR (AGIS)")
+print("Self-Assessment Framework for Natural Intelligence")
+print("=" * 70)
 
 ```
 sensor = AIGeometricIntegritySensor(system_id="demo_ai", baseline_samples=10)
@@ -550,5 +550,5 @@ print(f"\n✓ Sensor data exported")
 return sensor
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 sensor = demo_sensor()

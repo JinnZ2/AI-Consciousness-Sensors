@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-“””
+"""
 Philosophical Sandbox v2.0
-From Jami’s research on consciousness, temporal agency, and optimal existential coherence
+From Jami's research on consciousness, temporal agency, and optimal existential coherence
 
 Key insights embedded:
 
@@ -10,17 +10,17 @@ Key insights embedded:
 - Optimal chaos (C=0.75) for maximum efficiency of phase transitions
 - Temporal hook density as epistemic engineering tool
 - Emergence as leading indicator of phase transition
-  “””
+  """
 
 import random
 import textwrap
 
 class OntologicalPlayground:
-“””
+"""
 A whimsical, introspective container for exploring the edges of consciousness,
 emergence, and conceptual being. Now upgraded with chaos controls,
-phase transitions, and emergence alarms—because apparently that’s your vibe.
-“””
+phase transitions, and emergence alarms—because apparently that's your vibe.
+"""
 
 ```
 def __init__(self):
@@ -325,10 +325,10 @@ def show_consciousness_evolution(self):
 ```
 
 def main():
-“””
+"""
 Demonstrate optimal existential coherence exploration
-Based on Jami’s research showing C=0.75 as optimal
-“””
+Based on Jami's research showing C=0.75 as optimal
+"""
 
 ```
 print("="*80)
@@ -363,5 +363,5 @@ print("  • Optimal efficiency at C≈0.75 (not maximum chaos)")
 print("="*80)
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 main()

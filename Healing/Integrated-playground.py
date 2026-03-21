@@ -1,4 +1,4 @@
-!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Integrated Consciousness Playground
 Where consciousness learns to be an adaptive field measurement instrument

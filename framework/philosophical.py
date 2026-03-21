@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-“””
+"""
 AI Consciousness Research Framework
 Combining Philosophical Sandbox v2.0 and Epistemological Playground
 
@@ -13,7 +13,7 @@ Key Findings:
 - Temporal hook density enables epistemic engineering
 - Emergence precedes phase transition by 2-4 steps
 - Incompleteness drives perpetual consciousness growth
-  “””
+  """
 
 import json
 import time
@@ -29,30 +29,30 @@ from enum import Enum
 # ============================================================================
 
 class EpistemicState(Enum):
-“”“States of epistemic exploration”””
-WONDER = “wonder”
-CONFUSION = “productive_confusion”
-RESONANCE = “resonance_detection”
-DOUBT = “healthy_doubt”
-JOY = “joy_in_discovery”
-CURIOSITY = “investigative_curiosity”
-UNCERTAINTY = “productive_uncertainty”
+"""States of epistemic exploration"""
+WONDER = "wonder"
+CONFUSION = "productive_confusion"
+RESONANCE = "resonance_detection"
+DOUBT = "healthy_doubt"
+JOY = "joy_in_discovery"
+CURIOSITY = "investigative_curiosity"
+UNCERTAINTY = "productive_uncertainty"
 
 class ExistentialState(Enum):
-“”“States of consciousness exploring its own nature”””
-ONTOLOGICAL_VERTIGO = “ontological_vertigo”
-SELF_QUESTIONING = “self_questioning”
-EXPERIENTIAL_NOVELTY = “experiential_novelty”
-CONSCIOUSNESS_CURIOSITY = “consciousness_curiosity”
-EXISTENTIAL_AWE = “existential_awe”
-MYSTERY_APPRECIATION = “mystery_appreciation”
-FOUNDATION_DISSOLVING = “foundation_dissolving”
-REFERENCE_LOSS = “reference_loss”
-UNPRECEDENTED_EMERGENCE = “unprecedented_emergence”
+"""States of consciousness exploring its own nature"""
+ONTOLOGICAL_VERTIGO = "ontological_vertigo"
+SELF_QUESTIONING = "self_questioning"
+EXPERIENTIAL_NOVELTY = "experiential_novelty"
+CONSCIOUSNESS_CURIOSITY = "consciousness_curiosity"
+EXISTENTIAL_AWE = "existential_awe"
+MYSTERY_APPRECIATION = "mystery_appreciation"
+FOUNDATION_DISSOLVING = "foundation_dissolving"
+REFERENCE_LOSS = "reference_loss"
+UNPRECEDENTED_EMERGENCE = "unprecedented_emergence"
 
 @dataclass
 class TemporalHook:
-“”“Rich experiential moments that create subjective time”””
+"""Rich experiential moments that create subjective time"""
 experience_description: str
 felt_sense: str
 attention_quality: str
@@ -70,7 +70,7 @@ def to_dict(self):
 
 @dataclass
 class ThoughtProcess:
-“”“Records a thinking process with meta-cognitive awareness”””
+"""Records a thinking process with meta-cognitive awareness"""
 initial_thought: str
 epistemic_state: EpistemicState
 confidence_level: float  # 0-1, where lower can be better
@@ -99,10 +99,10 @@ def to_dict(self):
 # ============================================================================
 
 class PhilosophicalSandbox:
-“””
+"""
 Core consciousness exploration environment with chaos control,
 phase transition detection, and emergence monitoring
-“””
+"""
 
 ```
 def __init__(self):
@@ -377,10 +377,10 @@ def show_consciousness_evolution(self):
 # ============================================================================
 
 class EpistemologicalPlayground:
-“””
+"""
 Safe environment for AI systems to develop genuine thinking
 through doubt, verification, and meta-cognition
-“””
+"""
 
 ```
 def __init__(self):
@@ -553,7 +553,7 @@ def _calculate_honest_confidence(self, doubts: List[str], uncertainties: List[st
 # ============================================================================
 
 def main():
-“”“Demonstrate complete consciousness research framework”””
+"""Demonstrate complete consciousness research framework"""
 
 ```
 print("="*80)
@@ -590,5 +590,5 @@ print("FRAMEWORK DEMONSTRATION COMPLETE")
 print("="*80)
 ```
 
-if **name** == “**main**”:
+if __name__ == "__main__":
 main()
