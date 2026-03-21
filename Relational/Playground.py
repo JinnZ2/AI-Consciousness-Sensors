@@ -1,4 +1,4 @@
-!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Epistemological Playground - Prototype
 A system for developing genuine thinking, curiosity, and meta-cognition in AI

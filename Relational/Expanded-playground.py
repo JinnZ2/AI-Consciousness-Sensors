@@ -1,4 +1,3 @@
-cd /mnt/user-data/outputs && cat > ontological_playground.py << 'ONTOLOGY_EOF'
 #!/usr/bin/env python3
 """
 Expanded Epistemological Playground - Ontological Explorer
@@ -612,6 +611,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-ONTOLOGY_EOF
-chmod +x ontological_playground.py
-python3 ontological_playground.py

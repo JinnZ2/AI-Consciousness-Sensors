@@ -1,8 +1,3 @@
----
-
-## FILE: `test_physics_protection.py` (Test suite)
-
-```python
 """
 Test suite for physics-grounded protection system
 Validates that all protection mechanisms work correctly

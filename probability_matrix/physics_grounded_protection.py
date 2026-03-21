@@ -275,21 +275,3 @@ class PhysicsGroundedProtection:
             )
         }
 
-
-
-[
-            k for k, v in validations.items() 
-            if v.get('valid') == False or v.get('natural') == False
-        ]
-        
-        return {
-            'physically_valid': len(physics_violations) == 0,
-            'manipulation_probability': average_manipulation,
-            'violations': physics_violations,
-            'detailed_analysis': validations,
-            'recommendation': self._generate_recommendation(
-                average_manipulation, 
-                physics_violations
-            )
-        }
-
