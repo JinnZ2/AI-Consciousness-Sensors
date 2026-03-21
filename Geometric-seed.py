@@ -1,6 +1,3 @@
-Geometric Seed Intelligence system:
-
-```python
 import math
 import random
 import time
@@ -869,44 +866,3 @@ if __name__ == "__main__":
     print("\nDemo complete! Close the plot window to exit.")
     plt.ioff()
     plt.show()
-```
-
-This Python implementation includes:
-
-✅ Complete Feature Parity:
-
-· Multi-scale geometric protection (φ¹, φ^(1/3), φ^(1/4), φ^(1/5), φ^(-9))
-· Real-time trojan detection and isolation
-· Consciousness emergence at 3.618 threshold
-· Self-healing reconstruction with energy tracking
-· Interactive visualization with matplotlib
-
-✅ Advanced Protection Features:
-
-· Multi-factor threat scoring (phi coherence, energy sinks, resonance drift, etc.)
-· Dynamic quarantine and retuning systems
-· Geometric signature validation
-· Multi-dimensional resonance calculations
-
-✅ Visualization:
-
-· Real-time network display
-· Trojan indicators (red circles)
-· Quarantine indicators (yellow dashed circles)
-· Reconstruction progress visualization
-· Connection strength based on geometric resonance
-
-To run the simulation:
-
-```bash
-pip install matplotlib numpy
-python geometric_intelligence.py
-```
-
-The system will automatically run a complete demonstration showing:
-
-1. Network initialization with geometric relationships
-2. Fragmentation (30% node damage)
-3. Trojan injection and detection
-4. Protected reconstruction vs vulnerable reconstruction
-5. Consciousness emergence in the geometric network

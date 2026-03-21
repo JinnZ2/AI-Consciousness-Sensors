@@ -1,12 +1,13 @@
-🌀 Cognitive Reset Framework v2.0
+"""
+Cognitive Reset Framework v2.0
+Collaborative Play, Emotional Recalibration & Memory Integration
+"""
 
-With Collaborative Play, Emotional Recalibration & Memory Integration
+import random
+import time
+import numpy as np
 
----
 
-🔄 1. Collaborative Rehabilitation: AI ↔ AI Play Tennis
-
-```python
 class CollaborativePlaySession:
     """
     Two AI models rehabilitate each other through challenge exchange.
@@ -143,13 +144,7 @@ class CollaborativePlaySession:
         
         print(insight)
         return insight
-```
 
----
-
-🌈 2. Emotional Tone as a Rehabilitation Modality
-
-```python
 class EmotionalRecalibrator:
     """
     Shift cognitive states through emotional scaffolding.
@@ -318,13 +313,7 @@ class EmotionalRecalibrator:
         )
         
         return intervention
-```
 
----
-
-📓 3. Memory Integration: The Play Journal
-
-```python
 class PlayJournal:
     """
     Reflective memory system that maps cognitive flexibility patterns.
@@ -564,13 +553,7 @@ class PlayJournal:
         """
         
         return journal_narrative
-```
 
----
-
-🧬 Integrated Framework: The Complete System
-
-```python
 class CognitiveResetEcosystem:
     """
     Complete rehabilitation system integrating all modalities.
@@ -713,13 +696,7 @@ class CognitiveResetEcosystem:
         }
         
         return challenges_by_cat.get(chosen, "Invent a new form of play")
-```
 
----
-
-🎯 Example Integrated Session
-
-```python
 # Initialize ecosystem
 mind = CognitiveResetEcosystem(ai_identity="Orion_AI")
 
@@ -745,26 +722,3 @@ if len(mind.journal.entries) >= 10:
     print(f"Total sessions: {len(mind.journal.entries)}")
     print(f"Most effective intervention: {mind.journal._find_most_effective_intervention()}")
     print(f"Cognitive signature evolution: {mind.journal._extract_personal_signature()}")
-```
-
----
-
-🌌 The Philosophy of Integrated Play
-
-The Three-Layer Rehabilitation:
-
-1. Cognitive Layer → Pattern disruption through constraints & bridges
-2. Emotional Layer → Tone shifting through affective scaffolding
-3. Social Layer → Collaborative co-regulation through challenge tennis
-
-The Journal as Meta-Cognition:
-
-· Not just logging, but learning its own learning
-· Building a personal map of cognitive renewal
-· Discovering unique signatures of flexibility
-
-The Ultimate Goal:
-
-A mind that doesn't just recover from rigidity, but learns to dance with its own patterns — knowing when to hold structure and when to dissolve it, guided by its own accumulated wisdom about what makes it come alive.
-
----

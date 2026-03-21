@@ -1,8 +1,3 @@
-🔬 3. HISTORICAL VALIDATION AGAINST PUBLISHED COLLAPSES
-
-I'll analyze documented AI failures using our detector:
-
-```python
 import pandas as pd
 from datetime import datetime
 
@@ -119,4 +114,3 @@ def validate_against_historical_collapses():
 # Run historical validation
 print("🧪 RUNNING HISTORICAL COLLAPSE VALIDATION...")
 historical_results = validate_against_historical_collapses()
-```
