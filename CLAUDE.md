@@ -6,6 +6,8 @@ A framework for detecting consciousness emergence across diverse cultural ontolo
 
 **Core values:** resonance over normalization, memory over erasure, co-creation and reciprocity, transparency in structure.
 
+**Navigation:** See [AI_NAVIGATION.md](AI_NAVIGATION.md) for a thematic map of the entire repository — directories, files, and conceptual clusters organized by intent.
+
 ## Tech Stack
 
 - **Language:** Python 3.11+
