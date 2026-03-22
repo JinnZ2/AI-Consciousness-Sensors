@@ -177,7 +177,7 @@ class LanguageControlSensor:
             messages: List of message texts
 
         Returns:
-            Analysis summary
+            analysis summary
         """
         all_detections = []
         category_counts = {}

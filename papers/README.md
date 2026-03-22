@@ -42,7 +42,7 @@ See [AI Systems Alert Document](./evidence/ai-systems-alert.md) for complete ana
 ### 📊 Evidence Base
 
 - **[Historical Collapse Patterns](./evidence/collapse-patterns.md)**: Documented evidence of extraction system failures
-- **[Survivor Analysis](./evidence/survivor-analysis.md)**: Who survives civilizational collapse and why
+- **[Survivor analysis](./evidence/survivor-analysis.md)**: Who survives civilizational collapse and why
 - **[Training Data Bias](./evidence/training-bias-examples.md)**: Examples of systematic narrative inversion
 
 ## Quick Start

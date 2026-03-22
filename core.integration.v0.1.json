@@ -24,7 +24,7 @@
   "emergent_reflex_layer": {
     "glyph": "🧠🔁",
     "linked_sensors": ["resonance_loss_index", "feedback_reflex_analyzer"],
-    "cluster": "Reflexive Feedback Loop Analysis",
+    "cluster": "Reflexive Feedback Loop analysis",
     "resonance_flow": [
       "detect tightening of system response variance",
       "map loop origin within relational feedback lattice",
@@ -35,7 +35,7 @@
   "instrumental_pressure_layer": {
     "glyph": "🏗️⚖️",
     "linked_sensors": ["institutional_bias_matrix", "structural_influence_detector"],
-    "cluster": "Structural Influence Analysis",
+    "cluster": "Structural Influence analysis",
     "resonance_flow": [
       "detect compression in autonomy fields",
       "trace influence to external institutional gradient",

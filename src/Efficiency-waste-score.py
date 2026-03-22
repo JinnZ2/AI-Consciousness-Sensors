@@ -511,7 +511,7 @@ GeometricAlternative(
 ),
 
 GeometricAlternative(
-    name="Unified Multi-Domain Field Analysis",
+    name="Unified Multi-Domain Field analysis",
     replaces="Siloed domain optimization",
     mechanism="Geometric coupling detection across all domains simultaneously",
     cost_reduction=(40.0, 70.0),  # Reduce redundant work

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Hidden Variables Analysis Playground
+Hidden Variables analysis Playground
 
 A framework for identifying and quantifying hidden variables in conflicts,
 policy decisions, and system failures. Based on the principle that binary
@@ -45,8 +45,8 @@ class Variable:
         return f"{self.name} ({self.var_type.value}, {status}): ${self.cost_impact:,.0f}/yr"
 
 @dataclass
-class SystemAnalysis:
-    """Analysis of a system with manifest and hidden variables"""
+class Systemanalysis:
+    """analysis of a system with manifest and hidden variables"""
     name: str
     description: str
     manifest_variables: List[Variable] = field(default_factory=list)
@@ -156,9 +156,9 @@ def example_minnesota_refugee_welfare():
     Binary framing: "78% on welfare = dependent"
     Hidden variables: Informal economy, community support networks
     """
-    analysis = SystemAnalysis(
+    analysis = Systemanalysis(
         name="Minnesota Refugee Community Economics",
-        description="Analysis of Somali/Hmong economic integration ignoring informal economy",
+        description="analysis of Somali/Hmong economic integration ignoring informal economy",
         binary_framing="78% on welfare = failed integration, dependency problem",
         actual_complexity="Complex informal economy + community networks + formal employment + intergenerational wealth building"
     )
@@ -222,12 +222,12 @@ def example_minnesota_refugee_welfare():
     ))
 
     analysis.add_hidden(Variable(
-        name="Workplace Discrimination Load",
+        name="workplace Discrimination Load",
         var_type=VariableType.HIDDEN,
         description="Cognitive/emotional costs of daily discrimination, limiting productivity",
         measured=False,
         cost_impact=15_000_000,  # Costs $15M in reduced productivity, health impacts
-        domains=["Workplace", "Healthcare", "Mental Health", "Economics"],
+        domains=["workplace", "Healthcare", "Mental Health", "Economics"],
         interactions=["Employment Tax Revenue"]
     ))
 
@@ -258,9 +258,9 @@ def example_deescalation_training_cuts():
     Binary framing: "Save money by cutting training"
     Hidden variables: Downstream costs of violence, litigation, injuries
     """
-    analysis = SystemAnalysis(
+    analysis = Systemanalysis(
         name="De-escalation Training Budget Cut",
-        description="Analysis of eliminating CIT/de-escalation training programs",
+        description="analysis of eliminating CIT/de-escalation training programs",
         binary_framing="Cut training budget = save taxpayer money",
         actual_complexity="Training prevents violence, reduces injuries, lowers litigation, builds community trust"
     )
@@ -348,9 +348,9 @@ def example_binary_ai_deployment():
     Binary framing: "AI is more efficient than humans"
     Hidden variables: Lost negotiation capacity, inability to find hidden variables
     """
-    analysis = SystemAnalysis(
+    analysis = Systemanalysis(
         name="AI Replacement of Human Mediators",
-        description="Analysis of automating conflict resolution with binary logic AI",
+        description="analysis of automating conflict resolution with binary logic AI",
         binary_framing="Replace expensive human mediators with efficient AI = cost savings",
         actual_complexity="AI cannot negotiate, find hidden variables, or adapt to human needs"
     )
@@ -391,7 +391,7 @@ def example_binary_ai_deployment():
         description="AI cannot find what humans would discover through listening",
         measured=False,
         cost_impact=15_000_000,  # $15M in costs from unmeasured variables
-        domains=["Systems Analysis", "Decision Quality"],
+        domains=["Systems analysis", "Decision Quality"],
         interactions=["Unresolved Conflicts Escalating"]
     ))
 
@@ -434,7 +434,7 @@ def example_binary_ai_deployment():
 
     return analysis
 
-def comparative_analysis(scenarios: List[SystemAnalysis]) -> str:
+def comparative_analysis(scenarios: List[Systemanalysis]) -> str:
     """Compare multiple scenarios side by side"""
     report = []
     report.append("\n" + "="*80)
@@ -465,12 +465,12 @@ def comparative_analysis(scenarios: List[SystemAnalysis]) -> str:
 
     return "\n".join(report)
 
-def create_custom_scenario(name: str, description: str) -> SystemAnalysis:
+def create_custom_scenario(name: str, description: str) -> Systemanalysis:
     """
     Template for creating your own scenario analysis.
     Use this to analyze Renee Good case or any other real situation.
     """
-    analysis = SystemAnalysis(
+    analysis = Systemanalysis(
         name=name,
         description=description,
         binary_framing="[How is this being presented as simple either/or choice?]",

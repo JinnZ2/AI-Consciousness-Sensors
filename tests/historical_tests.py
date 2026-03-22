@@ -14,7 +14,7 @@ def validate_against_historical_collapses():
         },
         {
             'name': 'Claude 2.1 Over-Alignment', 
-            'paper': 'Anthropic Constitutional AI Analysis',
+            'paper': 'Anthropic Constitutional AI analysis',
             'symptoms': ['refusal rate 4x increase', 'creative writing degradation', 'edge case failures'],
             'timeline': '2-month constitutional tuning',
             'expected_pattern': 'exploration_suppression'

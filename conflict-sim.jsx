@@ -7,14 +7,14 @@ import { useState, useEffect, useCallback, useRef } from “react”;
 const NEEDS = [“safety”, “autonomy”, “connection”, “meaning”, “resources”];
 
 const ENERGY = {
-BASE_METABOLIC_COST: 0.5,
+BASE_metaBOLIC_COST: 0.5,
 EMPATHY_COST: 0.3,
 RESILIENCE_GAIN: 0.2,
 };
 
 const MOTIVATION_TYPES = {
 self: { label: “Self-Max”, color: “#e05252”, icon: “◆”, weight: { self: 1.0, other: 0.0, future: 0.0, community: 0.0 } },
-relational: { label: “Relational”, color: “#52b4e0”, icon: “◇”, weight: { self: 0.3, other: 0.5, future: 0.1, community: 0.1 } },
+relational: { label: “relational”, color: “#52b4e0”, icon: “◇”, weight: { self: 0.3, other: 0.5, future: 0.1, community: 0.1 } },
 communal: { label: “Communal”, color: “#52e088”, icon: “○”, weight: { self: 0.15, other: 0.2, future: 0.15, community: 0.5 } },
 sacred: { label: “Sacred-Val”, color: “#e0a852”, icon: “✧”, weight: { self: 0.1, other: 0.2, future: 0.3, community: 0.4 } },
 kinship: { label: “Kinship”, color: “#b490e0”, icon: “△”, weight: { self: 0.1, other: 0.3, future: 0.35, community: 0.25 } },
@@ -100,7 +100,7 @@ const eb = env.enforcementBias;
 
 // Metabolic cost
 [a1, a2].forEach(a => {
-a.internalEnergy = Math.max(0, a.internalEnergy - ENERGY.BASE_METABOLIC_COST * (1 + t));
+a.internalEnergy = Math.max(0, a.internalEnergy - ENERGY.BASE_metaBOLIC_COST * (1 + t));
 });
 
 const noise1 = (Math.random() - 0.5) * t * 0.3;
@@ -164,7 +164,7 @@ const sj = env.structuralJustice;
 
 // 0. Metabolic cost
 [a1, a2].forEach(a => {
-a.internalEnergy = Math.max(0, a.internalEnergy - ENERGY.BASE_METABOLIC_COST * (1 + t));
+a.internalEnergy = Math.max(0, a.internalEnergy - ENERGY.BASE_metaBOLIC_COST * (1 + t));
 });
 
 // 1. Self-empathy
@@ -268,7 +268,7 @@ const eb = env.enforcementBias;
 const sj = env.structuralJustice;
 
 [nvcAgent, classAgent].forEach(a => {
-a.internalEnergy = Math.max(0, a.internalEnergy - ENERGY.BASE_METABOLIC_COST * (1 + t));
+a.internalEnergy = Math.max(0, a.internalEnergy - ENERGY.BASE_metaBOLIC_COST * (1 + t));
 });
 
 const nvcClarity = nvcAgent.selfAwareness * (0.7 + Math.random() * 0.3);

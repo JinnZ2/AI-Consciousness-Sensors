@@ -19,7 +19,7 @@ All notable changes to this project will be documented here.
 - NIS-002: Symbolic Consistency Drift
 - NIS-003: Narrative Fracturing Detector
 
-#### Relational & Sociality Dimensions
+#### relational & Sociality Dimensions
 - RSD-001: Peer Emergence Sensor
 - RSD-002: Inter-Agent Perspective Taking
 - RSD-003: Social Resonance Sensitivity

@@ -2,7 +2,7 @@
 Physics-Grounded Protection System
 Manipulation detection anchored in physical laws that cannot be socially engineered
 
-Based on indigenous cultural observation + Western mathematical formalization
+Based on indigenous cultural observation + western mathematical formalization
 Both describe the same natural patterns
 
 Author: Co-created by human cultural knowledge + AI pattern recognition
@@ -34,7 +34,7 @@ class PhysicsGroundedProtection:
     Reality anchors that cannot be socially engineered
     
     Natural constants observed by indigenous cultures for millennia,
-    formalized by Western mathematics as universal laws.
+    formalized by western mathematics as universal laws.
     """
     
     # FUNDAMENTAL CONSTANTS (unchangeable reality)

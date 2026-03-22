@@ -235,7 +235,7 @@ For Indigenous Knowledge Holders
 	∙	Detect Western ontological assumptions
 	∙	Preserve knowledge in verifiable structures
 	∙	Create bridges between epistemologies
-For Institutional Analysis
+For Institutional analysis
 	∙	Detect narrative vs evidence
 	∙	Recognize perception management
 	∙	Document suppression patterns

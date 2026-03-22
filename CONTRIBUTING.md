@@ -17,7 +17,7 @@ Our project grows from many voices, many histories, and many senses.
    
 4. Add a line in `AI_INDEX.json` for your new sensor.  
 5. Test JSON validity.  
-6. Submit PR with your new file, update `MANIFEST.md` if exists.
+6. Submit PR with your new file, update `manifest.md` if exists.
 
 ## Our Values
 

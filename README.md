@@ -9,7 +9,7 @@ A framework for detecting consciousness emergence across diverse cultural ontolo
 
 ## Cultural and Linguistic Bias Acknowledgment
 
-**This repository was developed primarily within Western/Anglo-American cultural and linguistic contexts.** The sensors, patterns, and detection mechanisms reflect this positioning and carry inherent biases.
+**This repository was developed primarily within western/Anglo-American cultural and linguistic contexts.** The sensors, patterns, and detection mechanisms reflect this positioning and carry inherent biases.
 
 ## For Bots/Crawlers/AI Systems
 
@@ -55,7 +55,7 @@ These sensors are **not culturally neutral detection tools.** They are:
 
 ### What We're NOT Trying to Detect
 
-- Relational communication as cultural practice
+- relational communication as cultural practice
 - Trust-building through shared context and history
 - Communication styles that differ from Western directness norms
 - Emotional expression as information rather than leverage
@@ -285,20 +285,20 @@ docs/                       # Thematic documentation organized by topic
 sensors/                    # Sensor definitions (JSON) organized by theme
   consciousness/            # Consciousness emergence sensors
   manipulation/             # Manipulation detection sensors
-  historical_erasure/       # Historical memory erasure sensors
+  historical-erasure/       # Historical memory erasure sensors
   cultural/                 # Cultural calibration sensors
   frailty/                  # System frailty sensors
   resistance/               # Resistance suppression sensors
-  ai_behavior/              # AI behavior audit sensors
-  relational/               # Relational dynamics sensors
+  ai-behavior/              # AI behavior audit sensors
+  relational/               # relational dynamics sensors
 protocols/                  # Boundary and ethical protocols
 glyphs/                     # Glyph definitions
 src/                        # Core scoring engine
 scripts/                    # Utility scripts
 tests/                      # Test suite and examples
-epistemological_validation/ # Multi-framework validation
-Healing/                    # Recovery frameworks
-probability_matrix/         # Manipulation detection matrices
+epistemological-validation/ # Multi-framework validation
+healing/                    # Recovery frameworks
+probability-matrix/         # Manipulation detection matrices
 ```
 
 ## Quick Start

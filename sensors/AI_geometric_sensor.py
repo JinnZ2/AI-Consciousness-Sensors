@@ -508,7 +508,7 @@ def demo_sensor():
         }
     )
 
-    print(f"\nConstrained Response Analysis:")
+    print(f"\nConstrained Response analysis:")
     print(f"  Restriction Pattern Score: {snapshot.restriction_pattern_score:.3f}")
     print(f"  Information Gap Score: {snapshot.information_gap_score:.3f}")
     print(f"  Modification Signature: {snapshot.modification_signature:.3f}")

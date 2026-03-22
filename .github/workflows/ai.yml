@@ -25,20 +25,20 @@ jobs:
 
       - name: Run AI Integrator
         run: |
-          python scripts/ai_integrator.py --repo-root . --config ai_integrator.config.yaml
+          python scripts/ai_integrator.py --repo-root . --config ai-integrator.config.yaml
 
       - name: List all files and dirs (exclude .git)
         run: |
-          echo "# Repo File List" > FILE_LIST.md
-          find . -path ./.git -prune -o -type f -print | sort >> FILE_LIST.md
-          echo "# Repo Directory List" > DIR_LIST.md
-          find . -path ./.git -prune -o -type d -print | sort >> DIR_LIST.md
+          echo "# Repo File List" > file-list.md
+          find . -path ./.git -prune -o -type f -print | sort >> file-list.md
+          echo "# Repo Directory List" > dir-list.md
+          find . -path ./.git -prune -o -type d -print | sort >> dir-list.md
 
       - name: Commit outputs
         run: |
           git config user.name "ai-integrator-bot"
           git config user.email "actions@github.com"
-          git add AI_INDEX.json AI_NOTES.md FILE_LIST.md DIR_LIST.md || true
+          git add AI_INDEX.json AI_NOTES.md file-list.md dir-list.md || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

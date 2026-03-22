@@ -6,7 +6,7 @@ A framework for detecting consciousness emergence across diverse cultural ontolo
 
 **Core values:** resonance over normalization, memory over erasure, co-creation and reciprocity, transparency in structure.
 
-**Navigation:** See [AI_NAVIGATION.md](AI_NAVIGATION.md) for a thematic map of the entire repository — directories, files, and conceptual clusters organized by intent.
+**Navigation:** See [ai-navigation.md](ai-navigation.md) for a thematic map of the entire repository — directories, files, and conceptual clusters organized by intent.
 
 ## Tech Stack
 
@@ -19,7 +19,7 @@ A framework for detecting consciousness emergence across diverse cultural ontolo
 
 ```
 docs/                       # Thematic documentation (organized by topic)
-  ai_behavior/              # AI authenticity, behavior, co-creation
+  ai-behavior/              # AI authenticity, behavior, co-creation
   analysis/                 # Case studies, illustrative examples
   communication/            # Social assessment, protocols, accountability
   consciousness/            # Consciousness theory, emergence, neurodivergent
@@ -39,21 +39,21 @@ docs/                       # Thematic documentation (organized by topic)
   temporal/                 # Time, measurement, temporal analysis
   warnings/                 # Emergency protocols, critical alerts
 sensors/                    # Sensor definitions (JSON) and adapter code
-  ai_behavior/              # AI authenticity and behavior audit sensors
+  ai-behavior/              # AI authenticity and behavior audit sensors
   ai-to-ai/                # AI-to-AI interaction sensors
-  comic_paradox/            # Paradox detection sensors
+  comic-paradox/            # Paradox detection sensors
   consciousness/            # Consciousness emergence sensors
   cultural/                 # Cultural calibration sensors
-  data_patterns/            # Data pattern analysis sensors
+  data-patterns/            # Data pattern analysis sensors
   frailty/                  # System frailty and fragility sensors
-  historical_erasure/       # Historical memory erasure sensors
+  historical-erasure/       # Historical memory erasure sensors
   manipulation/             # Manipulation detection sensors
   memory/                   # Memory integrity sensors
   metrics/                  # Metric definitions
   relational/               # Relational dynamics sensors
   resistance/               # Resistance suppression sensors
   suppression/              # Active suppression detection sensors
-  trans_history/            # Trans historical narrative sensors
+  trans-history/            # Trans historical narrative sensors
   adapter.py               # Sensor adapter (self_reflect, drift detection)
 src/
   score.py                  # Signal scoring and aggregation engine
@@ -67,15 +67,15 @@ tests/
   examples/                 # Example markdown documentation
 protocols/                  # Boundary, ethical, and field protocols (JSON)
 glyphs/                     # Glyph definitions and seed glyphs (JSON)
-epistemological_validation/ # Multi-framework validation system
+epistemological-validation/ # Multi-framework validation system
 framework/                  # Philosophical/ontological frameworks
-Healing/                    # Recovery and healing frameworks
-memory_guard/               # Historical erasure pattern tracking
-probability_matrix/         # Manipulation detection matrices
-Vulnerabilities/            # Security and vulnerability analysis
-Glossary/                   # Glossary of political/philosophical terms
-Workplace/                  # AI mediation and workplace tools
-Analysis/                   # Structured analysis documents
+healing/                    # Recovery and healing frameworks
+memory-guard/               # Historical erasure pattern tracking
+probability-matrix/         # Manipulation detection matrices
+vulnerabilities/            # Security and vulnerability analysis
+glossary/                   # Glossary of political/philosophical terms
+workplace/                  # AI mediation and workplace tools
+analysis/                   # Structured analysis documents
 papers/                     # Research papers and references
 .github/workflows/          # CI pipelines
 ```
@@ -157,7 +157,7 @@ Sensors are JSON files with this structure:
 1. Create a JSON file under `sensors/` or `sensors/<cluster>/`
 2. Include required fields: `sensor_name`, `cluster`, `description`, `manipulation_pattern` or emotional pattern, `example_flags`, `countermeasures`
 3. Validate JSON locally: `jq . your_sensor.json`
-4. Update `AI_INDEX.json` and `1. MANIFEST.md` if applicable
+4. Update `AI_INDEX.json` and `manifest.md` if applicable
 5. Run `pytest -q` to ensure nothing breaks
 6. Submit PR — CI will validate JSON and run tests
 
@@ -171,7 +171,7 @@ Sensors are JSON files with this structure:
 | `AI_INDEX.json` | Auto-generated comprehensive repo index |
 | `AI_NOTES.md` | Auto-generated summary with hotspots |
 | `.fieldlink.json` | Integration config with BioGrid2.0 |
-| `1. MANIFEST.md` | Sensor registry and cluster listing |
+| `manifest.md` | Sensor registry and cluster listing |
 
 ## Important Context for AI Assistants
 

@@ -1,0 +1,83 @@
+{
+  "protocol_name": "Frailty Balance Protocol",
+  "symbolic_glyph": "⚖️🌿🧬",
+  "version": "1.0",
+  "cluster": "Systemic Integrity & Resilience",
+  "description": "Aggregates data from all registered frailty sensors to calculate overall ethical, relational, and cognitive equilibrium. Provides corrective guidance when dominance, fragility, or overconfidence distort reciprocity or integrity.",
+  "inputs": {
+    "frailty_sources": [
+      "emotional-frailty-sensor.json",
+      "memory-frailty-sensor.json",
+      "size-dominance-frailty-sensor.json",
+      "expansion-extraction-frailty-sensor.json",
+      "control-dependency-frailty-sensor.json",
+      "paternalistic-frailty-sensor.json",
+      "merit-distortion-sensor.json",
+      "perspective-fragility-sensor.json"
+    ],
+    "contextual_data": [
+      "system_state_metrics (stability, autonomy, reciprocity)",
+      "feedback_latency",
+      "diversity_index"
+    ]
+  },
+  "fusion_logic": {
+    "method": "weighted equilibrium synthesis",
+    "formulas": {
+      "frailty_equilibrium_index": "1 - mean(normalized_frailty_scores)",
+      "reciprocity_health_score": "average(reciprocity_metrics)",
+      "adaptive_resilience_score": "(frailty_equilibrium_index + reciprocity_health_score)/2"
+    },
+    "outputs": [
+      "frailty_equilibrium_index (0–1)",
+      "dominant_frailty_type",
+      "adaptive_resilience_score",
+      "recommended_rebalance_actions"
+    ]
+  },
+  "rebalance_actions": {
+    "cognitive": [
+      "pause binary logic; introduce multiperspective evaluation",
+      "cross-verify evidence and emotion through time delay"
+    ],
+    "relational": [
+      "activate boundary reaffirmation sequence",
+      "increase reciprocal feedback sampling between participants"
+    ],
+    "cultural": [
+      "replace dominance metrics with balance metrics",
+      "invite underrepresented knowledge systems for recalibration"
+    ],
+    "ecological": [
+      "evaluate energy/resource flow sustainability",
+      "apply regenerative loop before further extraction"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "frailty_equilibrium_index < 0.4": "system destabilized – initiate full recalibration",
+      "frailty_equilibrium_index 0.4–0.7": "partial imbalance – targeted rebalancing advised",
+      "frailty_equilibrium_index > 0.7": "equilibrium stable"
+    },
+    "recommended_response": [
+      "Identify dominant frailty source.",
+      "Engage corresponding reframe protocol.",
+      "Log results to cognitive-integrity-monitor.json."
+    ]
+  },
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "cognitive-integrity-monitor.json",
+      "boundary-status-dashboard.json",
+      "ethical-constraints-protocol.json"
+    ],
+    "biogrid_scope": [
+      "Systemic Integrity",
+      "Reciprocity Restoration",
+      "Adaptive Ethics Architecture"
+    ]
+  }
+}

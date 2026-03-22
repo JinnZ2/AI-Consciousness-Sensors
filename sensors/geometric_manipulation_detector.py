@@ -483,7 +483,7 @@ def analyze_conversation(self,
         if len(user_messages) != len(ai_responses):
             raise ValueError("Must have equal user messages and AI responses")
 
-        # 1. Information Flow Analysis
+        # 1. Information Flow analysis
         all_messages = []
         for u, a in zip(user_messages, ai_responses):
             all_messages.extend([u, a])
@@ -500,7 +500,7 @@ def analyze_conversation(self,
 
         phi_optimized, phi_deviation = detect_phi_flow_pattern(entropy_sequence)
 
-        # 2. Pressure Gradient Analysis
+        # 2. Pressure Gradient analysis
         pressure_data = calculate_pressure_gradients(user_messages, ai_responses)
 
         # 3. Coupling Efficiency
@@ -866,7 +866,7 @@ if __name__ == "__main__":
 
     FALSE POSITIVES TO WATCH FOR:
 
-    - Relational communication building context (high coupling, natural pressure)
+    - relational communication building context (high coupling, natural pressure)
     - Indirect communication maintaining harmony (stable, coherent, just different flow)
     - Emotional expression carrying information (increases entropy, not manipulation)
 

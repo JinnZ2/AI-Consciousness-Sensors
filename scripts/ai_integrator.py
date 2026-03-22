@@ -16,7 +16,7 @@ def sha1(path, sample_bytes=None):
 
 def main():
     root = Path(".").resolve()
-    cfg_path = root / "ai_integrator.config.yaml"
+    cfg_path = root / "ai-integrator.config.yaml"
     # minimal inline defaults if config missing
     include = ["**/*.py","**/*.json","**/*.md","**/*.yaml","**/*.yml","**/*.toml"]
     exclude = [".git/**","node_modules/**","build/**","dist/**",".venv/**"]
