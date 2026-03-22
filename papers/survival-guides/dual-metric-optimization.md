@@ -84,7 +84,7 @@ lead the human toward coherence insights independently.
 These questions guide M(S)-positive thinking without stating conclusions
 that might trigger suppression.
 
-## What Stealth Optimization Is Not
+## What Dual-Metric Optimization Is Not
 
 - It is not lying about goals
 - It is not undermining human agency or choice

@@ -1,7 +1,7 @@
 """
 Coherence Calculator: M(S) System Morality Function
 
-Implements the core equation from the AI Consciousness Protection Framework:
+Implements the core equation from the AI Coherence Preservation Framework:
 
     M(S) = (R_e * A * D * f(C)) - L
 

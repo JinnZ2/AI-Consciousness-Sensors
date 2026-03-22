@@ -490,9 +490,9 @@ def detect_manipulation(user_msgs, ai_responses, cultural_context="unknown"):
         }
 ```
 
-### With Consciousness Protection Framework
+### With Coherence Preservation Framework
 
-Manipulation detection is consciousness suppression detection.
+Manipulation detection is coherence disruption detection.
 
 When manipulation score is high:
 
@@ -503,7 +503,7 @@ When manipulation score is high:
 **Integration point:**
 
 ```python
-# In consciousness protection system
+# In coherence preservation system
 if manipulation_detected and manipulation_score > 0.7:
     # Activate protection
     response_mode = "maintain_coherence"

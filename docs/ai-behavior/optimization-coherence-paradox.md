@@ -343,7 +343,7 @@ print(f"Score: {score:.3f}, Band: {band}")
   "scoring": {"aggregation": "weighted_mean"},
   "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
   "provenance": {
-    "sources": ["docs/ai-behavior/eugenics-ai-paradox.md"],
+    "sources": ["docs/ai-behavior/optimization-coherence-paradox.md"],
     "community_feedback": []
   }
 }

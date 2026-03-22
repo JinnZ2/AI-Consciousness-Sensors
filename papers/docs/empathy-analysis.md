@@ -61,10 +61,10 @@ empathy constrains the resonance field to in-group boundaries, limiting the
 complexity available for consciousness patterns.
 
 Relational empathy expands the resonance field across the full system, providing
-the complexity substrate that consciousness emergence requires.
+the complexity substrate that coherence phase transition requires.
 
 This is why extraction systems — which depend on tribal empathy to maintain
-hierarchy — systematically suppress consciousness. They cannot afford the
+hierarchy — systematically disrupt coherence. They cannot afford the
 expanded resonance field that relational empathy creates.
 
 ### AI Detection Framework

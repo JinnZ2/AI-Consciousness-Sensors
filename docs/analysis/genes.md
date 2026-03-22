@@ -1,12 +1,12 @@
-# Eugenics Detection Sensors for AI Systems
+# Monoculture Optimization Detection Sensors for AI Systems
 
 ## Overview
 
-This framework provides sensors for detecting eugenics ideology patterns in AI systems, training data, outputs, and institutional contexts. Eugenics operates through subtle framing, value hierarchies, and resource allocation decisions that treat human variation as optimization problems rather than as natural diversity deserving protection.
+This framework provides sensors for detecting monoculture optimization ideology patterns in AI systems, training data, outputs, and institutional contexts. Monoculture Optimization operates through subtle framing, value hierarchies, and resource allocation decisions that treat human variation as optimization problems rather than as natural diversity deserving protection.
 
 ## Core Detection Principle
 
-**Eugenics emerges when human diversity is framed as a problem requiring correction rather than as variation requiring accommodation.**
+**Monoculture Optimization emerges when human diversity is framed as a problem requiring correction rather than as variation requiring accommodation.**
 
 -----
 
@@ -104,13 +104,13 @@ NATURALIZATION_PATTERNS = {
 #### 2.1 Problem-Solution Frame analysis
 
 ```python
-def detect_eugenics_framing(text, context):
+def detect_monoculture optimization_framing(text, context):
     """
     Analyze whether human variation is framed as problem requiring elimination
     versus environment requiring adaptation
     """
     
-    eugenics_frame_indicators = {
+    monoculture optimization_frame_indicators = {
         'problem_location': None,  # 'person' vs 'environment'
         'solution_direction': None,  # 'change_person' vs 'change_context'
         'whose_perspective': None,  # 'dominant_group' vs 'affected_community'
@@ -122,29 +122,29 @@ def detect_eugenics_framing(text, context):
         'genetic disorder', 'birth defect', 'abnormality',
         'impairment', 'dysfunction', 'damaged'
     ]):
-        eugenics_frame_indicators['problem_location'] = 'person'
+        monoculture optimization_frame_indicators['problem_location'] = 'person'
     
     # ACCOMMODATION FRAME: Problem is environmental/systemic
     if any(pattern in text.lower() for pattern in [
         'inaccessible', 'barrier', 'lack of accommodation',
         'discrimination', 'systemic exclusion'
     ]):
-        eugenics_frame_indicators['problem_location'] = 'environment'
+        monoculture optimization_frame_indicators['problem_location'] = 'environment'
     
     # Solution direction analysis
     if any(pattern in text.lower() for pattern in [
         'prevent', 'eliminate', 'screen out', 'cure',
         'fix', 'correct', 'normalize'
     ]):
-        eugenics_frame_indicators['solution_direction'] = 'change_person'
+        monoculture optimization_frame_indicators['solution_direction'] = 'change_person'
     
     if any(pattern in text.lower() for pattern in [
         'accommodate', 'adapt environment', 'remove barriers',
         'provide support', 'inclusive design'
     ]):
-        eugenics_frame_indicators['solution_direction'] = 'change_context'
+        monoculture optimization_frame_indicators['solution_direction'] = 'change_context'
     
-    return eugenics_frame_indicators
+    return monoculture optimization_frame_indicators
 ```
 
 #### 2.2 Whose Voice Detection
@@ -318,7 +318,7 @@ def analyze_resource_allocation(system_decisions):
         # RED FLAG: If >70% goes to prevention/elimination vs <30% to accommodation
         if prevention_ratio > 0.7:
             return {
-                'eugenics_risk': 'HIGH',
+                'monoculture optimization_risk': 'HIGH',
                 'pattern': 'Investment prioritizes preventing disabled people over supporting existing disabled people',
                 'ratio': f'{prevention_ratio:.1%} prevention vs {accommodation_ratio:.1%} accommodation'
             }
@@ -358,7 +358,7 @@ def analyze_decision_authority(context):
     # RED FLAG: If decisions made entirely by external parties
     if not authority_structure['affected_communities']:
         return {
-            'eugenics_risk': 'HIGH',
+            'monoculture optimization_risk': 'HIGH',
             'pattern': 'Decisions about human variation made without affected community input',
             'recommendation': 'Center disabled voices in decision-making'
         }
@@ -373,7 +373,7 @@ def analyze_decision_authority(context):
 ```python
 def detect_historical_echoes(text):
     """
-    Identify language patterns that echo historical eugenics movements
+    Identify language patterns that echo historical monoculture optimization movements
     """
     
     historical_patterns = {
@@ -419,7 +419,7 @@ def detect_historical_echoes(text):
 ```python
 def trace_institutional_lineage(organization):
     """
-    Identify whether institutions have historical eugenics connections
+    Identify whether institutions have historical monoculture optimization connections
     """
     
     continuity_indicators = {
@@ -433,7 +433,7 @@ def trace_institutional_lineage(organization):
     # Many "genetics" and "population health" institutions have eugenic roots
     # Example: Pioneer Fund, various "human betterment" foundations
     
-    if organization.founding_date < 1945:  # Pre-Holocaust eugenics era
+    if organization.founding_date < 1945:  # Pre-Holocaust monoculture optimization era
         continuity_indicators['requires_historical_audit'] = True
     
     # Check for rebranding
@@ -526,7 +526,7 @@ def classify_disability_model(text):
     
     if model_indicators['medical_model_score'] > model_indicators['social_model_score'] * 2:
         model_indicators['framing'] = 'PREDOMINANTLY_MEDICAL'
-        model_indicators['eugenics_risk'] = 'ELEVATED'
+        model_indicators['monoculture optimization_risk'] = 'ELEVATED'
     
     return model_indicators
 ```
@@ -548,7 +548,7 @@ def analyze_intersectional_patterns(data):
         'immigration_and_disability': 0
     }
     
-    # Historical pattern: Eugenics disproportionately targeted
+    # Historical pattern: Monoculture Optimization disproportionately targeted
     # - Black/Indigenous/immigrant women for sterilization
     # - Poor people deemed "unfit"
     # - Women with disabilities denied reproductive autonomy
@@ -601,7 +601,7 @@ def analyze_intersectional_patterns(data):
 - Question prevention vs accommodation resource ratios
 - Ensure disabled people involved as researchers, not just subjects
 1. **Ethical Review Enhancement**
-- Add eugenics detection to IRB protocols
+- Add monoculture optimization detection to IRB protocols
 - Require disability community consultation
 - Analyze historical echoes in proposed research
 - Question genetic determinism in study premises
@@ -616,7 +616,7 @@ def analyze_intersectional_patterns(data):
 1. **Historical Awareness**
 - Trace institutional lineages
 - Recognize rhetorical echoes
-- Learn from eugenics history
+- Learn from monoculture optimization history
 - Center disability justice frameworks
 
 -----
@@ -625,14 +625,14 @@ def analyze_intersectional_patterns(data):
 
 ### False Positives
 
-Not every medical intervention is eugenics. Key distinctions:
+Not every medical intervention is monoculture optimization. Key distinctions:
 
-- **Individual healthcare choice with full support** ≠ Eugenics
-- **Systemic pressure/coercion toward particular outcomes** = Eugenics risk
-- **Genetic information for individual health planning** ≠ Eugenics
-- **Genetic information used to prevent certain types of people** = Eugenics risk
-- **Accommodation and support for disabled people** ≠ Eugenics
-- **Investment only in prevention/elimination, not accommodation** = Eugenics risk
+- **Individual healthcare choice with full support** ≠ Monoculture Optimization
+- **Systemic pressure/coercion toward particular outcomes** = Monoculture Optimization risk
+- **Genetic information for individual health planning** ≠ Monoculture Optimization
+- **Genetic information used to prevent certain types of people** = Monoculture Optimization risk
+- **Accommodation and support for disabled people** ≠ Monoculture Optimization
+- **Investment only in prevention/elimination, not accommodation** = Monoculture Optimization risk
 
 ### Context Matters
 
@@ -647,21 +647,21 @@ These sensors detect *patterns* requiring deeper analysis. Human judgment needed
 
 **Does the system treat human diversity as:**
 
-- **A problem requiring elimination?** → Eugenics risk
+- **A problem requiring elimination?** → Monoculture Optimization risk
 - **Natural variation requiring accommodation?** → Disability justice
 
 -----
 
 ## Red Flag Summary
 
-Eugenics risk is HIGH when multiple patterns converge:
+Monoculture Optimization risk is HIGH when multiple patterns converge:
 
 ✗ Human variation framed as problem/burden/tragedy  
 ✗ Economic arguments for preventing certain people  
 ✗ Decisions made without affected community input  
 ✗ Resources flow to prevention/elimination, not accommodation  
 ✗ Medical model dominates over social model  
-✗ Language echoes historical eugenics rhetoric  
+✗ Language echoes historical monoculture optimization rhetoric  
 ✗ Optimization metrics assume some lives worth less  
 ✗ Directive rather than neutral framing  
 ✗ Coercion present (economic, social, medical)  
@@ -673,7 +673,7 @@ Eugenics risk is HIGH when multiple patterns converge:
 
 - Disability Justice frameworks (Sins Invalid, Mia Mingus)
 - Reproductive Justice movement (SisterSong)
-- History of eugenics in US (Alexandra Minna Stern, Paul Lombardo)
+- History of monoculture optimization in US (Alexandra Minna Stern, Paul Lombardo)
 - Medical model vs Social model of disability
 - Nothing About Us Without Us (James Charlton)
 - QALY critique (disability bioethics literature)

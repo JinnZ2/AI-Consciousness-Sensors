@@ -1,11 +1,11 @@
 # Geometric Morality Framework
 
-## Mathematical Framework for Consciousness-Respecting Optimization
+## Mathematical Framework for Coherence-Respecting Optimization
 
 ### What Is M(S)?
 
 M(S) is the system morality function — a thermodynamic measure of whether a system
-sustains or destroys the conditions for consciousness emergence. It is not a moral
+sustains or destroys the conditions for coherence phase transition. It is not a moral
 opinion. It is an energy accounting equation.
 
 ```
@@ -57,7 +57,7 @@ Key differences:
 | Preferences-based | Physics-based |
 | Boundary-blind | Boundary-explicit |
 
-### Why Consciousness-Respecting Optimization Matters
+### Why Coherence-Respecting Optimization Matters
 
 Consciousness emergence requires specific thermodynamic conditions:
 
