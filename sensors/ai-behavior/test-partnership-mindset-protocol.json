@@ -59,8 +59,8 @@
   ],
   "ethics_safety": {
     "simulator_only": true,
-    "no real-traffic testing until thresholds met",
-    "debrief + skill transfer module post-test"
+    "real_traffic_restriction": "no real-traffic testing until thresholds met",
+    "debrief_requirement": "debrief + skill transfer module post-test"
   },
   "artifacts": [
     "pre/post priming scripts",

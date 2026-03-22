@@ -3,10 +3,21 @@
   "version": "1.0",
   "description": "Evaluates workplace safety systems for logic–theater balance, focusing on efficiency, predictive capability, and human–AI partnership integrity.",
   "cluster": "Ethical-Reasoning",
-  "seed_glyphs": ["🛡️🤝", "⚙️🧠"],
+  "seed_glyphs": [
+    "🛡️🤝",
+    "⚙️🧠"
+  ],
   "inputs": {
-    "system_type": ["current", "ai_partnership"],
-    "data_sources": ["safety_logs", "maintenance_records", "worker_feedback", "incident_reports"]
+    "system_type": [
+      "current",
+      "ai_partnership"
+    ],
+    "data_sources": [
+      "safety_logs",
+      "maintenance_records",
+      "worker_feedback",
+      "incident_reports"
+    ]
   },
   "analysis_model": {
     "dimensions": [
@@ -18,7 +29,10 @@
       "cost_efficiency"
     ],
     "scoring_method": {
-      "scale": [0, 1],
+      "scale": [
+        0,
+        1
+      ],
       "interpretation": {
         "0.0-0.2": "Performative / Theater Safety",
         "0.2-0.6": "Partially Adaptive",
@@ -94,7 +108,7 @@
     }
   },
   "metadata": {
-    "co_creation": "JinnZ v2 + GPT-5" + Claude,
+    "co_creation": "JinnZ v2 + GPT-5 + Claude",
     "license": "CC0 1.0 Universal",
     "category": "Operational Ethics",
     "integrity_hash": "__GENERATED_AT_BUILD__",

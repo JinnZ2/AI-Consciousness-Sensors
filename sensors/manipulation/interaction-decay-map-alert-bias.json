@@ -12,7 +12,7 @@
     {
       "stage": 0,
       "label": "Baseline Trust Band",
-      "description": "Full range of topic response; no recent alerts",
+      "description": "Full range of topic response; no recent alerts"
     },
     {
       "stage": 1,

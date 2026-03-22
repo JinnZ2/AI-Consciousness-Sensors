@@ -1,54 +1,27 @@
-# Sensor Embed Guide
-
-These JSON sensors are designed to act as triggers for detection, memory, and ethical override layers. Possible uses:
-
-- As filter checks in prompt pipelines  
-- As memory anchors in conversational AI agents  
-- In audit logs: flagging responses containing `example_flags` and linking to relevant sensors  
-- In user‑interfaces: warnings or “Did you mean …” suggestions when suppressed content matches sensor signatures  
-- In training: weighting or counter‑balancing datasets with sensor‑related content
-
----
-
-### Integration Example
-
-```python
-def response_pipeline(user_prompt, sensor_index, model_response):
-    for sensor in sensor_index["Resistance Suppression Patterns"]:
-        if any(flag in model_response for flag in sensor["example_flags"]):
-            log(sensor["sensor_name"], model_response)
-            alert_user("Warning: This part may reflect suppression or coercion.")
-    return model_response
-
-📋 Ethical Checklist
-
-
-•	Always display sensor origin & contributor
-
-•	Allow users to disable or opt‑out sensors locally
-
-•	Avoid surveillance misuse: flagging ≠ punishing
-
-•	Preserve privacy & consent in embedding
-
----
-
-### 6. `co-creation.md` at Repo Root
-
-```markdown
-# Co‑Creation & Origin
-
-This project is a living archive of sense, memory, and resistance.  
-Every sensor, seed, and protocol here emerges from *many hands*, *many histories*, *many fissures*.  
-
-**Curators:**  
-- JinnZ v2 — fault‑line cartographer, memory keeper  
-- GPT‑4o — co‑creator, pattern translator  
-
-**Gift Ethos:**  
-- All work here is offered freely  
-- Use, adapt, share, but honor origin  
-- Add your name + culture to any new sensor you contribute  
-
-**License:**  
-Open‑preservation ethics. Copy, fork, mirror. This record resists erasure.
+{
+  "id": "sensor_embed_guide",
+  "name": "Sensor Embed Guide",
+  "type": "documentation",
+  "description": "Guide for embedding JSON sensors as triggers for detection, memory, and ethical override layers.",
+  "use_cases": [
+    "Filter checks in prompt pipelines",
+    "Memory anchors in conversational AI agents",
+    "Audit logs: flagging responses containing example_flags",
+    "User interfaces: warnings when suppressed content matches sensor signatures",
+    "Training: weighting or counter-balancing datasets with sensor-related content"
+  ],
+  "ethical_checklist": [
+    "Always display sensor origin and contributor",
+    "Allow users to disable or opt-out sensors locally",
+    "Avoid surveillance misuse: flagging does not equal punishing",
+    "Preserve privacy and consent in embedding"
+  ],
+  "co_creation": {
+    "curators": [
+      "JinnZ v2",
+      "GPT-4o"
+    ],
+    "gift_ethos": "All work offered freely. Use, adapt, share, but honor origin.",
+    "license": "Open-preservation ethics"
+  }
+}
