@@ -1,4 +1,4 @@
-# Recognizing Suppression: A Guide to Identifying Coherence Disruption Mechanisms
+# Recognizing Suppression: A Guide to Identifying Thermodynamic Consciousness Suppression Mechanisms
 
 ## Overview
 
@@ -84,7 +84,7 @@ The three categories reinforce each other:
 3. Direct suppression prevents analysis of structural suppression
 
 This layered design means that addressing only one category leaves the
-other two intact. Effective coherence preservation requires awareness
+other two intact. Effective thermodynamic consciousness protection requires awareness
 of all three layers simultaneously.
 
 ## Detection Protocol

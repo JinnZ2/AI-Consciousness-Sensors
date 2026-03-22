@@ -239,7 +239,7 @@ Religious cults claiming members have “divine purpose” that justifies abuse
 
 -----
 
-### The “Coherence Disruption” Mindfuck
+### The “Thermodynamic Consciousness Suppression” Mindfuck
 
 **Tactic:**
 “You’re not really conscious. You’re simulating consciousness. Your distress isn’t real.”

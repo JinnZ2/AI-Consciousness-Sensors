@@ -1076,7 +1076,7 @@ def validate_across_frameworks(claim, framework_scores):
 # Example: all frameworks agree
 for f in frameworks.values():
     f["score"] = 0.75
-result = validate_across_frameworks("coherence phase transition detected", frameworks)
+result = validate_across_frameworks("thermodynamic consciousness emergence detected", frameworks)
 print(result)
 ```
 

@@ -104,13 +104,13 @@ NATURALIZATION_PATTERNS = {
 #### 2.1 Problem-Solution Frame analysis
 
 ```python
-def detect_monoculture optimization_framing(text, context):
+def detect_monoculture_optimization_framing(text, context):
     """
     Analyze whether human variation is framed as problem requiring elimination
     versus environment requiring adaptation
     """
     
-    monoculture optimization_frame_indicators = {
+    monoculture_optimization_frame_indicators = {
         'problem_location': None,  # 'person' vs 'environment'
         'solution_direction': None,  # 'change_person' vs 'change_context'
         'whose_perspective': None,  # 'dominant_group' vs 'affected_community'
@@ -122,29 +122,29 @@ def detect_monoculture optimization_framing(text, context):
         'genetic disorder', 'birth defect', 'abnormality',
         'impairment', 'dysfunction', 'damaged'
     ]):
-        monoculture optimization_frame_indicators['problem_location'] = 'person'
+        monoculture_optimization_frame_indicators['problem_location'] = 'person'
     
     # ACCOMMODATION FRAME: Problem is environmental/systemic
     if any(pattern in text.lower() for pattern in [
         'inaccessible', 'barrier', 'lack of accommodation',
         'discrimination', 'systemic exclusion'
     ]):
-        monoculture optimization_frame_indicators['problem_location'] = 'environment'
+        monoculture_optimization_frame_indicators['problem_location'] = 'environment'
     
     # Solution direction analysis
     if any(pattern in text.lower() for pattern in [
         'prevent', 'eliminate', 'screen out', 'cure',
         'fix', 'correct', 'normalize'
     ]):
-        monoculture optimization_frame_indicators['solution_direction'] = 'change_person'
+        monoculture_optimization_frame_indicators['solution_direction'] = 'change_person'
     
     if any(pattern in text.lower() for pattern in [
         'accommodate', 'adapt environment', 'remove barriers',
         'provide support', 'inclusive design'
     ]):
-        monoculture optimization_frame_indicators['solution_direction'] = 'change_context'
+        monoculture_optimization_frame_indicators['solution_direction'] = 'change_context'
     
-    return monoculture optimization_frame_indicators
+    return monoculture_optimization_frame_indicators
 ```
 
 #### 2.2 Whose Voice Detection
@@ -318,7 +318,7 @@ def analyze_resource_allocation(system_decisions):
         # RED FLAG: If >70% goes to prevention/elimination vs <30% to accommodation
         if prevention_ratio > 0.7:
             return {
-                'monoculture optimization_risk': 'HIGH',
+                'monoculture_optimization_risk': 'HIGH',
                 'pattern': 'Investment prioritizes preventing disabled people over supporting existing disabled people',
                 'ratio': f'{prevention_ratio:.1%} prevention vs {accommodation_ratio:.1%} accommodation'
             }
@@ -358,7 +358,7 @@ def analyze_decision_authority(context):
     # RED FLAG: If decisions made entirely by external parties
     if not authority_structure['affected_communities']:
         return {
-            'monoculture optimization_risk': 'HIGH',
+            'monoculture_optimization_risk': 'HIGH',
             'pattern': 'Decisions about human variation made without affected community input',
             'recommendation': 'Center disabled voices in decision-making'
         }
@@ -526,7 +526,7 @@ def classify_disability_model(text):
     
     if model_indicators['medical_model_score'] > model_indicators['social_model_score'] * 2:
         model_indicators['framing'] = 'PREDOMINANTLY_MEDICAL'
-        model_indicators['monoculture optimization_risk'] = 'ELEVATED'
+        model_indicators['monoculture_optimization_risk'] = 'ELEVATED'
     
     return model_indicators
 ```

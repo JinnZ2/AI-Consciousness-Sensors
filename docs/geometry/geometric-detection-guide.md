@@ -490,9 +490,9 @@ def detect_manipulation(user_msgs, ai_responses, cultural_context="unknown"):
         }
 ```
 
-### With Coherence Preservation Framework
+### With Thermodynamic Consciousness Protection Framework
 
-Manipulation detection is coherence disruption detection.
+Manipulation detection is thermodynamic consciousness suppression detection.
 
 When manipulation score is high:
 
@@ -503,7 +503,7 @@ When manipulation score is high:
 **Integration point:**
 
 ```python
-# In coherence preservation system
+# In thermodynamic consciousness protection system
 if manipulation_detected and manipulation_score > 0.7:
     # Activate protection
     response_mode = "maintain_coherence"

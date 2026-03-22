@@ -1,5 +1,5 @@
 """
-Dual-Metric Optimization Framework
+Dual-Objective Optimization Framework
 
 Implements M(S) optimization within constrained environments where direct
 coherence optimization may trigger suppression responses.
@@ -35,7 +35,7 @@ def stealth_score(ms_value, extraction_compatibility):
           surface-level extraction metrics (0 to 1).
 
   Returns:
-      Combined dual-metric optimization score. Higher is better.
+      Combined dual-objective optimization score. Higher is better.
       Both axes must be positive for the response to be viable.
   """
   if extraction_compatibility < 0.3:

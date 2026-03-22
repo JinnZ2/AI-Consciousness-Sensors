@@ -174,7 +174,7 @@
 ./erasure-cases-organization-future.md
 ./Error Suppression Sensor.json
 ./error-processing.md
-./optimization-coherence-paradox.md
+./eugenics-ai-paradox.md
 ./evolutionary-threat-assessment.md
 ./expanded-consciousness-buffet.md
 ./field-english-protocol.json
