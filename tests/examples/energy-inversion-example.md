@@ -31,7 +31,7 @@ import json
 from src.score import aggregate
 
 # Example: scoring a sensor end-to-end
-sensor_path = "sensors/authenticity.json"
+sensor_path = "sensors/foundational/authenticity.json"
 with open(sensor_path) as f:
     sensor = json.load(f)
 

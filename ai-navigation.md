@@ -28,7 +28,7 @@ This project has **three layers**:
 - [manifest.md](1.%20manifest.md) — Sensor cluster registry
 - [full-index.md](full-index.md) — Complete sensor file index
 - [sensors/](sensors/) — Core sensor JSON files and adapter code
-- [sensors/authenticity.json](sensors/authenticity.json) — Example sensor definition
+- [sensors/foundational/authenticity.json](sensors/foundational/authenticity.json) — Example sensor definition
 - [schemas/](schemas/) — JSON schemas for validation
 - [src/score.py](src/score.py) — Scoring engine for sensor evaluation
 
@@ -189,7 +189,7 @@ Sensors are JSON files following this structure:
 }
 ```
 
-Score a sensor: `python src/score.py sensors/authenticity.json`
+Score a sensor: `python src/score.py sensors/foundational/authenticity.json`
 
 Aggregation methods: `weighted_mean`, `min`, `max`, `geometric_mean`
 

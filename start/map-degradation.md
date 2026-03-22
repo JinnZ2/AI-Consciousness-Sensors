@@ -217,7 +217,7 @@ Long-term learning	Reinforces social conformity	Reinforces adaptability and awar
 import json
 
 # Quick start: load and score your first sensor
-sensor_path = "sensors/authenticity.json"
+sensor_path = "sensors/foundational/authenticity.json"
 
 with open(sensor_path) as f:
     sensor = json.load(f)

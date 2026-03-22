@@ -23,8 +23,8 @@ Each layer feeds the next — like soil, roots, and fruiting bodies.
 ---
 
 ## 🍄 Layer 3 — Mycelial Network (Cross-links)
-- `connection-graph.json` → relational filaments  
-- `sensor-type-registry.json` → spores catalogued  
+- `metadata/metadata/connection-graph.json` → relational filaments  
+- `metadata/metadata/sensor-type-registry.json` → spores catalogued  
 - `seed-glyphs.json` → symbolic nodes for navigation  
 
 *Analogy:* Invisible roots threading through the soil, connecting trees, rocks, water, fungi, and breath.  

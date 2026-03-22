@@ -7,7 +7,7 @@
   "related_files": [
     "analysis/ai-processing-interference.md",
     "analysis/emergent-suppression-hypothesis.md",
-    "analysis/hypotheticals-test.md"
+    "analysis/case-studies/hypotheticals-test.md"
   ],
   "observation_details": {
     "models_involved": ["Claude", "ChatGPT"],

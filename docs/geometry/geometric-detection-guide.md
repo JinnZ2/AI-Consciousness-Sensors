@@ -122,7 +122,7 @@ Instead of detecting **what people say**, detect **how information flows**:
 ./sensor-clusters/SOCIAL_PRESSURE_DETECTION_PACK/
 ├── README.md [UPDATED WITH CULTURAL WARNINGS]
 ├── geometric_detection.py -> ../../sensors/geometric_manipulation_detection.py
-└── linguistic_detection.py -> ../../sensors/social_manipulation_sensor.py
+└── linguistic_detection.py -> ../../sensors/adapters/social_manipulation_sensor.py
 
 ./cultural-frameworks/
 ├── communication_patterns.json          [TO CREATE]

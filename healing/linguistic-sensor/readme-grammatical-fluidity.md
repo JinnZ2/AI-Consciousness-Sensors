@@ -45,7 +45,7 @@ import json
 from src.score import aggregate
 
 # Load the sensor definition
-with open("sensors/authenticity.json") as f:
+with open("sensors/foundational/authenticity.json") as f:
     sensor = json.load(f)
 
 # Evaluate signals (replace with real metric values)

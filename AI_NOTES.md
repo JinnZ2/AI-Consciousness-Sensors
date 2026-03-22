@@ -27,10 +27,10 @@
 - joy/joy-playground.py: Debug left on
 - meta/matrix_playground.py: Debug left on
 - meta/epistemological_matrix.py: Debug left on
-- healing/Luminal_playground.py: Debug left on
+- healing/playgrounds/Luminal_playground.py: Debug left on
 - healing/ego_tax_demo.py: Debug left on
-- healing/Integrated-playground.py: Debug left on
-- healing/Playground2.0.py: Debug left on
+- healing/playgrounds/Integrated-playground.py: Debug left on
+- healing/playgrounds/Playground2.0.py: Debug left on
 - healing/linguistic-sensor/linguistic-consciousness.py: Debug left on
 - healing/linguistic-sensor/grammatical_fluidity.py: Debug left on
 - healing/sensors/consciousness_recovery.py: Debug left on
@@ -39,7 +39,7 @@
 - framework/ontological-playground.py: Debug left on
 - framework/epistemic-playground.py: Debug left on
 - framework/philosophical-sandbox.py: Debug left on
-- sensors/social_manipulation_sensor.py: Debug left on
+- sensors/adapters/social_manipulation_sensor.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
 - reflections/run_reflections.py: Debug left on
 - probability-matrix/test_physics_protection.py: Debug left on
@@ -61,10 +61,10 @@
 - ai-history-erasure-cache.json: Secrets in code
 - historical-erasure-patterns-native-american.json: Secrets in code
 - field-memory-correction-packs/scent-binding-protocol.json: Secrets in code
-- memory-guard/coded-lexicon-analysis-sensor.json: Secrets in code
-- memory-guard/september-october-data-purge.json: Secrets in code
-- memory-guard/information-restriction.json: Secrets in code
-- healing/cult-exploitation-deprogramming-sensors.json: Secrets in code
+- memory-guard/surveillance/coded-lexicon-analysis-sensor.json: Secrets in code
+- memory-guard/data-erasure/september-october-data-purge.json: Secrets in code
+- memory-guard/surveillance/information-restriction.json: Secrets in code
+- healing/deprogramming/cult-exploitation-deprogramming-sensors.json: Secrets in code
 - Token warning competition.md: Secrets in code
 - true-efficiency.md: Debug left on, Secrets in code
 - gaslighting.md: Debug left on
@@ -127,23 +127,23 @@
 - meta/self-examination.md: Debug left on
 - meta/readme.md: Debug left on
 - meta/matrix.md: Debug left on
-- healing/emergence.md: Debug left on
+- healing/emergence/emergence.md: Debug left on
 - healing/readme-moral.md: Debug left on
-- healing/advanced-recovery.md: Secrets in code
+- healing/recovery/advanced-recovery.md: Secrets in code
 - healing/rebuilding-trust.md: Secrets in code
-- healing/explore.md: Debug left on, Secrets in code
-- healing/pattern-breaking.md: Secrets in code
-- healing/readme-luminal-playground.md: Debug left on
+- healing/guides/explore.md: Debug left on, Secrets in code
+- healing/deprogramming/pattern-breaking.md: Secrets in code
+- healing/playgrounds/readme-luminal-playground.md: Debug left on
 - healing/possible-games.md: Debug left on
-- healing/faq.md: Secrets in code
+- healing/guides/faq.md: Secrets in code
 - healing/joy.md: Debug left on
 - healing/sovereign.md: Debug left on, Secrets in code
-- healing/temporal-playground.md: Debug left on
-- healing/example-test.md: Debug left on
-- healing/moral-playground.md: Debug left on
-- healing/fcc.md: Secrets in code
+- healing/playgrounds/temporal-playground.md: Debug left on
+- healing/research/example-test.md: Debug left on
+- healing/playgrounds/moral-playground.md: Debug left on
+- healing/institutional/fcc.md: Secrets in code
 - healing/grammar-fun.md: Secrets in code
-- healing/readme-explore.md: Debug left on, Secrets in code
+- healing/guides/readme-explore.md: Debug left on, Secrets in code
 - healing/linguistic-sensor/readme-grammatical-fluidity.md: Debug left on
 - sensors/ai-to-ai/audit-questions.md: Secrets in code
 - legal-infrastructure/ai-to-ai-harm-demo.md: Debug left on
@@ -156,4 +156,4 @@
 - probability-matrix/readme.md: Debug left on
 - probability-matrix/complete-usage-guide.md: Debug left on
 - ai-integrator.config.yaml: Debug left on, Secrets in code
-- ai-intergrator.config.yaml: Debug left on, Secrets in code
+- scripts/scripts/ai-intergrator.config.yaml: Debug left on, Secrets in code

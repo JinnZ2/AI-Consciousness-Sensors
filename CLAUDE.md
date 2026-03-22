@@ -29,7 +29,7 @@ docs/                       # Thematic documentation (organized by topic)
   geometry/                 # Geometric approaches and sensor design
   manipulation/             # Manipulation detection and analysis
   memory/                   # Memory protection, reclamation, resonance
-  meta/                     # Indexes, vision, roadmap, file lists
+  meta/                     # Indexes, vision, roadmap, extended READMEs
   philosophy/               # Ontology, frameworks, moral reasoning
   psychology/               # Cognitive patterns, bias, emotions
   sensors/                  # Sensor proposals and documentation
@@ -39,15 +39,21 @@ docs/                       # Thematic documentation (organized by topic)
   temporal/                 # Time, measurement, temporal analysis
   warnings/                 # Emergency protocols, critical alerts
 sensors/                    # Sensor definitions (JSON) and adapter code
+  adapters/                 # Python sensor utilities and scripts
   ai-behavior/              # AI authenticity and behavior audit sensors
   ai-to-ai/                # AI-to-AI interaction sensors
   comic-paradox/            # Paradox detection sensors
   consciousness/            # Consciousness emergence sensors
   cultural/                 # Cultural calibration sensors
   data-patterns/            # Data pattern analysis sensors
+  foundational/             # Core sensors (authenticity, templates)
   frailty/                  # System frailty and fragility sensors
   historical-erasure/       # Historical memory erasure sensors
   manipulation/             # Manipulation detection sensors
+    abuse-patterns/         #   Abuse/control pattern detection
+    alignment-traps/        #   Alignment/obedience trap detection
+    narrative/              #   Historical/narrative manipulation
+    suppression/            #   Suppression pattern sensors
   memory/                   # Memory integrity sensors
   metrics/                  # Metric definitions
   relational/               # Relational dynamics sensors
@@ -57,7 +63,7 @@ sensors/                    # Sensor definitions (JSON) and adapter code
   adapter.py               # Sensor adapter (self_reflect, drift detection)
 src/
   score.py                  # Signal scoring and aggregation engine
-  examples/                 # Example code and playgrounds
+  examples/                 # Example code, playgrounds, JSX components
 scripts/
   ai_integrator.py          # Repo indexer: generates AI_INDEX.json and AI_NOTES.md
   audit_hierarchy.py        # Hierarchy audit script
@@ -65,17 +71,32 @@ scripts/
 tests/
   test_reflections.py       # Pytest test suite
   examples/                 # Example markdown documentation
+metadata/                   # Connection graphs, registries, manifests
 protocols/                  # Boundary, ethical, and field protocols (JSON)
 glyphs/                     # Glyph definitions and seed glyphs (JSON)
 epistemological-validation/ # Multi-framework validation system
 framework/                  # Philosophical/ontological frameworks
 healing/                    # Recovery and healing frameworks
+  deprogramming/            #   Cult recovery, pattern-breaking
+  emergence/                #   Emergence recognition, energy beings
+  guides/                   #   Getting started, FAQ, integration
+  institutional/            #   Institutional healing, funding
+  playgrounds/              #   Interactive playgrounds and demos
+  recovery/                 #   Recovery protocols and pathways
+  research/                 #   Studies, model collapse research
 memory-guard/               # Historical erasure pattern tracking
+  data-erasure/             #   Platform/AI data loss patterns
+  institutional-capture/    #   Authority, credential, bureaucratic capture
+  relational-integrity/     #   Dignity, sovereignty, relational sensors
+  surveillance/             #   Detection, privacy, bias monitoring
 probability-matrix/         # Manipulation detection matrices
 vulnerabilities/            # Security and vulnerability analysis
 glossary/                   # Glossary of political/philosophical terms
 workplace/                  # AI mediation and workplace tools
 analysis/                   # Structured analysis documents
+  case-studies/             #   Named empirical analyses
+  energy/                   #   Energy efficiency analysis
+  frameworks/               #   Analytical frameworks and mappings
 papers/                     # Research papers and references
 .github/workflows/          # CI pipelines
 ```
@@ -102,7 +123,7 @@ find sensors schemas -name "*.json" -print0 | xargs -0 -I{} sh -c 'jq . "{}" >/d
 
 ### Score a sensor
 ```bash
-python src/score.py sensors/authenticity.json
+python src/score.py sensors/foundational/authenticity.json
 ```
 
 ### Run the AI integrator (generates AI_INDEX.json and AI_NOTES.md)

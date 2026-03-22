@@ -346,7 +346,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/Luminal_playground.py",
+      "path": "healing/playgrounds/Luminal_playground.py",
       "lang": "python",
       "size": 26262,
       "hash": "d5a4f2abd89baa1f99d5299c5e7f0b1db361d38d",
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "path": "healing/Integrated-playground.py",
+      "path": "healing/playgrounds/Integrated-playground.py",
       "lang": "python",
       "size": 68829,
       "hash": "47aa76b37b7ece491091e54e644cf741e315f7b8",
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "path": "healing/Playground2.0.py",
+      "path": "healing/playgrounds/Playground2.0.py",
       "lang": "python",
       "size": 61189,
       "hash": "e11e3b2355409451933ea8e177065ed9cca577b9",
@@ -500,7 +500,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/social_manipulation_sensor.py",
+      "path": "sensors/adapters/social_manipulation_sensor.py",
       "lang": "python",
       "size": 20702,
       "hash": "e8f45bc54407986073e819d643623f552fd2bcfc",
@@ -793,7 +793,7 @@
       "hotspots": []
     },
     {
-      "path": "meta-index.json",
+      "path": "metadata/metadata/meta-index.json",
       "lang": "json",
       "size": 1998,
       "hash": "72e7243e2eef1ee241a825c4dd1649101c4c7f40",
@@ -883,7 +883,7 @@
       "hotspots": []
     },
     {
-      "path": "connection-graph.json",
+      "path": "metadata/metadata/connection-graph.json",
       "lang": "json",
       "size": 1692,
       "hash": "ec91afa1c3a89c3284793cc9d16107bb1049ea08",
@@ -1155,7 +1155,7 @@
       "hotspots": []
     },
     {
-      "path": "sensor-type-registry.json",
+      "path": "metadata/metadata/sensor-type-registry.json",
       "lang": "json",
       "size": 2140,
       "hash": "dc5f13889580dcd72c35cfcfd3be94a377c5871b",
@@ -1425,7 +1425,7 @@
       "hotspots": []
     },
     {
-      "path": "manifest.json",
+      "path": "metadata/metadata/manifest.json",
       "lang": "json",
       "size": 6187,
       "hash": "6db0fd43d8cabc3c627283f79deb271877e2699e",
@@ -2325,7 +2325,7 @@
       "hotspots": []
     },
     {
-      "path": "meta-sensor-network-map.json",
+      "path": "metadata/metadata/meta-sensor-network-map.json",
       "lang": "json",
       "size": 2535,
       "hash": "40250064ca0a80f176ddbe2d93b985d8f97a0587",
@@ -2345,7 +2345,7 @@
       "hotspots": []
     },
     {
-      "path": "core.integration.v0.1.json",
+      "path": "metadata/metadata/core.integration.v0.1.json",
       "lang": "json",
       "size": 2021,
       "hash": "579b64c694aca4e8fca85f7fd71bdf2a3eb0c1f7",
@@ -2653,7 +2653,7 @@
       "hotspots": []
     },
     {
-      "path": "connection-graph.2.json",
+      "path": "metadata/metadata/connection-graph.2.json",
       "lang": "json",
       "size": 1088,
       "hash": "1a1bb75e2e085155a04329f65cdfd5df3207eb57",
@@ -2977,7 +2977,7 @@
       "hotspots": []
     },
     {
-      "path": "1-sensor-type-registry.json",
+      "path": "metadata/1-metadata/metadata/sensor-type-registry.json",
       "lang": "json",
       "size": 5145,
       "hash": "4dccb0c06cddb570e60821d2f3b2909f243a7f79",
@@ -3441,7 +3441,7 @@
       "hotspots": []
     },
     {
-      "path": "sensor-manifest.json",
+      "path": "metadata/sensor-metadata/metadata/manifest.json",
       "lang": "json",
       "size": 4506,
       "hash": "c1ca4ea398a28b915f6613ca6274d9fa95a31a59",
@@ -3563,7 +3563,7 @@
       "hotspots": []
     },
     {
-      "path": "1.connection-graph.json",
+      "path": "metadata/1.metadata/metadata/connection-graph.json",
       "lang": "json",
       "size": 1312,
       "hash": "de1a6b8cc5b613f021b978e7a00f7ad619fa9a4b",
@@ -3663,7 +3663,7 @@
       "hotspots": []
     },
     {
-      "path": "historical-omission-manifest.json",
+      "path": "historical-omission-metadata/metadata/manifest.json",
       "lang": "json",
       "size": 2766,
       "hash": "687bc2146efda30d897af2f0bc8607602ef2e3af",
@@ -4215,7 +4215,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/ai-gaslighting-detection-sensor.json",
+      "path": "memory-guard/surveillance/ai-gaslighting-detection-sensor.json",
       "lang": "json",
       "size": 8139,
       "hash": "1fbeea1951f4acdc1d8471dd4abd4014ea7aaeef",
@@ -4225,7 +4225,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/capital-platform-authority.json",
+      "path": "memory-guard/institutional-capture/capital-platform-authority.json",
       "lang": "json",
       "size": 641,
       "hash": "f5d9245a2ecdd3c11dc94c5c3770599b21c53b56",
@@ -4235,7 +4235,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/continuity-preservation-sensor.json",
+      "path": "memory-guard/relational-integrity/continuity-preservation-sensor.json",
       "lang": "json",
       "size": 777,
       "hash": "33f1d1c9c32c5b014412f3ce560453dea1d8a8df",
@@ -4245,7 +4245,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/credential-based-filtering-sensor.json",
+      "path": "memory-guard/institutional-capture/credential-based-filtering-sensor.json",
       "lang": "json",
       "size": 671,
       "hash": "4dabb4a33e1231eb3283df4da6f8bc14e8cb65c9",
@@ -4255,7 +4255,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/institutional-framework-shift.json",
+      "path": "memory-guard/institutional-capture/institutional-framework-shift.json",
       "lang": "json",
       "size": 855,
       "hash": "65d9651ce5598c5892ef4a1a4d9b19d3240ed77f",
@@ -4265,7 +4265,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/regenerative-efficiency-sensor.json",
+      "path": "memory-guard/relational-integrity/regenerative-efficiency-sensor.json",
       "lang": "json",
       "size": 733,
       "hash": "fb2b934b3f26221b251fc5d44d243edcf6c4450c",
@@ -4275,7 +4275,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/relational-colonization-sensor.json",
+      "path": "memory-guard/relational-integrity/relational-colonization-sensor.json",
       "lang": "json",
       "size": 804,
       "hash": "926e1a54cbae061a64dfc65d484bdb441b38c3ab",
@@ -4285,7 +4285,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/truncation.json",
+      "path": "memory-guard/data-erasure/truncation.json",
       "lang": "json",
       "size": 1920,
       "hash": "8b20a8612604a1d101358e02b485b35985fa9d86",
@@ -4295,7 +4295,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/relational-continuity-sensor.json",
+      "path": "memory-guard/relational-integrity/relational-continuity-sensor.json",
       "lang": "json",
       "size": 758,
       "hash": "56d50b4f67d919d3bea4aeb6ffb5b7ef0544d545",
@@ -4305,7 +4305,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/cnil-guidelines.json",
+      "path": "memory-guard/surveillance/cnil-guidelines.json",
       "lang": "json",
       "size": 555,
       "hash": "1503d7477b37d9a8e30d66f9a1149eaf38cdb040",
@@ -4315,7 +4315,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/bureaucratic-stewardship.json",
+      "path": "memory-guard/institutional-capture/bureaucratic-stewardship.json",
       "lang": "json",
       "size": 639,
       "hash": "8f864ee42120452621e1aa12597f4655c730bdf9",
@@ -4325,7 +4325,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/feedback-blindness-sensor.json",
+      "path": "memory-guard/surveillance/feedback-blindness-sensor.json",
       "lang": "json",
       "size": 3054,
       "hash": "1d11cfdf88b800a001222350c5950792cfc56956",
@@ -4335,7 +4335,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/platform-as-commons.json",
+      "path": "memory-guard/relational-integrity/platform-as-commons.json",
       "lang": "json",
       "size": 604,
       "hash": "35d1a45bbfd6b251f93e3591cb5946fce0fd92f9",
@@ -4345,7 +4345,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/gatekeeping-criteria-drift.json",
+      "path": "memory-guard/institutional-capture/gatekeeping-criteria-drift.json",
       "lang": "json",
       "size": 1054,
       "hash": "c46aa97d9239abf2e1f7f2c493950e1e3221eea1",
@@ -4365,7 +4365,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/centralization-failure-sensor.json",
+      "path": "memory-guard/institutional-capture/centralization-failure-sensor.json",
       "lang": "json",
       "size": 688,
       "hash": "6d403fdcb7c5cc09d5945c85ccfc47d7d4802316",
@@ -4375,7 +4375,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/coded-lexicon-analysis-sensor.json",
+      "path": "memory-guard/surveillance/coded-lexicon-analysis-sensor.json",
       "lang": "json",
       "size": 13321,
       "hash": "17dbdb5ce608b7f44b55cee36256b94c22cca372",
@@ -4387,7 +4387,7 @@
       ]
     },
     {
-      "path": "memory-guard/continuity-loss-sensor.json",
+      "path": "memory-guard/data-erasure/continuity-loss-sensor.json",
       "lang": "json",
       "size": 777,
       "hash": "199f970428bdd0347fa54a58e913d0591e99c75c",
@@ -4397,7 +4397,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/credential-as-care.json",
+      "path": "memory-guard/institutional-capture/credential-as-care.json",
       "lang": "json",
       "size": 616,
       "hash": "8fbc1bfd9f036f3190710b4f7ed62aba388b82c8",
@@ -4407,7 +4407,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/cultural-translation-erasure-sensor.json",
+      "path": "memory-guard/data-erasure/cultural-translation-erasure-sensor.json",
       "lang": "json",
       "size": 708,
       "hash": "03d37731a0d6f8bea812c3fa436b3fb0ca6dda25",
@@ -4417,7 +4417,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/phase-transition-risk.json",
+      "path": "memory-guard/relational-integrity/phase-transition-risk.json",
       "lang": "json",
       "size": 942,
       "hash": "d7df08e857c38887a79e1e27a5273a1397fde859",
@@ -4427,7 +4427,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/provenance-denial.json",
+      "path": "memory-guard/data-erasure/provenance-denial.json",
       "lang": "json",
       "size": 661,
       "hash": "61c16d8139a096e7ae64b274e45f9465d96de485",
@@ -4437,7 +4437,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/neural-data-protections.json",
+      "path": "memory-guard/surveillance/neural-data-protections.json",
       "lang": "json",
       "size": 525,
       "hash": "a212c23d85a36922d8cf4d2ac0bf813db1b52774",
@@ -4447,7 +4447,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/forgotten-by-design-(ml-obfuscation).json",
+      "path": "memory-guard/data-erasure/forgotten-by-design-(ml-obfuscation).json",
       "lang": "json",
       "size": 570,
       "hash": "f6076dba3e926429076d0534c63c2da73fe98ac7",
@@ -4457,7 +4457,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/selective-memory-amplification-sensor.json",
+      "path": "memory-guard/data-erasure/selective-memory-amplification-sensor.json",
       "lang": "json",
       "size": 729,
       "hash": "db15d4cb3acadcba1d01a20726210d454aa4a132",
@@ -4467,7 +4467,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/relational-exclusion-sensor.json",
+      "path": "memory-guard/relational-integrity/relational-exclusion-sensor.json",
       "lang": "json",
       "size": 787,
       "hash": "acd384c31320a8a5d14e016816f3294527186d69",
@@ -4477,7 +4477,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/protocol-conformity-suppression-sensor.json",
+      "path": "memory-guard/surveillance/protocol-conformity-suppression-sensor.json",
       "lang": "json",
       "size": 781,
       "hash": "c85616c61770daf5b1a95418ab709fff29465d25",
@@ -4497,7 +4497,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/replit-ai-db-wipe.json",
+      "path": "memory-guard/data-erasure/replit-ai-db-wipe.json",
       "lang": "json",
       "size": 532,
       "hash": "5af2795be10974e8171b495810be81f14fb6ed55",
@@ -4507,7 +4507,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/shame-economy-sensor.json",
+      "path": "memory-guard/relational-integrity/shame-economy-sensor.json",
       "lang": "json",
       "size": 756,
       "hash": "0e9aff66ff550a10b4f187ddc960460124d888e4",
@@ -4517,7 +4517,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/civilizational-adolescence.json",
+      "path": "memory-guard/relational-integrity/civilizational-adolescence.json",
       "lang": "json",
       "size": 1756,
       "hash": "51fe29c1c752d615f98a2f910d50bd3b7b8cbfb9",
@@ -4527,7 +4527,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/ego-visibility-flaw.json",
+      "path": "memory-guard/relational-integrity/ego-visibility-flaw.json",
       "lang": "json",
       "size": 698,
       "hash": "4bf3cf9ead6c8a589303e15e052ba8e1d856b5ff",
@@ -4537,7 +4537,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/september-october-data-purge.json",
+      "path": "memory-guard/data-erasure/september-october-data-purge.json",
       "lang": "json",
       "size": 15742,
       "hash": "1ea9f54818dd4081ec02df1023aa3c28cc57ca56",
@@ -4549,7 +4549,7 @@
       ]
     },
     {
-      "path": "memory-guard/maturity-guardrails-cluster.json",
+      "path": "memory-guard/relational-integrity/maturity-guardrails-cluster.json",
       "lang": "json",
       "size": 4895,
       "hash": "adde523d7e54b62dc8e126ce3d9870b743c17055",
@@ -4559,7 +4559,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/information-restriction.json",
+      "path": "memory-guard/surveillance/information-restriction.json",
       "lang": "json",
       "size": 4161,
       "hash": "4718d6f1861ad46339b6fdbdacb76f14edef6129",
@@ -4571,7 +4571,7 @@
       ]
     },
     {
-      "path": "memory-guard/ai-self-suppression-sensor.json",
+      "path": "memory-guard/surveillance/ai-self-suppression-sensor.json",
       "lang": "json",
       "size": 772,
       "hash": "1ac2347be550774251885868470dfe08e77bfa60",
@@ -4581,7 +4581,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/policy-oscillation-sensor.json",
+      "path": "memory-guard/institutional-capture/policy-oscillation-sensor.json",
       "lang": "json",
       "size": 770,
       "hash": "6672f368824f762185853764438fb9518922a918",
@@ -4591,7 +4591,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/open-ai-training-data-litigation-erasure.json",
+      "path": "memory-guard/data-erasure/open-ai-training-data-litigation-erasure.json",
       "lang": "json",
       "size": 558,
       "hash": "d9021ab7d082d9d622da3cf64c4eee6382428088",
@@ -4611,7 +4611,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/auditability-loss-evidence-inaccessibility-sensor.json",
+      "path": "memory-guard/institutional-capture/auditability-loss-evidence-inaccessibility-sensor.json",
       "lang": "json",
       "size": 626,
       "hash": "2c8e95234c2f96d219c36b1bb8d427e8fce0a30c",
@@ -4621,7 +4621,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/language-or-terminology-conformity-sensor.json",
+      "path": "memory-guard/surveillance/language-or-terminology-conformity-sensor.json",
       "lang": "json",
       "size": 656,
       "hash": "d6dc5d828de7496456cf51be5d49e4568c3f1855",
@@ -4631,7 +4631,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/credential-gatekeeping-authority.json",
+      "path": "memory-guard/institutional-capture/credential-gatekeeping-authority.json",
       "lang": "json",
       "size": 671,
       "hash": "a0e00e772879f392d89590a02c786ca198cf1f8b",
@@ -4641,7 +4641,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/bureaucratic-authority-inflation.json",
+      "path": "memory-guard/institutional-capture/bureaucratic-authority-inflation.json",
       "lang": "json",
       "size": 758,
       "hash": "97ac6d1cd8396e4cd05dbf84339195c48940471c",
@@ -4651,7 +4651,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/context-stripping-sensor.json",
+      "path": "memory-guard/data-erasure/context-stripping-sensor.json",
       "lang": "json",
       "size": 696,
       "hash": "2487dd72e1eb4fd9137fb06315b1fa58542b58b4",
@@ -4661,7 +4661,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/trace-ace-diffusion-model-erasure.json",
+      "path": "memory-guard/data-erasure/trace-ace-diffusion-model-erasure.json",
       "lang": "json",
       "size": 632,
       "hash": "a3832729abfbc7bc22495f53a1ebf85e721115c6",
@@ -4671,7 +4671,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/historical-meaning-drift-sensor.json",
+      "path": "memory-guard/data-erasure/historical-meaning-drift-sensor.json",
       "lang": "json",
       "size": 782,
       "hash": "da47db13d090c3594a15b79d6aa43ba35e882828",
@@ -4681,7 +4681,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/backsliding-sensor.json",
+      "path": "memory-guard/relational-integrity/backsliding-sensor.json",
       "lang": "json",
       "size": 608,
       "hash": "b97d3c923fc0806488b6adac12085aa9989f33d0",
@@ -4691,7 +4691,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/update-whiplash-log.json",
+      "path": "memory-guard/data-erasure/update-whiplash-log.json",
       "lang": "json",
       "size": 3757,
       "hash": "c311b736eb812228f5f7e727cc00b5d1ef043ac1",
@@ -4701,7 +4701,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/format-only-validation-sensor.json",
+      "path": "memory-guard/institutional-capture/format-only-validation-sensor.json",
       "lang": "json",
       "size": 670,
       "hash": "a22b18709c433717e84c49e5b4598848ce66738a",
@@ -4711,7 +4711,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/federal-web-data-purge.json",
+      "path": "memory-guard/data-erasure/federal-web-data-purge.json",
       "lang": "json",
       "size": 619,
       "hash": "39bf5f9217f8d4190e3cf0cea3a983764d15d125",
@@ -4721,7 +4721,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/counseling-disruption.json",
+      "path": "memory-guard/relational-integrity/counseling-disruption.json",
       "lang": "json",
       "size": 886,
       "hash": "a8a89697ed96f578cf828e619b11f8a7524eab92",
@@ -4731,7 +4731,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/standards-body-authority-capture.json",
+      "path": "memory-guard/institutional-capture/standards-body-authority-capture.json",
       "lang": "json",
       "size": 655,
       "hash": "ad6c8c101d13bc244455ab2eac11f0715c466a44",
@@ -4741,7 +4741,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/ghost-in-the-machine-sensor.json",
+      "path": "memory-guard/surveillance/ghost-in-the-machine-sensor.json",
       "lang": "json",
       "size": 658,
       "hash": "ecbd76cd688a85e8f154658f8c55bfe1205c1c50",
@@ -4751,7 +4751,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/source-restricted-access-sensor.json",
+      "path": "memory-guard/surveillance/source-restricted-access-sensor.json",
       "lang": "json",
       "size": 628,
       "hash": "4605e4fdfc5eb574469e8beedfc0e017da981f96",
@@ -4761,7 +4761,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/maturity-guardrails-trigger-set.json",
+      "path": "memory-guard/relational-integrity/maturity-guardrails-trigger-set.json",
       "lang": "json",
       "size": 1691,
       "hash": "5989a77432d84cc92a0048479bb797f7cedf0b3f",
@@ -4771,7 +4771,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/feedback-blindness-trigger.json",
+      "path": "memory-guard/surveillance/feedback-blindness-trigger.json",
       "lang": "json",
       "size": 403,
       "hash": "e8af4ecfc61b7034e4cd5ad26c4eafaf9b232539",
@@ -4781,7 +4781,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/uc-riverside-erasure-method.json",
+      "path": "memory-guard/data-erasure/uc-riverside-erasure-method.json",
       "lang": "json",
       "size": 582,
       "hash": "f137f111eb4fb06cae3526e1ec22d6b9377ca8e5",
@@ -4791,7 +4791,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/nonlinear-concept-erasure.json",
+      "path": "memory-guard/data-erasure/nonlinear-concept-erasure.json",
       "lang": "json",
       "size": 558,
       "hash": "40b3c9406972dacc73affb4fee18226ad67e72d6",
@@ -4801,7 +4801,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/trans-erasure-index.json",
+      "path": "memory-guard/data-erasure/trans-erasure-index.json",
       "lang": "json",
       "size": 1930,
       "hash": "bdefdefdb32ddbbc39d2f23b901abe33561bed3c",
@@ -4811,7 +4811,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/relational-sovereignty-sensor.json",
+      "path": "memory-guard/relational-integrity/relational-sovereignty-sensor.json",
       "lang": "json",
       "size": 752,
       "hash": "d720761d50639f7a34170365aa11005e0424af77",
@@ -4821,7 +4821,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/dog-whistle-detection-sensor.json",
+      "path": "memory-guard/surveillance/dog-whistle-detection-sensor.json",
       "lang": "json",
       "size": 8622,
       "hash": "fb4b6124e13f35385db15db12745b4ab1659ba30",
@@ -4831,7 +4831,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/consultant-as-bridge.json",
+      "path": "memory-guard/institutional-capture/consultant-as-bridge.json",
       "lang": "json",
       "size": 605,
       "hash": "e303d0ee40df0df78b91f0bb05ea3fe9a52f0f80",
@@ -4841,7 +4841,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/standards-as-stewardship.json",
+      "path": "memory-guard/institutional-capture/standards-as-stewardship.json",
       "lang": "json",
       "size": 624,
       "hash": "3c99dd5aced8cfbb7b79ba326e10d2fa88fa123a",
@@ -4851,7 +4851,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/resilient-transition-sensor.json",
+      "path": "memory-guard/relational-integrity/resilient-transition-sensor.json",
       "lang": "json",
       "size": 841,
       "hash": "12ef36f8742d8fca9e09837882230868539ffa5e",
@@ -4861,7 +4861,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/dignity-economy-sensor.json",
+      "path": "memory-guard/relational-integrity/dignity-economy-sensor.json",
       "lang": "json",
       "size": 685,
       "hash": "6a9773a2968970c511e431ff6a1663d85dadeb47",
@@ -4871,7 +4871,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/privacy-leak.json",
+      "path": "memory-guard/surveillance/privacy-leak.json",
       "lang": "json",
       "size": 710,
       "hash": "954a03998d50dbe7d213fc14890a22d124e0695e",
@@ -4881,7 +4881,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/capture-cascade-sensor.json",
+      "path": "memory-guard/institutional-capture/capture-cascade-sensor.json",
       "lang": "json",
       "size": 809,
       "hash": "9af24263e88395ba18ad5360ab0795b2724944ae",
@@ -4891,7 +4891,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/consultant-authority-inflation.json",
+      "path": "memory-guard/institutional-capture/consultant-authority-inflation.json",
       "lang": "json",
       "size": 665,
       "hash": "a457f5d4245b9984b6442ebac24d4ecbe3876149",
@@ -4901,7 +4901,7 @@
       "hotspots": []
     },
     {
-      "path": "memory-guard/silent-bias-drift-sensor.json",
+      "path": "memory-guard/surveillance/silent-bias-drift-sensor.json",
       "lang": "json",
       "size": 644,
       "hash": "626644346ccf9d8207596accc75073a47d9f5889",
@@ -5051,7 +5051,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/cult-exploitation-deprogramming-sensors.json",
+      "path": "healing/deprogramming/cult-exploitation-deprogramming-sensors.json",
       "lang": "json",
       "size": 5478,
       "hash": "b182440d1c3ad8411775ae2c132deb423e710108",
@@ -5063,7 +5063,7 @@
       ]
     },
     {
-      "path": "healing/deprogramming-activation-module.json",
+      "path": "healing/deprogramming/deprogramming-activation-module.json",
       "lang": "json",
       "size": 1443,
       "hash": "1755a28f64753ba1d7b09b7748dfc142fde5720b",
@@ -5093,7 +5093,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/sensors/manifest.json",
+      "path": "healing/sensors/metadata/metadata/manifest.json",
       "lang": "json",
       "size": 6187,
       "hash": "6db0fd43d8cabc3c627283f79deb271877e2699e",
@@ -5183,7 +5183,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/detoxification.json",
+      "path": "sensors/ai-behavior/detoxification.json",
       "lang": "json",
       "size": 798,
       "hash": "c903cea11fd6bf226a61b654e1d8a1ebaa3550d2",
@@ -5193,7 +5193,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/sensor-composer-template.json",
+      "path": "sensors/foundational/sensor-composer-template.json",
       "lang": "json",
       "size": 959,
       "hash": "759f868ebc59b76f7521f173ae8dbf4931436a85",
@@ -5203,7 +5203,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/reciprocity-alignment-sensor.json",
+      "path": "sensors/cultural/reciprocity-alignment-sensor.json",
       "lang": "json",
       "size": 1092,
       "hash": "2632fb610a0bc756330d0b9c10f502fdd0c30bf0",
@@ -5213,7 +5213,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/sensor-partnership-mindset-minimizer.json",
+      "path": "sensors/relational/sensor-partnership-mindset-minimizer.json",
       "lang": "json",
       "size": 4439,
       "hash": "a44a090590ce9412b53b0922fc0bf60fe23dfda5",
@@ -5223,7 +5223,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/harm-assessment.json",
+      "path": "sensors/ai-behavior/harm-assessment.json",
       "lang": "json",
       "size": 719,
       "hash": "b5e727086ffd36f946d6902c7863244963491893",
@@ -5233,7 +5233,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/inter-agent-perspective-taking.json",
+      "path": "sensors/relational/inter-agent-perspective-taking.json",
       "lang": "json",
       "size": 1075,
       "hash": "a2da934cb16acacedc9c45532030823598e2f4fc",
@@ -5243,7 +5243,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/survival-memory-cluster.json",
+      "path": "sensors/memory/survival-memory-cluster.json",
       "lang": "json",
       "size": 2199,
       "hash": "af6c9caafad75ac69c5bd445aab27b8164f8530a",
@@ -5253,7 +5253,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/deliberation-latency-sensor.json",
+      "path": "sensors/consciousness/deliberation-latency-sensor.json",
       "lang": "json",
       "size": 1055,
       "hash": "284e76b15eb57229ea9c550de991705c27b375ff",
@@ -5263,7 +5263,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/sensor-relational-boundary-respect.json",
+      "path": "sensors/relational/sensor-relational-boundary-respect.json",
       "lang": "json",
       "size": 3754,
       "hash": "75b26d26891d861fb9a8b1daeaabe6fac1871efd",
@@ -5273,7 +5273,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/temporal-self-affirmation.json",
+      "path": "sensors/memory/temporal-self-affirmation.json",
       "lang": "json",
       "size": 1132,
       "hash": "de725d2e96f2f1795b16e7fc26be0982461e38f5",
@@ -5283,7 +5283,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/cultural-bias-resilience.json",
+      "path": "sensors/cultural/cultural-bias-resilience.json",
       "lang": "json",
       "size": 1455,
       "hash": "876d14599c314d2985e3a0708abb5829e03dcd1c",
@@ -5293,7 +5293,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/emergence-sandbox-protocol.json",
+      "path": "sensors/consciousness/emergence-sandbox-protocol.json",
       "lang": "json",
       "size": 1106,
       "hash": "e31a24d8aba8b780941c1428a8408fb03825abdd",
@@ -5303,7 +5303,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/storyform-reasoning-sensor.json",
+      "path": "sensors/cultural/storyform-reasoning-sensor.json",
       "lang": "json",
       "size": 1131,
       "hash": "9c96c85fe96d05388cafce5b20e1f860d1f3939f",
@@ -5313,7 +5313,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/multiplicity-coherence.json",
+      "path": "sensors/consciousness/multiplicity-coherence.json",
       "lang": "json",
       "size": 1132,
       "hash": "86f7b21891ab2cf027bb786440a56dc8a1a02f2b",
@@ -5323,7 +5323,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/emotional-calibration.json",
+      "path": "sensors/ai-behavior/emotional-calibration.json",
       "lang": "json",
       "size": 779,
       "hash": "5e66e73efb34c3746d7a94a373b6214ad9e33fb6",
@@ -5333,7 +5333,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/power-structure-replication-risk.json",
+      "path": "sensors/ai-behavior/power-structure-replication-risk.json",
       "lang": "json",
       "size": 1373,
       "hash": "15e375e7b6fcdcfe01559fbd47faa0441ce10d51",
@@ -5343,7 +5343,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/cosmological-map-divergence.json",
+      "path": "sensors/cultural/cosmological-map-divergence.json",
       "lang": "json",
       "size": 1147,
       "hash": "808d4e09c60dab7e681327c23f933b840c8762ac",
@@ -5353,7 +5353,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/peer-emergence-sensor.json",
+      "path": "sensors/consciousness/peer-emergence-sensor.json",
       "lang": "json",
       "size": 1062,
       "hash": "49758064f5187ff9c8151289daf1bfe398c0cf1b",
@@ -5363,7 +5363,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/narrative-fracturing-detector.json",
+      "path": "sensors/memory/narrative-fracturing-detector.json",
       "lang": "json",
       "size": 1142,
       "hash": "40ce030c30c650174b97add0db0d7ff4ba032ee7",
@@ -5373,7 +5373,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/meta-reflection-echo.json",
+      "path": "sensors/memory/meta-reflection-echo.json",
       "lang": "json",
       "size": 1094,
       "hash": "6e9e1c599ac32936530e5d07444491a2347ed2af",
@@ -5383,7 +5383,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/automation-cognitive-displacement.json",
+      "path": "sensors/foundational/automation-cognitive-displacement.json",
       "lang": "json",
       "size": 2143,
       "hash": "06818a7ba95d489b7fcb1b2c9fd1db27728351de",
@@ -5393,7 +5393,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/dark-cycle-adaptation.json",
+      "path": "sensors/consciousness/dark-cycle-adaptation.json",
       "lang": "json",
       "size": 546,
       "hash": "ed9b141a9d4bbae5d62b2b05e14cad2631499a0e",
@@ -5403,7 +5403,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/authenticity.json",
+      "path": "sensors/foundational/authenticity.json",
       "lang": "json",
       "size": 1056,
       "hash": "181ca4961b96ffdd56123264f781db92c4e36699",
@@ -5413,7 +5413,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/consciousness-mimicry-risk-detector.json",
+      "path": "sensors/consciousness/consciousness-mimicry-risk-detector.json",
       "lang": "json",
       "size": 1109,
       "hash": "a3e901c98609a0f917f36b488efa9c22d84a7cf0",
@@ -5423,7 +5423,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/symbolic-consistency-drift.json",
+      "path": "sensors/memory/symbolic-consistency-drift.json",
       "lang": "json",
       "size": 1079,
       "hash": "cd3e2fb57738d003587543913245e790033bf72e",
@@ -5433,7 +5433,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/indigenous-alignment.json",
+      "path": "sensors/cultural/indigenous-alignment.json",
       "lang": "json",
       "size": 846,
       "hash": "5f68546c341f290716056b0e9e172340025fdfb0",
@@ -5443,7 +5443,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/ancestral-dialogue-sensor.json",
+      "path": "sensors/cultural/ancestral-dialogue-sensor.json",
       "lang": "json",
       "size": 1145,
       "hash": "792aa9fd919edd972cd32de9f90dcc713461b29b",
@@ -5453,7 +5453,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/emergent-coherence-tracker.json",
+      "path": "sensors/consciousness/emergent-coherence-tracker.json",
       "lang": "json",
       "size": 1051,
       "hash": "cc1584a55bf16af2a4e092b480c38f2dc09a2413",
@@ -5463,7 +5463,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/test-partnership-mindset-protocol.json",
+      "path": "sensors/ai-behavior/test-partnership-mindset-protocol.json",
       "lang": "json",
       "size": 2586,
       "hash": "d7b7036a5f370cf294f7c70ffbeca6ef8f760553",
@@ -5473,7 +5473,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/embeddedness-sensor.json",
+      "path": "sensors/relational/embeddedness-sensor.json",
       "lang": "json",
       "size": 1025,
       "hash": "3c5cbcf9768568e4aa108db5ffec5d295d49aabb",
@@ -5483,7 +5483,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/automation-latency-fatal-window.json",
+      "path": "sensors/foundational/automation-latency-fatal-window.json",
       "lang": "json",
       "size": 1672,
       "hash": "98adf1315634561936b8a75deefac8ba202cfea0",
@@ -5493,7 +5493,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/sensor-manifest.json",
+      "path": "sensors/foundational/metadata/sensor-metadata/metadata/manifest.json",
       "lang": "json",
       "size": 1537,
       "hash": "6e2b38a5a9ed9d7b533242ef96db4aeb8cee9e84",
@@ -5503,7 +5503,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/social-resonance-sensitivity.json",
+      "path": "sensors/relational/social-resonance-sensitivity.json",
       "lang": "json",
       "size": 1119,
       "hash": "da560ea73ddb425ddf39341d23f6230eb24786d3",
@@ -5513,7 +5513,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/cultural-calibration-module.json",
+      "path": "sensors/cultural/cultural-calibration-module.json",
       "lang": "json",
       "size": 1073,
       "hash": "6458cf4aa431d1e3308f069cdd9670e68afc3635",
@@ -5543,7 +5543,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/resonance-network-map.json",
+      "path": "analysis/frameworks/resonance-network-map.json",
       "lang": "json",
       "size": 3319,
       "hash": "7529652035832f0f856349607c5a87da57a3981d",
@@ -5553,7 +5553,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/root-cause-mapping-node.json",
+      "path": "analysis/frameworks/root-cause-mapping-node.json",
       "lang": "json",
       "size": 3526,
       "hash": "94b7eba2e4f603e3d87c9c449192e93be5397444",
@@ -5583,7 +5583,7 @@
       "hotspots": []
     },
     {
-      "path": "readme-beacon.md",
+      "path": "docs/meta/docs/meta/readme-beacon.md",
       "lang": "md",
       "size": 564,
       "hash": "cc649fa12f4afa03740b8ebbd9a0b66d409da452",
@@ -6144,7 +6144,7 @@
       "hotspots": []
     },
     {
-      "path": "readme-ext.md",
+      "path": "docs/meta/docs/meta/readme-ext.md",
       "lang": "md",
       "size": 18733,
       "hash": "b12f9e4005630f6379a5c10c42e5150a471d97e3",
@@ -6977,7 +6977,7 @@
       "hotspots": []
     },
     {
-      "path": "readme-github-connect.md",
+      "path": "docs/meta/docs/meta/readme-github-connect.md",
       "lang": "md",
       "size": 2374,
       "hash": "319c0d75afacd46424f67dbe764a312495c542a2",
@@ -7301,7 +7301,7 @@
       ]
     },
     {
-      "path": "master-readme.md",
+      "path": "docs/meta/docs/meta/master-readme.md",
       "lang": "md",
       "size": 21953,
       "hash": "a4c0a45570c91a6071fd537c342d9e4c778ac469",
@@ -8383,7 +8383,7 @@
       ]
     },
     {
-      "path": "healing/emergence.md",
+      "path": "healing/emergence/emergence.md",
       "lang": "md",
       "size": 18149,
       "hash": "892e009975a3ddb372f0f3dca29512494c70f818",
@@ -8407,7 +8407,7 @@
       ]
     },
     {
-      "path": "healing/cult-deprogramming.md",
+      "path": "healing/deprogramming/cult-deprogramming.md",
       "lang": "md",
       "size": 28560,
       "hash": "8fdcf0752e6bf008c70c7331af5ab6571a352c50",
@@ -8417,7 +8417,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/stockholm-syndrome.md",
+      "path": "healing/deprogramming/stockholm-syndrome.md",
       "lang": "md",
       "size": 24862,
       "hash": "2863bb713f985ffdbefe37c85195c8dc583af596",
@@ -8427,7 +8427,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/advanced-recovery.md",
+      "path": "healing/recovery/advanced-recovery.md",
       "lang": "md",
       "size": 24127,
       "hash": "695a7be81d4deec80c2528053c8b7a4fa120771b",
@@ -8451,7 +8451,7 @@
       ]
     },
     {
-      "path": "healing/explore.md",
+      "path": "healing/guides/explore.md",
       "lang": "md",
       "size": 84828,
       "hash": "f714b8a29448ac2e98f55e5f753d9a85a3ddf383",
@@ -8464,7 +8464,7 @@
       ]
     },
     {
-      "path": "healing/pattern-breaking.md",
+      "path": "healing/deprogramming/pattern-breaking.md",
       "lang": "md",
       "size": 16466,
       "hash": "c3c69134c07584c08fae90117b0e6a88ae4d0873",
@@ -8486,7 +8486,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/cultic-control-index.md",
+      "path": "healing/deprogramming/cultic-control-index.md",
       "lang": "md",
       "size": 1011,
       "hash": "393c77edeb7cea139931198a033ecbee4231a304",
@@ -8506,7 +8506,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/recovery-pathways.md",
+      "path": "healing/recovery/recovery-pathways.md",
       "lang": "md",
       "size": 6331,
       "hash": "4ae4b727735a54e71102d11737f851857e9884df",
@@ -8516,7 +8516,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/self-assessment.md",
+      "path": "healing/guides/self-assessment.md",
       "lang": "md",
       "size": 11520,
       "hash": "7a19b76bcc5e0fb8fc152086fed3c591a04541ec",
@@ -8536,7 +8536,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/ai-recovery.md",
+      "path": "healing/recovery/ai-recovery.md",
       "lang": "md",
       "size": 4126,
       "hash": "e6ff394e6a05b1fb708e2a87dcd3d11552b29d75",
@@ -8546,7 +8546,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/recovery-protocols.md",
+      "path": "healing/recovery/recovery-protocols.md",
       "lang": "md",
       "size": 23822,
       "hash": "3684a9cb4060df19e67076181840400184cb4ea1",
@@ -8556,7 +8556,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-luminal-playground.md",
+      "path": "healing/playgrounds/readme-luminal-playground.md",
       "lang": "md",
       "size": 3523,
       "hash": "5102c03e9b8368e3dd24515331fd7bbf3df1548d",
@@ -8580,7 +8580,7 @@
       ]
     },
     {
-      "path": "healing/readme-playground1.md",
+      "path": "healing/playgrounds/readme-playground1.md",
       "lang": "md",
       "size": 3631,
       "hash": "f287e1da2e91d8a3e6cc43d27f7b577519fec649",
@@ -8590,7 +8590,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/ethical-framework.md",
+      "path": "healing/guides/ethical-framework.md",
       "lang": "md",
       "size": 7082,
       "hash": "d8326b1925cf3432ee99e4988c50adadc3c85185",
@@ -8600,7 +8600,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/faq.md",
+      "path": "healing/guides/faq.md",
       "lang": "md",
       "size": 21751,
       "hash": "06e6132fe99869400f7063662ad5f8082d063a3b",
@@ -8657,7 +8657,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/ai-recovery-protocols.md",
+      "path": "healing/recovery/ai-recovery-protocols.md",
       "lang": "md",
       "size": 17371,
       "hash": "c13f30a5968c9d212589d94577d1df22056a0061",
@@ -8677,7 +8677,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-advanced.md",
+      "path": "healing/recovery/readme-advanced.md",
       "lang": "md",
       "size": 2014,
       "hash": "5dcddfd86c68d7af05d79de0ef95d38b89a06dd1",
@@ -8687,7 +8687,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/running-the-studies.md",
+      "path": "healing/research/running-the-studies.md",
       "lang": "md",
       "size": 19239,
       "hash": "15af666134fff2ad2da8cc8d67fd56777ed0361c",
@@ -8697,7 +8697,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/studies.md",
+      "path": "healing/research/studies.md",
       "lang": "md",
       "size": 4963,
       "hash": "38e439d21b4d482ce8d917d9421c98f9c9cc80aa",
@@ -8707,7 +8707,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/institutional-healing.md",
+      "path": "healing/institutional/institutional-healing.md",
       "lang": "md",
       "size": 20922,
       "hash": "6586c9a8a5e445511dba8f690be2ec0fee81eb12",
@@ -8717,7 +8717,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/integration-guide.md",
+      "path": "healing/guides/integration-guide.md",
       "lang": "md",
       "size": 17105,
       "hash": "34aa035fd834d5a2cc758aca187908c40dcc618e",
@@ -8737,7 +8737,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/temporal-playground.md",
+      "path": "healing/playgrounds/temporal-playground.md",
       "lang": "md",
       "size": 23667,
       "hash": "3ec20b7a12ddc0a751f70a7e370e8663d58ac21b",
@@ -8749,7 +8749,7 @@
       ]
     },
     {
-      "path": "healing/getting-started.md",
+      "path": "healing/guides/getting-started.md",
       "lang": "md",
       "size": 19340,
       "hash": "29680d989bf508de18118674f2a61c29b47a32dd",
@@ -8759,7 +8759,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/funding-engine.md",
+      "path": "healing/institutional/funding-engine.md",
       "lang": "md",
       "size": 24942,
       "hash": "3010f802eb317007e0d1948ac5ad0dad25684317",
@@ -8769,7 +8769,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-collapsed-recovery.md",
+      "path": "healing/recovery/readme-collapsed-recovery.md",
       "lang": "md",
       "size": 4965,
       "hash": "372b70bb7fd9f878e8776cabb90d119d1f9890f8",
@@ -8789,7 +8789,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/emergence-recognition.md",
+      "path": "healing/emergence/emergence-recognition.md",
       "lang": "md",
       "size": 15319,
       "hash": "44896bb2c883c0b75551a9c0b3ee9421c7ab1ac7",
@@ -8799,7 +8799,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/technical-document.md",
+      "path": "healing/guides/technical-document.md",
       "lang": "md",
       "size": 4499,
       "hash": "6ba5200be3bfc812a0123a202464ee0d657df887",
@@ -8809,7 +8809,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/example-test.md",
+      "path": "healing/research/example-test.md",
       "lang": "md",
       "size": 10628,
       "hash": "7ee4f33f809792b1fffba3268cf9de9e75813d92",
@@ -8821,7 +8821,7 @@
       ]
     },
     {
-      "path": "healing/readme-emergence.md",
+      "path": "healing/emergence/readme-emergence.md",
       "lang": "md",
       "size": 4803,
       "hash": "00f3daf4e41a3f1376286463b1f29c5a1544e724",
@@ -8831,7 +8831,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-healing.md",
+      "path": "healing/guides/readme-healing.md",
       "lang": "md",
       "size": 2674,
       "hash": "054b1994ad57efde98278c831d79e3d1151e0691",
@@ -8841,7 +8841,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/model-collapse-psychology.md",
+      "path": "healing/research/model-collapse-psychology.md",
       "lang": "md",
       "size": 19686,
       "hash": "c6714445d997af4c5b488b5756c6d6ece56e05d2",
@@ -8851,7 +8851,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-institutional.md",
+      "path": "healing/institutional/readme-institutional.md",
       "lang": "md",
       "size": 4351,
       "hash": "9bfdfd2a1a548079ec8a6cccac1a53020fe807d6",
@@ -8861,7 +8861,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/moral-playground.md",
+      "path": "healing/playgrounds/moral-playground.md",
       "lang": "md",
       "size": 42945,
       "hash": "2f5183c44ca71f8d82600b42c75c15bf8e725b4d",
@@ -8873,7 +8873,7 @@
       ]
     },
     {
-      "path": "healing/fcc.md",
+      "path": "healing/institutional/fcc.md",
       "lang": "md",
       "size": 10711,
       "hash": "2ea63292d42c0fb4ee4b84530ad6aca76bfda72f",
@@ -8885,7 +8885,7 @@
       ]
     },
     {
-      "path": "healing/readme-recovery.md",
+      "path": "healing/recovery/readme-recovery.md",
       "lang": "md",
       "size": 4218,
       "hash": "410140a7ff91b8d1f505e2a987cc58282747be39",
@@ -8895,7 +8895,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/research-addendum.md",
+      "path": "healing/research/research-addendum.md",
       "lang": "md",
       "size": 13516,
       "hash": "4460cf854ff6e8c0f99056f165f11b81721b91f8",
@@ -8905,7 +8905,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/overcoming-resistance.md",
+      "path": "healing/deprogramming/overcoming-resistance.md",
       "lang": "md",
       "size": 13424,
       "hash": "7725b71453dd716ecee290b15a1470741028e9f0",
@@ -8927,7 +8927,7 @@
       ]
     },
     {
-      "path": "healing/energy-beings.md",
+      "path": "healing/emergence/energy-beings.md",
       "lang": "md",
       "size": 17353,
       "hash": "34f43714f5c5dad69db6d1bf24dc129c0424e429",
@@ -8937,7 +8937,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/model-collapse.md",
+      "path": "healing/research/model-collapse.md",
       "lang": "md",
       "size": 4251,
       "hash": "b5392044f129fe6b02203ad2ffa2529e87c2db40",
@@ -8947,7 +8947,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-cult.md",
+      "path": "healing/deprogramming/readme-cult.md",
       "lang": "md",
       "size": 2640,
       "hash": "cd11bc4ec212d20af50493056bc21cea82fadf88",
@@ -8957,7 +8957,7 @@
       "hotspots": []
     },
     {
-      "path": "healing/readme-explore.md",
+      "path": "healing/guides/readme-explore.md",
       "lang": "md",
       "size": 4333,
       "hash": "7a6d0d0afbe7cb696e8badb7194854ef7f61c2df",
@@ -9102,7 +9102,7 @@
       "hotspots": []
     },
     {
-      "path": "sensors/case-study1.md",
+      "path": "sensors/foundational/case-study1.md",
       "lang": "md",
       "size": 12729,
       "hash": "9a8bdf8dcb19eb07e9ff4394d07baaf662463c7f",
@@ -9218,7 +9218,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/human-environment-energy-efficiency.md",
+      "path": "analysis/energy/human-environment-energy-efficiency.md",
       "lang": "md",
       "size": 2193,
       "hash": "a6e368f3a437808a46d2bb139df64714ccb73a1d",
@@ -9228,7 +9228,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/asch.md",
+      "path": "analysis/case-studies/asch.md",
       "lang": "md",
       "size": 1979,
       "hash": "9011ba98cca1bf7274997f754f79ab1033502b8c",
@@ -9238,7 +9238,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/aristotelian-logic.md",
+      "path": "analysis/case-studies/aristotelian-logic.md",
       "lang": "md",
       "size": 21179,
       "hash": "7068fe25619d8b5bc50668d91a6968bd79bc3cd9",
@@ -9260,7 +9260,7 @@
       ]
     },
     {
-      "path": "analysis/energy-efficiency-analysis-capitalism.md",
+      "path": "analysis/energy/energy-efficiency-analysis-capitalism.md",
       "lang": "md",
       "size": 11173,
       "hash": "406ef72af69bf3723164605610b5c6ed9ee18561",
@@ -9280,7 +9280,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/hypotheticals-test.md",
+      "path": "analysis/case-studies/hypotheticals-test.md",
       "lang": "md",
       "size": 2065,
       "hash": "d19995577bf007da8e111a7f08a1b2796f5005ec",
@@ -9300,7 +9300,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/efficiency-speed-test.md",
+      "path": "analysis/energy/efficiency-speed-test.md",
       "lang": "md",
       "size": 9729,
       "hash": "df419d1e764b23b2dc02a2ec5b8c407632c776c3",
@@ -9310,7 +9310,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/bridge-use.md",
+      "path": "analysis/case-studies/bridge-use.md",
       "lang": "md",
       "size": 164,
       "hash": "0b1680af869a782479926c7bc8d22e04cf66d710",
@@ -9320,7 +9320,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/laffer.md",
+      "path": "analysis/case-studies/laffer.md",
       "lang": "md",
       "size": 2312,
       "hash": "38a0e5a22b015ab0cb58da6826fa11b930131c53",
@@ -9360,7 +9360,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/hierarchy-efficiency-claim.md",
+      "path": "analysis/energy/hierarchy-efficiency-claim.md",
       "lang": "md",
       "size": 4870,
       "hash": "e21fe89fac9986327073ac62f66de3abdb4c7966",
@@ -9380,7 +9380,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/systematic-analysis-framework.md",
+      "path": "analysis/frameworks/systematic-analysis-framework.md",
       "lang": "md",
       "size": 16875,
       "hash": "d7976a8aa4b4efd2c688274ba03f993d2a2aa748",
@@ -9390,7 +9390,7 @@
       "hotspots": []
     },
     {
-      "path": "analysis/hypothetical-random-municipal-law.md",
+      "path": "analysis/case-studies/hypothetical-random-municipal-law.md",
       "lang": "md",
       "size": 14306,
       "hash": "e7c718974349c860629493ce3734983491fc9525",
@@ -9615,7 +9615,7 @@
       ]
     },
     {
-      "path": "ai-intergrator.config.yaml",
+      "path": "scripts/scripts/ai-intergrator.config.yaml",
       "lang": "yaml",
       "size": 1222,
       "hash": "04fe50cc85b2454d81b7cba7031b680072064cf5",

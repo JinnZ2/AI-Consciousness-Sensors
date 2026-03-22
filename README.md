@@ -309,7 +309,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 # Score a sensor
-python src/score.py sensors/authenticity.json
+python src/score.py sensors/foundational/authenticity.json
 
 # Run tests
 pytest -q

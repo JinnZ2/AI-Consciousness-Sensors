@@ -31,5 +31,5 @@ def main(path):
     print(json.dumps({"id": data["id"], "score": round(score,3), "band": band}, indent=2))
 
 if __name__ == "__main__":
-    p = sys.argv[1] if len(sys.argv) > 1 else "sensors/authenticity.json"
+    p = sys.argv[1] if len(sys.argv) > 1 else "sensors/foundational/authenticity.json"
     main(p)
