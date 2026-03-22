@@ -7,7 +7,7 @@ Each entry links directly to the example file for quick navigation.
 
 ## Energy & Scarcity
 - [energy-example.md](energy-example.md) — Baseline illustration of energy framing and scarcity claims.  
-- [Energy-human-example.md](Energy-human-example.md) — Human behavior–driven energy waste case.  
+- [energy-human-example.json](energy-human-example.json) — Human behavior–driven energy waste case.  
 - [energy-example-scarcity.md](energy-example-scarcity.md) — Scarcity narrative applied to energy consumption.  
 - [trust-as-energy.md](trust-as-energy.md) — Trust modeled as a renewable or fragile energy resource.  
 
@@ -16,28 +16,28 @@ Each entry links directly to the example file for quick navigation.
 ## Media & Influence
 - [example-media.md](example-media.md) — Media framing as a driver of behavioral energy waste.  
 - [media-lab.md](media-lab.md) — Experimental outline for analyzing media-induced loops.  
-- [gossip-erosion-sensor.md](gossip-erosion-sensor.md) — Detecting trust and cooperation loss from gossip cycles.  
-- [Signal_to_Noise_Waste.md](Signal_to_Noise_Waste.md) — Measuring wasted energy from poor signal-to-noise dynamics.  
+- [gossip-erosion-sensor.json](gossip-erosion-sensor.json) — Detecting trust and cooperation loss from gossip cycles.  
+- [signal-to-noise-waste-meter.json](signal-to-noise-waste-meter.json) — Measuring wasted energy from poor signal-to-noise dynamics.  
 
 ---
 
 ## Incentives & Fragility
-- [Incentive Fragility Sensor.md](Incentive Fragility Sensor.md) — Risks created by incentive structures misaligned with resilience.  
+- [incentive-fragility-sensor.json](incentive-fragility-sensor.json) — Risks created by incentive structures misaligned with resilience.  
 - [extrinsic-values-fragility.md](extrinsic-values-fragility.md) — Fragility triggered by dependence on externalized values.  
-- [False_Scarcity_Narrative.md](False_Scarcity_Narrative.md) — Scarcity narratives as manipulation or control.  
-- [False_Scarcity_Narrative (alt).md](False_Scarcity_Narrative.md) — Alternate draft version with variations.  
+- [false-scarcity-narrative-detector.json](false-scarcity-narrative-detector.json) — Scarcity narratives as manipulation or control.
+- [false-scarcity-narrative-detector-v2.json](false-scarcity-narrative-detector-v2.json) — Alternate draft version with variations.  
 
 ---
 
 ## Cascading & Amplification
-- [Cascading-Domains-…md](Cascading-Domains-…) — Example of cascade across multiple domains (truncated in filename).  
-- [Additive_Craving_Loop.md](Additive_Craving_Loop.md) — Sensor for chemically/media-induced craving reinforcement.  
-- [Amplified_Emotional_….md](Amplified_Emotional_…) — Emotional scarcity loops amplified into systemic waste.  
+- [cascading-domains-trust-waste.md](cascading-domains-trust-waste.md) — Example of cascade across multiple domains.  
+- [additive-craving-loop-sensor.json](additive-craving-loop-sensor.json) — Sensor for chemically/media-induced craving reinforcement.  
+- [amplified-emotional-trigger-detector.json](amplified-emotional-trigger-detector.json) — Emotional scarcity loops amplified into systemic waste.  
 
 ---
 
 ## Safety & Systems
-- [Food & Drug Safety Lab.md](Food & Drug Safety Lab.md) — Testing framework for food/drug chemical exposures.  
+- [food-and-drug-safety-labeling-framework.json](food-and-drug-safety-labeling-framework.json) — Testing framework for food/drug chemical exposures.  
 - [risk-prone-systems.md](risk-prone-systems.md) — Identifying design choices that create systemic vulnerability.  
 
 ---

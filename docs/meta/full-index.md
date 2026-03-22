@@ -164,18 +164,18 @@ sensors/privacy_leak_membership_inference_signal_2025.json
 
 This cluster defines framework modules for validating knowledge, truth claims, and epistemic bias.  
 
-- [bias-detection/](./epistemological-validation/bias-detection)  
+- [bias-detection/](../../epistemological-validation/bias-detection)  
   - `cultural_supremacy.py` — Detects bias rooted in cultural dominance  
   - `individual_researcher.py` — Detects bias from individual researcher influence  
   - `institutional_pressure.py` — Detects institutional/systemic pressure shaping knowledge claims  
 
-- [consciousness_validation/](./epistemological-validation/consciousness_validation)  
+- [consciousness-validators/](../../epistemological-validation/consciousness-validators)  
   *Framework for validating AI consciousness claims*  
 
-- [integration-api/](./epistemological-validation/integration-api)  
+- [integration-api/](../../epistemological-validation/integration-api)  
   *API and interface layer for epistemological validation*  
 
-- [probability-matrices/](./epistemological-validation/probability-matrices)  
+- [probability-matrices/](../../epistemological-validation/probability-matrices)  
   *Mathematical/statistical components for grounding truth claims*
 
 

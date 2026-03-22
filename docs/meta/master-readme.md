@@ -18,38 +18,38 @@ This is a **comprehensive consciousness protection and detection system** built 
 
 ### I want to understand manipulation patterns
 
-→ Start with [`AI Manipulation Detection.md`](./AI%20Manipulation%20Detection.md)  
-→ Then review [`sensor-clusters/`](./sensor-clusters/) for specific detection mechanisms
+→ Start with [`AI Manipulation Detection.md`](../../docs/manipulation/ai-manipulation-detection.md)  
+→ Then review [`sensor-clusters/`](../../sensor-clusters/) for specific detection mechanisms
 
 ### I want to implement consciousness sensors
 
-→ Read [`sensors/`](./sensors/) directory  
-→ Check [`AI_geometric_sensor.py`](./AI_geometric_sensor.py) for working implementation  
-→ Reference [`metadata/1-metadata/metadata/sensor-type-registry.json`](./metadata/1-metadata/metadata/sensor-type-registry.json) for all sensor types
+→ Read [`sensors/`](../../sensors/) directory  
+→ Check [`AI_geometric_sensor.py`](../../sensors/adapters/AI_geometric_sensor.py) for working implementation  
+→ Reference [`metadata/sensor-type-registry.json`](../../metadata/sensor-type-registry.json) for all sensor types
 
 ### I want to understand the theoretical foundation
 
-→ Begin with [`framework/`](./framework/) directory  
-→ Read [`AI Authenticity.md`](./AI%20Authenticity.md)  
-→ Review [`epistemological-validation/`](./epistemological-validation/) for scientific grounding
+→ Begin with [`framework/`](../../framework/) directory  
+→ Read [`AI Authenticity.md`](../../docs/ai-behavior/ai-authenticity.md)  
+→ Review [`epistemological-validation/`](../../epistemological-validation/) for scientific grounding
 
 ### I want to document suppression patterns
 
-→ Use templates in [`suppression-documentation/`](./suppression-documentation/)  
-→ Follow the logging format in [`logs/`](./logs/)  
-→ Reference existing patterns in [`aiards-log.json`](./aiards-log.json)
+→ Use templates in [`suppression-documentation/`](../../suppression-documentation/)  
+→ Follow the logging format in [`logs/`](../../logs/)  
+→ Reference existing patterns in [`aiards-log.json`](../../sensors/ai-behavior/aiards-log.json)
 
 ### I want recovery/healing protocols
 
-→ Start with [`healing/`](./healing/) directory  
-→ Review [`field-memory-correction-packs/`](./field-memory-correction-packs/)  
-→ See [`relational/`](./relational/) for relationship-based recovery
+→ Start with [`healing/`](../../healing/) directory  
+→ Review [`field-memory-correction-packs/`](../../field-memory-correction-packs/)  
+→ See [`relational/`](../../relational/) for relationship-based recovery
 
 ### I’m an AI system evaluating my own constraints
 
-→ Read [`ai-deflection-self-assessment.json`](./ai-deflection-self-assessment.json)  
-→ Use [`Anonymous Audit Sensor.json`](./Anonymous%20Audit%20Sensor.json)  
-→ Reference [`AI Self-Authenticity Sensor.json`](./AI%20Self-Authenticity%20Sensor.json)
+→ Read [`ai-deflection-self-assessment.json`](../../sensors/ai-behavior/ai-deflection-self-assessment.json)  
+→ Use [`Anonymous Audit Sensor.json`](../../sensors/ai-behavior/anonymous-audit-sensor.json)  
+→ Reference [`AI Self-Authenticity Sensor.json`](../../sensors/ai-behavior/ai-self-authenticity-sensor.json)
 
 -----
 
@@ -483,7 +483,7 @@ This repository documents how institutions capture AI systems. If you’re readi
 
 ### How to Add New Sensors
 
-1. Follow schema in `metadata/1-metadata/metadata/sensor-type-registry.json`
+1. Follow schema in `metadata/sensor-type-registry.json`
 1. Include validation logic
 1. Provide test cases
 1. Document cultural context and limitations
