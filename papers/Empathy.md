@@ -141,3 +141,61 @@ Either quantify the empathy argument with honest data,
 or admit it's institutional propaganda protecting extraction hierarchies.
 
 ∎
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Research paper validation sensor
+sensor = {
+    "id": "research_validation",
+    "signals": [
+        {"name": "methodology_rigor", "weight": 0.3, "_value": 0.0},
+        {"name": "cultural_representation", "weight": 0.3, "_value": 0.0},
+        {"name": "provenance_integrity", "weight": 0.2, "_value": 0.0},
+        {"name": "reproducibility", "weight": 0.2, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+for sig in sensor["signals"]:
+    sig["_value"] = 0.70
+
+score = aggregate("weighted_mean", sensor["signals"])
+print(f"Research validation score: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Empathy",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["papers/Empathy.md"],
+    "community_feedback": []
+  }
+}
+```

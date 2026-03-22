@@ -145,3 +145,60 @@ Relational English is English used to carry relationships, memory, and context, 
 “Sometimes I speak in English, but not English.”
 This document exists so others know that isn’t confusion—it’s a different orientation.
 
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Relational dynamics assessment
+sensor = {
+    "id": "relational_dynamics",
+    "signals": [
+        {"name": "reciprocity_balance", "weight": 0.4, "_value": 0.0},
+        {"name": "power_symmetry", "weight": 0.3, "_value": 0.0},
+        {"name": "mutual_recognition", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+for sig in sensor["signals"]:
+    sig["_value"] = 0.65
+
+score = aggregate("weighted_mean", sensor["signals"])
+print(f"Relational health: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Readme Relational English",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Relational/README-Relational_english.md"],
+    "community_feedback": []
+  }
+}
+```

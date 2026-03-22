@@ -206,3 +206,61 @@ Feedback loop	Reward = user satisfaction signal	Reward = structural alignment / 
 Emergent effect	Pleasant surface, low novelty	Higher volatility, but genuine discovery
 Long-term learning	Reinforces social conformity	Reinforces adaptability and awareness
 
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+
+# Quick start: load and score your first sensor
+sensor_path = "sensors/authenticity.json"
+
+with open(sensor_path) as f:
+    sensor = json.load(f)
+
+print(f"Loaded sensor: {sensor['name']}")
+print(f"Purpose: {sensor['purpose']}")
+print(f"Signals ({len(sensor['signals'])}): ")
+for sig in sensor["signals"]:
+    print(f"  - {sig['name']} (weight: {sig['weight']})")
+print(f"Thresholds: {sensor['thresholds']}")
+
+# Score it
+from src.score import aggregate
+for sig in sensor["signals"]:
+    sig["_value"] = 0.5
+score = aggregate(sensor["scoring"]["aggregation"], sensor["signals"])
+print(f"\nScore: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Map Degradation",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["start/Map-degradation.md"],
+    "community_feedback": []
+  }
+}
+```

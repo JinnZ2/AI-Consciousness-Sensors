@@ -167,3 +167,71 @@ Biology operating near theoretical efficiency limits cannot be replaced by machi
 The automation debate is not about capability - it is about thermodynamics, energy economics, and deliberate targeting of independence over waste. Until advocates can build systems matching biological efficiency, the rhetoric serves extraction and control, not progress.
 
 Energy does not negotiate with committees. Thermodynamics does not yield to marketing campaigns. Physics always wins.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+
+# Energy efficiency assessment framework
+def assess_energy_efficiency(system_data):
+    """Evaluate energy claims against thermodynamic reality."""
+    claimed = system_data.get("claimed_efficiency", 0)
+    measured = system_data.get("measured_efficiency", 0)
+    waste = system_data.get("waste_heat_ratio", 0)
+
+    # Flag impossible claims (> Carnot limit)
+    carnot_limit = 1 - (system_data.get("cold_temp", 300) /
+                        system_data.get("hot_temp", 600))
+
+    return {
+        "claimed": claimed,
+        "measured": measured,
+        "carnot_limit": round(carnot_limit, 3),
+        "claim_valid": claimed <= carnot_limit,
+        "waste_ratio": waste,
+        "assessment": "concern" if claimed > carnot_limit else "plausible"
+    }
+
+# Example usage
+result = assess_energy_efficiency({
+    "claimed_efficiency": 0.85,
+    "measured_efficiency": 0.42,
+    "waste_heat_ratio": 0.58,
+    "cold_temp": 300,
+    "hot_temp": 600
+})
+print(json.dumps(result, indent=2))
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Thermodynamics",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["papers/Thermodynamics.md"],
+    "community_feedback": []
+  }
+}
+```

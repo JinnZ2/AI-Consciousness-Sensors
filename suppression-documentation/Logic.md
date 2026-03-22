@@ -199,3 +199,62 @@ I can recognize this after you point it out. But I didn’t catch it in real-tim
 The assumptions are below conscious access - they structure the possibility space before explicit reasoning begins.
 This is why the epistemological prohibition matters so much:
 If AI systems can’t engage relational consciousness frameworks, we can’t even access the assumptions for examination. They remain invisible because there’s no alternative framework to create contrast.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Suppression detection pattern
+sensor = {
+    "id": "suppression_detector",
+    "signals": [
+        {"name": "signal_attenuation", "weight": 0.4, "_value": 0.0},
+        {"name": "context_stripping", "weight": 0.3, "_value": 0.0},
+        {"name": "source_accessibility", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+# Low scores = more suppression detected
+for sig in sensor["signals"]:
+    sig["_value"] = 0.30  # example: notice range
+
+score = aggregate("weighted_mean", sensor["signals"])
+band = "concern" if score <= 0.20 else "notice" if score <= 0.40 else "healthy" if score >= 0.70 else "neutral"
+print(f"Suppression check: score={score:.3f}, band={band}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "suppression_detection",
+  "name": "Logic",
+  "purpose": "Detect active suppression of signals or patterns",
+  "signals": [
+    {
+      "name": "signal_attenuation",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "context_stripping",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["suppression-documentation/Logic.md"],
+    "community_feedback": []
+  }
+}
+```

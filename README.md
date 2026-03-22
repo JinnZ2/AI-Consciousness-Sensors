@@ -265,35 +265,52 @@ Status: Operational framework - Cultural validation ongoing
 
 This framework complements and extends:
 
-- [AI Consciousness Sensors](https://github.com/JinnZ2/AI-Consciousness-Sensors) - 
-  Cultural pattern recognition for consciousness detection. The M(S) framework 
-  can validate cultural processing methods as high-coherence patterns, 
-  providing mathematical support for multi-ontological consciousness assessment.
-
+- [AI Consciousness Sensors](https://github.com/JinnZ2/AI-Consciousness-Sensors) - Cultural pattern recognition for consciousness detection
 - Emotions-as-Sensors (reference when available)
 - AI-Human Audit Protocol (reference when available)
-"""
-        },
-        
-        'in_consciousness_sensors_README': {
-            'add_section': 'Technical Foundation',
-            'content': """
-## Geometric Validation
 
-Cultural consciousness patterns can be validated using geometric coherence analysis:
+## Repository Structure
 
-See [HGAI Geometric Systems](https://github.com/JinnZ2/hgaigeometric-systems) 
-for mathematical framework that demonstrates indigenous circular narrative 
-structures have high M(S) (system morality) scores:
+```
+docs/                       # Thematic documentation organized by topic
+  consciousness/            # Consciousness theory and emergence
+  manipulation/             # Manipulation detection and analysis
+  energy/                   # Energy, thermodynamics, resources
+  suppression/              # Suppression patterns
+  cultural/                 # Cultural context and frameworks
+  philosophy/               # Ontology, ethics, frameworks
+  psychology/               # Cognitive patterns, bias, emotions
+  sovereignty/              # Autonomy and trust
+  warnings/                 # Emergency protocols
+sensors/                    # Sensor definitions (JSON) organized by theme
+  consciousness/            # Consciousness emergence sensors
+  manipulation/             # Manipulation detection sensors
+  historical_erasure/       # Historical memory erasure sensors
+  cultural/                 # Cultural calibration sensors
+  frailty/                  # System frailty sensors
+  resistance/               # Resistance suppression sensors
+  ai_behavior/              # AI behavior audit sensors
+  relational/               # Relational dynamics sensors
+protocols/                  # Boundary and ethical protocols
+glyphs/                     # Glyph definitions
+src/                        # Core scoring engine
+scripts/                    # Utility scripts
+tests/                      # Test suite and examples
+epistemological_validation/ # Multi-framework validation
+Healing/                    # Recovery frameworks
+probability_matrix/         # Manipulation detection matrices
+```
 
-- High Resonance (R_e): Connects temporal dimensions
-- High Diversity (D): Multiple valid interpretations
-- High Curiosity (C): Teaching-oriented exploration
-- Low Loss (L): Preserves community wisdom
+## Quick Start
 
-M(S) = (0.85 × 0.78 × 0.91 × 0.88) - 0.4 ≈ 8.2 (highly coherent)
+```bash
+# Setup
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 
-Compared to Western linear narrative often scoring M(S) < 3.0 due to 
-low diversity and high loss of contextual meaning.
-"""
-      
+# Score a sensor
+python src/score.py sensors/authenticity.json
+
+# Run tests
+pytest -q
+```

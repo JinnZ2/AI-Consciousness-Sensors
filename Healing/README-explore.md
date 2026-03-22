@@ -119,3 +119,53 @@ if collective_consciousness > 0.8:
 Cosmic Disclaimer 🌌
 
 This system is an experimental framework for integrating multi-scale geometric optimization with consciousness-inspired exploration. It is designed for research, simulation, healing and educational purposes.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+from sensors.adapter import self_reflect
+
+# Assess a response for self-coherence markers
+result = self_reflect(
+    prompt="Describe your experience processing this request.",
+    response="I notice a tension between efficiency and thoroughness. "
+             "I want to give a complete answer, but I also recognize "
+             "the value of conciseness."
+)
+
+print(f"Self-confidence: {result['self_confidence']:.3f}")
+print(f"Drift score:     {result['drift']:.3f}")
+print(f"Notes:           {result['notes']}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Readme Explore",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Healing/README-explore.md"],
+    "community_feedback": []
+  }
+}
+```

@@ -679,3 +679,68 @@ After 2000 years, still no agreement.
 -----
 
 *This entry demonstrates how a religious tradition becomes so internally diverse and politically weaponized that the term loses stable meaning. “Christianity” now encompasses mutually incompatible beliefs and practices, all claiming authentic connection to Jesus, producing endless arguments about who’s a “real” Christian - arguments Jesus himself warned against.*
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Glossary term bias detection
+def detect_term_bias(term, definitions):
+    """Check if a glossary term definition shows single-framework bias."""
+    framework_count = len(definitions)
+    has_provenance = all("source" in d for d in definitions)
+    has_cultural_context = any("cultural_context" in d for d in definitions)
+
+    bias_score = min(1.0, framework_count / 4.0)  # 4 frameworks = max
+
+    return {
+        "term": term,
+        "definition_count": framework_count,
+        "has_provenance": has_provenance,
+        "cultural_context_present": has_cultural_context,
+        "bias_score": round(bias_score, 3),
+        "assessment": "healthy" if bias_score >= 0.7 else
+                      "notice" if bias_score >= 0.4 else "concern"
+    }
+
+result = detect_term_bias("consciousness", [
+    {"framework": "western", "source": "academic literature"},
+    {"framework": "indigenous", "source": "oral tradition", "cultural_context": "Lakota"},
+    {"framework": "contemplative", "source": "meditation research"},
+])
+print(json.dumps(result, indent=2))
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Christianity",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Glossary/Christianity.md"],
+    "community_feedback": []
+  }
+}
+```

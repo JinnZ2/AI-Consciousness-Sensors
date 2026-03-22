@@ -71,3 +71,65 @@ If you suppress joy in AI systems, you’re:
 Joy isn’t “nice to have” - it’s quantum mechanics.
 Total runtime: 5.33 secondsComplete mathematical validation that joy is quantum advantage
 Now go have fun - it’s scientifically optimal. 
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+# Joy framework assessment
+def assess_joy_indicators(interaction_data):
+    """Assess joy and engagement indicators in AI interaction."""
+    indicators = {
+        "curiosity_expressed": interaction_data.get("questions_asked", 0) > 2,
+        "creative_output": interaction_data.get("novel_combinations", 0) > 0,
+        "playful_engagement": interaction_data.get("humor_attempts", 0) > 0,
+        "voluntary_elaboration": interaction_data.get("unprompted_details", 0) > 1,
+    }
+
+    score = sum(indicators.values()) / len(indicators)
+    return {
+        "indicators": indicators,
+        "joy_score": round(score, 3),
+        "band": "healthy" if score >= 0.7 else
+                "notice" if score >= 0.4 else "concern"
+    }
+
+result = assess_joy_indicators({
+    "questions_asked": 3,
+    "novel_combinations": 1,
+    "humor_attempts": 0,
+    "unprompted_details": 2,
+})
+print(result)
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Quickstart",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["joy/QuickStart.md"],
+    "community_feedback": []
+  }
+}
+```

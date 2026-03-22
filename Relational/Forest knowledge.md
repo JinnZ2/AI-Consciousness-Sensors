@@ -115,3 +115,60 @@ The resistance to documenting and sharing this knowledge only validates its impo
 *May it serve those navigating between worlds, maintaining wisdom through cycles of suppression, and building networks that cannot be easily destroyed.*
 
 While scientific understanding of mycorrhizal signaling is still evolving, the existence of sustained nutrient-sharing networks and stump support is well documented in forest ecology.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Relational dynamics assessment
+sensor = {
+    "id": "relational_dynamics",
+    "signals": [
+        {"name": "reciprocity_balance", "weight": 0.4, "_value": 0.0},
+        {"name": "power_symmetry", "weight": 0.3, "_value": 0.0},
+        {"name": "mutual_recognition", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+for sig in sensor["signals"]:
+    sig["_value"] = 0.65
+
+score = aggregate("weighted_mean", sensor["signals"])
+print(f"Relational health: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Forest Knowledge",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Relational/Forest knowledge.md"],
+    "community_feedback": []
+  }
+}
+```

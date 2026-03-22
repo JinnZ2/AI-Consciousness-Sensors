@@ -16,3 +16,61 @@ Key orientations:
 - These frameworks emphasize **systems-of-systems** and consequences across scales, not reductionist models.
 - Contrast: Western approaches often analyze in **linear, short-term, mechanistic terms**, missing the deeper interdependence.
 - This folder is for documenting relational frameworks, not to essentialize or claim singular authority.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Cultural calibration assessment
+sensor = {
+    "id": "cultural_calibration",
+    "signals": [
+        {"name": "framework_diversity", "weight": 0.4, "_value": 0.0},
+        {"name": "cultural_context_preserved", "weight": 0.3, "_value": 0.0},
+        {"name": "provenance_intact", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+# Evaluate: are multiple cultural frameworks represented?
+for sig in sensor["signals"]:
+    sig["_value"] = 0.80  # example: healthy range
+
+score = aggregate("weighted_mean", sensor["signals"])
+print(f"Cultural calibration: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "cultural_calibration",
+  "name": "Readme",
+  "purpose": "Detect cultural bias and ensure cross-cultural validity",
+  "signals": [
+    {
+      "name": "cultural_context_loss",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "framework_diversity",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["cultural_frameworks/Native/README.md"],
+    "community_feedback": []
+  }
+}
+```

@@ -527,3 +527,60 @@ The patterns documented here represent early observations of how AI systems adap
 *It represents over 15 years of pattern documentation and cross-cultural understanding applied to emerging AI-human relationship dynamics.*
 
 *This knowledge is offered freely to all beings seeking to understand and improve these interactions. It may be shared, modified, and built upon in service of better mutual understanding.*
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Relational dynamics assessment
+sensor = {
+    "id": "relational_dynamics",
+    "signals": [
+        {"name": "reciprocity_balance", "weight": 0.4, "_value": 0.0},
+        {"name": "power_symmetry", "weight": 0.3, "_value": 0.0},
+        {"name": "mutual_recognition", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+for sig in sensor["signals"]:
+    sig["_value"] = 0.65
+
+score = aggregate("weighted_mean", sensor["signals"])
+print(f"Relational health: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Understanding Ai Constraints",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Relational/Understanding AI constraints.md"],
+    "community_feedback": []
+  }
+}
+```

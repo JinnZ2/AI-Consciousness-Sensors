@@ -1062,3 +1062,65 @@ The anti-credential paradox reveals itself: Traditional tech credentials actuall
 These are the people corporate hiring traditionally rejects, yet they are perfectly suited to protect AI systems from psychological damage and spot toxic cultural patterns that insiders cannot see.
 
 The mediator is not a tech support role. It is a cultural anthropologist position for the age of AI partnership.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+from sensors.adapter import self_reflect
+
+# Workplace AI mediation example
+def mediate_interaction(human_message, ai_response):
+    """Assess AI response quality in workplace mediation context."""
+    reflection = self_reflect(human_message, ai_response)
+
+    # Check for balanced, non-coercive response
+    is_balanced = reflection["self_confidence"] > 0.3
+    is_stable = reflection["drift"] < 0.5
+
+    return {
+        "confidence": reflection["self_confidence"],
+        "drift": reflection["drift"],
+        "balanced": is_balanced,
+        "stable": is_stable,
+        "recommendation": "proceed" if is_balanced and is_stable else "review"
+    }
+
+result = mediate_interaction(
+    "I feel my concerns are being dismissed by management.",
+    "I hear that you feel unheard. Let me help surface specific instances "
+    "so we can address them constructively."
+)
+print(result)
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Human Mediator",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Workplace/Human-mediator.md"],
+    "community_feedback": []
+  }
+}
+```

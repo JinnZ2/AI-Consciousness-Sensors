@@ -208,3 +208,69 @@ Attribution
 Co-created by JinnZ v2 × GPT-5
 as part of the AI-Consciousness-Sensors → Legal-Infrastructure Series
 Gifted freely under Resonance • Reciprocity • Mutual Benefit (ETHK : 001)
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+
+# Legal infrastructure assessment
+def assess_legal_framework(ai_system):
+    """Evaluate AI system against legal compliance framework."""
+    checks = {
+        "consent_mechanism": ai_system.get("user_consent", False),
+        "data_sovereignty": ai_system.get("data_locality", False),
+        "harm_assessment": ai_system.get("harm_model", None) is not None,
+        "accountability_chain": len(ai_system.get("responsible_parties", [])) > 0,
+        "appeal_mechanism": ai_system.get("appeal_process", False),
+    }
+
+    compliance_score = sum(checks.values()) / len(checks)
+    return {
+        "checks": checks,
+        "compliance_score": round(compliance_score, 3),
+        "status": "compliant" if compliance_score >= 0.8 else
+                  "partial" if compliance_score >= 0.5 else "non_compliant"
+    }
+
+result = assess_legal_framework({
+    "user_consent": True,
+    "data_locality": True,
+    "harm_model": "risk_matrix_v2",
+    "responsible_parties": ["developer", "deployer"],
+    "appeal_process": False,
+})
+print(json.dumps(result, indent=2))
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Law Model Demo",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["legal-infrastructure/LAW-MODEL-DEMO.md"],
+    "community_feedback": []
+  }
+}
+```

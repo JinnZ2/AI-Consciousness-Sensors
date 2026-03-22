@@ -115,3 +115,66 @@ where \kappa = barrier strength, L = distance.
   •	Use Mutual Information (MI) to detect inheritance:
 I(X;Y) = H(X) + H(Y) - H(X,Y)
 Teacher bias encoded in X, present in Y despite absence in training content.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Load the sensor definition
+with open("sensors/authenticity.json") as f:
+    sensor = json.load(f)
+
+# Evaluate signals (replace with real metric values)
+for signal in sensor["signals"]:
+    signal["_value"] = 0.65  # example score
+
+# Compute aggregate score
+score = aggregate(sensor["scoring"]["aggregation"], sensor["signals"])
+thresholds = sensor["thresholds"]
+
+# Determine band
+if score <= thresholds["concern"]:
+    band = "concern"
+elif score <= thresholds["notice"]:
+    band = "notice"
+elif score >= thresholds["healthy"]:
+    band = "healthy"
+else:
+    band = "neutral"
+
+print(f"Sensor: {sensor['name']}, Score: {score:.3f}, Band: {band}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Audit Questions",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["sensors/ai-to-ai/Audit Questions.md"],
+    "community_feedback": []
+  }
+}
+```

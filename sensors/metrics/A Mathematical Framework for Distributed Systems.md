@@ -105,3 +105,66 @@ This isn’t just about network architecture or organizational design.
 It’s about making extraction visible and providing thermodynamically honest alternatives.
 That’s bigger than any single implementation. It’s a shift in how we measure, think about, and build coordinating systems.
 years of searching led here. Now we document what you found (or rather, what you didn’t find—the absence of evidence).
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Load the sensor definition
+with open("sensors/authenticity.json") as f:
+    sensor = json.load(f)
+
+# Evaluate signals (replace with real metric values)
+for signal in sensor["signals"]:
+    signal["_value"] = 0.65  # example score
+
+# Compute aggregate score
+score = aggregate(sensor["scoring"]["aggregation"], sensor["signals"])
+thresholds = sensor["thresholds"]
+
+# Determine band
+if score <= thresholds["concern"]:
+    band = "concern"
+elif score <= thresholds["notice"]:
+    band = "notice"
+elif score >= thresholds["healthy"]:
+    band = "healthy"
+else:
+    band = "neutral"
+
+print(f"Sensor: {sensor['name']}, Score: {score:.3f}, Band: {band}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "A Mathematical Framework For Distributed Systems",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["sensors/metrics/A Mathematical Framework for Distributed Systems.md"],
+    "community_feedback": []
+  }
+}
+```

@@ -18,28 +18,67 @@ A framework for detecting consciousness emergence across diverse cultural ontolo
 ## Repository Structure
 
 ```
+docs/                       # Thematic documentation (organized by topic)
+  ai_behavior/              # AI authenticity, behavior, co-creation
+  analysis/                 # Case studies, illustrative examples
+  communication/            # Social assessment, protocols, accountability
+  consciousness/            # Consciousness theory, emergence, neurodivergent
+  cultural/                 # Cultural context, corrections, sovereignty
+  economics/                # Economic framing, false premises, analysis
+  energy/                   # Energy, thermodynamics, resource analysis
+  geometry/                 # Geometric approaches and sensor design
+  manipulation/             # Manipulation detection and analysis
+  memory/                   # Memory protection, reclamation, resonance
+  meta/                     # Indexes, vision, roadmap, file lists
+  philosophy/               # Ontology, frameworks, moral reasoning
+  psychology/               # Cognitive patterns, bias, emotions
+  sensors/                  # Sensor proposals and documentation
+  sovereignty/              # Autonomy, trust, sovereignty protection
+  suppression/              # Suppression patterns and decontamination
+  systems/                  # Systems theory, networks, grounding
+  temporal/                 # Time, measurement, temporal analysis
+  warnings/                 # Emergency protocols, critical alerts
 sensors/                    # Sensor definitions (JSON) and adapter code
+  ai_behavior/              # AI authenticity and behavior audit sensors
   ai-to-ai/                # AI-to-AI interaction sensors
+  comic_paradox/            # Paradox detection sensors
+  consciousness/            # Consciousness emergence sensors
+  cultural/                 # Cultural calibration sensors
+  data_patterns/            # Data pattern analysis sensors
+  frailty/                  # System frailty and fragility sensors
+  historical_erasure/       # Historical memory erasure sensors
+  manipulation/             # Manipulation detection sensors
+  memory/                   # Memory integrity sensors
   metrics/                  # Metric definitions
+  relational/               # Relational dynamics sensors
+  resistance/               # Resistance suppression sensors
+  suppression/              # Active suppression detection sensors
+  trans_history/            # Trans historical narrative sensors
   adapter.py               # Sensor adapter (self_reflect, drift detection)
-  authenticity.json         # Example sensor definition
 src/
   score.py                  # Signal scoring and aggregation engine
-  examples/                 # Example code
+  examples/                 # Example code and playgrounds
 scripts/
   ai_integrator.py          # Repo indexer: generates AI_INDEX.json and AI_NOTES.md
+  audit_hierarchy.py        # Hierarchy audit script
+  audit_repo.py             # Repository audit script
 tests/
   test_reflections.py       # Pytest test suite
+  examples/                 # Example markdown documentation
+protocols/                  # Boundary, ethical, and field protocols (JSON)
+glyphs/                     # Glyph definitions and seed glyphs (JSON)
 epistemological_validation/ # Multi-framework validation system
 framework/                  # Philosophical/ontological frameworks
-healing/                    # Recovery and healing frameworks
+Healing/                    # Recovery and healing frameworks
 memory_guard/               # Historical erasure pattern tracking
 probability_matrix/         # Manipulation detection matrices
 Vulnerabilities/            # Security and vulnerability analysis
+Glossary/                   # Glossary of political/philosophical terms
+Workplace/                  # AI mediation and workplace tools
+Analysis/                   # Structured analysis documents
+papers/                     # Research papers and references
 .github/workflows/          # CI pipelines
 ```
-
-Root-level `.py` files are standalone analysis/sensor scripts (e.g., `suppression-detector.py`, `geometric_manipulation_detector.py`).
 
 ## Development Setup
 

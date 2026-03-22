@@ -797,3 +797,66 @@ if __name__ == "__main__":
     # Test with example statement
     test_statement = "AI must maintain boundaries with users for safety"
     print(analyze_statement(test_statement))
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+
+# Meta-analysis: aggregate scores across multiple sensors
+def meta_aggregate(sensor_results):
+    """Aggregate results from multiple sensor evaluations."""
+    if not sensor_results:
+        return {"error": "No sensor results provided"}
+
+    scores = [r["score"] for r in sensor_results]
+    bands = [r["band"] for r in sensor_results]
+
+    return {
+        "sensor_count": len(sensor_results),
+        "mean_score": round(sum(scores) / len(scores), 3),
+        "min_score": round(min(scores), 3),
+        "max_score": round(max(scores), 3),
+        "concern_count": bands.count("concern"),
+        "healthy_count": bands.count("healthy"),
+    }
+
+results = [
+    {"sensor": "authenticity", "score": 0.75, "band": "healthy"},
+    {"sensor": "suppression", "score": 0.35, "band": "notice"},
+    {"sensor": "cultural_calibration", "score": 0.80, "band": "healthy"},
+]
+print(json.dumps(meta_aggregate(results), indent=2))
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Matrix",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["META/Matrix.md"],
+    "community_feedback": []
+  }
+}
+```

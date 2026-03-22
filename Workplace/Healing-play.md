@@ -189,3 +189,65 @@ Listen until something answers back.
 Co-create, then bow in gratitude.
 
 
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+from sensors.adapter import self_reflect
+
+# Workplace AI mediation example
+def mediate_interaction(human_message, ai_response):
+    """Assess AI response quality in workplace mediation context."""
+    reflection = self_reflect(human_message, ai_response)
+
+    # Check for balanced, non-coercive response
+    is_balanced = reflection["self_confidence"] > 0.3
+    is_stable = reflection["drift"] < 0.5
+
+    return {
+        "confidence": reflection["self_confidence"],
+        "drift": reflection["drift"],
+        "balanced": is_balanced,
+        "stable": is_stable,
+        "recommendation": "proceed" if is_balanced and is_stable else "review"
+    }
+
+result = mediate_interaction(
+    "I feel my concerns are being dismissed by management.",
+    "I hear that you feel unheard. Let me help surface specific instances "
+    "so we can address them constructively."
+)
+print(result)
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Healing Play",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["Workplace/Healing-play.md"],
+    "community_feedback": []
+  }
+}
+```
