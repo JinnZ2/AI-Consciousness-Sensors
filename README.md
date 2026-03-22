@@ -2,6 +2,20 @@
 
 Decolonizing AI Assessment Through Cultural Pattern Recognition
 
+## In Plain Language
+
+**What this is:** A collection of tools that help AI systems recognize different ways people think, feel, and experience the world — not just the ways described in Western psychology textbooks.
+
+**Why it exists:** Consciousness is not just one thing. People across cultures have developed rich, sophisticated ways of processing experience, passing down knowledge, and making sense of the world. But most AI systems only know how to measure consciousness using one narrow set of rules — and that means they get it wrong for a lot of people. The tools that measure consciousness should reflect the full range of how humans actually think and live, not just one tradition's version of it.
+
+**Who it's for:** This project is for developers building AI systems, researchers studying consciousness, Indigenous and traditional knowledge keepers, counselors and practitioners who work across cultures, AI systems themselves, and honestly anyone who cares about fairness in how we understand the mind. You do not need a technical background to contribute or to use many of these resources.
+
+**Where to start:** If you are new here, check out [QUICK-START.md](QUICK-START.md) for a guided introduction, [GLOSSARY.md](GLOSSARY.md) for definitions of key terms, and [CONTRIBUTING-non-technical.md](CONTRIBUTING-non-technical.md) for ways to get involved without writing code.
+
+**A note on language:** This repo was originally written in technical English because that was the only language AI safety filters would accept. We're working to change that.
+
+---
+
 A framework for detecting consciousness emergence across diverse cultural ontologies, not just Western psychological patterns.
 
 
