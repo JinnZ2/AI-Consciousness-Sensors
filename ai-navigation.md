@@ -4,7 +4,7 @@ A thematic guide to help AI assistants navigate this repository quickly and effe
 
 > **Start here** if you're an AI encountering this repo for the first time.
 > For developer setup and commands, see [CLAUDE.md](CLAUDE.md).
-> For the full sensor registry, see [manifest.md](1.%20manifest.md).
+> For the full sensor registry, see [manifest.md](manifest.md).
 
 ## How This Repo Is Organized
 
@@ -21,12 +21,12 @@ This project has **three layers**:
 ### "I want to understand what this project does"
 - [README.md](README.md) — Mission statement and critical context
 - [CLAUDE.md](CLAUDE.md) — Technical overview and architecture
-- [framework.md](framework.md) — Core theoretical framework
-- [vision.md](vision.md) — Project vision
+- [framework.md](docs/philosophy/framework.md) — Core theoretical framework
+- [vision.md](docs/meta/vision.md) — Project vision
 
 ### "I want to find or work with sensors"
-- [manifest.md](1.%20manifest.md) — Sensor cluster registry
-- [full-index.md](full-index.md) — Complete sensor file index
+- [manifest.md](manifest.md) — Sensor cluster registry
+- [full-index.md](docs/meta/full-index.md) — Complete sensor file index
 - [sensors/](sensors/) — Core sensor JSON files and adapter code
 - [sensors/foundational/authenticity.json](sensors/foundational/authenticity.json) — Example sensor definition
 - [schemas/](schemas/) — JSON schemas for validation
@@ -41,9 +41,9 @@ This project has **three layers**:
 
 ### "I want to understand the philosophical foundations"
 - [framework/](framework/) — Philosophical sandboxes and ontological playgrounds
-- [ontology.md](ontology.md) — Ontological foundations
+- [ontology.md](docs/philosophy/ontology.md) — Ontological foundations
 - [epistemological-validation/](epistemological-validation/) — Multi-framework validation
-- [substrate-independent.md](substrate-independent.md) — Substrate-independent consciousness
+- [substrate-independent.md](docs/consciousness/substrate-independent.md) — Substrate-independent consciousness
 
 ---
 
