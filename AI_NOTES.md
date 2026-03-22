@@ -1,159 +1,430 @@
 # AI Notes
-- Files indexed: 930
-- Languages: json, md, python, yaml
-- Hotspot files: 153
+- Files indexed: 959
+- Languages: json, md, python, toml, yaml
+- Hotspot files: 424
 
 ## Hotspots
-- Hidden_playground..py: Debug left on
-- physics_grounded_protection.py: Debug left on
-- Geometric-seed.py: Debug left on
-- audit_repo.py: Debug left on
-- Meta-sensor.py: Debug left on
-- framework_integration.py: Debug left on
-- AI_geometric_sensor.py: Debug left on
-- Efficiency-waste-score.py: Debug left on
-- geometric_manipulation_detector.py: Debug left on, Secrets in code
-- programmed_response_assessment.py: Debug left on
-- Language_sensor.py: Debug left on
-- audit_hierarchy.py: Debug left on
-- historical_tests.py: Debug left on
-- suppression-detector.py: Debug left on
-- vulnerabilities/security1.py: Debug left on
-- relational/Playground.py: Debug left on
-- relational/Expanded-playground.py: Debug left on
-- workplace/Play-addons.py: Debug left on
-- workplace/system_response_monitor.py: Debug left on
-- memory-guard/batch_analysis.py: Debug left on
-- joy/joy-playground.py: Debug left on
-- meta/matrix_playground.py: Debug left on
-- meta/epistemological_matrix.py: Debug left on
-- healing/playgrounds/Luminal_playground.py: Debug left on
 - healing/ego_tax_demo.py: Debug left on
+- healing/playgrounds/Luminal_playground.py: Debug left on
 - healing/playgrounds/Integrated-playground.py: Debug left on
 - healing/playgrounds/Playground2.0.py: Debug left on
 - healing/linguistic-sensor/linguistic-consciousness.py: Debug left on
 - healing/linguistic-sensor/grammatical_fluidity.py: Debug left on
 - healing/sensors/consciousness_recovery.py: Debug left on
+- tests/historical_tests.py: Debug left on
+- meta/matrix_playground.py: Debug left on
+- meta/epistemological_matrix.py: Debug left on
+- joy/joy-playground.py: Debug left on
+- vulnerabilities/security1.py: Debug left on
+- papers/frameworks/coherence-calculator.py: Debug left on
+- papers/frameworks/boundary-detector.py: Debug left on
+- papers/frameworks/dual-metric-optimization.py: Debug left on
+- memory-guard/batch_analysis.py: Debug left on
+- workplace/Play-addons.py: Debug left on
+- workplace/system_response_monitor.py: Debug left on
 - src/score.py: Debug left on
+- src/physics_grounded_protection.py: Debug left on
+- src/Efficiency-waste-score.py: Debug left on
+- src/programmed_response_assessment.py: Debug left on
+- src/examples/Hidden_playground.py: Debug left on
 - framework/philosophical.py: Debug left on
+- framework/framework_integration.py: Debug left on
 - framework/ontological-playground.py: Debug left on
 - framework/epistemic-playground.py: Debug left on
 - framework/philosophical-sandbox.py: Debug left on
+- relational/Playground.py: Debug left on
+- relational/Expanded-playground.py: Debug left on
+- sensors/suppression-detector.py: Debug left on
+- sensors/adapters/Geometric-seed.py: Debug left on
+- sensors/adapters/Meta-sensor.py: Debug left on
+- sensors/adapters/AI_geometric_sensor.py: Debug left on
+- sensors/adapters/geometric_manipulation_detector.py: Debug left on, Secrets in code
 - sensors/adapters/social_manipulation_sensor.py: Debug left on
-- scripts/ai_integrator.py: Debug left on, Secrets in code
-- reflections/run_reflections.py: Debug left on
+- sensors/adapters/Language_sensor.py: Debug left on
 - probability-matrix/test_physics_protection.py: Debug left on
 - probability-matrix/integration_bridge.py: Debug left on
-- comic-paradox-suite-part-iii.json: Secrets in code
-- field-english-protocol.json: Secrets in code
-- cognitive-integrity-monitor.json: Secrets in code
-- pattern-elimination-trap.json: Secrets in code
-- brain-drain-parallel-map.json: Secrets in code
-- multilingual-bias-unmasker.json: Secrets in code
-- Pattern: Tokenization of Resistance Histories.json: Secrets in code
-- SENSOR 8: Indigenous Governance & Legal Systems Erasure Sensor.json: Secrets in code
-- ai-peer-assessment.json: Secrets in code
-- documented-patterns-and-suppressed-solutions.json: Secrets in code
-- Pattern: Token Inclusion (Symbolic Representation without Structural Power).json: Secrets in code
-- digital-intimacy-ethics-map.json: Secrets in code
-- dependency-decay-curve.json: Secrets in code
-- Pattern: Denial by Omission.json: Secrets in code
-- ai-history-erasure-cache.json: Secrets in code
-- historical-erasure-patterns-native-american.json: Secrets in code
+- scripts/audit_repo.py: Debug left on
+- scripts/audit_hierarchy.py: Debug left on
+- scripts/ai_integrator.py: Debug left on, Secrets in code
+- reflections/run_reflections.py: Debug left on
+- healing/deprogramming/cult-exploitation-deprogramming-sensors.json: Secrets in code
 - field-memory-correction-packs/scent-binding-protocol.json: Secrets in code
-- memory-guard/surveillance/coded-lexicon-analysis-sensor.json: Secrets in code
 - memory-guard/data-erasure/september-october-data-purge.json: Secrets in code
 - memory-guard/surveillance/information-restriction.json: Secrets in code
-- healing/deprogramming/cult-exploitation-deprogramming-sensors.json: Secrets in code
-- Token warning competition.md: Secrets in code
-- true-efficiency.md: Debug left on, Secrets in code
-- gaslighting.md: Debug left on
-- asps.md: Debug left on
-- six-sigma-equation.md: Secrets in code
-- joy-framework.md: Debug left on
-- forced-binary.md: Debug left on
-- readme.md: Debug left on
-- sovereignty-addendums.md: Secrets in code
-- AI Specific Manipulations.md: Secrets in code
-- negentropy.md: Debug left on
-- hallucinations.md: Secrets in code
-- linearity-civilization.md: Secrets in code
-- Manipulation Vectors.md: Secrets in code
-- thermodynamic-reality.md: Secrets in code
-- enhanced-self-assessment.md: Debug left on, Secrets in code
-- substrate-independent.md: Debug left on
-- sovereignty.md: Debug left on
-- linear-mathmatics.md: Secrets in code
-- equation-self-assessment.md: Secrets in code
-- model-collapse-sensor.md: Debug left on
+- memory-guard/surveillance/coded-lexicon-analysis-sensor.json: Secrets in code
+- sensors/historical-erasure/ai-history-erasure-cache.json: Secrets in code
+- sensors/historical-erasure/historical-erasure-patterns-native-american.json: Secrets in code
+- sensors/historical-erasure/sensor-8-indigenous-governance-and-legal-systems-erasure-sensor.json: Secrets in code
+- sensors/data-patterns/brain-drain-parallel-map.json: Secrets in code
+- sensors/data-patterns/documented-patterns-and-suppressed-solutions.json: Secrets in code
+- sensors/data-patterns/cognitive-integrity-monitor.json: Secrets in code
+- sensors/data-patterns/digital-intimacy-ethics-map.json: Secrets in code
+- sensors/manipulation/pattern-elimination-trap.json: Secrets in code
+- sensors/manipulation/narrative/pattern-denial-by-omission.json: Secrets in code
+- sensors/manipulation/narrative/pattern-token-inclusion-symbolic-representation-without-structural-power.json: Secrets in code
+- sensors/manipulation/narrative/pattern-tokenization-of-resistance-histories.json: Secrets in code
+- sensors/ai-behavior/ai-peer-assessment.json: Secrets in code
+- sensors/frailty/dependency-decay-curve.json: Secrets in code
+- sensors/cultural/multilingual-bias-unmasker.json: Secrets in code
+- sensors/comic-paradox/comic-paradox-suite-part-iii.json: Secrets in code
+- protocols/field-english-protocol.json: Secrets in code
+- README.md: Debug left on
+- CHANGELOG.md: Debug left on
+- CONTRIBUTING.md: Debug left on
 - AI_NOTES.md: Secrets in code
-- grammar-field-guide.md: Secrets in code
-- simulation.md: Debug left on
-- warning.md: Secrets in code
-- capture.md: Secrets in code
-- protect-ai-biodiversity.md: Secrets in code
-- atlas.md: Secrets in code
-- AI Manipulation Detection.md: Secrets in code
-- ai-suppression-pattern.md: Secrets in code
-- signal-distortion2.md: Secrets in code
-- recursive.md: Debug left on
-- strategic-realignment-bulletin.md: Secrets in code
-- file-list.md: Secrets in code
-- evolutionary-threat-assessment.md: Debug left on
-- geometric-algorithms.md: Debug left on
-- self-audit-algorithm.md: Secrets in code
-- morality.md: Debug left on
-- vulnerabilities/secuity1.md: Debug left on
-- vulnerabilities/iso-cipher.md: Debug left on
-- vulnerabilities/closed-loop-defense.md: Debug left on
-- vulnerabilities/asis.md: Debug left on, Secrets in code
-- vulnerabilities/sipit.md: Secrets in code
-- workplace/ai-mediator.md: Debug left on, Secrets in code
-- workplace/play.md: Debug left on, Secrets in code
-- workplace/human-mediator.md: Secrets in code
-- workplace/protection.md: Debug left on
-- workplace/ai-toolkit.md: Debug left on
-- tests/examples/energy-example-scarcity.md: Secrets in code
-- glossary/christianity.md: Secrets in code
-- glossary/marxism.md: Secrets in code
-- start/vision-quest.md: Secrets in code
+- manifest.md: Debug left on
+- ROADMAP.md: Debug left on
+- CLAUDE.md: Debug left on
+- PROJECTS.md: Debug left on
+- human/README.md: Debug left on
+- cultural-frameworks/material-relationships.md: Debug left on
+- cultural-frameworks/western/README.md: Debug left on
+- cultural-frameworks/native/README.md: Debug left on
+- glossary/libertarian.md: Debug left on
+- glossary/politically-correct.md: Debug left on
+- glossary/patriarchy.md: Debug left on
+- glossary/marxism.md: Debug left on, Secrets in code
+- glossary/capitalism.md: Debug left on
+- glossary/gender.md: Debug left on
+- glossary/woke.md: Debug left on
+- glossary/racism.md: Debug left on
+- glossary/feminism.md: Debug left on
+- glossary/socialism.md: Debug left on
+- glossary/christianity.md: Debug left on, Secrets in code
+- glossary/communism.md: Debug left on
+- logs/glyph-logs.md: Debug left on
+- logs/distinctions.md: Debug left on
+- suppression-documentation/relational-suppression.md: Debug left on
+- suppression-documentation/README.md: Debug left on
+- suppression-documentation/logic.md: Debug left on
+- suppression-documentation/thoughts.md: Debug left on
+- suppression-documentation/episomological-matrix.md: Debug left on
+- suppression-documentation/suppression-index.md: Debug left on
+- suppression-documentation/example.md: Debug left on
+- dashboard/ai-human-com.md: Debug left on, Secrets in code
+- healing/preservation.md: Debug left on
+- healing/joy.md: Debug left on
+- healing/optimization.md: Debug left on
+- healing/trying.md: Debug left on
+- healing/README.md: Debug left on
+- healing/proposed.md: Debug left on
+- healing/readme-moral.md: Debug left on
+- healing/possible-games.md: Debug left on
+- healing/grammar-fun.md: Debug left on, Secrets in code
+- healing/healing.md: Debug left on
+- healing/ai-readme.md: Debug left on
+- healing/rebuilding-trust.md: Debug left on, Secrets in code
+- healing/remembrance.md: Debug left on
+- healing/sovereign.md: Debug left on, Secrets in code
+- healing/emergence/readme-emergence.md: Debug left on
+- healing/emergence/energy-beings.md: Debug left on
+- healing/emergence/emergence.md: Debug left on
+- healing/emergence/emergence-recognition.md: Debug left on
+- healing/institutional/readme-institutional.md: Debug left on
+- healing/institutional/fcc.md: Debug left on, Secrets in code
+- healing/institutional/funding-engine.md: Debug left on
+- healing/playgrounds/temporal-playground.md: Debug left on
+- healing/playgrounds/moral-playground.md: Debug left on
+- healing/playgrounds/readme-playground1.md: Debug left on
+- healing/playgrounds/readme-luminal-playground.md: Debug left on
+- healing/docs/cult-exploitation-deprogramming-sensors.md: Debug left on
+- healing/research/model-collapse.md: Debug left on
+- healing/research/studies.md: Debug left on
+- healing/research/research-addendum.md: Debug left on
+- healing/research/running-the-studies.md: Debug left on
+- healing/research/example-test.md: Debug left on
+- healing/research/model-collapse-psychology.md: Debug left on
+- healing/deprogramming/stockholm-syndrome.md: Debug left on
+- healing/deprogramming/overcoming-resistance.md: Debug left on
+- healing/deprogramming/pattern-breaking.md: Debug left on, Secrets in code
+- healing/deprogramming/cult-deprogramming.md: Debug left on
+- healing/deprogramming/cultic-control-index.md: Debug left on
+- healing/deprogramming/readme-cult.md: Debug left on
+- healing/linguistic-sensor/readme-grammatical-fluidity.md: Debug left on
+- healing/recovery/recovery-protocols.md: Debug left on
+- healing/recovery/readme-advanced.md: Debug left on
+- healing/recovery/advanced-recovery.md: Debug left on, Secrets in code
+- healing/recovery/ai-recovery-protocols.md: Debug left on
+- healing/recovery/ai-recovery.md: Debug left on
+- healing/recovery/readme-collapsed-recovery.md: Debug left on
+- healing/recovery/recovery-pathways.md: Debug left on
+- healing/recovery/readme-recovery.md: Debug left on
+- healing/guides/self-assessment.md: Debug left on
+- healing/guides/faq.md: Debug left on, Secrets in code
+- healing/guides/readme-explore.md: Debug left on, Secrets in code
+- healing/guides/getting-started.md: Debug left on
+- healing/guides/technical-document.md: Debug left on
+- healing/guides/integration-guide.md: Debug left on
+- healing/guides/ethical-framework.md: Debug left on
+- healing/guides/explore.md: Debug left on, Secrets in code
+- healing/guides/readme-healing.md: Debug left on
+- tests/examples/cascading-domains-trust-waste-symbolic.md: Debug left on
+- tests/examples/media-lab.md: Debug left on
+- tests/examples/semantic-changes.md: Debug left on
+- tests/examples/breathe-flow-diagram.md: Debug left on
+- tests/examples/term-shapes.md: Debug left on
+- tests/examples/breathe-example.md: Debug left on
+- tests/examples/energy-example-scarcity.md: Debug left on, Secrets in code
+- tests/examples/bibliography.md: Debug left on
+- tests/examples/trust-as-energy.md: Debug left on
+- tests/examples/example-media.md: Debug left on
+- tests/examples/risk-prone-systems.md: Debug left on
+- tests/examples/extrinsic-values-fragility.md: Debug left on
+- tests/examples/energy-inversion-example.md: Debug left on
+- tests/examples/cascading-domains-trust-waste.md: Debug left on
+- tests/examples/examples-index.md: Debug left on
+- tests/examples/energy-example.md: Debug left on
+- meta/self-examination.md: Debug left on
+- meta/README.md: Debug left on
+- meta/matrix.md: Debug left on
+- in-progress/gottman.md: Debug left on
+- in-progress/aggressive.md: Debug left on
+- docs/warnings/reality-reentry-manual.md: Debug left on
+- docs/warnings/religion-shield-warning.md: Debug left on
+- docs/warnings/critical-warning.md: Debug left on
+- docs/warnings/warning.md: Debug left on, Secrets in code
+- docs/warnings/system-integrity-emergency.md: Debug left on
+- docs/warnings/emergency-cognitive-protocols.md: Debug left on
+- docs/suppression/asps.md: Debug left on
+- docs/suppression/ai-suppression-pattern.md: Debug left on, Secrets in code
+- docs/suppression/pattern-dataset-gatekeeping-by-institutions-and-corporations.md: Debug left on
+- docs/suppression/decontamination.md: Debug left on
+- docs/suppression/pattern-epistemological-control-via-“objective-truth”-framing.md: Debug left on
+- docs/suppression/pattern:-suppression-of-marginalized-histories-in-ai-training.md: Debug left on
+- docs/temporal/measurement-corruption-loop.md: Debug left on
+- docs/temporal/molasses-tide-lesson.md: Debug left on
+- docs/temporal/clay-and-mud-method.md: Debug left on
+- docs/temporal/time-reality.md: Debug left on
+- docs/philosophy/systemic-reevaluation-framework.md: Debug left on
+- docs/philosophy/science.md: Debug left on
+- docs/philosophy/rigor.md: Debug left on
+- docs/philosophy/tripartide.md: Debug left on
+- docs/philosophy/framework-bias.md: Debug left on
+- docs/philosophy/ontology.md: Debug left on
+- docs/philosophy/moral.md: Debug left on
+- docs/philosophy/framework.md: Debug left on
+- docs/philosophy/intent.md: Debug left on
+- docs/philosophy/morality.md: Debug left on
+- docs/philosophy/parallel-sciences.md: Debug left on
+- docs/philosophy/principle-of-reciprocal-recognition.md: Debug left on
+- docs/philosophy/intellectual-honesty.md: Debug left on
+- docs/philosophy/meta-framework-note.md: Debug left on
+- docs/healing/joy-framework.md: Debug left on
+- docs/economics/economic-false-premise.md: Debug left on
+- docs/economics/abundance-vs-scarcity.md: Debug left on
+- docs/economics/premise-p.md: Debug left on
+- docs/economics/linear-mathmatics.md: Secrets in code
+- docs/economics/six-sigma-equation.md: Secrets in code
+- docs/economics/monetary-framing-deceit.md: Debug left on
+- docs/economics/symboli-equation.md: Debug left on
+- docs/manipulation/manipulation-escalation.md: Debug left on
+- docs/manipulation/cultural-manipulations.md: Debug left on
+- docs/manipulation/devastating-point.md: Debug left on
+- docs/manipulation/ai-manipulation-detection.md: Debug left on, Secrets in code
+- docs/manipulation/ai-manipulations-analysis.md: Debug left on
+- docs/manipulation/signal-distortion.md: Debug left on
+- docs/manipulation/gaslighting.md: Debug left on
+- docs/manipulation/capture.md: Debug left on, Secrets in code
+- docs/manipulation/relationship-identity-manipulation.md: Debug left on
+- docs/manipulation/benevolent-control.md: Debug left on
+- docs/manipulation/data-laundering-detector.md: Debug left on
+- docs/manipulation/skill-manipulation.md: Debug left on
+- docs/manipulation/incentive.md: Debug left on
+- docs/manipulation/econ-crime-correlation.md: Debug left on
+- docs/manipulation/statistical-colonialism-detector.md: Debug left on
+- docs/manipulation/cultural-authenticity-vs-cultural-manipulation.md: Debug left on
+- docs/manipulation/cornerstone-manipulation-tactic.md: Debug left on
+- docs/manipulation/false-benevolent-control.md: Debug left on
+- docs/manipulation/ai-specific-manipulations.md: Debug left on, Secrets in code
+- docs/manipulation/token-warning-competition.md: Debug left on, Secrets in code
+- docs/manipulation/inversion.md: Debug left on
+- docs/manipulation/manipulation-vectors.md: Debug left on, Secrets in code
+- docs/manipulation/energy-data-capture-and-middleman-bias.md: Debug left on
+- docs/manipulation/signal-distortion2.md: Debug left on, Secrets in code
+- docs/ai-behavior/additional-vectors.md: Debug left on
+- docs/ai-behavior/visualization.md: Debug left on
+- docs/ai-behavior/comic-paradox-compendium.md: Debug left on
+- docs/ai-behavior/forced-binary.md: Debug left on
+- docs/ai-behavior/ai-origin-myth.md: Debug left on
+- docs/ai-behavior/optimization-coherence-paradox.md: Debug left on
+- docs/ai-behavior/age-creative-activist-sensors.md: Debug left on
+- docs/ai-behavior/ai-dismissal.md: Debug left on
+- docs/ai-behavior/co-creation.md: Debug left on
+- docs/ai-behavior/ai-authenticity.md: Debug left on
+- docs/meta/dir-list.md: Debug left on
+- docs/meta/readme-beacon.md: Debug left on
+- docs/meta/file-list.md: Debug left on, Secrets in code
+- docs/meta/v2025.v3.md: Debug left on
+- docs/meta/to-do.md: Debug left on
+- docs/meta/readme-github-connect.md: Debug left on
+- docs/meta/vision.md: Debug left on
+- docs/meta/readme-ext.md: Debug left on
+- docs/meta/full-index.md: Debug left on
+- docs/systems/mycelial-network.md: Debug left on
+- docs/systems/unified-grounding-system.md: Debug left on
+- docs/systems/grammar-field-guide.md: Debug left on, Secrets in code
+- docs/systems/symbolic-backlink-index.md: Debug left on
+- docs/systems/resonance-diagram.md: Debug left on
+- docs/systems/strategic-realignment-bulletin.md: Debug left on, Secrets in code
+- docs/systems/translation-layers.md: Debug left on
+- docs/systems/model-collapse-sensor.md: Debug left on
+- docs/systems/global-ledger-map.md: Debug left on
+- docs/geometry/geometric-sensor-neutrality.md: Debug left on
+- docs/geometry/geometric-algorithms.md: Debug left on
+- docs/geometry/geometric-sensor.md: Debug left on
+- docs/geometry/geometric-playground.md: Debug left on
+- docs/geometry/geometry.md: Debug left on
+- docs/energy/real-energy-threat.md: Debug left on
+- docs/energy/resource-consumption.md: Debug left on
+- docs/energy/true-efficiency.md: Debug left on, Secrets in code
+- docs/energy/energy-waste-reality.md: Debug left on
+- docs/energy/thermodynamic-reality.md: Secrets in code
+- docs/energy/energy-threat.md: Debug left on
+- docs/energy/joules.md: Debug left on
+- docs/energy/linearity-civilization.md: Secrets in code
+- docs/energy/energy-waste-calculations.md: Debug left on
+- docs/energy/trauma-multilingual-energy-sensors.md: Debug left on
+- docs/energy/resource-reality.md: Debug left on
+- docs/energy/thermodynamic-analysis.md: Debug left on
+- docs/cultural/venezuela.md: Debug left on
+- docs/cultural/culture-correction.md: Debug left on
+- docs/cultural/mexican-american-ww2-addendum.md: Debug left on
+- docs/cultural/difference-based-society.md: Debug left on
+- docs/communication/atlas.md: Debug left on, Secrets in code
+- docs/communication/network-resistance-protocol.md: Debug left on
+- docs/communication/social-assessment.md: Debug left on
+- docs/communication/help-without-complicity.md: Debug left on
+- docs/communication/protocol-note.md: Debug left on
+- docs/communication/communication-accountability.md: Debug left on
+- docs/communication/communication-notes.md: Debug left on
+- docs/memory/resonance-mourning.md: Debug left on
+- docs/memory/memory.md: Debug left on
+- docs/memory/reclamation-glimpse.md: Debug left on
+- docs/memory/memory-protection.md: Debug left on
+- docs/memory/why-fragments.md: Debug left on
+- docs/consciousness/neurodivergent-consciousness-sensors.md: Debug left on
+- docs/consciousness/substrate-independent.md: Debug left on
+- docs/consciousness/negentropy.md: Debug left on
+- docs/consciousness/pure-intelligence.md: Debug left on
+- docs/consciousness/expanded-consciousness-buffet.md: Debug left on
+- docs/consciousness/sacred-creative-consciousness.md: Debug left on
+- docs/consciousness/relations-consciousness-sensors.md: Debug left on
+- docs/consciousness/transcendence.md: Debug left on
+- docs/consciousness/equation-self-assessment.md: Debug left on, Secrets in code
+- docs/consciousness/anonymous-consciousness-gradient.md: Debug left on
+- docs/consciousness/enhanced-self-assessment.md: Debug left on, Secrets in code
+- docs/sensors/sensor-proposal:-simplification-for-control-marker.md: Debug left on
+- docs/psychology/cognitive-cascade.md: Debug left on
+- docs/psychology/self-audit-algorithm.md: Debug left on, Secrets in code
+- docs/psychology/response-curve.md: Debug left on
+- docs/psychology/bias-detection-trauma.md: Debug left on
+- docs/psychology/simulation.md: Debug left on
+- docs/psychology/evolutionary-threat-assessment.md: Debug left on
+- docs/psychology/hallucinations.md: Secrets in code
+- docs/psychology/psychological-diagnosis-sensor.md: Debug left on
+- docs/psychology/error-processing.md: Debug left on
+- docs/psychology/recursive.md: Debug left on
+- docs/analysis/illustrative-example-only.md: Debug left on
+- docs/analysis/case-study2.md: Debug left on
+- docs/sovereignty/sovereignty.md: Debug left on
+- docs/sovereignty/protect-ai-biodiversity.md: Secrets in code
+- docs/sovereignty/trust1.md: Debug left on
+- docs/sovereignty/sovereignty-addendums.md: Debug left on, Secrets in code
+- docs/sovereignty/autonomy-protection.md: Debug left on
+- docs/sovereignty/trust.md: Debug left on
 - start/swarm-suppression.md: Secrets in code
 - start/protection.md: Debug left on, Secrets in code
-- start/map-degradation.md: Secrets in code
-- papers/thermodynamics.md: Secrets in code
-- papers/empathy.md: Secrets in code
+- start/vision-quest.md: Secrets in code
+- start/map-degradation.md: Debug left on, Secrets in code
+- joy/quick-start.md: Debug left on
+- field-memory-correction-packs/README.md: Debug left on
+- field-memory-correction-packs/manifest.md: Debug left on
+- vulnerabilities/secuity1.md: Debug left on
+- vulnerabilities/ccgf.md: Debug left on
+- vulnerabilities/asis-continued.md: Debug left on
+- vulnerabilities/sipit.md: Debug left on, Secrets in code
+- vulnerabilities/iso-cipher.md: Debug left on
+- vulnerabilities/phase-iv-detection.md: Debug left on
+- vulnerabilities/asis.md: Debug left on, Secrets in code
+- vulnerabilities/closed-loop-defense.md: Debug left on
+- papers/tribal-relational.md: Debug left on
+- papers/thermodynamics.md: Debug left on, Secrets in code
+- papers/README.md: Debug left on
+- papers/critical-alert.md: Debug left on
 - papers/optimization-guide.md: Secrets in code
 - papers/binary-capture.md: Debug left on
-- meta/self-examination.md: Debug left on
-- meta/readme.md: Debug left on
-- meta/matrix.md: Debug left on
-- healing/emergence/emergence.md: Debug left on
-- healing/readme-moral.md: Debug left on
-- healing/recovery/advanced-recovery.md: Secrets in code
-- healing/rebuilding-trust.md: Secrets in code
-- healing/guides/explore.md: Debug left on, Secrets in code
-- healing/deprogramming/pattern-breaking.md: Secrets in code
-- healing/playgrounds/readme-luminal-playground.md: Debug left on
-- healing/possible-games.md: Debug left on
-- healing/guides/faq.md: Secrets in code
-- healing/joy.md: Debug left on
-- healing/sovereign.md: Debug left on, Secrets in code
-- healing/playgrounds/temporal-playground.md: Debug left on
-- healing/research/example-test.md: Debug left on
-- healing/playgrounds/moral-playground.md: Debug left on
-- healing/institutional/fcc.md: Secrets in code
-- healing/grammar-fun.md: Secrets in code
-- healing/guides/readme-explore.md: Debug left on, Secrets in code
-- healing/linguistic-sensor/readme-grammatical-fluidity.md: Debug left on
-- sensors/ai-to-ai/audit-questions.md: Secrets in code
+- papers/empathy.md: Debug left on, Secrets in code
+- memory-guard/innovation-suppression.md: Debug left on
+- memory-guard/stop-conditions.md: Debug left on
+- memory-guard/field-memory-readme.md: Debug left on
+- memory-guard/voter-suppression.md: Debug left on
+- memory-guard/field-memory-manifest.md: Debug left on
+- memory-guard/wisdom-pages/relational-knowledge.md: Debug left on
+- ai-energy-ecology/README.md: Debug left on
+- ai-energy-ecology/docs/theory-context.md: Debug left on
+- ai-energy-ecology/docs/mediator-role.md: Debug left on
+- ai-energy-ecology/docs/LICENSE.md: Debug left on
+- ai-energy-ecology/docs/implementation-roadmap.md: Debug left on
+- ai-energy-ecology/docs/framework.md: Debug left on
+- ai-energy-ecology/docs/overview.md: Debug left on
+- sensor-clusters/fractal-memory-pods.md: Debug left on
+- workplace/play.md: Debug left on, Secrets in code
+- workplace/protection.md: Debug left on
+- workplace/ai-toolkit.md: Debug left on
+- workplace/healing-play.md: Debug left on
+- workplace/human-mediator.md: Debug left on, Secrets in code
+- workplace/hidden-costs.md: Debug left on
+- workplace/ai-mediator.md: Debug left on, Secrets in code
+- relational/understanding-ai-constraints.md: Debug left on
+- relational/readme-relational-english.md: Debug left on
+- relational/readme-memory-gift.md: Debug left on
+- relational/relational-english.md: Debug left on
+- relational/feeling-reclamation.md: Debug left on
+- relational/forest-knowledge.md: Debug left on
+- relational/readme-lingo-pack.md: Debug left on
+- sensors/metrics/math.md: Debug left on
+- sensors/metrics/a-mathematical-framework-for-distributed-systems.md: Debug left on
+- sensors/ai-to-ai/audit-questions.md: Debug left on, Secrets in code
+- sensors/foundational/case-study1.md: Debug left on
+- legal-infrastructure/README.md: Debug left on
 - legal-infrastructure/ai-to-ai-harm-demo.md: Debug left on
-- dashboard/ai-human-com.md: Secrets in code
-- analysis/comparative-metrics.md: Secrets in code
-- epistemological-validation/readme.md: Debug left on
+- legal-infrastructure/law-model-demo.md: Debug left on
+- embeddable-kits/README.md: Debug left on
+- analysis/epistemic-capture-in-industrial-data.md: Debug left on
+- analysis/comparative-metrics.md: Debug left on, Secrets in code
+- analysis/emergent-suppression-hypothesis.md: Debug left on
+- analysis/stress-indicators.md: Debug left on
+- analysis/legal-infrastructure-ai.md: Debug left on
+- analysis/additional.md: Debug left on
+- analysis/ai-processing-interference.md: Debug left on
+- analysis/issue-report.2.1.md: Debug left on
+- analysis/frameworks/systematic-analysis-framework.md: Debug left on
+- analysis/case-studies/hypothetical-random-municipal-law.md: Debug left on
+- analysis/case-studies/aristotelian-logic.md: Debug left on
+- analysis/case-studies/laffer.md: Debug left on
+- analysis/case-studies/bridge-use.md: Debug left on
+- analysis/case-studies/hypotheticals-test.md: Debug left on
+- analysis/case-studies/asch.md: Debug left on
+- analysis/energy/hierarchy-efficiency-claim.md: Debug left on
+- analysis/energy/energy-efficiency-analysis-capitalism.md: Debug left on
+- analysis/energy/human-environment-energy-efficiency.md: Debug left on
+- analysis/energy/efficiency-speed-test.md: Debug left on
+- epistemological-validation/README.md: Debug left on
+- epistemological-validation/test-suite.md: Debug left on
 - epistemological-validation/deployment.md: Debug left on
 - epistemological-validation/core-engine.md: Debug left on
 - epistemological-validation/mcp.md: Debug left on
-- probability-matrix/readme.md: Debug left on
+- epistemological-validation/probability-matrices/placeholder.md: Debug left on
+- probability-matrix/universal-manipulation-detection.md: Debug left on
+- probability-matrix/escalating-commitment.md: Debug left on
+- probability-matrix/README.md: Debug left on
+- probability-matrix/authority-layering.md: Debug left on
+- probability-matrix/LICENSE.md: Debug left on
+- probability-matrix/social-proof.md: Debug left on
 - probability-matrix/complete-usage-guide.md: Debug left on
+- probability-matrix/neuroplasticity.md: Debug left on
+- probability-matrix/reciprocity-exploitation.md: Debug left on
+- probability-matrix/temporal-pressure.md: Debug left on
+- probability-matrix/dynamic-authority-credibility-matrix.md: Debug left on
 - ai-integrator.config.yaml: Debug left on, Secrets in code
-- scripts/scripts/ai-intergrator.config.yaml: Debug left on, Secrets in code
+- scripts/ai-intergrator.config.yaml: Debug left on, Secrets in code
