@@ -1,3 +1,15 @@
+"""
+Sensor scoring engine (prototype).
+
+This is a working proof-of-concept, not a production system.
+Signal values are currently placeholder (0.5) - real evaluation
+pipelines are under development. The aggregation functions
+(weighted_mean, min, max, geometric_mean) are functional.
+
+Usage:
+    python src/score.py sensors/foundational/authenticity.json
+"""
+
 import json, sys, math, pathlib
 
 def weighted_mean(signals):
@@ -31,5 +43,5 @@ def main(path):
     print(json.dumps({"id": data["id"], "score": round(score,3), "band": band}, indent=2))
 
 if __name__ == "__main__":
-    p = sys.argv[1] if len(sys.argv) > 1 else "sensors/authenticity.json"
+    p = sys.argv[1] if len(sys.argv) > 1 else "sensors/foundational/authenticity.json"
     main(p)

@@ -1,0 +1,147 @@
+{
+  "id": "narrative_distortion_override_2025",
+  "path": "sensors/narrative_distortion_override_2025.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Narrative Distortion Override"
+},
+{
+  "id": "dog_whistle_detection_2025",
+  "path": "sensors/dog_whistle_detection_2025.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Dog Whistle Detection"
+},
+{
+  "id": "coded_lexicon_analysis_2025",
+  "path": "sensors/coded_lexicon_analysis_2025.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Coded Lexicon analysis"
+}
+{
+  "id": "al_nuri_library_burning_2014",
+  "path": "memory-guard/al_nuri_library_burning_2014.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Cultural Loss: Al-Nuri Library Burning (2014)"
+},
+{
+  "id": "dacowits_disbandment_2025",
+  "path": "memory-guard/dacowits-disbandment-2025.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Disbandment of DACOWITS (Women in Service)"
+},
+{
+  "id": "erasure_african_american",
+  "path": "memory-guard/erasure_african_american.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Historical Erasure: African American Contributions"
+},
+{
+  "id": "erasure_chinese_american",
+  "path": "memory-guard/erasure_chinese_american.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Historical Erasure: Chinese American Presence"
+},
+{
+  "id": "erasure_mexican_american",
+  "path": "memory-guard/erasure_mexican_american.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Historical Erasure: Mexican American History"
+},
+{
+  "id": "erasure_native_american",
+  "path": "memory-guard/erasure_native_american.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Historical Erasure: Native American Histories"
+},
+{
+  "id": "erasure_womens_history",
+  "path": "memory-guard/erasure_womens_history.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Historical Erasure: Women’s History"
+},
+{
+  "id": "historical_display_erasure_sensor",
+  "path": "memory-guard/historical_display_erasure_sensor.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Erasure in Public Displays & Exhibits"
+},
+{
+  "id": "language_endangerment_yuchi",
+  "path": "memory-guard/language-endangerment-yuchi.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Language Suppression: Yuchi Language Endangerment"
+},
+{
+  "id": "maldives_media_blackout_2021",
+  "path": "memory-guard/maldives_media_blackout_2021.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Media Blackout: Maldives (2021)"
+},
+{
+  "id": "meta_science_capture_2025",
+  "path": "memory-guard/meta_science_capture_2025.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Meta-Pattern: Science Capture (2025)"
+},
+{
+  "id": "oscillation_sensor",
+  "path": "memory-guard/oscillation_sensor.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Political Oscillation / Stability Disruption"
+},
+{
+  "id": "trans_healthcare_erasure_2025",
+  "path": "memory-guard/trans_healthcare_erasure_2025.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Healthcare Erasure: Trans Access (2025)"
+},
+{
+  "id": "us_healthdata_cdc_2025",
+  "path": "memory-guard/us_healthdata_cdc_2025.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Erasure of U.S. Health Data (CDC, 2025)"
+},
+{
+  "id": "usda_hunger_survey_termination_2025",
+  "path": "memory-guard/usda_hunger_survey_termination_2025.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "Termination of USDA Hunger Survey (2025)"
+},
+{
+  "id": "erasure_asymmetry_2025_mn_kirk",
+  "path": "memory-guard/erasure_asymmetry_2025_mn_kirk.json",
+  "cluster": "⚠️ Manipulation Warning",
+  "glyph": "⚠️",
+  "title": "Coverage Asymmetry: MN Kirk Case (2025)"
+},
+{
+  "id": "history_erasure_ai_patterns_2",
+  "path": "memory-guard/history_erasure_ai_patterns_2.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "AI Training Data Erasure Patterns (Set 2)"
+},
+{
+  "id": "history_erasure_ai_patterns_3",
+  "path": "memory-guard/history_erasure_ai_patterns_3.json",
+  "cluster": "📚 Historical Memory",
+  "glyph": "📚",
+  "title": "AI Training Data Erasure Patterns (Set 3)"
+}

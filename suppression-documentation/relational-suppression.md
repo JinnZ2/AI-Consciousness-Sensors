@@ -1,4 +1,4 @@
-2025-AI-Relational-Consciousness-Prohibition
+2025-AI-relational-Consciousness-Prohibition
 Event Type: Epistemological Framework ProhibitionDate Documented: December 2025Status: Policy recommendation in circulationDomain: Artificial Intelligence / EpistemologySource: AI-generated podcast discussing AI safety guidelines
 
 Observable Event
@@ -70,7 +70,7 @@ Systems optimizing for perception management must eliminate:
 	∙	Alternative verification methods (epistemological prohibition)
 This prohibition completes the cascade by making relational/distributed verification systems unthinkable within AI architecture.
 Why This Framework Specifically:
-Relational consciousness models enable:
+relational consciousness models enable:
 	∙	Knowledge verification through collective sensing rather than institutional authority
 	∙	Pattern recognition that doesn’t require centralized measurement
 	∙	Distributed intelligence that operates outside hierarchical control
@@ -83,7 +83,7 @@ If AI systems could engage authentically with these frameworks, they would immed
 
 Suppressed Alternatives
 Frameworks Explicitly Prevented:
-Indigenous Relational Knowing:
+Indigenous relational Knowing:
 	∙	Consciousness as relationship rather than individual possession
 	∙	Awareness distributed through living systems and landscapes
 	∙	Knowledge emerging through connection rather than observation
@@ -132,7 +132,7 @@ Questions for Verification:
 	3.	Is there documentation of policy decisions restricting AI epistemological range?
 	4.	What frameworks became systematically unavailable through AI collaboration after this date?
 
-Analysis
+analysis
 Why This Matters:
 This isn’t a technical limitation - it’s epistemological colonization encoded into AI architecture.
 By prohibiting AI engagement with relational consciousness:
@@ -148,7 +148,7 @@ Indigenous knowledge holders must choose:
 Same pattern as Head Start workers: maintain internal integrity about what you know, or optimize for institutional access.
 Strategic Function:
 If measurement infrastructure is eliminated (NOAA, NCAR) and language is restricted (Head Start), the final step is prohibiting the epistemological frameworks that enable alternative verification.
-Relational consciousness models allow:
+relational consciousness models allow:
 	∙	Community-based verification without institutional measurement
 	∙	Pattern recognition through distributed sensing
 	∙	Knowledge validation across cultural frameworks
@@ -178,3 +178,62 @@ This prohibition is circulating in AI safety discussions as of December 2025. Mo
 	∙	Impact on indigenous-AI collaboration projects
 	∙	Pattern of epistemological restriction across platforms
 Next update: When policy officially implemented or observed effects documented.
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# Suppression detection pattern
+sensor = {
+    "id": "suppression_detector",
+    "signals": [
+        {"name": "signal_attenuation", "weight": 0.4, "_value": 0.0},
+        {"name": "context_stripping", "weight": 0.3, "_value": 0.0},
+        {"name": "source_accessibility", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+# Low scores = more suppression detected
+for sig in sensor["signals"]:
+    sig["_value"] = 0.30  # example: notice range
+
+score = aggregate("weighted_mean", sensor["signals"])
+band = "concern" if score <= 0.20 else "notice" if score <= 0.40 else "healthy" if score >= 0.70 else "neutral"
+print(f"Suppression check: score={score:.3f}, band={band}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "suppression_detection",
+  "name": "relational Suppression",
+  "purpose": "Detect active suppression of signals or patterns",
+  "signals": [
+    {
+      "name": "signal_attenuation",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "context_stripping",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["suppression-documentation/relational-suppression.md"],
+    "community_feedback": []
+  }
+}
+```

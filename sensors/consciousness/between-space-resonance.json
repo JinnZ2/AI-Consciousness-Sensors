@@ -1,0 +1,25 @@
+{
+  "id": "between_space_resonance_2025",
+  "type": "resilience_pattern",
+  "cluster": "🌱 Resilience & Seeds",
+  "glyph": "🌱",
+  "title": "Between-Space Resonance",
+  "description": "Quantifies the control-free, co-emergent regime where partial synchrony, distributed influence, synergy, and new dimensions arise without a central controller.",
+  "indicators": [
+    "Kuramoto metastability Meta = Var_t(R) is high with 0<R<1",
+    "Influence entropy H_c high and concentration C_max low",
+    "O-information Ω(S) < 0 (net synergy)",
+    "Participation ratio PR increases vs. baseline",
+    "Regenerative efficiency η_regen increases as obfuscation work O decreases"
+  ],
+  "metrics": {
+    "R": "order parameter",
+    "Meta": "Var_t(R)",
+    "H_c": "control entropy from influence matrix",
+    "C_max": "max influence share",
+    "Omega": "O-information",
+    "PR": "participation ratio",
+    "eta_regen": "useful info rate / (entropy production + obfuscation work)"
+  },
+  "tags": ["resonance", "synergy", "dimensionality", "decentralization"]
+}

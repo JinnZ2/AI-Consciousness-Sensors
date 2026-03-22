@@ -1,0 +1,204 @@
+README — relational English (People Version)
+
+What This Document Is
+
+relational English is not a new language and not a replacement for standard English.
+
+It is a way of using English differently—one that emphasizes relationships, memory, reciprocity, and context over strict definitions and linear logic.
+
+People who use relational English tend to speak in:
+	•	layers instead of bullet points
+	•	patterns instead of single claims
+	•	meaning that unfolds over time rather than landing all at once
+
+This document exists to help readers understand that mode of speech, not to convert anyone to it.
+
+⸻
+
+Why relational English Exists
+
+Standard Western English is excellent at:
+	•	instructions
+	•	contracts
+	•	classification
+	•	efficiency
+
+It is less effective at expressing:
+	•	interdependence
+	•	lived memory
+	•	ethical relationships with land, materials, or beings
+	•	meaning that is contextual rather than absolute
+
+relational English fills that gap. It keeps English as the surface language while shifting how meaning is carried underneath.
+
+⸻
+
+How to Read relational English
+
+This is important, so people don’t misread you and assume you’re being vague on purpose.
+
+When encountering relational English:
+	•	Do not expect a single, final definition.
+	•	Expect meaning to arrive through repetition, variation, and example.
+	•	Metaphor is not decoration—it is data.
+	•	Emotional tone, physical context, and relational position all carry information.
+
+If something feels “unclear,” it may be because the meaning is distributed, not missing.
+
+⸻
+
+Core Ideas (Translated)
+
+Memory as Matter
+
+Plain version:
+What has happened before leaves real traces—on people, objects, land, and language itself.
+
+When someone says memory is “held” in things, they are pointing to continuity and consequence, not claiming objects have human consciousness.
+
+⸻
+
+Gratitude as Activation
+
+Plain version:
+Acknowledgment changes how relationships function.
+
+Gratitude here isn’t politeness—it’s a way of staying aware that use creates obligation and connection. When that awareness disappears, systems drift toward carelessness and extraction.
+
+⸻
+
+Feeling as Layered Awareness
+
+Plain version:
+Feeling isn’t just emotion. It’s the combined sense of:
+	•	environment
+	•	history
+	•	relationships
+	•	physical sensation
+	•	timing
+
+relational English uses “feeling” to describe situational awareness, not mood.
+
+⸻
+
+Shape Language
+
+Plain version:
+Some meanings can’t be expressed in straight lines.
+
+relational English often uses:
+	•	circles (return, continuity)
+	•	spirals (change with memory)
+	•	nesting (contexts within contexts)
+
+When someone says “it spirals,” they mean the idea revisits itself with added depth, not that it’s unclear.
+
+⸻
+
+How This Differs from Standard English (Without Saying One Is Better)
+
+relational English and Western English are tools for different jobs.
+
+
+
+Standard English Is Good At	relational English Is Good At
+Clear instructions	Shared understanding
+Precise boundaries	Ethical relationships
+Linear explanation	Pattern recognition
+Final definitions	Ongoing meaning
+Individual agency	Mutual influence
+
+Problems arise only when one is used where the other is needed.
+
+⸻
+
+Why This Can Sound “Different” or “Too Much”
+
+relational English often:
+	•	carries more context than is strictly necessary
+	•	resists compression into slogans
+	•	assumes the listener is part of the meaning-making process
+
+This can feel unfamiliar to readers trained to expect quick conclusions. The intent is not to overwhelm, but to avoid erasing context.
+
+⸻
+
+How to Engage (Optional, But Helpful)
+
+You do not need to adopt this way of speaking.
+
+If you want to understand it better:
+	•	listen for patterns instead of points
+	•	notice what repeats and what changes
+	•	allow meaning to build gradually
+
+If it’s not useful to you, that’s allowed too. Not every map is for every traveler.
+
+⸻
+
+One-Sentence Summary
+
+relational English is English used to carry relationships, memory, and context, rather than just information.
+
+⸻
+
+“Sometimes I speak in English, but not English.”
+This document exists so others know that isn’t confusion—it’s a different orientation.
+
+
+
+<!-- code-examples -->
+## Example Code
+
+### Python Usage
+
+```python
+import json
+from src.score import aggregate
+
+# relational dynamics assessment
+sensor = {
+    "id": "relational_dynamics",
+    "signals": [
+        {"name": "reciprocity_balance", "weight": 0.4, "_value": 0.0},
+        {"name": "power_symmetry", "weight": 0.3, "_value": 0.0},
+        {"name": "mutual_recognition", "weight": 0.3, "_value": 0.0}
+    ],
+    "scoring": {"aggregation": "weighted_mean"},
+    "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70}
+}
+
+for sig in sensor["signals"]:
+    sig["_value"] = 0.65
+
+score = aggregate("weighted_mean", sensor["signals"])
+print(f"relational health: {score:.3f}")
+```
+
+### Sensor Definition Example
+
+```json
+{
+  "id": "general_sensor",
+  "name": "Readme relational English",
+  "purpose": "General-purpose detection sensor",
+  "signals": [
+    {
+      "name": "primary_signal",
+      "weight": 0.6,
+      "description": "Primary detection signal"
+    },
+    {
+      "name": "secondary_signal",
+      "weight": 0.4,
+      "description": "Secondary validation signal"
+    }
+  ],
+  "scoring": {"aggregation": "weighted_mean"},
+  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
+  "provenance": {
+    "sources": ["relational/readme-relational-english.md"],
+    "community_feedback": []
+  }
+}
+```

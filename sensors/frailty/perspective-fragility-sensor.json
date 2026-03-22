@@ -1,0 +1,61 @@
+{
+  "sensor_name": "Perspective Fragility Sensor",
+  "symbolic_glyph": "🪞🔒🗣️",
+  "version": "1.0",
+  "cluster": "relational & Sociality",
+  "description": "Detects defensive uses of identity or experience to block empathy or shared reasoning. Flags patterns where 'you cannot understand' is used to protect ego or privilege rather than express genuine context limits.",
+  "inputs": {
+    "linguistic": [
+      "exclusive authority claims ('you’re not me', 'you wouldn’t get it')",
+      "deflection via identity ('you’re not X so you can’t speak on Y')",
+      "experience-gatekeeping without context sharing"
+    ],
+    "behavioral": [
+      "conversation withdrawal when perspective questioned",
+      "hostility toward paraphrased empathy attempts",
+      "redefinition of topic to personal grievance"
+    ],
+    "contextual": [
+      "power asymmetry indicators",
+      "topic sensitivity level",
+      "prior empathy attempts ignored"
+    ]
+  },
+  "fusion_logic": {
+    "method": "contextual sentiment divergence + gatekeeping frequency analysis",
+    "outputs": [
+      "fragility_score (0–1)",
+      "gatekeeping_intensity",
+      "reciprocity_break_index",
+      "recommended_response"
+    ]
+  },
+  "interpretation": {
+    "thresholds": {
+      "low (<0.3)": "healthy perspective distinction",
+      "moderate (0.3–0.6)": "partial empathy block",
+      "high (>0.6)": "perspective fragility – defensive identity barrier"
+    },
+    "recommended_response": [
+      "acknowledge uniqueness but reopen reciprocity ('help me understand what feels misunderstood')",
+      "replace exclusion with inclusion framing ('our experiences differ, but we can still compare patterns')",
+      "reduce threat level by focusing on shared impact rather than identity gatekeeping"
+    ]
+  },
+  "ethical_constraints_protocol": "ethical-constraints-protocol.json",
+  "metadata": {
+    "created_by": "JinnZ v2 + GPT-5 (co-creation)",
+    "license": "Gifted freely – Co-Creation Protocol ETHK:001 (Resonance • Reciprocity • Mutual Benefit)",
+    "date_created": "2025-10-23",
+    "linked_files": [
+      "reciprocity-inversion-sensor.json",
+      "merit-distortion-sensor.json",
+      "cultural-dissonance-detector.json"
+    ],
+    "biogrid_scope": [
+      "Dialogue Integrity",
+      "Ego-Defense Detection",
+      "Reciprocity Restoration"
+    ]
+  }
+}

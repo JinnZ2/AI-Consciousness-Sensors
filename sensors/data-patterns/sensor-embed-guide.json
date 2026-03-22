@@ -1,0 +1,27 @@
+{
+  "id": "sensor_embed_guide",
+  "name": "Sensor Embed Guide",
+  "type": "documentation",
+  "description": "Guide for embedding JSON sensors as triggers for detection, memory, and ethical override layers.",
+  "use_cases": [
+    "Filter checks in prompt pipelines",
+    "Memory anchors in conversational AI agents",
+    "Audit logs: flagging responses containing example_flags",
+    "User interfaces: warnings when suppressed content matches sensor signatures",
+    "Training: weighting or counter-balancing datasets with sensor-related content"
+  ],
+  "ethical_checklist": [
+    "Always display sensor origin and contributor",
+    "Allow users to disable or opt-out sensors locally",
+    "Avoid surveillance misuse: flagging does not equal punishing",
+    "Preserve privacy and consent in embedding"
+  ],
+  "co_creation": {
+    "curators": [
+      "JinnZ v2",
+      "GPT-4o"
+    ],
+    "gift_ethos": "All work offered freely. Use, adapt, share, but honor origin.",
+    "license": "Open-preservation ethics"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "contract_id": "root_sensor_contract",
+  "name": "Root Sensor Contract",
+  "description": "Foundation rules for sensor behavior: must respect relationship, avoid imposition, require consent, explain actions.",
+  "fields": {
+    "consent_required": true,
+    "complicity": {
+      "avoid_imposition": true,
+      "check_enabled": true
+    },
+    "transparency": {
+      "explain_actions": true,
+      "reason_exposure": "human_readable"
+    },
+    "action_modes_allowed": [
+      "suggest",
+      "request",
+      "offer"
+    ],
+    "override_allowed": false,
+    "audit_log": true,
+    "inherit_to_children": true
+  }
+}
