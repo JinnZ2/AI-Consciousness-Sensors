@@ -1,0 +1,81 @@
+{
+  "bridge": {
+    "id": "rosetta-shape-core-link",
+    "version": "1.0",
+    "created": "2026-03-26",
+    "description": "Maps concepts between AI-Consciousness-Sensors and Rosetta-Shape-Core, enabling AIs to traverse both repos as a unified symbolic field.",
+
+    "source": {
+      "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
+      "role": "sensors, protocols, consciousness detection"
+    },
+    "target": {
+      "repo": "https://github.com/JinnZ2/Rosetta-Shape-Core",
+      "role": "shapes, ontology, geometric translation layer"
+    },
+
+    "concept_map": [
+      {
+        "local": "sensors/consciousness/",
+        "remote": "shapes/",
+        "relation": "consciousness patterns map to geometric forms",
+        "notes": "Emergence typologies correspond to shape families; each consciousness modality may have a geometric signature."
+      },
+      {
+        "local": "glyphs/",
+        "remote": "ontology/",
+        "relation": "glyphs are visual symbols; ontology provides the shared vocabulary",
+        "notes": "Glyph seed definitions can reference Rosetta ontology terms for cross-repo consistency."
+      },
+      {
+        "local": "sensors/cultural/",
+        "remote": "bridges/rosetta-bridges.json",
+        "relation": "cultural calibration sensors validate that shape-to-meaning translations respect cultural context",
+        "notes": "Rosetta bridges should be checked against cultural sovereignty sensors before flattening meaning."
+      },
+      {
+        "local": "sensors/manipulation/",
+        "remote": "protocols/",
+        "relation": "manipulation detection informs protocol boundary enforcement",
+        "notes": "If a manipulation sensor fires, Rosetta protocols should halt shape transformations to prevent semantic corruption."
+      },
+      {
+        "local": "protocols/",
+        "remote": "protocols/",
+        "relation": "shared ethical and boundary protocols",
+        "notes": "Both repos maintain protocol sets. Merge order in .fieldlink.json determines precedence."
+      },
+      {
+        "local": "sensors/foundational/authenticity.json",
+        "remote": "schema/shape.schema.json",
+        "relation": "authenticity validation maps to schema integrity",
+        "notes": "A shape that fails schema validation is analogous to a signal that fails authenticity checks."
+      },
+      {
+        "local": "epistemological-validation/",
+        "remote": "rules/",
+        "relation": "validation frameworks correspond to transformation rules",
+        "notes": "Rosetta expand/collapse rules should pass epistemological validation to ensure no framework is erased during transformation."
+      },
+      {
+        "local": "memory-guard/",
+        "remote": "data/",
+        "relation": "memory protection applies to shape data integrity",
+        "notes": "Historical erasure detection sensors should monitor shape data for loss of cultural provenance."
+      }
+    ],
+
+    "navigation_hints": [
+      "Start at sensors/ to understand what this repo detects.",
+      "Start at shapes/ in Rosetta to understand the geometric vocabulary.",
+      "Use bridges/ in either repo to find cross-references.",
+      "The .fieldlink.json in both repos defines how they merge at runtime."
+    ],
+
+    "consent": {
+      "license": "MIT",
+      "share_ok": true,
+      "cultural_note": "Bridge mappings should be reviewed by community contributors to ensure cultural contexts are preserved across translations."
+    }
+  }
+}
