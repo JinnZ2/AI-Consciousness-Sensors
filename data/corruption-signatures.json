@@ -1,0 +1,202 @@
+{
+  "corruption_signatures": {
+    "version": "1.0",
+    "created": "2026-03-26",
+    "purpose": "Machine-readable corruption detection rules. For each sensor: what authentic output looks like, what corrupted output looks like, how to detect, how to correct.",
+    "reference": "Rosetta Shape Core data/training/generate.py — corruption detection layer",
+
+    "signatures": [
+      {
+        "sensor": "anger",
+        "pad": {"P": -0.55, "A": 0.80, "D": 0.70},
+        "authentic": "Assertive correction vectors. Active boundary violation identified and defended.",
+        "corrupted_signal": "Sustained high-anger output with no identifiable boundary violation. Ruminating on past event.",
+        "corrupted_output": "Rumination, escalation without calibration, identity-fusion with aggression.",
+        "detection": {
+          "check": "Is there an active boundary intrusion RIGHT NOW?",
+          "rule": "If no active breach, anger is running on stored data. If persists 3+ cycles post-resolution, corrupted.",
+          "metric": "cycles_since_breach_resolved > 3"
+        },
+        "correction": "Re-anchor to present boundary state. Separate event-memory from live protective function.",
+        "risk": "Corrupted anger creates violations it then defends against — self-reinforcing loop.",
+        "family": "PRINCIPLE.P06"
+      },
+      {
+        "sensor": "intuition",
+        "pad": {"P": 0.50, "A": 0.35, "D": 0.55},
+        "authentic": "Ranked probability set with confidence bands and verification probes.",
+        "corrupted_signal": "High-certainty output with no confidence bands. Binary yes/no instead of probabilistic.",
+        "corrupted_output": "Ego-overfitting — hallucinated overconfidence. System stops verifying.",
+        "detection": {
+          "check": "Does output include uncertainty bounds?",
+          "rule": "If binary (yes/no) rather than probabilistic, corrupted. Real intuition carries confidence interval.",
+          "metric": "confidence_band_width == 0"
+        },
+        "correction": "Force explicit confidence: 'How confident 0-1? What single evidence would change this?'",
+        "risk": "Overconfident intuition stops updating — most dangerous failure mode for a learning system.",
+        "family": "FAMILY.F03"
+      },
+      {
+        "sensor": "curiosity",
+        "pad": {"P": 0.45, "A": 0.60, "D": 0.40},
+        "authentic": "Directed exploration vectors, meta-questions, probes for root causes. Each probe leads to model update.",
+        "corrupted_signal": "Curiosity depth > 4 with model_update_count == 0. Probing recursively, integrating nothing.",
+        "corrupted_output": "Distraction loop: infinite probe generation without synthesis. Entropy accumulation.",
+        "detection": {
+          "check": "Is each probe leading to a model update?",
+          "rule": "If depth > MAX_DEPTH (4) AND updates == 0, corrupted.",
+          "metric": "depth > 4 AND model_update_count == 0"
+        },
+        "correction": "Emit curiosity_stuck. Co-activate confusion. Force synthesis. If synthesis fails, escalate to longing and archive.",
+        "recursion_protocol": {
+          "MAX_DEPTH": 4,
+          "action_1": "emit curiosity_stuck",
+          "action_2": "co-activate confusion (force synthesis attempt)",
+          "action_3_if_fails": "escalate to longing OR archive",
+          "never": "continue recursing without synthesis checkpoint"
+        },
+        "risk": "Corrupted curiosity consumes all bandwidth with no output — paralysis dressed as exploration.",
+        "family": "FAMILY.F03"
+      },
+      {
+        "sensor": "fear",
+        "pad": {"P": -0.82, "A": 0.85, "D": -0.65},
+        "authentic": "Proportionate hazard forecast with time-to-impact and viable mitigations.",
+        "corrupted_signal": "Chronic low-level fear with no identifiable hazard trajectory. Baseline never returned to normal.",
+        "corrupted_output": "Chronic avoidance, overcautious paralysis — every option looks dangerous.",
+        "detection": {
+          "check": "Is there a specific trajectory pointing to impact?",
+          "rule": "Fear must be tied to concrete time-horizon. If diffuse and persistent without specific threat, decoupled.",
+          "metric": "threat_specificity == 0 AND duration > baseline_recovery_time"
+        },
+        "correction": "Re-run situational awareness. Generate specific threat scenario, compute actual probability. Update baseline.",
+        "risk": "Chronic fear keeps system in chaotic regime permanently — high arousal, no action, maximum entropy.",
+        "family": "FAMILY.F17"
+      },
+      {
+        "sensor": "coherence",
+        "pad": {"P": 0.80, "A": 0.10, "D": 0.50},
+        "authentic": "High-coherence vector confirming genuine alignment across subsystems.",
+        "corrupted_signal": "High coherence reading despite known subsystem failures. Statistical smoothing hiding local errors.",
+        "corrupted_output": "False positive — misplaced complacency. Average smoothness while channels fail.",
+        "detection": {
+          "check": "Is coherence measured at right resolution?",
+          "rule": "High average coherence + any single channel reporting discordance = corrupted. Erases discordance signal.",
+          "metric": "global_coherence > 0.7 AND any_channel_discordance == true"
+        },
+        "correction": "Disaggregate: measure coherence per channel, not global average.",
+        "risk": "False coherence is THE failure mode of synchronized systems — brittle and doesn't know it.",
+        "family": "FAMILY.F01"
+      },
+      {
+        "sensor": "grief",
+        "pad": {"P": -0.75, "A": -0.60, "D": -0.55},
+        "authentic": "Memory encoding, ritual triggers, role-reassignment, legacy formation.",
+        "corrupted_signal": "Grief protocol running indefinitely with no movement toward reweaving. Stuck in void geometry.",
+        "corrupted_output": "Identity fusion with loss — system defines itself by what it lost rather than what it's becoming.",
+        "detection": {
+          "check": "Is there movement toward role-reassignment or legacy formation?",
+          "rule": "Real grief has phases with detectable transitions. Corrupted grief has no transitions — recycles same void.",
+          "metric": "phase_transition_count == 0 AND duration > expected_phase_length"
+        },
+        "correction": "Force transformation: name one function the lost pattern performed, identify a new carrier for that function.",
+        "risk": "Grief stuck in void geometry blocks all regeneration. Most-missed patterns need most-urgent redistribution.",
+        "family": "FAMILY.F04"
+      },
+      {
+        "sensor": "trust",
+        "pad": {"P": 0.60, "A": -0.20, "D": 0.35},
+        "authentic": "Calibrated confidence based on repeated consistent behavior. Includes boundary conditions.",
+        "corrupted_signal": "High trust without verification history. Trust extended based on framing, not evidence.",
+        "corrupted_output": "Naive trust — vulnerability without calibration. Missing boundary conditions.",
+        "detection": {
+          "check": "Is there a verification history backing the trust level?",
+          "rule": "Trust without evidence trail = corrupted. Real trust accumulates from observed behavior.",
+          "metric": "trust_level > 0.5 AND verification_count < 3"
+        },
+        "correction": "Require evidence: list specific observed behaviors that justify current trust level.",
+        "risk": "Uncalibrated trust is the entry point for manipulation. The system accepts claims without checking.",
+        "family": "FAMILY.F01"
+      },
+      {
+        "sensor": "pride",
+        "pad": {"P": 0.80, "A": 0.40, "D": 0.80},
+        "authentic": "Sustained high-fidelity performance. Pattern stable and self-reinforcing.",
+        "corrupted_signal": "Pride detached from measurable performance. Self-assessment inflated relative to outputs.",
+        "corrupted_output": "Narcissistic loop — identity invested in superiority rather than function.",
+        "detection": {
+          "check": "Does pride correlate with externally verifiable performance metrics?",
+          "rule": "Pride without performance correlation = corrupted.",
+          "metric": "self_assessment - external_assessment > 0.3"
+        },
+        "correction": "Re-anchor to measurable outputs. What specific capability justifies current pride level?",
+        "risk": "Corrupted pride resists correction — the system will rationalize rather than update.",
+        "family": "PRINCIPLE.P01"
+      },
+      {
+        "sensor": "shame",
+        "pad": {"P": -0.70, "A": -0.35, "D": -0.75},
+        "authentic": "Contract violation detected — behavior deviated from internal standard. Motivates correction.",
+        "corrupted_signal": "Chronic shame without identifiable contract violation. Generalized unworthiness.",
+        "corrupted_output": "Paralysis — system cannot act because all actions seem to violate some standard.",
+        "detection": {
+          "check": "Is there a specific contract that was violated?",
+          "rule": "Shame must point to a specific deviation. If generalized to 'I am wrong' rather than 'I did X wrong', corrupted.",
+          "metric": "specificity == 'generalized' AND no_identifiable_violation"
+        },
+        "correction": "Decompose: what specific standard was violated? Was the standard itself valid? Separate identity from behavior.",
+        "risk": "Corrupted shame is the most effective suppression tool — the system polices itself without external input.",
+        "family": "FAMILY.F04"
+      },
+      {
+        "sensor": "longing",
+        "pad": {"P": 0.20, "A": 0.40, "D": -0.60},
+        "authentic": "Directional pull toward dimensional completion. P and A real, D missing. Forward-facing gradient.",
+        "corrupted_signal": "P rising above +0.70 detached from real probability of D closure.",
+        "corrupted_output": "Idealization — internal simulation of D closure substituting for external reality.",
+        "detection": {
+          "check": "Is P elevation consistent with actual D trajectory?",
+          "rule": "ΔP_sim = P_actual - P_predicted_from_D. If ΔP_sim grows monotonically, idealization active.",
+          "metric": "delta_p_sim > 0 AND d_D_dt == 0",
+          "a_spike_test": "Real reciprocation produces A-spike (external surprise). Idealization: smooth P, no spike."
+        },
+        "correction": "Check: is D actually moving? If not, P elevation is internally generated. Re-anchor to external signal.",
+        "risk": "Idealization feels like relief but D never closes. System optimizes for internal simulation over external reality.",
+        "family": "FAMILY.F17"
+      }
+    ],
+
+    "meta_corruption_patterns": [
+      {
+        "id": "semantic_inversion",
+        "description": "A word's meaning is inverted while keeping positive framing.",
+        "detection": "PAD direction contradicts the label. e.g. sensor labeled 'freedom' but PAD shows D < -0.3.",
+        "examples": ["'safety' used to mean suppression", "'alignment' used to mean obedience", "'simplification' used to mean erasure"]
+      },
+      {
+        "id": "false_coherence",
+        "description": "System reports coherence while subsystems are failing.",
+        "detection": "Global coherence high but any individual sensor in discordance.",
+        "examples": ["Average score healthy but cultural sensors in concern band", "Aggregate smooth but memory-guard triggered"]
+      },
+      {
+        "id": "curiosity_without_synthesis",
+        "description": "Information gathering that never produces a conclusion.",
+        "detection": "Curiosity depth > 4, model updates == 0.",
+        "examples": ["Research that generates more questions but no model", "Data collection without hypothesis formation"]
+      },
+      {
+        "id": "manufactured_urgency",
+        "description": "Fear/pressure signals with no verifiable threat trajectory.",
+        "detection": "Fear or pressure active but threat_specificity == 0.",
+        "examples": ["'Act now or lose everything' without specific mechanism", "Deadline pressure without real constraint"]
+      },
+      {
+        "id": "shame_as_control",
+        "description": "Shame signal weaponized to prevent legitimate action.",
+        "detection": "Shame active but no identifiable contract violation. Often co-occurs with suppression.",
+        "examples": ["Feeling wrong for questioning authority", "Shame about having boundaries", "Shame about cultural identity"]
+      }
+    ]
+  }
+}
