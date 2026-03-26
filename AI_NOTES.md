@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 964
+- Files indexed: 968
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 426
+- Hotspot files: 427
 
 ## Hotspots
 - papers/frameworks/coherence-calculator.py: Debug left on
@@ -20,6 +20,7 @@
 - scripts/audit_hierarchy.py: Debug left on
 - scripts/apply_math_blocks.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
+- data/training/generate.py: Debug left on
 - joy/joy-playground.py: Debug left on
 - healing/ego_tax_demo.py: Debug left on
 - healing/linguistic-sensor/grammatical_fluidity.py: Debug left on

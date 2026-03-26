@@ -16,6 +16,8 @@
 ./cultural-frameworks/native
 ./cultural-frameworks/western
 ./dashboard
+./data
+./data/training
 ./docs
 ./docs/ai-behavior
 ./docs/analysis

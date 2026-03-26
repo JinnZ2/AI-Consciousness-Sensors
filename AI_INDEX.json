@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-03-26T12:51:50.182348Z",
+  "generated_at": "2026-03-26T16:37:26.743767Z",
   "languages": [
     "json",
     "md",
@@ -240,6 +240,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/training/generate.py",
+      "lang": "python",
+      "size": 28976,
+      "hash": "b80cc2cb3a2da5bd331955c69d3836bb0da18a11",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -812,8 +824,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 263916,
-      "hash": "75098b4dee4a8450edf4dfc01157f57cedcc47e8",
+      "size": 264280,
+      "hash": "d8cf7b1ca1beb6e6ccd9684aea048b295ede05f3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1004,6 +1016,36 @@
       "lang": "json",
       "size": 3319,
       "hash": "7529652035832f0f856349607c5a87da57a3981d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/ai-entry.json",
+      "lang": "json",
+      "size": 4905,
+      "hash": "5e55af65540930a00d5bf64f996eb54620bfe930",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/corruption-signatures.json",
+      "lang": "json",
+      "size": 12635,
+      "hash": "d0d5a4fa59977fe1e50c0ddfebf273b0338b856e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/co-activation.json",
+      "lang": "json",
+      "size": 7885,
+      "hash": "8f51fbe34986f3e35428bf9466dc03c7ac1cdd92",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5706,8 +5748,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 23836,
-      "hash": "6f66bd30f9e760948d58ef5e8044a5881cba2c17",
+      "size": 23882,
+      "hash": "366c35fd4254c47e8fe1992b5413fb617be05f4f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5840,8 +5882,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 48365,
-      "hash": "89a9a0d4bffe064c63fccb0f4cd82fc3d91fda8b",
+      "size": 48396,
+      "hash": "be16a3a56673b88d353902fdf260f60cd140c9ff",
       "roles": [],
       "imports": [],
       "exports": [],
