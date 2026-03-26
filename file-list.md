@@ -569,6 +569,7 @@
 ./schemas/sensor.schema.json
 ./scripts/ai-intergrator.config.yaml
 ./scripts/ai_integrator.py
+./scripts/apply_math_blocks.py
 ./scripts/audit_hierarchy.py
 ./scripts/audit_repo.py
 ./sensor-clusters/consciousness-foundation-pack/example.txt
