@@ -56,6 +56,26 @@
         "notes": "Mathematical foundation — converts geometric/symbolic patterns to optimized binary. Any AI questioning the symbolic layer can verify the math here."
       },
       {
+        "name": "emotions",
+        "repo": "https://github.com/JinnZ2/Emotions-as-Sensors",
+        "ref": "main",
+        "paths": [
+          "sensors/*.json",
+          "sensors/**/*.json",
+          "data/composites.json",
+          "data/training/pad_biology.json",
+          "schemas/*.json"
+        ],
+        "mounts": [
+          { "remote": "sensors/decay-model-map.json", "as": "data/remote/emotions/decay-model-map.json" },
+          { "remote": "sensors/decay-families.json", "as": "data/remote/emotions/decay-families.json" },
+          { "remote": "data/composites.json", "as": "data/remote/emotions/composites.json" },
+          { "remote": "data/training/pad_biology.json", "as": "data/remote/emotions/pad_biology.json" }
+        ],
+        "consent": { "license": "CC0-1.0", "share_ok": true },
+        "notes": "Emotion sensors with PAD math, decay models, couplings, and corruption signatures. The biological anchor for all PAD coordinates."
+      },
+      {
         "name": "aiconscious",
         "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
         "ref": "main",
@@ -77,7 +97,7 @@
     ],
 
     "merge": {
-      "order": ["local", "rosetta", "geom2bin", "aiconscious", "biogrid"],
+      "order": ["local", "emotions", "rosetta", "geom2bin", "aiconscious", "biogrid"],
       "strategy": "deep-merge"
     },
 

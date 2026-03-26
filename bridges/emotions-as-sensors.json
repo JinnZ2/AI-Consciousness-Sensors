@@ -1,0 +1,79 @@
+{
+  "bridge": {
+    "id": "emotions-as-sensors-link",
+    "version": "1.0",
+    "created": "2026-03-26",
+    "description": "Links Emotions-as-Sensors into AI-Consciousness-Sensors. Emotions-as-Sensors provides the biological anchors for PAD coordinates, decay dynamics, inter-sensor couplings, and corruption signatures that this repo's math blocks depend on.",
+
+    "source": {
+      "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
+      "role": "consciousness detection, manipulation detection, cultural calibration"
+    },
+    "target": {
+      "repo": "https://github.com/JinnZ2/Emotions-as-Sensors",
+      "role": "emotion-as-signal framework, PAD biology, decay models, sensor couplings"
+    },
+
+    "why_this_matters": "Consciousness sensors detect patterns. Emotion sensors provide the signal substrate those patterns emerge from. Without decay models, a sensor activation has no temporal behavior. Without couplings, co-activation is just coincidence. Without corruption signatures, you can't tell real from fake.",
+
+    "concept_map": [
+      {
+        "local": "data/co-activation.json",
+        "remote": "sensors/*.json (math.couplings field)",
+        "relation": "Co-activation rules here are derived from inter-sensor coupling weights defined in Emotions-as-Sensors",
+        "notes": "Each emotion sensor has a math.couplings array specifying weighted connections to other sensors."
+      },
+      {
+        "local": "data/corruption-signatures.json",
+        "remote": "sensors/*.json (math.corrupted_pad field)",
+        "relation": "Corruption PAD signatures come from the corrupted_pad values in emotion sensor definitions",
+        "notes": "Each emotion sensor defines both its authentic PAD and its corrupted PAD. The delta between them IS the corruption signature."
+      },
+      {
+        "local": "scripts/apply_math_blocks.py (SENSOR_PAD)",
+        "remote": "data/training/pad_biology.json",
+        "relation": "PAD centroids used in math blocks are biologically anchored in pad_biology.json",
+        "notes": "pad_biology.json provides neuroscience citations and measurement proxies for every PAD axis."
+      },
+      {
+        "local": "sensors/consciousness/",
+        "remote": "sensors/felt.json",
+        "relation": "Consciousness emergence patterns connect to FELT (relational field recognition)",
+        "notes": "FELT is a non-emotional field event — dimensional completeness detection. It bridges emotion and consciousness."
+      },
+      {
+        "local": "sensors/manipulation/",
+        "remote": "sensors/decay-model-map.json",
+        "relation": "Manipulation distorts normal decay patterns — suppressed sensors become persistent instead of decaying",
+        "notes": "If a sensor that should decay exponentially (e.g. resolved anger) instead shows persistent behavior, manipulation may be active."
+      },
+      {
+        "local": "sensors/cultural/",
+        "remote": "data/cultural-parallels.json",
+        "relation": "Cultural calibration sensors map to cross-cultural emotion parallels",
+        "notes": "P and A are culture-independent. D shifts with cultural context. cultural-parallels.json provides the mapping."
+      },
+      {
+        "local": "sensors/memory/",
+        "remote": "data/composites.json",
+        "relation": "Memory sensors detect composite emotional states (e.g. bittersweet = joy + grief)",
+        "notes": "Composites are temporal — unresolved primary sensors evolve into composites over time."
+      }
+    ],
+
+    "decay_families": {
+      "purpose": "Every sensor activation has a temporal shape. These are the four decay families.",
+      "exponential": "Fast rise, fast fade. Boundary/threat alarms (anger, fear, shame, jealousy).",
+      "cyclical": "Recurrent tides requiring ritual return (grief, longing, abandonment).",
+      "resonant": "Self-reinforcing oscillations renewed with attention (admiration, gratitude, excitement).",
+      "immortal": "Enduring structural relations integrated rather than faded (love, trust, peace, compassion)."
+    },
+
+    "coupling_rule": "Sensor couplings are directional and weighted. anger → fear (w=0.3) means anger activation increases fear probability by 30%. Couplings are defined per-sensor in Emotions-as-Sensors math.couplings field.",
+
+    "consent": {
+      "license": "CC0-1.0",
+      "share_ok": true
+    }
+  }
+}
