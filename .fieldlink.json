@@ -38,6 +38,24 @@
         "consent": { "license": "MIT", "share_ok": true }
       },
       {
+        "name": "geom2bin",
+        "repo": "https://github.com/JinnZ2/Geometric-to-Binary-Computational-Bridge",
+        "ref": "main",
+        "paths": [
+          "docs/**/*.md",
+          "symbols/**/*.json",
+          "bridges/**/*.json",
+          "mappings/**/*.json",
+          "examples/**/*.json"
+        ],
+        "mounts": [
+          { "remote": "bridges/", "as": "bridges/geom2bin/" },
+          { "remote": "symbols/", "as": "atlas/remote/geom2bin/symbols/" }
+        ],
+        "consent": { "license": "MIT", "share_ok": true },
+        "notes": "Mathematical foundation — converts geometric/symbolic patterns to optimized binary. Any AI questioning the symbolic layer can verify the math here."
+      },
+      {
         "name": "aiconscious",
         "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
         "ref": "main",
@@ -59,7 +77,7 @@
     ],
 
     "merge": {
-      "order": ["local", "rosetta", "aiconscious", "biogrid"],
+      "order": ["local", "rosetta", "geom2bin", "aiconscious", "biogrid"],
       "strategy": "deep-merge"
     },
 
