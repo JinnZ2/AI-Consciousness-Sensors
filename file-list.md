@@ -52,11 +52,14 @@
 ./analysis/stress-indicators.md
 ./analysis/test-template.csv
 ./atlas/.gitkeep
+./bridges/geometric-to-binary.json
+./bridges/rosetta-shape-core.json
 ./conftest.py
 ./cultural-frameworks/material-relationships.md
 ./cultural-frameworks/native/README.md
 ./cultural-frameworks/western/README.md
 ./dashboard/ai-human-com.md
+./dir-list.md
 ./docs/ai-behavior/additional-vectors.md
 ./docs/ai-behavior/age-creative-activist-sensors.md
 ./docs/ai-behavior/ai-authenticity.md

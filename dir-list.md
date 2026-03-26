@@ -11,6 +11,7 @@
 ./analysis/frameworks
 ./analysis/live-interference-captures
 ./atlas
+./bridges
 ./cultural-frameworks
 ./cultural-frameworks/native
 ./cultural-frameworks/western
