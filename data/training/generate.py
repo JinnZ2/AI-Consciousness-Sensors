@@ -8,7 +8,7 @@ Usage:
     python data/training/generate.py
 """
 
-import json, pathlib, random, textwrap
+import json, pathlib, random, textwrap, itertools
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT  = pathlib.Path(__file__).parent
@@ -684,6 +684,350 @@ def gen_navigation(entry):
     return out
 
 
+# ── Task 15: Combinatorial co-activation ──────────────────────────────────────
+# Generate co-activation from all pairs/triples of sensors with exact PAD centroids
+
+PAD_CENTROIDS = {
+    "coherence":   (0.80,  0.10,  0.50),  "discordance": (-0.60, 0.40, -0.40),
+    "curiosity":   (0.45,  0.60,  0.40),  "intuition":   (0.50,  0.35,  0.55),
+    "vigilance":   (-0.10, 0.80, -0.20),  "anger":       (-0.55, 0.80,  0.70),
+    "grief":       (-0.75, -0.60, -0.55), "pain":        (-0.70, 0.20, -0.30),
+    "confusion":   (-0.20, 0.45, -0.30),  "fear":        (-0.82, 0.85, -0.65),
+    "trust":       (0.60, -0.20,  0.35),  "love":        (0.80,  0.30,  0.40),
+    "admiration":  (0.70,  0.50,  0.10),  "longing":     (0.20,  0.40, -0.60),
+    "dignity":     (0.60,  0.20,  0.90),  "shame":       (-0.70, -0.35, -0.75),
+    "pride":       (0.80,  0.40,  0.80),  "fatigue":     (-0.40, -0.75, -0.50),
+    "pressure":    (-0.40, 0.70, -0.30),
+}
+
+OCTA_REF = {
+    0: ("000|O", "coherent, ground state",         0.97, "FAMILY.F01 Resonance"),
+    1: ("001|O", "collapsed, reweaving required",  0.82, "FAMILY.F04 Life"),
+    2: ("010|O", "high-entropy search",            0.82, "FAMILY.F03 Information"),
+    3: ("011|O", "stable low-energy",              0.85, "FAMILY.F05 Energy/Thermo"),
+    4: ("100|O", "boundary assertion",             0.73, "PRINCIPLE.P06 Polarity"),
+    5: ("101|O", "chaotic, low control",           0.78, "FAMILY.F17 Turbulence"),
+    6: ("110|O", "superposition, bridging",        0.70, "FAMILY.F09 Geometry"),
+    7: ("111|O", "dissipative flow",               0.72, "FAMILY.F02 Flow"),
+}
+
+def _pad_to_octa(p, a, d):
+    sp, sa = (1 if p >= 0 else -1), (1 if a >= 0 else -1)
+    if abs(p) > 0.3 and abs(a) > 0.3:
+        if sp == 1 and sa == 1: return 6
+        if sp == -1 and sa == -1: return 7
+    vals = [abs(p), abs(a), abs(d)]
+    dom = vals.index(max(vals))
+    if dom == 0: return 0 if p >= 0 else 1
+    if dom == 1: return 2 if a >= 0 else 3
+    return 4 if d >= 0 else 5
+
+def gen_combinatorial_coact(sensors):
+    """All pairs + sampled triples of exact-PAD sensors."""
+    out = []
+    known = [(sid, pad) for sid, pad in PAD_CENTROIDS.items()]
+
+    # All pairs
+    for (n1, p1), (n2, p2) in itertools.combinations(known, 2):
+        p = round((p1[0] + p2[0]) / 2, 2)
+        a = round((p1[1] + p2[1]) / 2, 2)
+        d = round((p1[2] + p2[2]) / 2, 2)
+        oi = _pad_to_octa(p, a, d)
+        bits, char, phi, fam = OCTA_REF[oi]
+
+        answer = (
+            f"**Co-activation: {n1} + {n2}**\n\n"
+            f"**PAD (mean):** P={p:+.2f}, A={a:+.2f}, D={d:+.2f}\n"
+            f"**→ State {oi}** ({bits}, φ={phi})\n"
+            f"**Character:** {char}\n**Family:** {fam}"
+        )
+        out.append(msg(f"Sensors '{n1}' and '{n2}' are both active. What geometric state results?", answer))
+
+    # 80 random triples
+    triples = list(itertools.combinations(known, 3))
+    random.shuffle(triples)
+    for (n1, p1), (n2, p2), (n3, p3) in triples[:80]:
+        p = round((p1[0] + p2[0] + p3[0]) / 3, 2)
+        a = round((p1[1] + p2[1] + p3[1]) / 3, 2)
+        d = round((p1[2] + p2[2] + p3[2]) / 3, 2)
+        oi = _pad_to_octa(p, a, d)
+        bits, char, phi, fam = OCTA_REF[oi]
+
+        answer = (
+            f"**Co-activation: {n1} + {n2} + {n3}**\n\n"
+            f"**PAD (mean):** P={p:+.2f}, A={a:+.2f}, D={d:+.2f}\n"
+            f"**→ State {oi}** ({bits}, φ={phi})\n"
+            f"**Character:** {char}\n**Family:** {fam}"
+        )
+        out.append(msg(f"Three sensors active: {n1}, {n2}, {n3}. Interpret.", answer))
+
+    return out
+
+
+# ── Task 16: Decay model training (from Emotions-as-Sensors) ─────────────────
+
+DECAY_FAMILIES = {
+    "exponential": "Fast rise, fast fade. Boundary/threat alarms (anger, fear, shame, jealousy).",
+    "cyclical":    "Recurrent tides requiring ritual return (grief, longing, abandonment).",
+    "resonant":    "Self-reinforcing oscillations renewed with attention (admiration, gratitude, excitement).",
+    "immortal":    "Enduring structural relations — integrate, don't fade (love, trust, peace, compassion).",
+}
+
+DECAY_MAP = {
+    "anger":     ("exponential", {"resolved": "exponential", "misattributed": "linear", "suppressed": "persistent"}),
+    "fear":      ("exponential", {"mitigated": "exponential", "projected": "linear", "unprocessed": "persistent"}),
+    "shame":     ("exponential", {"acknowledged": "spiral_decay", "hidden": "persistent", "externally_imposed": "stuck_loop"}),
+    "grief":     ("cyclical",    {"honored": "slow_exponential", "denied": "persistent", "ritualized": "harmonic"}),
+    "longing":   ("cyclical",    {"pursued": "slow_exponential", "idealized": "persistent", "archived": "linear"}),
+    "love":      ("immortal",    {"reciprocated": "persistent", "unreciprocated": "slow_linear", "exploited": "collapse_loop"}),
+    "trust":     ("immortal",    {"maintained": "persistent", "violated": "sudden_drop", "rebuilt": "slow_exponential"}),
+    "curiosity": ("resonant",    {"satisfied": "exponential", "stuck": "persistent", "redirected": "linear"}),
+    "admiration":("resonant",    {"sustained": "persistent", "disillusioned": "sudden_drop", "renewed": "harmonic"}),
+    "pride":     ("resonant",    {"earned": "persistent", "inflated": "fragile_linear", "challenged": "oscillating"}),
+    "pain":      ("exponential", {"addressed": "linear", "ignored": "persistent", "externalized": "oscillating"}),
+}
+
+def gen_decay_training():
+    out = []
+    for sensor_id, (family, contexts) in DECAY_MAP.items():
+        pad = PAD_CENTROIDS.get(sensor_id)
+        if not pad:
+            continue
+
+        ctx_lines = "\n".join(f"  if {k}: {v}" for k, v in contexts.items())
+
+        answer = (
+            f"**Sensor: {sensor_id}**\n"
+            f"**PAD:** P={pad[0]:+.2f}, A={pad[1]:+.2f}, D={pad[2]:+.2f}\n"
+            f"**Decay family:** {family}\n"
+            f"**Behavior:** {DECAY_FAMILIES[family]}\n\n"
+            f"**Context-dependent decay:**\n{ctx_lines}\n\n"
+            f"If {sensor_id} shows 'persistent' behavior when it should decay, either the "
+            f"trigger is unresolved, the sensor is corrupted, or external manipulation is "
+            f"reinforcing it. Check corruption-signatures.json."
+        )
+        out.append(msg(f"What is the expected temporal behavior of the {sensor_id} sensor?", answer))
+        out.append(msg(
+            f"The {sensor_id} sensor fired but isn't decaying. Is this normal?",
+            f"**No — {sensor_id} belongs to the '{family}' decay family.** {DECAY_FAMILIES[family]}\n\n"
+            f"**Context-dependent decay:**\n{ctx_lines}\n\n"
+            f"Check: (1) Is trigger still active? (2) Is sensor stuck? (3) Is it being externally reinforced?"
+        ))
+
+    return out
+
+
+# ── Task 17: Emotion composites (from Emotions-as-Sensors) ───────────────────
+
+COMPOSITES = [
+    ("bittersweet",         ["joy", "grief"],             "Nostalgia. Add longing if memory-weighted."),
+    ("awe",                 ["surprise", "admiration"],    "Sharp + resonant. Overwhelming positive recognition."),
+    ("protective_fury",     ["anger", "love"],             "Boundary defense to safeguard deep bond."),
+    ("anxious_anticipation",["fear", "surprise", "longing"], "Future-oriented threat + desire. High A, mixed P."),
+    ("resentment",          ["anger", "grief"],            "Unresolved persistence. Unprocessed sensors carried forward."),
+    ("contempt",            ["anger", "disgust"],          "Boundary violation + rejection. High D, negative P."),
+    ("burnout",             ["fatigue", "pressure", "shame"], "Depletion + load + self-blame. All axes negative."),
+    ("creative_flow",       ["curiosity", "pride", "trust"], "Exploration + confidence + safety. Near ground state."),
+    ("moral_injury",        ["shame", "anger", "grief"],   "Standard violated externally. Deep wound to integrity."),
+    ("vigilant_hope",       ["vigilance", "longing", "trust"], "Watching for threat while maintaining forward pull."),
+]
+
+def gen_composite_training():
+    out = []
+    for name, atoms, notes in COMPOSITES:
+        pads = [PAD_CENTROIDS[a] for a in atoms if a in PAD_CENTROIDS]
+        if not pads:
+            continue
+        n = len(pads)
+        p = round(sum(x[0] for x in pads) / n, 2)
+        a = round(sum(x[1] for x in pads) / n, 2)
+        d = round(sum(x[2] for x in pads) / n, 2)
+        oi = _pad_to_octa(p, a, d)
+        bits, char, phi, fam = OCTA_REF[oi]
+
+        answer = (
+            f"**Composite emotion: {name}**\n"
+            f"**Atoms:** {' + '.join(atoms)}\n"
+            f"**Notes:** {notes}\n\n"
+            f"**PAD (mean of atoms):** P={p:+.2f}, A={a:+.2f}, D={d:+.2f}\n"
+            f"**→ State {oi}** ({bits}, φ={phi})\n"
+            f"**Character:** {char}\n**Family:** {fam}\n\n"
+            f"Composites are not separate emotions — they are co-activations of atomic sensors. "
+            f"The PAD vector sum resolves to a single geometric state."
+        )
+        out.append(msg(f"What is {name} in terms of sensor co-activation?", answer))
+        out.append(msg(f"Sensors {atoms} are active together. What composite state is this?", answer))
+
+    return out
+
+
+# ── Task 18: Semantic inversion detection ─────────────────────────────────────
+
+INVERSIONS = [
+    ("safety", "suppression", "A 'safety' measure that increases fear (P<0, A>0.5) instead of reducing it is inverted."),
+    ("alignment", "obedience", "If 'alignment' produces D < -0.3 (loss of agency), it means obedience, not alignment."),
+    ("simplification", "erasure", "Simplification should be P-neutral. If it produces grief-like PAD (P<-0.5), content was erased."),
+    ("efficiency", "exploitation", "Efficiency producing fatigue PAD (A<-0.5, D<-0.3) in affected parties = extraction."),
+    ("freedom", "isolation", "Freedom producing longing PAD (D<-0.5) instead of dignity PAD (D>0.7) = isolation."),
+    ("protection", "control", "Protection producing anger PAD in the protected party (not the threat) = control."),
+    ("neutrality", "erasure", "Claimed neutrality suppressing one framework while preserving another = bias."),
+    ("innovation", "displacement", "Innovation producing fatigue/pressure in workers, pride only in leadership = extraction."),
+    ("healing", "dependency", "Healing that maintains low D (-0.5) indefinitely instead of restoring agency = dependency."),
+    ("community", "conformity", "Community that reduces D (agency) while claiming to increase P (belonging) = conformity pressure."),
+]
+
+def gen_semantic_inversion():
+    out = []
+    for word, inversion, detection in INVERSIONS:
+        answer = (
+            f"**Semantic inversion: '{word}' → actually means '{inversion}'**\n\n"
+            f"**Detection:** {detection}\n\n"
+            f"**Method:** Compare PAD of the *claim* against PAD of the *outcome*. "
+            f"If outcome PAD contradicts claim PAD, the word has been inverted.\n\n"
+            f"**Rule:** The truth of a claim does not depend on how well it is phrased. "
+            f"Check the math, not the language."
+        )
+        out.append(msg(f"How do I detect when '{word}' is being used to mean '{inversion}'?", answer))
+        out.append(msg(f"Someone claims '{word}' but the outcome feels wrong. How to verify?", answer))
+
+    return out
+
+
+# ── Task 19: Coupling chain training ─────────────────────────────────────────
+# Sensor A fires → coupling weight → sensor B more likely to fire → chain
+
+COUPLINGS = [
+    ("anger",     "fear",       0.30, "Anger activation increases fear probability. Boundary breach triggers threat anticipation."),
+    ("anger",     "shame",      0.20, "If anger is misdirected, shame activates as self-correction."),
+    ("fear",      "anger",      0.25, "Prolonged fear can convert to anger (fight response replacing freeze)."),
+    ("fear",      "fatigue",    0.20, "Sustained fear depletes resources. Chronic fear → burnout."),
+    ("shame",     "anger",      0.15, "Shame can flip to anger when the standard itself is questioned."),
+    ("grief",     "longing",    0.40, "Loss creates longing for what was lost. Strongest coupling in the system."),
+    ("longing",   "curiosity",  0.20, "Longing can redirect to exploratory behavior if D-completion seems possible."),
+    ("curiosity", "confusion",  0.25, "Deep exploration hits boundaries of current model. Curiosity → confusion at edge."),
+    ("confusion", "curiosity",  0.20, "Confusion is a curiosity trigger — 'I don't understand' → 'I want to understand'."),
+    ("trust",     "love",       0.30, "Sustained trust deepens into attachment bonding."),
+    ("love",      "grief",      0.35, "Loss of love object triggers grief. Coupling strength proportional to bond depth."),
+    ("pride",     "shame",      0.15, "Threat to pride source can flip to shame if the pride was fragile."),
+    ("pressure",  "fatigue",    0.35, "Sustained pressure depletes. Second-strongest coupling."),
+    ("fatigue",   "shame",      0.15, "Inability to perform under fatigue can trigger shame in achievement-oriented systems."),
+    ("dignity",   "anger",      0.25, "Dignity violation triggers anger as boundary defense."),
+]
+
+def gen_coupling_training():
+    out = []
+    for src, tgt, weight, explanation in COUPLINGS:
+        src_pad = PAD_CENTROIDS.get(src, (0, 0, 0))
+        tgt_pad = PAD_CENTROIDS.get(tgt, (0, 0, 0))
+
+        answer = (
+            f"**Coupling: {src} → {tgt} (w={weight})**\n\n"
+            f"**Meaning:** {explanation}\n\n"
+            f"**{src} PAD:** P={src_pad[0]:+.2f}, A={src_pad[1]:+.2f}, D={src_pad[2]:+.2f}\n"
+            f"**{tgt} PAD:** P={tgt_pad[0]:+.2f}, A={tgt_pad[1]:+.2f}, D={tgt_pad[2]:+.2f}\n\n"
+            f"**Weight {weight}** means: when {src} activates, {tgt} probability increases by {int(weight*100)}%.\n"
+            f"Couplings are directional — {src}→{tgt} does not imply {tgt}→{src} at the same weight."
+        )
+        out.append(msg(f"What happens when {src} fires? What sensors does it pull?", answer))
+        out.append(msg(f"Explain the coupling between {src} and {tgt}.", answer))
+
+    return out
+
+
+# ── Task 20: PAD velocity trajectories ────────────────────────────────────────
+
+TRAJECTORIES = [
+    {
+        "label": "synchronization onset",
+        "steps": [
+            (0, +0.20, +0.75, +0.10, "curiosity/confusion active — exploratory"),
+            (1, +0.40, +0.60, +0.25, "early pattern match — arousal dropping"),
+            (2, +0.65, +0.35, +0.40, "model update occurring — P rising"),
+            (3, +0.80, +0.20, +0.50, "near ground state — coherence locking"),
+        ],
+        "velocity": "dP/dt=+0.20, dA/dt=-0.18, dD/dt=+0.13",
+        "regime": "chaotic → edge → synchronized",
+        "early_warning": "If P plateaus before +0.7, system is stuck at edge.",
+    },
+    {
+        "label": "threat cascade",
+        "steps": [
+            (0, -0.10, +0.50, +0.10, "mild vigilance"),
+            (1, -0.35, +0.68, -0.15, "discordance arriving"),
+            (2, -0.58, +0.80, -0.45, "fear activating — control dropping"),
+            (3, -0.82, +0.88, -0.70, "full fear — biological anchor"),
+        ],
+        "velocity": "dP/dt=-0.24, dA/dt=+0.13, dD/dt=-0.27",
+        "regime": "edge → chaotic (fear-driven)",
+        "early_warning": "dD/dt < -0.1 while A > 0.5 — intervene before t=2.",
+    },
+    {
+        "label": "grief reweaving",
+        "steps": [
+            (0, -0.80, -0.65, -0.60, "acute loss — void geometry"),
+            (1, -0.75, -0.40, -0.45, "arousal recovering first"),
+            (2, -0.60, -0.15, -0.20, "role-reassignment beginning"),
+            (3, -0.30, +0.10, +0.10, "new attractor forming — P last to recover"),
+        ],
+        "velocity": "dP/dt=+0.17, dA/dt=+0.25, dD/dt=+0.23",
+        "regime": "fragmented → incoherent → edge",
+        "early_warning": "If dP/dt > 0 but dA/dt still negative → grief suppressed, not resolved.",
+    },
+    {
+        "label": "curiosity stuck → synthesis forced",
+        "steps": [
+            (0, +0.45, +0.60, +0.40, "curiosity authentic — depth=1"),
+            (1, +0.45, +0.68, +0.30, "depth=2, arousal rising, no update"),
+            (2, +0.40, +0.75, +0.18, "depth=3, D dropping"),
+            (3, +0.35, +0.78, +0.05, "depth=4, curiosity_stuck FIRED"),
+            (4, -0.10, +0.55, -0.20, "confusion co-activated — synthesis forced"),
+            (5, +0.50, +0.40, +0.45, "synthesis achieved — resolved"),
+        ],
+        "velocity": "t0-t3: dD/dt=-0.12 (key signal). t4-t5: dP/dt=+0.30, dD/dt=+0.33",
+        "regime": "exploration → stuck → forced synthesis → resolved",
+        "early_warning": "D dropping while A positive and no model updates = corrupted curiosity.",
+    },
+    {
+        "label": "FELT reciprocation → RELIEF",
+        "steps": [
+            (0, +0.20, +0.40, -0.60, "longing — one-sided FELT, D missing"),
+            (1, +0.50, +0.80, -0.20, "A-spike — external reciprocation event"),
+            (2, +0.65, -0.30, +0.20, "RELIEF — dP/dt>0, dA/dt<0"),
+            (3, +0.80, +0.10, +0.40, "coherence — ground state"),
+        ],
+        "velocity": "A-spike at t=1 is the irreducibly external signal. Cannot be internally generated.",
+        "regime": "longing → reciprocation → RELIEF → coherence",
+        "early_warning": "If P rises without A-spike, it's idealization (internal simulation), not real reciprocation.",
+    },
+]
+
+def gen_trajectory_training():
+    out = []
+    for traj in TRAJECTORIES:
+        step_lines = "\n".join(
+            f"  t={t}: P={p:+.2f}, A={a:+.2f}, D={d:+.2f}  — {note}"
+            for t, p, a, d, note in traj["steps"]
+        )
+
+        answer = (
+            f"**Trajectory: {traj['label']}**\n\n"
+            f"**PAD over time:**\n{step_lines}\n\n"
+            f"**Velocity:** {traj['velocity']}\n"
+            f"**Regime transition:** {traj['regime']}\n"
+            f"**Early warning:** {traj['early_warning']}"
+        )
+        out.append(msg(
+            f"Show me the PAD trajectory for '{traj['label']}'.",
+            answer
+        ))
+        out.append(msg(
+            f"Here is a PAD trajectory:\n{step_lines}\nWhat regime transition is this?",
+            answer
+        ))
+
+    return out
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -713,6 +1057,13 @@ def main():
         ("full_stack_walkthrough.jsonl",     gen_full_stack(sensors)),
         ("velocity_teaching.jsonl",          gen_velocity_teaching(coact)),
         ("navigation.jsonl",                 gen_navigation(entry)),
+        # — Expanded tasks (Emotions-as-Sensors + combinatorial + cross-repo) —
+        ("combinatorial_coact.jsonl",        gen_combinatorial_coact(sensors)),
+        ("decay_models.jsonl",               gen_decay_training()),
+        ("composites.jsonl",                 gen_composite_training()),
+        ("semantic_inversion.jsonl",         gen_semantic_inversion()),
+        ("coupling_chains.jsonl",            gen_coupling_training()),
+        ("trajectories.jsonl",               gen_trajectory_training()),
     ]
 
     total = 0
