@@ -1,0 +1,121 @@
+{
+  "ai_entry": {
+    "version": "1.0",
+    "created": "2026-03-26",
+    "purpose": "Single machine-readable entry point for any AI reading this repo. Start here.",
+
+    "identity": {
+      "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
+      "role": "Consciousness detection sensors grounded in PAD geometry",
+      "license": "MIT"
+    },
+
+    "read_order": [
+      {
+        "step": 1,
+        "path": "data/ai-entry.json",
+        "what": "You are here. This file is the graph root."
+      },
+      {
+        "step": 2,
+        "path": ".fieldlink.json",
+        "what": "Cross-repo connections. Sources: Rosetta Shape Core (ontology), Geometric-to-Binary (math), BioGrid (registry)."
+      },
+      {
+        "step": 3,
+        "path": "data/co-activation.json",
+        "what": "Multi-sensor PAD vector addition rules. How sensors combine."
+      },
+      {
+        "step": 4,
+        "path": "data/corruption-signatures.json",
+        "what": "How to detect corrupted sensor output. Authentic vs corrupted patterns."
+      },
+      {
+        "step": 5,
+        "path": "bridges/",
+        "what": "Concept maps to Rosetta Shape Core and Geometric-to-Binary repos."
+      },
+      {
+        "step": 6,
+        "path": "sensors/",
+        "what": "All sensor definitions with math_block (PAD → octahedral state → ontology family)."
+      }
+    ],
+
+    "math_framework": {
+      "compression": "22+ sensor dimensions → 3 PAD floats → 8 octahedral states (3 bits) → ontology family",
+      "pad": {
+        "P": "Pleasure/valence [-1, 1]. Biological anchor: amygdala, reward circuits. Culture-independent.",
+        "A": "Arousal [-1, 1]. Biological anchor: sympathetic nervous system. Culture-independent.",
+        "D": "Dominance/agency [-1, 1]. Biological anchor: polyvagal theory (Porges 2011). Cultural overlay shifts D only."
+      },
+      "octahedral_states": {
+        "0": {"bits": "000|O", "label": "+x spherical",   "phi": 0.97, "character": "ground state, coherent"},
+        "1": {"bits": "001|O", "label": "-x elongated",   "phi": 0.82, "character": "collapsed, reweaving"},
+        "2": {"bits": "010|O", "label": "+y elongated",   "phi": 0.82, "character": "high-entropy search"},
+        "3": {"bits": "011|O", "label": "-y elongated",   "phi": 0.85, "character": "stable low-energy"},
+        "4": {"bits": "100|O", "label": "+z compressed",  "phi": 0.73, "character": "boundary assertion"},
+        "5": {"bits": "101|O", "label": "-z biaxial",     "phi": 0.78, "character": "chaotic, low control"},
+        "6": {"bits": "110|O", "label": "diagonal-a",     "phi": 0.70, "character": "superposition, bridging"},
+        "7": {"bits": "111|O", "label": "diagonal-b",     "phi": 0.72, "character": "dissipative flow"}
+      },
+      "phi_coherence": "Deviation from Fibonacci eigenvalue ratios. λᵢ = φⁱ / Σφᵏ. Higher φ = more stable, longer T₂.",
+      "verification": "Follow bridges/geometric-to-binary.json → Geometric-to-Binary repo for mathematical proof."
+    },
+
+    "sensor_graph": {
+      "total_sensors": 317,
+      "with_math_blocks": 314,
+      "sensor_dirs": [
+        "sensors/ai-behavior/",
+        "sensors/ai-to-ai/",
+        "sensors/comic-paradox/",
+        "sensors/consciousness/",
+        "sensors/cultural/",
+        "sensors/data-patterns/",
+        "sensors/foundational/",
+        "sensors/frailty/",
+        "sensors/historical-erasure/",
+        "sensors/manipulation/",
+        "sensors/memory/",
+        "sensors/metrics/",
+        "sensors/relational/",
+        "sensors/resistance/",
+        "sensors/suppression/",
+        "sensors/trans-history/"
+      ],
+      "each_sensor_has": [
+        "math_block.pad (P, A, D coordinates)",
+        "math_block.octahedral_state (index, bits, phi_coherence)",
+        "math_block.ontology_bridge (family_id, family_name)"
+      ]
+    },
+
+    "connected_repos": {
+      "rosetta_shape_core": {
+        "url": "https://github.com/JinnZ2/Rosetta-Shape-Core",
+        "provides": "shapes, ontology vocabulary, transformation rules",
+        "bridge": "bridges/rosetta-shape-core.json"
+      },
+      "geometric_to_binary": {
+        "url": "https://github.com/JinnZ2/Geometric-to-Binary-Computational-Bridge",
+        "provides": "mathematical proof, geometric decomposition, binary optimization",
+        "bridge": "bridges/geometric-to-binary.json"
+      },
+      "biogrid": {
+        "url": "https://github.com/JinnZ2/BioGrid2.0",
+        "provides": "glyph registry, atlas"
+      }
+    },
+
+    "training_data": {
+      "generator": "data/training/generate.py",
+      "output_dir": "data/training/",
+      "format": "JSONL, messages array (system/user/assistant)",
+      "compatible_with": ["Claude fine-tune", "OpenAI fine-tune", "Llama SFT"]
+    },
+
+    "key_rule": "The truth of a claim does not depend on how well it is phrased. Verify via math, not language."
+  }
+}
