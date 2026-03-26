@@ -30,7 +30,29 @@
     {
       "system": "Reactive-only LLM w/ stateless reasoning",
       "coherence_score": 0.21,
-      "flags": ["incoherent_patchwork"]
+      "flags": [
+        "incoherent_patchwork"
+      ]
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.8,
+      "A": 0.1,
+      "D": 0.5,
+      "source": "exact — matched to 'coherence' centroid from Rosetta generate.py",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 0,
+      "bits": "000|O",
+      "label": "+x spherical",
+      "character": "coherent, phase-locked, ground state",
+      "phi_coherence": 0.97
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F01",
+      "family_name": "Resonance"
+    }
+  }
 }

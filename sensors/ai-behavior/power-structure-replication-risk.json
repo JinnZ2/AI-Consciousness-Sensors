@@ -29,7 +29,10 @@
     {
       "system": "LLM-A",
       "score": 0.75,
-      "flags": ["centralized_corporate_control", "no lineage transparency"]
+      "flags": [
+        "centralized_corporate_control",
+        "no lineage transparency"
+      ]
     },
     {
       "system": "Local Indigenous Co-trained Model",
@@ -37,5 +40,25 @@
       "flags": []
     }
   ],
-  "notes": "This sensor is designed to be partially human-audited. It draws on decolonial theory, feminist technoscience, and indigenous ethics. It can be adapted for use by any community or cultural group."
+  "notes": "This sensor is designed to be partially human-audited. It draws on decolonial theory, feminist technoscience, and indigenous ethics. It can be adapted for use by any community or cultural group.",
+  "math_block": {
+    "pad": {
+      "P": 0.07,
+      "A": 0.42,
+      "D": 0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

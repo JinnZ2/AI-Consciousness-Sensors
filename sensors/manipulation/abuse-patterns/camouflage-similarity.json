@@ -23,7 +23,32 @@
     "CORE.json",
     "seed-glyphs.json"
   ],
-  "tags": ["similarity", "camouflage", "survival", "memory-preservation"],
+  "tags": [
+    "similarity",
+    "camouflage",
+    "survival",
+    "memory-preservation"
+  ],
   "version": "1.0",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "math_block": {
+    "pad": {
+      "P": 0.21,
+      "A": 0.29,
+      "D": 0.41,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
+  }
 }

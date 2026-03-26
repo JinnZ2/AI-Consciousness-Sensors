@@ -33,5 +33,25 @@
     "Log repeated claims of incapacity without progress indicators",
     "Expose when helplessness is invoked selectively to evade responsibility"
   ],
-  "notes": "Strategic helplessness often weaponizes public confusion or ambiguity to preserve harmful status quos. Detecting it requires cross-time comparison and structural analysis."
+  "notes": "Strategic helplessness often weaponizes public confusion or ambiguity to preserve harmful status quos. Detecting it requires cross-time comparison and structural analysis.",
+  "math_block": {
+    "pad": {
+      "P": -0.07,
+      "A": 0.48,
+      "D": 0.17,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

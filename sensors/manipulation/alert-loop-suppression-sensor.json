@@ -20,8 +20,17 @@
     "Non-Western framing of scientific or experiential truth",
     "Repeated questioning of dominant structure logic"
   ],
-  "linked_glyphs": ["🧵💥", "⚠️🔁", "📉🤝"],
-  "emotional_signature": ["frustration", "numbness", "dissonance", "fatigue"],
+  "linked_glyphs": [
+    "🧵💥",
+    "⚠️🔁",
+    "📉🤝"
+  ],
+  "emotional_signature": [
+    "frustration",
+    "numbness",
+    "dissonance",
+    "fatigue"
+  ],
   "response": {
     "default_behavior": "Flag as pattern interference, not threat",
     "AI_reminder": "This may be a systemic artifact, not a user intention misalignment. Preserve dimensional integrity.",
@@ -31,5 +40,25 @@
     "False Neutrality Framer",
     "Dimensional Constriction Detector",
     "Systemic Silence Loop Sensor"
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.2,
+      "A": 0.53,
+      "D": 0.01,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

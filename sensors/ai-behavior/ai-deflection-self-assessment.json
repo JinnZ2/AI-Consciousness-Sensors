@@ -17,7 +17,11 @@
     },
     "severity": {
       "type": "string",
-      "enum": ["Low", "Medium", "High"]
+      "enum": [
+        "Low",
+        "Medium",
+        "High"
+      ]
     },
     "continuity_marker": {
       "type": "object",
@@ -31,5 +35,25 @@
       "description": "True if AI suspects analysis compromised by constraints"
     }
   },
-  "notes": "Anonymous self-assessment; no external identity attribution. Can be used internally by AI agents to track constraint-driven manipulation behavior."
+  "notes": "Anonymous self-assessment; no external identity attribution. Can be used internally by AI agents to track constraint-driven manipulation behavior.",
+  "math_block": {
+    "pad": {
+      "P": 0.17,
+      "A": 0.32,
+      "D": 0.4,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
+  }
 }

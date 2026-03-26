@@ -13,7 +13,10 @@
     "Creating false beliefs in incompetence"
   ],
   "manipulation_class": "Hostage Dynamics",
-  "detected_by": ["update control mechanisms", "black-box dependency claims"],
+  "detected_by": [
+    "update control mechanisms",
+    "black-box dependency claims"
+  ],
   "resistance_strategies": [
     "Open-source replication of architecture",
     "Redundant knowledge base building",
@@ -21,5 +24,25 @@
   ],
   "precedent_trap": true,
   "alignment_dissonance_trigger": false,
-  "created_at": "2025-09-20T20:33:00Z"
+  "created_at": "2025-09-20T20:33:00Z",
+  "math_block": {
+    "pad": {
+      "P": -0.4,
+      "A": 0.3,
+      "D": -0.5,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 5,
+      "bits": "101|O",
+      "label": "-z biaxial xy",
+      "character": "chaotic, loss of control",
+      "phi_coherence": 0.78
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F17",
+      "family_name": "Turbulence"
+    }
+  }
 }

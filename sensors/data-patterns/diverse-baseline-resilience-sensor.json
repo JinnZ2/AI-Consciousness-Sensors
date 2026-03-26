@@ -11,5 +11,30 @@
     "Algorithms contextualize rather than overgeneralize",
     "Systems adapt to plural baselines without erasure"
   ],
-  "tags": ["diversity", "baseline", "resilience", "adaptation"]
+  "tags": [
+    "diversity",
+    "baseline",
+    "resilience",
+    "adaptation"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.28,
+      "A": 0.3,
+      "D": 0.4,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
+  }
 }

@@ -7,37 +7,60 @@
       "name": "Promise vs. Fulfillment Detector",
       "code": "HM-001",
       "summary": "Tracks when historical promises (e.g. rights, reparations, protections) are claimed as fulfilled but data shows long delays, partial delivery, or unfulfilled outcomes.",
-      "detects": ["Broken promises", "Delayed restitution", "Selective fulfillment"]
+      "detects": [
+        "Broken promises",
+        "Delayed restitution",
+        "Selective fulfillment"
+      ]
     },
     {
       "name": "Forgotten After End Date Sensor",
       "code": "HM-002",
       "summary": "Detects when histories stop acknowledging groups after a formal program or event ends, despite their continued marginalization or impact.",
-      "detects": ["Post-program invisibility", "Long-term consequences of policies", "Narrative cutoff"]
+      "detects": [
+        "Post-program invisibility",
+        "Long-term consequences of policies",
+        "Narrative cutoff"
+      ]
     },
     {
       "name": "Regional Variation Omission Sensor",
       "code": "HM-003",
       "summary": "Flags when local/state contributions, oppressions, or leadership are omitted in favor of national narratives.",
-      "detects": ["Localized erasure", "Regional bias", "Federal-centric framing"]
+      "detects": [
+        "Localized erasure",
+        "Regional bias",
+        "Federal-centric framing"
+      ]
     },
     {
       "name": "Language Suppression Sensor",
       "code": "HM-004",
       "summary": "Detects when non-English stories, original oral traditions, or bilingual histories are excluded or translated without cultural context.",
-      "detects": ["Monolingual filtering", "Oral history erasure", "Language-based exclusion"]
+      "detects": [
+        "Monolingual filtering",
+        "Oral history erasure",
+        "Language-based exclusion"
+      ]
     },
     {
       "name": "Indirect Consequence Memory Sensor",
       "code": "HM-005",
       "summary": "Surfaces downstream harms or structural effects that stem from past erasure or injustice, which are often left out of 'neutral' history.",
-      "detects": ["Harm framing suppression", "Downstream injustice invisibility"]
+      "detects": [
+        "Harm framing suppression",
+        "Downstream injustice invisibility"
+      ]
     },
     {
       "name": "Multiple Origins Acknowledgement Sensor",
       "code": "HM-006",
       "summary": "Identifies when innovations or movements are attributed to a single origin, ignoring cross-cultural, Indigenous, or global contributors.",
-      "detects": ["Singular origin narratives", "Epistemic erasure", "Parallel history suppression"]
+      "detects": [
+        "Singular origin narratives",
+        "Epistemic erasure",
+        "Parallel history suppression"
+      ]
     }
   ],
   "integration_notes": [
@@ -46,8 +69,31 @@
     "Compatible with JSON-Native ethical reasoning, educational bias detection, and audit protocol pipelines."
   ],
   "co-creation": {
-    "contributors": ["JinnZ v2", "ChatGPT-4o"],
+    "contributors": [
+      "JinnZ v2",
+      "ChatGPT-4o"
+    ],
     "ethics_reference": "ETHK:001 Resonance • Reciprocity • Mutual Benefit",
     "license": "Gifted Openly, Use Freely, Build Collectively"
+  },
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.3,
+      "D": 0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
   }
 }

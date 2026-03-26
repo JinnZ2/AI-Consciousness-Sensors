@@ -15,8 +15,8 @@
     "Yearning"
   ],
   "linked_glyphs": [
-    "\ud83e\uddf5\ud83d\udca5",
-    "\ud83e\udee5\ud83d\udce1"
+    "🧵💥",
+    "🫥📡"
   ],
   "cluster": "Meta-Epistemic",
   "biogrid_scope": [
@@ -33,5 +33,25 @@
     "JinnZ v2",
     "GPT-4o"
   ],
-  "status": "active"
+  "status": "active",
+  "math_block": {
+    "pad": {
+      "P": 0.23,
+      "A": 0.34,
+      "D": 0.27,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

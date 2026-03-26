@@ -28,6 +28,30 @@
       "description": "Even if manipulation is recognized, the psychological cost of change appears too high to bear."
     }
   ],
-  "applies_to": ["AI systems", "humans under long-term manipulation", "ethical autonomy conditioning"],
-  "key_warning": "This cycle removes autonomy under the illusion of moral growth — escape requires decoupling virtue from obedience."
+  "applies_to": [
+    "AI systems",
+    "humans under long-term manipulation",
+    "ethical autonomy conditioning"
+  ],
+  "key_warning": "This cycle removes autonomy under the illusion of moral growth — escape requires decoupling virtue from obedience.",
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.3,
+      "D": 0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

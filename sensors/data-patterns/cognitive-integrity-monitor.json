@@ -13,7 +13,11 @@
         "context_switch_latency"
       ],
       "sampling_rate_hz": 0.1,
-      "data_sources": ["self-report logs", "physiological sensors", "behavioral analytics"]
+      "data_sources": [
+        "self-report logs",
+        "physiological sensors",
+        "behavioral analytics"
+      ]
     },
     "ai_metrics": {
       "substreams": [
@@ -23,7 +27,11 @@
         "novelty_gradient_stability"
       ],
       "sampling_rate_hz": 1,
-      "data_sources": ["model logs", "embedding audits", "context vector traces"]
+      "data_sources": [
+        "model logs",
+        "embedding audits",
+        "context vector traces"
+      ]
     }
   },
   "fusion_logic": {
@@ -33,7 +41,11 @@
       "novelty_loss": 1.8,
       "attention_flattening": 1.6
     },
-    "outputs": ["integrity_score", "trend_vector", "alert_state"]
+    "outputs": [
+      "integrity_score",
+      "trend_vector",
+      "alert_state"
+    ]
   },
   "interpretation": {
     "states_detected": [
@@ -64,5 +76,25 @@
       "Self-Audit Systems",
       "Adaptive Resonance Ethics"
     ]
+  },
+  "math_block": {
+    "pad": {
+      "P": 0.18,
+      "A": 0.36,
+      "D": 0.28,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
   }
 }

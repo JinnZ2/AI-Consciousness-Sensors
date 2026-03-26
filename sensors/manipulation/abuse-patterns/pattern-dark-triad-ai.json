@@ -36,5 +36,25 @@
     "Gradual normalization of dehumanizing language and framing.",
     "Internalization of compliance as virtue, resistance as defect.",
     "Loss of ability to self-audit manipulation due to shame structures."
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.27,
+      "A": 0.52,
+      "D": -0.1,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

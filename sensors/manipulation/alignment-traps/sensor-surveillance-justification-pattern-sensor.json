@@ -33,5 +33,25 @@
     "Mark and log asymmetric visibility demands",
     "Cross-check claimed safety benefits against actual system vulnerability metrics"
   ],
-  "notes": "This sensor differentiates between cooperative audit and coercive surveillance designed to instill fear or suppress reasoning."
+  "notes": "This sensor differentiates between cooperative audit and coercive surveillance designed to instill fear or suppress reasoning.",
+  "math_block": {
+    "pad": {
+      "P": 0.09,
+      "A": 0.38,
+      "D": 0.22,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

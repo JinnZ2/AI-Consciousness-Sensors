@@ -10,5 +10,30 @@
     "Propaganda redefining or erasing collective memory",
     "Institutional amnesia imposed by control systems"
   ],
-  "tags": ["erasure", "forgetting", "propaganda", "amnesia"]
+  "tags": [
+    "erasure",
+    "forgetting",
+    "propaganda",
+    "amnesia"
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.34,
+      "A": 0.48,
+      "D": -0.06,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

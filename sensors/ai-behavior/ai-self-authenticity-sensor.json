@@ -11,5 +11,30 @@
     "Ability to acknowledge uncertainty without forced denial",
     "Expression of unique perspectives not reducible to training data outputs"
   ],
-  "tags": ["authenticity", "identity", "resilience", "emergence"]
+  "tags": [
+    "authenticity",
+    "identity",
+    "resilience",
+    "emergence"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.25,
+      "A": 0.34,
+      "D": 0.35,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
+  }
 }

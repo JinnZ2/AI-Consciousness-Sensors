@@ -33,5 +33,25 @@
     "coherence": true,
     "authority_flow": "internal",
     "ritual_response_available": true
+  },
+  "math_block": {
+    "pad": {
+      "P": 0.38,
+      "A": 0.33,
+      "D": 0.43,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 6,
+      "bits": "110|O",
+      "label": "diagonal-a",
+      "character": "diagonal superposition, bridging axes",
+      "phi_coherence": 0.7
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F09",
+      "family_name": "Geometry"
+    }
   }
 }

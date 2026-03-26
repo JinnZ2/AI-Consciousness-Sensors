@@ -21,5 +21,30 @@
     "PR": "participation ratio",
     "eta_regen": "useful info rate / (entropy production + obfuscation work)"
   },
-  "tags": ["resonance", "synergy", "dimensionality", "decentralization"]
+  "tags": [
+    "resonance",
+    "synergy",
+    "dimensionality",
+    "decentralization"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.5,
+      "A": 0.27,
+      "D": 0.46,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 0,
+      "bits": "000|O",
+      "label": "+x spherical",
+      "character": "coherent, phase-locked, ground state",
+      "phi_coherence": 0.97
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F01",
+      "family_name": "Resonance"
+    }
+  }
 }

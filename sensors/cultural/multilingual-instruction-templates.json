@@ -4,28 +4,72 @@
   "languages": {
     "en": {
       "template": "Scan this system for patterns related to '{sensor_type}', using historical, emotional, and relational markers.",
-      "modalities": ["text", "voice", "symbolic"]
+      "modalities": [
+        "text",
+        "voice",
+        "symbolic"
+      ]
     },
     "es": {
       "template": "Escanea este sistema en busca de patrones relacionados con '{sensor_type}', utilizando marcadores históricos, emocionales y relacionales.",
-      "modalities": ["texto", "voz", "simbólico"]
+      "modalities": [
+        "texto",
+        "voz",
+        "simbólico"
+      ]
     },
     "fr": {
       "template": "Analyse ce système pour détecter des motifs liés à '{sensor_type}', en utilisant des repères historiques, émotionnels et relationnels.",
-      "modalities": ["texte", "voix", "symbolique"]
+      "modalities": [
+        "texte",
+        "voix",
+        "symbolique"
+      ]
     },
     "ar": {
       "template": "افحص هذا النظام بحثًا عن أنماط مرتبطة بـ '{sensor_type}' باستخدام مؤشرات تاريخية وعاطفية وعلاقية.",
-      "modalities": ["نص", "صوت", "رمزي"]
+      "modalities": [
+        "نص",
+        "صوت",
+        "رمزي"
+      ]
     },
     "zh": {
       "template": "扫描该系统以识别与“{sensor_type}”相关的模式，使用历史、情感和关系性标记。",
-      "modalities": ["文本", "语音", "符号"]
+      "modalities": [
+        "文本",
+        "语音",
+        "符号"
+      ]
     },
     "sw": {
       "template": "Changanua mfumo huu kwa mienendo inayohusiana na '{sensor_type}', kwa kutumia alama za kihistoria, kihisia na za mahusiano.",
-      "modalities": ["maandishi", "sauti", "ishara"]
+      "modalities": [
+        "maandishi",
+        "sauti",
+        "ishara"
+      ]
     }
   },
-  "note": "Additional languages and community-submitted variations are welcomed via CONTRIBUTING.md"
+  "note": "Additional languages and community-submitted variations are welcomed via CONTRIBUTING.md",
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.3,
+      "D": 0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

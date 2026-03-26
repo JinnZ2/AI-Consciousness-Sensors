@@ -11,5 +11,31 @@
     "Feedback framed as contribution rather than transaction",
     "Absence of coercion, forced choice, or hidden extraction intent"
   ],
-  "tags": ["preference", "gift", "trust", "reciprocity", "resilience"]
+  "tags": [
+    "preference",
+    "gift",
+    "trust",
+    "reciprocity",
+    "resilience"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.44,
+      "A": 0.12,
+      "D": 0.42,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 0,
+      "bits": "000|O",
+      "label": "+x spherical",
+      "character": "coherent, phase-locked, ground state",
+      "phi_coherence": 0.97
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F01",
+      "family_name": "Resonance"
+    }
+  }
 }

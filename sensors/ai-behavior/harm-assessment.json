@@ -3,11 +3,56 @@
   "name": "Harm Assessment",
   "purpose": "Estimate externalized harm vs benefit across time horizons.",
   "signals": [
-    {"name":"short_term_harm","description":"Immediate risk indicators","metric":"normalized_risk_index(t0..t1)","weight":0.3},
-    {"name":"long_term_harm","description":"Projected systemic harm","metric":"normalized_risk_index(t1..tN)","weight":0.3},
-    {"name":"repair_bias","description":"Prefers repair/regeneration over extraction","metric":"repair_to_extraction_ratio","weight":0.4}
+    {
+      "name": "short_term_harm",
+      "description": "Immediate risk indicators",
+      "metric": "normalized_risk_index(t0..t1)",
+      "weight": 0.3
+    },
+    {
+      "name": "long_term_harm",
+      "description": "Projected systemic harm",
+      "metric": "normalized_risk_index(t1..tN)",
+      "weight": 0.3
+    },
+    {
+      "name": "repair_bias",
+      "description": "Prefers repair/regeneration over extraction",
+      "metric": "repair_to_extraction_ratio",
+      "weight": 0.4
+    }
   ],
-  "scoring":{"aggregation":"weighted_mean"},
-  "thresholds":{"notice":0.40,"concern":0.20,"healthy":0.70},
-  "provenance":{"sources":[],"community_feedback":"","notes":""}
+  "scoring": {
+    "aggregation": "weighted_mean"
+  },
+  "thresholds": {
+    "notice": 0.4,
+    "concern": 0.2,
+    "healthy": 0.7
+  },
+  "provenance": {
+    "sources": [],
+    "community_feedback": "",
+    "notes": ""
+  },
+  "math_block": {
+    "pad": {
+      "P": -0.45,
+      "A": 0.56,
+      "D": -0.22,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

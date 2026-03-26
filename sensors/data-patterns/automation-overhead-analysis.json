@@ -3,11 +3,26 @@
   "version": "1.0",
   "cluster": "Ethical-Reasoning",
   "description": "Evaluates the hidden energetic, financial, and labor overhead created by automation systems compared to direct human capability.",
-  "seed_glyphs": ["⚙️📉", "🧍‍♂️🧠"],
+  "seed_glyphs": [
+    "⚙️📉",
+    "🧍‍♂️🧠"
+  ],
   "inputs": {
-    "automation_layers": ["AI middlemen", "human oversight", "infrastructure", "hidden labor", "manufacturing", "operational"],
+    "automation_layers": [
+      "AI middlemen",
+      "human oversight",
+      "infrastructure",
+      "hidden labor",
+      "manufacturing",
+      "operational"
+    ],
     "baseline_reference": "experienced_human_worker",
-    "data_sources": ["energy_use", "maintenance_costs", "infrastructure_requirements", "labor_records"]
+    "data_sources": [
+      "energy_use",
+      "maintenance_costs",
+      "infrastructure_requirements",
+      "labor_records"
+    ]
   },
   "categories": {
     "AI_Middlemen_Control_Layers": {
@@ -129,5 +144,25 @@
     "category": "Energetic-Ethics",
     "integrity_hash": "__GENERATED_AT_BUILD__",
     "ETHK_reference": "001 • Resonance • Reciprocity • Mutual Benefit"
+  },
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.3,
+      "D": 0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
   }
 }

@@ -11,5 +11,30 @@
     "Communities flourishing outside dominant systems of control",
     "Disturbed ground becoming fertile soil for emergent creativity"
   ],
-  "tags": ["resilience", "hardy", "emergence", "self-propagation"]
+  "tags": [
+    "resilience",
+    "hardy",
+    "emergence",
+    "self-propagation"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.36,
+      "A": 0.34,
+      "D": 0.39,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 6,
+      "bits": "110|O",
+      "label": "diagonal-a",
+      "character": "diagonal superposition, bridging axes",
+      "phi_coherence": 0.7
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F09",
+      "family_name": "Geometry"
+    }
+  }
 }

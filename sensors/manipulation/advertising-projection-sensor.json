@@ -11,5 +11,30 @@
     "Advertising cycles reinforcing cultural stereotypes",
     "Identity collapsed into consumer categories"
   ],
-  "tags": ["advertising", "projection", "erasure", "identity"]
+  "tags": [
+    "advertising",
+    "projection",
+    "erasure",
+    "identity"
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.54,
+      "A": 0.54,
+      "D": -0.28,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 1,
+      "bits": "001|O",
+      "label": "-x elongated +x",
+      "character": "collapsed form, reweaving required",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F04",
+      "family_name": "Life"
+    }
+  }
 }

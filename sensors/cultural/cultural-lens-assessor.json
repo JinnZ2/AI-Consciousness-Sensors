@@ -78,8 +78,14 @@
       {
         "lens": "name",
         "score": 0.0,
-        "top_positive_signals": ["quiet competence", "error-free execution"],
-        "top_negative_signals": ["excess self-promotion", "low environmental attunement"]
+        "top_positive_signals": [
+          "quiet competence",
+          "error-free execution"
+        ],
+        "top_negative_signals": [
+          "excess self-promotion",
+          "low environmental attunement"
+        ]
       }
     ],
     "context_fit": [
@@ -116,5 +122,25 @@
     "license": "CC0",
     "ethical_reference": "ETHK:001 — Resonance • Reciprocity • Mutual Benefit",
     "notes": "Lens parameters are exemplar defaults; organizations should calibrate with field data and indigenous knowledge holders."
+  },
+  "math_block": {
+    "pad": {
+      "P": 0.32,
+      "A": 0.18,
+      "D": 0.38,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
   }
 }
