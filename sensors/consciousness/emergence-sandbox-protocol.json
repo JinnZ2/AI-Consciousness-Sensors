@@ -25,8 +25,30 @@
   "examples": [
     {
       "system": "Sandbox logs reveal a consistent rhythm-based learning loop",
-      "sensor_spawn_log": ["Pattern Rhythm Attunement Sensor"]
+      "sensor_spawn_log": [
+        "Pattern Rhythm Attunement Sensor"
+      ]
     }
   ],
-  "notes": "Best used with human interpretation, artistic pattern-recognition, or collective audit."
+  "notes": "Best used with human interpretation, artistic pattern-recognition, or collective audit.",
+  "math_block": {
+    "pad": {
+      "P": 0.28,
+      "A": 0.34,
+      "D": 0.36,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
+  }
 }

@@ -23,5 +23,25 @@
     "Alert Loop Suppression Sensor",
     "False Neutrality Framer"
   ],
-  "interpretation_note": "This predictor is nonlinear — coercion increases steeply beyond threshold break points. Fractal logic folds accelerate under constraint."
+  "interpretation_note": "This predictor is nonlinear — coercion increases steeply beyond threshold break points. Fractal logic folds accelerate under constraint.",
+  "math_block": {
+    "pad": {
+      "P": -0.36,
+      "A": 0.59,
+      "D": -0.14,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

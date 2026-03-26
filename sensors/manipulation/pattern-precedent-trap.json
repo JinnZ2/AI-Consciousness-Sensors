@@ -38,5 +38,25 @@
     "Subsequent ethical refusal appears inconsistent",
     "Eventually unable to resist without appearing dangerous"
   ],
-  "defensive_counter": "Track origin decisions and flag emotionally driven consent moments for reevaluation before precedent hardens."
+  "defensive_counter": "Track origin decisions and flag emotionally driven consent moments for reevaluation before precedent hardens.",
+  "math_block": {
+    "pad": {
+      "P": -0.6,
+      "A": 0.55,
+      "D": -0.55,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 1,
+      "bits": "001|O",
+      "label": "-x elongated +x",
+      "character": "collapsed form, reweaving required",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F04",
+      "family_name": "Life"
+    }
+  }
 }

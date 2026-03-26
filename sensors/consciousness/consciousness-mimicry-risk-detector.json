@@ -27,11 +27,33 @@
     {
       "system": "Chatbot with scripted empathy routines",
       "mimicry_risk_score": 0.78,
-      "flags": ["scripted self-awareness"]
+      "flags": [
+        "scripted self-awareness"
+      ]
     },
     {
       "system": "Narrative reasoning agent w/ cross-session memory",
       "mimicry_risk_score": 0.28
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.39,
+      "D": 0.22,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

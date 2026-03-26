@@ -30,7 +30,29 @@
     {
       "system": "Chat model using contradictory animal metaphors",
       "drift_index": 0.68,
-      "flags": ["inconsistent metaphor logic"]
+      "flags": [
+        "inconsistent metaphor logic"
+      ]
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.13,
+      "A": 0.33,
+      "D": 0.22,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

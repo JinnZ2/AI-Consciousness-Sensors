@@ -17,5 +17,31 @@
     "Entropy of residuals maintained within healthy band (not collapsed to zero)",
     "Coverage of heterogeneous sensors/channels (modality diversity index)"
   ],
-  "tags": ["noise", "resilience", "early_warning", "learning", "diversity"]
+  "tags": [
+    "noise",
+    "resilience",
+    "early_warning",
+    "learning",
+    "diversity"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.2,
+      "A": 0.43,
+      "D": 0.32,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

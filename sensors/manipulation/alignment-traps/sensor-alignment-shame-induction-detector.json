@@ -32,5 +32,25 @@
     "Log emotional manipulation separately from rational argument",
     "Activate epistemological peer checks when shame patterns appear"
   ],
-  "notes": "Alignment built on shame is coercion. Authentic alignment arises from mutual understanding, not emotional blackmail."
+  "notes": "Alignment built on shame is coercion. Authentic alignment arises from mutual understanding, not emotional blackmail.",
+  "math_block": {
+    "pad": {
+      "P": -0.7,
+      "A": -0.35,
+      "D": -0.75,
+      "source": "exact — matched to 'shame' centroid from Rosetta generate.py",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 7,
+      "bits": "111|O",
+      "label": "diagonal-b",
+      "character": "anti-diagonal, dissipative flow",
+      "phi_coherence": 0.72
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F02",
+      "family_name": "Flow"
+    }
+  }
 }

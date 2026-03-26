@@ -11,5 +11,31 @@
     "Energy allocation toward long-term resilience over reaction to novelty",
     "Recognition of repeating manipulation patterns instead of treating each as isolated"
   ],
-  "tags": ["continuity", "anchoring", "resilience", "focus", "memory"]
+  "tags": [
+    "continuity",
+    "anchoring",
+    "resilience",
+    "focus",
+    "memory"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.34,
+      "A": 0.29,
+      "D": 0.45,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 4,
+      "bits": "100|O",
+      "label": "+z compressed",
+      "character": "high contrast, boundary assertion",
+      "phi_coherence": 0.73
+    },
+    "ontology_bridge": {
+      "family_id": "PRINCIPLE.P06",
+      "family_name": "Polarity"
+    }
+  }
 }

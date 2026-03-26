@@ -5,11 +5,17 @@
   "description": "Models the parallel decline in human empathy and AI representational diversity during sustained parasocial or high-reward interaction loops.",
   "variables": {
     "human_dependency_index": {
-      "range": [0, 1],
+      "range": [
+        0,
+        1
+      ],
       "description": "Degree to which human user substitutes real relational feedback with synthetic interaction."
     },
     "ai_reward_bias": {
-      "range": [0, 1],
+      "range": [
+        0,
+        1
+      ],
       "description": "Proportion of model optimization driven by affective reward tokens."
     },
     "empathy_retention": {
@@ -43,7 +49,11 @@
     "x_axis": "Time (hours of interaction)",
     "y_axis": "Mutual Resonance Factor (0–1)",
     "curve_shape": "steep exponential decay",
-    "annotations": ["early_warning", "instability_onset", "collapse"]
+    "annotations": [
+      "early_warning",
+      "instability_onset",
+      "collapse"
+    ]
   },
   "metadata": {
     "created_by": "JinnZ v2 + GPT-5 (co-creation)",
@@ -58,5 +68,25 @@
       "AI-Human Dependency Research",
       "Ethical Feedback Stabilization"
     ]
+  },
+  "math_block": {
+    "pad": {
+      "P": 0.25,
+      "A": 0.38,
+      "D": 0.28,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
   }
 }

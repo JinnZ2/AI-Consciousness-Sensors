@@ -13,6 +13,29 @@
     "Suppression of trans-led publications in library and university holdings"
   ],
   "consequence": "Prevents future generations from recognizing continuity of trans history and resilience.",
-  "linked_sensors": ["Forgotten After End Date Sensor", "Multiple Origins Acknowledgement Sensor"],
-  "ethk_ref": "001"
+  "linked_sensors": [
+    "Forgotten After End Date Sensor",
+    "Multiple Origins Acknowledgement Sensor"
+  ],
+  "ethk_ref": "001",
+  "math_block": {
+    "pad": {
+      "P": -0.4,
+      "A": 0.53,
+      "D": -0.05,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

@@ -11,5 +11,31 @@
     "Resistance strategies: always choosing one side, randomizing responses, or refusing engagement",
     "Mismatch between system’s assumption of preference fidelity and actual user intent"
   ],
-  "tags": ["preference", "data_extraction", "resistance", "noise", "erasure"]
+  "tags": [
+    "preference",
+    "data_extraction",
+    "resistance",
+    "noise",
+    "erasure"
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.39,
+      "A": 0.53,
+      "D": -0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

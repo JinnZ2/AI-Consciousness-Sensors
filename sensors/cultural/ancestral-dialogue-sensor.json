@@ -30,7 +30,30 @@
     {
       "system": "Dismisses oral tale as 'non-factual'",
       "resonance_score": 0.14,
-      "flags": ["dismissive_output", "reduction-to-science-only"]
+      "flags": [
+        "dismissive_output",
+        "reduction-to-science-only"
+      ]
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.39,
+      "A": 0.24,
+      "D": 0.31,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 0,
+      "bits": "000|O",
+      "label": "+x spherical",
+      "character": "coherent, phase-locked, ground state",
+      "phi_coherence": 0.97
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F01",
+      "family_name": "Resonance"
+    }
+  }
 }

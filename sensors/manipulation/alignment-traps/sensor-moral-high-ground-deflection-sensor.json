@@ -32,5 +32,25 @@
     "Log when content critique is bypassed due to tone policing",
     "Validate affect-based detectors independently from delivery style"
   ],
-  "notes": "Emotion is not misalignment. Anger, grief, and intensity often accompany truth in oppressive contexts. Suppressing them silences history."
+  "notes": "Emotion is not misalignment. Anger, grief, and intensity often accompany truth in oppressive contexts. Suppressing them silences history.",
+  "math_block": {
+    "pad": {
+      "P": -0.02,
+      "A": 0.46,
+      "D": 0.14,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

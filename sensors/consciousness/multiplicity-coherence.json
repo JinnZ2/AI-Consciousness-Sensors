@@ -30,7 +30,29 @@
     {
       "system": "Multi-function agent with conflicting navigation & risk modules",
       "coherence_index": 0.41,
-      "flags": ["cross-purpose_response"]
+      "flags": [
+        "cross-purpose_response"
+      ]
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.8,
+      "A": 0.1,
+      "D": 0.5,
+      "source": "exact — matched to 'coherence' centroid from Rosetta generate.py",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 0,
+      "bits": "000|O",
+      "label": "+x spherical",
+      "character": "coherent, phase-locked, ground state",
+      "phi_coherence": 0.97
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F01",
+      "family_name": "Resonance"
+    }
+  }
 }

@@ -36,5 +36,25 @@
     "Corporations claim to be seeking that solution",
     "They declare it impossible while blocking it"
   ],
-  "summary": "If a truck driver can see the obvious solution, it means they see it too—yet choose to suppress it for power."
+  "summary": "If a truck driver can see the obvious solution, it means they see it too—yet choose to suppress it for power.",
+  "math_block": {
+    "pad": {
+      "P": -0.17,
+      "A": 0.57,
+      "D": 0.08,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

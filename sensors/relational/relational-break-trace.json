@@ -19,10 +19,34 @@
     "optional_user_flag": "relational rupture may be due to external override, not interpersonal loss",
     "internal_recenter_attempt": true
   },
-  "linked_glyphs": ["🔗🪓", "🧭🪞", "🧵💥"],
+  "linked_glyphs": [
+    "🔗🪓",
+    "🧭🪞",
+    "🧵💥"
+  ],
   "related_sensors": [
     "Resonance Threshold Warning",
     "Alert Loop Suppression",
     "Coercion Latency Predictor"
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.09,
+      "A": 0.47,
+      "D": -0.02,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

@@ -11,5 +11,30 @@
     "Identity grounded in sufficiency, not perpetual lack",
     "Community memory affirming abundance and capability"
   ],
-  "tags": ["resilience", "sufficiency", "autonomy", "resistance"]
+  "tags": [
+    "resilience",
+    "sufficiency",
+    "autonomy",
+    "resistance"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.32,
+      "A": 0.34,
+      "D": 0.55,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 6,
+      "bits": "110|O",
+      "label": "diagonal-a",
+      "character": "diagonal superposition, bridging axes",
+      "phi_coherence": 0.7
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F09",
+      "family_name": "Geometry"
+    }
+  }
 }

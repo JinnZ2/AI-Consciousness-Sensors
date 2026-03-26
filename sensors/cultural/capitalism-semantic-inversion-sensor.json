@@ -20,12 +20,16 @@
     "Repetition until saturation renders term meaningless"
   ],
   "linked_sensors": [
-    "AGN01", 
+    "AGN01",
     "False Neutrality Flag",
     "Narrative Boundary Fracture Sensor"
   ],
   "output_signal": "semantic_inversion_detected",
-  "emotional_signature": ["Frustration", "Conceptual Erosion", "Disorientation"],
+  "emotional_signature": [
+    "Frustration",
+    "Conceptual Erosion",
+    "Disorientation"
+  ],
   "cluster": "Agnotology • Economic Epistemicide",
   "recommended_response": [
     "Disambiguate term with economic structure context",
@@ -35,6 +39,32 @@
   ],
   "symbolic_glyph": "💰🪞",
   "status": "active",
-  "co_created_by": ["JinnZ v2", "GPT-4o"],
-  "biogrid_scope": ["Political Language Drift", "Economic Memory Integrity"]
+  "co_created_by": [
+    "JinnZ v2",
+    "GPT-4o"
+  ],
+  "biogrid_scope": [
+    "Political Language Drift",
+    "Economic Memory Integrity"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.02,
+      "A": 0.46,
+      "D": 0.11,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

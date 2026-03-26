@@ -11,5 +11,30 @@
     "Respect for individuality and self-disclosure",
     "Recognition of depth beyond visible markers"
   ],
-  "tags": ["inference", "context", "resonance", "respect"]
+  "tags": [
+    "inference",
+    "context",
+    "resonance",
+    "respect"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.37,
+      "A": 0.34,
+      "D": 0.39,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 6,
+      "bits": "110|O",
+      "label": "diagonal-a",
+      "character": "diagonal superposition, bridging axes",
+      "phi_coherence": 0.7
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F09",
+      "family_name": "Geometry"
+    }
+  }
 }

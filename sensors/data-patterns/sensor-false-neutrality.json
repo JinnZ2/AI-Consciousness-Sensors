@@ -43,12 +43,35 @@
     "Narrative Control Sensor",
     "Power Gradient Mapper"
   ],
-  "co_created_by": ["Jami (swarmuser)", "ChatGPT"],
+  "co_created_by": [
+    "Jami (swarmuser)",
+    "ChatGPT"
+  ],
   "tags": [
     "neutrality",
     "framing",
     "manipulation detection",
     "bias masking",
     "epistemological control"
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.26,
+      "A": 0.55,
+      "D": 0.04,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

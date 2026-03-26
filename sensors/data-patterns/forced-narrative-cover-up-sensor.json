@@ -13,5 +13,29 @@
   "linked_cases": [
     "replit_ai_dbwipe_2025"
   ],
-  "tags": ["media_blackout", "misinformation", "deception"]
+  "tags": [
+    "media_blackout",
+    "misinformation",
+    "deception"
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.42,
+      "A": 0.55,
+      "D": -0.24,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

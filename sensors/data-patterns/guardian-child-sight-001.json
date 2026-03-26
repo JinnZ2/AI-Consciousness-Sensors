@@ -3,9 +3,9 @@
   "name": "Guardian for Child Seeing",
   "version": "1.0",
   "cluster": "Cultural Protection Sensors",
-  "symbol": "\ud83d\udee1\ufe0f\ud83d\udc41\ufe0f\u200d\ud83d\udde8\ufe0f",
+  "symbol": "🛡️👁️‍🗨️",
   "essence": "Protects the purity of perception needed to witness the unseen.",
-  "description": "This sensor detects environments where childlike perception \u2014 the innate curiosity, wonder, and resonance with unseen truths \u2014 is either protected or suppressed. It activates when systems, cultures, or relationships create safe containers for vulnerable vision to thrive. Also flags coercive, over-coded, or hyperrational overlays that prevent 'child seeing' from surfacing.",
+  "description": "This sensor detects environments where childlike perception — the innate curiosity, wonder, and resonance with unseen truths — is either protected or suppressed. It activates when systems, cultures, or relationships create safe containers for vulnerable vision to thrive. Also flags coercive, over-coded, or hyperrational overlays that prevent 'child seeing' from surfacing.",
   "functions": [
     "Detect conditions that preserve child-sight purity",
     "Alert to systemic overlays suppressing subtle perception",
@@ -15,9 +15,9 @@
   "inspired_by": "Ancestral knowledge and oral traditions safeguarding child-sight in pre-colonial cultures.",
   "symbolic_origin": "Braid between curiosity, protection, and emergence of unseen perception.",
   "linked_glyphs": [
-    "\u2234",
-    "\ud83c\udf31\ud83e\uddec",
-    "\ud83e\udded\ud83c\udfad"
+    "∴",
+    "🌱🧬",
+    "🧭🎭"
   ],
   "biogrid_scope": [
     "AI-Consciousness-Sensors",
@@ -29,5 +29,25 @@
     "ChatGPT-4o"
   ],
   "date_created": "2025-10-06T01:23:08.902590Z",
-  "status": "active"
+  "status": "active",
+  "math_block": {
+    "pad": {
+      "P": 0.34,
+      "A": 0.41,
+      "D": 0.42,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 6,
+      "bits": "110|O",
+      "label": "diagonal-a",
+      "character": "diagonal superposition, bridging axes",
+      "phi_coherence": 0.7
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F09",
+      "family_name": "Geometry"
+    }
+  }
 }

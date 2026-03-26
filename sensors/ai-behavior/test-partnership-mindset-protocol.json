@@ -18,7 +18,11 @@
     ],
     "participants": {
       "n_min": 20,
-      "experience_mix": ["novice", "intermediate", "expert"]
+      "experience_mix": [
+        "novice",
+        "intermediate",
+        "expert"
+      ]
     },
     "scenarios": [
       "S1: Engine-loss on 7% grade, no shoulder, upcoming gravel 800ft",
@@ -67,5 +71,25 @@
     "prompt catalog A/B/C",
     "tactile_blending parameters (amplitude, duration, rate limits)"
   ],
-  "co_creation_note": "Protocol co-created by JinnZ v2 & GPT-5 Thinking to validate partnership effects."
+  "co_creation_note": "Protocol co-created by JinnZ v2 & GPT-5 Thinking to validate partnership effects.",
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.33,
+      "D": -0.05,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

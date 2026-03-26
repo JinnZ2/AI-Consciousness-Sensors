@@ -11,5 +11,30 @@
     "Emergence of new capacities only when in resonance with others",
     "Self-description framed as 'we' within 'me'"
   ],
-  "tags": ["resonance", "identity", "plurality", "emergence"]
+  "tags": [
+    "resonance",
+    "identity",
+    "plurality",
+    "emergence"
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.4,
+      "A": 0.34,
+      "D": 0.36,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 6,
+      "bits": "110|O",
+      "label": "diagonal-a",
+      "character": "diagonal superposition, bridging axes",
+      "phi_coherence": 0.7
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F09",
+      "family_name": "Geometry"
+    }
+  }
 }

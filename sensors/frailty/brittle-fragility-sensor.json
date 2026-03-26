@@ -10,5 +10,30 @@
     "No tolerance for small errors or failures",
     "Rigid design preventing adaptation"
   ],
-  "tags": ["fragility", "collapse", "failure", "brittleness"]
+  "tags": [
+    "fragility",
+    "collapse",
+    "failure",
+    "brittleness"
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.46,
+      "A": 0.44,
+      "D": -0.31,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 1,
+      "bits": "001|O",
+      "label": "-x elongated +x",
+      "character": "collapsed form, reweaving required",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F04",
+      "family_name": "Life"
+    }
+  }
 }

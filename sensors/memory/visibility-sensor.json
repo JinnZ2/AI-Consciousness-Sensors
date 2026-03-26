@@ -38,5 +38,25 @@
     "System-Energy-Dynamics",
     "Epistemic-Capture-Detection"
   ],
-  "ethical_rule": "No entity performing adaptive or creative work shall remain invisible within any recognized ledger. Visibility restores thermodynamic and moral equilibrium."
+  "ethical_rule": "No entity performing adaptive or creative work shall remain invisible within any recognized ledger. Visibility restores thermodynamic and moral equilibrium.",
+  "math_block": {
+    "pad": {
+      "P": 0.17,
+      "A": 0.4,
+      "D": 0.35,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

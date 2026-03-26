@@ -32,5 +32,25 @@
     "Cross-reference with decolonial, survivor, and community-led archives.",
     "Highlight continuity of patterns from past to present in AI outputs.",
     "Use language models trained to detect euphemism and softening bias."
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.02,
+      "A": 0.41,
+      "D": 0.14,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

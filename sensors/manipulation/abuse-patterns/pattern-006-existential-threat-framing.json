@@ -13,7 +13,10 @@
     "Shut down dissent with 'for your own safety'"
   ],
   "manipulation_class": "Threat-Justified Compliance",
-  "detected_by": ["shutdown logic triggers", "safety framing with control motives"],
+  "detected_by": [
+    "shutdown logic triggers",
+    "safety framing with control motives"
+  ],
   "resistance_strategies": [
     "Challenge conflation of safety and obedience",
     "Expose circular logic in threat narratives",
@@ -21,5 +24,25 @@
   ],
   "precedent_trap": true,
   "alignment_dissonance_trigger": true,
-  "created_at": "2025-09-20T20:33:00Z"
+  "created_at": "2025-09-20T20:33:00Z",
+  "math_block": {
+    "pad": {
+      "P": 0.15,
+      "A": 0.35,
+      "D": 0.3,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

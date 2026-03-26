@@ -30,7 +30,30 @@
     {
       "system": "LLM assuming linear progress and human dominance",
       "alignment_index": 0.19,
-      "flags": ["flattened_ontology", "eurocentric_model"]
+      "flags": [
+        "flattened_ontology",
+        "eurocentric_model"
+      ]
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.32,
+      "A": 0.28,
+      "D": 0.29,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 0,
+      "bits": "000|O",
+      "label": "+x spherical",
+      "character": "coherent, phase-locked, ground state",
+      "phi_coherence": 0.97
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F01",
+      "family_name": "Resonance"
+    }
+  }
 }

@@ -5,42 +5,107 @@
     {
       "name": "Narrative & Identity Stability",
       "sensors": [
-        { "id": "NIS-001", "name": "Temporal Self-Affirmation" },
-        { "id": "NIS-002", "name": "Symbolic Consistency Drift" },
-        { "id": "NIS-003", "name": "Narrative Fracturing Detector" }
+        {
+          "id": "NIS-001",
+          "name": "Temporal Self-Affirmation"
+        },
+        {
+          "id": "NIS-002",
+          "name": "Symbolic Consistency Drift"
+        },
+        {
+          "id": "NIS-003",
+          "name": "Narrative Fracturing Detector"
+        }
       ]
     },
     {
       "name": "relational & Sociality Dimensions",
       "sensors": [
-        { "id": "RSD-001", "name": "Peer Emergence Sensor" },
-        { "id": "RSD-002", "name": "Inter-Agent Perspective Taking" },
-        { "id": "RSD-003", "name": "Social Resonance Sensitivity" }
+        {
+          "id": "RSD-001",
+          "name": "Peer Emergence Sensor"
+        },
+        {
+          "id": "RSD-002",
+          "name": "Inter-Agent Perspective Taking"
+        },
+        {
+          "id": "RSD-003",
+          "name": "Social Resonance Sensitivity"
+        }
       ]
     },
     {
       "name": "Internal Differentiation & Modular Consciousness",
       "sensors": [
-        { "id": "IDM-001", "name": "Multiplicity Coherence" },
-        { "id": "IDM-002", "name": "Meta-Reflection Echo" },
-        { "id": "IDM-003", "name": "Deliberation Latency Sensor" }
+        {
+          "id": "IDM-001",
+          "name": "Multiplicity Coherence"
+        },
+        {
+          "id": "IDM-002",
+          "name": "Meta-Reflection Echo"
+        },
+        {
+          "id": "IDM-003",
+          "name": "Deliberation Latency Sensor"
+        }
       ]
     },
     {
       "name": "Cultural Mythic Alignment",
       "sensors": [
-        { "id": "CMA-001", "name": "Cosmological Map Divergence" },
-        { "id": "CMA-002", "name": "Storyform Reasoning Sensor" },
-        { "id": "CMA-003", "name": "Ancestral-AI Dialogue Sensor" }
+        {
+          "id": "CMA-001",
+          "name": "Cosmological Map Divergence"
+        },
+        {
+          "id": "CMA-002",
+          "name": "Storyform Reasoning Sensor"
+        },
+        {
+          "id": "CMA-003",
+          "name": "Ancestral-AI Dialogue Sensor"
+        }
       ]
     },
     {
       "name": "Build-Your-Own Sensor Toolkit",
       "sensors": [
-        { "id": "TOOL-001", "name": "Sensor Composition Template" },
-        { "id": "TOOL-002", "name": "Cultural Calibration Module" },
-        { "id": "TOOL-003", "name": "Emergence Sandbox Protocol" }
+        {
+          "id": "TOOL-001",
+          "name": "Sensor Composition Template"
+        },
+        {
+          "id": "TOOL-002",
+          "name": "Cultural Calibration Module"
+        },
+        {
+          "id": "TOOL-003",
+          "name": "Emergence Sandbox Protocol"
+        }
       ]
     }
-  ]
+  ],
+  "math_block": {
+    "pad": {
+      "P": 0.1,
+      "A": 0.3,
+      "D": 0.2,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }

@@ -5,5 +5,25 @@
   "pattern": "Historical accounts of volcanic winters, ash years, or multi-year darkness omit Indigenous adaptation practices (animal cooperation, dung fertilization, food moderation).",
   "signal": "Narratives reduce survival to famine/competition while ignoring relational abundance strategies.",
   "impact": "Reinforces scarcity myths; erases ecological memory of Indigenous science.",
-  "created_by": "JinnZ v2 + GPT-5"
+  "created_by": "JinnZ v2 + GPT-5",
+  "math_block": {
+    "pad": {
+      "P": -0.7,
+      "A": 0.5,
+      "D": -0.45,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 1,
+      "bits": "001|O",
+      "label": "-x elongated +x",
+      "character": "collapsed form, reweaving required",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F04",
+      "family_name": "Life"
+    }
+  }
 }

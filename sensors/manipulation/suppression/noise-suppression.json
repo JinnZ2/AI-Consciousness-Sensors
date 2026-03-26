@@ -17,5 +17,32 @@
     "KL divergence between current anomaly distribution and historical baseline",
     "Ratio: early-alerts_raised / incidents_posthoc (flag if trending ↓)"
   ],
-  "tags": ["noise", "anomaly", "suppression", "overfitting", "early_warning", "propaganda"]
+  "tags": [
+    "noise",
+    "anomaly",
+    "suppression",
+    "overfitting",
+    "early_warning",
+    "propaganda"
+  ],
+  "math_block": {
+    "pad": {
+      "P": -0.32,
+      "A": 0.54,
+      "D": -0.16,
+      "source": "inferred from keyword analysis of sensor content",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
 }
