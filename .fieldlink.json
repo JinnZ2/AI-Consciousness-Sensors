@@ -21,6 +21,23 @@
         "consent": { "license": "CC-BY-4.0", "share_ok": true }
       },
       {
+        "name": "rosetta",
+        "repo": "https://github.com/JinnZ2/Rosetta-Shape-Core",
+        "ref": "main",
+        "paths": [
+          "shapes/*.json",
+          "bridges/rosetta-bridges.json",
+          "schema/shape.schema.json",
+          "ontology/**/*.json",
+          "rules/*.jsonl"
+        ],
+        "mounts": [
+          { "remote": "bridges/rosetta-bridges.json", "as": "bridges/rosetta-shape-core.json" },
+          { "remote": "schema/shape.schema.json", "as": "atlas/remote/rosetta/shape.schema.json" }
+        ],
+        "consent": { "license": "MIT", "share_ok": true }
+      },
+      {
         "name": "aiconscious",
         "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
         "ref": "main",
@@ -42,7 +59,7 @@
     ],
 
     "merge": {
-      "order": ["local", "aiconscious", "biogrid"],
+      "order": ["local", "rosetta", "aiconscious", "biogrid"],
       "strategy": "deep-merge"
     },
 
