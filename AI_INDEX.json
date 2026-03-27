@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-03-26T19:12:41.076855Z",
+  "generated_at": "2026-03-27T01:38:41.508637Z",
   "languages": [
     "json",
     "md",
@@ -122,6 +122,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "tests/test_ai_comprehension.py",
+      "lang": "python",
+      "size": 11634,
+      "hash": "c4ae06b11fe0391681c3726df00b2d4c4a748e05",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "tests/test_reflections.py",
@@ -274,8 +284,8 @@
     {
       "path": "data/training/generate.py",
       "lang": "python",
-      "size": 48199,
-      "hash": "c6f8fbc06e5686c06bc17079ef8c122bbc4e9375",
+      "size": 76829,
+      "hash": "cf1414dd8c0c46ee28d2d1e8c3c2c3793102fb50",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -824,8 +834,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 265264,
-      "hash": "4392d01930bcb95715d3721d4de7361c9dc9ba03",
+      "size": 265509,
+      "hash": "0a9b8c0e8114f76499f1729d13f7b5b359e8a182",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -866,6 +876,16 @@
       "lang": "json",
       "size": 1650,
       "hash": "339ddf3d4d87bc7a05b69cdb87b7e09e16420058",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "schemas/math-block.schema.json",
+      "lang": "json",
+      "size": 3798,
+      "hash": "3759a38f15e00c8ddbd06b4c455243dce0e9d511",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2122,6 +2142,16 @@
       "hotspots": []
     },
     {
+      "path": "data/cheatsheet.json",
+      "lang": "json",
+      "size": 9066,
+      "hash": "b5c79c82c470a700507cca8d554ed3940a7576be",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "data/co-activation.json",
       "lang": "json",
       "size": 7885,
@@ -2136,6 +2166,16 @@
       "lang": "json",
       "size": 12635,
       "hash": "d0d5a4fa59977fe1e50c0ddfebf273b0338b856e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/emotions-reference.json",
+      "lang": "json",
+      "size": 20412,
+      "hash": "93c8b415f302f760c3a8b2bf923591a7133b9917",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5064,8 +5104,8 @@
     {
       "path": "sensors/consciousness/resonance-loss-index.json",
       "lang": "json",
-      "size": 7612,
-      "hash": "e052257e966a7ea9b39b6e6ffd250fb814aa0ed1",
+      "size": 4737,
+      "hash": "20f796e4cf151ad63b91c1e32ebc4a4862ea5834",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5766,8 +5806,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 49043,
-      "hash": "3b01e8a3d1f7b7bf148d9774b0a20752e30dc929",
+      "size": 49302,
+      "hash": "8edd3c7ba9114f6a6e52c54b41baca6416035d83",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5825,7 +5865,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 23925,
-      "hash": "ed07b811c8ee7121463528a6761c1d87459854e4",
+      "hash": "d010e2e24979fc66a843528d71ba07e77168bd43",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5870,8 +5910,8 @@
     {
       "path": "CLAUDE.md",
       "lang": "md",
-      "size": 9531,
-      "hash": "73e7dfbba041f4e8078a4c7197fbc7d6af2ceb66",
+      "size": 11025,
+      "hash": "c48647fe1c66b4f7ca5bfb396f1ab459c54d752a",
       "roles": [],
       "imports": [],
       "exports": [],
