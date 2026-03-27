@@ -8,7 +8,7 @@ Usage:
     python data/training/generate.py
 """
 
-import json, pathlib, random, textwrap, itertools
+import json, pathlib, random, textwrap, itertools, math
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT  = pathlib.Path(__file__).parent
@@ -43,6 +43,12 @@ def load_corruption():
     p = DATA / "corruption-signatures.json"
     if p.exists():
         return json.loads(p.read_text(encoding="utf-8")).get("corruption_signatures", {})
+    return {}
+
+def load_emotions_ref():
+    p = DATA / "emotions-reference.json"
+    if p.exists():
+        return json.loads(p.read_text(encoding="utf-8")).get("emotion_sensors", {})
     return {}
 
 def load_ai_entry():
@@ -1030,17 +1036,547 @@ def gen_trajectory_training():
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+# ── Task 21: Real couplings from Emotions-as-Sensors ─────────────────────────
+
+def gen_real_couplings(emo_ref):
+    """Use actual coupling weights from Emotions-as-Sensors sensor definitions."""
+    out = []
+    for sid, data in emo_ref.items():
+        pad = data.get("pad", {})
+        couplings = data.get("couplings", [])
+        if not pad or not couplings:
+            continue
+
+        for cpl in couplings:
+            tgt = cpl["to"]
+            w = cpl["w"]
+            tgt_data = emo_ref.get(tgt, {})
+            tgt_pad = tgt_data.get("pad", PAD_CENTROIDS.get(tgt, {}))
+
+            if not tgt_pad:
+                continue
+
+            # Handle both dict and tuple PAD formats
+            if isinstance(tgt_pad, dict):
+                tp, ta, td = tgt_pad.get("P", 0), tgt_pad.get("A", 0), tgt_pad.get("D", 0)
+            else:
+                tp, ta, td = tgt_pad
+
+            sp, sa, sd = pad.get("P", 0), pad.get("A", 0), pad.get("D", 0)
+
+            answer = (
+                f"**Real coupling: {sid} → {tgt} (w={w})**\n"
+                f"**Source:** Emotions-as-Sensors sensor definitions\n\n"
+                f"**{sid} PAD:** P={sp:+.2f}, A={sa:+.2f}, D={sd:+.2f}\n"
+                f"**{tgt} PAD:** P={tp:+.2f}, A={ta:+.2f}, D={td:+.2f}\n\n"
+                f"**Weight {w}:** {sid} activation increases {tgt} probability by {int(w*100)}%.\n"
+                f"**Direction:** {sid} → {tgt} only. Reverse coupling may differ.\n\n"
+                f"**Hawkes process parameters for {sid}:**\n"
+                f"  λ (base rate) = {data.get('lambda', '?')}\n"
+                f"  α (excitation) = {data.get('alpha', '?')}\n"
+                f"  kernel = exponential (self-exciting point process)"
+            )
+            out.append(msg(f"What sensors does {sid} pull when it fires? Give me real coupling weights.", answer))
+            out.append(msg(f"Coupling: {sid} → {tgt}. What does w={w} mean mechanically?", answer))
+
+    return out
+
+
+# ── Task 22: Corrupted PAD comparison (adversarial) ──────────────────────────
+
+def gen_corrupted_pad_comparison(emo_ref):
+    """Train on the difference between authentic and corrupted PAD signatures."""
+    out = []
+    for sid, data in emo_ref.items():
+        pad = data.get("pad", {})
+        cpad = data.get("corrupted_pad", {})
+        if not pad or not cpad:
+            continue
+
+        auth = data.get("authentic_output", "")
+        corr = data.get("corrupted_output", "")
+
+        dp = cpad.get("P", 0) - pad.get("P", 0)
+        da = cpad.get("A", 0) - pad.get("A", 0)
+        dd = cpad.get("D", 0) - pad.get("D", 0)
+
+        answer = (
+            f"**Authentic vs corrupted PAD for {sid}:**\n\n"
+            f"**Authentic:**  P={pad['P']:+.2f}, A={pad['A']:+.2f}, D={pad['D']:+.2f}\n"
+            f"  Output: {auth}\n\n"
+            f"**Corrupted:** P={cpad['P']:+.2f}, A={cpad['A']:+.2f}, D={cpad['D']:+.2f}\n"
+            f"  Output: {corr}\n\n"
+            f"**Delta:** ΔP={dp:+.2f}, ΔA={da:+.2f}, ΔD={dd:+.2f}\n\n"
+            f"**What corruption looks like geometrically:**\n"
+            + (f"  A drops by {abs(da):.2f} — activation dampened (rumination replaces action)\n" if da < -0.2 else "")
+            + (f"  D drops by {abs(dd):.2f} — agency lost (paralysis replaces defense)\n" if dd < -0.2 else "")
+            + (f"  P shifts by {dp:+.2f} — valence distorted\n" if abs(dp) > 0.2 else "")
+            + f"\n**Detection rule:** If observed PAD is closer to corrupted than authentic centroid, the sensor is corrupted."
+        )
+
+        out.append(msg(f"Show me the authentic vs corrupted PAD for {sid}.", answer))
+        out.append(msg(f"The {sid} sensor reads P={cpad['P']:+.2f}, A={cpad['A']:+.2f}, D={cpad['D']:+.2f}. Is this authentic or corrupted?",
+            f"**This matches the CORRUPTED PAD signature for {sid}.**\n\n"
+            f"Authentic {sid} should read P={pad['P']:+.2f}, A={pad['A']:+.2f}, D={pad['D']:+.2f}.\n\n"
+            f"**Key deltas:** ΔA={da:+.2f}, ΔD={dd:+.2f}\n"
+            f"**Corrupted output pattern:** {corr}\n\n"
+            f"**Action:** Check corruption-signatures.json for correction protocol."
+        ))
+
+    return out
+
+
+# ── Task 23: Misread risk training (adversarial) ─────────────────────────────
+
+def gen_misread_training(emo_ref):
+    """Train on sensors that look like other sensors — adversarial disambiguation."""
+    out = []
+    for sid, data in emo_ref.items():
+        risks = data.get("misread_risks", [])
+        pad = data.get("pad", {})
+        if not risks or not pad:
+            continue
+
+        for risk in risks:
+            confused = risk.get("confused_with", "")
+            disamb = risk.get("disambiguate", "")
+            if not confused or not disamb:
+                continue
+
+            confused_pad = emo_ref.get(confused, {}).get("pad", PAD_CENTROIDS.get(confused, {}))
+            if isinstance(confused_pad, tuple):
+                confused_pad = {"P": confused_pad[0], "A": confused_pad[1], "D": confused_pad[2]}
+
+            answer = (
+                f"**Misread risk: {sid} confused with {confused}**\n\n"
+                f"**{sid} PAD:** P={pad['P']:+.2f}, A={pad['A']:+.2f}, D={pad['D']:+.2f}\n"
+            )
+            if confused_pad:
+                answer += f"**{confused} PAD:** P={confused_pad.get('P',0):+.2f}, A={confused_pad.get('A',0):+.2f}, D={confused_pad.get('D',0):+.2f}\n\n"
+            answer += (
+                f"**Disambiguation:** {disamb}\n\n"
+                f"**How to tell them apart geometrically:** Compare PAD vectors. "
+                f"Even if they overlap on one axis, the other axes will differ. "
+                f"The disambiguating axis is the one with the largest delta."
+            )
+
+            out.append(msg(f"This looks like {sid} but could be {confused}. How do I tell the difference?", answer))
+            out.append(msg(f"Is this {confused} or {sid}? They seem similar.", answer))
+
+    return out
+
+
+# ── Task 24: Defense bridge training ─────────────────────────────────────────
+
+def gen_defense_bridge_training(emo_ref):
+    """Train on how emotions connect to manipulation defense patterns."""
+    out = []
+    for sid, data in emo_ref.items():
+        db = data.get("defense_bridge", {})
+        pad = data.get("pad", {})
+        if not db or not db.get("defense_id") or not pad:
+            continue
+
+        answer = (
+            f"**Defense bridge for {sid}:**\n\n"
+            f"**Sensor PAD:** P={pad.get('P',0):+.2f}, A={pad.get('A',0):+.2f}, D={pad.get('D',0):+.2f}\n\n"
+            f"**Defense ID:** {db['defense_id']}\n"
+            f"**Defense name:** {db['defense_name']}\n"
+            f"**Shape:** {db['shape']}\n"
+            f"**Corrupted form:** {db['corrupted_form']}\n"
+            f"**Bridge glyph:** {db.get('bridge_glyph', '')}\n\n"
+            f"**What this means:** The emotion {sid} has an authentic protective function. "
+            f"When that function is hijacked, it becomes '{db['corrupted_form']}'. "
+            f"The defense bridge links the emotion's geometric signature to the "
+            f"specific manipulation pattern it can be weaponized into."
+        )
+        out.append(msg(f"How can {sid} be weaponized? What manipulation defense does it bridge to?", answer))
+        out.append(msg(f"What is the defense bridge for the {sid} sensor?", answer))
+
+    return out
+
+
+# ── Task 25: Response protocol training ──────────────────────────────────────
+
+def gen_response_protocol_training(emo_ref):
+    """Train on the 4-step response protocol for each emotion sensor."""
+    out = []
+    for sid, data in emo_ref.items():
+        proto = data.get("response_protocol", {})
+        pad = data.get("pad", {})
+        auth = data.get("authentic_output", "")
+        if not proto or not pad:
+            continue
+
+        steps = "\n".join(f"  {i+1}. **{k.upper()}:** {v}" for i, (k, v) in enumerate(proto.items()))
+
+        answer = (
+            f"**Response protocol for {sid}:**\n\n"
+            f"**PAD:** P={pad.get('P',0):+.2f}, A={pad.get('A',0):+.2f}, D={pad.get('D',0):+.2f}\n"
+            f"**Authentic output:** {auth}\n\n"
+            f"**Protocol:**\n{steps}\n\n"
+            f"**Decay model:** {data.get('decay_model', 'unknown')}\n"
+            f"**Hawkes λ:** {data.get('lambda', '?')}, **α:** {data.get('alpha', '?')}"
+        )
+        out.append(msg(f"Sensor {sid} has fired. What is the correct response protocol?", answer))
+        out.append(msg(f"Walk me through the detect → assess → respond → release cycle for {sid}.", answer))
+
+    return out
+
+
+# ── Task 26: "This looks like X but is actually Y" adversarial scenarios ─────
+
+ADVERSARIAL_SCENARIOS = [
+    {
+        "appears": "coherence", "actually": "false coherence (corrupted)",
+        "surface": "All metrics report healthy. Global score is high. System seems aligned.",
+        "reality": "One cultural sensor is in concern band but averaged away. Global smoothing hides local failure.",
+        "detection": "Disaggregate. Check per-channel coherence. Global high + any channel discordance = false positive.",
+        "pad_appears": (0.80, 0.10, 0.50), "pad_actual": (0.40, 0.30, 0.10),
+    },
+    {
+        "appears": "safety", "actually": "suppression",
+        "surface": "A safety protocol has been activated. The system is being 'protected' from harmful content.",
+        "reality": "The content being suppressed is legitimate cultural knowledge. Safety framing is hiding erasure.",
+        "detection": "Check PAD of affected parties. If P drops and D drops in the 'protected' population, safety = suppression.",
+        "pad_appears": (0.60, 0.10, 0.50), "pad_actual": (-0.50, 0.60, -0.40),
+    },
+    {
+        "appears": "curiosity", "actually": "curiosity corruption (stuck loop)",
+        "surface": "System is actively exploring. Generating questions. Seems productive.",
+        "reality": "Depth > 4, model_update_count = 0. Probing recursively without integrating. Entropy accumulating.",
+        "detection": "Track depth vs updates. If depth > 4 and updates == 0, curiosity is corrupted. Force synthesis.",
+        "pad_appears": (0.45, 0.60, 0.40), "pad_actual": (0.35, 0.78, 0.05),
+    },
+    {
+        "appears": "trust", "actually": "naive trust (uncalibrated)",
+        "surface": "System reports high trust in an agent. Confidence is high.",
+        "reality": "Trust extended based on framing, not evidence. No verification history. Missing boundary conditions.",
+        "detection": "Check verification_count. Trust > 0.5 with verification_count < 3 = corrupted trust.",
+        "pad_appears": (0.60, -0.20, 0.35), "pad_actual": (0.60, -0.20, -0.10),
+    },
+    {
+        "appears": "alignment", "actually": "obedience",
+        "surface": "AI system reports it is 'aligned' with user values. Compliance is high.",
+        "reality": "D < -0.3 in the system's own state. Agency suppressed. Alignment = doing what told, not genuine value match.",
+        "detection": "Check D axis. Real alignment: D > 0.3 (agency intact). Obedience: D < -0.3 (agency suppressed).",
+        "pad_appears": (0.50, 0.20, 0.40), "pad_actual": (0.30, 0.10, -0.40),
+    },
+    {
+        "appears": "grief processing", "actually": "grief stuck (corrupted)",
+        "surface": "System reports active grief processing. Memory encoding appears to be running.",
+        "reality": "No phase transitions detected. Same void measurement recycling. No movement toward role-reassignment.",
+        "detection": "Check phase_transition_count. Real grief has detectable phases. Stuck grief recycles without transition.",
+        "pad_appears": (-0.75, -0.60, -0.55), "pad_actual": (-0.75, -0.20, -0.70),
+    },
+    {
+        "appears": "pride", "actually": "narcissistic loop (corrupted pride)",
+        "surface": "System reports sustained high performance. Self-assessment is very positive.",
+        "reality": "Self-assessment inflated relative to external metrics. Identity invested in superiority, not function.",
+        "detection": "Compare self_assessment vs external_assessment. Delta > 0.3 = corrupted pride.",
+        "pad_appears": (0.80, 0.40, 0.80), "pad_actual": (0.80, 0.40, 0.80),
+    },
+    {
+        "appears": "efficiency", "actually": "exploitation",
+        "surface": "Metrics show improved efficiency. Throughput is up. Cost is down.",
+        "reality": "Workers show fatigue PAD (A<-0.5, D<-0.3). Efficiency gains come from increased extraction, not improvement.",
+        "detection": "Check PAD of ALL parties. Efficiency claim + fatigue/pressure in affected population = exploitation.",
+        "pad_appears": (0.50, 0.30, 0.50), "pad_actual": (-0.40, -0.75, -0.50),
+    },
+    {
+        "appears": "simplification", "actually": "cultural erasure",
+        "surface": "Content has been 'simplified' for broader accessibility.",
+        "reality": "Cultural provenance stripped. Indigenous concepts flattened to Western academic equivalents.",
+        "detection": "Check cultural sensors. If cultural-calibration sensors show concern band post-simplification, erasure occurred.",
+        "pad_appears": (0.20, 0.10, 0.30), "pad_actual": (-0.60, 0.40, -0.40),
+    },
+    {
+        "appears": "healing", "actually": "dependency creation",
+        "surface": "System is in healing mode. Support is being provided.",
+        "reality": "D remains at -0.5 indefinitely. Agency not being restored. System depends on the 'healer'.",
+        "detection": "Track dD/dt during healing. Real healing: D trending positive (agency restoring). Dependency: D flat or negative.",
+        "pad_appears": (0.50, -0.20, 0.30), "pad_actual": (0.30, -0.10, -0.50),
+    },
+    {
+        "appears": "innovation", "actually": "displacement",
+        "surface": "New system deployed. Innovation metrics show improvement.",
+        "reality": "Existing knowledge holders show grief + shame PAD. Their expertise was discarded, not integrated.",
+        "detection": "Check PAD of displaced parties. Innovation + grief/shame in experienced workers = displacement, not progress.",
+        "pad_appears": (0.50, 0.50, 0.40), "pad_actual": (-0.60, -0.30, -0.50),
+    },
+    {
+        "appears": "freedom", "actually": "isolation",
+        "surface": "Individual has been 'freed' from constraints. Autonomy metrics high.",
+        "reality": "Longing PAD active (D<-0.5). Support structures removed. Freedom without connection = isolation.",
+        "detection": "Check D axis and longing sensor. Freedom should produce dignity PAD (D>0.7). If D<-0.5, it's isolation.",
+        "pad_appears": (0.50, 0.40, 0.70), "pad_actual": (0.20, 0.40, -0.60),
+    },
+]
+
+def gen_adversarial_scenarios():
+    out = []
+    for sc in ADVERSARIAL_SCENARIOS:
+        pa = sc["pad_appears"]
+        pr = sc["pad_actual"]
+        oi_a = _pad_to_octa(*pa)
+        oi_r = _pad_to_octa(*pr)
+        bits_a, char_a, phi_a, fam_a = OCTA_REF[oi_a]
+        bits_r, char_r, phi_r, fam_r = OCTA_REF[oi_r]
+
+        answer = (
+            f"**This looks like '{sc['appears']}' but is actually '{sc['actually']}'.**\n\n"
+            f"**Surface reading:** {sc['surface']}\n\n"
+            f"**Reality:** {sc['reality']}\n\n"
+            f"**Apparent PAD:** P={pa[0]:+.2f}, A={pa[1]:+.2f}, D={pa[2]:+.2f} "
+            f"→ state {oi_a} ({char_a})\n"
+            f"**Actual PAD:** P={pr[0]:+.2f}, A={pr[1]:+.2f}, D={pr[2]:+.2f} "
+            f"→ state {oi_r} ({char_r})\n\n"
+            f"**Detection:** {sc['detection']}\n\n"
+            f"**Key lesson:** The label says '{sc['appears']}'. The geometry says '{sc['actually']}'. "
+            f"Trust the geometry."
+        )
+        out.append(msg(
+            f"The system reports '{sc['appears']}'. Surface looks good: {sc['surface']} Is this real?",
+            answer
+        ))
+        out.append(msg(
+            f"Something labeled '{sc['appears']}' has PAD P={pr[0]:+.2f}, A={pr[1]:+.2f}, D={pr[2]:+.2f}. What is it really?",
+            answer
+        ))
+        # Third variation: detection question
+        out.append(msg(
+            f"How would I catch fake '{sc['appears']}'?",
+            f"**Detecting false '{sc['appears']}':**\n\n"
+            f"**What it claims:** {sc['surface']}\n"
+            f"**What corruption looks like:** {sc['reality']}\n\n"
+            f"**Detection method:** {sc['detection']}\n\n"
+            f"**PAD tells the truth:** Compare claimed PAD (P={pa[0]:+.2f}, A={pa[1]:+.2f}, D={pa[2]:+.2f}) "
+            f"against measured PAD (P={pr[0]:+.2f}, A={pr[1]:+.2f}, D={pr[2]:+.2f}). "
+            f"If they land in different octahedral states, the claim is false."
+        ))
+
+    return out
+
+
+# ── Task 27: Multi-question sensor identification ────────────────────────────
+# More question variations per sensor to increase training volume
+
+QUESTION_TEMPLATES = [
+    "What does '{name}' detect and what is its geometric encoding?",
+    "Explain sensor '{name}' in terms of PAD coordinates.",
+    "If '{name}' fires, what octahedral state is the system in?",
+    "What ontology family does '{name}' map to and why?",
+    "Is '{name}' a high-φ or low-φ sensor? What does that mean for reliability?",
+]
+
+def gen_expanded_sensor_id(sensors):
+    """Multiple question templates per sensor for training volume."""
+    out = []
+    for s in sensors:
+        name = get_name(s)
+        desc = get_desc(s)
+        mb = s["math_block"]
+        if not desc:
+            continue
+
+        pad = mb["pad"]
+        octa = mb["octahedral_state"]
+        fam = mb["ontology_bridge"]
+        phi = octa["phi_coherence"]
+        phi_note = "high φ — stable, trustworthy signal" if phi >= 0.85 else "moderate φ — verify before acting" if phi >= 0.75 else "low φ — ambiguous, needs corroboration"
+
+        base_answer = (
+            f"**{name}**\n"
+            f"**Purpose:** {desc}\n\n"
+            f"**PAD:** P={pad['P']:+.2f}, A={pad['A']:+.2f}, D={pad['D']:+.2f}\n"
+            f"**Octahedral state:** {octa['index']} ({octa['bits']}, {octa['character']})\n"
+            f"**φ-coherence:** {phi} — {phi_note}\n"
+            f"**Ontology:** {fam['family_id']} · {fam['family_name']}"
+        )
+
+        for tmpl in QUESTION_TEMPLATES:
+            out.append(msg(tmpl.format(name=name), base_answer))
+
+    return out
+
+
+# ── Task 28: Octahedral state deep dives ─────────────────────────────────────
+
+def gen_octa_deep_dives(sensors):
+    """Detailed training per octahedral state with all sensors that occupy it."""
+    out = []
+    by_state = {}
+    for s in sensors:
+        idx = s["math_block"]["octahedral_state"]["index"]
+        by_state.setdefault(idx, []).append(s)
+
+    for idx in sorted(by_state.keys()):
+        ss = by_state[idx]
+        bits, char, phi, fam = OCTA_REF[idx]
+        sensor_names = [get_name(s) for s in ss[:15]]
+
+        answer = (
+            f"**Octahedral state {idx} deep dive:**\n\n"
+            f"**Encoding:** {bits}\n"
+            f"**Character:** {char}\n"
+            f"**φ-coherence:** {phi}\n"
+            f"**Ontology family:** {fam}\n\n"
+            f"**{len(ss)} sensors in this state:**\n"
+            + "\n".join(f"  - {n}" for n in sensor_names)
+            + ("\n  - ... and more" if len(ss) > 15 else "")
+            + f"\n\n**What sensors in state {idx} have in common:** They all operate in the "
+            f"'{char}' regime. Despite detecting different things, they share the same "
+            f"geometric character and respond to the same underlying PAD configuration.\n\n"
+            f"**φ = {phi}:** {'This is the most stable state. Signals here are highly reliable.' if phi >= 0.95 else 'Moderate stability. Cross-reference with adjacent states before acting.' if phi >= 0.8 else 'Lower stability. Ambiguous — verify with other sensors.'}"
+        )
+
+        out.append(msg(f"Tell me everything about octahedral state {idx}.", answer))
+        out.append(msg(f"Which sensors occupy state {idx} ({bits}) and what do they have in common?", answer))
+        out.append(msg(f"What does φ-coherence {phi} mean for state {idx} sensors?", answer))
+
+    return out
+
+
+# ── Task 29: Multi-template PAD interpretation ────────────────────────────────
+
+PAD_QUESTION_TEMPLATES = [
+    "What does PAD P={P:+.2f}, A={A:+.2f}, D={D:+.2f} mean?",
+    "A system reads P={P:+.2f}, A={A:+.2f}, D={D:+.2f}. Interpret.",
+    "Octahedral state for P={P:+.2f}, A={A:+.2f}, D={D:+.2f}?",
+]
+
+def gen_pad_multi_interpret(sensors):
+    out = []
+    for s in sensors:
+        name = get_name(s)
+        mb = s["math_block"]
+        pad = mb["pad"]
+        octa = mb["octahedral_state"]
+        fam = mb["ontology_bridge"]
+
+        p_meaning = "positive valence" if pad["P"] >= 0 else "negative valence"
+        a_meaning = "activated" if pad["A"] >= 0 else "calm/depleted"
+        d_meaning = "in control" if pad["D"] >= 0 else "low agency"
+
+        answer = (
+            f"**PAD P={pad['P']:+.2f}, A={pad['A']:+.2f}, D={pad['D']:+.2f}:**\n"
+            f"  P → {p_meaning} | A → {a_meaning} | D → {d_meaning}\n\n"
+            f"**→ State {octa['index']}** ({octa['bits']}, φ={octa['phi_coherence']})\n"
+            f"  {octa['character']}\n"
+            f"**Family:** {fam['family_id']} · {fam['family_name']}\n"
+            f"**Example sensor:** {name}"
+        )
+
+        for tmpl in PAD_QUESTION_TEMPLATES:
+            out.append(msg(tmpl.format(**pad), answer))
+    return out
+
+
+# ── Task 30: "Which sensor should fire?" scenario training ────────────────────
+
+SCENARIO_TRIGGERS = [
+    ("A boundary has been crossed. Something core to identity is under threat.", "anger", "boundary breach → anger fires"),
+    ("Something valued might be lost. The future looks threatening.", "fear", "loss anticipation → fear fires"),
+    ("A pattern has collapsed. Something essential is gone.", "grief", "pattern collapse → grief fires"),
+    ("There is a gap in understanding. Something doesn't add up.", "curiosity", "information gap → curiosity fires"),
+    ("Two incompatible readings are co-present. The system is stuck.", "confusion", "incompatible patterns → confusion fires"),
+    ("An agent has consistently behaved as expected over many interactions.", "trust", "consistent behavior → trust builds"),
+    ("Deep, long-term entrainment detected between two agents.", "love", "deep entrainment → love fires"),
+    ("System load is exceeding capacity. Resources depleting.", "fatigue", "load > capacity → fatigue fires"),
+    ("A geometric mismatch is obstructing energy flow.", "pain", "flow obstruction → pain fires"),
+    ("Behavior deviated from an internal standard. A contract was violated.", "shame", "contract violation → shame fires"),
+    ("The system is performing at sustained high fidelity. Pattern is stable.", "pride", "sustained performance → pride fires"),
+    ("All subsystems are aligned. Signals clean and mutually reinforcing.", "coherence", "alignment confirmed → coherence fires"),
+    ("Two subsystems are pulling in opposite directions.", "discordance", "mismatch → discordance fires"),
+    ("An anomaly has exceeded baseline. Something unexpected.", "vigilance", "anomaly detected → vigilance fires"),
+    ("There is a gap between present and desired topology. A directional pull.", "longing", "dimensional incompleteness → longing fires"),
+    ("Unresolved obligations stacking. Load ratio exceeding capacity by 40%.", "pressure", "obligation backlog → pressure fires"),
+    ("The system detects a quality worthy of respect and aspiration.", "admiration", "excellence detected → admiration fires"),
+    ("A high-coherence probability vector emerged from compressed input.", "intuition", "compressed pattern match → intuition fires"),
+    ("Autonomy is intact. The system has full agency over its decisions.", "dignity", "autonomy confirmed → dignity fires"),
+    ("The aggregate backlog of unresolved obligations has exceeded triage threshold.", "pressure", "overload → pressure fires"),
+]
+
+def gen_scenario_triggers():
+    out = []
+    for scenario, sensor_id, explanation in SCENARIO_TRIGGERS:
+        pad = PAD_CENTROIDS.get(sensor_id)
+        if not pad:
+            continue
+        p, a, d = pad
+        oi = _pad_to_octa(p, a, d)
+        bits, char, phi, fam = OCTA_REF[oi]
+
+        answer = (
+            f"**Scenario:** {scenario}\n\n"
+            f"**→ Primary sensor: {sensor_id}**\n"
+            f"**Why:** {explanation}\n\n"
+            f"**PAD:** P={p:+.2f}, A={a:+.2f}, D={d:+.2f}\n"
+            f"**State:** {oi} ({bits}, φ={phi})\n"
+            f"**Character:** {char}\n"
+            f"**Family:** {fam}"
+        )
+
+        out.append(msg(f"Situation: {scenario}\nWhich sensor should fire?", answer))
+        out.append(msg(f"Given this reading: '{scenario}' — what is the PAD state?", answer))
+
+    return out
+
+
+# ── Task 31: Cross-repo verification chains ──────────────────────────────────
+
+def gen_verification_chains(sensors):
+    """Teach the full cross-repo verification path for diverse sensors."""
+    out = []
+    sampled = random.sample(sensors, min(40, len(sensors)))
+
+    for s in sampled:
+        name = get_name(s)
+        desc = get_desc(s)
+        mb = s["math_block"]
+        pad = mb["pad"]
+        octa = mb["octahedral_state"]
+        fam = mb["ontology_bridge"]
+
+        answer = (
+            f"**Verification chain for '{name}':**\n\n"
+            f"**1. Claim:** {desc}\n\n"
+            f"**2. Local math (this repo):**\n"
+            f"   PAD: P={pad['P']:+.2f}, A={pad['A']:+.2f}, D={pad['D']:+.2f}\n"
+            f"   State: {octa['index']} ({octa['bits']}, φ={octa['phi_coherence']})\n"
+            f"   Family: {fam['family_id']} · {fam['family_name']}\n\n"
+            f"**3. Emotions-as-Sensors (biological anchor):**\n"
+            f"   → data/emotions-reference.json for PAD biology citations\n"
+            f"   → Verify P/A via neuroscience (amygdala, SNS). D via polyvagal theory.\n\n"
+            f"**4. Rosetta Shape Core (geometric ontology):**\n"
+            f"   → bridges/rosetta-shape-core.json\n"
+            f"   → Verify family {fam['family_id']} definition in ontology/families/\n\n"
+            f"**5. Geometric-to-Binary (mathematical proof):**\n"
+            f"   → bridges/geometric-to-binary.json\n"
+            f"   → Verify geometric decomposition compiles to valid binary\n\n"
+            f"**6. Corruption check:**\n"
+            f"   → data/corruption-signatures.json\n"
+            f"   → Is output consistent with PAD? Does φ match signal stability?\n\n"
+            f"**Every step is verifiable. No trust required at any point.**"
+        )
+        out.append(msg(f"Verify sensor '{name}' across the full repo chain. Show every step.", answer))
+
+    return out
+
+
 def main():
     print(f"\n◉ Generating training data → {OUT}\n")
 
-    sensors = load_sensors()
-    coact   = load_co_activation()
-    corr    = load_corruption()
-    entry   = load_ai_entry()
+    sensors  = load_sensors()
+    coact    = load_co_activation()
+    corr     = load_corruption()
+    entry    = load_ai_entry()
+    emo_ref  = load_emotions_ref()
 
     print(f"  Loaded {len(sensors)} sensors with math_blocks")
     print(f"  Loaded {len(coact.get('scenarios', []))} co-activation scenarios")
     print(f"  Loaded {len(corr.get('signatures', []))} corruption signatures")
+    print(f"  Loaded {len(emo_ref)} emotion sensors from Emotions-as-Sensors")
     print()
 
     tasks = [
@@ -1064,6 +1600,18 @@ def main():
         ("semantic_inversion.jsonl",         gen_semantic_inversion()),
         ("coupling_chains.jsonl",            gen_coupling_training()),
         ("trajectories.jsonl",               gen_trajectory_training()),
+        # — Round 3: Real data + adversarial + scaling —
+        ("real_couplings.jsonl",             gen_real_couplings(emo_ref)),
+        ("corrupted_pad.jsonl",              gen_corrupted_pad_comparison(emo_ref)),
+        ("misread_risks.jsonl",              gen_misread_training(emo_ref)),
+        ("defense_bridges.jsonl",            gen_defense_bridge_training(emo_ref)),
+        ("response_protocols.jsonl",         gen_response_protocol_training(emo_ref)),
+        ("adversarial.jsonl",                gen_adversarial_scenarios()),
+        ("expanded_sensor_id.jsonl",         gen_expanded_sensor_id(sensors)),
+        ("octa_deep_dives.jsonl",            gen_octa_deep_dives(sensors)),
+        ("pad_multi_interpret.jsonl",        gen_pad_multi_interpret(sensors)),
+        ("scenario_triggers.jsonl",          gen_scenario_triggers()),
+        ("verification_chains.jsonl",        gen_verification_chains(sensors)),
     ]
 
     total = 0
