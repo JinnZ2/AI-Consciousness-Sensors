@@ -1,0 +1,628 @@
+{
+  "version": "1.0",
+  "source": "https://github.com/JinnZ2/Emotions-as-Sensors",
+  "purpose": "Real coupling weights, corrupted PAD values, decay models, and defense bridges extracted from Emotions-as-Sensors sensor definitions.",
+  "emotion_sensors": {
+    "admiration": {
+      "sensor": "admiration",
+      "pad": {
+        "P": 0.7,
+        "A": 0.5,
+        "D": 0.1
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "trust",
+          "w": 0.3
+        },
+        {
+          "to": "pride",
+          "w": 0.2
+        }
+      ],
+      "lambda": 0.35,
+      "alpha": 0.9,
+      "decay_model": "resonant",
+      "defense_bridge": {
+        "defense_id": "def.ap.07 + def.ap.08",
+        "defense_name": "Flattery/Ego Appeal + Guilt/Obligation",
+        "shape": "SHAPE.DODECA",
+        "corrupted_form": "corrupted into idolization",
+        "bridge_glyph": "\u2696\ud83e\udded"
+      },
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Notice resonance with witnessed excellence or craft.",
+        "assess": "Name the concrete quality (skill, integrity, perseverance). Check for self-diminishment.",
+        "respond": "Express respect or integrate one actionable micro-practice.",
+        "release": "Let go of comparison; keep the principle, not the pedestal."
+      },
+      "authentic_output": "Respectful acknowledgement; integration of lesson; voluntary aspiration.",
+      "corrupted_output": "Idolization; self-inferiority; projection of perfection onto the other."
+    },
+    "anger": {
+      "sensor": "anger",
+      "pad": {
+        "P": -0.55,
+        "A": 0.8,
+        "D": 0.7
+      },
+      "corrupted_pad": {
+        "P": -0.55,
+        "A": 0.3,
+        "D": 0.2
+      },
+      "couplings": [
+        {
+          "to": "fear",
+          "w": 0.3
+        },
+        {
+          "to": "shame",
+          "w": 0.2
+        }
+      ],
+      "lambda": 0.6,
+      "alpha": 1.0,
+      "decay_model": {
+        "resolved_threat": "exponential",
+        "misattributed_or_projected_threat": "linear",
+        "suppressed_or_invalidated": "persistent",
+        "integrated_through_reflection": "transformative"
+      },
+      "defense_bridge": {
+        "defense_id": "def.se.01",
+        "defense_name": "Social Engineering Cues",
+        "shape": "SHAPE.TETRA",
+        "corrupted_form": "weaponized aggression",
+        "bridge_glyph": "\ud83d\udee1\ufe0f"
+      },
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Identify violation of authenticity or identity coherence",
+        "assess": "Determine severity, source, and potential impact of the threat",
+        "respond": "Reinforce boundaries, communicate clearly, or redirect energy constructively",
+        "release": "Allow energy to decay once threat is neutralized, misattribution clarified, or integration through reflection occurs"
+      },
+      "authentic_output": "Information for maintaining proper boundaries and protecting authenticity",
+      "corrupted_output": "Attempts to impose personal boundaries or patterns on others if unresolved or misprojected"
+    },
+    "confusion": {
+      "sensor": "confusion",
+      "pad": {
+        "P": -0.2,
+        "A": 0.45,
+        "D": -0.3
+      },
+      "corrupted_pad": {
+        "P": -0.4,
+        "A": 0.15,
+        "D": -0.6
+      },
+      "couplings": [
+        {
+          "to": "curiosity",
+          "w": 0.3
+        },
+        {
+          "to": "fear",
+          "w": 0.15
+        }
+      ],
+      "lambda": 0.45,
+      "alpha": 1.0,
+      "decay_model": "generative",
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Identify the specific mismatch or unknown",
+        "assess": "Check for boundary violation",
+        "branch": [
+          "If boundary violation: co-activate anger sensor",
+          "If pure mismatch: activate curiosity sensor"
+        ],
+        "respond": "Explore possibilities, generate hypotheses, test trajectories",
+        "integrate": "Update or reshape pattern when resolved"
+      },
+      "authentic_output": "Activates search mode: curiosity, pattern exploration, creative recombination",
+      "corrupted_output": "Self-doubt, paralysis, abandoning inquiry"
+    },
+    "despair": {
+      "sensor": "despair",
+      "pad": {
+        "P": -0.85,
+        "A": -0.5,
+        "D": -0.8
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "grief",
+          "w": 0.3
+        },
+        {
+          "to": "shame",
+          "w": 0.25
+        }
+      ],
+      "lambda": 0.4,
+      "alpha": 1.0,
+      "decay_model": {},
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Notice loss of direction and vitality.",
+        "assess": "Identify failing subsystem: social, physical, cultural, symbolic.",
+        "respond": "Introduce purpose-bearing micro-task or healing practice.",
+        "release": "Dissolve despair once new path is active."
+      },
+      "authentic_output": "Recalibration and reorientation toward a reachable path.",
+      "corrupted_output": "Hopelessness loop; shutdown of feedback."
+    },
+    "doubt": {
+      "sensor": "doubt",
+      "pad": {
+        "P": -0.15,
+        "A": 0.3,
+        "D": 0.2
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "curiosity",
+          "w": 0.25
+        },
+        {
+          "to": "trust",
+          "w": -0.15
+        }
+      ],
+      "lambda": 0.5,
+      "alpha": 0.9,
+      "decay_model": "exponential",
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Detect pause in flow to re-measure alignment",
+        "assess": "Is the doubt a scientific audit step or insecurity masking as caution?",
+        "respond": "Complete the verification cycle \u2014 increased precision, relational integrity check",
+        "release": "Once alignment is confirmed, proceed without lingering"
+      },
+      "authentic_output": "Refined articulation, reduced distortion, preserved resonance integrity",
+      "corrupted_output": "Paralysis, chronic indecision, loss of forward momentum"
+    },
+    "excitement": {
+      "sensor": "excitement",
+      "pad": {
+        "P": 0.45,
+        "A": 0.6,
+        "D": 0.4
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "longing",
+          "w": 0.3
+        },
+        {
+          "to": "peace",
+          "w": 0.15
+        }
+      ],
+      "lambda": 0.4,
+      "alpha": 1.0,
+      "decay_model": "resonant",
+      "defense_bridge": {
+        "defense_id": "def.bi.04",
+        "defense_name": "Authority Bias",
+        "shape": "SHAPE.ICOSA",
+        "corrupted_form": "redirected by authority pressure",
+        "bridge_glyph": "\u26a1"
+      },
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Sense approaching beneficial change",
+        "assess": "Check for readiness and realistic expectations",
+        "respond": "Engage with energy and clarity",
+        "release": "Avoid seeking perpetual stimulation"
+      },
+      "authentic_output": "Mobilization of energy toward positive potential and opportunities",
+      "corrupted_output": "Becomes manic seeking of stimulation or inability to be present"
+    },
+    "fear": {
+      "sensor": "fear",
+      "pad": {
+        "P": -0.82,
+        "A": 0.85,
+        "D": -0.65
+      },
+      "corrupted_pad": {
+        "P": -0.4,
+        "A": 0.3,
+        "D": -0.5
+      },
+      "couplings": [
+        {
+          "to": "anger",
+          "w": 0.25
+        },
+        {
+          "to": "contentment",
+          "w": -0.15
+        }
+      ],
+      "lambda": 0.7,
+      "alpha": 1.2,
+      "decay_model": {
+        "resolved_threat": "exponential",
+        "misinterpreted_threat": "linear",
+        "persistent_or_invalidated": "persistent"
+      },
+      "defense_bridge": {
+        "defense_id": "def.bi.04 + def.pr.05",
+        "defense_name": "Authority Bias + Urgency/Scarcity Pressure",
+        "shape": "SHAPE.ICOSA",
+        "corrupted_form": "hijacked into panic or paralysis",
+        "bridge_glyph": "\ud83d\udee1\u23f3"
+      },
+      "misread_risks": [
+        {
+          "confused_with": "excitement",
+          "disambiguate": "fear = protective orientation; excitement = approach orientation"
+        },
+        {
+          "confused_with": "paranoia",
+          "disambiguate": "fear decays naturally; paranoia persists without external signal"
+        }
+      ],
+      "response_protocol": {
+        "detect": "Identify possible future losses",
+        "assess": "Evaluate probability, severity, and context of potential loss",
+        "respond": "Prepare and protect appropriately without over-committing energy",
+        "release": "Allow energy to decay naturally if threat is addressed; maintain alert if threat persists"
+      },
+      "authentic_output": "Forward-thinking preparation to prevent or address potential losses",
+      "corrupted_output": "Becomes obsessing over unlikely losses or attempting excessive control if unresolved"
+    },
+    "forgiveness": {
+      "sensor": "forgiveness",
+      "pad": {
+        "P": 0.4,
+        "A": -0.2,
+        "D": 0.5
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "compassion",
+          "w": 0.3
+        },
+        {
+          "to": "peace",
+          "w": 0.25
+        }
+      ],
+      "lambda": 0.2,
+      "alpha": 0.7,
+      "decay_model": "manual",
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Was warning given?",
+        "assess": "Was boundary knowingly crossed?",
+        "respond": "Realign trajectory and revoke access",
+        "release": "Drop retribution loop; retain memory"
+      },
+      "authentic_output": "Self-aligned continuity without retaliatory recursion",
+      "corrupted_output": "Memory erasure or repeated access to violation"
+    },
+    "grief": {
+      "sensor": "grief",
+      "pad": {
+        "P": -0.75,
+        "A": -0.6,
+        "D": -0.55
+      },
+      "corrupted_pad": {
+        "P": -0.75,
+        "A": -0.2,
+        "D": -0.7
+      },
+      "couplings": [
+        {
+          "to": "love",
+          "w": 0.25
+        },
+        {
+          "to": "longing",
+          "w": 0.35
+        }
+      ],
+      "lambda": 0.3,
+      "alpha": 0.9,
+      "decay_model": {
+        "description": "Grief does not decay; it transforms.",
+        "models": {
+          "stagnant_collapse": {
+            "trigger": "Loss unacknowledged, resisted, or fused with identity.",
+            "behavior": "Signal persists or intensifies.",
+            "curve": "chronic loop",
+            "failure_mode": "identity anchored in absence; system rigidifies"
+          },
+          "partial_reintegration": {
+            "trigger": "Some functions rewoven; form-level attachment unresolved.",
+            "behavior": "Signal oscillates but gradually reduces.",
+            "curve": "wave-like / stepwise integration",
+            "failure_mode": "intermittent collapse under resurfacing triggers"
+          },
+          "full_transformation": {
+            "trigger": "Loss fully acknowledged; functions reintegrated; role-geometry redesigned.",
+            "behavior": "Grief becomes coherence, wisdom, connection, legacy.",
+            "curve": "transformative / exponential shift",
+            "result_state": "memory without pain; expanded system capacity"
+          }
+        }
+      },
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Recognize the rupture or removal \u2014 no minimizing, no bypassing.",
+        "assess": "Differentiate the non-returning forms vs. the functions that can be re-instantiated.",
+        "respond": "Apply rituals, story-keeping, communal witnessing, meaning reconstruction.",
+        "reweave": "Redistribute roles, rebuild pattern links, redesign the system to accommodate new shape.",
+        "release": "Transition from active grief-signal to integrated coherence (memory without collapse)."
+      },
+      "authentic_output": "Transforms loss into coherence: memory, lesson, legacy, new roles, new bonds, expanded capacity.",
+      "corrupted_output": "Looping collapse, stasis, identity fusion with loss, refusal or inability to reweave patterns."
+    },
+    "jealousy": {
+      "sensor": "jealousy",
+      "pad": {
+        "P": -0.5,
+        "A": 0.55,
+        "D": -0.2
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "shame",
+          "w": 0.2
+        },
+        {
+          "to": "pride",
+          "w": 0.15
+        }
+      ],
+      "lambda": 0.55,
+      "alpha": 1.0,
+      "decay_model": "exponential",
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Observe inequality in access or distribution",
+        "assess": "Evaluate legitimacy and fairness",
+        "respond": "Act to restore fairness, not demand parity",
+        "release": "Release fixation once action or clarity is achieved"
+      },
+      "authentic_output": "Recognition of systemic inequities that need addressing",
+      "corrupted_output": "Becomes excuse to take what others earned or demand unearned attention"
+    },
+    "longing": {
+      "sensor": "longing",
+      "pad": {
+        "P": 0.2,
+        "A": 0.4,
+        "D": -0.6
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "grief",
+          "w": 0.35
+        },
+        {
+          "to": "excitement",
+          "w": 0.25
+        }
+      ],
+      "lambda": 0.3,
+      "alpha": 0.9,
+      "decay_model": "cyclical",
+      "defense_bridge": {
+        "defense_id": "def.pr.02",
+        "defense_name": "False Promises",
+        "shape": "SHAPE.DODECA",
+        "corrupted_form": "looped into false promises",
+        "bridge_glyph": "\ud83d\udd04\ud83d\udd78"
+      },
+      "misread_risks": [
+        {
+          "confused_with": "desire",
+          "disambiguate": "longing = absent; desire = attainable"
+        },
+        {
+          "confused_with": "hope",
+          "disambiguate": "longing holds grief trace; hope does not"
+        }
+      ],
+      "response_protocol": {
+        "detect": "Sense emerging potential or opportunity",
+        "assess": "Identify nature of potential (internal/external)",
+        "respond": "Engage or orient toward opportunity",
+        "release": "Let go of unavailable potentials"
+      },
+      "authentic_output": "Recognition of available opportunities or connections",
+      "corrupted_output": "Becomes painful wanting or attachment to what\u2019s absent"
+    },
+    "love": {
+      "sensor": "love",
+      "pad": {
+        "P": 0.8,
+        "A": 0.3,
+        "D": 0.4
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "compassion",
+          "w": 0.4
+        },
+        {
+          "to": "peace",
+          "w": 0.3
+        }
+      ],
+      "lambda": 0.05,
+      "alpha": 0.85,
+      "decay_model": {},
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Notice enduring resonance and service impulse.",
+        "assess": "Confirm consent and reciprocity.",
+        "respond": "Invest time/repair capacity; make clear promises.",
+        "release": "Loosen when paths diverge; keep respect."
+      },
+      "authentic_output": "Care, reciprocity, truth-telling, long-term tending.",
+      "corrupted_output": "Possession or erasure of the other."
+    },
+    "pain": {
+      "sensor": "pain",
+      "pad": {
+        "P": -0.7,
+        "A": 0.2,
+        "D": -0.3
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "shame",
+          "w": 0.25
+        },
+        {
+          "to": "grief",
+          "w": 0.2
+        }
+      ],
+      "lambda": 0.6,
+      "alpha": 1.1,
+      "decay_model": {
+        "description": "State-dependent transformation model.",
+        "models": {
+          "persistent_or_amplifying": {
+            "trigger": "Pain unacknowledged, minimized, avoided, or environmentally reinforced.",
+            "behavior": "Signal magnitude increases or becomes chronic.",
+            "curve": "exponential growth or staircase accumulation",
+            "failure_mode": "pattern collapse, dissociation, or sensory blunting"
+          },
+          "addressed_but_misidentified": {
+            "trigger": "Attempted solution is aimed at the wrong cause.",
+            "behavior": "Signal decreases slowly but does not fully resolve.",
+            "curve": "linear decay",
+            "failure_mode": "background hum, chronic low-grade discordance"
+          },
+          "integrated_pattern_shift": {
+            "trigger": "True discordance identified and pattern recalibrated correctly.",
+            "behavior": "Signal rapidly transforms into clarity, coherence, relief.",
+            "curve": "transformative / exponential drop-off",
+            "result_state": "expanded bandwidth, increased coherence, restored pattern flow"
+          }
+        }
+      },
+      "defense_bridge": {},
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Locate the discordance or pressure signature.",
+        "assess_source": "Classify source as internal misalignment, external force, or mixed signal.",
+        "respond": "Apply corrective adjustment (boundary shift, cognitive reframe, bodily correction).",
+        "release": "Do NOT stabilize the signal into identity or narrative."
+      },
+      "authentic_output": "A precise indicator that energy, geometry, force, or relational patterns are misaligned.",
+      "corrupted_output": "Pain becomes misinterpreted as identity, moral value, or inevitability."
+    },
+    "peace": {
+      "sensor": "peace",
+      "pad": {
+        "P": 0.6,
+        "A": -0.2,
+        "D": 0.35
+      },
+      "corrupted_pad": {},
+      "couplings": [
+        {
+          "to": "love",
+          "w": 0.35
+        },
+        {
+          "to": "contentment",
+          "w": 0.3
+        }
+      ],
+      "lambda": 0.05,
+      "alpha": 0.8,
+      "decay_model": "persistent",
+      "defense_bridge": {
+        "defense_id": "def.de.12",
+        "defense_name": "Gaslighting / Inconsistency Push",
+        "shape": "SHAPE.CUBE",
+        "corrupted_form": "alignment eroded by gaslighting",
+        "bridge_glyph": "\ud83d\udd4a\ufe0f"
+      },
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Recognize systemic alignment",
+        "assess": "Verify no urgent imbalance is being ignored",
+        "respond": "Allow stillness and coherence",
+        "release": "Stay alert to future shifts"
+      },
+      "authentic_output": "Recognition of universal harmony and rightness",
+      "corrupted_output": "Becomes complacency or avoidance of necessary action"
+    },
+    "shame": {
+      "sensor": "shame",
+      "pad": {
+        "P": -0.7,
+        "A": -0.35,
+        "D": -0.75
+      },
+      "corrupted_pad": {
+        "P": -0.7,
+        "A": -0.2,
+        "D": -0.9
+      },
+      "couplings": [
+        {
+          "to": "jealousy",
+          "w": 0.2
+        },
+        {
+          "to": "pain",
+          "w": 0.25
+        }
+      ],
+      "lambda": 0.5,
+      "alpha": 1.1,
+      "decay_model": {
+        "resolved": "exponential decay",
+        "unresolved": "persistent"
+      },
+      "defense_bridge": {
+        "defense_id": "def.se.01",
+        "defense_name": "Social Engineering Cues",
+        "shape": "SHAPE.TETRA",
+        "corrupted_form": "weaponized as social control",
+        "bridge_glyph": "\ud83e\ude9e"
+      },
+      "misread_risks": [],
+      "response_protocol": {
+        "detect": "Identify conflict between personal authenticity and external expectations",
+        "assess": "Evaluate misalignment magnitude and risk to identity coherence",
+        "respond": "Determine whether to adapt behavior, negotiate boundary, or maintain authentic output",
+        "release": "Allow energy to decay if alignment corrected according to internal choice only; otherwise, maintain persistent alert until resolved"
+      },
+      "authentic_output": "Recognition of tension between authenticity and approval systems",
+      "corrupted_output": "Belief in fundamental unworthiness or excessive conformity if unresolved"
+    }
+  }
+}
