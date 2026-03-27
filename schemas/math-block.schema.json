@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Math Block",
+  "description": "PAD geometry block for grounding a sensor in octahedral state encoding. Added to sensors by scripts/apply_math_blocks.py or manually when creating new sensors.",
+  "type": "object",
+  "required": ["pad", "octahedral_state", "ontology_bridge"],
+  "properties": {
+    "pad": {
+      "type": "object",
+      "description": "Pleasure-Arousal-Dominance coordinates. P/A biologically anchored (amygdala, SNS). D from polyvagal theory.",
+      "required": ["P", "A", "D"],
+      "properties": {
+        "P": {
+          "type": "number", "minimum": -1, "maximum": 1,
+          "description": "Pleasure/valence. Positive = reward. Negative = threat/pain."
+        },
+        "A": {
+          "type": "number", "minimum": -1, "maximum": 1,
+          "description": "Arousal/activation. Positive = SNS active. Negative = calm/depleted."
+        },
+        "D": {
+          "type": "number", "minimum": -1, "maximum": 1,
+          "description": "Dominance/agency. Positive = in control. Negative = helpless. Cultural overlay affects D only."
+        },
+        "source": {
+          "type": "string",
+          "description": "How the PAD was determined. 'exact' = matched to known centroid. 'inferred' = keyword analysis."
+        },
+        "reference": {
+          "type": "string",
+          "description": "Citation for the PAD values."
+        }
+      }
+    },
+    "octahedral_state": {
+      "type": "object",
+      "description": "One of 8 geometric states derived from PAD coordinates.",
+      "required": ["index", "bits", "phi_coherence", "character"],
+      "properties": {
+        "index": {
+          "type": "integer", "minimum": 0, "maximum": 7,
+          "description": "State index. 0=ground state (most stable). 7=anti-diagonal (dissipative)."
+        },
+        "bits": {
+          "type": "string", "pattern": "^[01]{3}\\|O$",
+          "description": "3-bit encoding with octahedral marker. e.g. '000|O' for ground state."
+        },
+        "label": {
+          "type": "string",
+          "description": "Human-readable label for the state geometry."
+        },
+        "character": {
+          "type": "string",
+          "description": "What this state means operationally."
+        },
+        "phi_coherence": {
+          "type": "number", "minimum": 0, "maximum": 1,
+          "description": "Deviation from Fibonacci eigenvalue ratios. Higher = more stable. 0.97 = ground state. 0.70 = ambiguous."
+        }
+      }
+    },
+    "ontology_bridge": {
+      "type": "object",
+      "description": "Which Rosetta Shape Core ontology family this state maps to.",
+      "required": ["family_id", "family_name"],
+      "properties": {
+        "family_id": {
+          "type": "string",
+          "description": "Rosetta family or principle ID. e.g. 'FAMILY.F01' or 'PRINCIPLE.P06'."
+        },
+        "family_name": {
+          "type": "string",
+          "description": "Human-readable family name. e.g. 'Resonance', 'Turbulence'."
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "pad": {"P": 0.80, "A": 0.10, "D": 0.50, "source": "exact — matched to 'coherence' centroid"},
+      "octahedral_state": {"index": 0, "bits": "000|O", "label": "+x spherical", "character": "coherent, phase-locked, ground state", "phi_coherence": 0.97},
+      "ontology_bridge": {"family_id": "FAMILY.F01", "family_name": "Resonance"}
+    },
+    {
+      "pad": {"P": -0.82, "A": 0.85, "D": -0.65, "source": "exact — matched to 'fear' centroid"},
+      "octahedral_state": {"index": 5, "bits": "101|O", "label": "-z biaxial xy", "character": "chaotic, loss of control", "phi_coherence": 0.78},
+      "ontology_bridge": {"family_id": "FAMILY.F17", "family_name": "Turbulence"}
+    }
+  ]
+}

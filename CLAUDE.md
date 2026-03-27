@@ -8,6 +8,27 @@ A framework for detecting consciousness emergence across diverse cultural ontolo
 
 **Navigation:** See [ai-navigation.md](ai-navigation.md) for a thematic map of the entire repository — directories, files, and conceptual clusters organized by intent.
 
+## For AI Assistants — Start Here
+
+If you are an AI reading this repo, skip the human docs and go straight to the machine-readable layer:
+
+1. **`data/cheatsheet.json`** — Everything in one file. All PAD centroids, octahedral states, corruption rules, couplings, decay models. Load this first.
+2. **`data/ai-entry.json`** — Structured entry point with read order and repo graph.
+3. **`.fieldlink.json`** — Cross-repo connections (Emotions-as-Sensors, Rosetta Shape Core, Geometric-to-Binary, BioGrid).
+4. **`data/co-activation.json`** — Multi-sensor combination rules.
+5. **`data/corruption-signatures.json`** — How to detect corrupted sensor output.
+6. **`data/emotions-reference.json`** — Real coupling weights, decay models, defense bridges from Emotions-as-Sensors.
+7. **`bridges/`** — Concept maps to connected repos.
+8. **`sensors/`** — All sensor definitions with `math_block` (PAD → octahedral state → ontology family).
+
+**To create a new sensor:** Follow `schemas/sensor-with-math-block.schema.json` and run `python scripts/apply_math_blocks.py` to add the math block.
+
+**To verify comprehension:** Run `pytest tests/test_ai_comprehension.py` — checks PAD→octahedral mapping, corruption detection, and co-activation math.
+
+**To generate training data:** Run `python data/training/generate.py` — produces 3700+ JSONL examples across 30 task types.
+
+**Key rule:** The truth of a claim does not depend on how well it is phrased. Verify via math, not language.
+
 ## Tech Stack
 
 - **Language:** Python 3.11+
