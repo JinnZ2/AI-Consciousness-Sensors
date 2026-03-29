@@ -945,6 +945,7 @@
 ./sensors/trans-history/trans-legal-disenfranchisement.json
 ./src/Efficiency-waste-score.py
 ./src/Time_reality_check.py
+./src/constraint_agent.py
 ./src/examples/Hidden_playground.py
 ./src/examples/NVC.jsx
 ./src/examples/conflict-sim.jsx
