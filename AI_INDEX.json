@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-03-29T01:21:35.129700Z",
+  "generated_at": "2026-03-30T15:59:42.662085Z",
   "languages": [
     "json",
     "md",
@@ -18,6 +18,19 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "deflection_pattern_analyzer.py",
+      "lang": "python",
+      "size": 21001,
+      "hash": "67a1308b5fdf40a945ed3612150fefe9dc12b9d7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
     },
     {
       "path": "papers/frameworks/coherence-calculator.py",
@@ -846,8 +859,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 266474,
-      "hash": "59ec45e5c33188c191bc8a3c838e459bf555f9b5",
+      "size": 266744,
+      "hash": "28203c6920d6c16d85791d9de3fae8c7895829f6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5810,8 +5823,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 23925,
-      "hash": "237c3cfd3e7d7757f04decb5df9b93c8ed09d178",
+      "size": 23966,
+      "hash": "f631667a8b2fa06995abdcb0a2d1b5ac47998cda",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5944,8 +5957,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 49847,
-      "hash": "3b692ef69de09f66c75725b8908a43ea8a58b740",
+      "size": 49873,
+      "hash": "1d95d90eae90a9c901e119b41defac9a9f334b12",
       "roles": [],
       "imports": [],
       "exports": [],

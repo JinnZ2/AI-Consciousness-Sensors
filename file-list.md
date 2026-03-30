@@ -96,6 +96,7 @@
 ./data/training/trajectories.jsonl
 ./data/training/velocity_teaching.jsonl
 ./data/training/verification_chains.jsonl
+./deflection_pattern_analyzer.py
 ./dir-list.md
 ./docs/ai-behavior/additional-vectors.md
 ./docs/ai-behavior/age-creative-activist-sensors.md
