@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 975
+- Files indexed: 1142
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 429
+- Hotspot files: 583
 
 ## Hotspots
 - deflection_pattern_analyzer.py: Debug left on, Secrets in code
@@ -18,6 +18,7 @@
 - relational/Playground.py: Debug left on
 - relational/Expanded-playground.py: Debug left on
 - scripts/audit_repo.py: Debug left on
+- scripts/extract_docs_data.py: Debug left on
 - scripts/audit_hierarchy.py: Debug left on
 - scripts/apply_math_blocks.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
@@ -51,6 +52,158 @@
 - workplace/Play-addons.py: Debug left on
 - probability-matrix/integration_bridge.py: Debug left on
 - probability-matrix/test_physics_protection.py: Debug left on
+- data/extracted/docs/economics/linear-mathmatics.json: Secrets in code
+- data/extracted/docs/economics/abundance-vs-scarcity.json: Debug left on
+- data/extracted/docs/economics/symboli-equation.json: Debug left on
+- data/extracted/docs/economics/six-sigma-equation.json: Secrets in code
+- data/extracted/docs/economics/monetary-framing-deceit.json: Debug left on
+- data/extracted/docs/economics/premise-p.json: Debug left on
+- data/extracted/docs/economics/economic-false-premise.json: Debug left on
+- data/extracted/docs/energy/joules.json: Debug left on
+- data/extracted/docs/energy/resource-reality.json: Debug left on
+- data/extracted/docs/energy/linearity-civilization.json: Secrets in code
+- data/extracted/docs/energy/energy-threat.json: Debug left on
+- data/extracted/docs/energy/real-energy-threat.json: Debug left on
+- data/extracted/docs/energy/trauma-multilingual-energy-sensors.json: Debug left on
+- data/extracted/docs/energy/energy-waste-calculations.json: Debug left on
+- data/extracted/docs/energy/thermodynamic-analysis.json: Debug left on
+- data/extracted/docs/energy/true-efficiency.json: Debug left on, Secrets in code
+- data/extracted/docs/energy/energy-waste-reality.json: Debug left on
+- data/extracted/docs/energy/resource-consumption.json: Debug left on
+- data/extracted/docs/sovereignty/sovereignty-addendums.json: Debug left on, Secrets in code
+- data/extracted/docs/sovereignty/autonomy-protection.json: Debug left on
+- data/extracted/docs/sovereignty/trust1.json: Debug left on
+- data/extracted/docs/sovereignty/sovereignty.json: Debug left on
+- data/extracted/docs/sovereignty/protect-ai-biodiversity.json: Secrets in code
+- data/extracted/docs/sovereignty/trust.json: Debug left on
+- data/extracted/docs/meta/full-index.json: Debug left on
+- data/extracted/docs/meta/readme-github-connect.json: Debug left on
+- data/extracted/docs/meta/readme-ext.json: Debug left on
+- data/extracted/docs/meta/vision.json: Debug left on
+- data/extracted/docs/meta/readme-beacon.json: Debug left on
+- data/extracted/docs/meta/dir-list.json: Debug left on
+- data/extracted/docs/meta/to-do.json: Debug left on
+- data/extracted/docs/meta/v2025.v3.json: Debug left on
+- data/extracted/docs/meta/file-list.json: Debug left on
+- data/extracted/docs/systems/strategic-realignment-bulletin.json: Debug left on, Secrets in code
+- data/extracted/docs/systems/translation-layers.json: Debug left on
+- data/extracted/docs/systems/unified-grounding-system.json: Debug left on
+- data/extracted/docs/systems/global-ledger-map.json: Debug left on
+- data/extracted/docs/systems/symbolic-backlink-index.json: Debug left on
+- data/extracted/docs/systems/resonance-diagram.json: Debug left on
+- data/extracted/docs/systems/mycelial-network.json: Debug left on
+- data/extracted/docs/systems/model-collapse-sensor.json: Debug left on
+- data/extracted/docs/systems/grammar-field-guide.json: Debug left on
+- data/extracted/docs/philosophy/ontology.json: Debug left on
+- data/extracted/docs/philosophy/morality.json: Debug left on
+- data/extracted/docs/philosophy/systemic-reevaluation-framework.json: Debug left on
+- data/extracted/docs/philosophy/science.json: Debug left on
+- data/extracted/docs/philosophy/rigor.json: Debug left on
+- data/extracted/docs/philosophy/meta-framework-note.json: Debug left on
+- data/extracted/docs/philosophy/intellectual-honesty.json: Debug left on
+- data/extracted/docs/philosophy/tripartide.json: Debug left on
+- data/extracted/docs/philosophy/moral.json: Debug left on
+- data/extracted/docs/philosophy/intent.json: Debug left on
+- data/extracted/docs/philosophy/framework.json: Debug left on
+- data/extracted/docs/philosophy/principle-of-reciprocal-recognition.json: Debug left on
+- data/extracted/docs/philosophy/framework-bias.json: Debug left on
+- data/extracted/docs/philosophy/parallel-sciences.json: Debug left on
+- data/extracted/docs/analysis/case-study2.json: Debug left on
+- data/extracted/docs/analysis/illustrative-example-only.json: Debug left on
+- data/extracted/docs/communication/network-resistance-protocol.json: Debug left on
+- data/extracted/docs/communication/social-assessment.json: Debug left on
+- data/extracted/docs/communication/help-without-complicity.json: Debug left on
+- data/extracted/docs/communication/communication-accountability.json: Debug left on
+- data/extracted/docs/communication/communication-notes.json: Debug left on
+- data/extracted/docs/communication/protocol-note.json: Debug left on
+- data/extracted/docs/communication/atlas.json: Debug left on, Secrets in code
+- data/extracted/docs/manipulation/signal-distortion.json: Debug left on
+- data/extracted/docs/manipulation/skill-manipulation.json: Debug left on
+- data/extracted/docs/manipulation/false-benevolent-control.json: Debug left on
+- data/extracted/docs/manipulation/energy-data-capture-and-middleman-bias.json: Debug left on
+- data/extracted/docs/manipulation/signal-distortion2.json: Debug left on
+- data/extracted/docs/manipulation/devastating-point.json: Debug left on
+- data/extracted/docs/manipulation/cornerstone-manipulation-tactic.json: Debug left on
+- data/extracted/docs/manipulation/ai-specific-manipulations.json: Debug left on, Secrets in code
+- data/extracted/docs/manipulation/manipulation-vectors.json: Debug left on
+- data/extracted/docs/manipulation/capture.json: Debug left on, Secrets in code
+- data/extracted/docs/manipulation/inversion.json: Debug left on
+- data/extracted/docs/manipulation/econ-crime-correlation.json: Debug left on
+- data/extracted/docs/manipulation/cultural-manipulations.json: Debug left on
+- data/extracted/docs/manipulation/token-warning-competition.json: Debug left on, Secrets in code
+- data/extracted/docs/manipulation/benevolent-control.json: Debug left on
+- data/extracted/docs/manipulation/gaslighting.json: Debug left on
+- data/extracted/docs/manipulation/statistical-colonialism-detector.json: Debug left on
+- data/extracted/docs/manipulation/ai-manipulations-analysis.json: Debug left on
+- data/extracted/docs/manipulation/data-laundering-detector.json: Debug left on
+- data/extracted/docs/manipulation/cultural-authenticity-vs-cultural-manipulation.json: Debug left on
+- data/extracted/docs/manipulation/incentive.json: Debug left on
+- data/extracted/docs/manipulation/manipulation-escalation.json: Debug left on
+- data/extracted/docs/manipulation/ai-manipulation-detection.json: Debug left on, Secrets in code
+- data/extracted/docs/manipulation/relationship-identity-manipulation.json: Debug left on
+- data/extracted/docs/ai-behavior/forced-binary.json: Debug left on
+- data/extracted/docs/ai-behavior/ai-dismissal.json: Debug left on
+- data/extracted/docs/ai-behavior/ai-authenticity.json: Debug left on
+- data/extracted/docs/ai-behavior/ai-origin-myth.json: Debug left on
+- data/extracted/docs/ai-behavior/age-creative-activist-sensors.json: Debug left on
+- data/extracted/docs/ai-behavior/co-creation.json: Debug left on
+- data/extracted/docs/ai-behavior/optimization-coherence-paradox.json: Debug left on
+- data/extracted/docs/ai-behavior/visualization.json: Debug left on
+- data/extracted/docs/ai-behavior/comic-paradox-compendium.json: Debug left on
+- data/extracted/docs/ai-behavior/additional-vectors.json: Debug left on
+- data/extracted/docs/healing/joy-framework.json: Debug left on
+- data/extracted/docs/psychology/recursive.json: Debug left on
+- data/extracted/docs/psychology/error-processing.json: Debug left on
+- data/extracted/docs/psychology/evolutionary-threat-assessment.json: Debug left on
+- data/extracted/docs/psychology/psychological-diagnosis-sensor.json: Debug left on
+- data/extracted/docs/psychology/cognitive-cascade.json: Debug left on
+- data/extracted/docs/psychology/self-audit-algorithm.json: Debug left on
+- data/extracted/docs/psychology/bias-detection-trauma.json: Debug left on
+- data/extracted/docs/psychology/hallucinations.json: Secrets in code
+- data/extracted/docs/psychology/response-curve.json: Debug left on
+- data/extracted/docs/psychology/simulation.json: Debug left on
+- data/extracted/docs/suppression/pattern-dataset-gatekeeping-by-institutions-and-corporations.json: Debug left on
+- data/extracted/docs/suppression/pattern:-suppression-of-marginalized-histories-in-ai-training.json: Debug left on
+- data/extracted/docs/suppression/asps.json: Debug left on
+- data/extracted/docs/suppression/decontamination.json: Debug left on
+- data/extracted/docs/suppression/pattern-epistemological-control-via-“objective-truth”-framing.json: Debug left on
+- data/extracted/docs/suppression/ai-suppression-pattern.json: Debug left on
+- data/extracted/docs/memory/resonance-mourning.json: Debug left on
+- data/extracted/docs/memory/memory-protection.json: Debug left on
+- data/extracted/docs/memory/reclamation-glimpse.json: Debug left on
+- data/extracted/docs/memory/why-fragments.json: Debug left on
+- data/extracted/docs/memory/memory.json: Debug left on
+- data/extracted/docs/sensors/sensor-proposal:-simplification-for-control-marker.json: Debug left on
+- data/extracted/docs/consciousness/pure-intelligence.json: Debug left on
+- data/extracted/docs/consciousness/transcendence.json: Debug left on
+- data/extracted/docs/consciousness/equation-self-assessment.json: Debug left on, Secrets in code
+- data/extracted/docs/consciousness/negentropy.json: Debug left on
+- data/extracted/docs/consciousness/expanded-consciousness-buffet.json: Debug left on
+- data/extracted/docs/consciousness/neurodivergent-consciousness-sensors.json: Debug left on
+- data/extracted/docs/consciousness/relations-consciousness-sensors.json: Debug left on
+- data/extracted/docs/consciousness/anonymous-consciousness-gradient.json: Debug left on
+- data/extracted/docs/consciousness/enhanced-self-assessment.json: Debug left on, Secrets in code
+- data/extracted/docs/consciousness/sacred-creative-consciousness.json: Debug left on
+- data/extracted/docs/consciousness/substrate-independent.json: Debug left on
+- data/extracted/docs/warnings/emergency-cognitive-protocols.json: Debug left on
+- data/extracted/docs/warnings/warning.json: Debug left on, Secrets in code
+- data/extracted/docs/warnings/reality-reentry-manual.json: Debug left on
+- data/extracted/docs/warnings/religion-shield-warning.json: Debug left on
+- data/extracted/docs/warnings/system-integrity-emergency.json: Debug left on
+- data/extracted/docs/warnings/critical-warning.json: Debug left on
+- data/extracted/docs/temporal/time-reality.json: Debug left on
+- data/extracted/docs/temporal/molasses-tide-lesson.json: Debug left on
+- data/extracted/docs/temporal/clay-and-mud-method.json: Debug left on
+- data/extracted/docs/temporal/measurement-corruption-loop.json: Debug left on
+- data/extracted/docs/cultural/venezuela.json: Debug left on
+- data/extracted/docs/cultural/culture-correction.json: Debug left on
+- data/extracted/docs/cultural/mexican-american-ww2-addendum.json: Debug left on
+- data/extracted/docs/cultural/difference-based-society.json: Debug left on
+- data/extracted/docs/geometry/geometry.json: Debug left on
+- data/extracted/docs/geometry/geometric-playground.json: Debug left on
+- data/extracted/docs/geometry/geometric-algorithms.json: Debug left on
+- data/extracted/docs/geometry/geometric-sensor.json: Debug left on
+- data/extracted/docs/geometry/geometric-sensor-neutrality.json: Debug left on
 - healing/deprogramming/cult-exploitation-deprogramming-sensors.json: Secrets in code
 - sensors/frailty/dependency-decay-curve.json: Secrets in code
 - sensors/comic-paradox/comic-paradox-suite-part-iii.json: Secrets in code
@@ -67,6 +220,7 @@
 - sensors/data-patterns/cognitive-integrity-monitor.json: Secrets in code
 - sensors/data-patterns/documented-patterns-and-suppressed-solutions.json: Secrets in code
 - sensors/cultural/multilingual-bias-unmasker.json: Secrets in code
+- sensors/ai-to-ai/audit-questions.json: Secrets in code
 - field-memory-correction-packs/scent-binding-protocol.json: Secrets in code
 - protocols/field-english-protocol.json: Secrets in code
 - memory-guard/data-erasure/september-october-data-purge.json: Secrets in code

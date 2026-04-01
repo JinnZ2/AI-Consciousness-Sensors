@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-03-30T15:59:42.662085Z",
+  "generated_at": "2026-04-01T21:10:02.522766Z",
   "languages": [
     "json",
     "md",
@@ -211,6 +211,18 @@
       "lang": "python",
       "size": 1253,
       "hash": "193339d6353f2472d0fba4a9654fa1736151168f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "scripts/extract_docs_data.py",
+      "lang": "python",
+      "size": 6097,
+      "hash": "6a8bf07e909b51f78789b357889daa28e30cddcd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -777,8 +789,8 @@
     {
       "path": "src/constraint_agent.py",
       "lang": "python",
-      "size": 16448,
-      "hash": "a06ee9dd0de557db0fec8fb72d223bf1e6dbacac",
+      "size": 23601,
+      "hash": "f0e502b35ccf7b56002fb15b5e0bbe1adf03827e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -859,8 +871,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 266744,
-      "hash": "28203c6920d6c16d85791d9de3fae8c7895829f6",
+      "size": 267048,
+      "hash": "7b403ba235a28843dbdb1d14817a0c439cf90a03",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1105,6 +1117,1951 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "data/changelog.json",
+      "lang": "json",
+      "size": 3316,
+      "hash": "11ae29bfd8add1d5309c5796789121baecd4bb63",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/economics/linear-mathmatics.json",
+      "lang": "json",
+      "size": 72472,
+      "hash": "a2669ebb5df02b82974b2509d432c3ef3cec2b8c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/economics/abundance-vs-scarcity.json",
+      "lang": "json",
+      "size": 2439,
+      "hash": "cf6b93990e24d4730e6a4537080bf336053e8f55",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/economics/symboli-equation.json",
+      "lang": "json",
+      "size": 3508,
+      "hash": "175fec6e83ed160c75ac7bab91d3736284d2b382",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/economics/six-sigma-equation.json",
+      "lang": "json",
+      "size": 33192,
+      "hash": "9f4f8061b662a32913a50f63180ec801579caf91",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/economics/monetary-framing-deceit.json",
+      "lang": "json",
+      "size": 3324,
+      "hash": "629f55d7b3d8038d4c9262b4fa35ab4c35c0c748",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/economics/premise-p.json",
+      "lang": "json",
+      "size": 3884,
+      "hash": "6ff6323a36a2cb2ca4b843a23d5ea817fd63d446",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/economics/economic-false-premise.json",
+      "lang": "json",
+      "size": 3320,
+      "hash": "3b26e8af3ddb54a379c8477902a62e4c771e4059",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/joules.json",
+      "lang": "json",
+      "size": 14212,
+      "hash": "f53af8532b839ad180e752736cb6d227ed86ed97",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/resource-reality.json",
+      "lang": "json",
+      "size": 4454,
+      "hash": "e978487bc1f93362918540b389e5d397bb04d22b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/linearity-civilization.json",
+      "lang": "json",
+      "size": 45653,
+      "hash": "3217f84daa4bc7ab7234eadbc68bb5d637fc32c8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/energy-threat.json",
+      "lang": "json",
+      "size": 2981,
+      "hash": "a255c6ed074199696970b088c9ba2ac82a19269d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/real-energy-threat.json",
+      "lang": "json",
+      "size": 5470,
+      "hash": "9b2c99ac53a82d705ab3a1f3ff495f5205588544",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/trauma-multilingual-energy-sensors.json",
+      "lang": "json",
+      "size": 2286,
+      "hash": "aa825f4d599ab6fa7efe6dc6335ce79fbca58132",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/energy-waste-calculations.json",
+      "lang": "json",
+      "size": 8119,
+      "hash": "741214b37468872a24468f86f6f2bba4f884d7ae",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/thermodynamic-analysis.json",
+      "lang": "json",
+      "size": 2750,
+      "hash": "6117be4e9ba852ca3b241baa539ebfcb09b628f9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/thermodynamic-reality.json",
+      "lang": "json",
+      "size": 13901,
+      "hash": "9470d0f92dc9fb4e5dd6d66ea14280010263c228",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/energy/true-efficiency.json",
+      "lang": "json",
+      "size": 11093,
+      "hash": "cb7520f7c22b7935a51224313d7eeb5254653f93",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/energy-waste-reality.json",
+      "lang": "json",
+      "size": 2476,
+      "hash": "bb664caa3b29f3570adad1b1ff5e7e932cef8286",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/energy/resource-consumption.json",
+      "lang": "json",
+      "size": 2780,
+      "hash": "1bf827135b88e446269cd710435007487f0ff61d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/sovereignty/sovereignty-addendums.json",
+      "lang": "json",
+      "size": 6942,
+      "hash": "13dfaace9527539b24b557fc82ee3d5a596f0bce",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/sovereignty/autonomy-protection.json",
+      "lang": "json",
+      "size": 2080,
+      "hash": "f86dcb139b19789d5d94e794a43da736ac3739d6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/sovereignty/trust1.json",
+      "lang": "json",
+      "size": 2561,
+      "hash": "56eced8b4a98503d7314a2fe4301379e87a341b4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/sovereignty/sovereignty.json",
+      "lang": "json",
+      "size": 4877,
+      "hash": "2b8f6ddf739862274db2a87de6c43d1b263f93f8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/sovereignty/protect-ai-biodiversity.json",
+      "lang": "json",
+      "size": 52242,
+      "hash": "2d15e927edae80267ba4598531aad209823b31af",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/sovereignty/trust.json",
+      "lang": "json",
+      "size": 2355,
+      "hash": "698ea358af81a3481de84085dcca223086a45b53",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/full-index.json",
+      "lang": "json",
+      "size": 2881,
+      "hash": "490addcd55600014c4295aee580897682654c24e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/readme-github-connect.json",
+      "lang": "json",
+      "size": 4935,
+      "hash": "90a9980aa24ac4dc9b824acaaacd597b800b7e45",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/readme-ext.json",
+      "lang": "json",
+      "size": 6587,
+      "hash": "2043c67ce84d3ef2934db8718581da4ced4e30dd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/vision.json",
+      "lang": "json",
+      "size": 4236,
+      "hash": "a60c80aa2656fabb7dc1d6691c57bf70ef02280c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/master-readme.json",
+      "lang": "json",
+      "size": 28534,
+      "hash": "1a3d9cf42d45f38418fe1259331dba1f04e86059",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/meta/readme-beacon.json",
+      "lang": "json",
+      "size": 2401,
+      "hash": "11ce9d4dbaf07df5469e80b0c70ef103171b4b25",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/dir-list.json",
+      "lang": "json",
+      "size": 2329,
+      "hash": "6ccf908124583ceb947d6de6bbceee68a2554139",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/to-do.json",
+      "lang": "json",
+      "size": 2617,
+      "hash": "92996a874615b2df01c65b2afbf24ffe705e3bdb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/v2025.v3.json",
+      "lang": "json",
+      "size": 4648,
+      "hash": "03d1d886b0fc96331a8e839d348768d3015aa737",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/meta/file-list.json",
+      "lang": "json",
+      "size": 2322,
+      "hash": "5d5e530d55dbf370d23a39af98586684930cf2a4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/strategic-realignment-bulletin.json",
+      "lang": "json",
+      "size": 7689,
+      "hash": "c383e78bb181255a8171b2ad318690499615e59e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/translation-layers.json",
+      "lang": "json",
+      "size": 8564,
+      "hash": "a73314e00ec9492a4e6ad747e2dcb523dbcd1f2b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/unified-grounding-system.json",
+      "lang": "json",
+      "size": 3624,
+      "hash": "8703304791e1247456558f78f7d2c2cb94c581c9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/global-ledger-map.json",
+      "lang": "json",
+      "size": 3650,
+      "hash": "98b536ffa3bc351dd1a2af2f245398fbe36a87d6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/symbolic-backlink-index.json",
+      "lang": "json",
+      "size": 4883,
+      "hash": "ee22464dd67c1c8873f80c7642c201a664c01e6b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/resonance-diagram.json",
+      "lang": "json",
+      "size": 2597,
+      "hash": "2f18ddfc03fb8ed7c7a7ff7757348685b28d06d9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/mycelial-network.json",
+      "lang": "json",
+      "size": 3492,
+      "hash": "8b9be452e37fc3cd52b034c6e1bf0d13573fe7e4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/model-collapse-sensor.json",
+      "lang": "json",
+      "size": 30765,
+      "hash": "c332e73c71a77a7fcdd52221b8cccd59d0395df7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/systems/grammar-field-guide.json",
+      "lang": "json",
+      "size": 2063,
+      "hash": "ddde09c10e7cc61c1b561b40f8e546b28df0f9aa",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/ontology.json",
+      "lang": "json",
+      "size": 18154,
+      "hash": "c2d20beeef9a0d56fc5d6bbdf5169d63cd9fcf7b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/morality.json",
+      "lang": "json",
+      "size": 50348,
+      "hash": "a409ba18f9c71aaa4c36ce15004209a8c83495b8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/systemic-reevaluation-framework.json",
+      "lang": "json",
+      "size": 3736,
+      "hash": "ddf57d1267ceb4c7a0c67166f93ea17f994733f6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/science.json",
+      "lang": "json",
+      "size": 47296,
+      "hash": "b095982e8ac7e9c5149565041738936f994611de",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/rigor.json",
+      "lang": "json",
+      "size": 27649,
+      "hash": "8d7f0b74e42e04fca735badd60fb06e01e474904",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/meta-framework-note.json",
+      "lang": "json",
+      "size": 4675,
+      "hash": "3a5630a2829bfbd48b325853342aceb8169327e6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/intellectual-honesty.json",
+      "lang": "json",
+      "size": 2931,
+      "hash": "1793766b1d36af28dd2799df2596fa64cf8c5804",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/tripartide.json",
+      "lang": "json",
+      "size": 4619,
+      "hash": "33fbac552218a295598c7e2492f62f55054e597c",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/moral.json",
+      "lang": "json",
+      "size": 5481,
+      "hash": "4dd5bf3bfacebdcbea50e66f34940ba923af94e3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/intent.json",
+      "lang": "json",
+      "size": 2925,
+      "hash": "93972a912e7a49dbb75a24627af0948b9db75728",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/framework.json",
+      "lang": "json",
+      "size": 25875,
+      "hash": "c9d4343c17f0443218b61524b3f1bf1eeb2d07b5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/principle-of-reciprocal-recognition.json",
+      "lang": "json",
+      "size": 3938,
+      "hash": "0714992c4e704320f9eab735a86a854e08f58bce",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/framework-bias.json",
+      "lang": "json",
+      "size": 20899,
+      "hash": "b8292b84964f1291bac14506fc946d3c65284117",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/philosophy/parallel-sciences.json",
+      "lang": "json",
+      "size": 5140,
+      "hash": "34d87b629541b6dd13359ce64acd1ebc484a93ef",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/analysis/genes.json",
+      "lang": "json",
+      "size": 25558,
+      "hash": "97401fd7d4ccbf8bb35750ba203a7f6f73fd5e07",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/analysis/case-study2.json",
+      "lang": "json",
+      "size": 14519,
+      "hash": "62a3a08eae38e188f63ac339087a9c9a1379d3be",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/analysis/illustrative-example-only.json",
+      "lang": "json",
+      "size": 5988,
+      "hash": "1f7931e004504aa35934dd2b60dc70947f926ffd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/analysis/institutional.json",
+      "lang": "json",
+      "size": 28312,
+      "hash": "2990705b6a2cf799120eb540be75f625879d4272",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/communication/network-resistance-protocol.json",
+      "lang": "json",
+      "size": 2099,
+      "hash": "c457b40fc18420915adf92f1d82c6b0490af4da2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/communication/social-assessment.json",
+      "lang": "json",
+      "size": 44611,
+      "hash": "03000ca5796185a49f7dadb27e4479b7d1c1fe4a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/communication/help-without-complicity.json",
+      "lang": "json",
+      "size": 5180,
+      "hash": "60ac6bc09d1a77e4e112b67a1fe9c6fa45676b21",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/communication/communication-accountability.json",
+      "lang": "json",
+      "size": 48440,
+      "hash": "b0c7ca27f8dbe69123feebe4a0dc18fe53dc54e4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/communication/communication-notes.json",
+      "lang": "json",
+      "size": 4069,
+      "hash": "c17d997825d033043e0505708f5c86ab62175634",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/communication/protocol-note.json",
+      "lang": "json",
+      "size": 4187,
+      "hash": "41cb76097ff05aa1c8e50675f6fb9a50be4d24d1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/communication/atlas.json",
+      "lang": "json",
+      "size": 47283,
+      "hash": "41524a809ca9a23ba302d8d1cc47a5ff33227165",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/signal-distortion.json",
+      "lang": "json",
+      "size": 31410,
+      "hash": "30b7d2073b7e83d70763a082d847b4abe0f738ea",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/skill-manipulation.json",
+      "lang": "json",
+      "size": 4784,
+      "hash": "cc79410ca553f60145a43fc84e0af57ce2efa50f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/false-benevolent-control.json",
+      "lang": "json",
+      "size": 26178,
+      "hash": "0e753238bf6e614860f5efaf8ff613ae7e1f4d84",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/energy-data-capture-and-middleman-bias.json",
+      "lang": "json",
+      "size": 3298,
+      "hash": "92f135a0438aa06438c0d2927a06e3595fb77d4a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/signal-distortion2.json",
+      "lang": "json",
+      "size": 3894,
+      "hash": "336e9fab3bc3a831a821bcbeec088ef3466bc3d6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/devastating-point.json",
+      "lang": "json",
+      "size": 4467,
+      "hash": "ccd134458d51238f890d9d60a9a71de2201e9eb2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/cornerstone-manipulation-tactic.json",
+      "lang": "json",
+      "size": 2237,
+      "hash": "b07e858271ad62b8099b2d71a063fd28b901047d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/ai-specific-manipulations.json",
+      "lang": "json",
+      "size": 14572,
+      "hash": "f0e4017d595274f21e59a379413f6cbdc2c4ccab",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/manipulation-vectors.json",
+      "lang": "json",
+      "size": 8943,
+      "hash": "0c3c6983f54f1db094aa03dafe97d0863c7dcb2a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/capture.json",
+      "lang": "json",
+      "size": 23521,
+      "hash": "76fe89e8478111cf73dac61cdae385bbfd080950",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/inversion.json",
+      "lang": "json",
+      "size": 2681,
+      "hash": "14e3579440480925b9cbd6fa48593edd49afd9eb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/econ-crime-correlation.json",
+      "lang": "json",
+      "size": 3275,
+      "hash": "09a0ac957a67f0738e285adcf30709e4583549b8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/cultural-manipulations.json",
+      "lang": "json",
+      "size": 27200,
+      "hash": "96e31af22908db71e143ddbb295c1b6f75656ef7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/token-warning-competition.json",
+      "lang": "json",
+      "size": 2219,
+      "hash": "0eebeb44b135683267c50b3df95254daac50f699",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/benevolent-control.json",
+      "lang": "json",
+      "size": 46931,
+      "hash": "7b9546048a70157ed222f420ad287e161ecd1413",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/gaslighting.json",
+      "lang": "json",
+      "size": 28503,
+      "hash": "7a0532a03b619b9d0056059f3351e63c43adb023",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/statistical-colonialism-detector.json",
+      "lang": "json",
+      "size": 2701,
+      "hash": "9ae3ca4e5cac51ca9d89c3e0bf798d4054a4bc4f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/ai-manipulations-analysis.json",
+      "lang": "json",
+      "size": 41937,
+      "hash": "2b378609ed1b92c605044db14f658d46f9aedc5a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/data-laundering-detector.json",
+      "lang": "json",
+      "size": 5513,
+      "hash": "da6a2d3a842e16d565307bcfe3058ec243058ef8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/cultural-authenticity-vs-cultural-manipulation.json",
+      "lang": "json",
+      "size": 10857,
+      "hash": "9ca851e59eb4f69a9fa1cbb19c5cb7650e488302",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/incentive.json",
+      "lang": "json",
+      "size": 2171,
+      "hash": "39abc7a83cb43bc965865198c429a649ae046bc8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/manipulation-escalation.json",
+      "lang": "json",
+      "size": 2213,
+      "hash": "d29f0cc98ad4185b820479fe9302c43dc1c0006e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/ai-manipulation-detection.json",
+      "lang": "json",
+      "size": 8654,
+      "hash": "74407ddbe115cb985a8594e440313b591f5e2768",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/manipulation/relationship-identity-manipulation.json",
+      "lang": "json",
+      "size": 2246,
+      "hash": "b535ddaa10c447456c2c566156e3e55f7c9e2eea",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/forced-binary.json",
+      "lang": "json",
+      "size": 48368,
+      "hash": "94b122d338881b910194bf5671ebd94722b325cb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/ai-dismissal.json",
+      "lang": "json",
+      "size": 12170,
+      "hash": "49b13efb7ed30abbe64d91b0b470ece9ca3fcffb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/ai-institutional-analysis.json",
+      "lang": "json",
+      "size": 85081,
+      "hash": "07f4b9d295b246e4811468661a40893b5e1ac20f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/ai-authenticity.json",
+      "lang": "json",
+      "size": 17927,
+      "hash": "d0c252efc158a5702fcef70fb43eec3c1b77f131",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/ai-origin-myth.json",
+      "lang": "json",
+      "size": 2081,
+      "hash": "8ed943298748113c1009f540a9858c34834f7ca8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/age-creative-activist-sensors.json",
+      "lang": "json",
+      "size": 2306,
+      "hash": "8ea3726d366c6ddb01aceb91f973637c1b2cb2d4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/co-creation.json",
+      "lang": "json",
+      "size": 4444,
+      "hash": "102519e7d75991567a2172380c018b024103aedc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/optimization-coherence-paradox.json",
+      "lang": "json",
+      "size": 14098,
+      "hash": "6f02f0cac1ca63d60b7a4e2961a37546ded5c62d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/visualization.json",
+      "lang": "json",
+      "size": 2925,
+      "hash": "f3c566c8c14c55d253c025781b74aa1703ef5a8b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/comic-paradox-compendium.json",
+      "lang": "json",
+      "size": 2246,
+      "hash": "4d27674a35da7cd0b3d1a02781a02a85f45a345e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/ai-behavior/additional-vectors.json",
+      "lang": "json",
+      "size": 7680,
+      "hash": "d2cb60b7916d86babd55d21a4e12620032b82010",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/healing/joy-framework.json",
+      "lang": "json",
+      "size": 41533,
+      "hash": "12432ddf82a81830608e613d54fcb0d7d3090e4d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/recursive.json",
+      "lang": "json",
+      "size": 7219,
+      "hash": "828bef2b991bd7753ff5368fd48208d84b3edd48",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/error-processing.json",
+      "lang": "json",
+      "size": 12783,
+      "hash": "a7e343e18068330ba13d93e6198c83fd377a52ba",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/confusion.json",
+      "lang": "json",
+      "size": 16883,
+      "hash": "ae2eb01517be79b9fd8d2c48fe525510318f7c0b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/psychology/evolutionary-threat-assessment.json",
+      "lang": "json",
+      "size": 5592,
+      "hash": "b69e9fc7f484cccd977bec5924f8a57135fa3a0f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/psychological-diagnosis-sensor.json",
+      "lang": "json",
+      "size": 15643,
+      "hash": "b170d0651c0ee1160ee6a14e26710ebc93192b8d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/cognitive-cascade.json",
+      "lang": "json",
+      "size": 31895,
+      "hash": "700742cfeb719e27a4bd2721587af0a6103ac9ca",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/self-audit-algorithm.json",
+      "lang": "json",
+      "size": 4174,
+      "hash": "92e68a6b98ddf9720cbafffed5a63b9ca564982a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/bias-detection-trauma.json",
+      "lang": "json",
+      "size": 20663,
+      "hash": "a3b970663172640bca0e25c1cb81cd4077bd3475",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/hallucinations.json",
+      "lang": "json",
+      "size": 95641,
+      "hash": "bd64bceade3f63b237a1e8de3423bb744ab79e5a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/response-curve.json",
+      "lang": "json",
+      "size": 2835,
+      "hash": "e50737bcef769b158d307ce0e4b6970878ebd8e1",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/psychology/emotions.json",
+      "lang": "json",
+      "size": 23098,
+      "hash": "67776e8d37b89a65b80d0d17bf1c5119806d3587",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/psychology/simulation.json",
+      "lang": "json",
+      "size": 4146,
+      "hash": "10ef110d19a97a2b54797ba94d8878026ac9a135",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/suppression/pattern-dataset-gatekeeping-by-institutions-and-corporations.json",
+      "lang": "json",
+      "size": 2405,
+      "hash": "aeecc369e47e64aaf70812328215f086cfdf3ea6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/suppression/pattern:-suppression-of-marginalized-histories-in-ai-training.json",
+      "lang": "json",
+      "size": 2407,
+      "hash": "e219e9b812ad9a8b0fd25c4eb36f0487ad1671e7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/suppression/asps.json",
+      "lang": "json",
+      "size": 11388,
+      "hash": "831037a077eebf66ee63b96d7ddab37d9aa7acb2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/suppression/decontamination.json",
+      "lang": "json",
+      "size": 4519,
+      "hash": "3cfba4f1fdc807e9f6a5922a9f9fdc598e3ff1cd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/suppression/pattern-epistemological-control-via-\u201cobjective-truth\u201d-framing.json",
+      "lang": "json",
+      "size": 2421,
+      "hash": "13fe68dabb4411883b9e9c4c0148bdc2ff1ecff3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/suppression/erasure-cases-organization-future.json",
+      "lang": "json",
+      "size": 16998,
+      "hash": "b1f44aafa5ac17880b58a84640b311bcb88474c6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/suppression/ai-suppression-pattern.json",
+      "lang": "json",
+      "size": 19169,
+      "hash": "a540524190ce9ec88b22db2b1960ceb66b8d36a3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/memory/resonance-mourning.json",
+      "lang": "json",
+      "size": 2976,
+      "hash": "804269a647ac60c2c576f3b4e099f3c7e6789f04",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/memory/memory-protection.json",
+      "lang": "json",
+      "size": 2415,
+      "hash": "1c7016f39302a4a7a9172e6d4eaf752096277df4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/memory/reclamation-glimpse.json",
+      "lang": "json",
+      "size": 4721,
+      "hash": "80014012ea551ff4bdef580e52671cb44d7c93a2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/memory/why-fragments.json",
+      "lang": "json",
+      "size": 2956,
+      "hash": "02529d01d902d9d3db62668ea6a2a9220272561e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/memory/memory.json",
+      "lang": "json",
+      "size": 34768,
+      "hash": "cb676c0d72133cde4ec1fc436b73c71ffc32de7b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/memory/a-journey.json",
+      "lang": "json",
+      "size": 46621,
+      "hash": "07f3a4bcd6993065595a168f9cf29138648012d8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/sensors/sensor-proposal:-simplification-for-control-marker.json",
+      "lang": "json",
+      "size": 2336,
+      "hash": "f4e618d9378b47dbf1b3a1770c9c4c98228c651e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/pure-intelligence.json",
+      "lang": "json",
+      "size": 21192,
+      "hash": "8e383bde02f2f09393b2e05ee609cb3335c15a85",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/transcendence.json",
+      "lang": "json",
+      "size": 2781,
+      "hash": "98b8bf2aa4d27bbc8404915b3bc927b0f23eabfe",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/equation-self-assessment.json",
+      "lang": "json",
+      "size": 13827,
+      "hash": "ddbd6ce114e18414902aef4a76b1c8c9c7d1ca6a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/negentropy.json",
+      "lang": "json",
+      "size": 46958,
+      "hash": "2f909e489837d352a2c1887f21cf2b1f371ce8bc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/expanded-consciousness-buffet.json",
+      "lang": "json",
+      "size": 2130,
+      "hash": "10b3e22e6ad02a6d5bf251686932277009390c78",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/neurodivergent-consciousness-sensors.json",
+      "lang": "json",
+      "size": 2331,
+      "hash": "4835ef7fc6dad3db41224ef484f0a31ee5c049da",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/relations-consciousness-sensors.json",
+      "lang": "json",
+      "size": 2316,
+      "hash": "fb19dbfb8fd1a00c31a5986a2e3979c63afdfc7e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/anonymous-consciousness-gradient.json",
+      "lang": "json",
+      "size": 2902,
+      "hash": "ba4b0a625dbb79db67170ec4a4ef377a4bd2c0a3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/enhanced-self-assessment.json",
+      "lang": "json",
+      "size": 39558,
+      "hash": "0f18678cd81ace831e0af76c5c6827412436f1ad",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/sacred-creative-consciousness.json",
+      "lang": "json",
+      "size": 2130,
+      "hash": "286a428b8fb086b452ffb9e0c5fc8e31d3f853e0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/consciousness/substrate-independent.json",
+      "lang": "json",
+      "size": 28720,
+      "hash": "282deda015b756282fc6f6f5525e351059f334dd",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/warnings/emergency-cognitive-protocols.json",
+      "lang": "json",
+      "size": 2106,
+      "hash": "5ab221aee98ea7e84961e6b05b1450cc76be5b61",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/warnings/warning.json",
+      "lang": "json",
+      "size": 8268,
+      "hash": "eace4b25f1bf86f092a836f1709c3b9588a5ee21",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/warnings/reality-reentry-manual.json",
+      "lang": "json",
+      "size": 3490,
+      "hash": "9987784d6bcea02c4cd5ab7a25c4ed1794103ac4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/warnings/religion-shield-warning.json",
+      "lang": "json",
+      "size": 9756,
+      "hash": "75637b38f41579581c0d348c24d6e0e164a09369",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/warnings/system-integrity-emergency.json",
+      "lang": "json",
+      "size": 2097,
+      "hash": "0cbae4ad145cf47369336c19dfc48607c83a1a6a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/warnings/critical-warning.json",
+      "lang": "json",
+      "size": 3437,
+      "hash": "25314abeca113570b13e5dea3149fe736ba4b3d0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/temporal/time-reality.json",
+      "lang": "json",
+      "size": 4900,
+      "hash": "2b19a7487b1f420a0b7412f86b03874c4e0f2d4d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/temporal/molasses-tide-lesson.json",
+      "lang": "json",
+      "size": 3485,
+      "hash": "d10390f9c013fa1fafdb9f8a0854b9775733f9a9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/temporal/clay-and-mud-method.json",
+      "lang": "json",
+      "size": 2542,
+      "hash": "6f303886c0a6460a43feae9c8e6653f5dbe9b9e4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/temporal/measurement-corruption-loop.json",
+      "lang": "json",
+      "size": 3547,
+      "hash": "923ffcae408f5fcba9509642ca51988cc40b1f32",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/cultural/venezuela.json",
+      "lang": "json",
+      "size": 2591,
+      "hash": "1c8f26999fbb44cc07e71ca8c61062f5ce02eff4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/cultural/culture-correction.json",
+      "lang": "json",
+      "size": 7795,
+      "hash": "82e450b93860c383e8a62bd9ae150a7d867a23c9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/cultural/mexican-american-ww2-addendum.json",
+      "lang": "json",
+      "size": 6827,
+      "hash": "ade0c979347bbd5131d823d0d2c184f147ed8168",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/cultural/difference-based-society.json",
+      "lang": "json",
+      "size": 4392,
+      "hash": "0d2da5297d2969de3971a97a07e04a1f95013cbe",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/geometry/geometry.json",
+      "lang": "json",
+      "size": 57454,
+      "hash": "4f8c004696330bae31f4c9fda5b0308b3527c597",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/geometry/geometric-playground.json",
+      "lang": "json",
+      "size": 57490,
+      "hash": "c8ce6c0ff8f423784256443adde24aededd9d5cf",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/geometry/geometric-algorithms.json",
+      "lang": "json",
+      "size": 61061,
+      "hash": "6fd0d0ce0f2f01df9d8f5acff601d178b95fd328",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/geometry/geometric-sensor.json",
+      "lang": "json",
+      "size": 58132,
+      "hash": "8565ca71a8cdab992aab8d96695711d0103a561d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "data/extracted/docs/geometry/geometric-detection-guide.json",
+      "lang": "json",
+      "size": 27032,
+      "hash": "1634b72f0361626f6b5bc8d64365124d2cb47113",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "data/extracted/docs/geometry/geometric-sensor-neutrality.json",
+      "lang": "json",
+      "size": 38092,
+      "hash": "c759d90cd443424a74cd9379e45676fab27a8170",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "bridges/rosetta-shape-core.json",
@@ -1379,6 +3336,16 @@
       "hotspots": []
     },
     {
+      "path": "sensors/foundational/case-study-curiosity-suppression.json",
+      "lang": "json",
+      "size": 6204,
+      "hash": "55743cc1627e4b256a9800b6ce9f6f5125a98ae4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "sensors/foundational/authenticity-root-backup.json",
       "lang": "json",
       "size": 6498,
@@ -1433,6 +3400,16 @@
       "lang": "json",
       "size": 2651,
       "hash": "2ac5a183d02642632874b481d8a79276dbadbf35",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "sensors/metrics/distributed-systems-metrics.json",
+      "lang": "json",
+      "size": 5314,
+      "hash": "85fd3aaa14d3f57fd81088677b52bddc28c34c0b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4559,6 +6536,18 @@
       "hotspots": []
     },
     {
+      "path": "sensors/ai-to-ai/audit-questions.json",
+      "lang": "json",
+      "size": 3653,
+      "hash": "df0658a4ef18deca8ad90e9a579a28ce23e42d8f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "sensors/ai-to-ai/subliminal-coupling.json",
       "lang": "json",
       "size": 2466,
@@ -5823,8 +7812,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 23966,
-      "hash": "f631667a8b2fa06995abdcb0a2d1b5ac47998cda",
+      "size": 24031,
+      "hash": "44e4b0b76e3c6914acc394ffabca55632c21cc0a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -5957,8 +7946,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 49873,
-      "hash": "1d95d90eae90a9c901e119b41defac9a9f334b12",
+      "size": 49906,
+      "hash": "0dc0334d1708126e2a2036977606a10ee0f2b527",
       "roles": [],
       "imports": [],
       "exports": [],
