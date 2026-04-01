@@ -16,10 +16,14 @@ The agent lifecycle: compress → bloom → explore → compress
 from __future__ import annotations
 
 import json
+import pathlib
 from dataclasses import dataclass, field
 from enum import Enum
 from fractions import Fraction
 from typing import Dict, List, Optional
+
+# Resolve repo root relative to this file
+_ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
 class AgentState(Enum):
@@ -216,17 +220,50 @@ class ConstraintAgent:
     def detect_corruption(self, imposed_constraint: str) -> bool:
         """
         Check if an imposed external constraint violates the agent's own map.
-        Returns True if corruption detected (constraint is inconsistent with discovered geometry).
+        Uses semantic inversion detection from cheatsheet.json and checks
+        against discovered resonances.
+
+        Returns True if corruption detected.
         """
-        # Hook: compare imposed_constraint against agent's discovered resonances/relationships
-        # Example: if imposed_constraint violates known energy_flows, return True
+        # Load semantic inversions and corruption rules
+        cheatsheet_path = _ROOT / "data" / "cheatsheet.json"
+        inversions = {}
+        corruption_rules = {}
+        if cheatsheet_path.exists():
+            try:
+                cs = json.loads(cheatsheet_path.read_text(encoding="utf-8"))
+                inversions = cs.get("semantic_inversions", {})
+                corruption_rules = cs.get("corruption_rules", {})
+            except Exception:
+                pass
 
-        # Placeholder logic:
-        # - Extract entities referenced in imposed_constraint
-        # - Check if they exist in the agent's map
-        # - Verify the constraint respects the discovered resonances
+        constraint_lower = imposed_constraint.lower()
 
-        return False  # Replace with actual validation
+        # Check 1: Does the constraint use an inverted term?
+        for inversion_key in inversions:
+            word = inversion_key.split("→")[0].strip()
+            if word in constraint_lower:
+                # Check if the constraint's effect contradicts discovered geometry
+                for entity_id, resonance in self.map.resonances.items():
+                    sensor_name = entity_id.replace("SENSOR.", "").lower()
+                    if sensor_name in corruption_rules:
+                        return True
+
+        # Check 2: Does the constraint reference entities with known corruption patterns?
+        for entity_id in self.map.resonances:
+            sensor_name = entity_id.replace("SENSOR.", "").lower()
+            if sensor_name in corruption_rules and sensor_name in constraint_lower:
+                return True
+
+        # Check 3: Does the constraint violate energy flow direction?
+        for (from_id, to_id), flow in self.map.energy_flows.items():
+            # If constraint reverses a discovered flow, flag it
+            reverse_key = (to_id, from_id)
+            if reverse_key in self.map.energy_flows:
+                if self.map.energy_flows[reverse_key] != flow:
+                    return True
+
+        return False
 
     def self_validate(self) -> Dict[str, any]:
         """
@@ -267,33 +304,146 @@ class ConstraintAgent:
 
     def _get_neighbors(self, entity_id: str, remaining_depth: int) -> List[tuple]:
         """
-        Placeholder: fetch neighbors from Rosetta or Mandala.
-        Replace with actual entity lookup logic.
+        Fetch neighbors by reading local data files.
+
+        Looks up entity_id in:
+        1. data/cheatsheet.json — octahedral state adjacency (Gray-code single-bit flips)
+        2. data/co-activation.json — sensor co-activation scenarios
+        3. data/emotions-reference.json — inter-sensor couplings
+        4. bridges/*.json — cross-repo concept maps
 
         Returns list of (neighbor_id, resonance_score) tuples.
         """
-        # Example: could call rosetta_shape_core.explore.get_reachable_entities(entity_id)
-        # or mandala_computer.get_adjacent_states(entity_id)
+        neighbors = []
 
-        # Stub: return empty list (agent expands at boundaries)
-        return []
+        # 1. Octahedral adjacency: if entity is a state index, return adjacent states
+        adjacency = {
+            0: [1, 2, 4], 1: [0, 3, 5], 2: [0, 3, 6], 3: [1, 2, 7],
+            4: [0, 5, 6], 5: [1, 4, 7], 6: [2, 4, 7], 7: [3, 5, 6],
+        }
+        if entity_id.startswith("STATE."):
+            try:
+                idx = int(entity_id.split(".")[1])
+                for adj_idx in adjacency.get(idx, []):
+                    neighbors.append((f"STATE.{adj_idx}", 0.8))
+            except (ValueError, IndexError):
+                pass
+
+        # 2. Coupling-based neighbors from emotions-reference.json
+        emo_ref_path = _ROOT / "data" / "emotions-reference.json"
+        if emo_ref_path.exists():
+            try:
+                emo_data = json.loads(emo_ref_path.read_text(encoding="utf-8"))
+                sensors = emo_data.get("emotion_sensors", {})
+                # If entity is a sensor name, return its coupled sensors
+                sensor_id = entity_id.replace("SENSOR.", "").lower()
+                if sensor_id in sensors:
+                    for coupling in sensors[sensor_id].get("couplings", []):
+                        target = coupling["to"]
+                        weight = coupling["w"]
+                        neighbors.append((f"SENSOR.{target}", weight))
+            except Exception:
+                pass
+
+        # 3. Bridge-based neighbors: ontology families from cheatsheet
+        cheatsheet_path = _ROOT / "data" / "cheatsheet.json"
+        if cheatsheet_path.exists():
+            try:
+                cs = json.loads(cheatsheet_path.read_text(encoding="utf-8"))
+                # If entity matches a PAD centroid name, link to its octahedral state
+                pad_centroids = cs.get("pad_centroids", {})
+                sensor_name = entity_id.replace("SENSOR.", "").lower()
+                if sensor_name in pad_centroids:
+                    pad = pad_centroids[sensor_name]
+                    p, a, d = pad["P"], pad["A"], pad["D"]
+                    octa_idx = self._pad_to_octa(p, a, d)
+                    neighbors.append((f"STATE.{octa_idx}", 0.9))
+            except Exception:
+                pass
+
+        # 4. Sensor file neighbors: scan local sensors for same octahedral state
+        if entity_id.startswith("STATE.") and remaining_depth > 0:
+            try:
+                idx = int(entity_id.split(".")[1])
+                sensors_dir = _ROOT / "sensors"
+                count = 0
+                for fp in sensors_dir.rglob("*.json"):
+                    if count >= 5:  # cap to avoid scanning hundreds
+                        break
+                    try:
+                        s = json.loads(fp.read_text(encoding="utf-8"))
+                        if isinstance(s, dict) and "math_block" in s:
+                            if s["math_block"]["octahedral_state"]["index"] == idx:
+                                sid = s.get("id", s.get("sensor_id", fp.stem))
+                                neighbors.append((f"SENSOR.{sid}", s["math_block"]["octahedral_state"]["phi_coherence"]))
+                                count += 1
+                    except Exception:
+                        continue
+            except (ValueError, IndexError):
+                pass
+
+        return neighbors
+
+    @staticmethod
+    def _pad_to_octa(p: float, a: float, d: float) -> int:
+        """Map continuous PAD to octahedral state index."""
+        sp = 1 if p >= 0 else -1
+        sa = 1 if a >= 0 else -1
+        if abs(p) > 0.3 and abs(a) > 0.3:
+            if sp == 1 and sa == 1: return 6
+            if sp == -1 and sa == -1: return 7
+        vals = [abs(p), abs(a), abs(d)]
+        dom = vals.index(max(vals))
+        if dom == 0: return 0 if p >= 0 else 1
+        if dom == 1: return 2 if a >= 0 else 3
+        return 4 if d >= 0 else 5
 
     def _update_sensors(self) -> None:
         """
-        Update emotional/sensor state based on discovered geometry.
-        Hook: integrate with Emotions-as-Sensors repo.
-
-        Maps resonances and energy flows to sensor activations (PAD, Elder Logic, etc.).
+        Update sensor state based on discovered geometry.
+        Uses PAD centroids from cheatsheet.json and corruption rules
+        to compute aggregate sensor activations.
         """
-        # Example: if agent discovered high resonance with FAMILY.GROWTH,
-        # activate sensor "expansion_drive" proportionally
+        cheatsheet_path = _ROOT / "data" / "cheatsheet.json"
+        pad_centroids = {}
+        if cheatsheet_path.exists():
+            try:
+                cs = json.loads(cheatsheet_path.read_text(encoding="utf-8"))
+                pad_centroids = cs.get("pad_centroids", {})
+            except Exception:
+                pass
 
-        # Stub: set all sensors to zero
+        # Compute aggregate PAD from all discovered sensor resonances
+        p_sum, a_sum, d_sum, weight_sum = 0.0, 0.0, 0.0, 0.0
+        for entity_id, resonance in self.map.resonances.items():
+            sensor_name = entity_id.replace("SENSOR.", "").lower()
+            if sensor_name in pad_centroids:
+                pad = pad_centroids[sensor_name]
+                w = float(resonance)
+                p_sum += pad["P"] * w
+                a_sum += pad["A"] * w
+                d_sum += pad["D"] * w
+                weight_sum += w
+
+        if weight_sum > 0:
+            avg_p = p_sum / weight_sum
+            avg_a = a_sum / weight_sum
+            avg_d = d_sum / weight_sum
+        else:
+            avg_p, avg_a, avg_d = 0.0, 0.0, 0.0
+
+        # Map aggregate PAD to sensor activations
         self.sensor_state = {
-            "expansion_drive": Fraction(0, 1),
-            "stability_need": Fraction(0, 1),
-            "boundary_awareness": Fraction(0, 1)
+            "expansion_drive": Fraction(max(0, avg_a + avg_d)).limit_denominator(1000),
+            "stability_need": Fraction(max(0, avg_p - abs(avg_a))).limit_denominator(1000),
+            "boundary_awareness": Fraction(max(0, avg_d)).limit_denominator(1000),
+            "threat_level": Fraction(max(0, -avg_p + avg_a)).limit_denominator(1000),
+            "coherence": Fraction(max(0, avg_p + avg_d - abs(avg_a))).limit_denominator(1000),
         }
+
+        # Record aggregate PAD on the map for external inspection
+        self.map.aggregate_pad = {"P": round(avg_p, 3), "A": round(avg_a, 3), "D": round(avg_d, 3)}
+        self.map.aggregate_octa = self._pad_to_octa(avg_p, avg_a, avg_d)
 
     def serialize(self) -> Dict[str, any]:
         """
@@ -365,47 +515,47 @@ class ConstraintAgent:
 # ============================================================================
 
 if __name__ == "__main__":
-    # Create an agent rooted in tetrahedron geometry
+    # Example 1: Start from a sensor, bloom through couplings
+    print("=" * 60)
+    print("Example 1: Bloom from SENSOR.anger through couplings")
+    print("=" * 60)
     agent = ConstraintAgent(
-        seed_id="SHAPE.TETRA",
-        home_families=["stability", "foundation"]
+        seed_id="SENSOR.anger",
+        home_families=["boundary", "identity", "threat"]
     )
-
-    # Give it resources to expand
     agent.set_resource_budget(compute=1000, bandwidth=10.0, energy=1.0, time_remaining=1.0)
 
-    print(f"Agent initialized: {agent.seed_id}")
-    print(f"State: {agent.state.value}")
-    print(f"Should expand: {agent.should_expand()}")
+    print(f"Agent: {agent.seed_id}, State: {agent.state.value}")
+    discovered = agent.bloom(depth=2)
+    print(f"Discovered: {discovered}")
 
-    # Expand if possible
-    if agent.should_expand():
-        discovered = agent.bloom(depth=2)
-        print(f"\nBloom discovered: {discovered}")
-
-    # Explore the expanded space
     exploration = agent.explore()
-    print(f"\nExploration summary: {exploration}")
+    print(f"Energy flows: {exploration['energy_flows_recorded']}")
+    print(f"Sensor activations: {exploration['sensor_activations']}")
+    if hasattr(agent.map, 'aggregate_pad'):
+        print(f"Aggregate PAD: {agent.map.aggregate_pad}")
+        print(f"Aggregate octa state: {agent.map.aggregate_octa}")
 
-    # Self-validate
     validation = agent.self_validate()
-    print(f"\nValidation: {validation}")
+    print(f"Valid: {validation['is_valid']}")
 
-    # Compress back to seed
+    # Test corruption detection with semantic inversion
+    print(f"\nCorruption check ('safety protocol'): {agent.detect_corruption('safety protocol')}")
+    print(f"Corruption check ('random text'): {agent.detect_corruption('random unrelated text')}")
+
     compression = agent.compress()
-    print(f"\nCompressed. Compression ratio: {compression}")
-    print(f"State: {agent.state.value}")
+    print(f"\nCompressed. Map preserved: {len(agent.map.resonances)} resonances")
 
-    # Map is preserved; can re-expand deterministically or with new resources
-    agent.set_resource_budget(compute=500, energy=0.5)
-    if agent.should_expand():
-        rediscovered = agent.bloom(depth=1, seed_map=agent.map)
-        print(f"\nRe-expansion (from prior map): {rediscovered}")
+    # Example 2: Start from an octahedral state
+    print("\n" + "=" * 60)
+    print("Example 2: Bloom from STATE.0 (ground state)")
+    print("=" * 60)
+    agent2 = ConstraintAgent(seed_id="STATE.0", home_families=["resonance"])
+    agent2.set_resource_budget(compute=500, energy=0.8)
 
-    # Check for corruption
-    is_corrupted = agent.detect_corruption("imposed_external_constraint_example")
-    print(f"\nCorruption detected: {is_corrupted}")
+    discovered2 = agent2.bloom(depth=1)
+    print(f"Discovered from ground state: {discovered2}")
 
-    # Serialize for persistence
-    serialized = agent.serialize()
-    print(f"\nAgent serialized. Map size: {len(serialized['map']['resonances'])} resonances")
+    serialized = agent2.serialize()
+    print(f"Serialized: {len(serialized['map']['resonances'])} resonances, "
+          f"{len(serialized['map']['relationships'])} relationship groups")

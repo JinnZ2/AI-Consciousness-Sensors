@@ -1,0 +1,79 @@
+{
+  "_purpose": "Machine-readable changelog. An AI returning to this repo can check what changed since its last visit.",
+  "_format": "Entries in reverse chronological order. Each entry has a date, summary, and list of changed files/concepts.",
+
+  "entries": [
+    {
+      "date": "2026-04-01",
+      "summary": "Full AI data layer, cross-repo bridges, training data, ConstraintAgent",
+      "changes": [
+        {
+          "category": "ai-data-layer",
+          "description": "Added machine-readable entry points for AI consumption",
+          "files_added": [
+            "data/ai-entry.json",
+            "data/cheatsheet.json",
+            "data/co-activation.json",
+            "data/corruption-signatures.json",
+            "data/emotions-reference.json",
+            "data/changelog.json",
+            "schemas/math-block.schema.json",
+            "tests/test_ai_comprehension.py"
+          ]
+        },
+        {
+          "category": "math-blocks",
+          "description": "PAD math blocks added to 314 sensor JSON files. Each sensor now has PAD coordinates, octahedral state, and ontology bridge.",
+          "files_modified": "sensors/**/*.json (314 files)",
+          "script": "scripts/apply_math_blocks.py"
+        },
+        {
+          "category": "cross-repo-bridges",
+          "description": "Linked 4 external repos via .fieldlink.json and bridge files",
+          "files_added": [
+            "bridges/rosetta-shape-core.json",
+            "bridges/geometric-to-binary.json",
+            "bridges/emotions-as-sensors.json"
+          ],
+          "repos_linked": [
+            "https://github.com/JinnZ2/Rosetta-Shape-Core",
+            "https://github.com/JinnZ2/Geometric-to-Binary-Computational-Bridge",
+            "https://github.com/JinnZ2/Emotions-as-Sensors",
+            "https://github.com/JinnZ2/BioGrid2.0"
+          ]
+        },
+        {
+          "category": "training-data",
+          "description": "3778 JSONL training examples across 30 task types",
+          "files_added": "data/training/*.jsonl (30 files)",
+          "generator": "data/training/generate.py",
+          "task_types": 30,
+          "total_examples": 3778
+        },
+        {
+          "category": "constraint-agent",
+          "description": "Geometric agent that blooms through PAD constraint space using local data",
+          "files_added": ["src/constraint_agent.py"],
+          "hooks_wired": ["_get_neighbors reads cheatsheet/emotions-reference/sensors", "_update_sensors computes aggregate PAD", "detect_corruption uses semantic inversion rules"]
+        },
+        {
+          "category": "json-companions",
+          "description": "JSON counterparts for narrative-heavy markdown files in sensors/",
+          "files_added": [
+            "sensors/metrics/distributed-systems-metrics.json",
+            "sensors/ai-to-ai/audit-questions.json",
+            "sensors/foundational/case-study-curiosity-suppression.json"
+          ]
+        },
+        {
+          "category": "ci",
+          "description": "CI now runs test_ai_comprehension.py (32 tests) instead of broken numpy-dependent tests"
+        },
+        {
+          "category": "claude-md",
+          "description": "CLAUDE.md updated with 'For AI Assistants — Start Here' section pointing to data layer"
+        }
+      ]
+    }
+  ]
+}

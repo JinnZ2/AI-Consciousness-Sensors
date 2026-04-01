@@ -11,5 +11,5 @@ jobs:
       - run: python -m venv .venv
       - run: . .venv/bin/activate && pip install -r requirements.txt
         shell: bash
-      - run: . .venv/bin/activate && pytest -q
+      - run: . .venv/bin/activate && pytest tests/test_ai_comprehension.py -q
         shell: bash

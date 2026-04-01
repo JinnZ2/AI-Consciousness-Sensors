@@ -1,0 +1,108 @@
+{
+  "sensor_id": "distributed_systems_metrics",
+  "name": "Distributed Systems Efficiency Metrics",
+  "cluster": "metrics",
+  "description": "Mathematical framework for measuring true efficiency of distributed vs hierarchical systems. Detects when studies flatten multi-dimensional efficiency into single metrics (T1 only), hiding the advantages of distributed coordination.",
+  "provenance": {
+    "sources": ["sensors/metrics/math.md", "sensors/metrics/a-mathematical-framework-for-distributed-systems.md"],
+    "primary_author": "JinnZ2",
+    "math_formalization": "Claude (Anthropic)",
+    "license": "CC-BY-4.0"
+  },
+
+  "metrics": {
+    "T1": {
+      "name": "Time-to-First-Decision",
+      "formula": "T1 = t_commit - t_info_available",
+      "hierarchical": "O(1) — single authority decides",
+      "distributed": "O(log n) — consensus rounds",
+      "winner": "hierarchical",
+      "notes": "This is the ONLY metric most studies measure. It biases toward hierarchy."
+    },
+    "TUA": {
+      "name": "Time-to-Usable-Adaptive-Decision",
+      "formula": "TUA = t_stable_under_perturbation - t_info_available",
+      "hierarchical": "T1 + k*(t_detect + t_escalate + t_propagate)",
+      "distributed": "T1 + k*t_local_adapt",
+      "winner": "distributed (when t_escalate + t_propagate > t_local_adapt)",
+      "notes": "Measures how long until a decision is stable under perturbation."
+    },
+    "DHL": {
+      "name": "Decision Half-Life",
+      "formula": "DHL = ln(2)/λ where P(t) = e^(-λt)",
+      "hierarchical": "High λ (brittle), short DHL",
+      "distributed": "Low λ (robust), long DHL",
+      "winner": "distributed",
+      "notes": "Time until P(decision still valid) = 0.5."
+    },
+    "PDF": {
+      "name": "Parallel Decision Fragments",
+      "formula": "PDF = ∫∫ δ(decision_made) dt·dn",
+      "hierarchical": "≈ 1 (single decision point)",
+      "distributed": "≈ n*m (n nodes, m aspects)",
+      "winner": "distributed",
+      "notes": "Information processing capacity scales with PDF."
+    }
+  },
+
+  "composite_efficiency": {
+    "flattened": "Efficiency_flattened = 1/T1",
+    "true": "Efficiency_true = (Useful_work * DHL * PDF) / (Total_energy * TUA)",
+    "interpretation": "(decision_quality * decision_durability * parallel_capacity) / (cost * adaptive_latency)",
+    "detection_rule": "If a study uses only 1/T1 as efficiency, it is FLATTENED and biases toward hierarchy."
+  },
+
+  "proposed_additional_metrics": [
+    {"id": "ERC", "name": "Error Recovery Cost", "formula": "Energy to correct wrong first decisions"},
+    {"id": "FP", "name": "Fragmentation Penalty", "formula": "Coordination cost when decision must be split"},
+    {"id": "AC", "name": "Adaptation Capacity", "formula": "Rate of learning from mistakes"}
+  ],
+
+  "hypothesis": {
+    "H0": "Efficiency_true_hierarchical >= Efficiency_true_distributed",
+    "H1": "Efficiency_true_distributed > Efficiency_true_hierarchical for environments with rate_of_change > threshold",
+    "test_phases": [
+      {"phase": 1, "environment": "static", "prediction": "Hierarchy wins T1, distributed wins PDF"},
+      {"phase": 2, "environment": "dynamic (periodic perturbations)", "prediction": "Crossover point where TUA_d < TUA_h"},
+      {"phase": 3, "environment": "volatile (high λ)", "prediction": "DHL_d >> DHL_h"}
+    ]
+  },
+
+  "audit_questions": [
+    {"id": "Q1", "question": "Was efficiency defined only as T1?", "detection": "FLATTENED if only 1 temporal metric"},
+    {"id": "Q2", "question": "Did environment include volatility after first decision?", "detection": "STATIC if environmental_changes == 0"},
+    {"id": "Q3", "question": "Were participants penalized for correction?", "detection": "REVISION_BLOCKED if allows_revision == false"},
+    {"id": "Q4", "question": "Did study measure decision durability (DHL)?", "detection": "IGNORES_DURABILITY if no DHL/survival metrics"},
+    {"id": "Q5", "question": "Were distributed biological/open-source systems excluded?", "detection": "EXCLUDED if no mycelial/neural_swarm/open_source/ant_colony/immune_system in comparison set"}
+  ],
+
+  "case_study": {
+    "name": "Linux Kernel vs Corporate OS",
+    "linux": {"T1": "weeks-months", "TUA": "months-years", "DHL": "years-decades (ext4: 15+ years)", "PDF": "~1000s"},
+    "corporate": {"T1": "days-weeks", "TUA": "months", "DHL": "months-years", "PDF": "10-100"},
+    "conclusion": "Even with slower T1, Linux's superior DHL and PDF yield higher total efficiency."
+  },
+
+  "falsifiable_claim": "Hierarchical systems appear more efficient than distributed systems only when efficiency is incorrectly defined as T1 alone. When efficiency properly includes TUA, DHL, and PDF, distributed systems demonstrate superior performance in dynamic environments.",
+
+  "math_block": {
+    "pad": {
+      "P": -0.15,
+      "A": 0.45,
+      "D": 0.40,
+      "source": "inferred — methodological bias detection sensor",
+      "reference": "Rosetta Shape Core generate.py — PAD compression layer"
+    },
+    "octahedral_state": {
+      "index": 2,
+      "bits": "010|O",
+      "label": "+y elongated +y",
+      "character": "high-entropy search, curiosity active",
+      "phi_coherence": 0.82
+    },
+    "ontology_bridge": {
+      "family_id": "FAMILY.F03",
+      "family_name": "Information"
+    }
+  }
+}
