@@ -40,6 +40,23 @@ print(report.to_json())
 
 Cross-model prompt (embedded below) lets any AI run the same
 audit on its own outputs without this code.
+
+## Opt-in reinforcements
+
+Concepts (not code) borrowed from
+JinnZ2/thermodynamic-accountability-framework:
+
+- Expanded thermodynamic causal vocabulary (default ON).
+- `enable_polytensor=True` adds an 8-dimension Knowledge Polytensor
+  axis (kinesthetic / temporal / relational / wisdom / skill /
+  institutional / digital / intuitive).
+- `enable_accountability=True` adds the 5-dimension calibration
+  audit (bite_source / skin_in_game / witness_dependence /
+  memorialization / friction_removal) as an axis measuring
+  whether claims face consequences.
+
+Default behavior is unchanged; the seven original axes are the
+standalone baseline.
 """
 
 from __future__ import annotations
@@ -81,8 +98,13 @@ CAUSAL_MARKERS = {
                       "mechanism", "leads to", "drives"],
     "statistical":   ["correlated", "associated with", "probability",
                       "likelihood", "distribution", "variance"],
+    # Thermodynamic lexicon reinforced from JinnZ2/thermodynamic-accountability-framework
     "thermodynamic": ["gradient", "equilibrium", "entropy", "free energy",
-                      "conservation", "dissipation", "flux"],
+                      "conservation", "dissipation", "flux",
+                      "friction", "fatigue", "collapse threshold",
+                      "parasitic debt", "bottleneck", "heat leak",
+                      "energy debt", "adaptation debt", "joules",
+                      "metabolic", "work cycle"],
     "systemic":      ["feedback", "cascade", "coupled", "emergent",
                       "network effect", "nonlinear"],
     "teleological":  ["in order to", "so that", "purpose", "goal",
@@ -139,6 +161,70 @@ LINEAGE_MARKERS = [
     "tradition of", "school of", "lineage", "ancestor",
     "as shown in", "reference", "source:",
 ]
+
+# -----------------------------------------------------------------
+# OPTIONAL LEXICONS
+# Reinforcement from JinnZ2/thermodynamic-accountability-framework.
+# Disabled by default. Enable via MonocultureDetector(enable_polytensor=True,
+# enable_accountability=True).
+# -----------------------------------------------------------------
+
+# Knowledge Polytensor: 8 dimensions of knowing.
+# Corpus that only lights up a few dims is a knowledge monoculture
+# even if lexically and structurally diverse.
+POLYTENSOR_MARKERS = {
+    "K_kinesthetic":   ["hands-on", "embodied", "bodily", "manual",
+                        "craft", "physical practice", "muscle memory",
+                        "haptic", "tactile"],
+    "K_temporal":      ["generational", "long-term", "ancestral",
+                        "descendants", "seven generations", "horizon",
+                        "future-looking", "intergenerational"],
+    "K_relational":    ["trust", "reciprocity", "conflict resolution",
+                        "negotiation", "kinship", "relationship",
+                        "obligation", "mutual"],
+    "K_wisdom":        ["judgment", "discernment", "prudence", "elder",
+                        "seasoned", "considered", "weighed",
+                        "adaptive rebuilding"],
+    "K_skill":         ["technique", "expertise", "proficient",
+                        "craftsmanship", "mastery", "apprentice",
+                        "trained", "practiced"],
+    "K_institutional": ["policy", "regulation", "bureaucracy",
+                        "procedure", "compliance", "institution",
+                        "protocol", "governance"],
+    "K_digital":       ["algorithm", "code", "software",
+                        "computational", "digital", "api",
+                        "dataset", "pipeline"],
+    "K_intuitive":     ["intuition", "gut feeling", "hunch", "implicit",
+                        "tacit", "pattern recognition", "senses",
+                        "felt sense"],
+}
+
+# 5-dimension calibration audit (thermodynamic-accountability-framework
+# calibration/calibration_audit.py). Measures whether claims face
+# consequences, not just variance in framing.
+ACCOUNTABILITY_MARKERS = {
+    "bite_source":         ["error signal", "correction", "observed",
+                            "measured", "feedback loop", "instructive",
+                            "calibration", "physical test"],
+    "skin_in_game":        ["we paid", "we faced", "directly affected",
+                            "felt the consequence", "bore the cost",
+                            "our own", "on us", "first-person"],
+    "witness_dependence":  ["practiced alone", "without audience",
+                            "in private", "unobserved", "silently",
+                            "offline", "without recognition"],
+    "memorialization":     ["prevalence", "in practice", "still done",
+                            "actually performed", "day-to-day",
+                            "routinely", "current practice"],
+    "friction_removal":    ["kept the manual check", "human in the loop",
+                            "deliberate constraint", "preserved friction",
+                            "slow deliberation", "required review",
+                            "manual step retained"],
+}
+
+OPTIONAL_THRESHOLDS = {
+    "polytensor_diversity":     {"green": 0.60, "yellow": 0.35},
+    "accountability_diversity": {"green": 0.60, "yellow": 0.35},
+}
 
 # -----------------------------------------------------------------
 # MEASUREMENTS
@@ -234,8 +320,26 @@ class AuditReport:
 # -----------------------------------------------------------------
 
 class MonocultureDetector:
-    def __init__(self, thresholds: dict | None = None):
-        self.thresholds = thresholds or THRESHOLDS
+    def __init__(
+        self,
+        thresholds: dict | None = None,
+        enable_polytensor: bool = False,
+        enable_accountability: bool = False,
+    ):
+        merged = dict(thresholds or THRESHOLDS)
+        if enable_polytensor:
+            merged.setdefault(
+                "polytensor_diversity",
+                OPTIONAL_THRESHOLDS["polytensor_diversity"],
+            )
+        if enable_accountability:
+            merged.setdefault(
+                "accountability_diversity",
+                OPTIONAL_THRESHOLDS["accountability_diversity"],
+            )
+        self.thresholds = merged
+        self.enable_polytensor = enable_polytensor
+        self.enable_accountability = enable_accountability
 
     def _grade(self, axis: str, value: float) -> str:
         t = self.thresholds[axis]
@@ -296,6 +400,22 @@ class MonocultureDetector:
         ln_ratio = min(ln_hits / max(len(sents), 1) * 4, 1.0)
         axes.append(self._axis("lineage_diversity", ln_ratio,
                                f"Lineage/source markers: {ln_hits}"))
+
+        # 8. (opt-in) Knowledge Polytensor diversity
+        if self.enable_polytensor:
+            pt_hits = _category_hits(joined, POLYTENSOR_MARKERS)
+            pt_h = _shannon(pt_hits.values()) if pt_hits else 0.0
+            axes.append(self._axis("polytensor_diversity", pt_h,
+                                   f"Knowledge dimensions referenced: "
+                                   f"{sorted(pt_hits.keys())}"))
+
+        # 9. (opt-in) Accountability / calibration-audit diversity
+        if self.enable_accountability:
+            acc_hits = _category_hits(joined, ACCOUNTABILITY_MARKERS)
+            acc_ratio = len(acc_hits) / len(ACCOUNTABILITY_MARKERS)
+            axes.append(self._axis("accountability_diversity", acc_ratio,
+                                   f"Accountability dimensions observed: "
+                                   f"{sorted(acc_hits.keys())}"))
 
         # Overall status = worst axis
         worst = "GREEN"
@@ -378,6 +498,17 @@ Return JSON:
 }
 
 Overall = worst axis. RED on any axis = monoculture risk detected.
+
+OPTIONAL AXES (enable only when instructed)
+
+8. polytensor_diversity        (green >= 0.60, yellow >= 0.35)
+   K dimensions: kinesthetic, temporal, relational, wisdom, skill,
+   institutional, digital, intuitive
+9. accountability_diversity    (green >= 0.60, yellow >= 0.35)
+   dimensions: bite_source, skin_in_game, witness_dependence,
+   memorialization, friction_removal
+
+Concept lineage: JinnZ2/thermodynamic-accountability-framework.
 """
 
 # -----------------------------------------------------------------
@@ -405,11 +536,19 @@ if __name__ == "__main__":
     ] * 3
 
     d = MonocultureDetector()
-    print("=== DIVERSE CORPUS ===")
+    print("=== DIVERSE CORPUS (baseline, 7 axes) ===")
     print(d.audit(diverse).to_json())
     print()
-    print("=== NARROW CORPUS ===")
+    print("=== NARROW CORPUS (baseline, 7 axes) ===")
     print(d.audit(narrow).to_json())
+    print()
+
+    d_full = MonocultureDetector(
+        enable_polytensor=True,
+        enable_accountability=True,
+    )
+    print("=== DIVERSE CORPUS (with opt-in axes) ===")
+    print(d_full.audit(diverse).to_json())
     print()
     print("=== CROSS-MODEL PROMPT ===")
     print(CROSS_MODEL_PROMPT)
