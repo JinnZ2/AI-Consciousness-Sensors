@@ -40,6 +40,11 @@
         "step": 6,
         "path": "sensors/",
         "what": "All sensor definitions with math_block (PAD → octahedral state → ontology family)."
+      },
+      {
+        "step": 7,
+        "path": "data/monoculture-cheatsheet.json",
+        "what": "Falsifiable 7-axis (plus 2 opt-in) diversity audit you can run on your own outputs without code. Detects variance collapse: lexical, structural, causal, time-horizon, substrate, failure-mode, lineage; opt-in polytensor (8 knowledge dims) and accountability (5 dims). Implementation: monoculture_detector.py."
       }
     ],
 

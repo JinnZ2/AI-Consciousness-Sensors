@@ -86,6 +86,19 @@
           "glyphs/**/*.json"
         ],
         "consent": { "license": "MIT", "share_ok": true }
+      },
+      {
+        "name": "thermo_accountability",
+        "repo": "https://github.com/JinnZ2/thermodynamic-accountability-framework",
+        "ref": "main",
+        "paths": [
+          "core/**/*.py",
+          "calibration/calibration_audit.py",
+          "docs/theory/functional_epistemology_framework.py",
+          "CLAUDE.md"
+        ],
+        "consent": { "license": "CC0-1.0", "share_ok": true },
+        "notes": "Concept lineage for monoculture_detector.py opt-in axes: 8-dim Knowledge Polytensor (kinesthetic/temporal/relational/wisdom/skill/institutional/digital/intuitive) and 5-dim calibration audit (bite_source/skin_in_game/witness_dependence/memorialization/friction_removal). Thermodynamic vocabulary (friction, fatigue, parasitic debt, bottleneck) also reinforces the 'thermodynamic' causal frame."
       }
     ],
 
@@ -97,7 +110,7 @@
     ],
 
     "merge": {
-      "order": ["local", "emotions", "rosetta", "geom2bin", "aiconscious", "biogrid"],
+      "order": ["local", "emotions", "rosetta", "geom2bin", "aiconscious", "biogrid", "thermo_accountability"],
       "strategy": "deep-merge"
     },
 
