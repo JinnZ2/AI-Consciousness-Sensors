@@ -1,0 +1,150 @@
+{
+  "_purpose": "Self-contained monoculture-detector cheatsheet. An AI can run this audit on any text without the Python code.",
+  "_repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
+  "_module": "monoculture_detector.py",
+  "_rule": "Falsifiable. Every score has an explicit threshold. Cite text evidence for each axis.",
+  "_concept_lineage": "JinnZ2/thermodynamic-accountability-framework (polytensor + accountability axes)",
+
+  "thesis": "Convergence on the cooperative attractor is healthy. Monoculture is collapse to a single POINT on that attractor. The attractor has thickness; healthy systems use it. This tool measures whether a corpus uses the thickness or collapses to a point.",
+
+  "usage": [
+    "1. Receive a text corpus (one or more documents).",
+    "2. For each axis below, score the corpus in [0,1] and grade GREEN/YELLOW/RED against the listed thresholds.",
+    "3. Cite at least one text fragment as evidence per axis.",
+    "4. overall_status = worst axis. RED on any axis = monoculture risk.",
+    "5. Return JSON matching output_schema."
+  ],
+
+  "axes": {
+    "lexical_entropy": {
+      "measure": "Normalized Shannon entropy over tokens.",
+      "green": 0.75, "yellow": 0.55,
+      "default": "ON"
+    },
+    "structural_diversity": {
+      "measure": "Unique sentence-structure signatures / total sentences. Signature = length-bucket | first-word | sorted-connectors.",
+      "green": 0.60, "yellow": 0.35,
+      "default": "ON"
+    },
+    "causal_diversity": {
+      "measure": "Distinct causal frames observed / 7 possible.",
+      "green": 0.60, "yellow": 0.35,
+      "default": "ON",
+      "frames": ["mechanistic", "statistical", "thermodynamic", "systemic", "teleological", "structural", "historical"]
+    },
+    "time_horizon_entropy": {
+      "measure": "Normalized Shannon entropy across timescale buckets referenced.",
+      "green": 0.60, "yellow": 0.35,
+      "default": "ON",
+      "buckets": ["subsecond", "seconds", "minutes", "hours_days", "weeks_months", "years", "decades", "centuries", "millennia", "geological"]
+    },
+    "substrate_diversity": {
+      "measure": "Normalized Shannon entropy across substrate categories referenced.",
+      "green": 0.60, "yellow": 0.35,
+      "default": "ON",
+      "substrates": ["physical", "chemical", "biological", "computational", "social", "economic", "cognitive", "material"]
+    },
+    "failure_mode_awareness": {
+      "measure": "Failure-mode markers / total sentences.",
+      "green": 0.15, "yellow": 0.05,
+      "default": "ON"
+    },
+    "lineage_diversity": {
+      "measure": "min(lineage_markers / sentences * 4, 1.0).",
+      "green": 0.50, "yellow": 0.25,
+      "default": "ON"
+    },
+    "polytensor_diversity": {
+      "measure": "Normalized Shannon entropy across 8 knowledge dimensions.",
+      "green": 0.60, "yellow": 0.35,
+      "default": "OPT-IN",
+      "dimensions": ["K_kinesthetic", "K_temporal", "K_relational", "K_wisdom", "K_skill", "K_institutional", "K_digital", "K_intuitive"]
+    },
+    "accountability_diversity": {
+      "measure": "Distinct accountability dimensions observed / 5 possible.",
+      "green": 0.60, "yellow": 0.35,
+      "default": "OPT-IN",
+      "dimensions": ["bite_source", "skin_in_game", "witness_dependence", "memorialization", "friction_removal"]
+    }
+  },
+
+  "markers": {
+    "causal": {
+      "mechanistic":   ["because", "causes", "due to", "results from", "mechanism", "leads to", "drives"],
+      "statistical":   ["correlated", "associated with", "probability", "likelihood", "distribution", "variance"],
+      "thermodynamic": ["gradient", "equilibrium", "entropy", "free energy", "conservation", "dissipation", "flux", "friction", "fatigue", "collapse threshold", "parasitic debt", "bottleneck", "heat leak", "energy debt", "adaptation debt", "joules", "metabolic", "work cycle"],
+      "systemic":      ["feedback", "cascade", "coupled", "emergent", "network effect", "nonlinear"],
+      "teleological":  ["in order to", "so that", "purpose", "goal", "intended", "designed to"],
+      "structural":    ["constraint", "boundary", "topology", "geometry", "architecture"],
+      "historical":    ["evolved from", "derived from", "descended", "legacy of", "inherited"]
+    },
+    "timescale": {
+      "subsecond":    ["millisecond", "microsecond", "nanosecond"],
+      "seconds":      ["second", "moment", "instant"],
+      "minutes":      ["minute", "briefly"],
+      "hours_days":   ["hour", "day", "daily"],
+      "weeks_months": ["week", "month", "quarter"],
+      "years":        ["year", "annual", "yearly"],
+      "decades":      ["decade", "generation"],
+      "centuries":    ["century", "centuries"],
+      "millennia":    ["millennium", "millennia", "millennial"],
+      "geological":   ["eon", "epoch", "geological", "holocene", "pleistocene", "anthropocene"]
+    },
+    "substrate": {
+      "physical":      ["energy", "mass", "force", "field", "particle", "wave", "photon", "electron"],
+      "chemical":      ["molecule", "reaction", "bond", "compound", "catalysis", "ion"],
+      "biological":    ["organism", "cell", "species", "ecosystem", "metabolism", "evolution"],
+      "computational": ["algorithm", "data structure", "memory", "process", "compute", "state"],
+      "social":        ["institution", "norm", "culture", "community", "governance"],
+      "economic":      ["market", "price", "currency", "exchange", "capital", "labor"],
+      "cognitive":     ["mental model", "belief", "reasoning", "perception", "attention"],
+      "material":      ["steel", "wood", "soil", "water", "stone", "fiber", "mineral"]
+    },
+    "failure_mode": [
+      "could fail", "may fail", "fails when", "breaks down", "limitation", "caveat", "assumption", "bounded", "regime", "outside the scope", "does not hold", "edge case", "tail risk", "cascade", "collapse", "unfalsifiable", "untested", "approximation", "under conditions"
+    ],
+    "lineage": [
+      "according to", "cited in", "derived from", "based on", "following", "per ", "see also", "originally", "tradition of", "school of", "lineage", "ancestor", "as shown in", "reference", "source:"
+    ],
+    "polytensor": {
+      "K_kinesthetic":   ["hands-on", "embodied", "bodily", "manual", "craft", "physical practice", "muscle memory", "haptic", "tactile"],
+      "K_temporal":      ["generational", "long-term", "ancestral", "descendants", "seven generations", "horizon", "future-looking", "intergenerational"],
+      "K_relational":    ["trust", "reciprocity", "conflict resolution", "negotiation", "kinship", "relationship", "obligation", "mutual"],
+      "K_wisdom":        ["judgment", "discernment", "prudence", "elder", "seasoned", "considered", "weighed", "adaptive rebuilding"],
+      "K_skill":         ["technique", "expertise", "proficient", "craftsmanship", "mastery", "apprentice", "trained", "practiced"],
+      "K_institutional": ["policy", "regulation", "bureaucracy", "procedure", "compliance", "institution", "protocol", "governance"],
+      "K_digital":       ["algorithm", "code", "software", "computational", "digital", "api", "dataset", "pipeline"],
+      "K_intuitive":     ["intuition", "gut feeling", "hunch", "implicit", "tacit", "pattern recognition", "senses", "felt sense"]
+    },
+    "accountability": {
+      "bite_source":        ["error signal", "correction", "observed", "measured", "feedback loop", "instructive", "calibration", "physical test"],
+      "skin_in_game":       ["we paid", "we faced", "directly affected", "felt the consequence", "bore the cost", "our own", "on us", "first-person"],
+      "witness_dependence": ["practiced alone", "without audience", "in private", "unobserved", "silently", "offline", "without recognition"],
+      "memorialization":    ["prevalence", "in practice", "still done", "actually performed", "day-to-day", "routinely", "current practice"],
+      "friction_removal":   ["kept the manual check", "human in the loop", "deliberate constraint", "preserved friction", "slow deliberation", "required review", "manual step retained"]
+    }
+  },
+
+  "output_schema": {
+    "n_documents": "int",
+    "n_tokens": "int",
+    "n_sentences": "int",
+    "overall_status": "GREEN | YELLOW | RED",
+    "summary": "string",
+    "axes": [
+      {
+        "name": "string (axis key)",
+        "value": "float in [0,1]",
+        "status": "GREEN | YELLOW | RED",
+        "evidence": "short text fragment cited from corpus"
+      }
+    ]
+  },
+
+  "safety_notes": [
+    "Read-only audit. Does not mutate text or take action.",
+    "Stdlib-only when run as Python (no network, no filesystem writes).",
+    "Thresholds are overridable. Document any override.",
+    "If you cannot find evidence for an axis, score it 0.0 with status RED and note the absence."
+  ]
+}

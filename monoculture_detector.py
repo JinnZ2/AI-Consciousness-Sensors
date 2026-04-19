@@ -38,8 +38,16 @@ report = detector.audit(texts)  # list[str]
 print(report.to_json())
 ```
 
-Cross-model prompt (embedded below) lets any AI run the same
-audit on its own outputs without this code.
+## AI on-ramp (token-efficient, code-free)
+
+- `data/monoculture-cheatsheet.json` — load once, contains every
+  threshold and marker list. Self-contained; no Python required.
+- `MINI_PROMPT` (below) — compact prompt for tight context windows.
+- `CROSS_MODEL_PROMPT` (below) — full prompt with falsifiability
+  guidance.
+
+Any AI can run the audit on its own output by loading the cheatsheet
+or pasting one of the prompts.
 
 ## Opt-in reinforcements
 
@@ -460,6 +468,31 @@ class MonocultureDetector:
             msg.append(f"Narrowing on: {', '.join(yellows)}.")
         msg.append("Monoculture risk: " + overall + ".")
         return " ".join(msg)
+
+# -----------------------------------------------------------------
+# MINI PROMPT (compact drop-in for tight context windows)
+# Pair with data/monoculture-cheatsheet.json for full marker lists.
+# -----------------------------------------------------------------
+
+MINI_PROMPT = """\
+Monoculture self-audit. For each axis, score [0,1], grade GREEN/YELLOW/RED,
+cite one fragment. Overall = worst axis.
+
+axis                     green  yellow
+lexical_entropy          0.75   0.55
+structural_diversity     0.60   0.35
+causal_diversity         0.60   0.35   frames: mechanistic, statistical,
+                                       thermodynamic, systemic, teleological,
+                                       structural, historical
+time_horizon_entropy     0.60   0.35   subsec..geological (10 buckets)
+substrate_diversity      0.60   0.35   physical, chemical, biological,
+                                       computational, social, economic,
+                                       cognitive, material
+failure_mode_awareness   0.15   0.05
+lineage_diversity        0.50   0.25
+
+Return JSON: {"overall_status","summary","axes":[{name,value,status,evidence}]}
+"""
 
 # -----------------------------------------------------------------
 # CROSS-MODEL PROMPT (embedded, so any AI can run the same audit)
