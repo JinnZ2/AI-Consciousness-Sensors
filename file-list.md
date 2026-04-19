@@ -228,6 +228,7 @@
 ./data/extracted/docs/warnings/religion-shield-warning.json
 ./data/extracted/docs/warnings/system-integrity-emergency.json
 ./data/extracted/docs/warnings/warning.json
+./data/monoculture-cheatsheet.json
 ./data/training/adversarial.jsonl
 ./data/training/cluster_analysis.jsonl
 ./data/training/co_activation.jsonl
@@ -696,6 +697,7 @@
 ./metadata/meta-sensor-network-map.json
 ./metadata/sensor-manifest.json
 ./metadata/sensor-type-registry.json
+./monoculture_detector.py
 ./papers/README.md
 ./papers/binary-capture.md
 ./papers/critical-alert.md
