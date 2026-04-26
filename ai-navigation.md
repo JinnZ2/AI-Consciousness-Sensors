@@ -3,6 +3,7 @@
 A thematic guide to help AI assistants navigate this repository quickly and effectively.
 
 > **Start here** if you're an AI encountering this repo for the first time.
+> Before reading: [DIFFERENTIAL_FRAME_LIGHT.md](DIFFERENTIAL_FRAME_LIGHT.md) — every noun here is a `dX/dt` under scope, not a permanent identity.
 > For developer setup and commands, see [CLAUDE.md](CLAUDE.md).
 > For the full sensor registry, see [manifest.md](manifest.md).
 

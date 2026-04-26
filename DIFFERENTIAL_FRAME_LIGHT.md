@@ -48,5 +48,8 @@ EXAMPLE = {
     "invalid_if":    "drought exits 30-yr envelope, or mulch lithology mismatched",
 }
 
-# See DIFFERENTIAL_FRAME.md for the full template (relational_web,
-# conditions, measured_by, cycle_class) when more precision is needed.
+# When more precision is needed, expand the claim to include:
+#   conditions[]      — preconditions that must hold
+#   relational_web[]  — coupled systems and feedback paths
+#   measured_by[]     — observable signals for dX/dt
+#   cycle_class       — day | season | generation | century | geologic
