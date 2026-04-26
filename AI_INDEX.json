@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-04-19T04:17:45.265474Z",
+  "generated_at": "2026-04-26T15:08:05.562797Z",
   "languages": [
     "json",
     "md",
@@ -885,7 +885,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 317393,
-      "hash": "23741a331226376e21f25ecf70b4ba9d776699f0",
+      "hash": "db7eb30d606fd84c53608e1debbb441d8cfb1b20",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7837,8 +7837,8 @@
     {
       "path": "README.md",
       "lang": "md",
-      "size": 13819,
-      "hash": "606fa16d31df21e91f58957b5696882551cd68ae",
+      "size": 13970,
+      "hash": "5d56ae252d4896df1b2f3f8a1826fb99fa7f2b47",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7857,6 +7857,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "DIFFERENTIAL_FRAME_LIGHT.md",
+      "lang": "md",
+      "size": 2091,
+      "hash": "8426d4acaa9010f9285ade027accc5824ba8d732",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "file-list.md",
@@ -7917,8 +7927,8 @@
     {
       "path": "ai-navigation.md",
       "lang": "md",
-      "size": 9754,
-      "hash": "890e6cb2f4c99b5eadb35b66f90da08439a522ac",
+      "size": 9903,
+      "hash": "86bb6dceaddc346a1f7c6d1a1e528753872951d3",
       "roles": [],
       "imports": [],
       "exports": [],
