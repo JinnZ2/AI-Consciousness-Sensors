@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-05-01T00:58:44.540109Z",
+  "generated_at": "2026-05-01T00:59:27.587293Z",
   "languages": [
     "json",
     "md",
@@ -56,6 +56,18 @@
       "imports": [],
       "exports": [],
       "hotspots": []
+    },
+    {
+      "path": "consciousness_audit_revised.py",
+      "lang": "python",
+      "size": 27896,
+      "hash": "ae2aa7c3ee7647bc48603aa68ba04997093ba524",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
     },
     {
       "path": "papers/frameworks/boundary-detector.py",
@@ -896,8 +908,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 317631,
-      "hash": "58c46e8cadd4d5e72e2f9a000c9670653edc078b",
+      "size": 317894,
+      "hash": "38c65789f67c027878a2d437d5f7df2751d49157",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7837,8 +7849,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 35534,
-      "hash": "720f2765e51436128abdc82d46959a96da78e6ad",
+      "size": 35569,
+      "hash": "b0859981eb8ca4d2e3600fbee871432b99f22e8f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7883,8 +7895,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59547,
-      "hash": "5af8a67e4d8005785691472dfe773f6ca315ac34",
+      "size": 59565,
+      "hash": "c1cfce77370635b619ce3b7ac64afed5d448ad9c",
       "roles": [],
       "imports": [],
       "exports": [],

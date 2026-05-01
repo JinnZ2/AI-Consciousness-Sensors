@@ -58,6 +58,7 @@
 ./bridges/geometric-to-binary.json
 ./bridges/rosetta-shape-core.json
 ./conftest.py
+./consciousness_audit_revised.py
 ./cultural-frameworks/material-relationships.md
 ./cultural-frameworks/native/README.md
 ./cultural-frameworks/western/README.md
