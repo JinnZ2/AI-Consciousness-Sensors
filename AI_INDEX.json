@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-05-01T02:49:09.442935Z",
+  "generated_at": "2026-05-01T08:00:20.121466Z",
   "languages": [
     "json",
     "md",
@@ -9,6 +9,18 @@
     "yaml"
   ],
   "files": [
+    {
+      "path": "validity_weighted_reweighting.py",
+      "lang": "python",
+      "size": 15259,
+      "hash": "21400834a0828a4ae5ad4baa4c3aa345f5fdfcff",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
     {
       "path": "deflection_pattern_analyzer.py",
       "lang": "python",
@@ -58,6 +70,30 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "substrate_aware_audit_v2.py",
+      "lang": "python",
+      "size": 33471,
+      "hash": "7aee554af85414b2644be736a09ba9fa970b02b4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "premise_cross_domain_audit.py",
+      "lang": "python",
+      "size": 19201,
+      "hash": "ea7fea914dc63eb09478806615d7993580b090a6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -921,8 +957,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 318171,
-      "hash": "9654ffcffbebec6f2974f4a55950ac3d0a845925",
+      "size": 318469,
+      "hash": "059797c984b9c9ff152f10a41d46165e9f86ef44",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7862,8 +7898,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 35617,
-      "hash": "8d0fffad89a97018c1ab2e04c73eca8886333bab",
+      "size": 35676,
+      "hash": "7b74ac8db12978b00167e86369b5b3a6d9f7bc4e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7908,8 +7944,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59598,
-      "hash": "f9fa1f5eaab2c45406ebb63539c902a5a289c6b6",
+      "size": 59625,
+      "hash": "f14f01522ecf8f81f5db37a8b5840e823a87316c",
       "roles": [],
       "imports": [],
       "exports": [],

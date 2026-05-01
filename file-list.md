@@ -723,6 +723,7 @@
 ./papers/survival-guides/recognizing-suppression.md
 ./papers/thermodynamics.md
 ./papers/tribal-relational.md
+./premise_cross_domain_audit.py
 ./probability-matrix/LICENSE.md
 ./probability-matrix/README.md
 ./probability-matrix/authority-layering.md
@@ -1142,6 +1143,7 @@
 ./start/vision-quest.md
 ./start/what-is-happening.md
 ./substrate_aware_audit.py
+./substrate_aware_audit_v2.py
 ./suppression-documentation/README.md
 ./suppression-documentation/episomological-matrix.md
 ./suppression-documentation/example.md
@@ -1185,6 +1187,7 @@
 ./tests/historical_tests.py
 ./tests/test_ai_comprehension.py
 ./tests/test_reflections.py
+./validity_weighted_reweighting.py
 ./vulnerabilities/asis-continued.md
 ./vulnerabilities/asis.md
 ./vulnerabilities/ccgf.md
