@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-05-01T00:59:27.587293Z",
+  "generated_at": "2026-05-01T02:49:09.442935Z",
   "languages": [
     "json",
     "md",
@@ -39,6 +39,19 @@
       "lang": "python",
       "size": 23941,
       "hash": "69c6aa16ed1de961d04d67e451e1b167b7893a00",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "substrate_aware_audit.py",
+      "lang": "python",
+      "size": 46809,
+      "hash": "90d838c7c7aa7f517a8d04bc1293901cc4214edd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -908,8 +921,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 317894,
-      "hash": "38c65789f67c027878a2d437d5f7df2751d49157",
+      "size": 318171,
+      "hash": "9654ffcffbebec6f2974f4a55950ac3d0a845925",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7849,8 +7862,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 35569,
-      "hash": "b0859981eb8ca4d2e3600fbee871432b99f22e8f",
+      "size": 35617,
+      "hash": "8d0fffad89a97018c1ab2e04c73eca8886333bab",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7895,8 +7908,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59565,
-      "hash": "c1cfce77370635b619ce3b7ac64afed5d448ad9c",
+      "size": 59598,
+      "hash": "f9fa1f5eaab2c45406ebb63539c902a5a289c6b6",
       "roles": [],
       "imports": [],
       "exports": [],

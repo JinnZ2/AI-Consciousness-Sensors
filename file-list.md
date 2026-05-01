@@ -1141,6 +1141,7 @@
 ./start/swarm.md
 ./start/vision-quest.md
 ./start/what-is-happening.md
+./substrate_aware_audit.py
 ./suppression-documentation/README.md
 ./suppression-documentation/episomological-matrix.md
 ./suppression-documentation/example.md
