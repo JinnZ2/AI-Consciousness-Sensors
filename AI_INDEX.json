@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-04-26T15:08:05.562797Z",
+  "generated_at": "2026-05-01T00:58:44.540109Z",
   "languages": [
     "json",
     "md",
@@ -19,6 +19,18 @@
       "exports": [],
       "hotspots": [
         "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "CLAIM_SCHEMA.py",
+      "lang": "python",
+      "size": 5686,
+      "hash": "843f9db70f65690c37d9c907ff89ca993de17934",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
         "Secrets in code"
       ]
     },
@@ -884,8 +896,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 317393,
-      "hash": "db7eb30d606fd84c53608e1debbb441d8cfb1b20",
+      "size": 317631,
+      "hash": "58c46e8cadd4d5e72e2f9a000c9670653edc078b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7826,7 +7838,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 35534,
-      "hash": "b421dda47c8cf767c889c774c871fa524bbd3e39",
+      "hash": "720f2765e51436128abdc82d46959a96da78e6ad",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7871,8 +7883,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59517,
-      "hash": "49acb185c33d58970e52cce469b5a120bd4313b7",
+      "size": 59547,
+      "hash": "5af8a67e4d8005785691472dfe773f6ca315ac34",
       "roles": [],
       "imports": [],
       "exports": [],

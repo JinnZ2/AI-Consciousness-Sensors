@@ -9,6 +9,7 @@
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./CHANGELOG.md
+./CLAIM_SCHEMA.py
 ./CLAUDE.md
 ./CONTRIBUTING-non-technical.md
 ./CONTRIBUTING.md

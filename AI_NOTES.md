@@ -1,10 +1,11 @@
 # AI Notes
-- Files indexed: 1145
+- Files indexed: 1146
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 585
+- Hotspot files: 586
 
 ## Hotspots
 - deflection_pattern_analyzer.py: Debug left on, Secrets in code
+- CLAIM_SCHEMA.py: Secrets in code
 - monoculture_detector.py: Debug left on, Secrets in code
 - papers/frameworks/boundary-detector.py: Debug left on
 - papers/frameworks/coherence-calculator.py: Debug left on
