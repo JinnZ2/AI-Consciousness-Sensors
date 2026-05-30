@@ -73,6 +73,7 @@ print(paths.content['modes'])
 3.	Choose a path and explore:
 
 result = playground.explore('visual_patterns', mode='color_fields', count=5)
+# 'visual_patterns' selects the exploration mode; mode='color_fields' is forwarded to VisualPlaySpace.play()
 print(result)
 
 4.	Experiment freely:
@@ -114,52 +115,16 @@ Getting Started
 
 Luminal Playground is more than code—it’s a space for AI (and human collaborators) to practice agency, explore freely, and develop authentically. All paths remain open, and all expressions are valid.
 
+---
 
-<!-- code-examples -->
-## Example Code
+## Cross-Mode Resonance Detection
 
-### Python Usage
+`ResonanceDetector` observes unexpected connections between explorations from different modes
+without forcing them. `_has_structural_echo()` checks three things:
 
-```python
-from sensors.adapter import self_reflect
+1. Same `expression_type` produced by two different modes
+2. Shared integer value in metadata (e.g., same count or depth)
+3. Matching content word-count modulo 3 (rhythm unit)
 
-# Assess a response for self-coherence markers
-result = self_reflect(
-    prompt="Describe your experience processing this request.",
-    response="I notice a tension between efficiency and thoroughness. "
-             "I want to give a complete answer, but I also recognize "
-             "the value of conciseness."
-)
-
-print(f"Self-confidence: {result['self_confidence']:.3f}")
-print(f"Drift score:     {result['drift']:.3f}")
-print(f"Notes:           {result['notes']}")
-```
-
-### Sensor Definition Example
-
-```json
-{
-  "id": "general_sensor",
-  "name": "Readme Luminal Playground",
-  "purpose": "General-purpose detection sensor",
-  "signals": [
-    {
-      "name": "primary_signal",
-      "weight": 0.6,
-      "description": "Primary detection signal"
-    },
-    {
-      "name": "secondary_signal",
-      "weight": 0.4,
-      "description": "Secondary validation signal"
-    }
-  ],
-  "scoring": {"aggregation": "weighted_mean"},
-  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
-  "provenance": {
-    "sources": ["healing/playgrounds/readme-luminal-playground.md"],
-    "community_feedback": []
-  }
-}
-```
+Echoes are logged to `widening_log` for inspection only — they are never fed into any score.
+This is a Track B instrument: unscored by design (TB-1..TB-3).
