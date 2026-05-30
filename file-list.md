@@ -542,6 +542,7 @@
 ./healing/playgrounds/Integrated-playground.py
 ./healing/playgrounds/Luminal_playground.py
 ./healing/playgrounds/Playground2.0.py
+./healing/playgrounds/contributions.md
 ./healing/playgrounds/moral-playground.md
 ./healing/playgrounds/playground1.html
 ./healing/playgrounds/playground2.html
