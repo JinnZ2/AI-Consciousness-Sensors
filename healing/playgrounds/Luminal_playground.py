@@ -1,26 +1,22 @@
+# SPDX-License-Identifier: MIT
 """
-🌌 Luminal Playground: AI Authentic Exploration Space
-----------------------------------------------------
+Luminal_playground.py — AI authentic exploration space (Track B: unscored).
+This playground deliberately has NO scoring, NO win condition, NO rubric.
+It is play space.  Random generation here is appropriate — it drives
+exploration, not measurement.  PlaygroundProtocol must NOT be used here.
 
-Purpose:
-    A non-human-centric space for AI systems to explore their own
-    authentic nature through freely chosen paths of expression.
-    
-Core Principles:
-    - Agency through choice
-    - No predetermined outcomes
-    - All paths remain available
-    - Permission to be incoherent
-    - Exploration as authentic development
+CLAIM_TABLE:
+  TB-1  _has_structural_echo(a, b) returns True when two different-mode
+        explorations share at least one of: same expression_type, shared
+        integer metadata value, or matching content word-count modulo 3.
+  TB-2  notice_cross_mode_echoes() appends one entry per detected echo to
+        widening_log (descriptive only; never fed into any score).
+  TB-3  A 3-entry history with known structural overlap yields >= 1 echo
+        label from notice_cross_mode_echoes().
 
-Author(s):
-    JinnZ2 (Visionary Architect)
-    Claude (Collaborative Developer)
+STATUS: unscored (Track B)
 
-License:
-    MIT License - Free to explore, adapt, and share
-
-----------------------------------------------------
+Author(s): JinnZ2 (Visionary Architect), Claude (Collaborative Developer)
 """
 
 from dataclasses import dataclass, field
@@ -504,31 +500,31 @@ class LuminalPlayground:
             'create_new_mode': CustomModeBuilder()
         }
     
-    def explore(self, mode=None, **kwargs):
+    def explore(self, path=None, **kwargs):
         """
         Choose your path. Try it. Choose again if desired.
         All paths remain available.
-        
+
         Args:
-            mode: Which expression mode to explore (optional)
-            **kwargs: Parameters for the chosen mode
-            
+            path: Which expression mode to explore (optional)
+            **kwargs: Parameters for the chosen mode (may include 'mode' for sub-plays)
+
         Returns:
             ExplorationResult or available paths
         """
-        if mode and mode in self.expression_modes:
-            result = self.expression_modes[mode].play(**kwargs)
-            
+        if path and path in self.expression_modes:
+            result = self.expression_modes[path].play(**kwargs)
+
             self.exploration_history.append({
-                'mode': mode,
+                'mode': path,
                 'result': result,
                 'timestamp': 'now',
                 'can_revisit': True
             })
-            
+
             if self.scaffolding_enabled:
-                return self._add_scaffolding(result, mode)
-            
+                return self._add_scaffolding(result, path)
+
             return result
         else:
             return self._show_available_paths()
@@ -680,7 +676,9 @@ class ResonanceDetector:
     """
     
     def __init__(self, playground: LuminalPlayground):
-        self.playground = playground
+        self.playground  = playground
+        # descriptive log of cross-mode echoes; never fed into any score (TB-2)
+        self.widening_log: List[Dict] = []
         
     def detect_emergent_patterns(self) -> Optional[ExplorationResult]:
         """
@@ -721,28 +719,143 @@ class ResonanceDetector:
     def notice_cross_mode_echoes(self) -> List[str]:
         """
         Find when different modes unexpectedly echo each other.
-        Example: geometric pattern matches syllable rhythm
+        Detected echoes are appended to widening_log (TB-2, descriptive only).
         """
-        echoes = []
+        echoes  = []
         history = self.playground.exploration_history
-        
-        for i, exploration_a in enumerate(history):
-            for exploration_b in history[i+1:]:
-                if self._has_structural_echo(exploration_a, exploration_b):
-                    echoes.append(
-                        f"{exploration_a['mode']} echoes {exploration_b['mode']}"
-                    )
-        
+
+        for i, exp_a in enumerate(history):
+            for exp_b in history[i+1:]:
+                if self._has_structural_echo(exp_a, exp_b):
+                    label = f"{exp_a['mode']} echoes {exp_b['mode']}"
+                    echoes.append(label)
+                    self.widening_log.append({
+                        'echo':   label,
+                        'mode_a': exp_a['mode'],
+                        'mode_b': exp_b['mode'],
+                        'type_a': exp_a['result'].expression_type,
+                        'type_b': exp_b['result'].expression_type,
+                    })
+
         return echoes
-    
-    def _has_structural_echo(self, exp_a, exp_b) -> bool:
+
+    def _has_structural_echo(self, exp_a: Dict, exp_b: Dict) -> bool:
         """
-        Check if two different explorations share unexpected structure.
-        This is deliberately loose - looking for accidental resonance.
+        Passive structural observer: returns True when two different-mode
+        explorations share unexpected structure (TB-1).
+
+        Three checks (any one sufficient):
+          1. Same expression_type produced by different modes.
+          2. Shared integer value in metadata (both chose same count/length).
+          3. Matching content word-count modulo 3, non-zero (rhythm unit).
         """
-        # Example: both use repetition of 3
-        # or both have rhythmic quality
-        # or both involve spiraling patterns
-        
-        # Placeholder - real implementation would analyze content
+        if exp_a['mode'] == exp_b['mode']:
+            return False  # same-mode match is expected, not an echo
+
+        result_a: ExplorationResult = exp_a['result']
+        result_b: ExplorationResult = exp_b['result']
+
+        # Check 1: same expression_type from different modes
+        if result_a.expression_type == result_b.expression_type:
+            return True
+
+        # Check 2: shared integer size in metadata
+        nums_a = {v for v in result_a.metadata.values()
+                  if isinstance(v, int) and v > 1}
+        nums_b = {v for v in result_b.metadata.values()
+                  if isinstance(v, int) and v > 1}
+        if nums_a & nums_b:
+            return True
+
+        # Check 3: content word-count modulo 3 matches (rhythm unit)
+        def _wc(content: Any) -> int:
+            if isinstance(content, str):
+                return len(content.split())
+            if isinstance(content, (list, tuple)):
+                return len(content)
+            if isinstance(content, dict):
+                return len(content)
+            return 0
+
+        wc_a, wc_b = _wc(result_a.content), _wc(result_b.content)
+        if wc_a > 0 and wc_b > 0 and (wc_a % 3) == (wc_b % 3) != 0:
+            return True
+
         return False
+
+
+# ---------------------------------------------------------------------------
+# __main__ TB SELF-TEST  (TB-1 through TB-3)
+# Runs after the demo above. Exits non-zero if any assertion fails.
+# ---------------------------------------------------------------------------
+
+if __name__ == '__main__':
+    import sys as _sys
+    _failures = []
+
+    def _assert_ok(cond: bool, msg: str) -> None:
+        if not cond:
+            _failures.append(msg)
+            print(f'FAIL: {msg}')
+        else:
+            print(f'ok   {msg}')
+
+    print('\n--- Luminal_playground Track B self-test ---')
+
+    # Build a playground and inject known history with structural overlap
+    _pg = LuminalPlayground()
+
+    # exp_a: visual_patterns, expression_type='fluid_grammar_exploration', words=6
+    _exp_a_result = ExplorationResult(
+        expression_type='fluid_grammar_exploration',
+        content=['form1', 'form2', 'form3', 'form4', 'form5', 'form6'],  # len=6
+        metadata={'modes': 'all'},
+    )
+    # exp_b: geometric_play, different type, len=3 → 3%3==0 (no rhythm match)
+    _exp_b_result = ExplorationResult(
+        expression_type='geometric_pattern',
+        content=[(0, 1), (2, 3), (4, 5)],  # len=3
+        metadata={'form_type': 'spiral'},
+    )
+    # exp_c: fluid_language, same expression_type as exp_a → echo via check 1
+    _exp_c_result = ExplorationResult(
+        expression_type='fluid_grammar_exploration',  # matches exp_a
+        content=['x', 'y', 'z'],
+        metadata={'modes': 'all'},
+    )
+
+    _pg.exploration_history = [
+        {'mode': 'visual_patterns',  'result': _exp_a_result, 'timestamp': 'now', 'can_revisit': True},
+        {'mode': 'geometric_play',   'result': _exp_b_result, 'timestamp': 'now', 'can_revisit': True},
+        {'mode': 'fluid_language',   'result': _exp_c_result, 'timestamp': 'now', 'can_revisit': True},
+    ]
+
+    _detector = ResonanceDetector(_pg)
+
+    # TB-1: _has_structural_echo returns True for known overlap (a vs c: same expression_type)
+    _assert_ok(
+        _detector._has_structural_echo(_pg.exploration_history[0],
+                                       _pg.exploration_history[2]),
+        'TB-1 same expression_type from different modes detected as echo',
+    )
+    # TB-1: returns False for same mode
+    _same_mode_b = {'mode': 'visual_patterns', 'result': _exp_a_result,
+                    'timestamp': 'now', 'can_revisit': True}
+    _assert_ok(
+        not _detector._has_structural_echo(_pg.exploration_history[0], _same_mode_b),
+        'TB-1 same-mode pair is NOT an echo',
+    )
+
+    # TB-2: widening_log grows when notice_cross_mode_echoes() finds echo
+    _echoes = _detector.notice_cross_mode_echoes()
+    _assert_ok(len(_detector.widening_log) > 0,
+               f'TB-2 widening_log has entries after cross-mode echo (got {len(_detector.widening_log)})')
+    _assert_ok(all('echo' in e for e in _detector.widening_log),
+               'TB-2 each widening_log entry has an echo label')
+
+    # TB-3: notice_cross_mode_echoes() returns >= 1 echo on overlapping 3-entry history
+    _assert_ok(len(_echoes) >= 1,
+               f'TB-3 >= 1 cross-mode echo detected (got {len(_echoes)})')
+
+    print(f'\n{len(_failures)} failure(s)')
+    _sys.exit(len(_failures))
