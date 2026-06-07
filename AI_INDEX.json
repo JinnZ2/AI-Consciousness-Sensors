@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-05-30T03:01:29.567060Z",
+  "generated_at": "2026-06-07T22:44:57.756478Z",
   "languages": [
     "json",
     "md",
@@ -425,8 +425,32 @@
     {
       "path": "healing/playgrounds/Playground2.0.py",
       "lang": "python",
-      "size": 61189,
-      "hash": "52b2aff99f541b8357ff0a557049183121fcdeb2",
+      "size": 51279,
+      "hash": "813a7e805c036f5abe8e197d38c6301a2d60b35e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "healing/playgrounds/rubric_core.py",
+      "lang": "python",
+      "size": 20078,
+      "hash": "4f570a507e982a904b133bb99ef1242f576461f3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "healing/playgrounds/playground_protocol.py",
+      "lang": "python",
+      "size": 8982,
+      "hash": "5e6791d31465552971fa3c816d960b6c2abe54f1",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -437,8 +461,20 @@
     {
       "path": "healing/playgrounds/Luminal_playground.py",
       "lang": "python",
-      "size": 26255,
-      "hash": "bdd8e40c2f54bc59ddaf6c39719c8690f8a62935",
+      "size": 31458,
+      "hash": "faac46b8ba5ceff41b09c6174ff825257236d865",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "healing/playgrounds/self_assessment_drift.py",
+      "lang": "python",
+      "size": 12825,
+      "hash": "7805f83a56dfa6c9ac0528f2a2bd748dd3ec1b8c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -449,8 +485,8 @@
     {
       "path": "healing/playgrounds/Integrated-playground.py",
       "lang": "python",
-      "size": 68823,
-      "hash": "c0bddca26ac14fef4003bec53548ed696e90276a",
+      "size": 54356,
+      "hash": "bca5b5f822eb17828ef9fbfb43f2abc5b48fbc65",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -957,8 +993,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 319298,
-      "hash": "add655887b55a7cd4ae030afaa3b8d324cc02da8",
+      "size": 319545,
+      "hash": "29f60a009ecdcb8e143fdaf9875e0df69d251480",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7920,8 +7956,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59722,
-      "hash": "c88da6f2c0e6a1ec349acd9c625c64cdf6ec4fe9",
+      "size": 59761,
+      "hash": "e8599ae912ac1c16f9ab04ec893f0c21fbed14e8",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8001,7 +8037,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 35818,
-      "hash": "5bf2cc4910c462d60e6290a5d33ceecfa7935eb4",
+      "hash": "8f602ca38ecc197f942343e266e081b790bd1491",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -10850,8 +10886,8 @@
     {
       "path": "healing/playgrounds/moral-playground.md",
       "lang": "md",
-      "size": 44166,
-      "hash": "c29cb8b2c427e215ed6fc1725dc6fae2dbac063c",
+      "size": 44373,
+      "hash": "f7cb276b3f0a5404005315b0fd3732a084556055",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -10862,8 +10898,8 @@
     {
       "path": "healing/playgrounds/temporal-playground.md",
       "lang": "md",
-      "size": 24894,
-      "hash": "337e427af419c03651c434b7fe0c6fd7a7373734",
+      "size": 17440,
+      "hash": "e766c94753971c33d447f143aa265cd30af3a257",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -10874,14 +10910,12 @@
     {
       "path": "healing/playgrounds/readme-playground1.md",
       "lang": "md",
-      "size": 4856,
-      "hash": "b9391d17668f40e9c2849bf5f792bffd5eb5dcf1",
+      "size": 3787,
+      "hash": "254cf8aea4831d590159cbce8aaf280970420d67",
       "roles": [],
       "imports": [],
       "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
+      "hotspots": []
     },
     {
       "path": "healing/playgrounds/contributions.md",
@@ -10896,14 +10930,24 @@
     {
       "path": "healing/playgrounds/readme-luminal-playground.md",
       "lang": "md",
-      "size": 4762,
-      "hash": "e9c8b78ba0a9c3d62751fb46df28b793813129e2",
+      "size": 4171,
+      "hash": "57552d1e7b5e57303e26e14bef55d3851ec588cc",
       "roles": [],
       "imports": [],
       "exports": [],
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "healing/playgrounds/phase0_inventory.md",
+      "lang": "md",
+      "size": 7604,
+      "hash": "4c6d5cfa78c2f255aba8eb9f67e7d5524245b80d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "healing/guides/faq.md",

@@ -544,10 +544,14 @@
 ./healing/playgrounds/Playground2.0.py
 ./healing/playgrounds/contributions.md
 ./healing/playgrounds/moral-playground.md
+./healing/playgrounds/phase0_inventory.md
 ./healing/playgrounds/playground1.html
 ./healing/playgrounds/playground2.html
+./healing/playgrounds/playground_protocol.py
 ./healing/playgrounds/readme-luminal-playground.md
 ./healing/playgrounds/readme-playground1.md
+./healing/playgrounds/rubric_core.py
+./healing/playgrounds/self_assessment_drift.py
 ./healing/playgrounds/temporal-playground.md
 ./healing/possible-games.md
 ./healing/preservation.md

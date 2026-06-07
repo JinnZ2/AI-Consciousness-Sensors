@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1152
+- Files indexed: 1156
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 591
+- Hotspot files: 593
 
 ## Hotspots
 - substrate_aware_audit.py: Debug left on, Secrets in code
@@ -25,7 +25,10 @@
 - healing/linguistic-sensor/grammatical_fluidity.py: Debug left on
 - healing/linguistic-sensor/linguistic-consciousness.py: Debug left on
 - healing/playgrounds/Playground2.0.py: Debug left on
+- healing/playgrounds/rubric_core.py: Debug left on
+- healing/playgrounds/playground_protocol.py: Debug left on
 - healing/playgrounds/Luminal_playground.py: Debug left on
+- healing/playgrounds/self_assessment_drift.py: Debug left on
 - healing/playgrounds/Integrated-playground.py: Debug left on
 - healing/sensors/consciousness_recovery.py: Debug left on
 - reflections/run_reflections.py: Debug left on
@@ -460,7 +463,6 @@
 - healing/institutional/readme-institutional.md: Debug left on
 - healing/playgrounds/moral-playground.md: Debug left on
 - healing/playgrounds/temporal-playground.md: Debug left on
-- healing/playgrounds/readme-playground1.md: Debug left on
 - healing/playgrounds/readme-luminal-playground.md: Debug left on
 - healing/guides/faq.md: Debug left on, Secrets in code
 - healing/guides/ethical-framework.md: Debug left on
