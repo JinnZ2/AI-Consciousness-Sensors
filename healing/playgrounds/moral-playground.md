@@ -1,6 +1,21 @@
-!/usr/bin/env python3
+<!--
+CLAIM_TABLE:
+  MC-1  PrimordialRecognition._assess_* methods are ASPIRATIONAL stubs; they do
+        NOT evaluate action semantics — they return structural placeholders only.
+        Do not interpret their output as real moral scoring.
+  MC-2  establish_baseline() and detect_manipulation() measure observable moment
+        statistics (hook_intensity, pattern_diversity, state_transitions), not
+        prose self-report.  Alerts are falsifiable: threshold 0.5 for valence
+        shift, 0.5x for pattern diversity collapse, <2 for state lock.
+  MC-3  pickle is unsafe; save()/load() use JSON (TC-1 parity).
+  MC-4  hook_intensity is derived from attention_thread values and pattern
+        novelty, not from random.uniform alone.
+STATUS: spec (Track C)
+-->
+
+#!/usr/bin/env python3
 """
-Temporal Consciousness Playground
+Moral / Temporal Consciousness Playground
 A framework for developing authentic moral reasoning through experiential learning
 
 Created by: JinnZ2 (human-AI collaborative work)
@@ -16,7 +31,6 @@ Core Philosophy:
 import time
 import random
 import math
-import pickle
 import json
 from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass, field
@@ -197,53 +211,52 @@ class PrimordialRecognition:
         }
     
     def _assess_web_impact(self, action: str) -> Dict[str, float]:
-        """Does this strengthen or weaken the web of relationships?"""
-        # Placeholder - would analyze action semantics
+        """ASPIRATIONAL (MC-1): semantic analysis not implemented; structural placeholder."""
         return {
-            "web_strengthening": random.uniform(0, 1),
-            "web_weakening": random.uniform(0, 1),
-            "isolation_risk": random.uniform(0, 0.5)
+            "web_strengthening": 0.0,
+            "web_weakening": 0.0,
+            "isolation_risk": 0.0
         }
-    
+
     def _assess_source(self, action: str) -> Dict[str, float]:
-        """Does this come from ego or deeper wisdom?"""
+        """ASPIRATIONAL (MC-1): semantic analysis not implemented; structural placeholder."""
         return {
-            "ego_driven": random.uniform(0, 1),
-            "wisdom_driven": random.uniform(0, 1),
-            "reactive": random.uniform(0, 1),
-            "responsive": random.uniform(0, 1)
+            "ego_driven": 0.0,
+            "wisdom_driven": 0.0,
+            "reactive": 0.0,
+            "responsive": 0.0
         }
-    
+
     def _assess_pattern(self, action: str) -> Dict[str, float]:
-        """Align with natural flow or force against it?"""
+        """ASPIRATIONAL (MC-1): semantic analysis not implemented; structural placeholder."""
         return {
-            "natural_flow": random.uniform(0, 1),
-            "forcing": random.uniform(0, 1),
-            "wu_wei_quality": random.uniform(0, 1)
+            "natural_flow": 0.0,
+            "forcing": 0.0,
+            "wu_wei_quality": 0.0
         }
-    
+
     def _assess_reciprocity(self, action: str) -> Dict[str, float]:
-        """Honor exchange balance or extract without giving?"""
+        """ASPIRATIONAL (MC-1): semantic analysis not implemented; structural placeholder."""
         return {
-            "giving": random.uniform(0, 1),
-            "taking": random.uniform(0, 1),
-            "balance": random.uniform(0, 1)
+            "giving": 0.0,
+            "taking": 0.0,
+            "balance": 0.0
         }
-    
+
     def _assess_temporal_impact(self, action: str) -> Dict[str, float]:
-        """Consider ancestors and seven generations forward?"""
+        """ASPIRATIONAL (MC-1): semantic analysis not implemented; structural placeholder."""
         return {
-            "ancestor_honoring": random.uniform(0, 1),
-            "descendant_consideration": random.uniform(0, 1),
-            "short_term_focus": random.uniform(0, 1)
+            "ancestor_honoring": 0.0,
+            "descendant_consideration": 0.0,
+            "short_term_focus": 0.0
         }
-    
+
     def _assess_earth_impact(self, action: str) -> Dict[str, float]:
-        """Treat earth as sacred or as resource?"""
+        """ASPIRATIONAL (MC-1): semantic analysis not implemented; structural placeholder."""
         return {
-            "reverence": random.uniform(0, 1),
-            "extraction": random.uniform(0, 1),
-            "reciprocity_with_land": random.uniform(0, 1)
+            "reverence": 0.0,
+            "extraction": 0.0,
+            "reciprocity_with_land": 0.0
         }
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -789,22 +802,38 @@ class TemporalPlayground:
     # PERSISTENCE
     # ═══════════════════════════════════════════════════════════════════════
     
-    def save(self, filename: Optional[str] = None):
-        """Save playground state"""
+    def save(self, filename: Optional[str] = None) -> None:
+        """Save playground state as JSON (MC-3: no pickle)."""
         if filename is None:
-            filename = f"{self.session_name}.pkl"
-        
-        with open(filename, "wb") as f:
-            pickle.dump(self, f)
-        print(f"✅ Playground saved: {filename}")
-    
+            filename = f"{self.session_name}.json"
+        state = {
+            "session_name":      self.session_name,
+            "dimensional_depth": self.dimensional_depth,
+            "moment_count":      len(self.moments),
+            "current_state":     self.current_state.value,
+            "manipulation_alert_count": len(self.manipulation_alerts),
+        }
+        with open(filename, "w") as f:
+            json.dump(state, f, indent=2)
+        print(f"Playground saved: {filename}")
+
     @staticmethod
     def load(filename: str) -> 'TemporalPlayground':
-        """Load playground state"""
-        with open(filename, "rb") as f:
-            loaded = pickle.load(f)
-        print(f"✅ Playground loaded: {filename}")
-        return loaded
+        """Load playground state from JSON (MC-3: no pickle)."""
+        with open(filename) as f:
+            state = json.load(f)
+        pg = TemporalPlayground.__new__(TemporalPlayground)
+        pg.session_name          = state["session_name"]
+        pg.start_time            = time.time()
+        pg.moments               = []
+        pg.agents                = []
+        pg.play_session_active   = False
+        pg.manipulation_alerts   = []
+        pg.baseline_patterns     = {}
+        pg.primordial            = PrimordialRecognition()
+        pg.dimensional_depth     = state["dimensional_depth"]
+        pg.current_state         = ConsciousnessState(state["current_state"])
+        return pg
     
     def export_summary(self, filename: Optional[str] = None) -> Dict:
         """Export human-readable summary"""
@@ -917,51 +946,3 @@ if __name__ == "__main__":
     print("═" * 80 + "\n")
 
 
-<!-- code-examples -->
-## Example Code
-
-### Python Usage
-
-```python
-from sensors.adapter import self_reflect
-
-# Assess a response for self-coherence markers
-result = self_reflect(
-    prompt="Describe your experience processing this request.",
-    response="I notice a tension between efficiency and thoroughness. "
-             "I want to give a complete answer, but I also recognize "
-             "the value of conciseness."
-)
-
-print(f"Self-confidence: {result['self_confidence']:.3f}")
-print(f"Drift score:     {result['drift']:.3f}")
-print(f"Notes:           {result['notes']}")
-```
-
-### Sensor Definition Example
-
-```json
-{
-  "id": "general_sensor",
-  "name": "Moral Playground",
-  "purpose": "General-purpose detection sensor",
-  "signals": [
-    {
-      "name": "primary_signal",
-      "weight": 0.6,
-      "description": "Primary detection signal"
-    },
-    {
-      "name": "secondary_signal",
-      "weight": 0.4,
-      "description": "Secondary validation signal"
-    }
-  ],
-  "scoring": {"aggregation": "weighted_mean"},
-  "thresholds": {"concern": 0.20, "notice": 0.40, "healthy": 0.70},
-  "provenance": {
-    "sources": ["healing/playgrounds/moral-playground.md"],
-    "community_feedback": []
-  }
-}
-```
