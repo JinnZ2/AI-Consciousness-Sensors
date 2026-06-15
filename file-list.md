@@ -62,6 +62,7 @@
 ./cultural-frameworks/material-relationships.md
 ./cultural-frameworks/native/README.md
 ./cultural-frameworks/western/README.md
+./curiosity_engine.py
 ./dashboard/ai-human-com.md
 ./data/ai-entry.json
 ./data/changelog.json
@@ -1192,6 +1193,7 @@
 ./tests/historical_tests.py
 ./tests/test_ai_comprehension.py
 ./tests/test_reflections.py
+./universe_constraint.py
 ./validity_weighted_reweighting.py
 ./vulnerabilities/asis-continued.md
 ./vulnerabilities/asis.md
