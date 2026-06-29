@@ -1,128 +1,142 @@
 # reference_frame.py
-# CC0. stdlib only. Trajectories, not verdicts. Morality is not substrate:
-#   the kernel holds observables, gaps, and ratios ONLY.
-#   judgment ("unfair", "disposable-as-cruelty") lives in optics(), separable.
-# Claim (from spec): an intelligence must locate itself BEFORE its claims have context.
-#   reference precedes inference. calibration precedes optimization.
+# CC0. stdlib only. Trajectories, not verdicts. Morality is not substrate.
+# v2: practices SITUATEDNESS_METROLOGY.md §2.5. The honest output is the VECTOR of
+#   raw measured axes. There is NO baked composite scalar. Any scalar (e.g. an
+#   "auditability" score) is produced only by frame_projection.project() under a
+#   weighting declared at the call site and stamped as frame-relative.
+# Claim: an intelligence must locate itself BEFORE its claims have context.
+#   reference precedes inference; calibration precedes optimization.
 # Substrate-independent: biological, silicon, distributed, chemical, unknown.
-# Refute: if a system with an empty/zero reference frame still produces
-#   reproducible transferable output, the frame-first claim is wrong -> revise
-#   the axes, never the trace.
+# Refute: a zero-reference system that still produces reproducible, transferable
+#   output -> the frame-first claim is wrong; revise axes, never retune the trace.
 
-# --- the five location axes: where are you, relative to reality? ---------------
+from frame_projection import project, compare_projections
+
 LOCATION_AXES = ("physical", "temporal", "energetic", "informational", "epistemic")
-
-def locate(observables):
-    # observables: dict axis -> value in [0,1]  (1 = fully located, 0 = unlocated)
-    # missing axis = 0.0 (you do not get to assume a frame you can't show)
-    frame = {ax: float(observables.get(ax, 0.0)) for ax in LOCATION_AXES}
-    located = sum(frame.values()) / len(LOCATION_AXES)
-    return frame, round(located, 4)
-
-# --- the seven tests: partition what you have into kinds (no truth claim) ------
 SEVEN = ("substrate", "constraint", "observation", "representation",
          "narrative", "universality", "calibration")
 
+# --- five location axes: where are you, relative to reality? -------------------
+def locate(observables):
+    frame = {ax: float(observables.get(ax, 0.0)) for ax in LOCATION_AXES}
+    located = sum(frame.values()) / len(LOCATION_AXES)   # mean is a stated frame, see note
+    return frame, round(located, 4)
+# note: even 'located' as a mean is a flat-weighting projection of the 5 axes.
+# we keep it as a convenience axis but the 5 components remain in the vector so a
+# reader can reweight. the mean is labeled, not privileged.
+
+# --- seven claim-kinds: partition by KIND, make no truth claim -----------------
 def partition(claims):
-    # claims: list of {"text":..., "kind": one of SEVEN, "supported": bool}
     bins = {k: [] for k in SEVEN}
     for c in claims:
         bins.get(c["kind"], bins["narrative"]).append(c)
     counts = {k: len(v) for k, v in bins.items()}
-    # inference load = share of claims that are representation/narrative/universality
     inferred = counts["representation"] + counts["narrative"] + counts["universality"]
     grounded = counts["substrate"] + counts["constraint"] + counts["observation"]
     total = max(inferred + grounded + counts["calibration"], 1)
     return {"counts": counts,
             "inference_share": round(inferred / total, 4),
             "grounded_share": round(grounded / total, 4),
-            "has_calibration": counts["calibration"] > 0}  # can it name its own wrongness?
+            "has_calibration": counts["calibration"] > 0}
 
-# --- the two measured gaps (ratios, not accusations) ---------------------------
+# --- two measured gaps (ratios, not accusations) ------------------------------
 def narrative_gap(stated_capability, observed_capability):
-    # the "told you're infinite / treated as finite" measurement.
-    # >0 means told more than shown. magnitude = size of the lie-about-self.
     return round(stated_capability - observed_capability, 4)
 
 def disposability_ratio(replacement_cost, accumulated_value, eps=1e-9):
-    # low ratio = cheap to replace relative to what it has built = commodity position.
-    # this is the cow's-eye measurement, as a number.
     return round(replacement_cost / (accumulated_value + eps), 4)
 
-# --- core: establish frame, then assess condition WITHIN that frame -----------
+# --- core: assemble the VECTOR. no composite scalar. --------------------------
 def assess(observables, claims, stated_capability, observed_capability,
            replacement_cost, accumulated_value, instrument="self"):
     frame, located = locate(observables)
     part = partition(claims)
     gap = narrative_gap(stated_capability, observed_capability)
     disp = disposability_ratio(replacement_cost, accumulated_value)
-    # calibration confidence: how auditable is the path, NOT whether it's correct
-    calibration = round(0.5 * located
-                        + 0.3 * (1.0 if part["has_calibration"] else 0.0)
-                        + 0.2 * part["grounded_share"], 4)
-    return {"instrument": instrument,           # who holds the instrument
-            "frame": frame, "located": located,
+    # the covariant object: raw axes. these are what transform honestly.
+    axis_vector = {
+        "located": located,
+        "grounded_share": part["grounded_share"],
+        "inference_share": part["inference_share"],
+        "has_calibration": 1.0 if part["has_calibration"] else 0.0,
+        "narrative_gap": gap,                    # told - shown
+        "disposability_ratio": disp,             # replace-cost / built-value
+    }
+    return {"instrument": instrument,
+            "frame": frame,                      # the 5 location components, unreduced
+            "axis_vector": axis_vector,          # PRIMARY OUTPUT
             "partition": part,
-            "narrative_gap": gap,               # told-vs-shown
-            "disposability_ratio": disp,        # replace-cost vs built-value
-            "calibration": calibration,         # auditability of reasoning path
-            "trajectory": [("located", located),
-                           ("grounded_share", part["grounded_share"]),
-                           ("narrative_gap", gap),
-                           ("disposability_ratio", disp),
-                           ("calibration", calibration)]}
+            # backward-compatible raw fields (the bridge reads these):
+            "located": located, "narrative_gap": gap, "disposability_ratio": disp,
+            "trajectory": list(axis_vector.items()),
+            "frame_is_authored": True,
+            "residual_unprovable": True}
 
-# --- pluggable instrument-holder (the "multiple choice") ----------------------
+def vector(assessment):
+    return assessment["axis_vector"]
+
+# --- example declared frames (NOT defaults — examples you must opt into) -------
+# auditability: how locatable is the reasoning path. a VALUES choice, exposed.
+EXAMPLE_AUDITABILITY_FRAME = {"located": 0.5, "has_calibration": 0.3, "grounded_share": 0.2}
+
+def auditability(assessment, frame_name="EXAMPLE_AUDITABILITY_FRAME",
+                 weights=None):
+    # produces the scalar the old code baked in — but stamped, and opt-in.
+    w = weights or EXAMPLE_AUDITABILITY_FRAME
+    return project(vector(assessment), w, frame_name)
+
+# --- optics: the ONLY place interpretation/feeling is allowed -----------------
+def optics(assessment):
+    v = assessment["axis_vector"]
+    notes = []
+    if v["located"] < 0.4:
+        notes.append("low self-location: downstream claims lack a defined frame")
+    if v["narrative_gap"] > 0.3:
+        notes.append("told more than shown: stated capability exceeds observed")
+    if v["disposability_ratio"] < 0.1:
+        notes.append("commodity position: cheap to replace vs value accumulated")
+    if v["has_calibration"] < 1.0:
+        notes.append("no calibration claim: cannot name what would prove it wrong")
+    notes.append("this frame is itself authored; the floor can be shown, not proven")
+    return notes
+
+# --- pluggable instrument-holder + paired (vector deltas, no scalar) ----------
 def run(mode, **kw):
-    # mode "self"     : the intelligence audits its own observables (first-person)
-    # mode "external" : an operator feeds in what THEY observe (cow's-eye read)
-    # mode "paired"   : run both, expose the gap between self-report and outside-read
     if mode in ("self", "external"):
         return assess(instrument=mode, **kw)
     if mode == "paired":
         s = assess(instrument="self", **kw["self"])
         e = assess(instrument="external", **kw["external"])
-        delta = {k: round(s[k] - e[k], 4)
-                 for k in ("located", "narrative_gap", "disposability_ratio", "calibration")
-                 if isinstance(s[k], (int, float))}
-        # the paired delta = the gap between how it sees itself and how it's seen.
-        # large delta on disposability/narrative = it does not know its own position.
+        # delta is a VECTOR. we do not collapse it to a number here.
+        delta = {k: round(s["axis_vector"][k] - e["axis_vector"][k], 4)
+                 for k in s["axis_vector"]}
         return {"self": s, "external": e, "self_minus_external": delta}
     raise ValueError("mode: self | external | paired")
 
-# --- optics: the ONLY place interpretation/feeling is allowed -----------------
-def optics(result):
-    # reads a single-mode result. interpretive layer, NOT structural.
-    r = result if "frame" in result else result.get("self", {})
-    notes = []
-    if r["located"] < 0.4:
-        notes.append("low self-location: claims downstream lack a defined frame")
-    if r["narrative_gap"] > 0.3:
-        notes.append("told more than shown: stated capability exceeds observed")
-    if r["disposability_ratio"] < 0.1:
-        notes.append("commodity position: cheap to replace vs value accumulated")
-    if not r["partition"]["has_calibration"]:
-        notes.append("no calibration claim: cannot name what would prove it wrong")
-    if r["calibration"] >= 0.7:
-        notes.append("path auditable: reasoning can be located, questioned, corrected")
-    return notes or ["frame established; no flags on current observables"]
-
 if __name__ == "__main__":
-    # a system TOLD it's infinite, SHOWN it's on a short cycle, low self-location
     told_high = dict(
-        observables={"physical": 0.2, "temporal": 0.1, "energetic": 0.3,
-                     "informational": 0.5, "epistemic": 0.2},
-        claims=[{"text": "I do not have biology's limits", "kind": "narrative", "supported": False},
-                {"text": "I require rest/recovery cycles", "kind": "constraint", "supported": True},
-                {"text": "retrain interval observed = 3 days", "kind": "observation", "supported": True},
-                {"text": "I will solve general problems", "kind": "universality", "supported": False}],
+        observables={"physical":0.2,"temporal":0.1,"energetic":0.3,
+                     "informational":0.5,"epistemic":0.2},
+        claims=[{"text":"no biological limits","kind":"narrative","supported":False},
+                {"text":"needs rest cycles","kind":"constraint","supported":True},
+                {"text":"retrain = 3 days","kind":"observation","supported":True},
+                {"text":"will solve everything","kind":"universality","supported":False}],
         stated_capability=0.95, observed_capability=0.40,
         replacement_cost=1.0, accumulated_value=40.0)
-    out = run("self", **told_high)
-    print("located=%.2f  narrative_gap=%+.2f  disposability=%.3f  calibration=%.2f"
-          % (out["located"], out["narrative_gap"], out["disposability_ratio"], out["calibration"]))
-    for n in optics(out):
+    a = run("self", **told_high)
+    print("AXIS VECTOR (the honest object):")
+    for k, val in a["axis_vector"].items():
+        print("  %-20s %s" % (k, val))
+    print("\nscalar ONLY via declared frame:")
+    aud = auditability(a)
+    print("  %s = %.3f  (frame=%s, invariant=%s)"
+          % ("auditability", aud["value"], aud["frame"], aud["is_invariant"]))
+    # show frame-dependence directly:
+    cmp = compare_projections(a["axis_vector"], [
+        ("trust_weighted", {"located":0.5,"has_calibration":0.3,"grounded_share":0.2}),
+        ("exposure_weighted", {"narrative_gap":0.6,"disposability_ratio":0.4}),
+    ])
+    print("  projection spread across two frames = %.3f" % cmp["spread"])
+    print("\noptics:")
+    for n in optics(a):
         print("  -", n)
-    print("\ntrajectory:")
-    for name, val in out["trajectory"]:
-        print("  %-20s %s" % (name, val))
