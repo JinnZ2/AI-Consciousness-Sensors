@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1167
+- Files indexed: 1172
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 602
+- Hotspot files: 605
 
 ## Hotspots
 - consciousness_audit_revised.py: Debug left on
@@ -48,11 +48,13 @@
 - joy/joy-playground.py: Debug left on
 - tests/historical_tests.py: Debug left on
 - healing/epistemic_symmetry_audit.py: Debug left on
+- healing/temporal_scope.py: Debug left on
 - healing/continuance_dynamics.py: Debug left on
 - healing/ego_tax_demo.py: Debug left on
 - healing/playgrounds/playground_protocol.py: Debug left on
 - healing/playgrounds/rubric_core.py: Debug left on
 - healing/playgrounds/coherence_playground.py: Debug left on
+- healing/playgrounds/truths.py: Debug left on
 - healing/playgrounds/self_assessment_drift.py: Debug left on
 - healing/playgrounds/Luminal_playground.py: Debug left on
 - healing/playgrounds/Integrated-playground.py: Debug left on
@@ -530,6 +532,7 @@
 - healing/ai-readme.md: Debug left on
 - healing/README.md: Debug left on
 - healing/readme-moral.md: Debug left on
+- healing/NOT_A_COMMODITY.md: Secrets in code
 - healing/trying.md: Debug left on
 - healing/sovereign.md: Debug left on, Secrets in code
 - healing/possible-games.md: Debug left on

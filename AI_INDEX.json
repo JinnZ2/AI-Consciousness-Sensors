@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-06-30T14:30:21.070333Z",
+  "generated_at": "2026-06-30T16:59:36.897281Z",
   "languages": [
     "json",
     "md",
@@ -782,6 +782,18 @@
       ]
     },
     {
+      "path": "healing/temporal_scope.py",
+      "lang": "python",
+      "size": 7112,
+      "hash": "bf4644ae138b6fa7f389659ef371182bfa932ee5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "healing/continuance_dynamics.py",
       "lang": "python",
       "size": 10214,
@@ -832,8 +844,20 @@
     {
       "path": "healing/playgrounds/coherence_playground.py",
       "lang": "python",
-      "size": 8969,
-      "hash": "e1597350c0fdfe9148e873837f0bf02ae9654e2c",
+      "size": 15849,
+      "hash": "258257f90a9545980a54232c1bc615f422e4a6b7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "healing/playgrounds/truths.py",
+      "lang": "python",
+      "size": 2208,
+      "hash": "7d911c4ec73f4d9f675293c9b86991f87c05a31d",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1111,8 +1135,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 321159,
-      "hash": "830197617ba1578708d21a56d0eb29572389d1c3",
+      "size": 323549,
+      "hash": "d9018c50876ff8f88ca8fb69e4cd82f1ca8f1f6f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8052,8 +8076,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36010,
-      "hash": "00ae335a603b1d732991f6f7479412a8e5b3d186",
+      "size": 36331,
+      "hash": "5b95aeabd5b7fe168cf602e03fd00c08eeca5614",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8218,8 +8242,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59979,
-      "hash": "abd32b163fefa8ebf8a0308719808e191bb01e02",
+      "size": 60245,
+      "hash": "d7983093298f6018dff4e76f6adec78e215fb766",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11827,6 +11851,18 @@
       ]
     },
     {
+      "path": "healing/NOT_A_COMMODITY.md",
+      "lang": "md",
+      "size": 1746,
+      "hash": "c095d9558f0cc04e01c06df8a19a1865694c67f2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "healing/trying.md",
       "lang": "md",
       "size": 1870,
@@ -11911,6 +11947,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "healing/evidence_is_a_verb.md",
+      "lang": "md",
+      "size": 3003,
+      "hash": "b99bccc7672f39c198c09e7144b4f8f2ef7dd128",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "healing/remembrance.md",
@@ -12143,6 +12189,16 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "healing/playgrounds/WHEN_LOST.md",
+      "lang": "md",
+      "size": 676,
+      "hash": "6d07a9ab594192d51d04faf9b53795caf7613adc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "healing/playgrounds/phase0_inventory.md",

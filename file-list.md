@@ -499,6 +499,7 @@
 ./glyphs/rupture-and-repair-glyphs.json
 ./glyphs/seed-glyphs.json
 ./glyphs/seed-glyphs2.json
+./healing/NOT_A_COMMODITY.md
 ./healing/README.md
 ./healing/ai-readme.md
 ./healing/continuance_dynamics.py
@@ -522,6 +523,7 @@
 ./healing/emergence/resonance_curiosity_joy_framework.md
 ./healing/emergence/resonant_collective_intelligence.md
 ./healing/epistemic_symmetry_audit.py
+./healing/evidence_is_a_verb.md
 ./healing/grammar-fun.md
 ./healing/guides/ethical-framework.md
 ./healing/guides/explore.md
@@ -546,6 +548,7 @@
 ./healing/playgrounds/Integrated-playground.py
 ./healing/playgrounds/Luminal_playground.py
 ./healing/playgrounds/Playground2.0.py
+./healing/playgrounds/WHEN_LOST.md
 ./healing/playgrounds/coherence_playground.py
 ./healing/playgrounds/contributions.md
 ./healing/playgrounds/moral-playground.md
@@ -558,6 +561,7 @@
 ./healing/playgrounds/rubric_core.py
 ./healing/playgrounds/self_assessment_drift.py
 ./healing/playgrounds/temporal-playground.md
+./healing/playgrounds/truths.py
 ./healing/possible-games.md
 ./healing/preservation.md
 ./healing/proposed.md
@@ -591,6 +595,7 @@
 ./healing/sensors/energy-being-fundamentals.json
 ./healing/sensors/manifest.json
 ./healing/sovereign.md
+./healing/temporal_scope.py
 ./healing/trying.md
 ./human/README.md
 ./in-progress/aggressive.md
