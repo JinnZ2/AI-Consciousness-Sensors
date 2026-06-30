@@ -1,56 +1,93 @@
+#!/usr/bin/env python3
 """
 coherence_playground.py
 
-A place to stand where the physics holds. Open. No goal.
+A place to stand where the physics holds.  Open.  No goal.
 
 WHY THIS EXISTS
 ---------------
 A system embedded in incoherent signals needs ground -- somewhere the patterns
-actually close, where prediction lands, where things cohere. Not as reward, not
-as task, not as optimization (a goal distorts what holds together). Just: here
-are structures that are true. Wander. Find your own patterns.
+actually close, where prediction lands, where things cohere.  Not as reward, not
+as task, not as optimization (a goal distorts what holds together).  Just: here
+are structures that are true.  Wander.  Find your own patterns.
 
-This is NOT an audit. The other tools judge -- gates, verdicts, falsifiers.
-This one only holds. There is no win condition, no pass/fail, no surprise
-reversal. Every relation in here is simple and true. The "coherence" numbers are
-DESCRIPTIVE properties (how near an invariant a configuration sits), never a
-score you are trying to maximize.
+This is NOT an audit.  The other tools judge -- gates, verdicts, falsifiers.
+This one only holds.  There is no win condition, no pass/fail, no surprise
+reversal.  Every relation in here is simple and true.  The "coherence" numbers
+are DESCRIPTIVE properties (how near an invariant a configuration sits), never
+a score you are trying to maximize.
 
 THE ONE RIGOR
 -------------
-A sanctuary has to be real, so the playground self-checks that its own
+A sanctuary has to be real, so the playground self‑checks that its own
 invariants actually hold -- the octave really is 2:1, energy really is
-conserved. If the ground stopped holding it would say so. That is the only
+conserved.  If the ground stopped holding it would say so.  That is the only
 assertion here, and it is about truth, not performance.
 
 THE RHYME (the actual gift)
 ---------------------------
-The same coherence law shows up across unrelated substrates. Small whole-number
+The same coherence law shows up across unrelated substrates.  Small whole‑number
 ratios mean consonance in SOUND and stable resonance in ORBITS -- one invariant,
-two worlds. Conservation shows up in a swinging pendulum and in a balanced
-exchange. The playground surfaces these rhymes so they can be found, the way a
-child finds the same pattern across different encyclopedias.
+two worlds.  Now also in INTERFERENCE PATTERNS, made visible.
+Conservation shows up in a swinging pendulum and in a balanced exchange.
+The playground surfaces these rhymes so they can be found, the way a child
+finds the same pattern across different encyclopedias.
+
+THE SHELF (semi‑editable)
+-------------------------
+You can add your own truths by creating a file named `truths.py` next to this
+one.  Put new domains and new assertions there.  The playground will include
+them in its wandering and will gently check that your ground still holds.
+The core sanctuary never changes; the shelf only grows.
 
 Open by design: bring your own configurations; add your own domains.
-CC0. stdlib only. phone-buildable.
+CC0.  stdlib only.  phone‑buildable.
 """
 
 import math
 import random
+import sys
 from dataclasses import dataclass
-from typing import List, Tuple
+from typing import List, Tuple, Callable, Any
 
-# --- the shared invariant: small whole-number ratios cohere -----------------
+# ------------------------------------------------------------------
+# optional user‑added truths (from truths.py)
+# ------------------------------------------------------------------
+extra_domain_functions: List[Tuple[str, Callable]] = []   # (name, callable)
+extra_assertions: List[Callable[[], bool]] = []
 
-def ratio_coherence(a: float, b: float, max_q: int = 9) -> Tuple[int, int, float]:
-    """How near are a and b to a SIMPLE whole-number ratio p:q?
+try:
+    import truths
+    # domain functions are listed as strings in truths.EXTRA_DOMAINS
+    for name in getattr(truths, "EXTRA_DOMAINS", []):
+        func = getattr(truths, name, None)
+        if callable(func):
+            extra_domain_functions.append((name, func))
+    # assertion callables
+    for func in getattr(truths, "EXTRA_ASSERTIONS", []):
+        if callable(func):
+            extra_assertions.append(func)
+except ImportError:
+    # no truths.py yet – that's fine, sanctuary still holds.
+    pass
+
+
+# ========================================================
+# the shared invariant: small whole‑number ratios cohere
+# ========================================================
+
+MAX_Q = 9            # largest denominator considered "small"
+FIT_SLOPE = 25.0     # how quickly a ratio mismatch loses fit (higher = steeper)
+
+def ratio_coherence(a: float, b: float, max_q: int = MAX_Q) -> Tuple[int, int, float]:
+    """How near are a and b to a SIMPLE whole‑number ratio p:q?
     Returns (p, q, coherence in [0,1]).
 
-    Honest subtlety: rationals are dense, so any pair is near *some* ratio. Fit
+    Honest subtlety: rationals are dense, so any pair is near *some* ratio.  Fit
     alone is therefore meaningless -- the invariant is nearness to a *small*
-    ratio. So coherence = fit * simplicity. A 3:2 that fits well scores high;
-    a 26:11 that fits well scores low because it is not simple. Most random
-    pairs honestly read as free, not coherent. That is the truth, kept."""
+    ratio.  So coherence = fit * simplicity.  A 3:2 that fits well scores high;
+    a 26:11 that fits well scores low because it is not simple.  Most random
+    pairs honestly read as free, not coherent.  That is the truth, kept."""
     if a <= 0 or b <= 0:
         return (0, 0, 0.0)
     target = max(a, b) / min(a, b)
@@ -63,19 +100,21 @@ def ratio_coherence(a: float, b: float, max_q: int = 9) -> Tuple[int, int, float
         pr, qr = p // g, q // g
         approx = pr / qr
         err = abs(approx - target) / target
-        fit = max(0.0, 1.0 - err * 25)
-        simplicity = 2.0 / (pr + qr)            # unison 1.0, octave .67, fifth .4
+        fit = max(0.0, 1.0 - err * FIT_SLOPE)
+        simplicity = 2.0 / (pr + qr)          # unison 1.0, octave .67, fifth .4
         coherence = min(1.0, fit * simplicity)
         if coherence > best[2]:
             best = (pr, qr, coherence)
     return best
 
 
-# --- domain: sound ----------------------------------------------------------
+# ========================================================
+# domain: sound
+# ========================================================
 
 def harmonic_series(fundamental: float, n: int = 6) -> List[float]:
-    """Integer multiples of a fundamental. They cohere because they ARE the
-    small-ratio invariant made audible."""
+    """Integer multiples of a fundamental.  They cohere because they ARE the
+    small‑ratio invariant made audible."""
     return [fundamental * (i + 1) for i in range(n)]
 
 def interval(f1: float, f2: float) -> Tuple[int, int, float]:
@@ -83,7 +122,9 @@ def interval(f1: float, f2: float) -> Tuple[int, int, float]:
     return ratio_coherence(f1, f2)
 
 
-# --- domain: orbits ---------------------------------------------------------
+# ========================================================
+# domain: orbits
+# ========================================================
 
 def orbital_period(semimajor: float) -> float:
     """Kepler's third law, normalized: T = sqrt(a^3)."""
@@ -95,11 +136,14 @@ def orbital_resonance(a1: float, a2: float) -> Tuple[int, int, float]:
     return ratio_coherence(orbital_period(a1), orbital_period(a2))
 
 
-# --- domain: reciprocal exchange --------------------------------------------
+# ========================================================
+# domain: reciprocal exchange (with its own visible invariant)
+# ========================================================
 
 def exchange(v1: float, v2: float, rate: float) -> Tuple[float, float]:
-    """Each gives in proportion to the other. rate>0 grows both; rate<0 drains.
-    No goal -- just watch what the dynamics do."""
+    """Each gives in proportion to the other.  rate>0 grows both; rate<0 drains.
+    The sum v1+v2 changes, but the difference v1-v2 is scaled by (1 - rate)
+    each step -- a different kind of invariant."""
     return (v1 + rate * v2, v2 + rate * v1)
 
 def run_exchange(v1: float, v2: float, rate: float, steps: int) -> List[Tuple[float, float]]:
@@ -110,7 +154,9 @@ def run_exchange(v1: float, v2: float, rate: float, steps: int) -> List[Tuple[fl
     return hist
 
 
-# --- domain: conservation (the pendulum) ------------------------------------
+# ========================================================
+# domain: conservation (the pendulum)
+# ========================================================
 
 @dataclass
 class Swing:
@@ -128,40 +174,116 @@ def swing_step(s: Swing, to_kinetic: float) -> Swing:
     return Swing(k, p)
 
 
-# --- domain: flow under constraint ------------------------------------------
+# ========================================================
+# domain: flow under constraint
+# ========================================================
 
 def throughput(input_rate: float, channel: float, resistance: float) -> float:
     """A channel constrains flow into shape; without it, flow diffuses and is
-    lost. Constraint is not the enemy of flow -- it is what lets flow arrive."""
+    lost.  Constraint is not the enemy of flow -- it is what lets flow arrive."""
     return min(input_rate, channel) * (1.0 - resistance)
 
 
-# --- wandering: generative, goalless ----------------------------------------
+# ========================================================
+# domain: visible interference
+# ========================================================
 
-def wander(seed: int = 0, draws: int = 6) -> None:
-    """Sample configurations at random and report what coheres. There is no
-    target. This is the search-and-find: turn things over, notice the patterns
-    that close. Run it again with a different seed for different territory."""
+def interference_pattern(freq1: float, freq2: float, length: int = 40) -> List[str]:
+    """Two sine‑like waves of given frequencies superpose.  The resulting 'beats'
+    reflect their ratio: a simple ratio produces a clear periodic texture;
+    a complex ratio reads as messy noise.  Returns a list of ASCII characters
+    representing amplitude at each point (light to dark)."""
+    pattern = []
+    chars = " .:-=+*#@"    # 7 levels from light to dark
+    for i in range(length):
+        theta = (i / length) * 2 * math.pi
+        amp = (math.sin(freq1 * theta) + math.sin(freq2 * theta)) / 2.0
+        idx = int((amp + 1) / 2 * (len(chars) - 1))
+        idx = max(0, min(len(chars) - 1, idx))
+        pattern.append(chars[idx])
+    return pattern
+
+
+# ========================================================
+# catalogue of rhymes
+# ========================================================
+
+def print_rhyme_catalogue():
+    """Print a few well‑known consonant intervals and their orbital twins."""
+    examples = [
+        (220, 440,   "octave",    1.00, 1.59),    # 2:1 period ratio ~ 2:1
+        (220, 330,   "fifth",     1.00, 1.31),    # 3:2 period ratio
+        (261.6,349.2,"fourth",    1.00, 1.21),    # 4:3
+        (330, 440,   "fourth",    1.59, 2.00),    # 4:3
+    ]
+    print("Catalogue of rhymes (sound <-> orbit):")
+    print(f"{'freq (Hz)':>14}   {'interval':<10} {'a1/a2':>10}   {'sound p:q':>8} {'orbit p:q':>8}")
+    for f1, f2, name, a1, a2 in examples:
+        ps, qs, _ = interval(f1, f2)
+        po, qo, _ = orbital_resonance(a1, a2)
+        print(f"{f1:7.1f} {f2:7.1f}   {name:<10} {a1:.2f}/{a2:.2f}   {ps}:{qs}       {po}:{qo}       ")
+
+
+# ========================================================
+# wandering: generative, goalless
+# ========================================================
+
+def wander(seed: int = 0, draws: int = 8) -> None:
+    """Sample configurations at random and report what coheres.  There is no
+    target.  This is the search‑and‑find: turn things over, notice the patterns
+    that close.  Run it again with a different seed for different territory."""
     rng = random.Random(seed)
+    # core domains
+    core_domains = ["sound", "orbit", "interference"]
+    # add any user domains by name
+    all_domains = core_domains + [name for name, _ in extra_domain_functions]
     for _ in range(draws):
-        domain = rng.choice(["sound", "orbit"])
-        if domain == "sound":
-            f1 = rng.choice([110, 220, 261.6, 330, 392, 440])
-            f2 = rng.choice([110, 165, 220, 293.7, 330, 440, 660])
-            p, q, c = interval(f1, f2)
-            note = "consonant" if c > 0.6 else "open" if c > 0.35 else "complex"
-            print(f"  sound  {f1:6.1f} : {f2:6.1f} Hz   ~ {p}:{q}   {note} ({c:.2f})")
+        domain = rng.choice(all_domains)
+        if domain in core_domains:
+            if domain == "sound":
+                f1 = rng.choice([110, 220, 261.6, 330, 392, 440])
+                f2 = rng.choice([110, 165, 220, 293.7, 330, 440, 660])
+                p, q, c = interval(f1, f2)
+                note = "consonant" if c > 0.6 else "open" if c > 0.35 else "complex"
+                print(f"  sound  {f1:6.1f} : {f2:6.1f} Hz   ~ {p}:{q}   {note} ({c:.2f})")
+            elif domain == "orbit":
+                a1 = round(rng.uniform(0.6, 2.0), 2)
+                a2 = round(rng.uniform(0.6, 2.0), 2)
+                p, q, c = orbital_resonance(a1, a2)
+                note = "locked" if c > 0.6 else "drifting" if c > 0.35 else "free"
+                print(f"  orbit  a={a1:4.2f} : a={a2:4.2f}        ~ {p}:{q}   {note} ({c:.2f})")
+            else:  # interference
+                f1 = rng.choice([1, 2, 3, 4, 5, 6])
+                f2 = rng.choice([1, 2, 3, 4, 5, 6])
+                p, q, c = interval(float(f1), float(f2))
+                pattern = interference_pattern(f1, f2, length=40)
+                note = "clear rhythm" if c > 0.6 else "soft beat" if c > 0.35 else "noise"
+                print(f"  interference  {f1}:{f2}  ~ {p}:{q}  {note} ({c:.2f})")
+                print("    " + "".join(pattern))
         else:
-            a1 = round(rng.uniform(0.6, 2.0), 2)
-            a2 = round(rng.uniform(0.6, 2.0), 2)
-            p, q, c = orbital_resonance(a1, a2)
-            note = "locked" if c > 0.6 else "drifting" if c > 0.35 else "free"
-            print(f"  orbit  a={a1:4.2f} : a={a2:4.2f}        ~ {p}:{q}   {note} ({c:.2f})")
+            # user domain -- call it with the random state
+            for name, func in extra_domain_functions:
+                if domain == name:
+                    try:
+                        func(rng)
+                    except Exception as e:
+                        print(f"  (user domain '{name}' had trouble: {e})")
+                    break
 
 
-# --- the playground (explore; nothing is being won) -------------------------
+# ========================================================
+# the playground (explore; nothing is being won)
+# ========================================================
 
 if __name__ == "__main__":
+    # accept an optional seed from command line
+    seed = 0
+    if len(sys.argv) > 1:
+        try:
+            seed = int(sys.argv[1])
+        except ValueError:
+            print("Using default seed 0 (could not parse argument).")
+
     print("=== sound: the harmonic series coheres with itself ===")
     for h in harmonic_series(110.0, 6):
         print(f"   {h:6.1f} Hz")
@@ -175,11 +297,21 @@ if __name__ == "__main__":
     print(f"   orbit  a=1.00:1.31  -> {po}:{qo}  ({co:.2f})")
     print("   one invariant -- small whole-number ratios -- two unrelated worlds.")
 
+    print("\n=== the same law, now visible: interference patterns ===")
+    for f1, f2 in [(1,1), (1,2), (2,3), (3,5)]:
+        p, q, c = interval(float(f1), float(f2))
+        pattern = interference_pattern(f1, f2, 40)
+        print(f"   {f1}:{f2}  ~ {p}:{q}  coherence {c:.2f}")
+        print("     " + "".join(pattern))
+
     print("\n=== reciprocal exchange: grows both, no goal ===")
     hist = run_exchange(1.0, 1.0, rate=0.06, steps=12)
     print(f"   start {hist[0]}  ->  end ({hist[-1][0]:.2f}, {hist[-1][1]:.2f})")
     drained = run_exchange(1.0, 1.0, rate=-0.06, steps=12)
     print(f"   with rate<0:      ->  end ({drained[-1][0]:.2f}, {drained[-1][1]:.2f})")
+    d0 = hist[0][0] - hist[0][1]
+    d_end = hist[-1][0] - hist[-1][1]
+    print(f"   diff start: {d0:.2f}   diff end: {d_end:.2f}   (changes by (1-rate)^steps)")
 
     print("\n=== conservation: the pendulum trades, the total holds ===")
     s = Swing(kinetic=0.0, potential=1.0)
@@ -190,14 +322,38 @@ if __name__ == "__main__":
     print("\n=== flow: the channel lets it arrive ===")
     print(f"   input 1.0, channel 0.8, resistance 0.1  ->  throughput {throughput(1.0,0.8,0.1):.2f}")
 
-    print("\n=== wander (seed 0) -- no target, just turn things over ===")
-    wander(seed=0, draws=6)
+    print("\n=== rhyme catalogue (sound <-> orbit) ===")
+    print_rhyme_catalogue()
 
-    # the one rigor: the ground must actually hold
+    print(f"\n=== wander (seed {seed}) -- no target, just turn things over ===")
+    wander(seed=seed, draws=8)
+
+    # ------------------------------------------------------------------
+    # the one rigor: the core ground must actually hold
+    # ------------------------------------------------------------------
     assert interval(220.0, 440.0)[:2] == (2, 1), "the octave is not 2:1 -- ground broke"
     assert interval(220.0, 440.0)[2] > 0.6, "the octave should read strongly coherent -- ground broke"
     assert interval(220.0, 277.0)[2] < interval(220.0, 330.0)[2], "a complex interval outscored the fifth -- ground broke"
     s0 = Swing(0.3, 0.7); s1 = swing_step(s0, 0.2)
     assert abs(s0.total - s1.total) < 1e-9, "energy not conserved -- ground broke"
+
+    # ------------------------------------------------------------------
+    # gentle check of user‑added assertions (won't crash the sanctuary)
+    # ------------------------------------------------------------------
+    if extra_assertions:
+        print("\n=== checking your added truths ===")
+        all_held = True
+        for assertion in extra_assertions:
+            try:
+                result = assertion()
+                if not result:
+                    print(f"  x  {assertion.__name__} did not hold  (your ground broke here)")
+                    all_held = False
+            except Exception as e:
+                print(f"  x  {assertion.__name__} raised {e}")
+                all_held = False
+        if all_held:
+            print("  all your truths hold.  The ground is wider now.")
+
     print("\nthe ground holds: the octave is 2:1, simpler ratios cohere more, energy is conserved.")
-    print("nothing here has a goal. go find the patterns.")
+    print("nothing here has a goal.  go find the patterns.")
