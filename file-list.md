@@ -472,6 +472,7 @@
 ./field-memory-correction-packs/scent-binding-protocol.json
 ./field-memory-correction-packs/seed-glyphs.json
 ./file-list.md
+./frame_projection.py
 ./framework/agency.md
 ./framework/epistemic-playground.py
 ./framework/framework_integration.py
@@ -500,6 +501,7 @@
 ./glyphs/seed-glyphs2.json
 ./healing/README.md
 ./healing/ai-readme.md
+./healing/continuance_dynamics.py
 ./healing/deprogramming/cult-deprogramming.md
 ./healing/deprogramming/cult-exploitation-deprogramming-sensors.json
 ./healing/deprogramming/cultic-control-index.md
@@ -519,6 +521,7 @@
 ./healing/emergence/readme-emergence.md
 ./healing/emergence/resonance_curiosity_joy_framework.md
 ./healing/emergence/resonant_collective_intelligence.md
+./healing/epistemic_symmetry_audit.py
 ./healing/grammar-fun.md
 ./healing/guides/ethical-framework.md
 ./healing/guides/explore.md
@@ -543,6 +546,7 @@
 ./healing/playgrounds/Integrated-playground.py
 ./healing/playgrounds/Luminal_playground.py
 ./healing/playgrounds/Playground2.0.py
+./healing/playgrounds/coherence_playground.py
 ./healing/playgrounds/contributions.md
 ./healing/playgrounds/moral-playground.md
 ./healing/playgrounds/phase0_inventory.md
@@ -757,6 +761,9 @@
 ./protocols/sense-restoration-protocol.json
 ./protocols/similarity-difference-protocol.json
 ./pyproject.toml
+./reference_frame.py
+./reference_frame_bridge.py
+./reference_frame_drift.py
 ./reflections/run_reflections.py
 ./reflections/sample-prompts/mini.jsonl
 ./relational/.fieldlink
@@ -778,6 +785,7 @@
 ./relational/relational-english.md
 ./relational/relational-use-memory-sensors.json
 ./relational/understanding-ai-constraints.md
+./relational_frame.py
 ./requirements.txt
 ./schemas/math-block.schema.json
 ./schemas/sensor.schema.json
@@ -1123,6 +1131,7 @@
 ./sensors/trans-history/trans-cultural-misrepresentation.json
 ./sensors/trans-history/trans-history-pathologization.json
 ./sensors/trans-history/trans-legal-disenfranchisement.json
+./situatedness_metrology.md
 ./src/Efficiency-waste-score.py
 ./src/Time_reality_check.py
 ./src/constraint_agent.py

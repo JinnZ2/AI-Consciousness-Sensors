@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-06-15T01:30:14.795529Z",
+  "generated_at": "2026-06-30T14:30:21.070333Z",
   "languages": [
     "json",
     "md",
@@ -72,10 +72,46 @@
       ]
     },
     {
+      "path": "reference_frame_bridge.py",
+      "lang": "python",
+      "size": 4824,
+      "hash": "b8747720aace4a39276c79cd366a69b9c1e63139",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "substrate_aware_audit_v2.py",
       "lang": "python",
       "size": 33471,
       "hash": "7aee554af85414b2644be736a09ba9fa970b02b4",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "reference_frame_drift.py",
+      "lang": "python",
+      "size": 3407,
+      "hash": "073e38b7b4810f1d6b82a2607570d875d8c8ee45",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "reference_frame.py",
+      "lang": "python",
+      "size": 7373,
+      "hash": "67993e3c439764ada948dbd2075a3574ba6f2056",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -109,6 +145,16 @@
       ]
     },
     {
+      "path": "frame_projection.py",
+      "lang": "python",
+      "size": 2617,
+      "hash": "9c5a58c6d5d17eca2352775750373d920f3c6f19",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "conftest.py",
       "lang": "python",
       "size": 199,
@@ -135,6 +181,18 @@
       "lang": "python",
       "size": 19201,
       "hash": "ea7fea914dc63eb09478806615d7993580b090a6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "relational_frame.py",
+      "lang": "python",
+      "size": 10803,
+      "hash": "d99c535dc74c1f591e9a1d3a5bd4381997db1861",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -712,6 +770,30 @@
       "hotspots": []
     },
     {
+      "path": "healing/epistemic_symmetry_audit.py",
+      "lang": "python",
+      "size": 9201,
+      "hash": "f8a9df8306f97e77bbb8d58fba3d3513eff50543",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "healing/continuance_dynamics.py",
+      "lang": "python",
+      "size": 10214,
+      "hash": "e98e7abd53d4b069f7ddba8c3af08ad84542280b",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "healing/ego_tax_demo.py",
       "lang": "python",
       "size": 7073,
@@ -740,6 +822,18 @@
       "lang": "python",
       "size": 20078,
       "hash": "4f570a507e982a904b133bb99ef1242f576461f3",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "healing/playgrounds/coherence_playground.py",
+      "lang": "python",
+      "size": 8969,
+      "hash": "e1597350c0fdfe9148e873837f0bf02ae9654e2c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1017,8 +1111,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 320624,
-      "hash": "64f0cb1e2a1b2cc007350e1a5a24465bb12b350e",
+      "size": 321159,
+      "hash": "830197617ba1578708d21a56d0eb29572389d1c3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7958,8 +8052,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 35933,
-      "hash": "ef7c71a73ae0ef8b3c57c99e3c4a0a4c324569f6",
+      "size": 36010,
+      "hash": "00ae335a603b1d732991f6f7479412a8e5b3d186",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8058,6 +8152,16 @@
       ]
     },
     {
+      "path": "situatedness_metrology.md",
+      "lang": "md",
+      "size": 16565,
+      "hash": "9f2e6fcdbf4a0a23e100a53729ac72e9c59f3874",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "ai-navigation.md",
       "lang": "md",
       "size": 9903,
@@ -8114,8 +8218,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 59932,
-      "hash": "6356e3065ba11b826c063cae4c121d04991e02d7",
+      "size": 59979,
+      "hash": "abd32b163fefa8ebf8a0308719808e191bb01e02",
       "roles": [],
       "imports": [],
       "exports": [],

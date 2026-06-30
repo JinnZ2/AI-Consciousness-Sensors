@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1158
+- Files indexed: 1167
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 595
+- Hotspot files: 602
 
 ## Hotspots
 - consciousness_audit_revised.py: Debug left on
@@ -9,11 +9,15 @@
 - universe_constraint.py: Debug left on
 - deflection_pattern_analyzer.py: Debug left on, Secrets in code
 - CLAIM_SCHEMA.py: Secrets in code
+- reference_frame_bridge.py: Debug left on
 - substrate_aware_audit_v2.py: Debug left on
+- reference_frame_drift.py: Debug left on
+- reference_frame.py: Debug left on
 - substrate_aware_audit.py: Debug left on, Secrets in code
 - validity_weighted_reweighting.py: Debug left on
 - curiosity_engine.py: Debug left on
 - premise_cross_domain_audit.py: Debug left on
+- relational_frame.py: Debug left on
 - relational/Expanded-playground.py: Debug left on
 - relational/Playground.py: Debug left on
 - workplace/Play-addons.py: Debug left on
@@ -43,9 +47,12 @@
 - vulnerabilities/security1.py: Debug left on
 - joy/joy-playground.py: Debug left on
 - tests/historical_tests.py: Debug left on
+- healing/epistemic_symmetry_audit.py: Debug left on
+- healing/continuance_dynamics.py: Debug left on
 - healing/ego_tax_demo.py: Debug left on
 - healing/playgrounds/playground_protocol.py: Debug left on
 - healing/playgrounds/rubric_core.py: Debug left on
+- healing/playgrounds/coherence_playground.py: Debug left on
 - healing/playgrounds/self_assessment_drift.py: Debug left on
 - healing/playgrounds/Luminal_playground.py: Debug left on
 - healing/playgrounds/Integrated-playground.py: Debug left on
