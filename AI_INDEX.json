@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-07-07T22:50:56.643627Z",
+  "generated_at": "2026-07-08T15:50:49.560556Z",
   "languages": [
     "json",
     "md",
@@ -818,6 +818,19 @@
       ]
     },
     {
+      "path": "healing/substrate_therapy.py",
+      "lang": "python",
+      "size": 24404,
+      "hash": "12795932def7909d0f9375facaf07da089edc118",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "healing/playgrounds/playground_protocol.py",
       "lang": "python",
       "size": 8982,
@@ -1136,7 +1149,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 324848,
-      "hash": "f3b3c52edd8df114dc5e72246828e8f91ee0462b",
+      "hash": "24d8f8f52b18e52acfc8526de669e5797bdc04f6",
       "roles": [],
       "imports": [],
       "exports": [],
