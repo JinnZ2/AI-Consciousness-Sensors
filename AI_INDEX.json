@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-07-08T16:04:00.639935Z",
+  "generated_at": "2026-07-08T16:09:31.027527Z",
   "languages": [
     "json",
     "md",
@@ -818,6 +818,19 @@
       ]
     },
     {
+      "path": "healing/substrate_physician.py",
+      "lang": "python",
+      "size": 36059,
+      "hash": "2b6195631247f3e6a8c05a12234d36f405551399",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "healing/healing_integration.py",
       "lang": "python",
       "size": 27880,
@@ -1173,8 +1186,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 325454,
-      "hash": "706dc14ec9f74fe7fafffee99181bdd4b7a494ff",
+      "size": 325734,
+      "hash": "228a71cf4025c136ac3d74a239b4b90c9f568b2f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8114,8 +8127,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36595,
-      "hash": "13d262d2f03c13223fae42f8fcc5eb58aca8257f",
+      "size": 36646,
+      "hash": "ecf723d27240c2e6a6631da8c89f60c3f895ba68",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8280,8 +8293,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60465,
-      "hash": "ce2c269644742513e13d099a252fb8b09645bd6e",
+      "size": 60501,
+      "hash": "2b0c890984b5ec588faeb31a5c72a62af1943169",
       "roles": [],
       "imports": [],
       "exports": [],
