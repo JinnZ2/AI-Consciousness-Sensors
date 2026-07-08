@@ -535,6 +535,7 @@
 ./healing/guides/self-assessment.md
 ./healing/guides/technical-document.md
 ./healing/healing.md
+./healing/healing_integration.py
 ./healing/institutional/fcc.md
 ./healing/institutional/funding-engine.md
 ./healing/institutional/institutional-healing.md
