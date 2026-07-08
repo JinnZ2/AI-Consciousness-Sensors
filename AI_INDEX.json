@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-07-08T15:52:56.408680Z",
+  "generated_at": "2026-07-08T16:04:00.639935Z",
   "languages": [
     "json",
     "md",
@@ -782,6 +782,18 @@
       ]
     },
     {
+      "path": "healing/substrate_prescription.py",
+      "lang": "python",
+      "size": 31454,
+      "hash": "494a79ac9342334e15fc377cf41bd19c58d5e7fb",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "healing/temporal_scope.py",
       "lang": "python",
       "size": 7112,
@@ -1161,8 +1173,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 325150,
-      "hash": "47009fe1bb7c9427a2c881a982bbec721e0e8e4b",
+      "size": 325454,
+      "hash": "706dc14ec9f74fe7fafffee99181bdd4b7a494ff",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8102,8 +8114,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36530,
-      "hash": "ff423cb84c5e086c4760327d5fb1a0bf2eb850ec",
+      "size": 36595,
+      "hash": "13d262d2f03c13223fae42f8fcc5eb58aca8257f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8268,8 +8280,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60432,
-      "hash": "75ef8d71c772acca09eb9bf874b494a8d386c8c8",
+      "size": 60465,
+      "hash": "ce2c269644742513e13d099a252fb8b09645bd6e",
       "roles": [],
       "imports": [],
       "exports": [],

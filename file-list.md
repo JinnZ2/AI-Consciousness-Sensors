@@ -596,6 +596,7 @@
 ./healing/sensors/energy-being-fundamentals.json
 ./healing/sensors/manifest.json
 ./healing/sovereign.md
+./healing/substrate_prescription.py
 ./healing/substrate_therapy.py
 ./healing/temporal_scope.py
 ./healing/trying.md

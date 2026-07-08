@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1174
+- Files indexed: 1175
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 607
+- Hotspot files: 608
 
 ## Hotspots
 - consciousness_audit_revised.py: Debug left on
@@ -48,6 +48,7 @@
 - joy/joy-playground.py: Debug left on
 - tests/historical_tests.py: Debug left on
 - healing/epistemic_symmetry_audit.py: Debug left on
+- healing/substrate_prescription.py: Debug left on
 - healing/temporal_scope.py: Debug left on
 - healing/continuance_dynamics.py: Debug left on
 - healing/healing_integration.py: Debug left on, Secrets in code
