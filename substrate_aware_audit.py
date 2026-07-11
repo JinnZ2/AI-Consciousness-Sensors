@@ -1,5 +1,5 @@
 """
-substrate_aware_audit.py
+substrate_aware_audit.py  [SUPERSEDED — use substrate_aware_audit_v2.py]
 
 Four-layer audit framework grounded in first principles:
 

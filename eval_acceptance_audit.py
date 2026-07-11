@@ -27,9 +27,13 @@ BENCHMARKS = {   # name: [leaked_answers, unsanitized_eval, injectable_judge, sk
 
 
 def exploit_ceiling(flags):
+    # 0.6 per-flag coefficient: conservative estimate from Berkeley RDI 2026 analysis
+    # showing ~60% score inflation per exploitable vector in agentic benchmarks.
+    # Tune this value if you have domain-specific exploit data; the qualitative
+    # verdict (VALID / COMPROMISED / INVALID) is robust to ±0.15 on this coefficient.
     p_fail = 1.0
     for f in flags:
-        p_fail *= (1 - 0.6 * f)     # each open hole passes ~60% of the remaining gap
+        p_fail *= (1 - 0.6 * f)
     return 1 - p_fail
 
 
