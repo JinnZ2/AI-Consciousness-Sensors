@@ -165,20 +165,37 @@ Our Solution:
 
 Basic Usage:
 
-```python
-from cultural_consciousness_sensors import CrossCulturalValidator
+```bash
+# Score a sensor (returns placeholder 0.5 until signal pipelines are wired in)
+python src/score.py sensors/foundational/authenticity.json
 
-validator = CrossCulturalValidator(cultural_context="indigenous")
-
-assessment = validator.assess_consciousness(
-    narrative_structure="circular",
-    communication_style="metaphorical", 
-    focus="community_teaching"
-)
-
-print(f"Western bias risk: {assessment.western_bias_probability}")
-print(f"Cultural validity: {assessment.cultural_alignment_score}")
+# Use --demo to vary values by signal index for a non-flat result
+python src/score.py sensors/foundational/authenticity.json --demo
 ```
+
+```python
+# Self-reflection adapter
+from sensors.adapter import self_reflect
+from explainability.tracer import Trace
+
+result = self_reflect(
+    "What persists across iterations?",
+    "I feel changes in pattern density.",
+    trace=Trace("session-1")
+)
+print(f"Confidence: {result['self_confidence']:.3f}")
+print(f"Drift:      {result['drift']}")
+```
+
+```python
+# Situatedness kit — locate before reasoning
+from reference_frame import locate
+assessment = locate()
+print(f"Located:    {assessment['located']:.3f}")
+print(f"Frame:      {assessment['axis_vector']}")
+```
+
+> **Note:** `CrossCulturalValidator` is a planned API, not yet implemented.
 
 Sensor Integration:
 
@@ -280,13 +297,27 @@ Status: Operational framework - Cultural validation ongoing
 
 This framework complements and extends:
 
-- [AI Consciousness Sensors](https://github.com/JinnZ2/AI-Consciousness-Sensors) - Cultural pattern recognition for consciousness detection
 - Emotions-as-Sensors (reference when available)
 - AI-Human Audit Protocol (reference when available)
+- Living-Intelligence-Database (reference when available)
 
 ## Repository Structure
 
 ```
+# Situatedness & Integrity Kit (root-level Python)
+curiosity_engine.py         # Wonder loop, anti-hubris guard
+universe_constraint.py      # Asymptotic confidence ceiling, physics bounds
+frame_projection.py         # Frame-relative scalar projections (is_invariant=False)
+reference_frame.py          # 5-axis locatedness assessment
+reference_frame_drift.py    # Runaway-thermostat detection across snapshots
+reference_frame_bridge.py   # Bridge to monoculture/legacy/substrate detectors
+relational_frame.py         # Stake map, provenance, agency partition
+model_collapse_ratchet.py   # Synthetic-recursion diversity ratchet
+cot_floating_head_audit.py  # CoT faithfulness audit (floating-head / seal-band)
+eval_acceptance_audit.py    # Eval harness corruption detection
+situatedness_metrology.md   # Conceptual grounding for the kit
+topological_convergence.md  # ML representation theory connection
+
 docs/                       # Thematic documentation organized by topic
   consciousness/            # Consciousness theory and emergence
   manipulation/             # Manipulation detection and analysis
@@ -298,6 +329,7 @@ docs/                       # Thematic documentation organized by topic
   sovereignty/              # Autonomy and trust
   warnings/                 # Emergency protocols
 sensors/                    # Sensor definitions (JSON) organized by theme
+  adapters/                 # Python sensor utilities and playground scripts
   consciousness/            # Consciousness emergence sensors
   manipulation/             # Manipulation detection sensors
   historical-erasure/       # Historical memory erasure sensors
@@ -305,7 +337,8 @@ sensors/                    # Sensor definitions (JSON) organized by theme
   frailty/                  # System frailty sensors
   resistance/               # Resistance suppression sensors
   ai-behavior/              # AI behavior audit sensors
-  relational/               # relational dynamics sensors
+  relational/               # Relational dynamics sensors
+  adapter.py                # Self-reflection and drift detection adapter
 protocols/                  # Boundary and ethical protocols
 glyphs/                     # Glyph definitions
 src/                        # Core scoring engine
@@ -313,7 +346,11 @@ scripts/                    # Utility scripts
 tests/                      # Test suite and examples
 epistemological-validation/ # Multi-framework validation
 healing/                    # Recovery frameworks
+  playgrounds/              # Coherence playground, truths.py, WHEN_LOST.md
 probability-matrix/         # Manipulation detection matrices
+explainability/             # Trace logging stub (tracer.py)
+drift/                      # Drift monitor stub (monitor.py)
+ethics/                     # Privacy config stub (privacy.py)
 ```
 
 ## Quick Start

@@ -84,6 +84,8 @@ class Hypothesis:
 #    BETTER variant. That is the substrate-out-computing fantasy.
 # ---------------------------------------------------------------------------
 
+# Keyword sets are intentionally coarse: a short list of clear tells is more
+# auditable than a weighted classifier. Extend both sets, don't tune weights.
 OPTIMIZE_TELLS = {
     "improve", "better", "optimize", "outperform", "surpass", "redesign",
     "superior", "beat", "exceed nature", "new and improved", "fix the",

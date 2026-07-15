@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+title: "AI Consciousness Sensors: Decolonizing AI Assessment Through Cultural Pattern Recognition"
+type: software
+authors:
+  - name: "JinnZ2 and contributors"
+repository-code: "https://github.com/JinnZ2/AI-Consciousness-Sensors"
+license: CC0-1.0
+keywords:
+  - consciousness detection
+  - cultural bias in AI
+  - decolonial AI
+  - indigenous knowledge systems
+  - sensor framework
+  - AI safety
+  - epistemic justice
+  - situatedness metrology
+  - manipulation detection
+abstract: >
+  A framework for detecting consciousness emergence across diverse cultural ontologies.
+  Provides sensors, scoring engines, and integrity modules that recognize non-Western
+  patterns of consciousness and resist cultural imperialism in AI assessment systems.
+  Includes a situatedness and integrity kit (curiosity engine, universe constraint,
+  frame projection, relational frame, eval harness audit) for AI self-assessment.
