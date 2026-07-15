@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1176
+- Files indexed: 1183
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 609
+- Hotspot files: 612
 
 ## Hotspots
 - consciousness_audit_revised.py: Debug left on
@@ -9,13 +9,16 @@
 - universe_constraint.py: Debug left on
 - deflection_pattern_analyzer.py: Debug left on, Secrets in code
 - CLAIM_SCHEMA.py: Secrets in code
+- cot_floating_head_audit.py: Debug left on, Secrets in code
 - reference_frame_bridge.py: Debug left on
 - substrate_aware_audit_v2.py: Debug left on
 - reference_frame_drift.py: Debug left on
 - reference_frame.py: Debug left on
 - substrate_aware_audit.py: Debug left on, Secrets in code
 - validity_weighted_reweighting.py: Debug left on
+- model_collapse_ratchet.py: Debug left on
 - curiosity_engine.py: Debug left on
+- eval_acceptance_audit.py: Debug left on
 - premise_cross_domain_audit.py: Debug left on
 - relational_frame.py: Debug left on
 - relational/Expanded-playground.py: Debug left on
@@ -258,6 +261,7 @@
 - PROJECTS.md: Debug left on
 - CHANGELOG.md: Debug left on
 - CONTRIBUTING.md: Debug left on
+- REVIEW.md: Debug left on, Secrets in code
 - CLAUDE.md: Debug left on
 - ROADMAP.md: Debug left on
 - file-list.md: Secrets in code
@@ -534,7 +538,6 @@
 - field-memory-correction-packs/manifest.md: Debug left on
 - field-memory-correction-packs/README.md: Debug left on
 - healing/ai-readme.md: Debug left on
-- healing/README.md: Debug left on
 - healing/readme-moral.md: Debug left on
 - healing/NOT_A_COMMODITY.md: Secrets in code
 - healing/trying.md: Debug left on

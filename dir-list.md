@@ -2,6 +2,7 @@
 .
 ./. well-known
 ./.github
+./.github/ISSUE_TEMPLATE
 ./.github/workflows
 ./ai-energy-ecology
 ./ai-energy-ecology/docs

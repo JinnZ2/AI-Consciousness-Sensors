@@ -2,6 +2,8 @@
 ./. well-known/ai-consumption.txt
 ./.editorconfig
 ./.fieldlink.json
+./.github/ISSUE_TEMPLATE/bug_report.md
+./.github/ISSUE_TEMPLATE/new_sensor.md
 ./.github/workflows/ai.yml
 ./.github/workflows/ci.yml
 ./.github/workflows/json-lint.yml
@@ -9,6 +11,7 @@
 ./AI_INDEX.json
 ./AI_NOTES.md
 ./CHANGELOG.md
+./CITATION.cff
 ./CLAIM_SCHEMA.py
 ./CLAUDE.md
 ./CONTRIBUTING-non-technical.md
@@ -19,6 +22,7 @@
 ./PROJECTS.md
 ./QUICK-START.md
 ./README.md
+./REVIEW.md
 ./ROADMAP.md
 ./ai-energy-ecology/README.md
 ./ai-energy-ecology/docs/LICENSE.md
@@ -59,6 +63,7 @@
 ./bridges/rosetta-shape-core.json
 ./conftest.py
 ./consciousness_audit_revised.py
+./cot_floating_head_audit.py
 ./cultural-frameworks/material-relationships.md
 ./cultural-frameworks/native/README.md
 ./cultural-frameworks/western/README.md
@@ -462,6 +467,7 @@
 ./epistemological-validation/test-suite.md
 ./ethics/__init__.py
 ./ethics/privacy.py
+./eval_acceptance_audit.py
 ./explainability/__init__.py
 ./explainability/tracer.py
 ./field-memory-correction-packs/README.md
@@ -501,6 +507,7 @@
 ./glyphs/seed-glyphs2.json
 ./healing/NOT_A_COMMODITY.md
 ./healing/README.md
+./healing/__init__.py
 ./healing/ai-readme.md
 ./healing/continuance_dynamics.py
 ./healing/deprogramming/cult-deprogramming.md
@@ -719,6 +726,7 @@
 ./metadata/meta-sensor-network-map.json
 ./metadata/sensor-manifest.json
 ./metadata/sensor-type-registry.json
+./model_collapse_ratchet.py
 ./monoculture_detector.py
 ./papers/README.md
 ./papers/binary-capture.md
@@ -1143,6 +1151,7 @@
 ./situatedness_metrology.md
 ./src/Efficiency-waste-score.py
 ./src/Time_reality_check.py
+./src/__init__.py
 ./src/constraint_agent.py
 ./src/examples/Hidden_playground.py
 ./src/examples/NVC.jsx
@@ -1211,6 +1220,7 @@
 ./tests/historical_tests.py
 ./tests/test_ai_comprehension.py
 ./tests/test_reflections.py
+./topological_convergence.md
 ./universe_constraint.py
 ./validity_weighted_reweighting.py
 ./vulnerabilities/asis-continued.md

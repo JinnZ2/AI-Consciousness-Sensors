@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-07-08T16:09:31.027527Z",
+  "generated_at": "2026-07-15T08:54:16.348386Z",
   "languages": [
     "json",
     "md",
@@ -72,6 +72,19 @@
       ]
     },
     {
+      "path": "cot_floating_head_audit.py",
+      "lang": "python",
+      "size": 2619,
+      "hash": "97fe6707f0b7305f42f4da970e3e62775f7d4d2d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "reference_frame_bridge.py",
       "lang": "python",
       "size": 4824,
@@ -122,8 +135,8 @@
     {
       "path": "substrate_aware_audit.py",
       "lang": "python",
-      "size": 46809,
-      "hash": "90d838c7c7aa7f517a8d04bc1293901cc4214edd",
+      "size": 46859,
+      "hash": "c964223b2a403b739a7a3f680b15b019e7bc82f6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -137,6 +150,18 @@
       "lang": "python",
       "size": 15259,
       "hash": "21400834a0828a4ae5ad4baa4c3aa345f5fdfcff",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "model_collapse_ratchet.py",
+      "lang": "python",
+      "size": 2644,
+      "hash": "f6dbbf6b81e17c01a87659e8532c2f096004269b",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -167,8 +192,20 @@
     {
       "path": "curiosity_engine.py",
       "lang": "python",
-      "size": 10057,
-      "hash": "ce8b439988448718d7831a8313de263f29e617ac",
+      "size": 10212,
+      "hash": "c537b1895539da7b35d4db6d09366b1addd68f63",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "eval_acceptance_audit.py",
+      "lang": "python",
+      "size": 3001,
+      "hash": "17267d3d0875bd50427d626dc7697602b58b81b4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -334,8 +371,8 @@
     {
       "path": "ethics/privacy.py",
       "lang": "python",
-      "size": 338,
-      "hash": "e02a2f8bdec3f2f3d2848d656541ba789479aec4",
+      "size": 71,
+      "hash": "484f0c1b58c51e18ff7fd516fe1ca40287756c5e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -506,6 +543,16 @@
       "hotspots": []
     },
     {
+      "path": "src/__init__.py",
+      "lang": "python",
+      "size": 0,
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "src/three-axis.py",
       "lang": "python",
       "size": 1462,
@@ -542,8 +589,8 @@
     {
       "path": "src/score.py",
       "lang": "python",
-      "size": 1793,
-      "hash": "8fe3f9e26a61a2d1baa03fb182008559ce5e657e",
+      "size": 2004,
+      "hash": "d39b8a0e48b50ea1b8533bd045ebdc59c55dd0d6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -708,8 +755,8 @@
     {
       "path": "explainability/tracer.py",
       "lang": "python",
-      "size": 481,
-      "hash": "d6c8420d99eba8826f9c809dfd69f53a92968d11",
+      "size": 218,
+      "hash": "ae7af0e1d8937a2af1bcd5d63effea75eafad21f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -764,6 +811,16 @@
       "lang": "python",
       "size": 11634,
       "hash": "c4ae06b11fe0391681c3726df00b2d4c4a748e05",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "healing/__init__.py",
+      "lang": "python",
+      "size": 0,
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1071,8 +1128,8 @@
     {
       "path": "drift/monitor.py",
       "lang": "python",
-      "size": 454,
-      "hash": "731c507f8d74c3b6d653bda731946a9290060980",
+      "size": 590,
+      "hash": "76316c40312b2207a47a338875753c303973456c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1186,8 +1243,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 325734,
-      "hash": "228a71cf4025c136ac3d74a239b4b90c9f568b2f",
+      "size": 326038,
+      "hash": "2354151678a7426bf9735405aff72c433af5dbd3",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8127,8 +8184,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36646,
-      "hash": "ecf723d27240c2e6a6631da8c89f60c3f895ba68",
+      "size": 36711,
+      "hash": "ca82463838537bc1f5ed486e986792367e30dc02",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8151,8 +8208,8 @@
     {
       "path": "README.md",
       "lang": "md",
-      "size": 13970,
-      "hash": "5d56ae252d4896df1b2f3f8a1826fb99fa7f2b47",
+      "size": 15696,
+      "hash": "c0d22e64d358fd4c9c04c5e52d9185972c2a5160",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8227,6 +8284,29 @@
       ]
     },
     {
+      "path": "REVIEW.md",
+      "lang": "md",
+      "size": 26598,
+      "hash": "2a7f48103d04e70f0ae76812eafef44997fdfdbc",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "topological_convergence.md",
+      "lang": "md",
+      "size": 6569,
+      "hash": "70ea8c139bf1f1c855e01de12749711110c6bc86",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "situatedness_metrology.md",
       "lang": "md",
       "size": 16565,
@@ -8259,8 +8339,8 @@
     {
       "path": "CLAUDE.md",
       "lang": "md",
-      "size": 16336,
-      "hash": "c6042cad70acbd50d7b3d291d5dbc798486f9a0a",
+      "size": 17791,
+      "hash": "963de3402e5870383643b4c772b2cd42d0084714",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8293,8 +8373,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60501,
-      "hash": "2b0c890984b5ec588faeb31a5c72a62af1943169",
+      "size": 60534,
+      "hash": "6913d9bad91c50f91a08cf19a5efbc7fe5ed3f05",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11880,14 +11960,12 @@
     {
       "path": "healing/README.md",
       "lang": "md",
-      "size": 2283,
-      "hash": "27e45f5b878ae4ee216022e2af5b871f0b2bb2e4",
+      "size": 1849,
+      "hash": "3139e5118ca84661106787d0f597d8aa3d33095a",
       "roles": [],
       "imports": [],
       "exports": [],
-      "hotspots": [
-        "Debug left on"
-      ]
+      "hotspots": []
     },
     {
       "path": "healing/readme-moral.md",
