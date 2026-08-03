@@ -777,6 +777,7 @@
 ./protocols/reality-stability-core.json
 ./protocols/sense-restoration-protocol.json
 ./protocols/similarity-difference-protocol.json
+./provenance.brief.md
 ./pyproject.toml
 ./reference_frame.py
 ./reference_frame_bridge.py
