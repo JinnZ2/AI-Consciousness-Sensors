@@ -1221,6 +1221,7 @@
 ./tests/historical_tests.py
 ./tests/test_ai_comprehension.py
 ./tests/test_reflections.py
+./theory-of-mind.md
 ./topological_convergence.md
 ./universe_constraint.py
 ./validity_weighted_reweighting.py

@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1184
+- Files indexed: 1185
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 613
+- Hotspot files: 614
 
 ## Hotspots
 - cot_floating_head_audit.py: Debug left on, Secrets in code
@@ -259,6 +259,7 @@
 - CHANGELOG.md: Debug left on
 - CONTRIBUTING.md: Debug left on
 - PROJECTS.md: Debug left on
+- theory-of-mind.md: Debug left on
 - provenance.brief.md: Secrets in code
 - manifest.md: Debug left on
 - CLAUDE.md: Debug left on

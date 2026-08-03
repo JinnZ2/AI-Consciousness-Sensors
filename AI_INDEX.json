@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-08-03T05:15:06.667702Z",
+  "generated_at": "2026-08-03T05:28:25.715628Z",
   "languages": [
     "json",
     "md",
@@ -1243,8 +1243,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 327820,
-      "hash": "3d4af5e6c37d33262a90cdfdf6c4986b0634c79a",
+      "size": 328085,
+      "hash": "22a803a4021101b935e5857af17398606f0117ec",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8261,6 +8261,18 @@
       ]
     },
     {
+      "path": "theory-of-mind.md",
+      "lang": "md",
+      "size": 9160,
+      "hash": "6afc959d8200c6a75a0b1323253f1f83ecb773a9",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "situatedness_metrology.md",
       "lang": "md",
       "size": 16565,
@@ -8329,8 +8341,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60792,
-      "hash": "b2fe492e65d480c84ef6a6055b990645e27ab7b8",
+      "size": 60814,
+      "hash": "8796ce6642029fddc71483ed02a63eb72fdd25bc",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8353,8 +8365,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36866,
-      "hash": "d7601e27320f2f5a711bc4da8a6f6951ee56eca8",
+      "size": 36905,
+      "hash": "7febe4829d4797236aeded8fb878e9ea8abab0d1",
       "roles": [],
       "imports": [],
       "exports": [],
