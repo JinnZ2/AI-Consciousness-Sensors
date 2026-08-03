@@ -778,6 +778,7 @@
 ./protocols/sense-restoration-protocol.json
 ./protocols/similarity-difference-protocol.json
 ./provenance.brief.md
+./provenance_scientific_method.py
 ./pyproject.toml
 ./reference_frame.py
 ./reference_frame_bridge.py

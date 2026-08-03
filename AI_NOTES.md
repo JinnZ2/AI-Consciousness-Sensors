@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1185
+- Files indexed: 1186
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 614
+- Hotspot files: 615
 
 ## Hotspots
 - cot_floating_head_audit.py: Debug left on, Secrets in code
@@ -15,6 +15,7 @@
 - relational_frame.py: Debug left on
 - reference_frame_drift.py: Debug left on
 - CLAIM_SCHEMA.py: Secrets in code
+- provenance_scientific_method.py: Debug left on
 - curiosity_engine.py: Debug left on
 - monoculture_detector.py: Debug left on, Secrets in code
 - validity_weighted_reweighting.py: Debug left on

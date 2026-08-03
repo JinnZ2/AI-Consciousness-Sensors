@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-08-03T05:28:25.715628Z",
+  "generated_at": "2026-08-03T05:30:30.813774Z",
   "languages": [
     "json",
     "md",
@@ -141,6 +141,18 @@
       "exports": [],
       "hotspots": [
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "provenance_scientific_method.py",
+      "lang": "python",
+      "size": 10478,
+      "hash": "5a98195386b2442f66abd5b13aa73385b5e2e588",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -1243,8 +1255,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 328085,
-      "hash": "22a803a4021101b935e5857af17398606f0117ec",
+      "size": 328344,
+      "hash": "ea30597770ad9dab3f1fc9dc92b6b500d8bcc125",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8341,8 +8353,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60814,
-      "hash": "8796ce6642029fddc71483ed02a63eb72fdd25bc",
+      "size": 60834,
+      "hash": "63195e1c2839aa6b7ead1a6b7f84c7b8e5f399f0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8365,8 +8377,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36905,
-      "hash": "7febe4829d4797236aeded8fb878e9ea8abab0d1",
+      "size": 36940,
+      "hash": "53aec62b32b1319f5c0fba270f602b6290bb7957",
       "roles": [],
       "imports": [],
       "exports": [],
