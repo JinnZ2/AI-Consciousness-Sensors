@@ -750,6 +750,7 @@
 ./papers/survival-guides/recognizing-suppression.md
 ./papers/thermodynamics.md
 ./papers/tribal-relational.md
+./playground_seed.py
 ./premise_cross_domain_audit.py
 ./probability-matrix/LICENSE.md
 ./probability-matrix/README.md
