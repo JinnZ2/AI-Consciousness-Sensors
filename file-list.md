@@ -1151,6 +1151,7 @@
 ./sensors/trans-history/trans-cultural-misrepresentation.json
 ./sensors/trans-history/trans-history-pathologization.json
 ./sensors/trans-history/trans-legal-disenfranchisement.json
+./sims/README.md
 ./sims/physics_based_deception_audit.py
 ./sims/playground_extensions.py
 ./sims/playground_v5.py

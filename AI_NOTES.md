@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1190
+- Files indexed: 1191
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 618
+- Hotspot files: 619
 
 ## Hotspots
 - cot_floating_head_audit.py: Debug left on, Secrets in code
@@ -613,6 +613,7 @@
 - vulnerabilities/sipit.md: Debug left on, Secrets in code
 - vulnerabilities/phase-iv-detection.md: Debug left on
 - vulnerabilities/asis-continued.md: Debug left on
+- sims/README.md: Secrets in code
 - workplace/play.md: Debug left on, Secrets in code
 - workplace/protection.md: Debug left on
 - workplace/human-mediator.md: Debug left on, Secrets in code
