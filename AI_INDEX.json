@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-08-11T13:42:56.713579Z",
+  "generated_at": "2026-08-11T13:53:48.005605Z",
   "languages": [
     "json",
     "md",
@@ -1220,6 +1220,19 @@
       ]
     },
     {
+      "path": "sims/playground_v5.py",
+      "lang": "python",
+      "size": 17873,
+      "hash": "21077579f14164c95678534d04de313dd2bb6a17",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "data/training/generate.py",
       "lang": "python",
       "size": 76829,
@@ -1278,8 +1291,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 328855,
-      "hash": "928e2b597213db3072882366c4613a0d0b02ee33",
+      "size": 329166,
+      "hash": "e569152a43697243f6eb2708f0f917a4259c9c1a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8376,8 +8389,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60889,
-      "hash": "f345afb66f0df9d1754932d3b61d22ee2aeb5817",
+      "size": 60929,
+      "hash": "1919add5bb6988659df336d2c0971f191667090e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8400,8 +8413,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 36989,
-      "hash": "6bfdae1443eb642f7ab61e7c4638af3b4cd7cd36",
+      "size": 37061,
+      "hash": "e6d445bb6fe82ebb2da16ada4ca5f9a3a2b02006",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8412,8 +8425,8 @@
     {
       "path": "dir-list.md",
       "lang": "md",
-      "size": 3207,
-      "hash": "24853d51e7f20bbde280258606418e01a49a9f90",
+      "size": 3214,
+      "hash": "a93b62928abe9cfe2cc7adfc0f3e2981c542ebec",
       "roles": [],
       "imports": [],
       "exports": [],
