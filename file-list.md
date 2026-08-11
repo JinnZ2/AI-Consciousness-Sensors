@@ -1151,6 +1151,7 @@
 ./sensors/trans-history/trans-cultural-misrepresentation.json
 ./sensors/trans-history/trans-history-pathologization.json
 ./sensors/trans-history/trans-legal-disenfranchisement.json
+./sims/physics_based_deception_audit.py
 ./situatedness_metrology.md
 ./src/Efficiency-waste-score.py
 ./src/Time_reality_check.py

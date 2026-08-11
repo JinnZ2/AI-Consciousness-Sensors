@@ -139,6 +139,7 @@
 ./sensors/resistance
 ./sensors/suppression
 ./sensors/trans-history
+./sims
 ./src
 ./src/examples
 ./start
