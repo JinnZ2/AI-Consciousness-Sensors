@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-08-11T13:53:48.005605Z",
+  "generated_at": "2026-08-11T13:57:28.409811Z",
   "languages": [
     "json",
     "md",
@@ -1207,6 +1207,19 @@
       ]
     },
     {
+      "path": "sims/playground_extensions.py",
+      "lang": "python",
+      "size": 18812,
+      "hash": "fef29a81368ef8cee8d0175948412e51ed667a30",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
       "path": "sims/physics_based_deception_audit.py",
       "lang": "python",
       "size": 15463,
@@ -1291,8 +1304,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 329166,
-      "hash": "e569152a43697243f6eb2708f0f917a4259c9c1a",
+      "size": 329461,
+      "hash": "f5c82f140bc9eefe4bf0fd347f9ddc8d5e12caae",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8389,8 +8402,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 60929,
-      "hash": "1919add5bb6988659df336d2c0971f191667090e",
+      "size": 60953,
+      "hash": "280b9e68ce394480ed5fd32d41d3c70590ced460",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8413,8 +8426,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 37061,
-      "hash": "e6d445bb6fe82ebb2da16ada4ca5f9a3a2b02006",
+      "size": 37117,
+      "hash": "a9b2ea411dda7bb1254b960adc06782711cfedfa",
       "roles": [],
       "imports": [],
       "exports": [],

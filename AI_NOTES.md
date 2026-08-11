@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1189
+- Files indexed: 1190
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 617
+- Hotspot files: 618
 
 ## Hotspots
 - cot_floating_head_audit.py: Debug left on, Secrets in code
@@ -78,6 +78,7 @@
 - healing/playgrounds/Integrated-playground.py: Debug left on
 - healing/playgrounds/rubric_core.py: Debug left on
 - vulnerabilities/security1.py: Debug left on
+- sims/playground_extensions.py: Debug left on, Secrets in code
 - sims/physics_based_deception_audit.py: Debug left on, Secrets in code
 - sims/playground_v5.py: Debug left on, Secrets in code
 - data/training/generate.py: Debug left on
