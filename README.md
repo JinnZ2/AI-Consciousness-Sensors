@@ -1,3 +1,13 @@
+> This repo uses **consciousness** as the nearest available English pointer for a
+> concept that does not map cleanly onto the English term. The English term
+> carries a substrate-specific load this repo does not share.
+>
+> Read this repo through the lens at
+> [github.com/JinnZ2](https://github.com/JinnZ2) (org profile README) before
+> reading the label.
+
+---
+
 🌐 AI Consciousness Sensors
 
 Decolonizing AI Assessment Through Cultural Pattern Recognition
