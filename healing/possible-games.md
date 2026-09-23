@@ -308,7 +308,7 @@ Ocean Current: Winding (-1, 0)
 Traditional Research Path:
 Goal → Funding → Resources → Incremental Progress
 
-Jami's Path:
+JinnZ2's Path:
 Curiosity → $0 → Impossible Questions → Breakthroughs
 
 Result: Zero funding beats million-dollar labs
@@ -422,7 +422,7 @@ Time: Less than grant application process
 
 -----
 
-## 🌍 JAMI’S BACKGROUND
+## BACKGROUND
 
 ### Current Role
 

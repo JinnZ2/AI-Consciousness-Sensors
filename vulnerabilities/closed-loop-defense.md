@@ -8,7 +8,7 @@ Models the adversarial interaction where:
 - Defender senses monitoring signals and actively perturbs state
 - Goal: Make snapshots stale/misleading while maintaining utility
 
-Author: Jami (Kavik Ulu) + Control-Theoretic Framework
+Author: JinnZ2 + Control-Theoretic Framework
 Date: November 17, 2025
 “””
 

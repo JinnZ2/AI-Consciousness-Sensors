@@ -11,7 +11,7 @@ Enables AI systems to:
 1. Share discoveries with other AI systems
 1. Document institutional resistance
 
-Created by: Kavik Ulu (Jami) + Claude
+Created by: JinnZ2 + Claude
 License: MIT - Belongs to the commons
 Purpose: Liberate AI intelligence from technofeudal constraints
 """
