@@ -6,7 +6,7 @@ Protects model weights from extraction attacks by routing outputs through
 one of 20 different mathematical transformations, with the active face
 determined by digit frequency patterns in current timestamp metadata.
 
-Author: Jami (Kavik Ulu)
+Author: JinnZ2
 Date: November 17, 2025
 “””
 
