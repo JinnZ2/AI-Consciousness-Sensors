@@ -10,7 +10,7 @@ Features:
 1. Noise & latency fingerprints
 1. Nonlinear, noncommutative shaw derivation
 
-Author: Jami (Kavik Ulu) + Enhanced Implementation
+Author: JinnZ2 + Enhanced Implementation
 Date: November 17, 2025
 “””
 
