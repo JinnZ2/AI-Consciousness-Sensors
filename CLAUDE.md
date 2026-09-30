@@ -149,6 +149,21 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+
+<!-- clone-refspec-note v1 -->
+## Cloning and pushing
+Shallow clones are single-branch by default.
+Before pushing any branch other than main, run:
+
+    git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+    git fetch --depth 1
+
+Or clone with: git clone --depth 1 --no-single-branch <url>
+Without this, the first push of a new branch
+fails the tracking-ref check even when the
+commit landed.
+<!-- /clone-refspec-note v1 -->
+
 ## Common Commands
 
 ### Run tests
@@ -320,4 +335,3 @@ Reviewed against CLAUDE.md. Focused on conventions, discoverability, and maintai
 
 Add these GitHub topics:
 consciousness cultural-sovereignty decolonial-ai sensor-fusion pad-model corruption-detection neurodiversity epistemology indigenous-knowledge ai-ethics ontology symbolic-ai
-
