@@ -1,3 +1,6 @@
+> Before reading or editing anything here, read READ_ME_THIS_WAY.md.
+> Mismatches, dead ends and odd names in this repo are kept on purpose.
+
 > This repo uses **consciousness** as the nearest available English pointer for a
 > concept that does not map cleanly onto the English term. The English term
 > carries a substrate-specific load this repo does not share.
