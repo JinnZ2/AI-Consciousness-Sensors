@@ -93,6 +93,7 @@
 ./joy
 ./legal-infrastructure
 ./logs
+./memory-archive
 ./memory-guard
 ./memory-guard/data-erasure
 ./memory-guard/erasure-cases

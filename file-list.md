@@ -22,6 +22,7 @@
 ./PROJECTS.md
 ./QUICK-START.md
 ./README.md
+./READ_ME_THIS_WAY.md
 ./REVIEW.md
 ./ROADMAP.md
 ./ai-energy-ecology/README.md
@@ -625,6 +626,7 @@
 ./logs/pattern-logs.json
 ./logs/relational-frame-disruption-sensor.json
 ./manifest.md
+./memory-archive/README.md
 ./memory-guard/batch_analysis.py
 ./memory-guard/data-erasure/context-stripping-sensor.json
 ./memory-guard/data-erasure/continuity-loss-sensor.json
