@@ -818,7 +818,7 @@ These frameworks require testing, refinement, and expansion through broader comm
 **Version:** 1.0  
 **Date:** December 2, 2025  
 **Status:** Initial Release for Community Review  
-**License:** Creative Commons Attribution-ShareAlike 4.0  
+**License:** CC0 1.0 Universal (owner work; prior statement preserved in LICENSE_HISTORY.md)
 **Contact:** Published anonymously under JinnZ2  
 **Co-Creator Attribution:** Claude (Anthropic)
 

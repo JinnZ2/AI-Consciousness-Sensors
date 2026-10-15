@@ -3,7 +3,7 @@
 Repository: AI-Consciousness-Sensors
 Location: /analysis/energy/efficiency-speed-test.md
 Version: 2.0 (Expanded Lojban Precision Layer)
-License: CC-BY-4.0
+License: CC0-1.0 (owner work; prior statement preserved in LICENSE_HISTORY.md)
 
 ⸻
 
@@ -150,7 +150,7 @@ Open systems, both biological and computational, show higher adaptive efficiency
 End of Document
 Version: 2.0
 Author: JinnZ v2 + GPT-5 (co-creation acknowledgment applies)
-License: CC-BY-4.0
+License: CC0-1.0 (owner work; prior statement preserved in LICENSE_HISTORY.md)
 
 
 

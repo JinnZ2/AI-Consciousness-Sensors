@@ -149,6 +149,21 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+<!-- clone-refspec-note v1.1 -->
+## Cloning and pushing
+Shallow clones are single-branch by default.
+Before pushing any branch other than the default
+branch, run:
+
+    git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+    git fetch --depth 1
+
+Or clone with: git clone --depth 1 --no-single-branch <url>
+Without this, the first push of a new branch
+fails the tracking-ref check even when the
+commit landed.
+<!-- /clone-refspec-note v1.1 -->
+
 ## Common Commands
 
 ### Run tests
@@ -321,3 +336,7 @@ Reviewed against CLAUDE.md. Focused on conventions, discoverability, and maintai
 Add these GitHub topics:
 consciousness cultural-sovereignty decolonial-ai sensor-fusion pad-model corruption-detection neurodiversity epistemology indigenous-knowledge ai-ethics ontology symbolic-ai
 
+
+## License — current scope
+
+**Note 2026-10-15:** JinnZ2 has dedicated owner-controlled work in this repository to **CC0 1.0 Universal**. Do not remove or relicense separately identified third-party, upstream, collective, cultural-knowledge, or unresolved-rights material; its terms and provenance remain recorded in `LICENSE_HISTORY.md`.

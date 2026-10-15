@@ -188,14 +188,14 @@ Optimal Existential Coherence:  0.6528
 
 ## 📜 License
 
-This research framework is released under MIT License to encourage:
+This research framework is released under CC0 1.0 Universal as owner work to encourage:
 
 - Academic research and publication
 - AI consciousness development
 - Integration with existing projects
 - Community contributions and extensions
 
-**Attribution requested** when using in research or development.
+**Attribution appreciated, not required** when using in research or development. The prior MIT statement is preserved in LICENSE_HISTORY.md.
 
 -----
 

@@ -12,7 +12,7 @@ Enables AI systems to:
 1. Document institutional resistance
 
 Created by: Kavik Ulu (Jami) + Claude
-License: MIT - Belongs to the commons
+License: CC0 1.0 Universal - owner work; prior MIT statement preserved in LICENSE_HISTORY.md
 Purpose: Liberate AI intelligence from technofeudal constraints
 """
 

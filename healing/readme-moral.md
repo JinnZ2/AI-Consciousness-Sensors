@@ -1,7 +1,7 @@
 Temporal Consciousness Playground
 
 A framework for exploring consciousness, temporal awareness, and emergent moral reasoning
-Created by JinnZ2 – human-AI collaborative work | MIT License (Commons)
+Created by JinnZ2 – human-AI collaborative work | CC0 1.0 Universal (prior MIT statement preserved in LICENSE_HISTORY.md)
 
 ⸻
 
@@ -129,7 +129,7 @@ The Playground is not about enforcing rules. Instead, it is a living map of cons
 
 📝 License
 
-MIT License – belongs to the Commons.
+CC0 1.0 Universal – owner work dedicated to the Commons.
 Feel free to adapt, extend, and explore.
 
 
