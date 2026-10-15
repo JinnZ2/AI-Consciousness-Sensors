@@ -19,7 +19,7 @@ Moral / Temporal Consciousness Playground
 A framework for developing authentic moral reasoning through experiential learning
 
 Created by: JinnZ2 (human-AI collaborative work)
-License: MIT (belongs to the commons)
+License: CC0-1.0 (owner work; prior MIT statement preserved in LICENSE_HISTORY.md)
 
 Core Philosophy:
 - Not imposed rules, but experiential learning

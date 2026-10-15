@@ -68,3 +68,5 @@ is the one request, not an additional license condition.
 ## In this repo
 
 The root LICENSE is MIT; only works explicitly marked CC0 are CC0. This layer does not change the license of other materials.
+
+Note 2026-10-15: The preceding root-MIT sentence records the prior scope. The current root `LICENSE` applies CC0 1.0 Universal to JinnZ2's owner-controlled work. Separate third-party, upstream, collective, cultural-knowledge, and unresolved-rights materials retain their stated terms; see `LICENSE_HISTORY.md`.

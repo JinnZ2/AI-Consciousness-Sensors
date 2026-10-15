@@ -85,7 +85,7 @@
           "atlas/**/*.json",
           "glyphs/**/*.json"
         ],
-        "consent": { "license": "MIT", "share_ok": true }
+        "consent": { "license": "CC0-1.0", "share_ok": true }
       },
       {
         "name": "thermo_accountability",

@@ -379,3 +379,7 @@ python src/score.py sensors/foundational/authenticity.json
 # Run tests
 pytest -q
 ```
+
+## License — current scope
+
+**Note 2026-10-15:** JinnZ2 has dedicated the repository's owner-controlled work to **CC0 1.0 Universal**. This does not alter separately identified third-party, upstream, collective, cultural-knowledge, or unresolved-rights materials; their stated terms and provenance are retained in [LICENSE_HISTORY.md](LICENSE_HISTORY.md).

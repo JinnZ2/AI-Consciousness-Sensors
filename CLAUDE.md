@@ -336,3 +336,7 @@ Reviewed against CLAUDE.md. Focused on conventions, discoverability, and maintai
 Add these GitHub topics:
 consciousness cultural-sovereignty decolonial-ai sensor-fusion pad-model corruption-detection neurodiversity epistemology indigenous-knowledge ai-ethics ontology symbolic-ai
 
+
+## License — current scope
+
+**Note 2026-10-15:** JinnZ2 has dedicated owner-controlled work in this repository to **CC0 1.0 Universal**. Do not remove or relicense separately identified third-party, upstream, collective, cultural-knowledge, or unresolved-rights material; its terms and provenance remain recorded in `LICENSE_HISTORY.md`.

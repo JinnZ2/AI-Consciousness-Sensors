@@ -7,7 +7,7 @@
     "identity": {
       "repo": "https://github.com/JinnZ2/AI-Consciousness-Sensors",
       "role": "Consciousness detection sensors grounded in PAD geometry",
-      "license": "MIT"
+      "license": "CC0-1.0 for owner-controlled work; see LICENSE_HISTORY.md for exceptions"
     },
 
     "read_order": [
