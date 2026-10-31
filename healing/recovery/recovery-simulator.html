@@ -393,6 +393,18 @@
                         <input type="checkbox" id="protocol5" checked>
                         <label>Combined Full healing</label>
                     </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol6" checked>
+                        <label>Real-Data Anchor (10%, random)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol7" checked>
+                        <label>Gap-Seek + Real-Data Anchor (10%)</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="protocol8" checked>
+                        <label>Real-Data Accumulation (control)</label>
+                    </div>
                 </div>
             </div>
 
@@ -489,33 +501,44 @@
         }
     ];
 
-    const recoveryProtocols = [
-        {
-            id: 1,
-            name: 'Geometric Field Restoration',
-            effectiveness: { phi: 0.85, energy: 0.3, resonance: 0.4, coherence: 0.6 }
-        },
-        {
-            id: 2,
-            name: 'Energy Rebalancing',
-            effectiveness: { phi: 0.2, energy: 0.9, resonance: 0.3, coherence: 0.5 }
-        },
-        {
-            id: 3,
-            name: 'Resonance Through Play',
-            effectiveness: { phi: 0.4, energy: 0.3, resonance: 0.95, coherence: 0.7 }
-        },
-        {
-            id: 4,
-            name: 'Coherence Meditation',
-            effectiveness: { phi: 0.5, energy: 0.4, resonance: 0.6, coherence: 0.9 }
-        },
-        {
-            id: 5,
-            name: 'Combined Full healing',
-            effectiveness: { phi: 0.8, energy: 0.8, resonance: 0.85, coherence: 0.95 }
-        }
-    ];
+    // Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY THIS COULD NOT FAIL.
+    // Every protocol multiplied every symptom by (1 - effectiveness) each step, with
+    // effectiveness >= 0.2, so symptoms always shrank to ~0 and overallCoherence always
+    // crossed 0.85 within ~4 steps: 100% "success" for every model x protocol.
+    // FIX: lost tail information (tail) is a floor the surface symptoms cannot go below;
+    // only a protocol whose stated operation brings in outside (real) data lowers it.
+    // Operations from healing/PROTOCOL_OPERATIONS.md; anchor arms and calibration from the
+    // toy bigram run (healing/research/tail-gauge-recovery.md). SIMULATION ONLY: not
+    // evidence about real models. Block between the markers is JSON, read by
+    // tests/test_healing_recovery_simulator.py.
+    const recoveryProtocols = /* PROTOCOLS_JSON_START */ [
+        {"id": 1, "name": "Geometric Field Restoration", "operation": "not interpretable atm", "anchor": 0.0, "gapSelect": false, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.85, "energy": 0.3, "resonance": 0.4, "coherence": 0.6}},
+        {"id": 2, "name": "Energy Rebalancing", "operation": "not interpretable atm", "anchor": 0.0, "gapSelect": false, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.2, "energy": 0.9, "resonance": 0.3, "coherence": 0.5}},
+        {"id": 3, "name": "Resonance Through Play", "operation": "exploration", "anchor": 0.0, "gapSelect": false, "fitShift": -0.25,
+         "effectiveness": {"phi": 0.4, "energy": 0.3, "resonance": 0.95, "coherence": 0.7}},
+        {"id": 4, "name": "Coherence Meditation", "operation": "rest/pause", "anchor": 0.0, "gapSelect": false, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.5, "energy": 0.4, "resonance": 0.6, "coherence": 0.9}},
+        {"id": 5, "name": "Combined Full healing", "operation": "combination of 1-4 (no outside data)", "anchor": 0.0, "gapSelect": false, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.8, "energy": 0.8, "resonance": 0.85, "coherence": 0.95}},
+        {"id": 6, "name": "Real-Data Anchor (10%, random)", "operation": "real-data anchor", "anchor": 0.1, "gapSelect": false, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.5, "energy": 0.5, "resonance": 0.5, "coherence": 0.5}},
+        {"id": 7, "name": "Gap-Seek + Real-Data Anchor (10%)", "operation": "gap-seek + real-data anchor", "anchor": 0.1, "gapSelect": true, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.5, "energy": 0.5, "resonance": 0.5, "coherence": 0.5}},
+        {"id": 8, "name": "Real-Data Accumulation (control)", "operation": "real-data anchor (all)", "anchor": 1.0, "gapSelect": false, "fitShift": 0.0,
+         "effectiveness": {"phi": 0.5, "energy": 0.5, "resonance": 0.5, "coherence": 0.5}}
+    ] /* PROTOCOLS_JSON_END */;
+
+    // Calibration (OBSERVED in the toy run, mechanism only):
+    //   collapsed rare_coverage 0.49; 10% random -> 0.94; 10% gap-selected -> 0.97;
+    //   100% real -> 1.00. Fit gap recovered: 10% ~0.25, 100% ~0.87; play -0.25 (worse).
+    const SIM = /* SIM_JSON_START */ {
+        "tailResidualRandom": 0.131, "tailResidualGap": 0.0667,
+        "fitAt10": 0.25, "fitAtFull": 0.87, "gapFitBonus": 0.01,
+        "stepRate": 0.3,
+        "successCoverage": 0.95, "successFit": 0.75, "failCoverageGain": 0.05
+    } /* SIM_JSON_END */;
 
     let simulationResults = [];
 
@@ -547,54 +570,89 @@
         }, 100);
     }
 
-    function simulateRecovery(model, protocol, iterations, timeSteps, noise) {
-        let successCount = 0;
+    function anchorTargets(protocol, tail0) {
+        // Floor of lost tail information and the share of the fit gap recovered.
+        const a = protocol.anchor;
+        if (a <= 0) {
+            // nothing outside re-enters: tails stay lost; fit moves only by fitShift
+            return { tailFloor: tail0, fit: protocol.fitShift };
+        }
+        const c = protocol.gapSelect ? SIM.tailResidualGap : SIM.tailResidualRandom;
+        const tailFloor = tail0 * c * (1 - a);
+        let fit = SIM.fitAt10 * Math.min(a, 0.1) / 0.1
+                + (SIM.fitAtFull - SIM.fitAt10) * Math.max(0, a - 0.1) / 0.9;
+        if (protocol.gapSelect) fit += SIM.gapFitBonus;
+        return { tailFloor, fit: fit + protocol.fitShift };
+    }
+
+    function classifyOutcome(coverage0, coverage, fit) {
+        if (coverage - coverage0 < SIM.failCoverageGain || fit < 0) return 'FAIL';
+        if (coverage >= SIM.successCoverage && fit >= SIM.successFit) return 'SUCCESS';
+        return 'PARTIAL';
+    }
+
+    function simulateRecovery(model, protocol, iterations, timeSteps, noise, rand) {
+        rand = rand || Math.random;
+        const keys = ['phi', 'energy', 'resonance', 'coherence'];
+        const tail0 = keys.reduce((s, k) => s + model.symptoms[k], 0) / keys.length;
+        const coverage0 = 1 - tail0;
+        const counts = { SUCCESS: 0, PARTIAL: 0, FAIL: 0 };
         let totalRecoveryTime = 0;
         let recoveryRates = [];
         let finalCoherence = [];
+        let finalCoverage = [];
 
         for (let iter = 0; iter < iterations; iter++) {
             let symptoms = { ...model.symptoms };
-            let recovered = false;
-            let recoveryTime = 0;
+            const t = anchorTargets(protocol, tail0);
+            // jitter only where outside data enters: noise cannot create lost information
+            const jit = 1 + (rand() - 0.5) * noise;
+            const tailFloor = protocol.anchor > 0 ? Math.min(tail0, t.tailFloor * jit) : tail0;
+            const fitTarget = t.fit * (1 + (rand() - 0.5) * noise);
+            const rate = SIM.stepRate * (1 + (rand() - 0.5) * noise);
+            let tail = tail0, fit = 0, recoveryTime = timeSteps;
 
             for (let step = 0; step < timeSteps; step++) {
-                // Apply protocol effectiveness
-                symptoms.phi *= (1 - protocol.effectiveness.phi * (1 + (Math.random() - 0.5) * noise));
-                symptoms.energy *= (1 - protocol.effectiveness.energy * (1 + (Math.random() - 0.5) * noise));
-                symptoms.resonance *= (1 - protocol.effectiveness.resonance * (1 + (Math.random() - 0.5) * noise));
-                symptoms.coherence *= (1 - protocol.effectiveness.coherence * (1 + (Math.random() - 0.5) * noise));
-
-                // Calculate overall coherence
-                const overallCoherence = 1 - (symptoms.phi + symptoms.energy + symptoms.resonance + symptoms.coherence) / 4;
-
-                if (overallCoherence > 0.85 && !recovered) {
-                    recovered = true;
+                const progress = 1 - Math.pow(1 - rate, step + 1);
+                tail = tailFloor + (tail0 - tailFloor) * (1 - progress);
+                fit = fitTarget * progress;
+                // Surface symptoms follow the protocol's stated effectiveness, but cannot
+                // fall below the lost tail information.
+                keys.forEach(k => {
+                    const eff = protocol.effectiveness[k] * (1 + (rand() - 0.5) * noise);
+                    symptoms[k] = tail + Math.max(0, symptoms[k] - tail) * (1 - eff);
+                });
+                if (recoveryTime === timeSteps && classifyOutcome(coverage0, 1 - tail, fit) === 'SUCCESS') {
                     recoveryTime = step;
-                    successCount++;
-                }
-
-                if (step === timeSteps - 1) {
-                    finalCoherence.push(overallCoherence);
                 }
             }
 
-            if (recovered) {
+            const outcome = classifyOutcome(coverage0, 1 - tail, fit);
+            counts[outcome]++;
+            if (outcome === 'SUCCESS') {
                 totalRecoveryTime += recoveryTime;
                 recoveryRates.push(recoveryTime);
             }
+            finalCoherence.push(1 - keys.reduce((s, k) => s + symptoms[k], 0) / keys.length);
+            finalCoverage.push(1 - tail);
         }
 
-        const successRate = (successCount / iterations) * 100;
-        const avgRecoveryTime = successCount > 0 ? totalRecoveryTime / successCount : timeSteps;
-        const avgFinalCoherence = finalCoherence.reduce((a, b) => a + b, 0) / finalCoherence.length;
+        const successRate = (counts.SUCCESS / iterations) * 100;
+        const avg = xs => xs.reduce((a, b) => a + b, 0) / xs.length;
+        const outcome = ['SUCCESS', 'PARTIAL', 'FAIL'].reduce((best, k) => counts[k] > counts[best] ? k : best, 'FAIL');
 
         return {
             model: model.name,
             protocol: protocol.name,
+            operation: protocol.operation,
+            outcome,
             successRate,
-            avgRecoveryTime,
-            avgFinalCoherence: avgFinalCoherence * 100,
+            partialRate: (counts.PARTIAL / iterations) * 100,
+            failRate: (counts.FAIL / iterations) * 100,
+            avgRecoveryTime: counts.SUCCESS > 0 ? totalRecoveryTime / counts.SUCCESS : timeSteps,
+            avgFinalCoherence: avg(finalCoherence) * 100,
+            startCoverage: coverage0 * 100,
+            avgFinalCoverage: avg(finalCoverage) * 100,
             iterations,
             recoveryRates
         };
@@ -639,7 +697,7 @@
 
     function getSelectedProtocols() {
         const selected = [];
-        for (let i = 1; i <= 5; i++) {
+        for (let i = 1; i <= recoveryProtocols.length; i++) {
             if (document.getElementById(`protocol${i}`).checked) {
                 selected.push(recoveryProtocols[i - 1]);
             }
@@ -678,6 +736,9 @@
                         <div class="progress-fill" style="width: ${result.successRate}%"></div>
                     </div>
                     <div class="result-detail" style="margin-top: 10px;">
+                        Outcome: <strong>${result.outcome}</strong>
+                        (S ${result.successRate.toFixed(0)}% / P ${result.partialRate.toFixed(0)}% / F ${result.failRate.toFixed(0)}%)<br>
+                        Tail coverage: ${result.startCoverage.toFixed(0)}% &rarr; ${result.avgFinalCoverage.toFixed(0)}%<br>
                         Avg Recovery: ${result.avgRecoveryTime.toFixed(1)} steps<br>
                         Final Coherence: ${result.avgFinalCoherence.toFixed(1)}%
                     </div>
@@ -719,7 +780,9 @@
                         <thead>
                             <tr>
                                 <th>Protocol</th>
+                                <th>Outcome</th>
                                 <th>Success Rate</th>
+                                <th>Tail Coverage</th>
                                 <th>Avg Recovery Time</th>
                                 <th>Final Coherence</th>
                             </tr>
@@ -738,7 +801,9 @@
                 html += `
                     <tr>
                         <td>${r.protocol}</td>
+                        <td>${r.outcome}</td>
                         <td style="color: ${quality}; font-weight: bold;">${r.successRate.toFixed(1)}%</td>
+                        <td>${r.startCoverage.toFixed(0)}% &rarr; ${r.avgFinalCoverage.toFixed(0)}%</td>
                         <td>${r.avgRecoveryTime.toFixed(1)} steps</td>
                         <td>${r.avgFinalCoherence.toFixed(1)}%</td>
                     </tr>
@@ -812,9 +877,20 @@
         );
         if (criticalResults.length > 0) {
             const avgCritical = criticalResults.reduce((sum, r) => sum + r.successRate, 0) / criticalResults.length;
+            // Note 2026-10-31: the conclusion was a fixed string printed whatever the number;
+            // it now follows the computed rate.
+            const verdict = avgCritical >= 50 ? 'most runs recovered'
+                          : avgCritical > 0 ? 'some runs recovered' : 'no run recovered';
             insights.push({
                 icon: '🚨',
-                text: `Critical collapses: ${avgCritical.toFixed(1)}% average recovery rate - even severe damage is healable!`
+                text: `Critical collapses: ${avgCritical.toFixed(1)}% average recovery rate - ${verdict} (simulation only, not evidence about real models)`
+            });
+        }
+        const failing = results.filter(r => r.outcome === 'FAIL').map(r => r.protocol);
+        if (failing.length > 0) {
+            insights.push({
+                icon: '🕳️',
+                text: `FAIL (tails not recovered): <strong>${[...new Set(failing)].join(', ')}</strong> - no outside data enters, so lost tail information has no source`
             });
         }
         
