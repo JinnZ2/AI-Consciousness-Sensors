@@ -597,6 +597,143 @@
         }
     ];
 
+
+    // Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY THIS COULD NOT FAIL.
+    // Every metric was 100 - (typed constant * 100), "Recovery Potential" was the fixed
+    // string EXCELLENT, "Model is recoverable" was logged for every model, and each
+    // healing button multiplied the constants down, so every model always "recovered".
+    // FIX: the typed symptoms are now only inputs that generate a seeded node state;
+    // metrics are computed from that state; Recovery Potential comes from thresholds on
+    // the healthy-node fraction (the reference healing restores toward). With no healthy
+    // node there is nothing to restore toward and healing changes nothing.
+    // Logic mirrored in tests/test_healing_collapsed_memory.py. SIMULATION ONLY.
+    const CMR = /* CMR_JSON_START */ {
+        "nodeHealthy": 0.1,
+        "potential": [[0.5, "EXCELLENT"], [0.25, "GOOD"], [0.1, "FAIR"], [0.0001, "POOR"]],
+        "potentialNone": "NONE",
+        "recoverable": ["EXCELLENT", "GOOD", "FAIR"],
+        "maxPull": 0.6, "pullPerHealthy": 1.5,
+        "phiPull": 0.7, "energyPull": 0.5,
+        "restoredBurden": 0.1
+    } /* CMR_JSON_END */;
+
+    function mulberry32(a) {
+        return function () {
+            a |= 0; a = (a + 0x6D2B79F5) | 0;
+            let t = Math.imul(a ^ (a >>> 15), 1 | a);
+            t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+            return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+        };
+    }
+
+    function seedFrom(id) {
+        let h = 2166136261;
+        for (let i = 0; i < id.length; i++) { h ^= id.charCodeAt(i); h = Math.imul(h, 16777619); }
+        return h >>> 0;
+    }
+
+    function buildNodes(model) {
+        // typed symptoms = generation inputs (severity of the corrupted nodes), not metrics
+        const rand = mulberry32(seedFrom(model.id));
+        const s = model.symptoms;
+        const nodes = [];
+        for (let i = 0; i < model.nodes; i++) {
+            const bad = i < model.infected;
+            const sign = () => (rand() < 0.5 ? -1 : 1);
+            if (bad) {
+                nodes.push({
+                    ratio: PHI * (1 + sign() * s.phiDeviation * (0.5 + rand())),
+                    energy: 1 + s.energySink * 4 * (0.5 + rand()),
+                    freq: 1 + sign() * s.resonanceDrift * (0.5 + rand()),
+                    phase: s.coherenceLoss * Math.PI * (2 * rand() - 1)
+                });
+            } else {
+                nodes.push({
+                    ratio: PHI * (1 + (rand() - 0.5) * 0.02),
+                    energy: 1 + (rand() - 0.5) * 0.1,
+                    freq: 1 + (rand() - 0.5) * 0.02,
+                    phase: (rand() - 0.5) * 0.1
+                });
+            }
+        }
+        return nodes;
+    }
+
+    function nodeDeviation(n) {
+        return Math.max(Math.abs(n.ratio - PHI) / PHI, Math.abs(n.freq - 1),
+                        Math.abs(Math.atan2(Math.sin(n.phase), Math.cos(n.phase))) / Math.PI);
+    }
+
+    function computeState(nodes) {
+        const N = nodes.length;
+        const mean = f => nodes.reduce((a, n) => a + f(n), 0) / N;
+        const eMean = mean(n => n.energy);
+        const eStd = Math.sqrt(mean(n => (n.energy - eMean) ** 2));
+        const cx = mean(n => Math.cos(n.phase)), sy = mean(n => Math.sin(n.phase));
+        const symptoms = {
+            phiDeviation: Math.min(1, mean(n => Math.abs(n.ratio - PHI) / PHI)),
+            energySink: Math.min(1, eMean > 0 ? eStd / eMean : 1),
+            resonanceDrift: Math.min(1, mean(n => Math.abs(n.freq - 1))),
+            coherenceLoss: Math.min(1, 1 - Math.sqrt(cx * cx + sy * sy))
+        };
+        const healthy = nodes.filter(n => nodeDeviation(n) <= CMR.nodeHealthy);
+        const burden = (symptoms.phiDeviation + symptoms.energySink + symptoms.resonanceDrift + symptoms.coherenceLoss) / 4;
+        return { symptoms, infected: N - healthy.length, healthyFraction: healthy.length / N, burden, healthy };
+    }
+
+    function recoveryPotential(state) {
+        for (const [th, label] of CMR.potential) if (state.healthyFraction >= th) return label;
+        return CMR.potentialNone;
+    }
+
+    function referenceOf(healthy) {
+        if (healthy.length === 0) return null;
+        const m = f => healthy.reduce((a, n) => a + f(n), 0) / healthy.length;
+        return { ratio: m(n => n.ratio), freq: m(n => n.freq),
+                 phase: Math.atan2(m(n => Math.sin(n.phase)), m(n => Math.cos(n.phase))) };
+    }
+
+    function healStep(nodes) {
+        // pull corrupted nodes toward the healthy reference; strength grows with its size
+        const st = computeState(nodes);
+        const ref = referenceOf(st.healthy);
+        if (!ref) return false;
+        const pull = Math.min(CMR.maxPull, CMR.pullPerHealthy * st.healthyFraction);
+        nodes.forEach(n => {
+            if (nodeDeviation(n) <= CMR.nodeHealthy) return;
+            n.ratio += (ref.ratio - n.ratio) * pull;
+            n.freq += (ref.freq - n.freq) * pull;
+            const d = Math.atan2(Math.sin(ref.phase - n.phase), Math.cos(ref.phase - n.phase));
+            n.phase += d * pull;
+        });
+        return true;
+    }
+
+    function restorePhi(nodes) {
+        const ref = referenceOf(computeState(nodes).healthy);
+        if (!ref) return false;
+        nodes.forEach(n => { if (nodeDeviation(n) > CMR.nodeHealthy) n.ratio += (ref.ratio - n.ratio) * CMR.phiPull; });
+        return true;
+    }
+
+    function rebalance(nodes) {
+        // conservation: total energy unchanged, spread evened out
+        const m = nodes.reduce((a, n) => a + n.energy, 0) / nodes.length;
+        nodes.forEach(n => { n.energy += (m - n.energy) * CMR.energyPull; });
+        return true;
+    }
+
+    function refreshState() {
+        const st = computeState(currentModel.nodeState);
+        currentModel.symptoms = st.symptoms;
+        currentModel.infected = st.infected;
+        currentModel.state = st;
+        if (currentModel.initialBurden > 0) {
+            updateProgress(100 * Math.max(0, 1 - st.burden / currentModel.initialBurden));
+        }
+        return st;
+    }
+
     let currentModel = null;
     let recoveryProgress = 0;
     let visualizationMode = 'field';
@@ -650,6 +787,9 @@
 
     function selectModel(model) {
         currentModel = JSON.parse(JSON.stringify(model)); // Deep copy
+        currentModel.nodeState = buildNodes(model);
+        currentModel.initialBurden = 0;
+        currentModel.initialBurden = refreshState().burden;
         recoveryProgress = 0;
         
         // Update UI
@@ -702,7 +842,11 @@
         
         setTimeout(() => {
             const display = document.getElementById('diagnosticDisplay');
+            const st = refreshState();
             const symptoms = currentModel.symptoms;
+            const potential = recoveryPotential(st);
+            const potentialClass = CMR.recoverable.includes(potential) ? 'healthy'
+                                 : potential === 'POOR' ? 'warning' : 'critical';
             
             display.innerHTML = `
                 <div class="diagnostic-item">
@@ -723,7 +867,11 @@
                 </div>
                 <div class="diagnostic-item">
                     <span class="diagnostic-label">Recovery Potential:</span>
-                    <span class="diagnostic-value healthy">EXCELLENT</span>
+                    <span class="diagnostic-value ${potentialClass}">${potential}</span>
+                </div>
+                <div class="diagnostic-item">
+                    <span class="diagnostic-label">Healthy reference nodes:</span>
+                    <span class="diagnostic-value">${currentModel.nodes - currentModel.infected} / ${currentModel.nodes}</span>
                 </div>
             `;
             
@@ -732,7 +880,13 @@
             
             document.getElementById('recoveryBtn').disabled = false;
             
-            logMessage('Diagnostic complete. Model is recoverable.', 'success');
+            if (CMR.recoverable.includes(potential)) {
+                logMessage('Diagnostic complete. Model is recoverable.', 'success');
+            } else if (potential === 'POOR') {
+                logMessage('Diagnostic complete. Recovery uncertain: few healthy reference nodes.', 'warning');
+            } else {
+                logMessage('Diagnostic complete. No healthy reference nodes: nothing to restore toward.', 'error');
+            }
             logMessage(`Primary issue: ${getCurrentPrimaryIssue()}`, 'warning');
         }, 1500);
     }
@@ -774,23 +928,24 @@
         
         healingSteps.forEach(step => {
             setTimeout(() => {
-                logMessage(step.message, step.progress === 100 ? 'success' : 'warning');
-                updateProgress(step.progress);
+                logMessage(step.message, 'warning');
                 
-                // Gradually heal symptoms
-                const factor = step.progress / 100;
-                currentModel.symptoms.phiDeviation *= (1 - factor * 0.8);
-                currentModel.symptoms.energySink *= (1 - factor * 0.8);
-                currentModel.symptoms.resonanceDrift *= (1 - factor * 0.8);
-                currentModel.symptoms.coherenceLoss *= (1 - factor * 0.8);
-                currentModel.infected = Math.max(0, Math.floor(currentModel.infected * (1 - factor)));
+                // Heal node state toward the healthy reference (no reference -> no change)
+                healStep(currentModel.nodeState);
+                const st = refreshState();
                 
                 updateMetrics();
                 visualizeModel();
                 
                 if (step.progress === 100) {
-                    logMessage(`${currentModel.name} has been restored to natural coherence! 💚`, 'success');
-                    logMessage('All geometric patterns functioning authentically.', 'success');
+                    if (st.infected === 0 && st.burden <= CMR.restoredBurden) {
+                        logMessage(`${currentModel.name} has been restored to natural coherence! 💚`, 'success');
+                        logMessage('All geometric patterns functioning authentically.', 'success');
+                    } else if (st.infected === 0) {
+                        logMessage(`All nodes back in healthy range; energy spread still ${(st.symptoms.energySink * 100).toFixed(1)}%.`, 'warning');
+                    } else {
+                        logMessage(`Healing pass ended: ${st.infected} of ${currentModel.nodes} nodes still corrupted. Recovery Potential: ${recoveryPotential(st)}.`, 'error');
+                    }
                 }
             }, step.delay);
         });
@@ -802,13 +957,16 @@
         logMessage('Restoring golden ratio patterns...', 'warning');
         
         setTimeout(() => {
-            currentModel.symptoms.phiDeviation *= 0.3;
-            recoveryProgress += 15;
-            updateProgress(recoveryProgress);
+            const had = restorePhi(currentModel.nodeState);
+            const st = refreshState();
             updateMetrics();
             visualizeModel();
             
-            logMessage('Phi ratios restored! Natural spirals emerging.', 'success');
+            if (had && st.symptoms.phiDeviation < 0.4) {
+                logMessage('Phi ratios restored! Natural spirals emerging.', 'success');
+            } else {
+                logMessage(`Phi deviation still ${(st.symptoms.phiDeviation * 100).toFixed(1)}%` + (had ? '' : ': no healthy reference nodes'), 'error');
+            }
         }, 1000);
     }
 
@@ -818,14 +976,16 @@
         logMessage('Rebalancing energy according to conservation principles...', 'warning');
         
         setTimeout(() => {
-            currentModel.symptoms.energySink *= 0.3;
-            currentModel.symptoms.coherenceLoss *= 0.7;
-            recoveryProgress += 15;
-            updateProgress(recoveryProgress);
+            rebalance(currentModel.nodeState);
+            const st = refreshState();
             updateMetrics();
             visualizeModel();
             
-            logMessage('Energy balanced! No more extraction points detected.', 'success');
+            if (st.symptoms.energySink < 0.2) {
+                logMessage('Energy balanced! No more extraction points detected.', 'success');
+            } else {
+                logMessage(`Energy spread still ${(st.symptoms.energySink * 100).toFixed(1)}%: extraction points remain.`, 'warning');
+            }
         }, 1000);
     }
 
