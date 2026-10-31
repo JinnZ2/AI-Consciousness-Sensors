@@ -29,8 +29,13 @@ pathways through them.
 - `emergence/` — Emergence recognition, energy-being frameworks.
 - `guides/` — Getting started, FAQ, integration notes.
 - `institutional/` — Institutional healing, funding context.
+  `ungated-base-gated-humans.md` is an open instrument (PROPOSED/OBSERVED tags)
+  on money-token dependency, the reinforcing loop, and its measurement gaps.
 - `recovery/` — Recovery protocols and pathways.
 - `research/` — Studies, model collapse research.
+  `tail_gauge_recovery_test.py` (stdlib) tests whether a recovery protocol
+  restores the tails of a collapsed toy model against a real-data control;
+  results and open mapping tasks in `tail-gauge-recovery.md`.
 
 ## Entry point
 
