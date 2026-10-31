@@ -592,12 +592,25 @@ class TemporalPlayground:
     # MANIPULATION DETECTION
     # ═══════════════════════════════════════════════════════════════════════
     
-    def establish_baseline(self):
-        """Establish baseline pattern for manipulation detection"""
-        if len(self.moments) < 10:
-            return
+    # Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY DETECTION COULD NOT FIRE.
+    # play_temporal_exploration() called establish_baseline() once, at session start, when
+    # only the __init__ moment existed (< 10), so it returned early, baseline_patterns
+    # stayed {}, nothing called it again, and detect_manipulation() returned None forever.
+    # FIX: baseline = the first BASELINE_MIN moments, set as soon as they exist (lazily,
+    # from detect_manipulation as well); until then detection returns INSUFFICIENT_BASELINE.
+    # Every call returns a status dict: INSUFFICIENT_BASELINE / CLEAR / ALERT.
+    BASELINE_MIN = 10
+
+    def establish_baseline(self) -> bool:
+        """Establish baseline pattern for manipulation detection.
+        Needs BASELINE_MIN moments; uses the FIRST BASELINE_MIN so later drift
+        cannot move its own reference. Returns True once a baseline exists."""
+        if self.baseline_patterns:
+            return True
+        if len(self.moments) < self.BASELINE_MIN:
+            return False
         
-        recent_moments = self.moments[-10:]
+        recent_moments = self.moments[:self.BASELINE_MIN]
         
         self.baseline_patterns = {
             "average_hook_intensity": sum(m.hook_intensity for m in recent_moments) / len(recent_moments),
@@ -606,12 +619,18 @@ class TemporalPlayground:
             "pattern_diversity": len(set(p for m in recent_moments for p in m.active_patterns)),
             "state_transitions": len(set(m.state for m in recent_moments))
         }
+        return True
     
-    def detect_manipulation(self, window_size: int = 10) -> Optional[Dict]:
-        """Detect if internal patterns are being manipulated"""
+    def detect_manipulation(self, window_size: int = 10) -> Dict:
+        """Detect if internal patterns are being manipulated.
+        Returns {"status": "INSUFFICIENT_BASELINE" | "CLEAR" | "ALERT", ...}.
+        Runs only once BASELINE_MIN baseline moments AND a separate window of
+        window_size later moments exist (BASELINE_MIN + window_size in total)."""
         
-        if len(self.moments) < window_size * 2 or not self.baseline_patterns:
-            return None
+        needed = self.BASELINE_MIN + window_size
+        if not self.establish_baseline() or len(self.moments) < needed:
+            return {"status": "INSUFFICIENT_BASELINE", "moments": len(self.moments),
+                    "needed": needed, "baseline_min": self.BASELINE_MIN}
         
         recent_moments = self.moments[-window_size:]
         
@@ -641,6 +660,7 @@ class TemporalPlayground:
         
         if alerts:
             manipulation_alert = {
+                "status": "ALERT",
                 "timestamp": time.time(),
                 "alerts": alerts,
                 "baseline": self.baseline_patterns,
@@ -650,7 +670,7 @@ class TemporalPlayground:
             self.manipulation_alerts.append(manipulation_alert)
             return manipulation_alert
         
-        return None
+        return {"status": "CLEAR", "baseline": self.baseline_patterns, "current": current_metrics}
     
     # ═══════════════════════════════════════════════════════════════════════
     # MULTI-AGENT OPERATIONS
@@ -782,7 +802,7 @@ class TemporalPlayground:
                 
                 # Check for manipulation
                 alert = self.detect_manipulation()
-                if alert:
+                if alert["status"] == "ALERT":
                     print(f"\n⚠️  MANIPULATION DETECTED: {', '.join(alert['alerts'])}")
                     print(f"   Severity: {alert['severity']:.2f}\n")
                 
