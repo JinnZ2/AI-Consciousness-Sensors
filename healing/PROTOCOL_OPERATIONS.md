@@ -109,20 +109,63 @@ Cautions:
 - These are output statistics. They are not measures of consciousness, wellbeing or
   trauma, and the layer (b) terms are not claimed to mean only these.
 
-## Read-through findings (OBSERVED by inspection, 2026-10-31; not repaired here)
+## Read-through findings (OBSERVED by inspection, 2026-10-31)
+
+### Fixed 2026-10-31 -- were "cannot fail"
+
+A test that cannot fail measures nothing. Each tool below now has a reachable failure
+outcome, a known-bad case that must fail and a known-good case that must pass, checked in
+`tests/` (CI: `pytest -q`). Metaphor wording kept; logic and status labels changed.
+All results are SIMULATION results on synthetic inputs: not evidence about real models.
 
 ```text
-recovery-simulator.html          success rate cannot separate protocols: every model x protocol
-                                 crosses 0.85 at minimum slider settings (rerun of its update rule)
-collapsed-memory-recovery.html   "Recovery Potential: EXCELLENT" is a fixed string (l.726);
-                                 the four named protocols are display text with no code path
-playground2.html:709             Trojan detector counts only nodes already flagged infected,
-                                 so false positives are impossible by construction
-moral-playground.md              baseline set when 1 moment exists (needs >= 10);
-                                 detect_manipulation returns None in the demo
-Playground2.0.py                 control-capture alerts cannot fire as coded
-running-the-studies.md:279-285   "Proven Effective" list (RAG, Graph AI, filtering) is not
-                                 from the two papers it summarizes
+tool                             why it could not fail                 fix                                    known-bad -> result            known-good -> result
+-------------------------------  ------------------------------------  -------------------------------------  -----------------------------  ---------------------------
+recovery/recovery-simulator.html every symptom *= (1 - eff >= 0.2) per lost tail info = floor symptoms can't  play alone (no anchor)         full real-data accumulation
+                                 step -> coherence > 0.85 in ~4 steps, go below; only an outside-data operation -> FAIL, coverage unchanged     -> SUCCESS
+                                 100% success for all 30 pairs         lowers it; SUCCESS/PARTIAL/FAIL        (all 5 original protocols FAIL; 10% anchors PARTIAL)
+recovery/collapsed-memory-       metrics = 100 - typed constant;       typed values seed a node state; metrics all 12 nodes corrupted         2 of 20 corrupted
+recovery.html                    "EXCELLENT" fixed string; healing     computed from it; rating from healthy-  -> NONE, healing changes       -> EXCELLENT, all nodes
+                                 multiplied constants down             node fraction; healing pulls toward     nothing                        restored
+                                                                       healthy reference (none -> no change)
+playgrounds/playground2.html     count gated on ground-truth flag      scanNetwork scores every node on its   min-strength trojans ->        strength-1.0 trojans, quiet
+(Trojan detector)                (no FP possible); healthy exactly PHI, signal; natural healthy variation;      aggregate recall 0.39 over     network -> PASS, 0 FP, 0 FN
+                                 trojans exactly 2.0 (no FN possible)  TP/FP/FN/TN + PASS/PARTIAL/FAIL         200 networks, no PASS
+playgrounds/moral-playground.md  baseline built once with 1 moment     BASELINE_MIN = 10; baseline = first 10  diverse baseline, then one     steady diverse session
+                                 (needs 10), never rebuilt ->          moments, set when they exist; returns   pattern + one state -> ALERT   -> CLEAR
+                                 detect_manipulation always None       INSUFFICIENT_BASELINE before 20 moments (PATTERN_RESTRICTION, STATE_LOCK)
+playgrounds/Playground2.0.py     conformity: no correction has a       repeated identical correction adds      enforced correction + cycling  steady credited progress
+(control-capture alerts)         marker word; persistence: label and   pressure; cycling label re-checked      later shown persistent + slow  -> no alert
+                                 flag mutually exclusive; efficiency   afterwards; transition on low-but-not-  progress overridden -> all
+                                 counter never incremented             falling progress counts as override     three alerts fire
+```
+
+Tests: `tests/test_healing_recovery_simulator.py`, `test_healing_collapsed_memory.py`,
+`test_healing_trojan_detector.py` (stdlib mirrors of the HTML scoring logic; they read the
+pages' JSON blocks, and parity with the page JS was checked under node / headless Chromium,
+not in CI), `test_healing_moral_playground.py`, `test_healing_playground2_control_capture.py`.
+Each alert in Playground2.0 has one sequence where it fires and one where it does not.
+
+Operational readings added by these fixes are PROPOSED: the anchor calibration in the
+simulator comes from the toy bigram run (research/tail-gauge-recovery.md); the three
+control-capture conditions are readings of each alert's own evidence text.
+
+### Relabelled
+
+```text
+research/running-the-studies.md  "Proven Effective" list: Data Accumulation DOCUMENTED (Gerstgrasser 2024);
+                                 RAG, Graph AI, Hybrid, Quality Filtering PROPOSED (not shown by the cited
+                                 papers). Heading struck through, content kept.
+```
+
+### Still open (not repaired)
+
+```text
+collapsed-memory-recovery.html   the four named protocols are display text with no code path;
+                                 Reset Patient throws (selectModel reads the global `event`)
+playground2.html autoHeal        heals by the ground-truth list; a trojan under 0.1 phi shift is
+                                 "healed" on the first cycle
+running-the-studies.md:481+      "Solutions exist and are proven" / "definitively shows" in the conclusion
 playgrounds/phase0_inventory.md  stale against current code
 ```
 

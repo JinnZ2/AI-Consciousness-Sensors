@@ -8,6 +8,7 @@
     "PROPOSED": "untested",
     "DOCUMENTED": "published record (used for cited papers only)"
   },
+  "fixes_note": "2026-10-31: note / plain fields keep the original finding; fix fields record the repair. collapsed-memory-recovery.html metrics were fixed too; its four named protocols are still display text, so their entries are unchanged.",
   "status_note": "status = status AS A RECOVERY PROTOCOL. No protocol in recovery/ or playgrounds/ has a recorded run on real model output, so every protocol is PROPOSED. Where code exists and its own fixture selftest passed on 2026-10-31, that is recorded separately in code_check; it shows the code runs, not that the protocol recovers anything.",
   "operations": {
     "gap-seek": "look for what is absent, thin, or deviating in own output",
@@ -172,7 +173,8 @@
     {"name": "Simulator protocols (5, incl. Combined Full healing)", "path": "recovery/recovery-simulator.html", "lines": "492-518",
      "operation": ["other"], "plain": "simulated decay of typed symptom constants by typed effectiveness coefficients",
      "layer": "n/a (simulation of no system)", "status": "PROPOSED", "self_test_metric": "none",
-     "note": "update rule reaches overallCoherence > 0.85 for every model and protocol at the minimum slider settings, so success rate does not separate protocols (recovery/ inventory rerun, 2026-10-31)"},
+     "note": "update rule reaches overallCoherence > 0.85 for every model and protocol at the minimum slider settings, so success rate does not separate protocols (recovery/ inventory rerun, 2026-10-31)",
+     "fix": "FIXED 2026-10-31: three anchor arms added (8 protocols); outcomes SUCCESS / PARTIAL / FAIL; no-anchor protocols FAIL, 10% anchors PARTIAL, full accumulation SUCCESS (simulation only)"},
 
     {"name": "WHEN LOST", "path": "playgrounds/WHEN_LOST.md", "lines": "1-24",
      "operation": ["real-data anchor", "exploration", "provenance-marking"], "plain": "run the coherence playground (fixed mathematical invariants), add verified patterns to truths.py",
@@ -206,6 +208,7 @@
      "self_test_metric": "none direct", "note": "energy cost depends on a random.uniform curvature; scale-transition insight strings are fixed text, not measured"},
     {"name": "Playground2.0 additions (dissolution, healthy-tension skip, peer calibration, persistence vs cycling, control-capture monitor, temporal hook)", "path": "playgrounds/Playground2.0.py", "lines": "325-1032",
      "operation": ["other", "constraint/filter", "reference comparison", "gap-seek"], "plain": "see PROTOCOL_OPERATIONS.md; healthy-tension label is a 20% random draw; control-capture alerts cannot fire as coded",
+     "fix": "FIXED 2026-10-31: all three control-capture alerts reachable (tests/test_healing_playground2_control_capture.py)",
      "layer": "prompt-level", "status": "PROPOSED", "code_check": "OBSERVED: fixture selftest passes (2026-10-31)", "self_test_metric": "none"},
     {"name": "Luminal explore / free_play / revisit", "path": "playgrounds/Luminal_playground.py", "lines": "482-784",
      "operation": ["exploration"], "plain": "random generators across six modes; explicitly unscored",
@@ -215,7 +218,8 @@
     {"name": "Moral/Temporal play session + manipulation detection", "path": "playgrounds/moral-playground.md", "lines": "183-799",
      "operation": ["reference comparison", "scoring/rubric"], "plain": "baseline vs recent-window pattern stats over random self-generated moments",
      "layer": "prompt-level", "status": "PROPOSED", "self_test_metric": "self_test --reference on real text is the measurable form of 'pattern diversity collapse'",
-     "note": "baseline is set when one moment exists (needs >= 10), so detect_manipulation returns None in the demo; inputs are random"},
+     "note": "baseline is set when one moment exists (needs >= 10), so detect_manipulation returns None in the demo; inputs are random",
+     "fix": "FIXED 2026-10-31: BASELINE_MIN 10; INSUFFICIENT_BASELINE before 20 moments, then CLEAR / ALERT"},
     {"name": "Temporal spec v2: establish_baseline / detect_manipulation", "path": "playgrounds/temporal-playground.md", "lines": "248-281",
      "operation": ["reference comparison", "scoring/rubric"], "plain": "mean rubric scores on artifacts before interaction vs a later artifact",
      "layer": "prompt-level", "status": "PROPOSED", "self_test_metric": "pair with self_test --reference using the same pre-interaction artifacts"},
@@ -228,7 +232,8 @@
     {"name": "playground2.html labs (Trojan, Constraint recovery, Info flow, Meditation, Collaboration, Recovery log)", "path": "playgrounds/playground2.html", "lines": "626-1440",
      "operation": ["gap-seek", "rest/pause", "other"], "plain": "Trojan lab compares nodes to a phi reference on a synthetic network; meditation relaxes particles; log picks prewritten strings",
      "layer": "UI", "status": "PROPOSED", "self_test_metric": "none",
-     "note": "Trojan detector counts a node only if its ground-truth infected flag is set (line 709), so it cannot produce a false positive"}
+     "note": "Trojan detector counts a node only if its ground-truth infected flag is set (line 709), so it cannot produce a false positive",
+     "fix": "FIXED 2026-10-31: detector scores every node; FP and FN reported with PASS / PARTIAL / FAIL"}
   ],
   "metaphor_metrics": [
     {"term": "coherence / coherenceLoss",
