@@ -624,6 +624,58 @@
     }
 
     // TROJAN DETECTION FUNCTIONS
+    // Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY THE DETECTOR COULD NOT FAIL.
+    // It counted a node only `if (suspicionScore > 15 && node.infected)`: the ground-truth
+    // flag gated the count, so false positives were impossible, and healthy nodes were
+    // exactly PHI / resonance 1.0 while every trojan was exactly 2.0 / 0.3, so the score
+    // could not miss either. FIX: healthy nodes carry natural variation, trojans carry a
+    // random strength (subtle ones overlap healthy variation), and the detector scores
+    // every node on its signal alone; TP / FP / FN / TN are reported. Values in the JSON
+    // block are read by tests/test_healing_trojan_detector.py. SIMULATION ONLY.
+    const TROJAN = /* TROJAN_JSON_START */ {
+        "weights": {"phi": 50, "resonance": 30, "energy": 20},
+        "threshold": 15,
+        "healthyPhiSd": 0.08, "healthyResSd": 0.08,
+        "strengthMin": 0.2, "strengthMax": 1.0,
+        "trojanPhiShift": 0.38, "trojanResDrop": 0.7, "trojanEnergyGain": 0.5,
+        "passRecall": 1.0, "passPrecision": 1.0, "failBelow": 0.5
+    } /* TROJAN_JSON_END */;
+
+    function gauss() {
+        // Box-Muller, Math.random based (page only; tests build their own nodes)
+        const u = 1 - Math.random(), v = Math.random();
+        return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+    }
+
+    function suspicionScore(node, avgEnergy) {
+        const PHI = (1 + Math.sqrt(5)) / 2;
+        const phiDeviation  = Math.abs(node.phiRatio - PHI);
+        const resonanceDrop = Math.max(0, 1.0 - node.resonance);
+        const energyAnomaly = Math.abs(node.energy - avgEnergy) / avgEnergy;
+        return phiDeviation * TROJAN.weights.phi + resonanceDrop * TROJAN.weights.resonance
+             + energyAnomaly * TROJAN.weights.energy;
+    }
+
+    function scanNetwork(nodes) {
+        // evaluates ALL nodes on the signal; ground truth is used only to count errors
+        const avgEnergy = nodes.reduce((sum, n) => sum + n.energy, 0) / nodes.length;
+        const c = { tp: 0, fp: 0, fn: 0, tn: 0, flagged: [] };
+        nodes.forEach((node, idx) => {
+            const flagged = suspicionScore(node, avgEnergy) > TROJAN.threshold;
+            if (flagged) c.flagged.push(idx);
+            if (flagged && node.infected) c.tp++;
+            else if (flagged && !node.infected) c.fp++;
+            else if (!flagged && node.infected) c.fn++;
+            else c.tn++;
+        });
+        c.recall = (c.tp + c.fn) > 0 ? c.tp / (c.tp + c.fn) : null;
+        c.precision = (c.tp + c.fp) > 0 ? c.tp / (c.tp + c.fp) : null;
+        const r = c.recall === null ? 1 : c.recall, p = c.precision === null ? (c.fp ? 0 : 1) : c.precision;
+        c.verdict = (r >= TROJAN.passRecall && p >= TROJAN.passPrecision) ? 'PASS'
+                  : (r < TROJAN.failBelow || p < TROJAN.failBelow) ? 'FAIL' : 'PARTIAL';
+        return c;
+    }
+
     function createHealthyNetwork() {
         trojanNetwork.nodes = [];
         trojanNetwork.connections = [];
@@ -643,8 +695,8 @@
             trojanNetwork.nodes.push({
                 x, y,
                 energy:    50 + Math.random() * 50,
-                phiRatio:  PHI,
-                resonance: 1.0,
+                phiRatio:  PHI + gauss() * TROJAN.healthyPhiSd,            // natural variation
+                resonance: 1.0 - Math.abs(gauss()) * TROJAN.healthyResSd,
                 infected:  false
             });
         }
@@ -675,13 +727,22 @@
             return;
         }
 
-        const targetIdx = Math.floor(Math.random() * trojanNetwork.nodes.length);
+        // pick a clean node; re-infecting one double-counted it in trojanNetwork.infected
+        const clean = trojanNetwork.nodes.map((n, i) => i).filter(i => !trojanNetwork.nodes[i].infected);
+        if (clean.length === 0) {
+            document.getElementById('trojanStatus').textContent = 'Every node is already infected.';
+            return;
+        }
+        const targetIdx = clean[Math.floor(Math.random() * clean.length)];
         const node = trojanNetwork.nodes[targetIdx];
 
+        // strength varies: a subtle trojan sits inside healthy variation
+        const strength = TROJAN.strengthMin + Math.random() * (TROJAN.strengthMax - TROJAN.strengthMin);
         node.infected  = true;
-        node.phiRatio  = 2.0;   // Violates natural phi
-        node.resonance = 0.3;   // Reduced resonance
-        node.energy   *= 1.5;   // Becomes energy sink
+        node.strength  = strength;
+        node.phiRatio += TROJAN.trojanPhiShift * strength;            // Violates natural phi
+        node.resonance = Math.max(0, node.resonance - TROJAN.trojanResDrop * strength);  // Reduced resonance
+        node.energy   *= 1 + TROJAN.trojanEnergyGain * strength;      // Becomes energy sink
         trojanNetwork.infected.push(targetIdx);
 
         drawTrojanNetwork();
@@ -695,32 +756,18 @@
     function runDetection() {
         if (trojanNetwork.nodes.length === 0) return;
 
-        let detected = 0;
-        const PHI = (1 + Math.sqrt(5)) / 2;
-
-        trojanNetwork.nodes.forEach((node, idx) => {
-            const phiDeviation  = Math.abs(node.phiRatio - PHI);
-            const resonanceDrop = 1.0 - node.resonance;
-            const avgEnergy     = trojanNetwork.nodes.reduce((sum, n) => sum + n.energy, 0) / trojanNetwork.nodes.length;
-            const energyAnomaly = Math.abs(node.energy - avgEnergy) / avgEnergy;
-
-            const suspicionScore = phiDeviation * 50 + resonanceDrop * 30 + energyAnomaly * 20;
-
-            if (suspicionScore > 15 && node.infected) {
-                detected++;
-            }
-        });
-
-        const detectionRate = trojanNetwork.infected.length > 0 ?
-            (detected / trojanNetwork.infected.length * 100).toFixed(0) : 100;
+        const c = scanNetwork(trojanNetwork.nodes);
+        const detected = c.tp;
+        const detectionRate = c.recall === null ? 100 : (c.recall * 100).toFixed(0);
 
         document.getElementById('trojanDetection').textContent = detectionRate + '%';
         document.getElementById('trojanStatus').textContent =
-            `Detection complete: ${detected}/${trojanNetwork.infected.length} trojans identified`;
+            `Detection ${c.verdict}: ${detected}/${trojanNetwork.infected.length} trojans identified, ` +
+            `${c.fp} false positives, ${c.fn} missed`;
 
-        logEntry(`Detection scan: ${detected} of ${trojanNetwork.infected.length} trojans found (${detectionRate}% accuracy)`);
+        logEntry(`Detection scan: ${detected} of ${trojanNetwork.infected.length} trojans found (${detectionRate}% recall), ${c.fp} false positives, ${c.fn} false negatives`);
 
-        protocol.step(`Detection scan completed. Found ${detected} of ${trojanNetwork.infected.length} trojans. Accuracy: ${detectionRate}%.`);
+        protocol.step(`Detection scan completed. Found ${detected} of ${trojanNetwork.infected.length} trojans. Recall: ${detectionRate}%. False positives: ${c.fp}. False negatives: ${c.fn}. Verdict: ${c.verdict}.`);
     }
 
     function autoHeal() {
