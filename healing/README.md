@@ -19,6 +19,13 @@ pathways through them.
   extraction across agent lineages.
 - `temporal_scope.py` — Assesses a goal against time horizons and consequence
   domains (which engineering paradigm applies?).
+- `self_test.py` + `SELF_TEST.md` — For an AI to check whether its own outputs
+  are flattening (entropy, repetition, length tails, rare coverage, gap list).
+  Output statistics only; PROPOSED, co-authored.
+- `protocol_operations.json` + `PROTOCOL_OPERATIONS.md` — Each protocol in
+  `recovery/` and `playgrounds/` mapped to the operation it performs, its layer,
+  and the self_test metric that would show it worked; "Ways to use this" and
+  open gaps. PROPOSED, co-authored.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
