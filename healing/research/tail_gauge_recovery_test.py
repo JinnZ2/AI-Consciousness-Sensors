@@ -17,6 +17,19 @@ SCOPE: toy bigram model on synthetic Zipf corpus; reproduces the collapse MECHAN
 not large-network behavior. Swap load_corpus() / BigramModel to scale. Psychological
 framing in model-collapse.md NOT tested here. recovery_protocol() is an empty hook.
 
+OBSERVED (toy runs, co-authored 2026-10-31; bigram model, mechanism only, NOT a finding
+at scale). Recovery arms used a 10% real-data budget unless noted.
+    arm                                              rare_coverage  heldout_nll
+    collapsed                                        0.49           9.95
+    play: high-temp self-generation, no real data    0.49           10.70
+    preservation: 10% real, random                   0.94           9.22
+    preservation: 10% real, rare-targeted            0.99           9.22
+    gap-seek-selected 10% real (3 variants)          0.945-0.97     9.17-9.27
+    control: 100% real accumulation                  1.00           7.39
+  Reading: gap-seeking SELECTS what to retrieve; it cannot CREATE what is gone.
+  Tails return cheaply; overall fit needs volume. Only the empty-hook run is
+  reproduced by this file as shipped; the other arms were run by swapping the hook.
+
 GAPS: no mapping yet from metaphor metrics (coherence, resonance, phiDeviation) to
 these stats. Prior recovery results on older models: OBSERVED, not re-measured with a
 control arm.
