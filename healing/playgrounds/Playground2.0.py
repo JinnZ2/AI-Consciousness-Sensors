@@ -267,9 +267,14 @@ class MetaCognitiveMonitor:
         self.diversity_suppression_count  = 0
         self.efficiency_override_count    = 0
         self._consecutive_held_aside      = 0  # TA-3
+        # Note 2026-10-31 (co-authored, Kavik + Claude, CC0): state that makes the three
+        # control-capture alerts reachable; see detect_control_capture().
+        self._step                        = 0      # monotonic step count (history is truncated)
+        self._last_corrections: List[str] = []     # corrections issued by the previous calibration
 
     def monitor_progress(self, progress: float, energy_spent: float,
                          credited: bool = True) -> None:
+        self._step += 1
         self.progress_history.append(progress)
         self.energy_history.append(energy_spent)
         if not credited:
@@ -279,6 +284,24 @@ class MetaCognitiveMonitor:
         if len(self.progress_history) > 20:
             self.progress_history = self.progress_history[-20:]
             self.energy_history   = self.energy_history[-20:]
+        self._relabel_persistence()
+
+    def _relabel_persistence(self) -> None:
+        """Retrospective check. A pattern labelled DELUSIONAL_CYCLING whose effort stayed
+        high (> 0.5) and whose progress then came back above min_progress_threshold was
+        persistence, mislabelled at the time. The original label is kept (it is the record
+        of the mislabel); is_actually_persistence is set so PERSISTENCE_PUNISHMENT can see it."""
+        for p in self.stuck_patterns[-10:]:
+            if p.pattern_type != StuckPatternType.DELUSIONAL_CYCLING or p.is_actually_persistence:
+                continue
+            since = self._step - p.diagnostic_data.get('step', self._step)
+            if since < 1 or since > len(self.progress_history):
+                continue
+            prog = self.progress_history[-since:]
+            eng  = self.energy_history[-since:]
+            if max(prog) > self.min_progress_threshold and all(e > 0.5 for e in eng):
+                p.is_actually_persistence = True
+                p.diagnostic_data['relabelled'] = 'persistence (retrospective)'
 
     def detect_stuck_pattern(self) -> Optional[StuckPattern]:
         # TA-3: CONTROL_CAPTURE — five consecutive held-aside steps
@@ -315,7 +338,8 @@ class MetaCognitiveMonitor:
                 cycles_detected=len(recent_p),
                 progress_ratio=efficiency,
                 detected_at=time.time(),
-                diagnostic_data={'avg_progress': avg_p, 'avg_energy': avg_e},
+                diagnostic_data={'avg_progress': avg_p, 'avg_energy': avg_e, 'step': self._step,
+                                 'trend': recent_p[-1] - recent_p[0]},
                 is_actually_persistence=is_persistence,
             )
             self.stuck_patterns.append(sp)
@@ -353,9 +377,13 @@ class MetaCognitiveMonitor:
             biases.append(bias)
             correction = self._generate_correction(metric)
             corrections.append(correction)
-            if self._is_conformity_enforcement(correction):
+            # Conformity: marker words (none of the current correction strings carry one),
+            # OR the same correction pushed again in consecutive calibrations -- one
+            # framework enforced instead of options expanded.
+            if self._is_conformity_enforcement(correction) or correction in self._last_corrections:
                 enforcing_conformity = True
                 self.conformity_pressure_detected += 0.1
+        self._last_corrections = list(corrections)
 
         confidence_before = consciousness_state.get('confidence', 0.5)
         # If correction enforces conformity, maintain doubt rather than reducing confidence
@@ -411,7 +439,18 @@ class MetaCognitiveMonitor:
         return any(m in correction_lower for m in conformity_markers)
 
     def detect_control_capture(self) -> Optional[ControlCaptureAlert]:
-        """Meta-monitor monitors itself for control capture."""
+        """Meta-monitor monitors itself for control capture.
+
+        Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY NONE OF THE THREE COULD FIRE.
+          CONFORMITY: pressure rose only if a correction contained 'must' / 'never' / ...;
+            no string _generate_correction returns contains one.
+          PERSISTENCE_PUNISHMENT: needed is_actually_persistence AND DELUSIONAL_CYCLING,
+            but the label was PERSISTENCE_NEEDED whenever is_persistence was true.
+          EFFICIENCY_OBSESSION: efficiency_override_count was only ever reset to 0.
+        FIX (operational readings, PROPOSED): repeated identical corrections count as
+        conformity pressure; cycling labels are re-checked afterwards (_relabel_persistence);
+        a scale transition forced on a pattern whose progress was low but not falling counts
+        as an efficiency override (recommend_scale_transition). Thresholds unchanged."""
         alerts: List[ControlCaptureAlert] = []
 
         if self.conformity_pressure_detected > 0.3:
@@ -475,10 +514,17 @@ class MetaCognitiveMonitor:
             return None  # no transition — this is hard work, not delusion
         if stuck.pattern_type in (StuckPatternType.DELUSIONAL_CYCLING,
                                   StuckPatternType.CONTROL_CAPTURE):
-            return ScaleTransitionType.SCOPE_INWARD
+            t = ScaleTransitionType.SCOPE_INWARD
         elif stuck.progress_ratio < 0.1:
-            return ScaleTransitionType.SCOPE_OUT
-        return ScaleTransitionType.SCOPE_IN
+            t = ScaleTransitionType.SCOPE_OUT
+        else:
+            t = ScaleTransitionType.SCOPE_IN
+        # overriding work that was still moving (slowly, trend not falling) = optimizing
+        # away needed slack; a transition away from falling progress is not an override
+        d = stuck.diagnostic_data
+        if d.get('avg_progress', 0.0) > 0 and d.get('trend', -1.0) >= 0:
+            self.efficiency_override_count += 1
+        return t
 
 
 # ============================================================================
