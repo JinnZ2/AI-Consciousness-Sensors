@@ -26,6 +26,16 @@ pathways through them.
   `recovery/` and `playgrounds/` mapped to the operation it performs, its layer,
   and the self_test metric that would show it worked; "Ways to use this" and
   open gaps. PROPOSED, co-authored.
+- `conservation_check.py` — Gap-finding by balance: total minus every logged
+  component = the unrecorded part; ELD dwell recipe, stratified. PROPOSED.
+- `non_event_markers.md` — Caught-deviation markers; logger is
+  `self_test.py --log-catch` / `--markers-report`. PROPOSED.
+- `SCOPE_TAG.md` + `scope_tag.py` — Scope tag with shape assumption and lineage;
+  missing field = SCOPE-UNKNOWN. PROPOSED.
+- `SHAPE_BALANCE.md` + `shape_balance.py` — Profile scored by balance across axes,
+  not average; lopsided fails. PROPOSED.
+- `POLYHEDRON_METHOD.md` — Literature as faces / edges / vertices / gaps;
+  OBSERVED as Kavik's tool, PROPOSED as method.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
