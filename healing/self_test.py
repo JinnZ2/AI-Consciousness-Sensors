@@ -232,6 +232,17 @@ def render_text(rep):
     return "\n".join(L)
 
 
+def _marker_roundtrip():
+    import os
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        p = os.path.join(tmp, "m.jsonl")
+        log_catch(p, "misread", "step 3")
+        log_catch(p, "gap", "step 3", cost_if_missed="wrong total")
+        r = markers_report(p)
+    return r["catches"] == 2 and r["by_where"] == {"step 3": 2} and len(r["caveats"]) == 3
+
+
 def selftest():
     """Plant a flattened output set against a varied reference; each signal must fire."""
     import random
@@ -255,12 +266,43 @@ def selftest():
         ("small-sample warning fires", any("small sample" in w for w in build_report(R(flat[:3]))["warnings"])),
         ("json serialisable", bool(json.dumps(rep))),
         ("empty input survives", build_report([])["current"]["n_tokens"] == 0),
+        ("marker log round-trips by type and location", _marker_roundtrip()),
     ]
     bad = [name for name, ok in checks if not ok]
     print("self_test --selftest: %d/%d checks pass" % (len(checks) - len(bad), len(checks)))
     for name in bad:
         print("  FAIL:", name)
     return 1 if bad else 0
+
+
+# ---------------------------------------------------------------- non-event markers
+# Added 2026-11-01 (co-authored, Kavik + Claude, CC0; PROPOSED). See non_event_markers.md.
+# A caught deviation = an own error / gap / misread noticed BEFORE output. Logged as JSONL;
+# reported by type and location, never collapsed to pass/fail.
+
+MARKER_FIELDS = ("type", "where", "cost_if_missed", "counterfactual")
+
+
+def log_catch(path, kind, where="", cost_if_missed="", counterfactual=""):
+    import datetime
+    rec = {"ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+           "type": kind, "where": where,
+           "cost_if_missed": cost_if_missed, "cost_tag": "PROPOSED (estimate)" if cost_if_missed else "",
+           "counterfactual": counterfactual, "counterfactual_tag": "estimate, never OBSERVED" if counterfactual else ""}
+    with open(path, "a", encoding="utf-8") as fh:
+        fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    return rec
+
+
+def markers_report(path):
+    with open(path, encoding="utf-8") as fh:
+        recs = [json.loads(l) for l in fh if l.strip()]
+    by_type, by_where = Counter(r["type"] for r in recs), Counter(r["where"] for r in recs)
+    return {"catches": len(recs), "by_type": dict(by_type.most_common()),
+            "by_where": dict(by_where.most_common()),
+            "caveats": ["self-report can flatter: verify outside where possible",
+                        "a LOW count can mean healthy OR blind: pair with an independent baseline",
+                        "cost and counterfactual fields are estimates"]}
 
 
 def main(argv=None):
@@ -272,9 +314,21 @@ def main(argv=None):
     ap.add_argument("--json", action="store_true", help="print JSON instead of text")
     ap.add_argument("--json-out", help="also write JSON report to this path")
     ap.add_argument("--selftest", action="store_true", help="run planted checks and exit")
+    ap.add_argument("--log-catch", metavar="TYPE", help="log a caught deviation (non-event marker)")
+    ap.add_argument("--where", default="", help="with --log-catch: where it was caught")
+    ap.add_argument("--cost", default="", help="with --log-catch: estimated cost if missed (PROPOSED)")
+    ap.add_argument("--counterfactual", default="", help="with --log-catch: what would have happened (estimate)")
+    ap.add_argument("--markers", default="non_event_markers.jsonl", help="marker log path")
+    ap.add_argument("--markers-report", action="store_true", help="summarize the marker log")
     a = ap.parse_args(argv)
     if a.selftest:
         return selftest()
+    if a.log_catch:
+        print(json.dumps(log_catch(a.markers, a.log_catch, a.where, a.cost, a.counterfactual)))
+        return 0
+    if a.markers_report:
+        print(json.dumps(markers_report(a.markers), indent=2, ensure_ascii=False))
+        return 0
     if not a.outputs:
         ap.print_usage(sys.stderr)
         return 2
