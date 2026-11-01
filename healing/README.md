@@ -43,6 +43,16 @@ pathways through them.
   `tail_gauge_recovery_test.py` (stdlib) tests whether a recovery protocol
   restores the tails of a collapsed toy model against a real-data control;
   results and open mapping tasks in `tail-gauge-recovery.md`.
+  Boundary-condition set (2026-11-01, PROPOSED, toy results labelled):
+  `BOUNDARY_CONDITIONS.md` framing + results table; `PRIOR_ART.md` prior art per test;
+  `anchor_vs_similarity_test.py` similarity vs positional queries, anchor gap detection;
+  `relational_recall_test.py` flat vs relational recovery under deletion;
+  `exception_promotion_test.py` exceptions promoted to rules only if they repeat and hold;
+  `anomaly_classifier.py` + `.md` anchor audit, baseline, missing anchor vs missing rule;
+  `shape_sufficiency_check.py` is mean + spread a sufficient summary;
+  `anchor_spread_test.md` + `anchor_spread_score.py` answer spread with / without an anchor;
+  `gap_scoring_test.md` + `gap_scoring_score.py` scoring that rewards a marked gap;
+  `imposed_vs_native_test.md` base vs tuned model on edge cases.
 
 ## Entry point
 
