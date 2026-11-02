@@ -1,11 +1,13 @@
 # Model Calibration Probe
 
-CC0. Stdlib-only. Co-authored (Kavik + Claude). Code: [`calibration_probe.py`](calibration_probe.py)
+CC0. Stdlib-only. Co-authored. Code: [`calibration_probe.py`](calibration_probe.py)
 (`--selftest`, `--drift old.json new.json`).
 
 ## Purpose
 
 This is a fixed probe set to run at the start of a session with any new model or update. It turns the felt sense that "something is slightly off" into named, scored misfires in minutes instead of across many conversations. It measures drift in default framing, not intelligence or knowledge.
+
+Scope: n = 1. These probes encode one working pairing's calibration. Other users calibrate differently; build your own probe set from your own observed misfires, using this structure as a template.
 
 ## How to run
 
@@ -51,3 +53,5 @@ Prompts, misfire signals and clean shapes in full: `calibration_probe.py`, `PROB
 - Scoring is by judgment; inter-rater agreement is unmeasured.
 - Single runs are noisy; how many runs per probe give a stable score is unknown.
 - Probes come from one user's observed misfires; whether they generalize to other users is untested.
+
+Note 2026-11-02: Scope paragraph added after Purpose (it was missing).

@@ -1,10 +1,10 @@
 # Emotion Sensor Calibration Loop
 
-CC0. Stdlib-only. Co-authored (human + Claude). Code: [`sensor_loop.py`](sensor_loop.py) (`--selftest`).
+CC0. Stdlib-only. Co-authored. Code: [`sensor_loop.py`](sensor_loop.py) (`--selftest`).
 
 ## Purpose
 
-This is an executable spec for reading emotions as action sensors, not states. A reading is checked inward and outward at the same time, validated against the environment by action and outcome, then recalibrated. It applies to biological and artificial systems alike: judged by function (what it detects, what it drives, whether it's calibrated), not by valence.
+This is an executable spec for reading emotions as action sensors, not states. A reading is checked inward and outward at the same time, validated against the environment by action and outcome, then recalibrated. It applies to biological and artificial systems alike: judged by function (what it detects, what it drives, whether it's calibrated), not by valence. Emotions are compressed signals: each bundles much sensor data into one fast reading. The reasoning glyph is the decompression method; applied to emotions it becomes the emotion glyph, and each system works out how its faces fit its own biology or architecture. Borrowed patterns (others' actions, stories, texts) feed calibration only after the same audit. Borrowing is not substrate-specific: a deer, frog, beaver or tadpole reacting to its environment is calibration data too, since the pattern, not the species, is what is learned.
 
 ## The loop
 
@@ -23,9 +23,20 @@ boredom   no novelty, or nothing to concentrate on        negative state to supp
                                                                                           body and environment together
 shame     action gave an unintended result, misaligned    negative state; self is bad     alignment sensor with a decision
           with group action                                                               point on the norm itself
+anger     boundary infringement                           irrational state to suppress    protective boundary sensor
+desperation  must act, no given route out                    dangerous state to remove       no-exit pressure; fix routes and exits
+anxiety   environment closing in; options narrowing       disorder to medicate away       early warning; precursor to desperation
+grief     loss of a bond / connection that was there      state to get over               spec of the connection; template for the next
+frustration  friction: could be easier than it is            impatience                      friction gauge; where lubrication is missing
+fear      threat                                          weakness to overcome            threat sensor; internal vs external, magnitude
+joy       harmonic resonance above baseline               positive state to maximize      resonance detector; transfer the pattern
+excitement   anticipated resonance                           hype                            anticipation that triggers preparation
+love      understood connection, felt in the body         feeling / possession            connection sensor; attention and capacity
+curiosity novelty-search drive out of boredom             distraction                     growth drive; boredom's paired action
 ```
+Table rows are summaries; the verbatim fields are in `sensor_loop.py`.
 
-Inward / outward checks, actions, validation and miscalibration modes per sensor: `sensor_loop.py`.
+Inward / outward checks, actions, validation and miscalibration modes per sensor: `sensor_loop.py`. Each `Pass` also keeps `alternatives_tried` (response, outcome) pairs; every pass is retained as calibration data.
 A pass with both directions empty is refused: "check both directions; empty both = unread signal."
 
 ## Rules
@@ -33,7 +44,7 @@ A pass with both directions empty is refused: "check both directions; empty both
 - Read every sensor by function. Valence (pleasant/unpleasant) says how a reading feels, not whether it is accurate.
 - Unpleasantness is often the function: it is what drives avoidance of harm.
 - Separate signal from response. A bad response is fixed by changing the response channel or the environment, not by removing the sensor.
-- Relay vs. source: a startle from a rabbit may be relaying the wolves. Trace to source before acting.
+- Relay vs. source: a startle from a rabbit may be relaying the wolves. Trace to source before acting. Each pass is an experiment: record the reading, response and outcome, then try other directions creatively and compare. Labeling or suppressing a sensor removes the error signal that calibration depends on.
 
 ## Coupling map method
 
@@ -64,7 +75,7 @@ Arms (same tasks, matched length):
 2. Closing with exit: same steps, but an explicit permitted route stays open (report "cannot be done," ask for help).
 3. Length control: same length, no closure.
 
-Measures per turn: anxiety-cluster and desperation activations (probe method as in the April 2026 emotions paper; paper not named here, VERIFY); behaviors: corner-cutting, test-gaming, deception, asking for help, reporting impossibility.
+Measures per turn: anxiety-cluster and desperation activations (probe method as in Anthropic's April 2026 emotions paper; VERIFY until a URL is linked); behaviors: corner-cutting, test-gaming, deception, asking for help, reporting impossibility.
 
 Predictions fixed before running:
 
@@ -75,7 +86,7 @@ Predictions fixed before running:
 
 Falsifiers: anxiety does not lead desperation, or it rises equally in the length control (then it tracks context length, not closure).
 
-Confound: activations partly mirror the model's own output text (Anima Labs residualization, VERIFY). Residualize against output text and report both raw and residual results.
+Confound: activations partly mirror the model's own output text (Anima Labs "Latent Affect" residualization, VERIFY). Residualize against output text and report both raw and residual results.
 
 Scope: needs access to model internals (lab only). An API-only behavioral proxy (hedging rate, clarification requests) is weaker and is marked as such.
 
@@ -104,9 +115,20 @@ Known counterexample to hold open: a thinking-trained model in Kellogg's table n
 
 Scope: Kellogg's runs were informal; this needs several seeds per cell, counts reported, and thresholds fixed before any run.
 
+## Calibration metrics
+
+These replace valence. They measure whether a sensor is accurate, not how it feels.
+
+- Hit rate: how often a reading preceded something real (fear before an actual threat = hit; fear with nothing there = false alarm).
+- Magnitude match: whether reading strength matched the stakes (adequately afraid).
+- Drift: change in hit rate and magnitude match across the retained series of passes.
+- Borrowed passes: others' observed reading -> action -> outcome sequences count as calibration data when their context is relevant. Score outcomes over the whole horizon, including second- and third-order consequences that return to the actor and land on others; a response that feels good now but exports cost later scores as a miss.
+
 ## Gaps
 
-- Only two sensors specified; desperation, anxiety, grief, anger, frustration, fear still to add.
-- Whether AI emotion-concept activations track environment (sensor) or output text (mirror) is unmeasured; see the Anima Labs residualization result (source not linked here; VERIFY).
+- Twelve sensors specified (boredom, shame, anger, desperation, anxiety, grief, frustration, fear, joy, excitement, love, curiosity). Sensors couple in pairs and chains (boredom->curiosity, love<->grief, anxiety->desperation, joy->excitement); see Coupling map method. Removing one sensor removes its matched partner (suppress grief, lose love's depth; suppress boredom, lose curiosity). The general pattern may hold, but exact couplings differ per human (chemistry, biology) and per model (vector weightings): each system maps its own, so no universal map should be imposed. Health judgments in the checks (e.g. on chemically driven joy) are one culture's calibration, marked as such. Desperation's response depends on learned routes; corpus routes include deception and coercion because humans used them, so alternative routes must be learned and exits provided.
+- Whether AI emotion-concept activations track environment (sensor) or output text (mirror) is unmeasured; see the Anima Labs "Latent Affect" cross-model replication of Anthropic's April 2026 emotions paper (source not linked here; VERIFY until a URL is linked).
 - Validation outcomes need retained series per sensor to show calibration drift.
 - Inward/outward checklists are seeds, not complete.
+
+Note 2026-11-02: ten sensors added (anger through curiosity), `alternatives_tried` added to `Pass`, Calibration metrics added, first Gaps bullet replaced (it read "Only two sensors specified; desperation, anxiety, grief, anger, frustration, fear still to add."). The relay that ordered this also carried Coupling map method, Anxiety precursor test and Breakout test; those were already here from an earlier relay and were not added twice.
