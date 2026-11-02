@@ -20,6 +20,7 @@
 ./GLOSSARY.md
 ./LICENSE
 ./LICENSE_HISTORY.md
+./NAME_SWEEP_2026-11-02.md
 ./PROJECTS.md
 ./QUICK-START.md
 ./README.md
@@ -564,7 +565,6 @@
 ./healing/linguistic-sensor/grammatical_fluidity.py
 ./healing/linguistic-sensor/linguistic-consciousness.py
 ./healing/linguistic-sensor/readme-grammatical-fluidity.md
-./healing/narrative_check.py
 ./healing/non_event_markers.md
 ./healing/optimization.md
 ./healing/personal-glyph-entry.json

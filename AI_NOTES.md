@@ -1,7 +1,7 @@
 # AI Notes
 - Files indexed: 1233
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 640
+- Hotspot files: 639
 
 ## Hotspots
 - premise_cross_domain_audit.py: Debug left on
@@ -51,7 +51,6 @@
 - healing/substrate_therapy.py: Debug left on, Secrets in code
 - healing/conservation_check.py: Debug left on
 - healing/self_test.py: Debug left on, Secrets in code
-- healing/narrative_check.py: Debug left on
 - healing/continuance_dynamics.py: Debug left on
 - healing/scope_tag.py: Debug left on
 - healing/healing_integration.py: Debug left on, Secrets in code
