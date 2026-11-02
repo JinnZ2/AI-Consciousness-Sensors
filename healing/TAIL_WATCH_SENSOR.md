@@ -71,6 +71,29 @@ These are possibilities to connect, not claims. None has been mapped onto the pr
 - False-calm rate: shifts that came with no flag.
 - Log every unnamed incongruity with a timestamp, and score it later against outcomes.
 
+### Measured: flag() against flag_null() (OBSERVED, synthetic, 2026-11-02)
+
+`flag_null()` tests the same two trends against phase-randomized surrogates: series that keep the observed power spectrum, so the whole autocorrelation function including lag 1, but are stationary by construction. This is the surrogate-data significance test used in early-warning analysis (Dakos et al. 2012, *PLoS ONE* 7(7): e41010; phase randomization after Theiler et al. 1992; both carried, not re-read here). ASSESS fires only if BOTH observed trends exceed the 95th percentile of their surrogate trends. `flag()` is unchanged and kept for comparison.
+
+Two worlds from the selftest's own generator, 200 points each: recovery rate decaying toward a tip, or constant. 50 seeds per world, 200 surrogates per series, alpha 0.05. Run: `python3 healing/tail_watch.py --bench` (about 100 s).
+
+```text
+window 20      hit rate (tip)    false-alarm rate (no tip)
+flag()         42/50  0.84       18/50  0.36
+flag_null()    15/50  0.30        0/50  0.00
+
+window 40
+flag()         45/50  0.90       20/50  0.40
+flag_null()    13/50  0.26        0/50  0.00
+```
+
+Reading:
+- The null removes the false alarms: 18/50 down to 0/50. `flag()`'s rates reproduce the earlier measurement exactly, so it is the same experiment.
+- The cost is power: about one tip in three is flagged. A wider window does not recover it.
+- Requiring BOTH trends past their own 0.05 cut makes the joint test conservative. Its size lies between alpha squared and alpha, and 0/50 is consistent with the low end. Calibrating the joint size (one combined statistic, or a cut chosen so the joint size is alpha) would likely buy power back. Not done here: it changes the rule this relay specified.
+- The null is Gaussian-linear: phase randomization keeps the spectrum, not the amplitude distribution (AAFT would keep both). A non-Gaussian stationary series could still read as beyond the null.
+- Selftest: rates over 20 seeds with 99 surrogates, never one seed. It asserts `flag_null()` false alarms <= 3/20 (Binomial(20, 0.05): P(X >= 4) is about 0.016), fewer than `flag()`'s, and hits above its own false alarms. Power is reported, not asserted: a bound of >= 10/20 was set before measuring and failed at 4/20, and lowering it to pass would tune the check to the seeds.
+
 ## Gaps
 
 - The geometric core of the wisdom glyph: not interpretable atm.
@@ -82,3 +105,5 @@ These are possibilities to connect, not claims. None has been mapped onto the pr
 - `flag` fires on the sign of two trends, with no significance test and no null. Measured 2026-11-02 on 50 seeds of the selftest's own generator: ASSESS **42/50** when recovery decays toward a tip, and **18/50** when recovery is constant (no tip). That is a false-alarm rate of about 0.36 on this null (OBSERVED, synthetic). The selftest's ASSESS check passes on seed 1, but about 8 in 50 seeds would fail it. Until a null band is calibrated, read "ASSESS" as "look closer", not as a detection. Next step: a permutation or surrogate null per series (Dakos et al. 2012 style), then hit / false-calm rates against it.
 
 Note 2026-11-02: new instrument, added with an anxiety link in `EMOTION_SENSOR_LOOP.md` and a pointer above ANXIETY in `sensor_loop.py`. The Gaps entry on `flag`'s null rate comes from this landing's own run; the code itself is as delivered.
+
+Note 2026-11-02 (relay part F): surrogate null added (`surrogate_null`, `flag_null`, `bench`). `flag()` is unchanged and marked uncalibrated, look closer only. The Gaps entry on its false-alarm rate stays as written; the measured comparison is in Calibration. The selftest's single-seed ASSESS check was replaced by rate checks over seeds.
