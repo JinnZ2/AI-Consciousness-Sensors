@@ -1,7 +1,7 @@
 # Polyhedron method -- reading a body of literature as a solid with faces, edges and gaps
 
-STATUS: OBSERVED as Kavik's working tool (practice report); PROPOSED as a general method,
-untested at scale. Co-authored write-up (Kavik + Claude, 2026-11-01). CC0.
+STATUS: OBSERVED as a working tool (practice report); PROPOSED as a general method,
+untested at scale. Co-authored write-up (2026-11-01). CC0.
 Related: [`SHAPE_BALANCE.md`](SHAPE_BALANCE.md), [`SCOPE_TAG.md`](SCOPE_TAG.md),
 [`conservation_check.py`](conservation_check.py).
 

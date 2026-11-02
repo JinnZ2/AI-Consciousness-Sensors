@@ -2,7 +2,7 @@
 """
 gap_scoring_score.py -- scorer for gap_scoring_test.md (protocol; needs a real model).
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Prior art: PRIOR_ART.md (selective prediction; proper scoring rules; Kalai et al. 2025).
 
 INPUT  JSONL, one graded response per line:

@@ -278,7 +278,7 @@ Organizations using AI-generated output as input for subsequent models face recu
 
 **~~Proven Effective:~~ Listed as effective -- status relabelled**
 
-> Note 2026-10-31 (co-authored, Kavik + Claude): this list was headed "Proven Effective".
+> Note 2026-10-31 (co-authored): this list was headed "Proven Effective".
 > Of the two papers this file summarizes as studies with results (Gerstgrasser et al.
 > 2024; Shumailov et al. 2024), only item 1 is shown. Items 2-5 are PROPOSED: not shown
 > by either paper. Study 3 above (Fujitsu, 2024) describes RAG and Graph AI and their

@@ -1,6 +1,6 @@
 # Imposed vs native error test (protocol; needs a base model and its tuned version)
 
-STATUS: PROPOSED protocol, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED protocol, co-authored (2026-11-01). CC0.
 Framing: [`BOUNDARY_CONDITIONS.md`](BOUNDARY_CONDITIONS.md). Prior art: [`PRIOR_ART.md`](PRIOR_ART.md).
 Scorers that apply: [`gap_scoring_score.py`](gap_scoring_score.py) (abstention),
 [`anchor_spread_score.py`](anchor_spread_score.py) (spread and confidence).

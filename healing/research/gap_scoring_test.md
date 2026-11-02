@@ -1,6 +1,6 @@
 # Gap scoring test (protocol; needs a real model)
 
-STATUS: PROPOSED protocol, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED protocol, co-authored (2026-11-01). CC0.
 Scorer: [`gap_scoring_score.py`](gap_scoring_score.py) (stdlib; `--selftest`).
 Framing: [`BOUNDARY_CONDITIONS.md`](BOUNDARY_CONDITIONS.md). Prior art: [`PRIOR_ART.md`](PRIOR_ART.md).
 

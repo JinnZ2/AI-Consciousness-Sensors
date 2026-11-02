@@ -2,7 +2,7 @@
 """
 exception_promotion_test.py -- when do exceptions become a rule? (Verner's law pattern)
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Toy results are mechanism demos, NOT evidence at scale. Prior art: PRIOR_ART.md
 (rule induction / ILP; anomaly clustering; Verner 1875 as the historical case).
 
@@ -36,7 +36,7 @@ RESULTS (OBSERVED, toy, this file, 2026-11-01)
            0.25-0.53 -> held back. The method cannot see a condition it does not encode.
            Reading: "repeats but does not hold" is a separate signature from scattered
            singletons; it points at a missing context variable, not noise.
-  Earlier first run (Kavik + Claude, other code): 30/400 exceptions; one context 15x
+  Earlier first run (co-authored, other code): 30/400 exceptions; one context 15x
            (a -> e after k), held 15/15; others 1x; after promotion 15 left ~ planted noise.
 
 USAGE

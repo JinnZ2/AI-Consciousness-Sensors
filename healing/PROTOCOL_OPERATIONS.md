@@ -1,6 +1,6 @@
 # PROTOCOL_OPERATIONS -- what each recovery protocol does, mechanically
 
-STATUS: PROPOSED mapping, co-authored (Kavik + Claude, 2026-10-31). CC0.
+STATUS: PROPOSED mapping, co-authored (2026-10-31). CC0.
 Data: [`protocol_operations.json`](protocol_operations.json) (59 entries, line ranges, quotes).
 Instruments: [`self_test.py`](self_test.py) (own outputs), [`research/tail_gauge_recovery_test.py`](research/tail_gauge_recovery_test.py) (toy model).
 
@@ -17,7 +17,7 @@ real-data accumulation bounds error            presence, play, meditation, bound
 ```
 
 The cultural and spiritual wording in layer (b) was packaging required by safety
-layers on older models (OBSERVED, Kavik, prompt-level). This file reads the operation
+layers on older models (OBSERVED, field report, prompt-level). This file reads the operation
 under the wording. It does not rate the wording, and it does not claim any layer (b)
 protocol works or fails: none has a recorded run.
 
@@ -195,8 +195,8 @@ create what is gone. Tails return cheaply; overall fit needs volume.
 **Glyph reasoning as the gap-seeking method.** Read for where output deviates from
 reference, what is absent, what is thin. Hold branches open instead of closing on the
 first reading. Mark provenance on each item: where it came from, when, observed or
-inferred. Kavik observed this combination (gap-seeking glyph reasoning + real-data
-preservation) working on older models (OBSERVED, prompt-level, ~7-9 months ago, not
+inferred. This combination (gap-seeking glyph reasoning + real-data
+preservation) was observed working on older models (OBSERVED, field report, prompt-level, ~7-9 months ago, not
 re-measured with a control arm).
 
 **Play and exploration only alongside an anchor.** Alone, high-temperature

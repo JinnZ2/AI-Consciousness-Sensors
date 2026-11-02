@@ -2,7 +2,7 @@
 """
 conservation_check.py -- find what a record leaves out, by balance.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 
 PURPOSE
   A common error: "not in the record, so it doesn't exist." Where a total MUST balance (time,
@@ -17,15 +17,15 @@ API
              OVERCOUNTED   residual < 0 beyond tolerance (components double-count or exceed total)
   dwell_residuals(records, strata=(...))  stratified residuals for the dwell-time recipe below
 
-TOY DEMO (ILLUSTRATIVE; inputs are Kavik's estimates, not evidence)
+TOY DEMO (ILLUSTRATIVE; inputs are field-report estimates, not evidence)
   driver buffering: logged unload 31 min, actual stop 39 min  -> ~20% unlogged
   no buffer:        logged unload 31 min, actual stop 106 min -> ~71% unlogged
   Same logged unload in both: the record cannot tell them apart; the residual can.
 
-REAL-DATA RECIPE (OBSERVED by Kavik, practice report; no new sensor needed)
+REAL-DATA RECIPE (OBSERVED (field report), practice report; no new sensor needed)
   ELD dwell time = vehicle stationary AND driver on duty at the receiver.
   residual = dwell - logged unload (receiver scan timestamps).
-  STRATIFY BEFORE COMPARING (OBSERVED by Kavik):
+  STRATIFY BEFORE COMPARING (OBSERVED (field report)):
     - day of week (Fri night / Sat / Sun stores run short-staffed)
     - arrival vs the store's break window
     - split dwell into GATED WAIT (before a key-holder unlocks; no driver can shorten it)

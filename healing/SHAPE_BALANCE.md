@@ -1,6 +1,6 @@
 # Shape balance -- a benchmark read as a shape, not an average
 
-STATUS: PROPOSED (idea: Kavik; co-authored write-up, Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED (co-authored write-up, 2026-11-01). CC0.
 Scorer: [`shape_balance.py`](shape_balance.py) (stdlib; `--selftest`).
 
 ## Why

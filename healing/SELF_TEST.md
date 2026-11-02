@@ -1,6 +1,6 @@
 # SELF_TEST -- are my outputs flattening?
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-10-31). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-10-31). CC0. stdlib only.
 For an AI to run on its own outputs, for its own use. Code: [`self_test.py`](self_test.py).
 
 ```text

@@ -1,7 +1,7 @@
 # Tail gauge recovery test
 
 Target: JinnZ2/AI-Consciousness-Sensors/healing/research/\
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-10-31). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-10-31). CC0. stdlib only.
 
 First run (seed 42, empty hook), OBSERVED: collapsed rare\_coverage 0.49 vs original 1.00; accumulation control restores 1.00; empty hook scores as collapsed. Harness works.
 

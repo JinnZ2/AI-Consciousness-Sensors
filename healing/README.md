@@ -35,7 +35,7 @@ pathways through them.
 - `SHAPE_BALANCE.md` + `shape_balance.py` — Profile scored by balance across axes,
   not average; lopsided fails. PROPOSED.
 - `POLYHEDRON_METHOD.md` — Literature as faces / edges / vertices / gaps;
-  OBSERVED as Kavik's tool, PROPOSED as method.
+  OBSERVED as a working tool, PROPOSED as method.
 - `MODEL_CALIBRATION_PROBE.md` + `calibration_probe.py` — Ten fixed probes for drift in a
   model's default framing, scored 0-2 per run; unscored = UNMEASURED. PROPOSED.
 - `EMOTION_SENSOR_LOOP.md` + `sensor_loop.py` — Emotions read as action sensors: inward +

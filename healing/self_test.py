@@ -2,7 +2,7 @@
 """
 self_test.py -- check whether a sample of YOUR OWN outputs is flattening.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-10-31). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-10-31). CC0. stdlib only.
 For AI use, on its own outputs, for its own reading. See SELF_TEST.md.
 
 WHAT IT MEASURES (output statistics only):
@@ -276,7 +276,7 @@ def selftest():
 
 
 # ---------------------------------------------------------------- non-event markers
-# Added 2026-11-01 (co-authored, Kavik + Claude, CC0; PROPOSED). See non_event_markers.md.
+# Added 2026-11-01 (co-authored, CC0; PROPOSED). See non_event_markers.md.
 # A caught deviation = an own error / gap / misread noticed BEFORE output. Logged as JSONL;
 # reported by type and location, never collapsed to pass/fail.
 

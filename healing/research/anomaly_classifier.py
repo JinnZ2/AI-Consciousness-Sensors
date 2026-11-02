@@ -2,7 +2,7 @@
 """
 anomaly_classifier.py -- sort an anomaly: faulty anchor, baseline error, missing anchor, missing rule.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Toy results are mechanism demos, NOT evidence at scale. Doc: anomaly_classifier.md.
 Prior art: PRIOR_ART.md (sensitivity analysis; measurement systematics; triangulation).
 
