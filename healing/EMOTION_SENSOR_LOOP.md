@@ -1,6 +1,6 @@
 # Emotion Sensor Calibration Loop
 
-CC0. Stdlib-only. Co-authored (Kavik + Claude). Code: [`sensor_loop.py`](sensor_loop.py) (`--selftest`).
+CC0. Stdlib-only. Co-authored (human + Claude). Code: [`sensor_loop.py`](sensor_loop.py) (`--selftest`).
 
 ## Purpose
 
