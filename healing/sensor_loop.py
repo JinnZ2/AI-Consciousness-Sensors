@@ -109,6 +109,9 @@ DESPERATION = Sensor(
     right_read="accurate sensor of no-exit pressure; the harm is in learned routes, fix routes and exits",
 )
 
+# ANXIETY at population scale: societal anxiety/aggression volume as a time series -> run
+# tail_watch.flag and flicker_count; pulse-in-out with growing amplitude = wisdom-glyph precursor
+# shape (PROPOSED). See TAIL_WATCH_SENSOR.md.
 ANXIETY = Sensor(
     name="anxiety",
     detects="low-level: environment closing in; options/space/control narrowing",

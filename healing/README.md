@@ -42,6 +42,9 @@ pathways through them.
   outward check, act, validate, recalibrate (twelve sensors specified). PROPOSED.
 - `NARRATIVE_CHECK.md` — pointer stub (2026-11-02): the narrative structure check moved to
   JinnZ2/Simulators `tools/narrative_check.py` (mirrored in method-layer `tools/`), now twelve markers.
+- `TAIL_WATCH_SENSOR.md` + `tail_watch.py` — Note 2026-11-02: new system-level instrument (wisdom glyph):
+  rising variance + lag-1 autocorrelation, flicker count, consensus check; "no signal" is not proof of
+  stability; flag's measured null rate is in its Gaps. Linked from the anxiety precursor test. PROPOSED.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
