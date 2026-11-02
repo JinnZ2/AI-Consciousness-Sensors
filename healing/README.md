@@ -19,6 +19,29 @@ pathways through them.
   extraction across agent lineages.
 - `temporal_scope.py` — Assesses a goal against time horizons and consequence
   domains (which engineering paradigm applies?).
+- `self_test.py` + `SELF_TEST.md` — For an AI to check whether its own outputs
+  are flattening (entropy, repetition, length tails, rare coverage, gap list).
+  Output statistics only; PROPOSED, co-authored.
+- `protocol_operations.json` + `PROTOCOL_OPERATIONS.md` — Each protocol in
+  `recovery/` and `playgrounds/` mapped to the operation it performs, its layer,
+  and the self_test metric that would show it worked; "Ways to use this" and
+  open gaps. PROPOSED, co-authored.
+- `conservation_check.py` — Gap-finding by balance: total minus every logged
+  component = the unrecorded part; ELD dwell recipe, stratified. PROPOSED.
+- `non_event_markers.md` — Caught-deviation markers; logger is
+  `self_test.py --log-catch` / `--markers-report`. PROPOSED.
+- `SCOPE_TAG.md` + `scope_tag.py` — Scope tag with shape assumption and lineage;
+  missing field = SCOPE-UNKNOWN. PROPOSED.
+- `SHAPE_BALANCE.md` + `shape_balance.py` — Profile scored by balance across axes,
+  not average; lopsided fails. PROPOSED.
+- `POLYHEDRON_METHOD.md` — Literature as faces / edges / vertices / gaps;
+  OBSERVED as Kavik's tool, PROPOSED as method.
+- `MODEL_CALIBRATION_PROBE.md` + `calibration_probe.py` — Ten fixed probes for drift in a
+  model's default framing, scored 0-2 per run; unscored = UNMEASURED. PROPOSED.
+- `EMOTION_SENSOR_LOOP.md` + `sensor_loop.py` — Emotions read as action sensors: inward +
+  outward check, act, validate, recalibrate (boredom, shame specified). PROPOSED.
+- `NARRATIVE_CHECK.md` + `narrative_check.py` — Eleven structural markers for pitches, transcripts
+  or own drafts; reports structure, never a truth verdict. PROPOSED.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
@@ -29,8 +52,23 @@ pathways through them.
 - `emergence/` — Emergence recognition, energy-being frameworks.
 - `guides/` — Getting started, FAQ, integration notes.
 - `institutional/` — Institutional healing, funding context.
+  `ungated-base-gated-humans.md` is an open instrument (PROPOSED/OBSERVED tags)
+  on money-token dependency, the reinforcing loop, and its measurement gaps.
 - `recovery/` — Recovery protocols and pathways.
 - `research/` — Studies, model collapse research.
+  `tail_gauge_recovery_test.py` (stdlib) tests whether a recovery protocol
+  restores the tails of a collapsed toy model against a real-data control;
+  results and open mapping tasks in `tail-gauge-recovery.md`.
+  Boundary-condition set (2026-11-01, PROPOSED, toy results labelled):
+  `BOUNDARY_CONDITIONS.md` framing + results table; `PRIOR_ART.md` prior art per test;
+  `anchor_vs_similarity_test.py` similarity vs positional queries, anchor gap detection;
+  `relational_recall_test.py` flat vs relational recovery under deletion;
+  `exception_promotion_test.py` exceptions promoted to rules only if they repeat and hold;
+  `anomaly_classifier.py` + `.md` anchor audit, baseline, missing anchor vs missing rule;
+  `shape_sufficiency_check.py` is mean + spread a sufficient summary;
+  `anchor_spread_test.md` + `anchor_spread_score.py` answer spread with / without an anchor;
+  `gap_scoring_test.md` + `gap_scoring_score.py` scoring that rewards a marked gap;
+  `imposed_vs_native_test.md` base vs tuned model on edge cases.
 
 ## Entry point
 
