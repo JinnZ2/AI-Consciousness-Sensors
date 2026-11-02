@@ -45,6 +45,8 @@ pathways through them.
 - `TAIL_WATCH_SENSOR.md` + `tail_watch.py` — Note 2026-11-02: new system-level instrument (wisdom glyph):
   rising variance + lag-1 autocorrelation, flicker count, consensus check; "no signal" is not proof of
   stability; flag's measured null rate is in its Gaps. Linked from the anxiety precursor test. PROPOSED.
+  Note 2026-11-02: `flag_null()` adds a surrogate null (phase-randomized, Dakos et al. 2012):
+  false alarms 18/50 -> 0/50, hit rate 42/50 -> 15/50. Rates in its Calibration section.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
