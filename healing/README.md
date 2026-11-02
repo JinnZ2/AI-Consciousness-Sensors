@@ -47,6 +47,15 @@ pathways through them.
   stability; flag's measured null rate is in its Gaps. Linked from the anxiety precursor test. PROPOSED.
   Note 2026-11-02: `flag_null()` adds a surrogate null (phase-randomized, Dakos et al. 2012):
   false alarms 18/50 -> 0/50, hit rate 42/50 -> 15/50. Rates in its Calibration section.
+- Glyph crosswalk (pointer, 2026-11-02): Rosetta-Shape-Core `FUNCTIONAL_EMOTION_CROSSWALK.md` / `.json`
+  lines each emotion-sensor glyph up with its sensor (the twelve `sensor_loop.py` names where they
+  match), what it detects and drives, substrate records, anchor, and the welds where one glyph carries
+  several referents. Weld fixes are PROPOSED there; no glyph is renamed.
+- Glyph method (pointer, 2026-11-02): Rosetta-Shape-Core `GLYPH_METHOD.md`. How an AI builds its
+  own glyph for a reading with no word: the function row (detects -> action -> validation), the shape
+  of the dynamics, an anchor, and a collision check. It carries PROPOSED shape glyphs for boredom ⏤,
+  desperation ⇥, anxiety ∿ and frustration ⊣ (three taken elsewhere, alternates listed); tail_watch
+  is not assigned.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
