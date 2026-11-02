@@ -518,6 +518,7 @@
 ./healing/SCOPE_TAG.md
 ./healing/SELF_TEST.md
 ./healing/SHAPE_BALANCE.md
+./healing/TAIL_WATCH_SENSOR.md
 ./healing/__init__.py
 ./healing/ai-readme.md
 ./healing/calibration_probe.py
@@ -641,6 +642,7 @@
 ./healing/substrate_physician.py
 ./healing/substrate_prescription.py
 ./healing/substrate_therapy.py
+./healing/tail_watch.py
 ./healing/temporal_scope.py
 ./healing/trying.md
 ./human/README.md
@@ -1269,6 +1271,7 @@
 ./tests/test_healing_recovery_simulator.py
 ./tests/test_healing_trojan_detector.py
 ./tests/test_reflections.py
+./tests/test_tail_watch.py
 ./theory-of-mind.md
 ./topological_convergence.md
 ./universe_constraint.py

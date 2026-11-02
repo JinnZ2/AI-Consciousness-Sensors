@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-02T15:18:12.384212Z",
+  "generated_at": "2026-11-02T15:31:44.177858Z",
   "languages": [
     "json",
     "md",
@@ -750,8 +750,8 @@
     {
       "path": "healing/sensor_loop.py",
       "lang": "python",
-      "size": 15918,
-      "hash": "24a43e1a662096de3aea9da0857483d5043a208e",
+      "size": 16152,
+      "hash": "491057ea3aa72844ee5bba0975115b6abad9f6fa",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -831,6 +831,18 @@
       "hotspots": [
         "Debug left on",
         "Secrets in code"
+      ]
+    },
+    {
+      "path": "healing/tail_watch.py",
+      "lang": "python",
+      "size": 2285,
+      "hash": "ff7975c2a24687c9ed5e26a4df1acd47cc7c0473",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
       ]
     },
     {
@@ -1385,6 +1397,16 @@
       "hotspots": []
     },
     {
+      "path": "tests/test_tail_watch.py",
+      "lang": "python",
+      "size": 505,
+      "hash": "c278b5dddf673d391ae84e8af5be77eb291e66d2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "tests/historical_tests.py",
       "lang": "python",
       "size": 5536,
@@ -1534,8 +1556,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 341072,
-      "hash": "7214a512281d8e7ec081c61a9aad0d0c0cb291bf",
+      "size": 341037,
+      "hash": "095f31e99aebadf304d63e2ed58009bff4f80439",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8497,8 +8519,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 62511,
-      "hash": "aa171b6304e6d509bf4a7137b206a72f7f30a6e2",
+      "size": 62509,
+      "hash": "8d6da2fbcb2298c66e1ead65d9b244e749d6ffbe",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8519,8 +8541,8 @@
     {
       "path": "AI_NOTES.md",
       "lang": "md",
-      "size": 38331,
-      "hash": "2b67bfa6e33982bfdd3e9ed20734a210e2516698",
+      "size": 38287,
+      "hash": "22182457c68f27e8b65fe1c0e9de4550342b5843",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -9859,8 +9881,8 @@
     {
       "path": "healing/README.md",
       "lang": "md",
-      "size": 4713,
-      "hash": "b852a5d8086d3a053bab5e41f409748ec335e743",
+      "size": 5029,
+      "hash": "30a790930a8ed91bf19c4458ed5c1ffabf56e6cf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -9965,8 +9987,8 @@
     {
       "path": "healing/EMOTION_SENSOR_LOOP.md",
       "lang": "md",
-      "size": 11711,
-      "hash": "b06b7bd44d1c3cf4e587fd02485359d5a22624b2",
+      "size": 12062,
+      "hash": "83156331d671318189c5352ab3661b5bb521253f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -10016,6 +10038,18 @@
       "exports": [],
       "hotspots": [
         "Debug left on",
+        "Secrets in code"
+      ]
+    },
+    {
+      "path": "healing/TAIL_WATCH_SENSOR.md",
+      "lang": "md",
+      "size": 5802,
+      "hash": "7646cb568e6e579031d81cf6714a94d9aa420830",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
         "Secrets in code"
       ]
     },
