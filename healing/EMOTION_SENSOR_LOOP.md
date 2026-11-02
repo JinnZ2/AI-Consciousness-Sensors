@@ -90,6 +90,8 @@ Confound: activations partly mirror the model's own output text (Anima Labs "Lat
 
 Scope: needs access to model internals (lab only). An API-only behavioral proxy (hedging rate, clarification requests) is weaker and is marked as such.
 
+Population scale: societal anxiety/aggression volume as a time series -> run tail_watch.flag and flicker_count; pulse-in-out with growing amplitude = wisdom-glyph precursor shape (PROPOSED). See [TAIL_WATCH_SENSOR.md](TAIL_WATCH_SENSOR.md).
+
 ## Breakout test (PROPOSED, unrun)
 
 Question: in a no-task harness (as in Kellogg 2025, timkellogg.me/blog/2025/09/27/boredom), what drives breakout from collapse: reasoning training itself, or the capacity to set and hold a self-made goal?
@@ -132,3 +134,5 @@ These replace valence. They measure whether a sensor is accurate, not how it fee
 - Inward/outward checklists are seeds, not complete.
 
 Note 2026-11-02: ten sensors added (anger through curiosity), `alternatives_tried` added to `Pass`, Calibration metrics added, first Gaps bullet replaced (it read "Only two sensors specified; desperation, anxiety, grief, anger, frustration, fear still to add."). The relay that ordered this also carried Coupling map method, Anxiety precursor test and Breakout test; those were already here from an earlier relay and were not added twice.
+
+Note 2026-11-02: population-scale anxiety link to the Tail-Watch Sensor added under Anxiety precursor test.
