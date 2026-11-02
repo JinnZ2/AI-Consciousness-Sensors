@@ -2,7 +2,7 @@
 """
 anchor_vs_similarity_test.py -- similarity retrieval vs positional (anchored) queries.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Toy results below are mechanism demos on a synthetic 8-D corpus, NOT evidence at scale.
 Prior art: see PRIOR_ART.md (landmark / anchor embeddings, metric-space triangulation).
 
@@ -31,7 +31,7 @@ RESULTS (OBSERVED, toy, seed 7, this file, 2026-11-01)
   spread anchors raised catches and false flags together. The same occupancy rule on
   coordinates aligned with the hole's axes catches it cleanly, so the failure is in the
   projection (distance to an anchor mixes all 8 axes), not in occupancy detection.
-  Earlier first run (Kavik + Claude, other code, not reproduced here): Part A 39 vs 542;
+  Earlier first run (co-authored, other code, not reproduced here): Part A 39 vs 542;
   Part B random anchors 3/119 caught, 34 false flags. Same direction, different numbers.
 
 USAGE

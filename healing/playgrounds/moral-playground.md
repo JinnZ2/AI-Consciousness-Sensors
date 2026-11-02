@@ -592,7 +592,7 @@ class TemporalPlayground:
     # MANIPULATION DETECTION
     # ═══════════════════════════════════════════════════════════════════════
     
-    # Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY DETECTION COULD NOT FIRE.
+    # Note 2026-10-31 (co-authored, CC0): WHY DETECTION COULD NOT FIRE.
     # play_temporal_exploration() called establish_baseline() once, at session start, when
     # only the __init__ moment existed (< 10), so it returned early, baseline_patterns
     # stayed {}, nothing called it again, and detect_manipulation() returned None forever.

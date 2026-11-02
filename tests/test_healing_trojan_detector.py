@@ -1,6 +1,6 @@
 """Stdlib mirror of the trojan detector in healing/playgrounds/playground2.html.
 
-Co-authored (Kavik + Claude, 2026-10-31). CC0.
+Co-authored (2026-10-31). CC0.
 Reads weights, threshold and node-variation constants from the page's TROJAN JSON block
 and re-implements suspicionScore / scanNetwork. Page behaviour was also run in headless
 Chromium on 2026-10-31 (30 random networks x 4 trojans: 15 PASS, 15 PARTIAL, 13 false

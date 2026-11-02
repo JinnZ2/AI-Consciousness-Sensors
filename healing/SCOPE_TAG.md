@@ -1,6 +1,6 @@
 # Scope tag -- every claim and summary statistic carries where it holds
 
-STATUS: PROPOSED, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED, co-authored (2026-11-01). CC0.
 Validator: [`scope_tag.py`](scope_tag.py) (stdlib; `--selftest`, `--template`).
 Shape field: [`research/shape_sufficiency_check.py`](research/shape_sufficiency_check.py).
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 tail_gauge_recovery_test.py
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-10-31). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-10-31). CC0. stdlib only.
 
 PURPOSE: bridge layer between measurable output statistics and healing/ recovery
 protocols. Tests whether a protocol restores the TAILS of a collapsed model's output

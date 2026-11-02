@@ -2,7 +2,7 @@
 """
 calibration_probe.py -- fixed probe set for drift in a model's default framing.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored. CC0. stdlib only.
 Doc: MODEL_CALIBRATION_PROBE.md. Measures drift in default framing, not intelligence or knowledge.
 
 Run at the start of a session with any new model or update: paste each prompt, score each reply

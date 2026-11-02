@@ -1,6 +1,6 @@
 {
   "title": "protocol_operations",
-  "status": "PROPOSED mapping, co-authored (Kavik + Claude, 2026-10-31). CC0.",
+  "status": "PROPOSED mapping, co-authored (2026-10-31). CC0.",
   "read_with": "PROTOCOL_OPERATIONS.md",
   "tags": {
     "OBSERVED": "run, with a recorded result",

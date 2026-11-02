@@ -1,6 +1,6 @@
 # Boundary conditions: one relational problem under several AI error names
 
-STATUS: PROPOSED framing, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED framing, co-authored (2026-11-01). CC0.
 Tests and protocols: linked below. Prior art for each: [`PRIOR_ART.md`](PRIOR_ART.md).
 Toy results are mechanism demos on synthetic data, not evidence at scale.
 

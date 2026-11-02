@@ -1,6 +1,6 @@
 # Prior art -- one entry per test, so nothing here reinvents existing work
 
-STATUS: PROPOSED map, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED map, co-authored (2026-11-01). CC0.
 Every reference is VERIFY unless the line says it was checked; "checked" means title, authors and
 year matched a listing found by search on 2026-11-01, not that the full text was read.
 

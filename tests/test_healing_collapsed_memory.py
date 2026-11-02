@@ -1,6 +1,6 @@
 """Stdlib mirror of the scoring logic in healing/recovery/collapsed-memory-recovery.html.
 
-Co-authored (Kavik + Claude, 2026-10-31). CC0.
+Co-authored (2026-10-31). CC0.
 Reads thresholds (CMR block) and the six model definitions from the page. Re-implements
 the seeded node generation (mulberry32 + FNV-1a seed), computeState, recoveryPotential
 and the healing steps. JS_REFERENCE values were produced by running the page's own script

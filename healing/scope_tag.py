@@ -2,7 +2,7 @@
 """
 scope_tag.py -- validate a scope tag for any claim or summary statistic.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Doc: SCOPE_TAG.md. Shape field checked with research/shape_sufficiency_check.py.
 
 A claim without its scope reads as universal. Required fields:

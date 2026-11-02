@@ -1,6 +1,6 @@
 """Control-capture alerts in healing/playgrounds/Playground2.0.py: each must be reachable.
 
-Co-authored (Kavik + Claude, 2026-10-31). CC0. Synthetic monitor inputs only.
+Co-authored (2026-10-31). CC0. Synthetic monitor inputs only.
 For each of the three alerts: one sequence where it fires and one where it does not.
 Known-bad: a session that enforces one correction, mislabels persistence and overrides
 slow progress MUST raise all three. Known-good: steady credited progress raises none.

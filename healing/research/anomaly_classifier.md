@@ -1,6 +1,6 @@
 # Anomaly classifier
 
-STATUS: PROPOSED method, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED method, co-authored (2026-11-01). CC0.
 Code: [`anomaly_classifier.py`](anomaly_classifier.py) (stdlib; `--selftest`).
 Framing: [`BOUNDARY_CONDITIONS.md`](BOUNDARY_CONDITIONS.md). Prior art: [`PRIOR_ART.md`](PRIOR_ART.md).
 
@@ -20,7 +20,7 @@ audits the anchor the anomaly is measured against.
                          no  -> MISSING_RULE     (b) the rule is out of scope             (Mercury -> GR)
 ```
 
-## Anchor audit (step raised by Kavik)
+## Anchor audit (step raised in review)
 
 The chosen anchor is itself inside the frame.
 
@@ -47,7 +47,7 @@ E unmodelled body (one bump in residual)  0.81 x3; local fit R^2 0.97    MISSING
 F secular drift, no locus                 0.80 x3; local fit R^2 0.15    MISSING_RULE  correct
 ```
 
-Earlier first run (Kavik + Claude, other code): A 0.02 / 0.79 / -0.01 -> ANCHOR (correct);
+Earlier first run (co-authored, other code): A 0.02 / 0.79 / -0.01 -> ANCHOR (correct);
 B 0.81 / 0.79 / 0.80 -> RULE (correct); C 0.81 / 0.81 / 0.80 -> RULE (WRONG). Same result.
 
 Limits of the toy: the MISSING_ANCHOR / MISSING_RULE split rests on a chosen cap on bump width

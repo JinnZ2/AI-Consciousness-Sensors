@@ -1,12 +1,12 @@
 # Non-event markers -- knowing where you stand by what did not happen
 
-STATUS: PROPOSED, co-authored (Kavik + Claude, 2026-11-01). CC0.
+STATUS: PROPOSED, co-authored (2026-11-01). CC0.
 Logger: `self_test.py --log-catch` / `--markers-report` (stdlib). Related: [`SELF_TEST.md`](SELF_TEST.md),
 [`conservation_check.py`](conservation_check.py).
 
 ## Why
 
-An AI needs a marker of where it is, to judge itself (Kavik). Output alone is a poor marker: in
+An AI needs a marker of where it is, to judge itself. Output alone is a poor marker: in
 safety, maintenance and security, success is a non-event -- the failure that did not occur.
 Weick described reliability as a "dynamic non-event" (Weick 1987, "Organizational culture as a
 source of high reliability", California Management Review; VERIFY). The record of visible output

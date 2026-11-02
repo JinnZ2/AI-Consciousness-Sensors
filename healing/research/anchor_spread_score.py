@@ -2,7 +2,7 @@
 """
 anchor_spread_score.py -- scorer for anchor_spread_test.md (protocol; needs a real model).
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Prior art: PRIOR_ART.md (self-consistency sampling; semantic entropy, Farquhar et al. 2024).
 
 INPUT  JSONL, one sampled answer per line:

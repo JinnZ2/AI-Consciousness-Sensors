@@ -1,6 +1,6 @@
 """Stdlib mirror of the scoring logic in healing/recovery/recovery-simulator.html.
 
-Co-authored (Kavik + Claude, 2026-10-31). CC0.
+Co-authored (2026-10-31). CC0.
 Reads the protocol table and calibration from the page's JSON blocks, so the page and
 this test cannot drift apart silently. Re-implements simulateRecovery / classifyOutcome
 line for line; parity with the JS was checked by running the page's script under node

@@ -2,7 +2,7 @@
 """
 shape_sufficiency_check.py -- are mean + spread a sufficient summary, or is a bell curve assumed?
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Toy results are mechanism demos. Prior art: PRIOR_ART.md (Micceri 1989; Quetelet; Daniels 1952).
 
 WHY: a bell curve arises under one condition -- many small independent ADDED effects (central
@@ -31,7 +31,7 @@ RESULTS (OBSERVED, toy, this file, 2026-11-01; n = 20000 each)
     - tail-mass check reads only 1.6x normal for Pareto: with infinite variance the extreme
       values inflate the sd, so "beyond 3 sd" undercounts the heaviest tails. The tail check
       alone would PASS this set; skew and kurtosis catch it.
-  Earlier first run (Kavik + Claude, other code): added sufficient; multiplied tails 6x;
+  Earlier first run (co-authored, other code): added sufficient; multiplied tails 6x;
   mixed 2 peaks, 2% near mean; Pareto extreme skew; BC false flag on Pareto. Same pattern.
 
 Prior cases (DOCUMENTED; VERIFY details): Micceri 1989 found all 440 large achievement and

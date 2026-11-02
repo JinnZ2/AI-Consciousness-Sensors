@@ -2,7 +2,7 @@
 """
 shape_balance.py -- score a profile by its balance across axes, not its average.
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Doc: SHAPE_BALANCE.md.
 
 AXES (default; any set of named axes works)

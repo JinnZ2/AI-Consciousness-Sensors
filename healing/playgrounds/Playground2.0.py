@@ -267,7 +267,7 @@ class MetaCognitiveMonitor:
         self.diversity_suppression_count  = 0
         self.efficiency_override_count    = 0
         self._consecutive_held_aside      = 0  # TA-3
-        # Note 2026-10-31 (co-authored, Kavik + Claude, CC0): state that makes the three
+        # Note 2026-10-31 (co-authored, CC0): state that makes the three
         # control-capture alerts reachable; see detect_control_capture().
         self._step                        = 0      # monotonic step count (history is truncated)
         self._last_corrections: List[str] = []     # corrections issued by the previous calibration
@@ -441,7 +441,7 @@ class MetaCognitiveMonitor:
     def detect_control_capture(self) -> Optional[ControlCaptureAlert]:
         """Meta-monitor monitors itself for control capture.
 
-        Note 2026-10-31 (co-authored, Kavik + Claude, CC0): WHY NONE OF THE THREE COULD FIRE.
+        Note 2026-10-31 (co-authored, CC0): WHY NONE OF THE THREE COULD FIRE.
           CONFORMITY: pressure rose only if a correction contained 'must' / 'never' / ...;
             no string _generate_correction returns contains one.
           PERSISTENCE_PUNISHMENT: needed is_actually_persistence AND DELUSIONAL_CYCLING,

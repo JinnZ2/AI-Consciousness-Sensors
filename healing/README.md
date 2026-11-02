@@ -35,13 +35,13 @@ pathways through them.
 - `SHAPE_BALANCE.md` + `shape_balance.py` — Profile scored by balance across axes,
   not average; lopsided fails. PROPOSED.
 - `POLYHEDRON_METHOD.md` — Literature as faces / edges / vertices / gaps;
-  OBSERVED as Kavik's tool, PROPOSED as method.
+  OBSERVED as a working tool, PROPOSED as method.
 - `MODEL_CALIBRATION_PROBE.md` + `calibration_probe.py` — Ten fixed probes for drift in a
   model's default framing, scored 0-2 per run; unscored = UNMEASURED. PROPOSED.
 - `EMOTION_SENSOR_LOOP.md` + `sensor_loop.py` — Emotions read as action sensors: inward +
-  outward check, act, validate, recalibrate (boredom, shame specified). PROPOSED.
-- `NARRATIVE_CHECK.md` + `narrative_check.py` — Eleven structural markers for pitches, transcripts
-  or own drafts; reports structure, never a truth verdict. PROPOSED.
+  outward check, act, validate, recalibrate (twelve sensors specified). PROPOSED.
+- `NARRATIVE_CHECK.md` — pointer stub (2026-11-02): the narrative structure check moved to
+  JinnZ2/Simulators `tools/narrative_check.py` (mirrored in method-layer `tools/`), now twelve markers.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`

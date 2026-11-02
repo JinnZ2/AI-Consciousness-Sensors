@@ -1,6 +1,6 @@
 """Tests for manipulation detection in healing/playgrounds/moral-playground.md.
 
-Co-authored (Kavik + Claude, 2026-10-31). CC0.
+Co-authored (2026-10-31). CC0.
 The .md holds raw Python after a leading HTML comment; it is executed here as a module
 (no __main__, so the demo does not run). Moments are built by hand so the known-good and
 known-bad sequences are exact. Synthetic sequences only.

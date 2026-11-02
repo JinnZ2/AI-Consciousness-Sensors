@@ -2,7 +2,7 @@
 """
 relational_recall_test.py -- flat fact store vs relational store (root + rules + contact edges).
 
-STATUS: PROPOSED instrument, co-authored (Kavik + Claude, 2026-11-01). CC0. stdlib only.
+STATUS: PROPOSED instrument, co-authored (2026-11-01). CC0. stdlib only.
 Toy results are mechanism demos, NOT evidence at scale. Prior art: PRIOR_ART.md
 (comparative method / sound laws; computational phylogenetics; minimum description length).
 
@@ -36,7 +36,7 @@ RESULTS (OBSERVED, toy, this file, 2026-11-01; 180 deleted facts per seed)
   preserving substitutions with known proto forms make learning trivial. This toy does
   NOT test rule learning in the hard case (insertions/deletions/merges, proto unknown).
   Open: rebuild with non-length-preserving rules and reconstructed proto forms.
-  Earlier first run (Kavik + Claude, other code): flat recovered 0; relational (rules given)
+  Earlier first run (co-authored, other code): flat recovered 0; relational (rules given)
   recovered 166/180 (92%), 12 flagged, 2 wrong-unflagged, both at borrowings whose only
   evidence was deleted.
 
