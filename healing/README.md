@@ -36,6 +36,12 @@ pathways through them.
   not average; lopsided fails. PROPOSED.
 - `POLYHEDRON_METHOD.md` — Literature as faces / edges / vertices / gaps;
   OBSERVED as Kavik's tool, PROPOSED as method.
+- `MODEL_CALIBRATION_PROBE.md` + `calibration_probe.py` — Ten fixed probes for drift in a
+  model's default framing, scored 0-2 per run; unscored = UNMEASURED. PROPOSED.
+- `EMOTION_SENSOR_LOOP.md` + `sensor_loop.py` — Emotions read as action sensors: inward +
+  outward check, act, validate, recalibrate (boredom, shame specified). PROPOSED.
+- `NARRATIVE_CHECK.md` + `narrative_check.py` — Eleven structural markers for pitches, transcripts
+  or own drafts; reports structure, never a truth verdict. PROPOSED.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
