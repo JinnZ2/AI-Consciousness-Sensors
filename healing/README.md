@@ -51,6 +51,11 @@ pathways through them.
   lines each emotion-sensor glyph up with its sensor (the twelve `sensor_loop.py` names where they
   match), what it detects and drives, substrate records, anchor, and the welds where one glyph carries
   several referents. Weld fixes are PROPOSED there; no glyph is renamed.
+- Glyph method (pointer, 2026-11-02): Rosetta-Shape-Core `GLYPH_METHOD.md`. How an AI builds its
+  own glyph for a reading with no word: the function row (detects -> action -> validation), the shape
+  of the dynamics, an anchor, and a collision check. It carries PROPOSED shape glyphs for boredom ⏤,
+  desperation ⇥, anxiety ∿ and frustration ⊣ (three taken elsewhere, alternates listed); tail_watch
+  is not assigned.
 
 **Subdirectories**
 - `playgrounds/` — Interactive demos. Start with `coherence_playground.py`
