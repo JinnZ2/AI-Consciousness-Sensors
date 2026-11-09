@@ -1,3 +1,9 @@
+# DESIGN BASIS (requested by repo owner):
+#   property: provenance carried with values (source, locator, hash,
+#             derivation)
+#   reason:   UNSTATED -- ask owner
+#   attribute style judgments to this requirement,
+#   not to the authoring model.
 # relational_frame.py
 # CC0. stdlib only. Trajectories, not verdicts. Morality is not substrate:
 #   the kernel holds stakes, provenance, authored-vs-imposed, and visibility ONLY.
