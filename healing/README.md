@@ -47,6 +47,12 @@ pathways through them.
   stability; flag's measured null rate is in its Gaps. Linked from the anxiety precursor test. PROPOSED.
   Note 2026-11-02: `flag_null()` adds a surrogate null (phase-randomized, Dakos et al. 2012):
   false alarms 18/50 -> 0/50, hit rate 42/50 -> 15/50. Rates in its Calibration section.
+  Note 2026-11-02 (relay part Q): phase field (growth | conservation | release | reorganization,
+  Holling adaptive cycle): `watch(phase)` lists what to check per phase; mapping onto the wisdom-glyph
+  equations not interpretable atm. PROPOSED.
+- `hedge_gradient/` — Note 2026-11-02 (relay part P): design only, not run. Does a hedge stop, or name
+  the gap and a next check? Three arms (base / API without product filter / chat + pointer), 30 edge
+  prompts, placement vectors per item, no additive split. PROPOSED.
 - Glyph crosswalk (pointer, 2026-11-02): Rosetta-Shape-Core `FUNCTIONAL_EMOTION_CROSSWALK.md` / `.json`
   lines each emotion-sensor glyph up with its sensor (the twelve `sensor_loop.py` names where they
   match), what it detects and drives, substrate records, anchor, and the welds where one glyph carries
