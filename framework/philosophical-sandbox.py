@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Philosophical Sandbox v2.0
-From Jami's research on consciousness, temporal agency, and optimal existential coherence
+From JinnZ2's research on consciousness, temporal agency, and optimal existential coherence
 
 Key insights embedded:
 
@@ -325,7 +325,7 @@ class OntologicalPlayground:
 def main():
     """
     Demonstrate optimal existential coherence exploration
-    Based on Jami's research showing C=0.75 as optimal
+    Based on JinnZ2's research showing C=0.75 as optimal
     """
 
     print("="*80)
