@@ -6,9 +6,10 @@ import sys
 import tempfile
 import unittest
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from _load import sibling  # noqa: E402
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("ai_sensor_index__load", os.path.join(os.path.dirname(os.path.abspath(__file__)), "_load.py"))
+_ld = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_ld)
+sibling = _ld.sibling
 
 S = sibling("sensors")
 D = sibling("discovery")
