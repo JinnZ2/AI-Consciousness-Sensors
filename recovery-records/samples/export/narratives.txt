@@ -1,0 +1,125 @@
+Case: RR-001
+Date: not recorded
+Domain: freight dock
+Status: PROPOSED
+What broke: Dock delay
+Failure source: not recorded
+What was noticed, by what sense: not recorded
+Who noticed: not recorded
+What they did: worker outside own department locates key-holder; driver unloads
+What they used: not recorded
+Fallback level (1 standard .. 5 improvised): not recorded
+Shared resources not drawn on: not recorded
+When they would have escalated: not recorded
+Cascade that did not happen: missed delivery window and route cascade
+How that cascade was estimated: not recorded
+Cost of the recovery: not recorded
+Recorded in an official system: not recorded
+How the recoverer learned it: not recorded
+Coupled domains: not recorded
+Notes: not recorded
+
+Case: RR-002
+Date: not recorded
+Domain: trucking
+Status: PROPOSED
+What broke: ELD tablet frozen below spec
+Failure source: not recorded
+What was noticed, by what sense: not recorded
+Who noticed: not recorded
+What they did: driver switches to paper logs
+What they used: paper logs
+Fallback level (1 standard .. 5 improvised): not recorded
+Shared resources not drawn on: not recorded
+When they would have escalated: not recorded
+Cascade that did not happen: HOS non-compliance and stalled load
+How that cascade was estimated: not recorded
+Cost of the recovery: not recorded
+Recorded in an official system: not recorded
+How the recoverer learned it: not recorded
+Coupled domains: not recorded
+Notes: not recorded
+
+Case: RR-003
+Date: not recorded
+Domain: trucking yard
+Status: PROPOSED
+What broke: Frozen trailer landing gear at -40, grease solidified
+Failure source: environment
+What was noticed, by what sense: not recorded
+Who noticed: not recorded
+What they did: not recorded
+What they used: mallet; carried torch
+Fallback level (1 standard .. 5 improvised): not recorded
+Shared resources not drawn on: shared yard torches (saturated at peak)
+When they would have escalated: not recorded
+Cascade that did not happen: not recorded
+How that cascade was estimated: not recorded
+Cost of the recovery: not recorded
+Recorded in an official system: not recorded
+How the recoverer learned it: not recorded
+Coupled domains: not recorded
+Notes: not recorded
+
+Case: RR-004
+Date: not recorded
+Domain: wool processing
+Status: PROPOSED
+What broke: Wire hand cards unavailable
+Failure source: supply
+What was noticed, by what sense: not recorded
+Who noticed: not recorded
+What they did: wool carded with rough outer elm bark
+What they used: rough outer elm bark
+Fallback level (1 standard .. 5 improvised): not recorded
+Shared resources not drawn on: not recorded
+When they would have escalated: not recorded
+Cascade that did not happen: production stop
+How that cascade was estimated: not recorded
+Cost of the recovery: not recorded
+Recorded in an official system: not recorded
+How the recoverer learned it: not recorded
+Coupled domains: not recorded
+Notes: not recorded
+
+Case: RR-005
+Date: not recorded
+Domain: vehicle repair
+Status: PROPOSED
+What broke: Piston rings not seating, no parts
+Failure source: not recorded
+What was noticed, by what sense: not recorded
+Who noticed: not recorded
+What they did: not recorded
+What they used: old field abrasive method at high idle, small dose, oil changed after
+Fallback level (1 standard .. 5 improvised): not recorded
+Shared resources not drawn on: not recorded
+When they would have escalated: not recorded
+Cascade that did not happen: vehicle loss in last-ditch transport
+How that cascade was estimated: not recorded
+Cost of the recovery: not recorded
+Recorded in an official system: not recorded
+How the recoverer learned it: not recorded
+Coupled domains: not recorded
+Notes: not recorded
+
+Case: RR-006
+Date: not recorded
+Domain: delivery routing
+Status: PROPOSED
+What broke: GPS outage
+Failure source: not recorded
+What was noticed, by what sense: not recorded
+Who noticed: not recorded
+What they did: paper map route trace
+What they used: paper map
+Fallback level (1 standard .. 5 improvised): not recorded
+Shared resources not drawn on: not recorded
+When they would have escalated: not recorded
+Cascade that did not happen: not recorded
+How that cascade was estimated: not recorded
+Cost of the recovery: not recorded
+Recorded in an official system: not recorded
+How the recoverer learned it: not recorded
+Coupled domains: not recorded
+Notes: Delivered seed text: 'delivery continues'. The cascade that would have followed is not stated, so cascade_prevented stays void.
