@@ -119,5 +119,112 @@ class TestDiscovery(unittest.TestCase):
             self.reg.notice("once", 1)
 
 
+def _reading(eid, sensor, correct, resolves=None):
+    return L.LogEntry(sensor=sensor, entry_id=eid, was_reading_correct=correct,
+                      resolves=resolves, status_tag="PROPOSED")
+
+
+class TestThreshold(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.path = os.path.join(self.tmp.name, "calibration_log.jsonl")
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _log(self, sensor, outcomes):
+        for i, v in enumerate(outcomes):
+            L.append(self.path, _reading(f"{sensor}-{i}", sensor, v))
+
+    def test_1_new_sensor_empty_log_is_two(self):
+        reg = D.Registry(log_path=self.path)
+        c = reg.hypothesize(reg.notice("x recurs", 2), "tracks y")
+        s = reg.register("fresh", c)
+        self.assertEqual(s.recurrence_threshold, 2)
+        self.assertEqual(reg.threshold("fresh"), 2)
+        self.assertEqual(D.Registry().sensors["loop"].recurrence_threshold, 2)
+
+    def test_2_short_record_stays_two(self):
+        self._log("s", [False, False])
+        self.assertEqual(L.threshold_for(self.path, "s"), (2, 2, 1.0))
+        self._log("u", [None, None, None, False])      # undecided readings are not counted
+        self.assertEqual(L.threshold_for(self.path, "u")[:2], (2, 1))
+
+    def test_3_rule(self):
+        self.assertEqual(L.computed_threshold(0, 3)[0], 6)      # all misses
+        self.assertEqual(L.computed_threshold(0, 50)[0], 6)
+        self.assertEqual(L.computed_threshold(3, 0)[0], 2)      # all hits
+        self.assertEqual(L.computed_threshold(2, 2)[0], 4)      # mixed: 2 + round(0.5*4)
+        self.assertEqual(L.computed_threshold(3, 1)[0], 3)      # 2 + round(1.0)
+        self.assertEqual(L.computed_threshold(3, 5)[0], 5)      # 2.5 rounds half up, not to even
+        for h in range(0, 12):
+            for m in range(0, 12):
+                t = L.computed_threshold(h, m)[0]
+                self.assertTrue(S.THRESHOLD_FLOOR <= t <= S.THRESHOLD_CEILING)
+        self.assertEqual(L.computed_threshold(0, 0), (2, 0, None))
+
+    def test_3b_counted_once_per_reading(self):
+        L.append(self.path, _reading("r1", "s", None))
+        L.append(self.path, L.LogEntry(sensor="s", resolves="r1", was_reading_correct=False))
+        L.append(self.path, L.LogEntry(sensor="s", resolves="r1", was_reading_correct=False))
+        self.assertEqual(L.track_record(L.read(self.path), "s"), (0, 1))
+
+    def test_4_change_is_appended_prior_unchanged(self):
+        self._log("s", [False, False, False])
+        with open(self.path, "rb") as fh:
+            before = fh.read()
+        t = L.sync_threshold(self.path, "s", now="2026-11-14T00:00:00+00:00")
+        self.assertEqual(t, 6)
+        with open(self.path, "rb") as fh:
+            after = fh.read()
+        self.assertTrue(after.startswith(before))
+        added = after[len(before):].decode().splitlines()
+        self.assertEqual(len(added), 1)
+        rec = json.loads(added[0])
+        self.assertEqual(rec, {"sensor": "s", "old": 2, "new": 6, "n": 3, "miss_rate": 1.0,
+                               "timestamp": "2026-11-14T00:00:00+00:00", "kind": "threshold_change"})
+        L.sync_threshold(self.path, "s")                          # no change -> nothing appended
+        with open(self.path, "rb") as fh:
+            self.assertEqual(fh.read(), after)
+        self._log("s2", [True])
+        L.append(self.path, _reading("s-h1", "s", True))
+        L.append(self.path, _reading("s-h2", "s", True))
+        L.append(self.path, _reading("s-h3", "s", True))         # 3 misses, 3 hits -> 4
+        self.assertEqual(L.sync_threshold(self.path, "s"), 4)
+        changes = [e for e in L.read(self.path) if isinstance(e, L.ThresholdChange)]
+        self.assertEqual([(c.old, c.new) for c in changes], [(2, 6), (6, 4)])
+
+    def test_4b_notice_uses_sensor_threshold(self):
+        reg = D.Registry(log_path=self.path)
+        self._log("loop", [False, False, False])
+        with self.assertRaises(D.DiscoveryError):
+            reg.notice("same phrase again", 5, sensor="loop")
+        self.assertEqual(reg.sensors["loop"].recurrence_threshold, 6)
+        self.assertEqual(reg.notice("same phrase again", 6, sensor="loop").occurrences, 6)
+        self.assertEqual(reg.notice("new signal", 2).occurrences, 2)   # no sensor: floor
+
+    def test_4c_threshold_not_settable_by_hand(self):
+        reg = D.Registry(log_path=self.path)
+        with self.assertRaises(D.DiscoveryError):
+            reg.register("x", recurrence_threshold=4)
+        for bad in (1, 7, True, 2.0):
+            with self.assertRaises(ValueError, msg=repr(bad)):
+                S.Sensor(recurrence_threshold=bad)
+        self.assertFalse(hasattr(D, "MIN_RECURRENCE"))
+
+    def test_5_self_resolving_entry_rejected(self):
+        L.append(self.path, _reading("a1", "s", None))
+        with open(self.path, "rb") as fh:
+            before = fh.read()
+        with self.assertRaises(L.ResolutionError):
+            L.append(self.path, _reading("b1", "s", True, resolves="b1"))
+        with self.assertRaises(L.ResolutionError):
+            L.append(self.path, _reading("c1", "s", True, resolves="later-entry"))
+        with open(self.path, "rb") as fh:
+            self.assertEqual(fh.read(), before)
+        L.append(self.path, _reading("d1", "s", True, resolves="a1"))   # earlier target: accepted
+        self.assertIs(L.resolved_state(L.read(self.path))["a1"], True)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

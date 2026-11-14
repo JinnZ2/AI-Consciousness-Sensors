@@ -46,6 +46,14 @@ python3 test_ai_sensor_index.py        # the checks
   be settled append-only.
 - `Sensor` refuses a status outside OBSERVED / DERIVED / PROPOSED and a
   reliability outside [0, 1].
-- `notice()` requires a signal seen at least twice (`MIN_RECURRENCE = 2`,
-  a [CHOICE]).
+- `notice()` requires a signal to recur as often as its sensor's
+  `recurrence_threshold`. The threshold is computed from that sensor's decided
+  readings in the calibration log, never set by hand:
+  `n < 3 -> 2`, else `2 + round_half_up(miss_rate * 4)`, bounded 2..6.
+  The bounds and the minimum record are named PROPOSED constants in `sensors.py`.
+  A signal not yet tied to a sensor uses the floor, 2.
+- Every threshold change is appended to the log as a `threshold_change` entry
+  (sensor, old, new, n, miss_rate, timestamp).
+- `append()` refuses an entry whose `resolves` names itself or no earlier
+  entry_id (`ResolutionError`).
 - `rate()` returns None, never 0, when no test record is decided.

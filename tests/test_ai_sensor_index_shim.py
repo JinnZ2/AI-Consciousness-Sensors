@@ -9,6 +9,7 @@ _spec = importlib.util.spec_from_file_location("ai_sensor_index_tests", _P)
 _mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_mod)
 
-TestSensor = _mod.TestSensor
-TestLog = _mod.TestLog
-TestDiscovery = _mod.TestDiscovery
+import unittest as _ut
+
+globals().update({_n: _o for _n, _o in vars(_mod).items()
+                  if isinstance(_o, type) and issubclass(_o, _ut.TestCase) and _o is not _ut.TestCase})

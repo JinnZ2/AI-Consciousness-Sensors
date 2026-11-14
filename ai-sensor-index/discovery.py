@@ -11,6 +11,11 @@ A sensor is registered with reliability None. Reliability is assigned only by
 rate(), and only from test records whose outcome is decided (True/False).
 With no decided record, reliability stays None, never 0.
 
+Recurrence threshold: how many times a signal must be seen before notice()
+accepts it. Per sensor, computed from that sensor's decided readings in the
+calibration log (calibration_log.computed_threshold); never passed in by hand.
+A signal not yet tied to a sensor has no record, so it uses THRESHOLD_FLOOR.
+
   python3 discovery.py    # walk the loop on a constructed example
 """
 import os
@@ -24,8 +29,7 @@ _ld = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_ld)
 sibling = _ld.sibling
 
 S = sibling("sensors")
-
-MIN_RECURRENCE = 2   # [CHOICE] "keeps coming back" = seen at least twice
+L = sibling("calibration_log")
 
 
 class DiscoveryError(ValueError):
@@ -51,22 +55,50 @@ class TestRecord:
 
 
 class Registry:
-    def __init__(self, seed=True):
+    def __init__(self, seed=True, log_path=None):
+        """log_path: the calibration log (JSONL) thresholds are computed from.
+        None = no log, so every sensor has an empty record (threshold FLOOR)."""
         self.sensors = {}
         self.derived = {}
         self.tests = []
+        self.log_path = log_path
         if seed:
             for s in S.PRIMARY:
-                self.sensors[s.name] = S.Sensor(**s.to_dict())
+                d = s.to_dict()
+                d["recurrence_threshold"] = None
+                self.sensors[s.name] = S.Sensor(**d)
+                self.refresh_threshold(s.name)
             for d in S.DERIVED:
                 self.derived[d.name] = S.DerivedSensor(**d.to_dict())
 
+    def threshold(self, sensor):
+        """Computed threshold for a sensor from the log (no side effects)."""
+        if self.log_path is None:
+            return L.computed_threshold(0, 0)[0]
+        return L.threshold_for(self.log_path, sensor)[0]
+
+    def refresh_threshold(self, sensor, now=None):
+        """Recompute the sensor's threshold; a change is appended to the log."""
+        if self.log_path is None:
+            t = self.threshold(sensor)
+        else:
+            t = L.sync_threshold(self.log_path, sensor, now=now)
+        if sensor in self.sensors:
+            self.sensors[sensor].recurrence_threshold = t
+        return t
+
     # step 1
-    def notice(self, signal, occurrences):
+    def notice(self, signal, occurrences, sensor=None):
+        """sensor: the registered sensor this signal is a reading of, if any.
+        Its computed threshold applies; a new signal uses THRESHOLD_FLOOR."""
         if not signal:
             raise DiscoveryError("notice: signal is blank")
-        if occurrences is None or occurrences < MIN_RECURRENCE:
-            raise DiscoveryError(f"notice: a signal seen {occurrences} time(s) is not recurring yet")
+        if sensor is not None and sensor not in self.sensors:
+            raise DiscoveryError(f"notice: unknown sensor {sensor!r}")
+        need = self.refresh_threshold(sensor) if sensor else S.THRESHOLD_FLOOR
+        if occurrences is None or occurrences < need:
+            raise DiscoveryError(f"notice: a signal seen {occurrences} time(s) is below "
+                                 f"the recurrence threshold {need}")
         return Candidate(signal=signal, occurrences=occurrences)
 
     # step 2
@@ -77,9 +109,12 @@ class Registry:
         return candidate
 
     def register(self, name, candidate=None, action=None, gradient=None,
-                 status="PROPOSED", notes=None, reliability=None):
+                 status="PROPOSED", notes=None, reliability=None,
+                 recurrence_threshold=None):
         if reliability is not None:
             raise DiscoveryError("register: reliability is assigned by rate() from test records, not at registration")
+        if recurrence_threshold is not None:
+            raise DiscoveryError("register: recurrence_threshold is computed from the calibration log, not set by hand")
         if name in self.sensors or name in self.derived:
             raise DiscoveryError(f"register: {name!r} already registered")
         s = S.Sensor(name=name, action=action,
@@ -87,6 +122,7 @@ class Registry:
                      reads_as=candidate.hypothesis if candidate else None,
                      gradient=gradient, reliability=None, status=status, notes=notes)
         self.sensors[name] = s
+        self.refresh_threshold(name)
         return s
 
     # step 3
