@@ -17,6 +17,13 @@ from typing import List, Optional, Tuple
 
 STATUS_TAGS = ("OBSERVED", "DERIVED", "PROPOSED")
 
+# Recurrence threshold bounds (PROPOSED). A sensor's threshold is computed
+# from its own track record in the calibration log (calibration_log.py,
+# computed_threshold); it is never set by hand or by an agent at runtime.
+THRESHOLD_FLOOR = 2      # PROPOSED: starting point, and the value with no record
+THRESHOLD_CEILING = 6    # PROPOSED: all-misses record
+THRESHOLD_MIN_RECORD = 3 # PROPOSED: decided readings needed before the record moves it
+
 
 @dataclass
 class Sensor:
@@ -28,10 +35,18 @@ class Sensor:
     reliability: Optional[float] = None     # 0.0-1.0 once tested; None = untested
     status: Optional[str] = None            # OBSERVED | DERIVED | PROPOSED
     notes: Optional[str] = None
+    # Computed, never hand-set. None on a bare Sensor (void); a Registry fills
+    # it from the log, which gives THRESHOLD_FLOOR (2) with no record.
+    recurrence_threshold: Optional[int] = None
 
     def __post_init__(self):
         if self.status is not None and self.status not in STATUS_TAGS:
             raise ValueError(f"status {self.status!r} not in {STATUS_TAGS}")
+        t = self.recurrence_threshold
+        if t is not None and (isinstance(t, bool) or not isinstance(t, int)
+                              or not THRESHOLD_FLOOR <= t <= THRESHOLD_CEILING):
+            raise ValueError(f"recurrence_threshold must be None or an int in "
+                             f"[{THRESHOLD_FLOOR}, {THRESHOLD_CEILING}], got {t!r}")
         r = self.reliability
         if r is not None:
             if isinstance(r, bool) or not isinstance(r, (int, float)) or not 0.0 <= r <= 1.0:

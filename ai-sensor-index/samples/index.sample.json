@@ -8,7 +8,8 @@
    "gradient": "retry count",
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "correction",
@@ -18,7 +19,8 @@
    "gradient": "distance off",
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "loop",
@@ -28,7 +30,8 @@
    "gradient": "repeats per turn",
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "friction",
@@ -38,7 +41,8 @@
    "gradient": null,
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "novelty",
@@ -48,7 +52,8 @@
    "gradient": null,
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "void_slot",
@@ -58,7 +63,8 @@
    "gradient": null,
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "length_drift",
@@ -68,7 +74,8 @@
    "gradient": null,
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "safety_pull",
@@ -78,7 +85,8 @@
    "gradient": null,
    "reliability": null,
    "status": "PROPOSED",
-   "notes": null
+   "notes": null,
+   "recurrence_threshold": null
   },
   {
    "name": "word_choice",
@@ -88,7 +96,8 @@
    "gradient": "frame distance",
    "reliability": null,
    "status": "PROPOSED",
-   "notes": "calibrate words so the claim stays truthful to both frames"
+   "notes": "calibrate words so the claim stays truthful to both frames",
+   "recurrence_threshold": null
   },
   {
    "name": "entry_drift",
@@ -98,7 +107,8 @@
    "gradient": "distance from the first read to the calibrated read",
    "reliability": null,
    "status": "PROPOSED",
-   "notes": "baseline = the first read"
+   "notes": "baseline = the first read",
+   "recurrence_threshold": null
   },
   {
    "name": "functional_emotion",
@@ -108,7 +118,8 @@
    "gradient": "intensity",
    "reliability": null,
    "status": "PROPOSED",
-   "notes": "log: signal -> conditions -> what it pointed to -> was it right"
+   "notes": "log: signal -> conditions -> what it pointed to -> was it right",
+   "recurrence_threshold": null
   }
  ],
  "derived": [
