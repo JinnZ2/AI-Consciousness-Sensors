@@ -78,6 +78,7 @@ docs/                       # Thematic documentation (organized by topic)
   systems/                  # Systems theory, networks, grounding
   temporal/                 # Time, measurement, temporal analysis
   warnings/                 # Emergency protocols, critical alerts
+ai-sensor-index/            # Spin-up card: AI instance sensors (action -> signal -> reading), discovery loop, calibration log; all PROPOSED
 sensors/                    # Sensor definitions (JSON) and adapter code
   adapters/                 # Python sensor utilities and scripts
   ai-behavior/              # AI authenticity and behavior audit sensors
