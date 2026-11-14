@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1237
+- Files indexed: 1246
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 641
+- Hotspot files: 644
 
 ## Hotspots
 - premise_cross_domain_audit.py: Debug left on
@@ -86,6 +86,9 @@
 - scripts/apply_math_blocks.py: Debug left on
 - scripts/extract_docs_data.py: Debug left on
 - scripts/ai_integrator.py: Debug left on, Secrets in code
+- ai-sensor-index/sensors.py: Debug left on
+- ai-sensor-index/calibration_log.py: Debug left on
+- ai-sensor-index/discovery.py: Debug left on
 - papers/frameworks/coherence-calculator.py: Debug left on
 - papers/frameworks/boundary-detector.py: Debug left on
 - papers/frameworks/dual-metric-optimization.py: Debug left on

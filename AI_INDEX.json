@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-14T16:46:31.707993Z",
+  "generated_at": "2026-11-14T19:45:27.869073Z",
   "languages": [
     "json",
     "md",
@@ -989,6 +989,16 @@
       "hotspots": []
     },
     {
+      "path": "tests/test_ai_sensor_index_shim.py",
+      "lang": "python",
+      "size": 561,
+      "hash": "670681f16ae4ab2a396d49a6b0b383e5b0110de2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "tests/test_reflections.py",
       "lang": "python",
       "size": 279,
@@ -1375,6 +1385,62 @@
       ]
     },
     {
+      "path": "ai-sensor-index/sensors.py",
+      "lang": "python",
+      "size": 5987,
+      "hash": "c702811d5614d6d18563ba8ff1f9764cfb16c22f",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "ai-sensor-index/_load.py",
+      "lang": "python",
+      "size": 689,
+      "hash": "63849c5fd15e6785d3e8f96444abccdfa9482702",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai-sensor-index/calibration_log.py",
+      "lang": "python",
+      "size": 4404,
+      "hash": "9656a7fca48584b251e03550ab222aaf3d4bccc6",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "ai-sensor-index/test_ai_sensor_index.py",
+      "lang": "python",
+      "size": 5310,
+      "hash": "55cb89ee035377a5aa78e4802d5b03e2fc6ddc48",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai-sensor-index/discovery.py",
+      "lang": "python",
+      "size": 6019,
+      "hash": "96fd20aa0ddd417b3987450d0d1579c345125b95",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
       "path": "papers/frameworks/coherence-calculator.py",
       "lang": "python",
       "size": 3424,
@@ -1556,8 +1622,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 341815,
-      "hash": "2103334adb0a3b2aaeade4eb54e421d0e59db30f",
+      "size": 342044,
+      "hash": "3e3dbe49020327fb8cedec66f7982f2e57c6c586",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -7387,6 +7453,16 @@
       "hotspots": []
     },
     {
+      "path": "ai-sensor-index/samples/index.sample.json",
+      "lang": "json",
+      "size": 4266,
+      "hash": "7906a40e4f7ddfdc580335e9f630dbc66ec40035",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "field-memory-correction-packs/scent-binding-protocol.json",
       "lang": "json",
       "size": 1288,
@@ -8510,7 +8586,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 38374,
-      "hash": "d4b0eb0b329bb290c2178e77799e3838ed185ba3",
+      "hash": "411fc32ee17edfdb2ce25f990e239c5f2ae05ac4",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8588,8 +8664,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 62591,
-      "hash": "bc40c0201317aebfeef8bd63fac20df1f8aa75d2",
+      "size": 62613,
+      "hash": "effe54c96c624b23d14883c668532bef6eafd5f6",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8662,8 +8738,8 @@
     {
       "path": "CLAUDE.md",
       "lang": "md",
-      "size": 18592,
-      "hash": "f489455a9aa1d899d627500e05ebe1649e3d8dd5",
+      "size": 18733,
+      "hash": "3402245939b35bd7d3216812d54bd930d586e25c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -13011,6 +13087,26 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "ai-sensor-index/README.md",
+      "lang": "md",
+      "size": 2666,
+      "hash": "9e49914f93e3d0a6666ce89060577183347ecc7e",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "ai-sensor-index/CLAIM_TABLE.md",
+      "lang": "md",
+      "size": 1686,
+      "hash": "9e127e55c8584baca3dc643f2f78c1a41f9b864d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "human/README.md",

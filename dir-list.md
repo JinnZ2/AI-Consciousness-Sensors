@@ -6,6 +6,8 @@
 ./.github/workflows
 ./ai-energy-ecology
 ./ai-energy-ecology/docs
+./ai-sensor-index
+./ai-sensor-index/samples
 ./analysis
 ./analysis/case-studies
 ./analysis/energy

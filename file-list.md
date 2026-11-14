@@ -38,6 +38,16 @@
 ./ai-energy-ecology/docs/theory-context.md
 ./ai-integrator.config.yaml
 ./ai-navigation.md
+./ai-sensor-index/CLAIM_TABLE.md
+./ai-sensor-index/README.md
+./ai-sensor-index/_load.py
+./ai-sensor-index/calibration_log.py
+./ai-sensor-index/discovery.py
+./ai-sensor-index/samples/discovery.sample.txt
+./ai-sensor-index/samples/index.sample.json
+./ai-sensor-index/samples/seed_log.sample.jsonl
+./ai-sensor-index/sensors.py
+./ai-sensor-index/test_ai_sensor_index.py
 ./analysis/additional.md
 ./analysis/ai-processing-interference.md
 ./analysis/case-studies/aristotelian-logic.md
@@ -1265,6 +1275,7 @@
 ./tests/examples/trust-as-energy.md
 ./tests/historical_tests.py
 ./tests/test_ai_comprehension.py
+./tests/test_ai_sensor_index_shim.py
 ./tests/test_healing_ai_instruments.py
 ./tests/test_healing_collapsed_memory.py
 ./tests/test_healing_moral_playground.py
