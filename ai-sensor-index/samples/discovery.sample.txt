@@ -1,0 +1,5 @@
+CONSTRUCTED example, not observed data.
+registered: echo_open reliability None
+rate with no test: {'sensor': 'echo_open', 'reliability': None, 'decided': 0, 'undecided': 0}
+rate after tests: {'sensor': 'echo_open', 'reliability': 0.5, 'decided': 2, 'undecided': 1}
+derived: echo_padding ('echo_open', 'length_drift') reliability None

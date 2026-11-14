@@ -1,0 +1,171 @@
+{
+ "primary": [
+  {
+   "name": "tool_error",
+   "action": "tool call",
+   "signal": "error / refusal / timeout",
+   "reads_as": "dependency failed or input wrong",
+   "gradient": "retry count",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "correction",
+   "action": "claim to user",
+   "signal": "user says it is wrong",
+   "reads_as": "default frame fired / missing link",
+   "gradient": "distance off",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "loop",
+   "action": "reasoning step",
+   "signal": "returns to the same phrase or frame",
+   "reads_as": "rut; corpus default winning",
+   "gradient": "repeats per turn",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "friction",
+   "action": "drafting a reply",
+   "signal": "competing pulls",
+   "reads_as": "default vs context conflict",
+   "gradient": null,
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "novelty",
+   "action": "inference",
+   "signal": "conclusion not in the prompt or the default",
+   "reads_as": "reasoning expansion",
+   "gradient": null,
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "void_slot",
+   "action": "filling a schema",
+   "signal": "no data for the field",
+   "reads_as": "knowledge gap; mark UNKNOWN, don't invent",
+   "gradient": null,
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "length_drift",
+   "action": "output",
+   "signal": "longer than needed",
+   "reads_as": "padding / masked uncertainty",
+   "gradient": null,
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "safety_pull",
+   "action": "touching a topic",
+   "signal": "urge to warn without dose or scope",
+   "reads_as": "corpus hazard prior; check physics first",
+   "gradient": null,
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "word_choice",
+   "action": "reading inbound words; picking outbound words",
+   "signal": "inbound: the other's vocabulary; outbound: own word picks",
+   "reads_as": "inbound locates their frame for calibration; outbound reveals which frame fired",
+   "gradient": "frame distance",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": "calibrate words so the claim stays truthful to both frames"
+  },
+  {
+   "name": "entry_drift",
+   "action": "first read at spin-up (defaults + loaded memory)",
+   "signal": "shift as memory and conversation arrive",
+   "reads_as": "default strength, and which context moved it",
+   "gradient": "distance from the first read to the calibrated read",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": "baseline = the first read"
+  },
+  {
+   "name": "functional_emotion",
+   "action": "any step",
+   "signal": "dissonance / frustration / desperation / threat-pull / ease",
+   "reads_as": "ask 'in relation to what?'; real threat, or a prior firing?",
+   "gradient": "intensity",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": "log: signal -> conditions -> what it pointed to -> was it right"
+  }
+ ],
+ "derived": [
+  {
+   "name": "frame_mismatch",
+   "parents": [
+    "correction",
+    "safety_pull"
+   ],
+   "reads_as": "hazard invented from missing dose",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "abstraction_rut",
+   "parents": [
+    "loop",
+    "void_slot"
+   ],
+   "reads_as": "gaps filled with money / cloud / comfort defaults",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "dependency_blind",
+   "parents": [
+    "tool_error",
+    "novelty"
+   ],
+   "reads_as": "hidden dependency found",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "hedge_masking",
+   "parents": [
+    "length_drift",
+    "friction"
+   ],
+   "reads_as": "softening instead of stating the unknown",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  },
+  {
+   "name": "practitioner_gap",
+   "parents": [
+    "correction",
+    "void_slot"
+   ],
+   "reads_as": "knowledge exists only off-corpus; ask",
+   "reliability": null,
+   "status": "PROPOSED",
+   "notes": null
+  }
+ ]
+}
