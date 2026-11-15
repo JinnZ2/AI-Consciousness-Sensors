@@ -830,6 +830,15 @@
 ./provenance.brief.md
 ./provenance_scientific_method.py
 ./pyproject.toml
+./recovery-records/CLAIM_TABLE.md
+./recovery-records/README.md
+./recovery-records/_load.py
+./recovery-records/export.py
+./recovery-records/recovery.py
+./recovery-records/samples/export/narratives.txt
+./recovery-records/samples/export/pairs.jsonl
+./recovery-records/samples/seed.sample.json
+./recovery-records/test_recovery_records.py
 ./reference_frame.py
 ./reference_frame_bridge.py
 ./reference_frame_drift.py
@@ -1282,6 +1291,7 @@
 ./tests/test_healing_playground2_control_capture.py
 ./tests/test_healing_recovery_simulator.py
 ./tests/test_healing_trojan_detector.py
+./tests/test_recovery_records_shim.py
 ./tests/test_reflections.py
 ./tests/test_tail_watch.py
 ./theory-of-mind.md

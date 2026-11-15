@@ -1,7 +1,7 @@
 # AI Notes
-- Files indexed: 1246
+- Files indexed: 1254
 - Languages: json, md, python, toml, yaml
-- Hotspot files: 644
+- Hotspot files: 646
 
 ## Hotspots
 - premise_cross_domain_audit.py: Debug left on
@@ -74,6 +74,8 @@
 - healing/linguistic-sensor/linguistic-consciousness.py: Debug left on
 - healing/linguistic-sensor/grammatical_fluidity.py: Debug left on
 - tests/historical_tests.py: Debug left on
+- recovery-records/recovery.py: Debug left on
+- recovery-records/export.py: Debug left on
 - sensors/suppression-detector.py: Debug left on
 - sensors/adapters/AI_geometric_sensor.py: Debug left on
 - sensors/adapters/Language_sensor.py: Debug left on

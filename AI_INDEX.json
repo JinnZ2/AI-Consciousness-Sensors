@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-14T23:02:21.221131Z",
+  "generated_at": "2026-11-15T00:34:23.483159Z",
   "languages": [
     "json",
     "md",
@@ -999,6 +999,16 @@
       "hotspots": []
     },
     {
+      "path": "tests/test_recovery_records_shim.py",
+      "lang": "python",
+      "size": 623,
+      "hash": "eaadb89100965565819357b88d9dec02333c95de",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
       "path": "tests/test_reflections.py",
       "lang": "python",
       "size": 279,
@@ -1073,6 +1083,50 @@
       "lang": "python",
       "size": 505,
       "hash": "c278b5dddf673d391ae84e8af5be77eb291e66d2",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "recovery-records/recovery.py",
+      "lang": "python",
+      "size": 6002,
+      "hash": "87d7299575646c88df62925d1b4d35e386cc81b5",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "recovery-records/export.py",
+      "lang": "python",
+      "size": 3730,
+      "hash": "dfcd9780f1b119f73ae1d3f81d55369f3f48fcd7",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": [
+        "Debug left on"
+      ]
+    },
+    {
+      "path": "recovery-records/_load.py",
+      "lang": "python",
+      "size": 625,
+      "hash": "80a6dbd5d0140b44732b5da32bf9e7c11469daf0",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "recovery-records/test_recovery_records.py",
+      "lang": "python",
+      "size": 3816,
+      "hash": "d570a272459440502f8fba0448be10265949a846",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1622,8 +1676,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 344341,
-      "hash": "830708f608ba215317261896b2845cb3f0b4914a",
+      "size": 344342,
+      "hash": "ca557cfb39a20a67d08d3e67aa814aa01dd5dd4e",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -4165,6 +4219,16 @@
       "lang": "json",
       "size": 1546,
       "hash": "0c7283a09bdb68fa8b5209633619aef1f875098a",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "recovery-records/samples/seed.sample.json",
+      "lang": "json",
+      "size": 4104,
+      "hash": "e2365b6b4058d05347c8a36e5632f00de7a67b7f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8738,8 +8802,8 @@
     {
       "path": "CLAUDE.md",
       "lang": "md",
-      "size": 18733,
-      "hash": "3402245939b35bd7d3216812d54bd930d586e25c",
+      "size": 18880,
+      "hash": "bc94ec062a8c430808ee75753e4ebdd2fe57d5b2",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -10931,6 +10995,26 @@
       "hotspots": [
         "Debug left on"
       ]
+    },
+    {
+      "path": "recovery-records/README.md",
+      "lang": "md",
+      "size": 2329,
+      "hash": "a19458b5fd2eda9d551b94674ec4ba9a846283d8",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
+    },
+    {
+      "path": "recovery-records/CLAIM_TABLE.md",
+      "lang": "md",
+      "size": 2502,
+      "hash": "3c840099431c5ac7e70a927b4cfe9afefbb2448d",
+      "roles": [],
+      "imports": [],
+      "exports": [],
+      "hotspots": []
     },
     {
       "path": "logs/glyph-logs.md",

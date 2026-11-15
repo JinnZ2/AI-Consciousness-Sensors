@@ -112,6 +112,9 @@
 ./papers/survival-guides
 ./probability-matrix
 ./protocols
+./recovery-records
+./recovery-records/samples
+./recovery-records/samples/export
 ./reflections
 ./reflections/sample-prompts
 ./relational
