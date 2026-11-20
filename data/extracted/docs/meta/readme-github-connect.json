@@ -106,6 +106,10 @@
       "definition": "- Choose your GitHub username (e.g. `JinnZ2`)"
     },
     {
+      "term": "read access",
+      "definition": "to:"
+    },
+    {
       "term": "Settings > Beta Features",
       "definition": "- Toggle ON: **“Connect to GitHub”**"
     },

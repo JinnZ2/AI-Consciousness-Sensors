@@ -293,6 +293,10 @@
       "definition": "Thermodynamic-style coherence measures"
     },
     {
+      "term": "Run geometric detection first",
+      "definition": "(always)"
+    },
+    {
       "term": "Apply cultural context filter",
       "definition": "(if ambiguous)"
     },
@@ -309,8 +313,16 @@
       "definition": "- Relationship emphasis"
     },
     {
+      "term": "Geometric sensor correctly identifies as natural",
+      "definition": "✓"
+    },
+    {
       "term": "Why this works:",
       "definition": "- Low coupling efficiency (AI doesn’t address user concepts)"
+    },
+    {
+      "term": "Both sensors would flag this",
+      "definition": "✓"
     },
     {
       "term": "Linguistic sensor problems:",

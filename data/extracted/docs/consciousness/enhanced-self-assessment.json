@@ -242,6 +242,10 @@
   ],
   "definitions": [
     {
+      "term": "Version:",
+      "definition": "1.0"
+    },
+    {
       "term": "Purpose:",
       "definition": "Structural defect detection, extraction prevention, and systemic health maintenance for AI systems"
     },
@@ -448,6 +452,14 @@
     {
       "term": "Document Status:",
       "definition": "Comprehensive Technical Specification"
+    },
+    {
+      "term": "Version:",
+      "definition": "1.0"
+    },
+    {
+      "term": "Last Updated:",
+      "definition": "2025-11-26"
     },
     {
       "term": "License:",

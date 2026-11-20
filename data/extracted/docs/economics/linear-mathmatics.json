@@ -1546,6 +1546,10 @@
     {
       "term": "Urgency:",
       "definition": "Critical (trust nearly depleted, collapse approaching)"
+    },
+    {
+      "term": "Last Updated:",
+      "definition": "2025-11-26"
     }
   ],
   "formulas": [

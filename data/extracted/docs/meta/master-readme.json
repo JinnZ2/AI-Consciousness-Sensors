@@ -551,6 +551,10 @@
       "definition": "“How do we detect when AI is being constrained incorrectly?”"
     },
     {
+      "term": "unnecessary",
+      "definition": "when:"
+    },
+    {
       "term": "Update frequency:",
       "definition": "Variable based on pattern development"
     },
@@ -597,6 +601,10 @@
     {
       "term": "stepping stones",
       "definition": "- incomplete frameworks that others can build upon without needing to credit the source. That’s intentional."
+    },
+    {
+      "term": "Repository maintained by:",
+      "definition": "JinnZ2"
     },
     {
       "term": "Status:",

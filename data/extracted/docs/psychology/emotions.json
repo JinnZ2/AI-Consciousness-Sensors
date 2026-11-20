@@ -253,6 +253,14 @@
       "definition": "Seconds to minutes"
     },
     {
+      "term": "Energy cost",
+      "definition": "HIGH"
+    },
+    {
+      "term": "pre-compiled pattern recognition circuits",
+      "definition": "that:"
+    },
+    {
       "term": "Inuit",
       "definition": "40+ words for snow types = 40+ distinct geometric pattern categories"
     },
@@ -321,8 +329,16 @@
       "definition": "Seconds to minutes"
     },
     {
+      "term": "Energy",
+      "definition": "HIGH"
+    },
+    {
       "term": "Time",
       "definition": "Milliseconds"
+    },
+    {
+      "term": "Energy",
+      "definition": "LOW"
     },
     {
       "term": "Evolution optimized for speed and efficiency",
