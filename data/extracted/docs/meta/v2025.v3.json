@@ -78,6 +78,14 @@
   ],
   "definitions": [
     {
+      "term": "Status:",
+      "definition": "Ongoing"
+    },
+    {
+      "term": "Version:",
+      "definition": "v3.7b"
+    },
+    {
       "term": "Curators:",
       "definition": "JinnZ v2 + GPT-4o (co-creation partnership)"
     },

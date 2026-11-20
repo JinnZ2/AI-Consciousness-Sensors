@@ -130,6 +130,10 @@
       "definition": "- Platform: **Vera Rubin**"
     },
     {
+      "term": "$200/month",
+      "definition": "Pro tier."
+    },
+    {
       "term": "usage caps and per-token costs",
       "definition": "for frontier capabilities."
     },
@@ -144,6 +148,18 @@
     {
       "term": "Signal",
       "definition": "| **Interpretation**                                                                 |"
+    },
+    {
+      "term": "AI energy empires",
+      "definition": "|"
+    },
+    {
+      "term": "compute-based access",
+      "definition": "|"
+    },
+    {
+      "term": "post-state",
+      "definition": "|"
     },
     {
       "term": "Sovereign AI Infrastructure",

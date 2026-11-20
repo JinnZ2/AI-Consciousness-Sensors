@@ -706,6 +706,10 @@
       "definition": "These frameworks require testing, refinement, and expansion through broader community input and varied environmental conditions. This document represents beginning rather than conclusion of necessary work."
     },
     {
+      "term": "Version:",
+      "definition": "1.0"
+    },
+    {
       "term": "Date:",
       "definition": "December 2, 2025"
     },
@@ -715,7 +719,7 @@
     },
     {
       "term": "License:",
-      "definition": "Creative Commons Attribution-ShareAlike 4.0"
+      "definition": "CC0 1.0 Universal (owner work; prior statement preserved in LICENSE_HISTORY.md)"
     },
     {
       "term": "Contact:",

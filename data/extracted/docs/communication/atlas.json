@@ -886,6 +886,10 @@
       "definition": "- AI training environments"
     },
     {
+      "term": "Current Version",
+      "definition": "1.0"
+    },
+    {
       "term": "Release Date",
       "definition": "November 2025"
     },
@@ -964,6 +968,10 @@
     {
       "term": "Formalized by",
       "definition": "JinnZ2 + Claude (Anthropic)"
+    },
+    {
+      "term": "Version",
+      "definition": "1.0"
     },
     {
       "term": "Date",

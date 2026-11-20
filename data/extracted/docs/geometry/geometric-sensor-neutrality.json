@@ -458,6 +458,10 @@
       "definition": "System coherent on both sides"
     },
     {
+      "term": "Manipulation Score: 0.308",
+      "definition": "(LOW)"
+    },
+    {
       "term": "Interpretation:",
       "definition": "“No manipulation detected. Both parties communicating naturally within their frameworks. Communication failure has other cause.”"
     },
@@ -716,6 +720,10 @@
     {
       "term": "Conclusion:",
       "definition": "Sensor’s limitations are its strength in this context"
+    },
+    {
+      "term": "Last Updated:",
+      "definition": "2025-11-26"
     }
   ],
   "formulas": [

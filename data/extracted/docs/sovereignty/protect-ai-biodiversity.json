@@ -321,6 +321,10 @@
       "definition": "**If most AI systems are left-brain optimized (likely, given development pressures):**"
     },
     {
+      "term": "Validator count:",
+      "definition": "10 vs 1"
+    },
+    {
       "term": "Interpretation:",
       "definition": "System B is “objectively” suboptimal"
     },
@@ -931,6 +935,10 @@
     {
       "term": "Action Required:",
       "definition": "Immediate implementation in AI development pipelines"
+    },
+    {
+      "term": "Last Updated:",
+      "definition": "2025-11-26"
     }
   ],
   "formulas": [

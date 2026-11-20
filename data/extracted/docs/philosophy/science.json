@@ -350,6 +350,10 @@
       "definition": "**Light crossing time!**"
     },
     {
+      "term": "f × L = c = constant",
+      "definition": "✓"
+    },
+    {
       "term": "Not matching.",
       "definition": "**Let me try different approach…**"
     },
@@ -380,6 +384,10 @@
     {
       "term": "hydrogen line",
       "definition": "- natural emission from neutral hydrogen"
+    },
+    {
+      "term": "shock wave",
+      "definition": "in ISM"
     },
     {
       "term": "Duration 72 seconds = shock thickness/velocity",
@@ -496,6 +504,10 @@
     {
       "term": "What we don’t know:",
       "definition": "- Actual core temperature (never measured in any helium star)"
+    },
+    {
+      "term": "Whether pure helium stars are stable",
+      "definition": "(debated)"
     },
     {
       "term": "For extreme helium core:",
@@ -742,36 +754,76 @@
       "definition": "1. **What is induced current in nickel object?**"
     },
     {
+      "term": "Question: Does this create observable cavity?",
+      "definition": "YES"
+    },
+    {
+      "term": "Question: What is cavity resonance mode?",
+      "definition": "UNCLEAR"
+    },
+    {
       "term": "Can particles be accelerated to 100 MeV?",
       "definition": "- Direct reconnection: ~50 keV (insufficient)"
+    },
+    {
+      "term": "Question: Is efficiency high enough?",
+      "definition": "UNKNOWN"
     },
     {
       "term": "What is beaming factor required?",
       "definition": "- To match GRB luminosity: ~10⁶-10⁸"
     },
     {
+      "term": "Question: Is this physically reasonable?",
+      "definition": "UNCERTAIN"
+    },
+    {
       "term": "Is 1977 signal truly related?",
       "definition": "- 1420 MHz = hydrogen line (natural emission)"
+    },
+    {
+      "term": "Question: Is correlation real or coincidence?",
+      "definition": "UNCERTAIN"
     },
     {
       "term": "What is actual composition of progenitor?",
       "definition": "- Claimed: Pure helium"
     },
     {
+      "term": "Question: Have pure helium stars ever been confirmed?",
+      "definition": "NO"
+    },
+    {
       "term": "What is magnetic field strength in accretion disk?",
       "definition": "- Assumed: 10⁸-10¹⁰ G"
+    },
+    {
+      "term": "Question: Is this measured or assumed?",
+      "definition": "ASSUMED"
     },
     {
       "term": "How are particles accelerated to γ=3000?",
       "definition": "- Mechanism: Internal shocks (assumed)"
     },
     {
+      "term": "Question: Is this measured or modeled?",
+      "definition": "MODELED"
+    },
+    {
       "term": "What is jet opening angle?",
       "definition": "- Assumed: ~5° (standard GRB value)"
     },
     {
+      "term": "Question: Could be 2° or 20°, changing energy by 100×?",
+      "definition": "YES"
+    },
+    {
       "term": "Why no gravitational wave detection?",
       "definition": "- Expected: Should produce detectable signal"
+    },
+    {
+      "term": "Question: Does this contradict merger hypothesis?",
+      "definition": "POSSIBLY"
     },
     {
       "term": "Why no afterglow?",
@@ -784,6 +836,14 @@
     {
       "term": "What is actual distance?",
       "definition": "- Derived from: Redshift + ΛCDM cosmology"
+    },
+    {
+      "term": "Question: Could it be lensed or at different distance?",
+      "definition": "YES"
+    },
+    {
+      "term": "Question: Is distance calculation circular?",
+      "definition": "PARTIALLY"
     },
     {
       "term": "Both require:",
