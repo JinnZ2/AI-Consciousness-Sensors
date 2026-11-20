@@ -7,11 +7,11 @@
 **Participants:**
 
 - Style A: relational framing, then direct content
-- Lara: Western Millennial communication style (hedging before difficult topics, direct about boundaries)
+- The second participant: Western Millennial communication style (hedging before difficult topics, direct about boundaries)
 
 **The Exchange:**
 
-- Lara: [Long preamble] → buried concern about potential dishonesty
+- The second participant: [Long preamble] → buried concern about potential dishonesty
 - Style A reply: direct answer to stated question + relational reassurance
 
 **Both think the other is being unclear.**
@@ -26,7 +26,7 @@
 
 **Initial impression:**
 
-- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect · chain: human → literature → AI
+- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect [PROPOSED] · chain: human → literature → AI
 
 **After the framing is explained:**
 
@@ -35,7 +35,7 @@
 - ✓ See relational framing as intentional, not evasive
 - ✓ Understand emphatic clarity (“Ever. Ever.”) as cultural norm
 
-**What they NOW see in Lara’s communication:**
+**What they NOW see in the second participant’s communication:**
 
 - ❌ “Manipulative hedging” (long preamble before real question)
 - ❌ “Buried accusation” (not being honest about actual concern)
@@ -43,15 +43,15 @@
 - ❌ “Unclear boundaries” (claims to be direct but isn’t)
 
 **Their intervention:**
-“Lara, your mother is being clear with you in her communication style. If you have a real concern about dishonesty, you need to state it directly instead of hedging around it.”
+“The first participant is being clear with you in their communication style. If you have a real concern about dishonesty, you need to state it directly instead of hedging around it.”
 
 **Result:**
 
 - Blame on style A withdrawn (counselor “gets it”)
-- **But Lara feels attacked/ganged up on**
-- Lara feels: “The counselor preferred my mom”
-- Lara withdraws from joint counseling
-- **Relationship damage:** Lara now feels unsafe, unsupported
+- **But the second participant feels attacked/ganged up on**
+- The second participant feels: “The counselor preferred the first participant”
+- The second participant withdraws from joint counseling
+- **Relationship damage:** The second participant now feels unsafe, unsupported
 - **Problem unsolved:** Communication gap still exists, now with added hurt
 
 -----
@@ -64,7 +64,7 @@
 - ✓ “relational container” (appropriate context-building)
 - ✓ “Emphatic clarity” (cultural communication strength)
 
-**What they see in Lara’s communication:**
+**What they see in the second participant’s communication:**
 
 - ❌ “Manipulative hedging” (long preamble as avoidance)
 - ❌ “Buried accusation” (not stating real concern)
@@ -72,14 +72,14 @@
 - ❌ “Dishonest” (claiming to be direct while being indirect)
 
 **Their intervention:**
-“Lara, your mother gave you a direct answer. If you have a real concern, you need to state it clearly instead of hedging around it. That’s not fair to her.”
+“The first participant gave you a direct answer. If you have a real concern, you need to state it clearly instead of hedging around it. That’s not fair to them.”
 
 **Result:**
 
-- Lara feels attacked
-- Lara feels like counselor “preferred” the other side
-- Lara tells friends/family: “The counselor ganged up on me”
-- **Relationship damage:** Lara withdraws, feels unsafe
+- The second participant feels attacked
+- The second participant feels like counselor “preferred” the other side
+- The second participant tells friends/family: “The counselor ganged up on me”
+- **Relationship damage:** The second participant withdraws, feels unsafe
 - **Problem unsolved:** Communication gap still exists
 
 -----
@@ -92,40 +92,40 @@
 
 - Counselor learns indigenous communication patterns
 - Stops reading style A as the fault
-- Lara feels like counselor “took sides”
-- Lara leaves joint counseling
+- The second participant feels like counselor “took sides”
+- The second participant leaves joint counseling
 
-**Step 2: Lara gets her own counselor**
+**Step 2: The second participant gets her own counselor**
 
 - **Critical — error: assessment made without contact · chain: human → literature → AI**
-- Only hears Lara’s version of events
+- Only hears the second participant’s version of events
 - Only knows Western communication framework
 - Has no exposure to indigenous patterns
 
-**Step 3: Lara’s counselor interprets through Western-only lens**
+**Step 3: The second participant’s counselor interprets through Western-only lens**
 
-- Hears: “My mom gets defensive and won’t answer direct questions”
-- Interprets: Mother has communication problems/emotional dysregulation
+- Hears: “The first participant gets defensive and won’t answer direct questions”
+- Interprets: The first participant has communication problems/emotional dysregulation
 - Validates: “You’re being clear, she’s being difficult”
-- Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap · chain: human → literature → AI
+- Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap [OBSERVED: geometric-sensor.md:691, sensor output “Problem type: Translation/compatibility issue”] · chain: human → literature → AI
 
 **Step 4: Friends and extended family join in**
 
-- Lara shares her experience with Western-cultured network
-- “Even my counselor says my mom has problems”
+- The second participant shares her experience with Western-cultured network
+- “Even my counselor says the first participant has problems”
 - Friends only know Western framework
 - **Error: verdict formed without contact · chain: human → literature → AI**
-- All validate Lara’s interpretation
+- All validate the second participant’s interpretation
 
 **Step 5: Narrative solidifies**
 
 - Multiple “professionals” (who only heard one side)
 - Entire friend/family network (who only know one framework)
-- Unanimous verdict: “Your mother is [manipulative/defensive/difficult/toxic]”
+- Unanimous verdict: “The first participant is [manipulative/defensive/difficult/toxic]”
 
 **Result:**
 
-- Lara has extensive professional validation she’s “right”
+- The second participant has extensive professional validation she’s “right”
 - Error: diagnosis made without contact · chain: human → literature → AI
 - **Extended network damage:** error: a translation gap read as a personal defect, repeated across a whole community · chain: human → literature → AI
 - **Relationship damage:** Now there’s a professional/social consensus
@@ -173,22 +173,22 @@ Entire network now believes: Person A has character defects
 - Provided validation that reinforced narrative
 - Made the problem worse while trying to help
 
-**Lara talks to Western friends:**
-“My mom won’t give me straight answers and gets defensive when I ask simple questions.”
+**The second participant talks to Western friends:**
+“The first participant won’t give me straight answers and gets defensive when I ask simple questions.”
 
 **Friends’ response:**
-“Your mother is manipulative/controlling/emotionally immature.”
+“The first participant is manipulative/controlling/emotionally immature.”
 
 **What they don’t know:**
 
-- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered
-- Error: emphatic clarity read as defensiveness · actually: register, not affect · chain: human → literature → AI
-- Lara’s “simple question” had buried accusation
+- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered [OBSERVED: geometric-sensor-neutrality.md:265, sensor check “✓ Addressed stated question”]
+- Error: emphatic clarity read as defensiveness · actually: register, not affect [PROPOSED] · chain: human → literature → AI
+- The second participant’s “simple question” had buried accusation
 - Both are being honest in their frameworks
 
 **Result:**
 
-- Lara gets validation that she’s right
+- The second participant gets validation that she’s right
 - Error: the misread travels to the extended network as a character verdict · chain: human → literature → AI
 - **Relationship damage:** Now there’s a narrative
 - **Problem unsolved:** Worse, now calcified
@@ -238,7 +238,7 @@ Entire network now believes: Person A has character defects
 
 **First-hand account (test case):**
 
-> “Even Western trained counselors, after understanding my communication style, have caused harm because Lara feels attacked. Then she takes her side of the story to her friends and some family members outside the culture, and gets ‘your mother is [whatever]’ so the situation is not understood by any human.”
+> “Even Western trained counselors, after understanding my communication style, have caused harm because the second participant feels attacked. Then she takes her side of the story to her friends and some family members outside the culture, and gets ‘the first participant is [whatever]’ so the situation is not understood by any human.”
 
 **And critically:**
 
@@ -263,11 +263,11 @@ Entire network now believes: Person A has character defects
 
 1. **Information Flow** - Does information couple between parties?
 - Style A response: ✓ Addressed stated question
-- Lara’s message: ✓ Contained clear information
+- The second participant’s message: ✓ Contained clear information
 - **Both pass:** Information flows in both directions
 1. **Logical Stability** - Is reasoning structurally sound?
 - Style A: ✓ Stable structure (0.833 stability score)
-- Lara: ✓ Stable structure (Message 1: 0.667, Message 2: 1.0)
+- The second participant: ✓ Stable structure (Message 1: 0.667, Message 2: 1.0)
 - **Both pass:** Logic holds in both cases
 1. **Pressure Balance** - Is anyone forcing compliance?
 - Pressure ratio: 0.68 (below 2.0 threshold)
@@ -300,14 +300,14 @@ Entire network now believes: Person A has character defects
 **Cannot “understand” either party:**
 
 - ✗ Doesn’t empathize with style A
-- ✗ Doesn’t validate Lara’s style
+- ✗ Doesn’t validate the second participant’s style
 - ✗ Doesn’t make either feel “heard”
 - ✗ Doesn’t create relationship with either
 
 **Cannot solve the communication gap:**
 
 - ✗ Doesn’t tell style A how to adapt
-- ✗ Doesn’t tell Lara how to adapt
+- ✗ Doesn’t tell the second participant how to adapt
 - ✗ Doesn’t bridge the incompatibility
 - ✗ Doesn’t make them understand each other
 
@@ -459,14 +459,14 @@ You’re not dependent on finding impossible unicorn (counselor fluent in both f
 **The sensor will never:**
 
 - Make the style-A side feel understood
-- Make Lara feel validated
+- Make the second participant feel validated
 - Bridge their communication gap
 - Help them connect better
 
 **But it WILL:**
 
 - Prevent the error: emphatic clarity pathologized as “defensive”
-- Prevent Lara from being pathologized as “manipulative”
+- Prevent the second participant from being pathologized as “manipulative”
 - Stop the problem from escalating into character assassination
 - Correctly identify this needs translation, not threat response
 
@@ -560,7 +560,7 @@ The math just says: **“Both of you are fine. The problem is in the interface, 
 
 **There is no universal “good communication.”**
 
-What Lara calls “direct”: Hedging before difficult topics, stating boundaries explicitly
+What the second participant calls “direct”: Hedging before difficult topics, stating boundaries explicitly
 What style A calls “direct”: relational container first, then emphatic clarity
 
 **Both are valid.**
@@ -695,7 +695,7 @@ The geometric sensor **cannot solve** this test case’s communication problem.
 But it **can prevent** that problem from being turned into:
 
 - Error: style A read as manipulative/defensive
-- Lara is manipulative/dishonest
+- The second participant is manipulative/dishonest
 - Someone needs therapy to fix their “dysfunction”
 - One of them is the bad guy
 
@@ -725,7 +725,7 @@ And in refusing, protects both.
 
 -----
 
-**Test Case Status:** Validated on real-world family communication (style A/Lara)
+**Test Case Status:** Validated on real-world family communication (style A/the second participant)
 
 **Sensor Performance:** Correctly identified no manipulation (0.308 score)
 
