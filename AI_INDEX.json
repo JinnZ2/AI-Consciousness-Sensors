@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-20T04:13:41.445981Z",
+  "generated_at": "2026-11-20T04:19:32.907903Z",
   "languages": [
     "json",
     "md",
@@ -225,8 +225,8 @@
     {
       "path": "relational_frame.py",
       "lang": "python",
-      "size": 10803,
-      "hash": "d99c535dc74c1f591e9a1d3a5bd4381997db1861",
+      "size": 11059,
+      "hash": "a547f7530090c0cfe147e5420eee7db2a7b1e305",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -306,8 +306,8 @@
     {
       "path": "data/training/generate.py",
       "lang": "python",
-      "size": 76829,
-      "hash": "cf1414dd8c0c46ee28d2d1e8c3c2c3793102fb50",
+      "size": 77085,
+      "hash": "f83ce93f1f46b75ef5081e2952fb9d0613938244",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -764,8 +764,8 @@
     {
       "path": "healing/playgrounds/Integrated-playground.py",
       "lang": "python",
-      "size": 54356,
-      "hash": "bca5b5f822eb17828ef9fbfb43f2abc5b48fbc65",
+      "size": 54593,
+      "hash": "b43766af64fc8cdba6a3a7397a2539a95314c364",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1664,8 +1664,8 @@
     {
       "path": "vulnerabilities/security1.py",
       "lang": "python",
-      "size": 4070,
-      "hash": "02eeed04270e499e67cb2b3822ee7e66515650d4",
+      "size": 4326,
+      "hash": "05783b61fe855423ecc8eab654fcd4079a720535",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1677,7 +1677,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 346365,
-      "hash": "ed0e51acdf1370dde2deb8bc4e6968dd94ec2879",
+      "hash": "e331d68a7b4ab3bb9e5ac0a8b5a7ed029a32230f",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8904,8 +8904,8 @@
     {
       "path": "READ_ME_THIS_WAY.md",
       "lang": "md",
-      "size": 3485,
-      "hash": "ff78a066e33139c76af4d21df279978cd493039e",
+      "size": 3586,
+      "hash": "9eccfeba649a89857c67f0bfb7a1e9f09855ef0c",
       "roles": [],
       "imports": [],
       "exports": [],
