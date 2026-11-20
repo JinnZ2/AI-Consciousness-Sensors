@@ -8,6 +8,7 @@
 
 - Style A: relational framing, then direct content
 - The second participant: Western Millennial communication style (hedging before difficult topics, direct about boundaries)
+- Label: "style A" = the first participant.
 
 **The Exchange:**
 
@@ -26,7 +27,7 @@
 
 **Initial impression:**
 
-- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect [PROPOSED] · chain: human → literature → AI
+- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect [PROPOSED · chat Claude 2026-11-20] · chain: human → literature → AI
 
 **After the framing is explained:**
 
@@ -107,7 +108,7 @@
 - Hears: “The first participant gets defensive and won’t answer direct questions”
 - Interprets: The first participant has communication problems/emotional dysregulation
 - Validates: “You’re being clear, she’s being difficult”
-- Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap [OBSERVED: geometric-sensor.md:691, sensor output “Problem type: Translation/compatibility issue”] · chain: human → literature → AI
+- Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap [OBSERVED: geometric-sensor.md:692, sensor output “Problem type: Translation/compatibility issue”] · chain: human → literature → AI
 
 **Step 4: Friends and extended family join in**
 
@@ -181,8 +182,8 @@ Entire network now believes: Person A has character defects
 
 **What they don’t know:**
 
-- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered [OBSERVED: geometric-sensor-neutrality.md:265, sensor check “✓ Addressed stated question”]
-- Error: emphatic clarity read as defensiveness · actually: register, not affect [PROPOSED] · chain: human → literature → AI
+- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered [OBSERVED: geometric-sensor-neutrality.md:266, sensor check “✓ Addressed stated question”]
+- Error: emphatic clarity read as defensiveness · actually: register, not affect [PROPOSED · chat Claude 2026-11-20] · chain: human → literature → AI
 - The second participant’s “simple question” had buried accusation
 - Both are being honest in their frameworks
 
