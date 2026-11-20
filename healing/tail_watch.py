@@ -152,6 +152,47 @@ def bench(seeds=50, n_surr=200, alpha=0.05, window=20):
     return {k: {"hits": v[0], "false_alarms": v[1], "seeds": seeds,
                 "hit_rate": v[0] / seeds, "fa_rate": v[1] / seeds} for k, v in rows.items()}
 
+# --- Added 2026-11-02 (relay part Q): phase field. ---------------------------------------------------
+# What to watch for depends on where the structure sits in the adaptive cycle (Holling 1986;
+# Gunderson & Holling 2002, Panarchy; carried, not re-read here). The checks above cover only the
+# approach to a tip. Phase is DECLARED by the caller, never inferred from the series. PROPOSED.
+# Mapping onto the wisdom-glyph equations: not interpretable atm.
+PHASES = ("growth", "conservation", "release", "reorganization")
+PHASE_WATCH = {
+    "growth": [
+        "what is being taken for granted",
+        "rising connectedness",
+    ],
+    "conservation": [
+        "rising variance",
+        "slowing recovery after small disturbances",
+        "rising cost or complexity",
+        "dissent drowned out without being reasoned with",
+    ],
+    "release": [
+        "cascades",
+        "new threat types",
+        "flicker between states",
+    ],
+    "reorganization": [
+        "which small pieces take hold",
+        "novelty rate",
+    ],
+}
+
+def watch(phase):
+    """The checks for a declared phase (copy). Unknown phase raises; there is no default phase."""
+    if phase not in PHASE_WATCH:
+        raise ValueError("phase must be one of %s, got %r" % (", ".join(PHASES), phase))
+    return list(PHASE_WATCH[phase])
+
+def phase_reading(series, phase=None, window=20):
+    """flag() plus the phase's watch list. phase=None -> UNDECLARED and no list: not inferred."""
+    return {"phase": phase if phase is not None else "UNDECLARED",
+            "watch": watch(phase) if phase is not None else [],
+            "flag": flag(series, window),
+            "mapping_to_wisdom_glyph_equations": "not interpretable atm"}
+
 def selftest():
     import random
     checks = []
@@ -183,6 +224,22 @@ def selftest():
     checks.append(("consensus_check fires", consensus_check(0.9, 0.05).startswith("RUN")))
     checks.append(("consensus_check normal", consensus_check(0.5, 0.3) == "normal review"))
     checks.append(("flicker_count", flicker_count([0, 1, 0, 1], 0.5) == 3))
+    # phase field (relay part Q)
+    checks.append(("four phases, Holling order", PHASES == ("growth", "conservation", "release", "reorganization")))
+    checks.append(("every phase has a non-empty watch list", all(watch(p) for p in PHASES)))
+    checks.append(("conservation watches the slowing signals",
+                   {"rising variance", "slowing recovery after small disturbances"} <= set(watch("conservation"))))
+    checks.append(("release watches cascades and flicker",
+                   {"cascades", "flicker between states"} <= set(watch("release"))))
+    checks.append(("watch() returns a copy", watch("growth") is not PHASE_WATCH["growth"]))
+    try:
+        watch("collapse"); unknown_raises = False
+    except ValueError:
+        unknown_raises = True
+    checks.append(("unknown phase raises, no default", unknown_raises))
+    pr = phase_reading(s)
+    checks.append(("undeclared phase stays UNDECLARED, no list", pr["phase"] == "UNDECLARED" and pr["watch"] == []))
+    checks.append(("phase_reading carries flag() unchanged", phase_reading(s, "release")["flag"] == flag(s)))
     bad = [n for n, ok in checks if not ok]
     for n in bad:
         print("  FAIL:", n)

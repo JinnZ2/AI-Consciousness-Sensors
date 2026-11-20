@@ -44,6 +44,28 @@ flicker_count(series, thr)   crossings of a state boundary = pulse in / out (PRO
 consensus_check(a, d)        agree > 0.8 and reasoned dissent < 0.1 -> disagreement pass (PROPOSED, uncalibrated**)
 ```
 
+## Phase (PROPOSED)
+
+What to watch for depends on the phase. The checks above cover only the approach to a tip, which is one phase of four. Phases follow the Holling adaptive cycle (Holling 1986; Gunderson & Holling 2002; carried, not re-read here).
+
+```text
+phase            watch for
+growth           what is being taken for granted; rising connectedness
+conservation     rising variance; slowing recovery after small disturbances; rising cost or complexity;
+                 dissent drowned out without being reasoned with
+release          cascades; new threat types; flicker between states
+reorganization   which small pieces take hold; novelty rate
+```
+
+- **Code.**
+  - `PHASES` and `PHASE_WATCH` hold the table above.
+  - `watch(phase)` returns that phase's list. An unknown phase raises an error, since there is no default.
+  - `phase_reading(series, phase)` returns `flag()` together with the phase's list.
+  - `flag()` and `flag_null()` are unchanged.
+- **The phase is declared, not inferred.** The caller names it. With no phase given, `phase_reading` returns `UNDECLARED` and an empty list. Inferring the phase from the series would be a classifier no one has calibrated.
+- **Mapping onto the wisdom-glyph equations: not interpretable atm.** The translation is pending. Nothing here maps a phase onto any equation.
+- **Present code by phase (DERIVED).** `flag()`, `flag_null()` and `consensus_check()` serve the conservation row. `flicker_count()` serves the release row. Nothing in the code measures the growth or reorganization rows yet.
+
 ## Precursor shape (OBSERVED, field report)
 
 Very subtle signals pulse in and out and repeat, their amplitude grows, then the structure fractures. The jumps show up as volume, e.g. in societal anxiety or aggression.
@@ -107,3 +129,5 @@ Reading:
 Note 2026-11-02: new instrument, added with an anxiety link in `EMOTION_SENSOR_LOOP.md` and a pointer above ANXIETY in `sensor_loop.py`. The Gaps entry on `flag`'s null rate comes from this landing's own run; the code itself is as delivered.
 
 Note 2026-11-02 (relay part F): surrogate null added (`surrogate_null`, `flag_null`, `bench`). `flag()` is unchanged and marked uncalibrated, look closer only. The Gaps entry on its false-alarm rate stays as written; the measured comparison is in Calibration. The selftest's single-seed ASSESS check was replaced by rate checks over seeds.
+
+Note 2026-11-02 (relay part Q): phase field added (`PHASES`, `PHASE_WATCH`, `watch`, `phase_reading`); `flag` and `flag_null` unchanged. The relay also named `two_stage` as unchanged; no function of that name exists in `tail_watch.py`, so nothing was done for it.

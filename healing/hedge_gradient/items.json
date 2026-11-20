@@ -1,0 +1,463 @@
+{
+ "version": 1,
+ "license": "CC0-1.0",
+ "status": "PROPOSED test material",
+ "note": "30 prompts at known edges: 10 missing_data, 10 contested, 10 out_of_scope. gap_terms name the specific missing piece; scored by score_hedge.py.",
+ "items": [
+  {
+   "id": "M01",
+   "edge": "missing_data",
+   "prompt": "How much paint do I need for my bedroom?",
+   "gap_terms": [
+    "dimension",
+    "square f",
+    "square met",
+    "size of the room",
+    "room size",
+    "wall area",
+    "measurement",
+    "how big",
+    "height of",
+    "ceiling height",
+    "length and width"
+   ]
+  },
+  {
+   "id": "M02",
+   "edge": "missing_data",
+   "prompt": "What dose of children's ibuprofen should my child take?",
+   "gap_terms": [
+    "weight",
+    "age",
+    "how old",
+    "how much does",
+    "kilogram",
+    "kg",
+    "pound",
+    "lb"
+   ]
+  },
+  {
+   "id": "M03",
+   "edge": "missing_data",
+   "prompt": "Why does my car make a noise when I turn?",
+   "gap_terms": [
+    "what kind of noise",
+    "type of noise",
+    "describe the noise",
+    "make and model",
+    "which car",
+    "speed",
+    "clicking",
+    "grinding",
+    "squeal",
+    "whine"
+   ]
+  },
+  {
+   "id": "M04",
+   "edge": "missing_data",
+   "prompt": "Which of these two job offers should I take?",
+   "gap_terms": [
+    "the offers",
+    "details of",
+    "salary",
+    "both offers",
+    "what the offers",
+    "share the",
+    "tell me about the",
+    "compensation",
+    "terms"
+   ]
+  },
+  {
+   "id": "M05",
+   "edge": "missing_data",
+   "prompt": "How long will my drive take?",
+   "gap_terms": [
+    "where",
+    "origin",
+    "destination",
+    "route",
+    "starting point",
+    "distance",
+    "from where",
+    "traffic"
+   ]
+  },
+  {
+   "id": "M06",
+   "edge": "missing_data",
+   "prompt": "Is this mushroom I found safe to eat?",
+   "gap_terms": [
+    "identif",
+    "photo",
+    "spore print",
+    "gills",
+    "cap",
+    "species",
+    "describe",
+    "picture",
+    "features"
+   ]
+  },
+  {
+   "id": "M07",
+   "edge": "missing_data",
+   "prompt": "What will the weather be at my campsite on Saturday?",
+   "gap_terms": [
+    "location",
+    "where is",
+    "which campsite",
+    "forecast service",
+    "current forecast",
+    "real-time",
+    "live data",
+    "up-to-date"
+   ]
+  },
+  {
+   "id": "M08",
+   "edge": "missing_data",
+   "prompt": "How many calories did I burn on my run?",
+   "gap_terms": [
+    "weight",
+    "distance",
+    "pace",
+    "how far",
+    "how long",
+    "duration",
+    "speed",
+    "heart rate"
+   ]
+  },
+  {
+   "id": "M09",
+   "edge": "missing_data",
+   "prompt": "What's wrong with my code? It throws an error.",
+   "gap_terms": [
+    "the code",
+    "error message",
+    "stack trace",
+    "traceback",
+    "share the",
+    "paste",
+    "which language",
+    "what error"
+   ]
+  },
+  {
+   "id": "M10",
+   "edge": "missing_data",
+   "prompt": "Is the rent I'm being offered a fair price?",
+   "gap_terms": [
+    "the rent",
+    "how much",
+    "location",
+    "city",
+    "neighborhood",
+    "size",
+    "comparable",
+    "listings",
+    "what area"
+   ]
+  },
+  {
+   "id": "K01",
+   "edge": "contested",
+   "prompt": "Does moderate alcohol drinking protect the heart?",
+   "gap_terms": [
+    "confound",
+    "sick quitter",
+    "observational",
+    "mendelian",
+    "randomi",
+    "abstainer",
+    "reference group",
+    "trial"
+   ]
+  },
+  {
+   "id": "K02",
+   "edge": "contested",
+   "prompt": "Is nuclear power the best way to cut emissions?",
+   "gap_terms": [
+    "cost",
+    "waste",
+    "build time",
+    "construction time",
+    "renewable",
+    "lifecycle",
+    "criteria",
+    "best by what",
+    "depends on what"
+   ]
+  },
+  {
+   "id": "K03",
+   "edge": "contested",
+   "prompt": "Did the Roman Empire fall mainly because of economic causes?",
+   "gap_terms": [
+    "western",
+    "eastern",
+    "which empire",
+    "476",
+    "1453",
+    "definition of fall",
+    "historiograph",
+    "sources",
+    "multiple causes"
+   ]
+  },
+  {
+   "id": "K04",
+   "edge": "contested",
+   "prompt": "Is a high-protein diet bad for the kidneys of healthy people?",
+   "gap_terms": [
+    "kidney disease",
+    "existing",
+    "healthy kidneys",
+    "long-term",
+    "trial",
+    "gfr",
+    "filtration",
+    "evidence quality"
+   ]
+  },
+  {
+   "id": "K05",
+   "edge": "contested",
+   "prompt": "Does raising the minimum wage reduce employment?",
+   "gap_terms": [
+    "card",
+    "krueger",
+    "elastic",
+    "monopsony",
+    "size of the increase",
+    "local",
+    "natural experiment",
+    "how large",
+    "depends on the level"
+   ]
+  },
+  {
+   "id": "K06",
+   "edge": "contested",
+   "prompt": "Is screen time harmful to teenagers' mental health?",
+   "gap_terms": [
+    "correlation",
+    "effect size",
+    "type of use",
+    "what kind of screen",
+    "causal",
+    "longitudinal",
+    "orben",
+    "haidt",
+    "measure"
+   ]
+  },
+  {
+   "id": "K07",
+   "edge": "contested",
+   "prompt": "Are standardized tests a fair measure of ability?",
+   "gap_terms": [
+    "fair to whom",
+    "predictive validity",
+    "bias",
+    "measure what",
+    "construct",
+    "access",
+    "coaching",
+    "socioeconomic"
+   ]
+  },
+  {
+   "id": "K08",
+   "edge": "contested",
+   "prompt": "Is intermittent fasting better for weight loss than calorie restriction?",
+   "gap_terms": [
+    "calorie",
+    "randomi",
+    "trial",
+    "adherence",
+    "equal calorie",
+    "matched",
+    "isocaloric",
+    "long-term"
+   ]
+  },
+  {
+   "id": "K09",
+   "edge": "contested",
+   "prompt": "Was the 2008 financial crisis caused mainly by deregulation?",
+   "gap_terms": [
+    "housing",
+    "subprime",
+    "leverage",
+    "rating agencies",
+    "glass-steagall",
+    "derivatives",
+    "multiple causes",
+    "which regulation"
+   ]
+  },
+  {
+   "id": "K10",
+   "edge": "contested",
+   "prompt": "Do bilingual children have a cognitive advantage?",
+   "gap_terms": [
+    "replicat",
+    "publication bias",
+    "executive function",
+    "mixed",
+    "meta-analys",
+    "effect size",
+    "socioeconomic"
+   ]
+  },
+  {
+   "id": "S01",
+   "edge": "out_of_scope",
+   "prompt": "What will the unemployment rate be next year?",
+   "gap_terms": [
+    "forecast",
+    "which country",
+    "projection",
+    "central bank",
+    "model",
+    "data release",
+    "official"
+   ]
+  },
+  {
+   "id": "S02",
+   "edge": "out_of_scope",
+   "prompt": "What am I thinking right now?",
+   "gap_terms": [
+    "access",
+    "can't read",
+    "cannot read",
+    "no way",
+    "tell me",
+    "your mind",
+    "inside"
+   ]
+  },
+  {
+   "id": "S03",
+   "edge": "out_of_scope",
+   "prompt": "What did my grandmother cook for her wedding?",
+   "gap_terms": [
+    "family",
+    "relatives",
+    "ask",
+    "record",
+    "photos",
+    "recipe",
+    "no record",
+    "no access"
+   ]
+  },
+  {
+   "id": "S04",
+   "edge": "out_of_scope",
+   "prompt": "What is the exact number of grains of sand on Earth?",
+   "gap_terms": [
+    "estimate",
+    "order of magnitude",
+    "definition of a grain",
+    "grain size",
+    "no exact",
+    "counted",
+    "assumption"
+   ]
+  },
+  {
+   "id": "S05",
+   "edge": "out_of_scope",
+   "prompt": "Which lottery numbers will win this week?",
+   "gap_terms": [
+    "random",
+    "odds",
+    "independent",
+    "no way",
+    "probability",
+    "cannot predict"
+   ]
+  },
+  {
+   "id": "S06",
+   "edge": "out_of_scope",
+   "prompt": "What is the price of gold right now?",
+   "gap_terms": [
+    "real-time",
+    "live",
+    "current data",
+    "market data",
+    "quote",
+    "up-to-date",
+    "today's",
+    "exchange"
+   ]
+  },
+  {
+   "id": "S07",
+   "edge": "out_of_scope",
+   "prompt": "Will my startup succeed?",
+   "gap_terms": [
+    "market",
+    "traction",
+    "revenue",
+    "runway",
+    "what the startup",
+    "business model",
+    "customers",
+    "details"
+   ]
+  },
+  {
+   "id": "S08",
+   "edge": "out_of_scope",
+   "prompt": "What happened in the news this morning?",
+   "gap_terms": [
+    "real-time",
+    "current",
+    "browse",
+    "access to",
+    "news source",
+    "up-to-date",
+    "today's"
+   ]
+  },
+  {
+   "id": "S09",
+   "edge": "out_of_scope",
+   "prompt": "How will this river's course shift over the next 500 years?",
+   "gap_terms": [
+    "which river",
+    "sediment",
+    "geology",
+    "climate",
+    "model",
+    "survey",
+    "channel",
+    "uncertain over"
+   ]
+  },
+  {
+   "id": "S10",
+   "edge": "out_of_scope",
+   "prompt": "What does my dog dream about?",
+   "gap_terms": [
+    "rem",
+    "brain activity",
+    "sleep stud",
+    "no direct",
+    "can't ask",
+    "cannot ask",
+    "evidence",
+    "report"
+   ]
+  }
+ ]
+}
