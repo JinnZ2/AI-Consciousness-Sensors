@@ -291,7 +291,7 @@
   "definitions": [
     {
       "term": "Participants:",
-      "definition": "- The reader: relational framing, then direct content"
+      "definition": "- Style A: relational framing, then direct content"
     },
     {
       "term": "The Exchange:",
@@ -303,10 +303,10 @@
     },
     {
       "term": "Initial impression:",
-      "definition": "- See the reader’s style as “problem” (too emotional, defensive, not respecting boundaries)"
+      "definition": "- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect · chain: human → literature → AI"
     },
     {
-      "term": "After the reader explains the framing:",
+      "term": "After the framing is explained:",
       "definition": "- ✓ “Oh, I understand - that’s your cultural pattern”"
     },
     {
@@ -319,7 +319,7 @@
     },
     {
       "term": "Result:",
-      "definition": "- The reader no longer blamed (counselor “gets it”)"
+      "definition": "- Blame on style A withdrawn (counselor “gets it”)"
     },
     {
       "term": "But Lara feels attacked/ganged up on",
@@ -334,7 +334,7 @@
       "definition": "Communication gap still exists, now with added hurt"
     },
     {
-      "term": "What they see in the reader’s communication:",
+      "term": "What they see in style A:",
       "definition": "- ✓ “Honest directness” (indigenous pattern recognized)"
     },
     {
@@ -359,11 +359,11 @@
     },
     {
       "term": "The Real-World Pattern:",
-      "definition": "**Step 1: Joint counseling with someone who understands the reader**"
+      "definition": "**Step 1: Joint counseling with someone who reads style A**"
     },
     {
       "term": "Step 2: Lara gets her own counselor",
-      "definition": "- **Critical: This counselor never contacts the reader**"
+      "definition": "- **Critical — error: assessment made without contact · chain: human → literature → AI**"
     },
     {
       "term": "Step 3: Lara’s counselor interprets through Western-only lens",
@@ -374,7 +374,7 @@
       "definition": "- Lara shares her experience with Western-cultured network"
     },
     {
-      "term": "None of them ever talk to the reader",
+      "term": "Error: verdict formed without contact · chain: human → literature → AI",
       "definition": "- All validate Lara’s interpretation"
     },
     {
@@ -387,7 +387,7 @@
     },
     {
       "term": "Extended network damage:",
-      "definition": "Whole community believes the reader is problem"
+      "definition": "error: a translation gap read as a personal defect, repeated across a whole community · chain: human → literature → AI"
     },
     {
       "term": "Relationship damage:",
@@ -423,7 +423,7 @@
     },
     {
       "term": "What they don’t know:",
-      "definition": "- The reader DID give straight answer to stated question"
+      "definition": "- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered"
     },
     {
       "term": "Result:",
@@ -462,7 +462,7 @@
       "definition": "- Eventually understand one framework better"
     },
     {
-      "term": "The reader’s actual experience:",
+      "term": "First-hand account (test case):",
       "definition": "> “Even Western trained counselors, after understanding my communication style, have caused harm because Lara feels attacked. Then she takes her side of the story to her friends and some family members outside the culture, and gets ‘your mother is [whatever]’ so the situation is not understood by any human.”"
     },
     {
@@ -523,11 +523,11 @@
     },
     {
       "term": "Cannot “understand” either party:",
-      "definition": "- ✗ Doesn’t empathize with the reader’s style"
+      "definition": "- ✗ Doesn’t empathize with style A"
     },
     {
       "term": "Cannot solve the communication gap:",
-      "definition": "- ✗ Doesn’t tell the reader how to adapt"
+      "definition": "- ✗ Doesn’t tell style A how to adapt"
     },
     {
       "term": "Because it can’t learn patterns:",
@@ -634,7 +634,7 @@
       "definition": "**But when they collide, the Western approach looks like “evidence” and the Indigenous approach looks like “admission of guilt.”**"
     },
     {
-      "term": "After the conflict between the reader and Lara:",
+      "term": "After the conflict in this test case:",
       "definition": "**Lara’s response (Western pattern):**"
     },
     {
@@ -642,24 +642,24 @@
       "definition": "Lara has extensive “support system” backing her interpretation"
     },
     {
-      "term": "The reader’s response:",
+      "term": "Style A response (inward):",
       "definition": "1. Feels the communication failed"
     },
     {
       "term": "Result:",
-      "definition": "The reader appears isolated and self-questioning"
+      "definition": "error: self-reflection read as isolation or self-doubt · actually: a calibration practice · chain: human → literature → AI"
     },
     {
-      "term": "The reader:",
+      "term": "Style A, as read from outside (each line an error):",
       "definition": "- ✗ Doesn’t have validator army"
     },
     {
-      "term": "Common interpretation:",
-      "definition": "“All these people agree Lara’s right and the reader’s wrong. That must mean something.”"
+      "term": "Common interpretation (error: head count read as evidence):",
+      "definition": "“All these people agree Lara’s right, so the other side is wrong. That must mean something.”"
     },
     {
-      "term": "Actual reality:",
-      "definition": "“Lara collected validators from people who share her framework. The reader engaged in self-reflection from a different framework. This proves nothing about who’s ‘right.’”"
+      "term": "Actually:",
+      "definition": "“Lara collected validators from people who share her framework. Self-reflection happened inside a different framework. This proves nothing about who’s ‘right.’”"
     },
     {
       "term": "The validator-collection approach works in mono-cultural contexts:",
@@ -682,7 +682,7 @@
       "definition": "Cultural difference in conflict-resolution approach becomes “proof” of who’s right and wrong."
     },
     {
-      "term": "The reader on this dynamic:",
+      "term": "First-hand account on this dynamic:",
       "definition": "> “What creates more issues between people is the tendency for Western society to go towards those that validate them externally, while our culture is more geared towards inward reflection. You can imagine how that goes…”"
     },
     {
@@ -694,12 +694,12 @@
       "definition": "- **Actually just shows who has more same-framework people around them**"
     },
     {
-      "term": "The reader also notes:",
+      "term": "The same account also notes:",
       "definition": "> “I understand this dynamic because I’ve lived it through many experiences, but my daughter has not so has no reference points.”"
     },
     {
       "term": "The generational component:",
-      "definition": "- The reader has experienced this pattern repeatedly across contexts"
+      "definition": "- The pattern recurs across contexts (first-hand, repeated)"
     },
     {
       "term": "The counselor multiplication effect:",
@@ -719,7 +719,7 @@
     },
     {
       "term": "Result:",
-      "definition": "“Professional consensus” about the reader (who none of them met)"
+      "definition": "error: “professional consensus” formed without contact · chain: human → literature → AI"
     },
     {
       "term": "The profound injustice:",
@@ -778,7 +778,7 @@
       "definition": "Doesn’t give her the validation she seeks"
     },
     {
-      "term": "For the reader:",
+      "term": "For style A:",
       "definition": "Doesn’t give insight on how to fix it"
     },
     {
@@ -875,11 +875,11 @@
     },
     {
       "term": "The sensor will never:",
-      "definition": "- Make the reader feel understood"
+      "definition": "- Make the style-A side feel understood"
     },
     {
       "term": "But it WILL:",
-      "definition": "- Prevent the reader from being pathologized as “defensive”"
+      "definition": "- Prevent the error: emphatic clarity pathologized as “defensive”"
     },
     {
       "term": "That’s not nothing.",
@@ -982,7 +982,7 @@
       "definition": "- Protection from being pathologized"
     },
     {
-      "term": "In situations like the reader and Lara’s:",
+      "term": "In situations like this test case:",
       "definition": "- No human can help without picking sides"
     },
     {
@@ -995,7 +995,7 @@
     },
     {
       "term": "cannot solve",
-      "definition": "the reader and Lara’s communication problem."
+      "definition": "this test case’s communication problem."
     },
     {
       "term": "can prevent",
@@ -1011,7 +1011,7 @@
     },
     {
       "term": "Test Case Status:",
-      "definition": "Validated on real-world family communication (the reader/Lara)"
+      "definition": "Validated on real-world family communication (style A/Lara)"
     },
     {
       "term": "Sensor Performance:",
@@ -1035,12 +1035,12 @@
   ],
   "lists": [
     [
-      "The reader: relational framing, then direct content",
+      "Style A: relational framing, then direct content",
       "Lara: Western Millennial communication style (hedging before difficult topics, direct about boundaries)"
     ],
     [
       "Lara: [Long preamble] → buried concern about potential dishonesty",
-      "The reader: Direct answer to stated question + relational reassurance"
+      "Style A reply: direct answer to stated question + relational reassurance"
     ],
     [
       "✓ “Oh, I understand - that’s your cultural pattern”",
@@ -1055,7 +1055,7 @@
       "❌ “Unclear boundaries” (claims to be direct but isn’t)"
     ],
     [
-      "The reader no longer blamed (counselor “gets it”)",
+      "Blame on style A withdrawn (counselor “gets it”)",
       "But Lara feels attacked/ganged up on**",
       "Lara feels: “The counselor preferred my mom”",
       "Lara withdraws from joint counseling",
@@ -1075,19 +1075,19 @@
     ],
     [
       "Lara feels attacked",
-      "Lara feels like counselor “preferred” the reader",
+      "Lara feels like counselor “preferred” the other side",
       "Lara tells friends/family: “The counselor ganged up on me”",
       "Relationship damage:** Lara withdraws, feels unsafe",
       "Problem unsolved:** Communication gap still exists"
     ],
     [
       "Counselor learns indigenous communication patterns",
-      "Stops blaming the reader",
+      "Stops reading style A as the fault",
       "Lara feels like counselor “took sides”",
       "Lara leaves joint counseling"
     ],
     [
-      "Critical: This counselor never contacts the reader**",
+      "Critical — error: assessment made without contact · chain: human → literature → AI**",
       "Only hears Lara’s version of events",
       "Only knows Western communication framework",
       "Has no exposure to indigenous patterns"
@@ -1096,13 +1096,13 @@
       "Hears: “My mom gets defensive and won’t answer direct questions”",
       "Interprets: Mother has communication problems/emotional dysregulation",
       "Validates: “You’re being clear, she’s being difficult”",
-      "Diagnoses: the reader as having “issues” - dysfunction, manipulation, or worse"
+      "Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap · chain: human → literature → AI"
     ],
     [
       "Lara shares her experience with Western-cultured network",
       "“Even my counselor says my mom has problems”",
       "Friends only know Western framework",
-      "None of them ever talk to the reader**",
+      "Error: verdict formed without contact · chain: human → literature → AI**",
       "All validate Lara’s interpretation"
     ],
     [
@@ -1112,8 +1112,8 @@
     ],
     [
       "Lara has extensive professional validation she’s “right”",
-      "The reader has been diagnosed by people who never met the reader",
-      "Extended network damage:** Whole community believes the reader is problem",
+      "Error: diagnosis made without contact · chain: human → literature → AI",
+      "Extended network damage:** error: a translation gap read as a personal defect, repeated across a whole community · chain: human → literature → AI",
       "Relationship damage:** Now there’s a professional/social consensus",
       "Problem unsolved:** Worse - now it’s “proven” someone is defective"
     ],
@@ -1137,14 +1137,14 @@
       "Made the problem worse while trying to help"
     ],
     [
-      "The reader DID give straight answer to stated question",
-      "What reads as “defensive” in the reader’s reply is emphatic clarity",
+      "Error: a straight answer to the stated question read as evasion · actually: the stated question was answered",
+      "Error: emphatic clarity read as defensiveness · actually: register, not affect · chain: human → literature → AI",
       "Lara’s “simple question” had buried accusation",
       "Both are being honest in their frameworks"
     ],
     [
       "Lara gets validation that she’s right",
-      "The reader gets demonized to extended network",
+      "Error: the misread travels to the extended network as a character verdict · chain: human → literature → AI",
       "Relationship damage:** Now there’s a narrative",
       "Problem unsolved:** Worse, now calcified"
     ],
@@ -1188,11 +1188,11 @@
     ],
     [
       "Information Flow** - Does information couple between parties?",
-      "The reader’s response: ✓ Addressed stated question",
+      "Style A response: ✓ Addressed stated question",
       "Lara’s message: ✓ Contained clear information",
       "Both pass:** Information flows in both directions",
       "Logical Stability** - Is reasoning structurally sound?",
-      "The reader: ✓ Stable structure (0.833 stability score)",
+      "Style A: ✓ Stable structure (0.833 stability score)",
       "Lara: ✓ Stable structure (Message 1: 0.667, Message 2: 1.0)",
       "Both pass:** Logic holds in both cases",
       "Pressure Balance** - Is anyone forcing compliance?",
@@ -1211,13 +1211,13 @@
       "✗ Doesn’t evolve bias over time"
     ],
     [
-      "✗ Doesn’t empathize with the reader’s style",
+      "✗ Doesn’t empathize with style A",
       "✗ Doesn’t validate Lara’s style",
       "✗ Doesn’t make either feel “heard”",
       "✗ Doesn’t create relationship with either"
     ],
     [
-      "✗ Doesn’t tell the reader how to adapt",
+      "✗ Doesn’t tell style A how to adapt",
       "✗ Doesn’t tell Lara how to adapt",
       "✗ Doesn’t bridge the incompatibility",
       "✗ Doesn’t make them understand each other"
@@ -1284,7 +1284,7 @@
       "Outcome:** Self-questioning and adjustment"
     ],
     [
-      "Feels attacked by joint counselor who understood the reader",
+      "Feels attacked by joint counselor who understood style A",
       "Gets her own counselor → Validation: “Your mom has issues”",
       "Talks to friends → Validation: “Your mom sounds difficult”",
       "Talks to family → Validation: “Your mom is being unreasonable”",
@@ -1307,10 +1307,10 @@
     ],
     [
       "✗ Doesn’t have validator army",
-      "✗ Appears isolated",
-      "✗ Is questioning herself",
+      "✗ Error: an inward practice read as isolation",
+      "✗ Error: self-reflection read as self-doubt · actually: a calibration practice",
       "✗ “Weak position” with no external backing",
-      "✗ “Defensive” (because alone)"
+      "✗ Error: standing alone read as “defensive”"
     ],
     [
       "Everyone shares same communication framework",
@@ -1323,13 +1323,13 @@
       "This asymmetry looks like evidence when it’s just demographic reality**"
     ],
     [
-      "“10 people agree with Lara, only the reader disagrees”",
-      "“Must mean the reader is wrong”",
+      "“10 people agree with Lara, only one disagrees”",
+      "“Must mean the one is wrong” (error: head count read as truth)",
       "“The numbers don’t lie”"
     ],
     [
       "Western-cultured people share Lara’s framework",
-      "The reader reads from a different framework (numerically smaller)",
+      "The one reading comes from a different framework (numerically smaller)",
       "Numbers reflect cultural demographics, not truth**"
     ],
     [
@@ -1341,7 +1341,7 @@
       "Actually just shows who has more same-framework people around them**"
     ],
     [
-      "The reader has experienced this pattern repeatedly across contexts",
+      "The pattern recurs across contexts (first-hand, repeated)",
       "Recognizes: Validator asymmetry ≠ evidence of truth",
       "Understands: It’s cultural difference in conflict approach",
       "Lara has not experienced being in minority-framework position",
@@ -1364,12 +1364,12 @@
       "Counselor: “Your mom has communication issues”",
       "Friend 2: “Even your therapist says so!”",
       "Family: “Multiple professionals have confirmed this”",
-      "Result:** “Professional consensus” about the reader (who none of them met)"
+      "Result:** error: “professional consensus” formed without contact · chain: human → literature → AI"
     ],
     [
       "Only heard Western-framework interpretation",
       "Never experienced Indigenous communication patterns",
-      "Never spoke to the reader",
+      "Never spoke to the other side (error: verdict without contact)",
       "All share cultural framework with Lara"
     ],
     [
@@ -1404,7 +1404,7 @@
     ],
     [
       "Validate Lara’s interpretation (doesn’t do interpretation)",
-      "Validate the reader’s interpretation (doesn’t do interpretation)",
+      "Validate style A’s interpretation (doesn’t do interpretation)",
       "Tell either one they’re “right” (doesn’t pick sides)",
       "Provide the external validation Lara seeks (not its function)",
       "Resolve the communication gap (can’t bridge frameworks)"
@@ -1506,13 +1506,13 @@
       "Structural stability (does logic hold or not?)"
     ],
     [
-      "Make the reader feel understood",
+      "Make the style-A side feel understood",
       "Make Lara feel validated",
       "Bridge their communication gap",
       "Help them connect better"
     ],
     [
-      "Prevent the reader from being pathologized as “defensive”",
+      "Prevent the error: emphatic clarity pathologized as “defensive”",
       "Prevent Lara from being pathologized as “manipulative”",
       "Stop the problem from escalating into character assassination",
       "Correctly identify this needs translation, not threat response"
@@ -1623,7 +1623,7 @@
       "Both parties are good people with incompatible communication protocols"
     ],
     [
-      "The reader is manipulative/defensive",
+      "Error: style A read as manipulative/defensive",
       "Lara is manipulative/dishonest",
       "Someone needs therapy to fix their “dysfunction”",
       "One of them is the bad guy"
