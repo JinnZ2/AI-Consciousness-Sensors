@@ -8,6 +8,7 @@
 
 - Style A: relational framing, then direct content
 - The second participant: Western Millennial communication style (hedging before difficult topics, direct about boundaries)
+- Label: "style A" = the first participant.
 
 **The Exchange:**
 
@@ -26,7 +27,7 @@
 
 **Initial impression:**
 
-- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect [PROPOSED] · chain: human → literature → AI
+- Error: a relational-first style read as the “problem” · read as: too emotional, defensive, not respecting boundaries · actually: register, not affect [PROPOSED · chat Claude 2026-11-20] · chain: human → literature → AI
 
 **After the framing is explained:**
 
@@ -107,7 +108,7 @@
 - Hears: “The first participant gets defensive and won’t answer direct questions”
 - Interprets: The first participant has communication problems/emotional dysregulation
 - Validates: “You’re being clear, she’s being difficult”
-- Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap [OBSERVED: geometric-sensor.md:691, sensor output “Problem type: Translation/compatibility issue”] · chain: human → literature → AI
+- Error: a framework gap diagnosed as personal “issues” · read as: dysfunction, manipulation, or worse · actually: a translation gap [OBSERVED: geometric-sensor.md:692, sensor output “Problem type: Translation/compatibility issue”] · chain: human → literature → AI
 
 **Step 4: Friends and extended family join in**
 
@@ -181,8 +182,8 @@ Entire network now believes: Person A has character defects
 
 **What they don’t know:**
 
-- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered [OBSERVED: geometric-sensor.md:265, sensor check “✓ Addressed stated question”]
-- Error: emphatic clarity read as defensiveness · actually: register, not affect [PROPOSED] · chain: human → literature → AI
+- Error: a straight answer to the stated question read as evasion · actually: the stated question was answered [OBSERVED: geometric-sensor.md:266, sensor check “✓ Addressed stated question”]
+- Error: emphatic clarity read as defensiveness · actually: register, not affect [PROPOSED · chat Claude 2026-11-20] · chain: human → literature → AI
 - The second participant’s “simple question” had buried accusation
 - Both are being honest in their frameworks
 
@@ -462,7 +463,7 @@ You’re not dependent on finding impossible unicorn (counselor fluent in both f
 1. Considers: “How can I bridge this gap?”
 1. Inward process, not seeking external validators
 
-**Result:** error: self-reflection read as isolation or self-doubt · actually: a calibration practice [PROPOSED] · chain: human → literature → AI
+**Result:** error: self-reflection read as isolation or self-doubt · actually: a calibration practice [PROPOSED · chat Claude 2026-11-20] · chain: human → literature → AI
 
 -----
 
@@ -482,13 +483,13 @@ You’re not dependent on finding impossible unicorn (counselor fluent in both f
 
 - ✗ Doesn’t have validator army
 - ✗ Error: an inward practice read as isolation
-- ✗ Error: self-reflection read as self-doubt · actually: a calibration practice [PROPOSED]
+- ✗ Error: self-reflection read as self-doubt · actually: a calibration practice [PROPOSED · chat Claude 2026-11-20]
 - ✗ “Weak position” with no external backing
 - ✗ Error: standing alone read as “defensive”
 
 **Common interpretation (error: head count read as evidence):** “All these people agree the second participant’s right, so the other side is wrong. That must mean something.”
 
-**Actually [stated-by-subject: geometric-sensor.md:558]:** “The second participant collected validators from people who share her framework. Self-reflection happened inside a different framework. This proves nothing about who’s ‘right.’”
+**Actually [stated-by-subject: geometric-sensor.md:559]:** “The second participant collected validators from people who share her framework. Self-reflection happened inside a different framework. This proves nothing about who’s ‘right.’”
 
 -----
 
@@ -627,7 +628,7 @@ All these “professionals” and “validators”:
 **The sensor can’t change these cultural patterns.**
 
 The second participant will still seek validators (her cultural norm).
-Self-reflection will also continue (error if read as a reaction to the critique · actually: a stable practice [stated-by-subject: geometric-sensor.md:558, “our culture is more geared towards inward reflection”]).
+Self-reflection will also continue (error if read as a reaction to the critique · actually: a stable practice [stated-by-subject: geometric-sensor.md:559, “our culture is more geared towards inward reflection”]).
 
 **But it can interrupt the validation cascade:**
 
