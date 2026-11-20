@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-20T10:26:08.086353Z",
+  "generated_at": "2026-11-20T10:34:37.933569Z",
   "languages": [
     "json",
     "md",
@@ -1677,7 +1677,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 346620,
-      "hash": "eb4ec95e80cb7426901a77951ac65a6a5d77e645",
+      "hash": "d5593412b2fe099d00896761cbdb438edad29928",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1808,8 +1808,8 @@
     {
       "path": "data/extracted/docs/geometry/geometric-sensor.json",
       "lang": "json",
-      "size": 61504,
-      "hash": "2bf42eb5d608930e3827142783af65d88668c089",
+      "size": 61661,
+      "hash": "c2de3c080c927b2836df2618801dfeb0ed812db9",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1866,8 +1866,8 @@
     {
       "path": "data/extracted/docs/geometry/geometric-sensor-neutrality.json",
       "lang": "json",
-      "size": 40344,
-      "hash": "a7bd7617d91bd41e01f547b473d9f1ffb134d1a0",
+      "size": 40449,
+      "hash": "53fa42eed11312798ca4cab1960d78ade3ad4c69",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11240,8 +11240,8 @@
     {
       "path": "docs/geometry/geometric-sensor-neutrality.md",
       "lang": "md",
-      "size": 27168,
-      "hash": "ce444f262cfe90c98fc7d1c57d88fc5ed237f077",
+      "size": 27264,
+      "hash": "140f64331a876d86236494007ee9f5ceec41ecdf",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11264,8 +11264,8 @@
     {
       "path": "docs/geometry/geometric-sensor.md",
       "lang": "md",
-      "size": 43114,
-      "hash": "66163f94d56ce1397aceea0f6d956a3447fc36ab",
+      "size": 43262,
+      "hash": "68c217cf14c9429a8809cef85f04aa4b9bd0cdc0",
       "roles": [],
       "imports": [],
       "exports": [],
