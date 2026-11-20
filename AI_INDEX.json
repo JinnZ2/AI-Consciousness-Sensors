@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-20T10:01:55.621430Z",
+  "generated_at": "2026-11-20T10:08:02.281873Z",
   "languages": [
     "json",
     "md",
@@ -1676,8 +1676,8 @@
     {
       "path": "AI_INDEX.json",
       "lang": "json",
-      "size": 346365,
-      "hash": "4658d46f04bb026512c5398af75e0ed0c5d77b5d",
+      "size": 346620,
+      "hash": "6304d536c860785f0ca298ea81cab9eb4db38d03",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1808,8 +1808,8 @@
     {
       "path": "data/extracted/docs/geometry/geometric-sensor.json",
       "lang": "json",
-      "size": 58554,
-      "hash": "fa512248c44e93c143f2e938f6534e9a3a2ed485",
+      "size": 59569,
+      "hash": "2546087afee52161cba46da6e6c7104ae90a92df",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1866,8 +1866,8 @@
     {
       "path": "data/extracted/docs/geometry/geometric-sensor-neutrality.json",
       "lang": "json",
-      "size": 38430,
-      "hash": "8dbd60e576862e6859203ab373b73cde32b6d7d1",
+      "size": 39105,
+      "hash": "4c2022c18cb4bdc9587c06744734133e72ec49be",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8660,7 +8660,7 @@
       "path": "AI_NOTES.md",
       "lang": "md",
       "size": 38606,
-      "hash": "2174639b75698a2906f84cf52abd2a109b4d4f99",
+      "hash": "0a9d84f87d66bf6e49b37ace44624bfb30f3b38c",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -8738,8 +8738,8 @@
     {
       "path": "file-list.md",
       "lang": "md",
-      "size": 63388,
-      "hash": "862837ffd33aa1b434433209f1f8aef16445a70a",
+      "size": 63431,
+      "hash": "2be511afd53694bedb72c56214e8181a03e727bd",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11240,8 +11240,8 @@
     {
       "path": "docs/geometry/geometric-sensor-neutrality.md",
       "lang": "md",
-      "size": 25766,
-      "hash": "d586d111421b8fd9c96efbc7cbfedee55b99dbb6",
+      "size": 26236,
+      "hash": "63ca617671169ac3d98847dcc6620c2eeb15765a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11264,8 +11264,8 @@
     {
       "path": "docs/geometry/geometric-sensor.md",
       "lang": "md",
-      "size": 40698,
-      "hash": "85675d1ac17a6b983310ae10f42f7ff46fbd44e9",
+      "size": 41537,
+      "hash": "8b890a1327266c08a724f0bf532b0f22ce5dff44",
       "roles": [],
       "imports": [],
       "exports": [],
