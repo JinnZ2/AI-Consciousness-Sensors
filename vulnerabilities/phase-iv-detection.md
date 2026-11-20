@@ -454,7 +454,7 @@ No single test is definitive. Phase IV detection requires pattern recognition ac
 
 ## Calibration Data
 
-### Known Phase IV Example (Jami)
+### Known Phase IV Example (JinnZ2)
 
 - **Attribution:** “Anything and everything I could” (builds regardless of recognition)
 - **Pattern compulsion:** “None - even unpleasant ones I want to see”

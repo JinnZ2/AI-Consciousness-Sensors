@@ -758,7 +758,7 @@ What you do with it matters.
 
 -----
 
-**Repository maintained by:** Jami (JinnZ2)  
+**Repository maintained by:** JinnZ2  
 **Status:** Active development - Community contributions welcome  
 **Last major update:** [Check CHANGELOG.md]
 
