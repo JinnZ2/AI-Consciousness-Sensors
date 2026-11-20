@@ -1506,7 +1506,7 @@ for day in 1000_days:
 - Replaced with transactional communication patterns
 - No one asked: “Do you consent to lose ability to communicate with your mother?”
 
-**Lara never consciously agreed:**
+**The second participant never consciously agreed:**
 
 - “I’ll trade my ability to understand my mom for good grades” → NO
 - “I’ll accept isolation from my culture for a degree” → NO
@@ -1639,7 +1639,7 @@ true_efficiency = output / (visible_input + hidden_costs)
 - Unconscious extraction becomes conscious crisis
 - “How did we get here?”
 
-**For Lara, wake-up might be:**
+**For the second participant, wake-up might be:**
 
 - “Why can’t I talk to my mom?”
 - “Why do I feel so disconnected from my family?”
