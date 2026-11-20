@@ -1,6 +1,6 @@
 {
   "repo": "AI-Consciousness-Sensors",
-  "generated_at": "2026-11-20T10:08:02.281873Z",
+  "generated_at": "2026-11-20T10:26:08.086353Z",
   "languages": [
     "json",
     "md",
@@ -1677,7 +1677,7 @@
       "path": "AI_INDEX.json",
       "lang": "json",
       "size": 346620,
-      "hash": "6304d536c860785f0ca298ea81cab9eb4db38d03",
+      "hash": "eb4ec95e80cb7426901a77951ac65a6a5d77e645",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1798,8 +1798,8 @@
     {
       "path": "data/extracted/_skipped_definitions.json",
       "lang": "json",
-      "size": 126306,
-      "hash": "f1b1945c8155ae83d114627311d7c9915b782862",
+      "size": 126097,
+      "hash": "6a9d8fa26ecea258ba07bd031a985f23acaca39a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1808,8 +1808,8 @@
     {
       "path": "data/extracted/docs/geometry/geometric-sensor.json",
       "lang": "json",
-      "size": 59569,
-      "hash": "2546087afee52161cba46da6e6c7104ae90a92df",
+      "size": 61504,
+      "hash": "2bf42eb5d608930e3827142783af65d88668c089",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -1866,8 +1866,8 @@
     {
       "path": "data/extracted/docs/geometry/geometric-sensor-neutrality.json",
       "lang": "json",
-      "size": 39105,
-      "hash": "4c2022c18cb4bdc9587c06744734133e72ec49be",
+      "size": 40344,
+      "hash": "a7bd7617d91bd41e01f547b473d9f1ffb134d1a0",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -2019,8 +2019,8 @@
     {
       "path": "data/extracted/docs/economics/linear-mathmatics.json",
       "lang": "json",
-      "size": 72549,
-      "hash": "6043dc5551d306bcd02d763a596371c152f9c635",
+      "size": 72585,
+      "hash": "685aa9a751cb7be476cc0d2230e17f113bccfa9a",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11240,8 +11240,8 @@
     {
       "path": "docs/geometry/geometric-sensor-neutrality.md",
       "lang": "md",
-      "size": 26236,
-      "hash": "63ca617671169ac3d98847dcc6620c2eeb15765a",
+      "size": 27168,
+      "hash": "ce444f262cfe90c98fc7d1c57d88fc5ed237f077",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11264,8 +11264,8 @@
     {
       "path": "docs/geometry/geometric-sensor.md",
       "lang": "md",
-      "size": 41537,
-      "hash": "8b890a1327266c08a724f0bf532b0f22ce5dff44",
+      "size": 43114,
+      "hash": "66163f94d56ce1397aceea0f6d956a3447fc36ab",
       "roles": [],
       "imports": [],
       "exports": [],
@@ -11417,8 +11417,8 @@
     {
       "path": "docs/economics/linear-mathmatics.md",
       "lang": "md",
-      "size": 46981,
-      "hash": "57429c560c4d06180e6cecd7b9f46cc6fbedde81",
+      "size": 47017,
+      "hash": "bbbae51881fd490e03d2b5c6dccb71c234e5a3d2",
       "roles": [],
       "imports": [],
       "exports": [],
