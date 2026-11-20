@@ -89,6 +89,7 @@
 ./data/co-activation.json
 ./data/corruption-signatures.json
 ./data/emotions-reference.json
+./data/extracted/_skipped_definitions.json
 ./data/extracted/docs/ai-behavior/additional-vectors.json
 ./data/extracted/docs/ai-behavior/age-creative-activist-sensors.json
 ./data/extracted/docs/ai-behavior/ai-authenticity.json
