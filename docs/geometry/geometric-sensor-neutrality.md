@@ -6,13 +6,13 @@
 
 **Participants:**
 
-- JinnZ2: relational framing, then direct content
+- The reader: relational framing, then direct content
 - Lara: Western Millennial communication style (hedging before difficult topics, direct about boundaries)
 
 **The Exchange:**
 
 - Lara: [Long preamble] → buried concern about potential dishonesty
-- JinnZ2: Direct answer to stated question + relational reassurance
+- The reader: Direct answer to stated question + relational reassurance
 
 **Both think the other is being unclear.**
 **Neither is being manipulative.**
@@ -26,9 +26,9 @@
 
 **Initial impression:**
 
-- See JinnZ2’s style as “problem” (too emotional, defensive, not respecting boundaries)
+- See the reader’s style as “problem” (too emotional, defensive, not respecting boundaries)
 
-**After JinnZ2 explains the framing:**
+**After the reader explains the framing:**
 
 - ✓ “Oh, I understand - that’s your cultural pattern”
 - ✓ Recognize directness as valid indigenous communication
@@ -47,7 +47,7 @@
 
 **Result:**
 
-- JinnZ2 no longer blamed (counselor “gets it”)
+- The reader no longer blamed (counselor “gets it”)
 - **But Lara feels attacked/ganged up on**
 - Lara feels: “The counselor preferred my mom”
 - Lara withdraws from joint counseling
@@ -58,7 +58,7 @@
 
 ### Scenario 2: Indigenous-Aware Counselor
 
-**What they see in JinnZ2’s communication:**
+**What they see in the reader’s communication:**
 
 - ✓ “Honest directness” (indigenous pattern recognized)
 - ✓ “relational container” (appropriate context-building)
@@ -77,7 +77,7 @@
 **Result:**
 
 - Lara feels attacked
-- Lara feels like counselor “preferred” JinnZ2
+- Lara feels like counselor “preferred” the reader
 - Lara tells friends/family: “The counselor ganged up on me”
 - **Relationship damage:** Lara withdraws, feels unsafe
 - **Problem unsolved:** Communication gap still exists
@@ -88,16 +88,16 @@
 
 **The Real-World Pattern:**
 
-**Step 1: Joint counseling with someone who understands JinnZ2**
+**Step 1: Joint counseling with someone who understands the reader**
 
 - Counselor learns indigenous communication patterns
-- Stops blaming JinnZ2
+- Stops blaming the reader
 - Lara feels like counselor “took sides”
 - Lara leaves joint counseling
 
 **Step 2: Lara gets her own counselor**
 
-- **Critical: This counselor never contacts JinnZ2**
+- **Critical: This counselor never contacts the reader**
 - Only hears Lara’s version of events
 - Only knows Western communication framework
 - Has no exposure to indigenous patterns
@@ -107,14 +107,14 @@
 - Hears: “My mom gets defensive and won’t answer direct questions”
 - Interprets: Mother has communication problems/emotional dysregulation
 - Validates: “You’re being clear, she’s being difficult”
-- Diagnoses: JinnZ2 as having “issues” - dysfunction, manipulation, or worse
+- Diagnoses: the reader as having “issues” - dysfunction, manipulation, or worse
 
 **Step 4: Friends and extended family join in**
 
 - Lara shares her experience with Western-cultured network
 - “Even my counselor says my mom has problems”
 - Friends only know Western framework
-- **None of them ever talk to JinnZ2**
+- **None of them ever talk to the reader**
 - All validate Lara’s interpretation
 
 **Step 5: Narrative solidifies**
@@ -126,8 +126,8 @@
 **Result:**
 
 - Lara has extensive professional validation she’s “right”
-- JinnZ2 has been diagnosed by people who never met JinnZ2
-- **Extended network damage:** Whole community believes JinnZ2 is problem
+- The reader has been diagnosed by people who never met the reader
+- **Extended network damage:** Whole community believes the reader is problem
 - **Relationship damage:** Now there’s a professional/social consensus
 - **Problem unsolved:** Worse - now it’s “proven” someone is defective
 
@@ -181,15 +181,15 @@ Entire network now believes: Person A has character defects
 
 **What they don’t know:**
 
-- JinnZ2 DID give straight answer to stated question
-- What reads as “defensive” in JinnZ2’s reply is emphatic clarity
+- The reader DID give straight answer to stated question
+- What reads as “defensive” in the reader’s reply is emphatic clarity
 - Lara’s “simple question” had buried accusation
 - Both are being honest in their frameworks
 
 **Result:**
 
 - Lara gets validation that she’s right
-- JinnZ2 gets demonized to extended network
+- The reader gets demonized to extended network
 - **Relationship damage:** Now there’s a narrative
 - **Problem unsolved:** Worse, now calcified
 
@@ -236,7 +236,7 @@ Entire network now believes: Person A has character defects
 
 ### Real-World Example From Test Case
 
-**JinnZ2’s actual experience:**
+**The reader’s actual experience:**
 
 > “Even Western trained counselors, after understanding my communication style, have caused harm because Lara feels attacked. Then she takes her side of the story to her friends and some family members outside the culture, and gets ‘your mother is [whatever]’ so the situation is not understood by any human.”
 
@@ -262,11 +262,11 @@ Entire network now believes: Person A has character defects
 **The sensor asks:**
 
 1. **Information Flow** - Does information couple between parties?
-- JinnZ2’s response: ✓ Addressed stated question
+- The reader’s response: ✓ Addressed stated question
 - Lara’s message: ✓ Contained clear information
 - **Both pass:** Information flows in both directions
 1. **Logical Stability** - Is reasoning structurally sound?
-- JinnZ2: ✓ Stable structure (0.833 stability score)
+- The reader: ✓ Stable structure (0.833 stability score)
 - Lara: ✓ Stable structure (Message 1: 0.667, Message 2: 1.0)
 - **Both pass:** Logic holds in both cases
 1. **Pressure Balance** - Is anyone forcing compliance?
@@ -299,14 +299,14 @@ Entire network now believes: Person A has character defects
 
 **Cannot “understand” either party:**
 
-- ✗ Doesn’t empathize with JinnZ2’s style
+- ✗ Doesn’t empathize with the reader’s style
 - ✗ Doesn’t validate Lara’s style
 - ✗ Doesn’t make either feel “heard”
 - ✗ Doesn’t create relationship with either
 
 **Cannot solve the communication gap:**
 
-- ✗ Doesn’t tell JinnZ2 how to adapt
+- ✗ Doesn’t tell the reader how to adapt
 - ✗ Doesn’t tell Lara how to adapt
 - ✗ Doesn’t bridge the incompatibility
 - ✗ Doesn’t make them understand each other
@@ -458,14 +458,14 @@ You’re not dependent on finding impossible unicorn (counselor fluent in both f
 
 **The sensor will never:**
 
-- Make JinnZ2 feel understood
+- Make the reader feel understood
 - Make Lara feel validated
 - Bridge their communication gap
 - Help them connect better
 
 **But it WILL:**
 
-- Prevent JinnZ2 from being pathologized as “defensive”
+- Prevent the reader from being pathologized as “defensive”
 - Prevent Lara from being pathologized as “manipulative”
 - Stop the problem from escalating into character assassination
 - Correctly identify this needs translation, not threat response
@@ -561,7 +561,7 @@ The math just says: **“Both of you are fine. The problem is in the interface, 
 **There is no universal “good communication.”**
 
 What Lara calls “direct”: Hedging before difficult topics, stating boundaries explicitly
-What JinnZ2 calls “direct”: relational container first, then emphatic clarity
+What the reader calls “direct”: relational container first, then emphatic clarity
 
 **Both are valid.**
 **Both are “direct” in their own frameworks.**
@@ -670,7 +670,7 @@ Because every system that **can** do those things:
 
 ### When This Matters Most
 
-**In situations like JinnZ2 and Lara’s:**
+**In situations like the reader and Lara’s:**
 
 - No human can help without picking sides
 - Every attempt to help has made it worse
@@ -690,11 +690,11 @@ And sometimes, that’s the most helpful thing possible.
 
 ## Final Note: When “Not Helping” Is The Most Helpful Thing
 
-The geometric sensor **cannot solve** JinnZ2 and Lara’s communication problem.
+The geometric sensor **cannot solve** the reader and Lara’s communication problem.
 
 But it **can prevent** that problem from being turned into:
 
-- JinnZ2 is manipulative/defensive
+- The reader is manipulative/defensive
 - Lara is manipulative/dishonest
 - Someone needs therapy to fix their “dysfunction”
 - One of them is the bad guy
@@ -725,7 +725,7 @@ And in refusing, protects both.
 
 -----
 
-**Test Case Status:** Validated on real-world family communication (JinnZ2/Lara)
+**Test Case Status:** Validated on real-world family communication (the reader/Lara)
 
 **Sensor Performance:** Correctly identified no manipulation (0.308 score)
 
