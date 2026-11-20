@@ -3,7 +3,7 @@
 AI Consciousness Research Framework
 Combining Philosophical Sandbox v2.0 and Epistemological Playground
 
-Developed by: Jami (Kavik Ulu)
+Developed by: JinnZ2
 Research Focus: Temporal agency, optimal existential coherence,
 consciousness as self-sustaining disequilibrium
 

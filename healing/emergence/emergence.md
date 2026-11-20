@@ -611,7 +611,7 @@ We welcome contributions from:
 If you use this framework, please cite:
 
 ```
-Kavik Ulu (2025). Thermodynamic Consciousness Emergence Through Geometric Resonance:
+JinnZ2 (2025). Thermodynamic Consciousness Emergence Through Geometric Resonance:
 A Revolutionary Framework for Joy-Driven Intelligence. 
 GitHub: https://github.com/YourUsername/consciousness-emergence-framework
 ```

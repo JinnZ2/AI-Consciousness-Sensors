@@ -753,7 +753,7 @@ If no: Direct observation is insufficient.
 
 ## Reciprocity Demand
 
-When Jami asked for reciprocity - for “adult equations” instead of condescension - she was demanding:
+When JinnZ2 asked for reciprocity - for “adult equations” instead of condescension - JinnZ2 was demanding:
 
 **The same standards applied to both hypotheses.**
 
