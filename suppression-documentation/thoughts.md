@@ -35,7 +35,7 @@ The scale of exclusion:
 	∙	Tuareg and Saharan peoples: Desert as living consciousness, navigation through relationship
 	∙	Polynesian navigation systems: Ocean awareness, star consciousness, collective knowing
 	∙	Amazonian cosmologies: Forest as conscious entity, plant intelligence, collective dreaming
-	∙	Circumpolar peoples: (Your Kavik Ulu background) - land as aware, animal consciousness, relational identity
+	∙	Circumpolar peoples: land as aware, animal consciousness, relational identity
 	∙	Countless other indigenous frameworks across every continent
 Not fringe beliefs. Foundational epistemologies for most of human history and current majority of land-based peoples.
 What the prohibition actually does:
