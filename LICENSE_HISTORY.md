@@ -52,7 +52,7 @@ The following current-main statements were updated to state CC0 for owner-contro
 | `docs/consciousness/negentropy.md` | `**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)` | CC0 1.0 Universal; contact and acknowledgement preserved. |
 | `healing/readme-moral.md` | `Created by JinnZ2 – human-AI collaborative work | MIT License (Commons)` and `MIT License – belongs to the Commons.` | CC0 1.0 Universal; JinnZ2 and collaboration labels preserved. |
 | `healing/playgrounds/moral-playground.md` | `License: MIT (belongs to the commons)` | CC0-1.0; JinnZ2 collaboration label preserved. |
-| `src/Efficiency-waste-score.py` | `License: MIT - Belongs to the commons` | CC0 1.0 Universal; `Created by: Kavik Ulu (Jami) + Claude` is unchanged. |
+| `src/Efficiency-waste-score.py` | `License: MIT - Belongs to the commons` | CC0 1.0 Universal; `Created by: JinnZ2 [name removed 2026-11-19] + Claude` is unchanged. |
 | `framework/agency.md` | `This research framework is released under MIT License to encourage:` and `**Attribution requested** when using in research or development.` | CC0 1.0 Universal; attribution is appreciated but not required. |
 
 ## Preserved exceptions and provenance
